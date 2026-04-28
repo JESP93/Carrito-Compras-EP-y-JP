@@ -67,6 +67,20 @@ header{background:var(--verde);color:#fff;padding:12px 16px;position:sticky;top:
 .btn-export{width:100%;padding:15px;background:var(--verde);color:#fff;border:none;border-radius:var(--r);font-size:1rem;font-weight:700;font-family:inherit;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px}.btn-export:active{opacity:.85}.btn-export:disabled{opacity:.4;cursor:default}
 .export-field{margin-bottom:14px}.export-field label{display:block;font-size:.78rem;font-weight:700;color:var(--gris);text-transform:uppercase;margin-bottom:6px}
 .export-input{width:100%;padding:12px 14px;border:1.5px solid var(--borde);border-radius:8px;font-size:.92rem;font-family:inherit;color:var(--texto);background:var(--bg);outline:none}.export-input:focus{border-color:var(--verde)}.export-info{font-size:.8rem;color:var(--gris);line-height:1.5;margin-bottom:18px}
+/* Toast */
+#toastContainer{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:9000;display:flex;flex-direction:column;align-items:center;gap:8px;width:min(92vw,400px);pointer-events:none}
+.toast{background:#1a2318;color:#fff;border-radius:14px;padding:13px 16px;font-size:.88rem;line-height:1.4;box-shadow:0 4px 20px rgba(0,0,0,.28);display:flex;align-items:flex-start;gap:10px;pointer-events:auto;animation:toastIn .22s cubic-bezier(.22,.68,0,1.1);width:100%}
+.toast.toast-error{background:#c53030}.toast.toast-warn{background:#7a5900;border:1.5px solid var(--acento)}
+.toast-icono{font-size:1.1rem;flex-shrink:0;line-height:1.3}.toast-msg{flex:1}.toast-cerrar{background:none;border:none;color:rgba(255,255,255,.7);font-size:1rem;cursor:pointer;padding:0 0 0 6px;flex-shrink:0;line-height:1}
+@keyframes toastIn{from{opacity:0;transform:translateY(-12px)}to{opacity:1;transform:translateY(0)}}
+/* Confirm modal */
+#overlayConfirm{display:none;position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:8000;align-items:flex-end;justify-content:center}
+#overlayConfirm.open{display:flex}
+.confirm-modal{background:#fff;width:100%;max-width:540px;border-radius:20px 20px 0 0;padding:24px 20px 32px;animation:slideUp .25s cubic-bezier(.22,.68,0,1.1)}
+.confirm-icono{font-size:2rem;margin-bottom:10px;text-align:center}.confirm-titulo{font-size:1.05rem;font-weight:800;color:var(--texto);margin-bottom:8px;text-align:center}.confirm-texto{font-size:.9rem;color:#555;line-height:1.55;text-align:center;margin-bottom:22px}
+.confirm-acciones{display:flex;gap:10px}.confirm-btn{flex:1;padding:14px;border:none;border-radius:var(--r);font-size:.95rem;font-weight:700;font-family:inherit;cursor:pointer}
+.confirm-btn.primario{background:var(--rojo);color:#fff}.confirm-btn.primario:active{opacity:.85}
+.confirm-btn.secundario{background:var(--bg);color:var(--texto);border:1.5px solid var(--borde)}.confirm-btn.secundario:active{background:var(--borde)}
 </style>
 </head>
 <body>
@@ -77,7 +91,7 @@ header{background:var(--verde);color:#fff;padding:12px 16px;position:sticky;top:
   <div class="inicio-exp">Validaremos tu código para asignar automáticamente tu presupuesto de dotación.</div>
   
   <div class="tipo-opciones" style="align-items: center;">
-    <input type="text" id="inputCodigoIniciativa" placeholder="Ej: NS-0001" style="width: 100%; padding: 16px; border-radius: 14px; border: 2px solid rgba(255,255,255,0.4); background: rgba(255,255,255,0.1); color: #fff; font-size: 1.1rem; text-align: center; text-transform: uppercase; outline: none; margin-bottom: 10px; font-family: inherit;">
+    <input type="text" id="inputCodigoIniciativa" placeholder="1006..." style="width: 100%; padding: 16px; border-radius: 14px; border: 2px solid rgba(255,255,255,0.4); background: rgba(255,255,255,0.1); color: #fff; font-size: 1.1rem; text-align: center; outline: none; margin-bottom: 10px; font-family: inherit;">
     
     <button id="btnBuscarCodigo" style="width: 100%; background: var(--verde2); color: #fff; border: 2px solid rgba(255,255,255,.2); padding: 18px 20px; border-radius: 14px; font-size: 1.1rem; font-weight: 700; cursor: pointer;">Validar y Entrar</button>
     
@@ -97,8 +111,8 @@ header{background:var(--verde);color:#fff;padding:12px 16px;position:sticky;top:
   </div>
 </div>
 <header>
-  <div class="hdr-row1"><div class="hdr-brand"><span class="hdr-brand-icon">🌿</span><span class="hdr-brand-text">Análisis de Mercado</span></div><span class="hdr-badge" id="hdrBadge">0 productos</span></div>
-  <div class="presupuesto-bar"><div class="pres-labels"><span class="pres-label">💰 Total seleccionado</span><span class="pres-num ok" id="presNum">$0</span></div><div class="pres-track"><div class="pres-fill" id="presFill" style="width:0%"></div></div><div class="pres-footer"><span class="pres-tope" id="presTopeTxt">Tope sin definir</span><div class="pres-actions"><button class="btn-actualizar-catalogo" id="btnActualizarCatalogoMini">↻ Actualizar</button><button class="btn-cambiar-tipo" id="btnCambiar">✏️ Cambiar</button></div></div></div>
+  <div class="hdr-row1"><div class="hdr-brand"><span class="hdr-brand-icon">🛒</span><span class="hdr-brand-text">Análisis de Mercado</span></div><span class="hdr-badge" id="hdrBadge">0 productos</span></div>
+  <div class="presupuesto-bar"><div class="pres-labels"><span class="pres-label">💰 Total seleccionado</span><span class="pres-num ok" id="presNum">$0</span></div><div class="pres-track"><div class="pres-fill" id="presFill" style="width:0%"></div></div><div class="pres-footer"><span class="pres-tope" id="presTopeTxt">Tope sin definir</span><div class="pres-actions"><button class="btn-actualizar-catalogo" id="btnActualizarCatalogoMini">↻ Actualizar</button><button class="btn-cambiar-tipo" id="btnCambiar">↑ Cambiar UP</button></div></div></div>
 </header>
 <div class="search-wrap"><div class="search-inner"><input id="buscador" type="search" placeholder="Buscar producto..." autocomplete="off"><span class="s-icon-search">🔍</span></div><select id="ordenPrecio"><option value="">⇅ Ordenar por precio</option><option value="asc">Menor a mayor precio</option><option value="desc">Mayor a menor precio</option></select></div>
 <div class="cats-bar"><div class="cats-scroll" id="catsScroll"></div></div>
@@ -108,15 +122,43 @@ header{background:var(--verde);color:#fff;padding:12px 16px;position:sticky;top:
 <div class="overlay" id="overlayDetalle"><div class="modal"><div class="modal-handle"></div><div class="modal-head"><h2>Detalle del producto</h2><button class="modal-close" data-close="detalle">✕</button></div><div class="modal-body" id="detalleBody"></div><div class="det-footer" id="detalleFoot"></div></div></div>
 <div class="overlay" id="overlayCarrito"><div class="modal"><div class="modal-handle"></div><div class="modal-head"><h2>🛒 Tu selección</h2><button class="modal-close" data-close="carrito">✕</button></div><div class="modal-body"><div id="carritoBody"></div><button class="btn-vaciar" id="btnVaciar" style="display:none">🗑️ Vaciar todo el carrito</button></div><div class="modal-foot-cart"><div class="total-row"><span class="total-label">Total seleccionado</span><span class="total-valor" id="carritoTotal">$0</span></div><div class="pres-modal-warn" id="modalWarn">⚠️ Te estás acercando al tope de tu presupuesto</div><div class="pres-modal-over" id="modalOver">🚫 Superaste el tope. Retira productos antes de exportar.</div><button class="btn-export" id="btnExportar" disabled>📥 Exportar lista</button></div></div></div>
 <div class="overlay" id="overlayExport"><div class="modal"><div class="modal-handle"></div><div class="modal-head"><h2>📥 Exportar plan de inversión</h2><button class="modal-close" data-close="export">✕</button></div><div class="modal-body" style="padding:20px"><p class="export-info">📌 ¿Estás seguro de que ya agregaste todo lo que deseas incluir en este plan de inversión? Revisa productos y cantidades antes de descargar.</p><button class="btn-export" id="btnDescargarCSV">📥 Sí, descargar plan de inversión</button></div></div></div>
+<div id="toastContainer"></div>
+<div id="overlayConfirm"><div class="confirm-modal"><div class="confirm-icono" id="confirmIcono">⚠️</div><div class="confirm-titulo" id="confirmTitulo"></div><div class="confirm-texto" id="confirmTexto"></div><div class="confirm-acciones"><button class="confirm-btn secundario" id="confirmCancelar">Cancelar</button><button class="confirm-btn primario" id="confirmOk">Confirmar</button></div></div></div>
 <script src="./productos.js"></script>
 <script>
+// ── Toast ──────────────────────────────────────────────
+function mostrarToast(msg,tipo,icono,duracion){
+  var cont=document.getElementById('toastContainer');
+  var t=document.createElement('div');t.className='toast'+(tipo?' toast-'+tipo:'');
+  t.innerHTML='<span class="toast-icono">'+icono+'</span><span class="toast-msg">'+msg+'</span><button class="toast-cerrar" aria-label="Cerrar">✕</button>';
+  t.querySelector('.toast-cerrar').addEventListener('click',function(){_cerrarToast(t)});
+  cont.appendChild(t);
+  var timer=setTimeout(function(){_cerrarToast(t)},duracion||4500);
+  t._timer=timer;
+}
+function _cerrarToast(t){clearTimeout(t._timer);t.style.animation='toastOut .2s ease forwards';setTimeout(function(){if(t.parentNode)t.parentNode.removeChild(t)},200)}
+// ── Confirm modal ────────────────────────────────────────
+var _confirmCallback=null;
+function mostrarConfirm(icono,titulo,texto,labelOk,cbOk){
+  document.getElementById('confirmIcono').textContent=icono;
+  document.getElementById('confirmTitulo').textContent=titulo;
+  document.getElementById('confirmTexto').textContent=texto;
+  document.getElementById('confirmOk').textContent=labelOk||'Confirmar';
+  _confirmCallback=cbOk;
+  document.getElementById('overlayConfirm').classList.add('open');
+}
+function _cerrarConfirm(){document.getElementById('overlayConfirm').classList.remove('open');_confirmCallback=null;}
+document.getElementById('confirmOk').addEventListener('click',function(){var cb=_confirmCallback;_cerrarConfirm();if(cb)cb();});
+document.getElementById('confirmCancelar').addEventListener('click',_cerrarConfirm);
+document.getElementById('overlayConfirm').addEventListener('click',function(e){if(e.target===this)_cerrarConfirm();});
+// ─────────────────────────────────────────────────────────
 var CATALOGO_DISPONIBLE=Array.isArray(window.PRODUCTOS);
 var CATALOGO_PRODUCTOS=CATALOGO_DISPONIBLE?window.PRODUCTOS:[];
 var TITULO_MAX=121;
 function tituloProducto(s){s=String(s||'').replace(/\s+/g,' ').trim();return s.length>TITULO_MAX?s.substring(0,TITULO_MAX-1).replace(/\s+$/,'')+'…':s}
 if(CATALOGO_DISPONIBLE){for(var tp=0;tp<CATALOGO_PRODUCTOS.length;tp++)CATALOGO_PRODUCTOS[tp].nombre=tituloProducto(CATALOGO_PRODUCTOS[tp].nombre)}
 
-var CATALOGO_VERSION='v3';
+var CATALOGO_VERSION='v4';
 var SECTORES=[
   {id:'seleccionados',nombre:'Mis Elegidos',icon:'⭐'},
   {id:'todos',nombre:'Todos',icon:'🔎'},
@@ -146,7 +188,7 @@ function validarCatalogo(lista){
 var ERRORES_CATALOGO=validarCatalogo(CATALOGO_PRODUCTOS);
 var PM={};for(var i=0;i<CATALOGO_PRODUCTOS.length;i++)PM[CATALOGO_PRODUCTOS[i].id]=CATALOGO_PRODUCTOS[i];
 var SC={};for(var i=0;i<CATALOGO_PRODUCTOS.length;i++){var s=CATALOGO_PRODUCTOS[i].sector;SC[s]=(SC[s]||0)+1}SC['todos']=CATALOGO_PRODUCTOS.length;
-var carrito={},sectorActivo='todos',busqueda='',ordenFiltrado='',presupuestoMaximo=0,codigoIniciativaActual='',productosFiltrados=[],paginaActual=0,POR_PAGINA=20,timeoutBusqueda,detalleActual=null,avisoCatalogoPendiente='';
+var carrito={},sectorActivo='todos',busqueda='',ordenFiltrado='',presupuestoMaximo=0,codigoIniciativaActual='',nombreUPActual='',productosFiltrados=[],paginaActual=0,POR_PAGINA=20,timeoutBusqueda,detalleActual=null,avisoCatalogoPendiente='';
 var COP=new Intl.NumberFormat('es-CO',{style:'currency',currency:'COP',maximumFractionDigits:0});
 function norm(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'')}
 function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML}
@@ -203,15 +245,17 @@ function sanearCarrito(){
   return{removidos:removidos,cambio:cambio}
 }
 
-function guardar(){try{localStorage.setItem('analisis_mercado_carrito',JSON.stringify(carrito));localStorage.setItem('analisis_mercado_presupuesto',String(presupuestoMaximo));localStorage.setItem('analisis_mercado_codigo',codigoIniciativaActual);localStorage.setItem('analisis_mercado_version',CATALOGO_VERSION)}catch(e){}}
+function actualizarNombreHeader(){var el=document.querySelector('.hdr-brand-text');if(!el)return;if(nombreUPActual){el.textContent='Carrito de la UP - '+nombreUPActual}else{el.textContent='Análisis de Mercado'}}
+function guardar(){try{localStorage.setItem('analisis_mercado_carrito',JSON.stringify(carrito));localStorage.setItem('analisis_mercado_presupuesto',String(presupuestoMaximo));localStorage.setItem('analisis_mercado_codigo',codigoIniciativaActual);localStorage.setItem('analisis_mercado_nombreup',nombreUPActual);localStorage.setItem('analisis_mercado_version',CATALOGO_VERSION)}catch(e){}}
 function cargarEstado(){
   var cambioVersion=false;
   try{var ver=localStorage.getItem('analisis_mercado_version');cambioVersion=ver!==CATALOGO_VERSION;
-  var c=localStorage.getItem('analisis_mercado_carrito');var p=localStorage.getItem('analisis_mercado_presupuesto');var cod=localStorage.getItem('analisis_mercado_codigo');if(c){carrito=JSON.parse(c);if(!carrito||typeof carrito!=='object')carrito={}}if(p)presupuestoMaximo=parseInt(p)||0;codigoIniciativaActual=normalizarCodigoIniciativa(cod)}catch(e){carrito={};presupuestoMaximo=0;codigoIniciativaActual=''}
+  var c=localStorage.getItem('analisis_mercado_carrito');var p=localStorage.getItem('analisis_mercado_presupuesto');var cod=localStorage.getItem('analisis_mercado_codigo');var nup=localStorage.getItem('analisis_mercado_nombreup');if(c){carrito=JSON.parse(c);if(!carrito||typeof carrito!=='object')carrito={}}if(p)presupuestoMaximo=parseInt(p)||0;codigoIniciativaActual=normalizarCodigoIniciativa(cod);nombreUPActual=String(nup||'').trim()}catch(e){carrito={};presupuestoMaximo=0;codigoIniciativaActual='';nombreUPActual=''}
   var saneado=sanearCarrito();
   if(saneado.removidos>0)avisoCatalogoPendiente='Tu selección fue actualizada. Algunos productos se retiraron automáticamente porque en este momento no están disponibles por inventario o existencias.';
   if(cambioVersion||saneado.cambio)guardar();
-  if(presupuestoMaximo>0){document.getElementById('pantallaInicio').classList.add('oculta');var n='Tipo A';if(presupuestoMaximo===40000000)n='Tipo B';if(presupuestoMaximo===60000000)n='Tipo C';document.getElementById('presTopeTxt').textContent='Tope: '+COP.format(presupuestoMaximo)+' ('+n+')'}
+  if(presupuestoMaximo>0){document.getElementById('pantallaInicio').classList.add('oculta');var n='M1';if(presupuestoMaximo===20000000)n='M2';else if(presupuestoMaximo===30000000)n='M3';else if(presupuestoMaximo===50000000)n='M4';document.getElementById('presTopeTxt').textContent='Tope: '+COP.format(presupuestoMaximo)+' ('+n+')'}
+  actualizarNombreHeader()
 }
 function seleccionarTipologia(monto,nombre){presupuestoMaximo=monto;document.getElementById('pantallaInicio').classList.add('oculta');document.getElementById('presTopeTxt').textContent='Tope: '+COP.format(monto)+' ('+nombre+')';guardar();actualizarUI()}
 function itemsDistintos(){var n=0;for(var k in carrito)if(carrito[k]>0&&PM[k])n++;return n}
@@ -244,7 +288,8 @@ function renderPagina(){
 document.getElementById('gridProductos').addEventListener('click',function(e){var t=e.target;var btn=t.closest('[data-action]');if(btn&&btn.closest('.ctrl')){e.stopPropagation();cambiarCant(btn.getAttribute('data-id'),btn.getAttribute('data-action')==='sumar'?1:-1);return}if(t.closest('#pagPrev')){if(paginaActual>0){paginaActual--;renderPagina()}return}if(t.closest('#pagNext')){var tp=Math.ceil(productosFiltrados.length/POR_PAGINA);if(paginaActual<tp-1){paginaActual++;renderPagina()}return}var card=t.closest('.card');if(card)abrirDetalle(card.getAttribute('data-pid'))});
 document.getElementById('catsScroll').addEventListener('click',function(e){var btn=e.target.closest('.btn-sector');if(!btn)return;sectorActivo=btn.getAttribute('data-sector');var all=document.querySelectorAll('.btn-sector');for(var i=0;i<all.length;i++)all[i].classList.remove('active');btn.classList.add('active');aplicarFiltros()});
 //document.getElementById('pantallaInicio').addEventListener('click',function(e){var btn=e.target.closest('.btn-tipo');if(!btn)return;seleccionarTipologia(parseInt(btn.getAttribute('data-monto')),btn.getAttribute('data-nombre'))});
-document.getElementById('btnCambiar').addEventListener('click',function(){document.getElementById('pantallaInicio').classList.remove('oculta')});
+document.getElementById('btnCambiar').addEventListener('click',function(){nombreUPActual='';actualizarNombreHeader();document.getElementById('pantallaInicio').classList.remove('oculta')});
+
 document.getElementById('btnReintentarCatalogo').addEventListener('click',function(){window.location.reload()});
 document.getElementById('btnActualizarCatalogo').addEventListener('click',function(){actualizarCatalogo()});
 document.getElementById('btnActualizarCatalogoMini').addEventListener('click',function(){actualizarCatalogo()});
@@ -267,7 +312,7 @@ function mostrarErrorCodigo(mensaje){var msgError=document.getElementById('msgEr
 function bloquearBusquedaCodigo(bloqueado,texto){var btn=document.getElementById('btnBuscarCodigo');if(!btn)return;btn.disabled=bloqueado;btn.textContent=texto||'Validar y Entrar';btn.style.opacity=bloqueado?'.65':'1';btn.style.cursor=bloqueado?'default':'pointer'}
 
 function cargarBaseIniciativas() {
-  var urlSegura = './baseiniciativas.csv?v=' + new Date().getTime();
+  var urlSegura = './basebeneficiariosEP.csv?v=' + new Date().getTime();
   BASE_INICIATIVAS_LISTA = false;
   BASE_INICIATIVAS_ERROR = null;
   bloquearBusquedaCodigo(true,'Cargando base...');
@@ -286,10 +331,11 @@ function cargarBaseIniciativas() {
         if (columnas.length >= 2) {
           var codigo = normalizarCodigoIniciativa(columnas[0]);
           var tipo = normalizarTipoIniciativa(columnas[1]);
-          if (codigo) base[codigo] = tipo;
+          var nombreUP = columnas.length >= 3 ? String(columnas[2]||'').trim() : '';
+          if (codigo) base[codigo] = {tipo: tipo, nombreUP: nombreUP};
         }
       }
-      if (!Object.keys(base).length) throw new Error('baseiniciativas.csv no tiene registros validos');
+      if (!Object.keys(base).length) throw new Error('basebeneficiariosEP.csv no tiene registros validos');
       BASE_INICIATIVAS = base;
       BASE_INICIATIVAS_LISTA = true;
       bloquearBusquedaCodigo(false);
@@ -303,7 +349,7 @@ function cargarBaseIniciativas() {
       if (window.location.protocol === 'file:') {
         mostrarErrorCodigo('No se pudo cargar la base. Abre la app desde un servidor local, no con doble clic al archivo HTML.');
       } else {
-        mostrarErrorCodigo('No se pudo cargar la base de iniciativas. Verifica que baseiniciativas.csv esté publicado junto al index.html.');
+        mostrarErrorCodigo('No se pudo cargar la base de beneficiarios. Verifica que basebeneficiariosEP.csv esté publicado junto al index.html.');
       }
     });
 }
@@ -325,29 +371,35 @@ document.getElementById('btnBuscarCodigo').addEventListener('click', function() 
 
   if (!BASE_INICIATIVAS_LISTA) {
     if (BASE_INICIATIVAS_ERROR) {
-      mostrarErrorCodigo(window.location.protocol === 'file:'?'La base no cargó porque el navegador bloquea archivos CSV abiertos con file://. Usa un servidor local.':'La base de iniciativas no cargó. Verifica baseiniciativas.csv y vuelve a actualizar.');
+      mostrarErrorCodigo(window.location.protocol === 'file:'?'La base no cargó porque el navegador bloquea archivos CSV abiertos con file://. Usa un servidor local.':'La base de beneficiarios no cargó. Verifica basebeneficiariosEP.csv y vuelve a actualizar.');
     } else {
-      mostrarErrorCodigo('La base de iniciativas todavía se está cargando. Intenta de nuevo en unos segundos.');
+      mostrarErrorCodigo('La base de beneficiarios todavía se está cargando. Intenta de nuevo en unos segundos.');
     }
     return;
   }
   
-  var tipoEncontrado = BASE_INICIATIVAS[inputValor];
+  var entrada = BASE_INICIATIVAS[inputValor];
   
-  if (tipoEncontrado) {
+  if (entrada) {
+    var tipoEncontrado = entrada.tipo || entrada;
+    var nombreUPEncontrado = entrada.nombreUP || '';
     msgError.style.display = 'none';
     var monto = 0;
+    var modalidadNombre = tipoEncontrado;
     
-    // Extraemos la letra (A, B o C) y asignamos el tope
-    if (tipoEncontrado.includes("A")) { monto = 20000000; }
-    else if (tipoEncontrado.includes("B")) { monto = 40000000; }
-    else if (tipoEncontrado.includes("C")) { monto = 60000000; }
+    // Asignamos el tope según modalidad M1, M2, M3, M4
+    if (tipoEncontrado === "M1") { monto = 5000000; }
+    else if (tipoEncontrado === "M2") { monto = 20000000; }
+    else if (tipoEncontrado === "M3") { monto = 30000000; }
+    else if (tipoEncontrado === "M4") { monto = 50000000; }
     
     if (monto > 0) {
       codigoIniciativaActual = inputValor;
-      seleccionarTipologia(monto, "Tipo " + tipoEncontrado.match(/[A-C]/)[0]);
+      nombreUPActual = nombreUPEncontrado;
+      actualizarNombreHeader();
+      seleccionarTipologia(monto, modalidadNombre);
     } else {
-      mostrarErrorCodigo("El tipo de iniciativa no es válido.");
+      mostrarErrorCodigo("La modalidad de esta iniciativa no es válida.");
     }
   } else {
     mostrarErrorCodigo("Código no encontrado. Verifica e intenta de nuevo.");
@@ -376,7 +428,7 @@ function cerrarDetalle(){document.getElementById('overlayDetalle').classList.rem
 
 // Carrito
 function cambiarCant(id,delta){var prod=PM[id];if(!prod)return;
-  if(delta>0){var futuro=totalCarrito()+prod.precio;if(presupuestoMaximo>0&&futuro>presupuestoMaximo){alert('🚫 No puedes agregar este producto.\nTu presupuesto máximo es '+COP.format(presupuestoMaximo)+' y te quedan '+COP.format(presupuestoMaximo-totalCarrito())+' disponibles.');return}}
+  if(delta>0){var futuro=totalCarrito()+prod.precio;if(presupuestoMaximo>0&&futuro>presupuestoMaximo){mostrarToast('Tu presupuesto máximo es '+COP.format(presupuestoMaximo)+'. Te quedan '+COP.format(presupuestoMaximo-totalCarrito())+' disponibles.','error','🚫',5000);return}}
   var nuevo=Math.max(0,(carrito[id]||0)+delta);if(nuevo===0)delete carrito[id];else carrito[id]=nuevo;
   if(delta>0)animarFab();var el=document.getElementById('num-'+id);if(el)el.textContent=nuevo;
   var card=document.querySelector('.card[data-pid="'+id+'"]');if(card){var zona=card.querySelector('.card-img-zone');var badge=zona.querySelector('.card-cant-badge');if(nuevo>0){if(badge)badge.textContent=nuevo;else zona.insertAdjacentHTML('beforeend','<span class="card-cant-badge">'+nuevo+'</span>')}else{if(badge)badge.remove()}}
@@ -387,7 +439,7 @@ function itemsCarrito(){var n=0;for(var id in carrito)if(PM[id])n+=carrito[id]||
 function actualizarUI(){var items=itemsCarrito(),total=totalCarrito();document.getElementById('cartBadge').textContent=items;document.getElementById('cartTotalFab').textContent=COP.format(total);document.getElementById('hdrBadge').textContent=items+(items===1?' producto':' productos');document.getElementById('presNum').textContent=COP.format(total);var divisor=presupuestoMaximo>0?presupuestoMaximo:1,pct=Math.min((total/divisor)*100,100);var fill=document.getElementById('presFill');fill.style.width=pct+'%';fill.className='pres-fill'+(pct>90?' over':pct>60?' warn':'');document.getElementById('presNum').className='pres-num'+(pct>90?' over':pct>60?' warn':' ok');document.getElementById('cartFab').classList.toggle('visible',items>0)}
 function abrirCarrito(){renderCarrito();document.getElementById('overlayCarrito').classList.add('open')}
 function cerrarCarrito(){document.getElementById('overlayCarrito').classList.remove('open')}
-function vaciarCarrito(){if(!confirm('¿Estás seguro de que deseas vaciar todo tu carrito?'))return;carrito={};guardar();actualizarUI();actualizarConteos();renderCarrito();aplicarFiltros()}
+function vaciarCarrito(){mostrarConfirm('🗑️','¿Vaciar el carrito?','Se eliminarán todos los productos seleccionados. Esta acción no se puede deshacer.','Sí, vaciar',function(){carrito={};guardar();actualizarUI();actualizarConteos();renderCarrito();aplicarFiltros()})}
 function renderCarrito(){var items=[];for(var id in carrito)if(carrito[id]>0&&PM[id])items.push(PM[id]);var total=totalCarrito(),body=document.getElementById('carritoBody'),bv=document.getElementById('btnVaciar');
   if(!items.length){body.innerHTML='<div class="carrito-empty"><div class="e-icon">🛒</div>Tu carrito está vacío.<br><small>Agrega productos desde el catálogo</small></div>';bv.style.display='none'}
   else{bv.style.display='block';var h='';for(var i=0;i<items.length;i++){var p=items[i],cant=carrito[p.id];h+='<div class="carrito-item"><div class="ci-top"><span class="ci-icon">'+p.icono+'</span><div class="ci-info"><div class="ci-nombre">'+esc(p.nombre)+'</div><div class="ci-detalle">'+COP.format(p.precio)+' c/u</div></div></div><div class="ci-bottom"><div class="ctrl-mini"><button class="ctrl-btn" data-action="restar" data-id="'+p.id+'">−</button><span class="ctrl-num">'+cant+'</span><button class="ctrl-btn" data-action="sumar" data-id="'+p.id+'">+</button></div><div style="display:flex;align-items:center"><span class="ci-sub">'+COP.format(cant*p.precio)+'</span><button class="ci-remove" data-id="'+p.id+'">🗑️</button></div></div></div>'}body.innerHTML=h}
@@ -401,7 +453,7 @@ function cerrarExport(){document.getElementById('overlayExport').classList.remov
 function exportarCSV(){
   var cod=codigoIniciativaActual||normalizarCodigoIniciativa(document.getElementById('inputCodigoIniciativa').value);
   var bom='\uFEFF';
-  var tipoNom='';if(presupuestoMaximo===20000000)tipoNom='Tipo A';else if(presupuestoMaximo===40000000)tipoNom='Tipo B';else if(presupuestoMaximo===60000000)tipoNom='Tipo C';
+  var tipoNom='';if(presupuestoMaximo===5000000)tipoNom='M1';else if(presupuestoMaximo===20000000)tipoNom='M2';else if(presupuestoMaximo===30000000)tipoNom='M3';else if(presupuestoMaximo===50000000)tipoNom='M4';
   var csv='PLAN DE INVERSIÓN - ANÁLISIS DE MERCADO\n';
   csv+='Iniciativa;'+cod+'\n';
   csv+='Tipología;'+tipoNom+'\n';

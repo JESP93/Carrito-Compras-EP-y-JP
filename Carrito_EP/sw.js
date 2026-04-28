@@ -1,5 +1,5 @@
-const CACHE = 'analisis-mercado-v3';
-const ASSETS = ['./', './index.html', './productos.js', './manifest.json', './icon.png', './baseiniciativas.csv'];
+const CACHE = 'analisis-mercado-v4';
+const ASSETS = ['./', './index.html', './productos.js', './manifest.json', './icon.png', './basebeneficiariosEP.csv'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));
@@ -17,15 +17,15 @@ self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return;
 
   const url = new URL(e.request.url);
-  if (url.origin === self.location.origin && url.pathname.endsWith('/baseiniciativas.csv')) {
+  if (url.origin === self.location.origin && url.pathname.endsWith('/basebeneficiariosEP.csv')) {
     e.respondWith(
       fetch(e.request).then(response => {
         if (response && response.status === 200) {
           const copy = response.clone();
-          caches.open(CACHE).then(cache => cache.put('./baseiniciativas.csv', copy));
+          caches.open(CACHE).then(cache => cache.put('./basebeneficiariosEP.csv', copy));
         }
         return response;
-      }).catch(() => caches.match('./baseiniciativas.csv'))
+      }).catch(() => caches.match('./basebeneficiariosEP.csv'))
     );
     return;
   }
