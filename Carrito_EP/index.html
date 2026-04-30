@@ -9,19 +9,19 @@
   <meta name="apple-mo-statbile-web-appus-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="Análisis de Mercado">
   <link rel="manifest" href="./manifest.json">
-  <title>Catálogo de Dotación · Análisis de Mercado</title>
+  <title>Catálogo de Dotación · Economía Popular</title>
   <style>
     :root {
-      --verde: #1e5c3a;
-      --verde2: #2a7a50;
+      --verde: #1a1f2e;
+      --verde2: #252b3b;
       --acento: #f0b429;
       --rojo: #e53e3e;
-      --bg: #f5f7f4;
+      --bg: #f0ede8;
       --card: #ffffff;
-      --texto: #1a2318;
-      --gris: #8a9488;
-      --borde: #dde5d8;
-      --r: 12px
+      --texto: #1a1f2e;
+      --gris: #8a8f9e;
+      --borde: #e2ddd6;
+      --r: 12px;
     }
 
     *,
@@ -51,7 +51,7 @@
       position: fixed;
       inset: 0;
       z-index: 2000;
-      background: linear-gradient(160deg, #163a28 0%, var(--verde) 40%, var(--verde2) 100%);
+      background: linear-gradient(160deg, #0f1520 0%, var(--verde) 40%, var(--verde2) 100%);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -63,6 +63,10 @@
 
     #pantallaInicio.oculta {
       display: none
+    }
+
+    #inputCodigoIniciativa::placeholder {
+      color: rgba(255, 255, 255, 0.8);
     }
 
     .inicio-logo {
@@ -596,6 +600,7 @@
       margin-bottom: 5px;
       flex-wrap: wrap
     }
+
 
     .badge-sector {
       font-size: .6rem;
@@ -1396,13 +1401,19 @@
 
 <body>
   <div id="pantallaInicio">
-    <div class="inicio-logo">🌿</div>
-    <div class="inicio-titulo">Análisis de Mercado</div>
+    <figure class="card-image" id="hero-image" role="img" aria-label="Economía Popular para el Cambio"
+      style="width: 20%; border-radius: 20px; overflow: hidden; margin: 0 auto 16px auto;">
+      <img src="https://usuariosecopop.blob.core.windows.net/img-page/economia_popular_img.png"
+        alt="Economía Popular para el Cambio" loading="lazy" onerror="this.style.display='none'"
+        style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    </figure>
+
+    <div class="inicio-titulo">Carrito Economía Popular para el Cambio</div>
     <div class="inicio-sub">Ingresa el código de tu iniciativa</div>
     <div class="inicio-exp">Validaremos tu código para asignar automáticamente tu presupuesto de dotación.</div>
 
     <div class="tipo-opciones" style="align-items: center;">
-      <input type="text" id="inputCodigoIniciativa" placeholder="1006..."
+      <input type="text" id="inputCodigoIniciativa" placeholder="Documento del representante EJ:1006..."
         style="width: 100%; padding: 16px; border-radius: 14px; border: 2px solid rgba(255,255,255,0.4); background: rgba(255,255,255,0.1); color: #fff; font-size: 1.1rem; text-align: center; outline: none; margin-bottom: 10px; font-family: inherit;">
 
       <button id="btnBuscarCodigo"
@@ -1502,7 +1513,8 @@
         <p class="export-info">📌 ¿Estás seguro de que ya agregaste todo lo que deseas incluir en este plan de
           inversión? Revisa productos y cantidades antes de descargar.</p>
         <button class="btn-export" id="btnDescargarPDF" style="margin-bottom:12px">📄 Descargar PDF del plan</button>
-        <button class="btn-export" id="btnDescargarJSON" style="background:var(--verde2)">📦 Descargar JSON del pedido</button>
+        <button class="btn-export" id="btnDescargarJSON" style="background:var(--verde2)">📦 Descargar JSON del
+          pedido</button>
       </div>
     </div>
   </div>
