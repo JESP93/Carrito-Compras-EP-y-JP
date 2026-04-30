@@ -1714,60 +1714,31 @@
     document.getElementById('btnDescargarJSON').addEventListener('click', function () { exportarJSON(); });
     document.getElementById('detalleFoot').addEventListener('click', function (e) { var btn = e.target.closest('[data-action]'); if (!btn) return; cambiarCantDetalle(btn.getAttribute('data-id'), btn.getAttribute('data-action') === 'sumar' ? 1 : -1) });
 
-    var BASE_INICIATIVAS = {};
-    var BASE_INICIATIVAS_LISTA = false;
-    var BASE_INICIATIVAS_ERROR = null;
+    // ── CONFIGURACIÓN DE FUENTE DE DATOS ─────────────────────────────────────
+    // LOCAL:  './json_ups/'
+    // AZURE:  'https://<cuenta>.blob.core.windows.net/<contenedor>/json_ups/'
+    // Solo cambia esta línea para apuntar a Azure:
+    var JSON_BASE_URL = './json_ups/';
+    // ─────────────────────────────────────────────────────────────────────────
 
-    function normalizarCodigoIniciativa(valor) { return String(valor || '').trim().toUpperCase().replace(/[–—−]/g, '-').replace(/\s+/g, '') }
+    // Montos por modalidad
+    var MONTOS_MODALIDAD = { 'M1': 5000000, 'M2': 20000000, 'M3': 30000000, 'M4': 50000000 };
+
+    function normalizarCodigoIniciativa(valor) { return String(valor || '').trim().replace(/[–—−]/g, '-').replace(/\s+/g, '') }
     function normalizarTipoIniciativa(valor) { return String(valor || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim().toUpperCase() }
     function mostrarErrorCodigo(mensaje) { var msgError = document.getElementById('msgErrorCodigo'); if (!msgError) return; msgError.textContent = mensaje; msgError.style.display = 'block' }
     function bloquearBusquedaCodigo(bloqueado, texto) { var btn = document.getElementById('btnBuscarCodigo'); if (!btn) return; btn.disabled = bloqueado; btn.textContent = texto || 'Validar y Entrar'; btn.style.opacity = bloqueado ? '.65' : '1'; btn.style.cursor = bloqueado ? 'default' : 'pointer' }
 
-    function cargarBaseIniciativas() {
-      var urlSegura = './basebeneficiariosEP.csv?v=' + new Date().getTime();
-      BASE_INICIATIVAS_LISTA = false;
-      BASE_INICIATIVAS_ERROR = null;
-      bloquearBusquedaCodigo(true, 'Cargando base...');
-
-      return fetch(urlSegura, { cache: 'no-store' })
+    function buscarBeneficiarioPorJSON(codigo) {
+      // Construye la URL usando JSON_BASE_URL — cámbiala arriba para Azure
+      var url = JSON_BASE_URL + codigo + '.json?v=' + new Date().getTime();
+      return fetch(url, { cache: 'no-store' })
         .then(function (response) {
-          if (!response.ok) throw new Error('No se pudo cargar baseiniciativas.csv');
-          return response.text();
-        })
-        .then(function (texto) {
-          var lineas = String(texto || '').replace(/^\uFEFF/, '').split(/\r?\n/);
-          var base = {};
-          for (var i = 1; i < lineas.length; i++) {
-            if (!lineas[i] || !lineas[i].trim()) continue;
-            var columnas = lineas[i].split(';');
-            if (columnas.length >= 2) {
-              var codigo = normalizarCodigoIniciativa(columnas[0]);
-              var tipo = normalizarTipoIniciativa(columnas[1]);
-              var nombreUP = columnas.length >= 3 ? String(columnas[2] || '').trim() : '';
-              if (codigo) base[codigo] = { tipo: tipo, nombreUP: nombreUP };
-            }
-          }
-          if (!Object.keys(base).length) throw new Error('basebeneficiariosEP.csv no tiene registros validos');
-          BASE_INICIATIVAS = base;
-          BASE_INICIATIVAS_LISTA = true;
-          bloquearBusquedaCodigo(false);
-          console.log('Base de iniciativas cargada: ' + Object.keys(BASE_INICIATIVAS).length + ' registros.');
-        })
-        .catch(function (err) {
-          BASE_INICIATIVAS = {};
-          BASE_INICIATIVAS_ERROR = err;
-          bloquearBusquedaCodigo(false);
-          console.error('Error cargando base de iniciativas:', err);
-          if (window.location.protocol === 'file:') {
-            mostrarErrorCodigo('No se pudo cargar la base. Abre la app desde un servidor local, no con doble clic al archivo HTML.');
-          } else {
-            mostrarErrorCodigo('No se pudo cargar la base de beneficiarios. Verifica que basebeneficiariosEP.csv esté publicado junto al index.html.');
-          }
+          if (response.status === 404) throw new Error('NOT_FOUND');
+          if (!response.ok) throw new Error('HTTP_' + response.status);
+          return response.json();
         });
     }
-
-    // Inicializamos la carga del CSV
-    cargarBaseIniciativas();
 
     // 3. Lógica del botón de validar código
     document.getElementById('btnBuscarCodigo').addEventListener('click', function () {
@@ -1777,45 +1748,47 @@
       inputEl.value = inputValor;
 
       if (!inputValor) {
-        mostrarErrorCodigo("Por favor ingresa un código.");
+        mostrarErrorCodigo('Por favor ingresa un código.');
         return;
       }
 
-      if (!BASE_INICIATIVAS_LISTA) {
-        if (BASE_INICIATIVAS_ERROR) {
-          mostrarErrorCodigo(window.location.protocol === 'file:' ? 'La base no cargó porque el navegador bloquea archivos CSV abiertos con file://. Usa un servidor local.' : 'La base de beneficiarios no cargó. Verifica basebeneficiariosEP.csv y vuelve a actualizar.');
-        } else {
-          mostrarErrorCodigo('La base de beneficiarios todavía se está cargando. Intenta de nuevo en unos segundos.');
-        }
-        return;
-      }
+      msgError.style.display = 'none';
+      bloquearBusquedaCodigo(true, 'Buscando...');
 
-      var entrada = BASE_INICIATIVAS[inputValor];
+      buscarBeneficiarioPorJSON(inputValor)
+        .then(function (data) {
+          bloquearBusquedaCodigo(false);
 
-      if (entrada) {
-        var tipoEncontrado = entrada.tipo || entrada;
-        var nombreUPEncontrado = entrada.nombreUP || '';
-        msgError.style.display = 'none';
-        var monto = 0;
-        var modalidadNombre = tipoEncontrado;
+          // Leer campos del JSON
+          var modalidad = normalizarTipoIniciativa(data.modalidad || '');
+          var nombreUP  = String(data.unidad_nombre || '').trim();
+          var monto     = MONTOS_MODALIDAD[modalidad] || 0;
 
-        // Asignamos el tope según modalidad M1, M2, M3, M4
-        if (tipoEncontrado === "M1") { monto = 5000000; }
-        else if (tipoEncontrado === "M2") { monto = 20000000; }
-        else if (tipoEncontrado === "M3") { monto = 30000000; }
-        else if (tipoEncontrado === "M4") { monto = 50000000; }
+          if (!modalidad) {
+            mostrarErrorCodigo('El JSON no contiene el campo "modalidad". Verifica el archivo.');
+            return;
+          }
+          if (!monto) {
+            mostrarErrorCodigo('Modalidad "' + modalidad + '" no reconocida. Valores válidos: M1, M2, M3, M4.');
+            return;
+          }
 
-        if (monto > 0) {
           codigoIniciativaActual = inputValor;
-          nombreUPActual = nombreUPEncontrado;
+          nombreUPActual = nombreUP;
           actualizarNombreHeader();
-          seleccionarTipologia(monto, modalidadNombre);
-        } else {
-          mostrarErrorCodigo("La modalidad de esta iniciativa no es válida.");
-        }
-      } else {
-        mostrarErrorCodigo("Código no encontrado. Verifica e intenta de nuevo.");
-      }
+          seleccionarTipologia(monto, modalidad);
+        })
+        .catch(function (err) {
+          bloquearBusquedaCodigo(false);
+          if (err.message === 'NOT_FOUND') {
+            mostrarErrorCodigo('Código no encontrado. Verifica el número e intenta de nuevo.');
+          } else if (window.location.protocol === 'file:') {
+            mostrarErrorCodigo('No se puede buscar con file://. Usa un servidor local (Live Server, etc.).');
+          } else {
+            mostrarErrorCodigo('Error al consultar el código. Verifica tu conexión e intenta de nuevo.');
+          }
+          console.error('Error buscando beneficiario:', err);
+        });
     });
 
     // 4. Permitir que el usuario presione "Enter" en su teclado para buscar
