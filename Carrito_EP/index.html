@@ -1500,8 +1500,9 @@
       </div>
       <div class="modal-body" style="padding:20px">
         <p class="export-info">📌 ¿Estás seguro de que ya agregaste todo lo que deseas incluir en este plan de
-          inversión? Revisa productos y cantidades antes de descargar.</p><button class="btn-export"
-          id="btnDescargarCSV">📥 Sí, descargar plan de inversión</button>
+          inversión? Revisa productos y cantidades antes de descargar.</p>
+        <button class="btn-export" id="btnDescargarPDF" style="margin-bottom:12px">📄 Descargar PDF del plan</button>
+        <button class="btn-export" id="btnDescargarJSON" style="background:var(--verde2)">📦 Descargar JSON del pedido</button>
       </div>
     </div>
   </div>
@@ -1515,6 +1516,7 @@
           class="confirm-btn primario" id="confirmOk">Confirmar</button></div>
     </div>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="./productos.js"></script>
   <script>
     // ── Toast ──────────────────────────────────────────────
@@ -1696,7 +1698,8 @@
     document.getElementById('ordenPrecio').addEventListener('change', function (e) { ordenFiltrado = e.target.value; aplicarFiltros() });
     document.addEventListener('click', function (e) { if (e.target.classList.contains('overlay')) { cerrarDetalle(); cerrarCarrito(); cerrarExport() } var cb = e.target.closest('.modal-close'); if (cb) { var w = cb.getAttribute('data-close'); if (w === 'detalle') cerrarDetalle(); else if (w === 'carrito') cerrarCarrito(); else if (w === 'export') cerrarExport() } });
     document.getElementById('overlayCarrito').addEventListener('click', function (e) { var t = e.target; if (t.closest('#btnVaciar')) vaciarCarrito(); else if (t.closest('#btnExportar')) abrirExport(); else if (t.closest('.ci-remove')) { var id = t.closest('.ci-remove').getAttribute('data-id'); if (id) quitarItem(id) } else { var btn = t.closest('[data-action]'); if (btn) cambiarCant(btn.getAttribute('data-id'), btn.getAttribute('data-action') === 'sumar' ? 1 : -1) } });
-    document.getElementById('btnDescargarCSV').addEventListener('click', function () { exportarCSV() });
+    document.getElementById('btnDescargarPDF').addEventListener('click', function () { exportarPDF(); });
+    document.getElementById('btnDescargarJSON').addEventListener('click', function () { exportarJSON(); });
     document.getElementById('detalleFoot').addEventListener('click', function (e) { var btn = e.target.closest('[data-action]'); if (!btn) return; cambiarCantDetalle(btn.getAttribute('data-id'), btn.getAttribute('data-action') === 'sumar' ? 1 : -1) });
 
     var BASE_INICIATIVAS = {};
@@ -1852,33 +1855,246 @@
     }
     function quitarItem(id) { delete carrito[id]; var el = document.getElementById('num-' + id); if (el) el.textContent = 0; guardar(); actualizarUI(); actualizarConteos(); renderCarrito(); if (sectorActivo === 'seleccionados') aplicarFiltros() }
 
-    // Exportar CSV
+    // ── Exportar ─────────────────────────────────────────────
     function abrirExport() { cerrarCarrito(); document.getElementById('overlayExport').classList.add('open') }
     function cerrarExport() { document.getElementById('overlayExport').classList.remove('open') }
-    function exportarCSV() {
-      var cod = codigoIniciativaActual || normalizarCodigoIniciativa(document.getElementById('inputCodigoIniciativa').value);
-      var bom = '\uFEFF';
-      var tipoNom = ''; if (presupuestoMaximo === 5000000) tipoNom = 'M1'; else if (presupuestoMaximo === 20000000) tipoNom = 'M2'; else if (presupuestoMaximo === 30000000) tipoNom = 'M3'; else if (presupuestoMaximo === 50000000) tipoNom = 'M4';
-      var csv = 'PLAN DE INVERSIÓN - ANÁLISIS DE MERCADO\n';
-      csv += 'Iniciativa;' + cod + '\n';
-      csv += 'Tipología;' + tipoNom + '\n';
-      csv += 'Presupuesto máximo;' + presupuestoMaximo + '\n';
-      csv += 'Fecha;' + new Date().toLocaleDateString('es-CO') + '\n';
-      csv += '\n';
-      csv += 'Codigo_Iniciativa;ID_Producto;Nombre;Sector;CIIU;Proceso;Tipo_Rubro;Precio_Unitario;Cantidad;Subtotal\n';
-      var ec = function (v) { return '"' + String(v).replace(/"/g, '""') + '"' };
-      var totalItems = 0;
-      for (var i = 0; i < CATALOGO_PRODUCTOS.length; i++) {
-        var p = CATALOGO_PRODUCTOS[i]; var cant = carrito[p.id] || 0; if (!cant) continue; totalItems += cant;
-        csv += [cod, p.id, p.nombre, sNom(p.sector), p.ciiu, p.proceso, p.tipo, COP.format(p.precio), cant, COP.format(cant * p.precio)].map(ec).join(';') + '\n'
-      }
-      csv += '\n';
-      csv += ['', '', '', '', '', '', 'TOTAL', '', totalItems, COP.format(totalCarrito())].map(ec).join(';') + '\n';
-      var blob = new Blob([bom + csv], { type: 'text/csv;charset=utf-8;' });
-      var fname = (cod ? cod + '_' : '') + 'Plan_Inversion.csv';
-      try { if (navigator.canShare && navigator.canShare({ files: [new File([blob], fname, { type: blob.type })] })) { navigator.share({ title: 'Plan Inversión' + (cod ? ' ' + cod : ''), files: [new File([blob], fname, { type: blob.type })] }).catch(function () { descargar(blob, fname) }) } else { descargar(blob, fname) } } catch (e) { descargar(blob, fname) }
-      cerrarExport()
+
+    function obtenerTipoNom() {
+      if (presupuestoMaximo === 5000000) return 'M1';
+      if (presupuestoMaximo === 20000000) return 'M2';
+      if (presupuestoMaximo === 30000000) return 'M3';
+      if (presupuestoMaximo === 50000000) return 'M4';
+      return '';
     }
+
+    function obtenerItemsCarrito() {
+      var items = [];
+      for (var i = 0; i < CATALOGO_PRODUCTOS.length; i++) {
+        var p = CATALOGO_PRODUCTOS[i];
+        var cant = carrito[p.id] || 0;
+        if (!cant) continue;
+        items.push({ producto: p, cantidad: cant, subtotal: cant * p.precio });
+      }
+      return items;
+    }
+
+    // ── Exportar PDF ─────────────────────────────────────────
+    function exportarPDF() {
+      if (typeof window.jspdf === 'undefined' && typeof jspdf === 'undefined') {
+        mostrarToast('La librería PDF no está disponible. Verifica tu conexión a internet.', 'error', '❌', 5000);
+        return;
+      }
+      var jsPDF = (window.jspdf && window.jspdf.jsPDF) || jspdf.jsPDF;
+      var cod = codigoIniciativaActual || normalizarCodigoIniciativa(document.getElementById('inputCodigoIniciativa').value);
+      var tipoNom = obtenerTipoNom();
+      var items = obtenerItemsCarrito();
+      var total = totalCarrito();
+      var totalItems = 0;
+      for (var i = 0; i < items.length; i++) totalItems += items[i].cantidad;
+      var fecha = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric' });
+
+      var doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+      var pW = doc.internal.pageSize.getWidth();
+      var pH = doc.internal.pageSize.getHeight();
+      var marL = 15, marR = 15, cW = pW - marL - marR;
+      var y = 0;
+
+      // Encabezado verde
+      doc.setFillColor(30, 92, 58);
+      doc.rect(0, 0, pW, 38, 'F');
+      doc.setTextColor(255, 255, 255);
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(16);
+      doc.text('PLAN DE INVERSIÓN', marL, 14);
+      doc.setFontSize(10);
+      doc.setFont('helvetica', 'normal');
+      doc.text('Análisis de Mercado · Catálogo de Dotación', marL, 21);
+      doc.setFontSize(9);
+      doc.text('Fecha: ' + fecha, marL, 28);
+      if (cod) doc.text('Código UP: ' + cod + (tipoNom ? '   Tipología: ' + tipoNom : ''), marL, 34);
+
+      y = 46;
+      // Datos de la UP
+      if (nombreUPActual) {
+        doc.setFillColor(240, 247, 240);
+        doc.roundedRect(marL, y, cW, 12, 2, 2, 'F');
+        doc.setTextColor(30, 92, 58);
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(9);
+        doc.text('Unidad Productiva: ', marL + 3, y + 7.5);
+        doc.setFont('helvetica', 'normal');
+        doc.setTextColor(26, 35, 24);
+        doc.text(nombreUPActual, marL + 40, y + 7.5);
+        y += 16;
+      }
+
+      // Presupuesto resumen
+      doc.setFillColor(42, 122, 80);
+      doc.roundedRect(marL, y, cW, 16, 2, 2, 'F');
+      doc.setTextColor(255, 255, 255);
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(9);
+      doc.text('Presupuesto máximo:', marL + 3, y + 6.5);
+      doc.text('Total seleccionado:', marL + 3, y + 12.5);
+      doc.setFont('helvetica', 'normal');
+      doc.text(COP.format(presupuestoMaximo), marL + 50, y + 6.5);
+      doc.text(COP.format(total), marL + 50, y + 12.5);
+      var saldo = presupuestoMaximo - total;
+      doc.setFont('helvetica', 'bold');
+      doc.text('Saldo:', pW - marR - 60, y + 6.5);
+      doc.setFont('helvetica', 'normal');
+      doc.text(COP.format(saldo), pW - marR - 60 + 16, y + 6.5);
+      y += 22;
+
+      // Tabla encabezados
+      var cols = { id: 14, nombre: 60, sector: 28, cant: 14, precio: 26, subtotal: 28 };
+      var colX = {
+        id: marL,
+        nombre: marL + cols.id,
+        sector: marL + cols.id + cols.nombre,
+        cant: marL + cols.id + cols.nombre + cols.sector,
+        precio: marL + cols.id + cols.nombre + cols.sector + cols.cant,
+        subtotal: marL + cols.id + cols.nombre + cols.sector + cols.cant + cols.precio
+      };
+      doc.setFillColor(30, 92, 58);
+      doc.rect(marL, y, cW, 8, 'F');
+      doc.setTextColor(255, 255, 255);
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(7.5);
+      doc.text('ID', colX.id + 1, y + 5.2);
+      doc.text('Nombre del Producto', colX.nombre + 1, y + 5.2);
+      doc.text('Sector', colX.sector + 1, y + 5.2);
+      doc.text('Cant.', colX.cant + 1, y + 5.2);
+      doc.text('Precio Unit.', colX.precio + 1, y + 5.2);
+      doc.text('Subtotal', colX.subtotal + 1, y + 5.2);
+      y += 8;
+
+      // Filas de productos
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(7);
+      for (var i = 0; i < items.length; i++) {
+        if (y > pH - 35) {
+          doc.addPage();
+          y = 15;
+          // Repetir encabezado tabla en nueva página
+          doc.setFillColor(30, 92, 58);
+          doc.rect(marL, y, cW, 8, 'F');
+          doc.setTextColor(255, 255, 255);
+          doc.setFont('helvetica', 'bold');
+          doc.setFontSize(7.5);
+          doc.text('ID', colX.id + 1, y + 5.2);
+          doc.text('Nombre del Producto', colX.nombre + 1, y + 5.2);
+          doc.text('Sector', colX.sector + 1, y + 5.2);
+          doc.text('Cant.', colX.cant + 1, y + 5.2);
+          doc.text('Precio Unit.', colX.precio + 1, y + 5.2);
+          doc.text('Subtotal', colX.subtotal + 1, y + 5.2);
+          y += 8;
+          doc.setFont('helvetica', 'normal');
+          doc.setFontSize(7);
+        }
+        var it = items[i];
+        var rowH = 7;
+        var bg = (i % 2 === 0) ? [248, 252, 248] : [255, 255, 255];
+        doc.setFillColor(bg[0], bg[1], bg[2]);
+        doc.rect(marL, y, cW, rowH, 'F');
+        doc.setTextColor(26, 35, 24);
+        // Nombre truncado para no salirse de celda
+        var nomTrunc = doc.splitTextToSize(it.producto.nombre, cols.nombre - 3)[0];
+        doc.text(String(it.producto.id), colX.id + 1, y + 4.8);
+        doc.text(nomTrunc, colX.nombre + 1, y + 4.8);
+        doc.text(sNom(it.producto.sector).substring(0, 16), colX.sector + 1, y + 4.8);
+        doc.text(String(it.cantidad), colX.cant + 1, y + 4.8);
+        doc.text(COP.format(it.producto.precio), colX.precio + 1, y + 4.8);
+        doc.text(COP.format(it.subtotal), colX.subtotal + 1, y + 4.8);
+        // Línea separadora
+        doc.setDrawColor(220, 230, 220);
+        doc.line(marL, y + rowH, marL + cW, y + rowH);
+        y += rowH;
+      }
+
+      // Fila totales
+      if (y > pH - 25) { doc.addPage(); y = 15; }
+      doc.setFillColor(240, 180, 41);
+      doc.rect(marL, y, cW, 9, 'F');
+      doc.setTextColor(26, 35, 24);
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(8.5);
+      doc.text('TOTAL', colX.id + 1, y + 6);
+      doc.text(String(totalItems) + ' unidades', colX.cant + 1, y + 6);
+      doc.text(COP.format(total), colX.subtotal + 1, y + 6);
+      y += 14;
+
+      // Pie de página en todas las páginas
+      var totalPaginas = doc.internal.getNumberOfPages();
+      for (var pg = 1; pg <= totalPaginas; pg++) {
+        doc.setPage(pg);
+        doc.setFontSize(7);
+        doc.setTextColor(150, 160, 150);
+        doc.setFont('helvetica', 'normal');
+        doc.text('Generado automáticamente · Catálogo Análisis de Mercado · Página ' + pg + ' de ' + totalPaginas, pW / 2, pH - 6, { align: 'center' });
+        doc.setDrawColor(30, 92, 58);
+        doc.setLineWidth(0.4);
+        doc.line(marL, pH - 10, pW - marR, pH - 10);
+      }
+
+      var fname = (cod ? cod + '_' : '') + 'Plan_Inversion.pdf';
+      doc.save(fname);
+      cerrarExport();
+      mostrarToast('PDF generado correctamente.', '', '📄', 4000);
+    }
+
+    // ── Exportar JSON ─────────────────────────────────────────
+    function exportarJSON() {
+      var cod = codigoIniciativaActual || normalizarCodigoIniciativa(document.getElementById('inputCodigoIniciativa').value);
+      var tipoNom = obtenerTipoNom();
+      var items = obtenerItemsCarrito();
+      var total = totalCarrito();
+
+      var pedido = {
+        codigo_iniciativa: cod,
+        nombre_up: nombreUPActual || '',
+        tipologia: tipoNom,
+        presupuesto_maximo: presupuestoMaximo,
+        total_seleccionado: total,
+        saldo_disponible: presupuestoMaximo - total,
+        fecha_generacion: new Date().toISOString(),
+        fecha_legible: new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' }),
+        productos: items.map(function (it) {
+          return {
+            id: it.producto.id,
+            nombre: it.producto.nombre,
+            sector: it.producto.sector,
+            sector_nombre: sNom(it.producto.sector),
+            ciiu: it.producto.ciiu || '',
+            proceso: it.producto.proceso || '',
+            tipo: it.producto.tipo || '',
+            precio_unitario: it.producto.precio,
+            cantidad: it.cantidad,
+            subtotal: it.subtotal
+          };
+        }),
+        resumen: {
+          total_productos: items.length,
+          total_unidades: (function () { var n = 0; for (var i = 0; i < items.length; i++) n += items[i].cantidad; return n; })(),
+          total_cop: total
+        }
+      };
+
+      var jsonStr = JSON.stringify(pedido, null, 2);
+      var blob = new Blob([jsonStr], { type: 'application/json;charset=utf-8;' });
+      var fname = (cod ? cod + '_' : '') + 'Pedido.json';
+      try {
+        if (navigator.canShare && navigator.canShare({ files: [new File([blob], fname, { type: blob.type })] })) {
+          navigator.share({ title: 'Pedido ' + (cod || ''), files: [new File([blob], fname, { type: blob.type })] })
+            .catch(function () { descargar(blob, fname); });
+        } else {
+          descargar(blob, fname);
+        }
+      } catch (e) { descargar(blob, fname); }
+      cerrarExport();
+      mostrarToast('JSON del pedido generado correctamente.', '', '📦', 4000);
+    }
+
     function descargar(blob, name) { var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; a.click(); setTimeout(function () { URL.revokeObjectURL(a.href) }, 1000) }
 
     if (CATALOGO_DISPONIBLE) {
