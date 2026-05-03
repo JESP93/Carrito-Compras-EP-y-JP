@@ -2359,8 +2359,24 @@
             .catch(function () { descargar(blob, fname); });
         } else { descargar(blob, fname); }
       } catch (e) { descargar(blob, fname); }
+      // Intentar enviar al servidor (si hay internet)
+      var BOT_URL = 'https://bot-captura-docs-f6e8fsejb9a7fgac.centralus-01.azurewebsites.net/api/recibir_carrito';
+      fetch(BOT_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(pedido)
+      })
+      .then(function(r) {
+        if (r.ok) mostrarToast('Plan enviado al servidor correctamente.', '', '✅', 4000);
+        else mostrarToast('No se pudo enviar al servidor. El coordinador debe subirlo manualmente.', 'warn', '⚠️', 6000);
+      })
+      .catch(function() {
+        mostrarToast('Sin conexión. El coordinador debe subir el JSON manualmente.', 'warn', '⚠️', 6000);
+      });
+
       cerrarExport();
       mostrarToast('JSON del pedido generado correctamente.', '', '📦', 4000);
+    }
     }
 
     function descargar(blob, name) { var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; a.click(); setTimeout(function () { URL.revokeObjectURL(a.href) }, 1000) }
