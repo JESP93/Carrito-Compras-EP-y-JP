@@ -1514,7 +1514,7 @@
           inversión? Revisa productos y cantidades antes de descargar.</p>
         <button class="btn-export" id="btnDescargarPDF" style="margin-bottom:12px">📄 Descargar PDF del plan</button>
         <button class="btn-export" id="btnDescargarJSON" style="background:var(--verde2)">📦 Descargar JSON del
-          pedido</button
+          pedido</button>
         <button class="btn-export" id="btnAbrirValidarPDF" style="background:#1a1f2e; margin-top:8px; border:1.5px solid rgba(255,255,255,.2)"> 
           📋 Validar PDF firmado </button>
       </div>
@@ -1640,193 +1640,189 @@
     var CATALOGO_PRODUCTOS = CATALOGO_DISPONIBLE ? window.PRODUCTOS : [];
     var TITULO_MAX = 121;
     function tituloProducto(s) { s = String(s || '').replace(/\s+/g, ' ').trim(); return s.length > TITULO_MAX ? s.substring(0, TITULO_MAX - 1).replace(/\s+$/, '') + '…' : s }
-    <script>
-// ── Validador de PDF firmado ──────────────────────────────────────────────
-var BOT_VALIDAR_PDF = 'https://bot-captura-docs-f6e8fsejb9a7fgac.centralus-01.azurewebsites.net/api/validar_plan_pdf';
-var vPDF_archivoBase64 = null;
-
-function abrirValidarPDF() {
-  // Resetear estado
-  vPDF_archivoBase64 = null;
-  document.getElementById('vPDF-upload').style.display    = 'block';
-  document.getElementById('vPDF-procesando').style.display = 'none';
-  document.getElementById('vPDF-resultado').style.display  = 'none';
-  document.getElementById('vPDF-nombre').style.display     = 'none';
-  document.getElementById('vPDF-nombre').textContent       = '';
-  document.getElementById('vPDF-input').value              = '';
-  document.getElementById('vPDF-btnValidar').disabled      = true;
-  document.getElementById('vPDF-btnValidar').style.opacity = '.4';
-  cerrarExport();
-  document.getElementById('overlayValidarPDF').classList.add('open');
-}
-
-function cerrarValidarPDF() {
-  document.getElementById('overlayValidarPDF').classList.remove('open');
-}
-
-// Abrir modal
-document.getElementById('btnAbrirValidarPDF').addEventListener('click', abrirValidarPDF);
-
-// Cerrar con X
-document.addEventListener('click', function(e) {
-  var cb = e.target.closest('.modal-close');
-  if (cb && cb.getAttribute('data-close') === 'validarPDF') cerrarValidarPDF();
-  if (e.target === document.getElementById('overlayValidarPDF')) cerrarValidarPDF();
-});
-
-// Seleccionar archivo
-document.getElementById('vPDF-input').addEventListener('change', function(e) {
-  var file = e.target.files[0];
-  if (!file) return;
-  if (file.type !== 'application/pdf') {
-    mostrarToast('Solo se aceptan archivos PDF.', 'error', '❌', 4000);
-    return;
-  }
-
-  var nombreEl = document.getElementById('vPDF-nombre');
-  nombreEl.textContent = '📄 ' + file.name;
-  nombreEl.style.display = 'block';
-
-  // Convertir a base64
-  var reader = new FileReader();
-  reader.onload = function(ev) {
-    vPDF_archivoBase64 = ev.target.result.split(',')[1]; // quitar "data:application/pdf;base64,"
-    var btn = document.getElementById('vPDF-btnValidar');
-    btn.disabled = false;
-    btn.style.opacity = '1';
-  };
-  reader.readAsDataURL(file);
-});
-
-// Drag & drop
-var dropzone = document.getElementById('vPDF-dropzone');
-dropzone.addEventListener('dragover', function(e) { e.preventDefault(); dropzone.style.borderColor = 'var(--verde)'; });
-dropzone.addEventListener('dragleave', function()  { dropzone.style.borderColor = 'var(--borde)'; });
-dropzone.addEventListener('drop', function(e) {
-  e.preventDefault();
-  dropzone.style.borderColor = 'var(--borde)';
-  var file = e.dataTransfer.files[0];
-  if (file) {
-    var dt = new DataTransfer();
-    dt.items.add(file);
-    document.getElementById('vPDF-input').files = dt.files;
-    document.getElementById('vPDF-input').dispatchEvent(new Event('change'));
-  }
-});
-
-// Validar
-document.getElementById('vPDF-btnValidar').addEventListener('click', function() {
-  if (!vPDF_archivoBase64) return;
-  var codigo = codigoIniciativaActual;
-  if (!codigo) {
-    mostrarToast('No hay código de iniciativa activo. Ingresa primero tu código.', 'error', '❌', 5000);
-    return;
-  }
-
-  // Mostrar procesando
-  document.getElementById('vPDF-upload').style.display     = 'none';
-  document.getElementById('vPDF-procesando').style.display = 'block';
-  document.getElementById('vPDF-resultado').style.display  = 'none';
-
-  fetch(BOT_VALIDAR_PDF, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      codigo_iniciativa: codigo,
-      pdf_base64: vPDF_archivoBase64
-    })
-  })
-  .then(function(r) { return r.json(); })
-  .then(function(data) { mostrarResultadoValidacion(data); })
-  .catch(function(err) {
-    console.error('Error validando PDF:', err);
-    mostrarResultadoValidacion({
-      resultado_general: 'REVISION_MANUAL',
-      observaciones: 'Error de conexión. Intenta de nuevo.',
-      items_encontrados: [], items_faltantes: [],
-      tiene_firma: false, observacion_firma: ''
+    
+    // ── Validador de PDF firmado ──────────────────────────────────────────────
+    var BOT_VALIDAR_PDF = 'https://bot-captura-docs-f6e8fsejb9a7fgac.centralus-01.azurewebsites.net/api/validar_plan_pdf';
+    var vPDF_archivoBase64 = null;
+    
+    function abrirValidarPDF() {
+      // Resetear estado
+      vPDF_archivoBase64 = null;
+      document.getElementById('vPDF-upload').style.display    = 'block';
+      document.getElementById('vPDF-procesando').style.display = 'none';
+      document.getElementById('vPDF-resultado').style.display  = 'none';
+      document.getElementById('vPDF-nombre').style.display     = 'none';
+      document.getElementById('vPDF-nombre').textContent       = '';
+      document.getElementById('vPDF-input').value              = '';
+      document.getElementById('vPDF-btnValidar').disabled      = true;
+      document.getElementById('vPDF-btnValidar').style.opacity = '.4';
+      cerrarExport();
+      document.getElementById('overlayValidarPDF').classList.add('open');
+    }
+    
+    function cerrarValidarPDF() {
+      document.getElementById('overlayValidarPDF').classList.remove('open');
+    }
+    
+    // Abrir modal
+    document.getElementById('btnAbrirValidarPDF').addEventListener('click', abrirValidarPDF);
+    
+    // Cerrar con X
+    document.addEventListener('click', function(e) {
+      var cb = e.target.closest('.modal-close');
+      if (cb && cb.getAttribute('data-close') === 'validarPDF') cerrarValidarPDF();
+      if (e.target === document.getElementById('overlayValidarPDF')) cerrarValidarPDF();
     });
-  });
-});
-
-function mostrarResultadoValidacion(data) {
-  document.getElementById('vPDF-procesando').style.display = 'none';
-  document.getElementById('vPDF-upload').style.display     = 'none';
-  document.getElementById('vPDF-resultado').style.display  = 'block';
-
-  var res     = data.resultado_general || 'REVISION_MANUAL';
-  var card    = document.getElementById('vPDF-resCard');
-  var iconoEl = document.getElementById('vPDF-resIcono');
-  var titEl   = document.getElementById('vPDF-resTitulo');
-  var obsEl   = document.getElementById('vPDF-resObs');
-
-  if (res === 'APROBADO') {
-    card.style.background    = '#f0fff4';
-    card.style.border        = '2px solid #38a169';
-    iconoEl.textContent      = '✅';
-    titEl.textContent        = 'Documento aprobado';
-    titEl.style.color        = '#276749';
-  } else if (res === 'RECHAZADO') {
-    card.style.background    = '#fff5f5';
-    card.style.border        = '2px solid #e53e3e';
-    iconoEl.textContent      = '❌';
-    titEl.textContent        = 'Documento rechazado';
-    titEl.style.color        = '#c53030';
-  } else {
-    card.style.background    = '#fffbeb';
-    card.style.border        = '2px solid #d69e2e';
-    iconoEl.textContent      = '⚠️';
-    titEl.textContent        = 'Requiere revisión manual';
-    titEl.style.color        = '#7b5e0a';
-  }
-  obsEl.textContent = data.observaciones || '';
-
-  // Detalle ítems
-  var det = document.getElementById('vPDF-detalleItems');
-  var encontrados = data.items_encontrados || [];
-  var faltantes   = data.items_faltantes   || [];
-  var html = '';
-  if (encontrados.length) {
-    html += '<div style="font-size:.78rem;font-weight:700;color:#276749;margin-bottom:4px">✅ Productos encontrados (' + encontrados.length + ')</div>';
-    for (var i = 0; i < Math.min(encontrados.length, 5); i++) {
-      html += '<div style="font-size:.75rem;color:#555;padding:2px 0 2px 10px">• ' + encontrados[i] + '</div>';
+    
+    // Seleccionar archivo
+    document.getElementById('vPDF-input').addEventListener('change', function(e) {
+      var file = e.target.files[0];
+      if (!file) return;
+      if (file.type !== 'application/pdf') {
+        mostrarToast('Solo se aceptan archivos PDF.', 'error', '❌', 4000);
+        return;
+      }
+    
+      var nombreEl = document.getElementById('vPDF-nombre');
+      nombreEl.textContent = '📄 ' + file.name;
+      nombreEl.style.display = 'block';
+    
+      // Convertir a base64
+      var reader = new FileReader();
+      reader.onload = function(ev) {
+        vPDF_archivoBase64 = ev.target.result.split(',')[1]; // quitar "data:application/pdf;base64,"
+        var btn = document.getElementById('vPDF-btnValidar');
+        btn.disabled = false;
+        btn.style.opacity = '1';
+      };
+      reader.readAsDataURL(file);
+    });
+    
+    // Drag & drop
+    var dropzone = document.getElementById('vPDF-dropzone');
+    dropzone.addEventListener('dragover', function(e) { e.preventDefault(); dropzone.style.borderColor = 'var(--verde)'; });
+    dropzone.addEventListener('dragleave', function()  { dropzone.style.borderColor = 'var(--borde)'; });
+    dropzone.addEventListener('drop', function(e) {
+      e.preventDefault();
+      dropzone.style.borderColor = 'var(--borde)';
+      var file = e.dataTransfer.files[0];
+      if (file) {
+        var dt = new DataTransfer();
+        dt.items.add(file);
+        document.getElementById('vPDF-input').files = dt.files;
+        document.getElementById('vPDF-input').dispatchEvent(new Event('change'));
+      }
+    });
+    
+    // Validar
+    document.getElementById('vPDF-btnValidar').addEventListener('click', function() {
+      if (!vPDF_archivoBase64) return;
+      var codigo = codigoIniciativaActual;
+      if (!codigo) {
+        mostrarToast('No hay código de iniciativa activo. Ingresa primero tu código.', 'error', '❌', 5000);
+        return;
+      }
+    
+      // Mostrar procesando
+      document.getElementById('vPDF-upload').style.display     = 'none';
+      document.getElementById('vPDF-procesando').style.display = 'block';
+      document.getElementById('vPDF-resultado').style.display  = 'none';
+    
+      fetch(BOT_VALIDAR_PDF, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          codigo_iniciativa: codigo,
+          pdf_base64: vPDF_archivoBase64
+        })
+      })
+      .then(function(r) { return r.json(); })
+      .then(function(data) { mostrarResultadoValidacion(data); })
+      .catch(function(err) {
+        console.error('Error validando PDF:', err);
+        mostrarResultadoValidacion({
+          resultado_general: 'REVISION_MANUAL',
+          observaciones: 'Error de conexión. Intenta de nuevo.',
+          items_encontrados: [], items_faltantes: [],
+          tiene_firma: false, observacion_firma: ''
+        });
+      });
+    });
+    
+    function mostrarResultadoValidacion(data) {
+      document.getElementById('vPDF-procesando').style.display = 'none';
+      document.getElementById('vPDF-upload').style.display     = 'none';
+      document.getElementById('vPDF-resultado').style.display  = 'block';
+    
+      var res     = data.resultado_general || 'REVISION_MANUAL';
+      var card    = document.getElementById('vPDF-resCard');
+      var iconoEl = document.getElementById('vPDF-resIcono');
+      var titEl   = document.getElementById('vPDF-resTitulo');
+      var obsEl   = document.getElementById('vPDF-resObs');
+    
+      if (res === 'APROBADO') {
+        card.style.background    = '#f0fff4';
+        card.style.border        = '2px solid #38a169';
+        iconoEl.textContent      = '✅';
+        titEl.textContent        = 'Documento aprobado';
+        titEl.style.color        = '#276749';
+      } else if (res === 'RECHAZADO') {
+        card.style.background    = '#fff5f5';
+        card.style.border        = '2px solid #e53e3e';
+        iconoEl.textContent      = '❌';
+        titEl.textContent        = 'Documento rechazado';
+        titEl.style.color        = '#c53030';
+      } else {
+        card.style.background    = '#fffbeb';
+        card.style.border        = '2px solid #d69e2e';
+        iconoEl.textContent      = '⚠️';
+        titEl.textContent        = 'Requiere revisión manual';
+        titEl.style.color        = '#7b5e0a';
+      }
+      obsEl.textContent = data.observaciones || '';
+    
+      // Detalle ítems
+      var det = document.getElementById('vPDF-detalleItems');
+      var encontrados = data.items_encontrados || [];
+      var faltantes   = data.items_faltantes   || [];
+      var html = '';
+      if (encontrados.length) {
+        html += '<div style="font-size:.78rem;font-weight:700;color:#276749;margin-bottom:4px">✅ Productos encontrados (' + encontrados.length + ')</div>';
+        for (var i = 0; i < Math.min(encontrados.length, 5); i++) {
+          html += '<div style="font-size:.75rem;color:#555;padding:2px 0 2px 10px">• ' + encontrados[i] + '</div>';
+        }
+        if (encontrados.length > 5) html += '<div style="font-size:.72rem;color:var(--gris);padding-left:10px">y ' + (encontrados.length - 5) + ' más…</div>';
+      }
+      if (faltantes.length) {
+        html += '<div style="font-size:.78rem;font-weight:700;color:#c53030;margin-top:8px;margin-bottom:4px">❌ No encontrados (' + faltantes.length + ')</div>';
+        for (var j = 0; j < Math.min(faltantes.length, 5); j++) {
+          html += '<div style="font-size:.75rem;color:#555;padding:2px 0 2px 10px">• ' + faltantes[j] + '</div>';
+        }
+        if (faltantes.length > 5) html += '<div style="font-size:.72rem;color:var(--gris);padding-left:10px">y ' + (faltantes.length - 5) + ' más…</div>';
+      }
+      det.innerHTML = html;
+    
+      // Firma
+      document.getElementById('vPDF-firmaIcono').textContent = data.tiene_firma ? '✍️' : '⚠️';
+      document.getElementById('vPDF-firmaTxt').textContent   = data.tiene_firma
+        ? 'Firma detectada: ' + (data.observacion_firma || 'presente en el documento')
+        : 'Sin firma detectada: ' + (data.observacion_firma || 'no se encontró firma en el documento');
+      document.getElementById('vPDF-firmaRow').style.background = data.tiene_firma ? '#f0fff4' : '#fff5f5';
+      document.getElementById('vPDF-firmaRow').style.borderColor = data.tiene_firma ? '#38a169' : '#e53e3e';
     }
-    if (encontrados.length > 5) html += '<div style="font-size:.72rem;color:var(--gris);padding-left:10px">y ' + (encontrados.length - 5) + ' más…</div>';
-  }
-  if (faltantes.length) {
-    html += '<div style="font-size:.78rem;font-weight:700;color:#c53030;margin-top:8px;margin-bottom:4px">❌ No encontrados (' + faltantes.length + ')</div>';
-    for (var j = 0; j < Math.min(faltantes.length, 5); j++) {
-      html += '<div style="font-size:.75rem;color:#555;padding:2px 0 2px 10px">• ' + faltantes[j] + '</div>';
-    }
-    if (faltantes.length > 5) html += '<div style="font-size:.72rem;color:var(--gris);padding-left:10px">y ' + (faltantes.length - 5) + ' más…</div>';
-  }
-  det.innerHTML = html;
-
-  // Firma
-  document.getElementById('vPDF-firmaIcono').textContent = data.tiene_firma ? '✍️' : '⚠️';
-  document.getElementById('vPDF-firmaTxt').textContent   = data.tiene_firma
-    ? 'Firma detectada: ' + (data.observacion_firma || 'presente en el documento')
-    : 'Sin firma detectada: ' + (data.observacion_firma || 'no se encontró firma en el documento');
-  document.getElementById('vPDF-firmaRow').style.background = data.tiene_firma ? '#f0fff4' : '#fff5f5';
-  document.getElementById('vPDF-firmaRow').style.borderColor = data.tiene_firma ? '#38a169' : '#e53e3e';
-}
-
-// Reintentar
-document.getElementById('vPDF-btnReintentar').addEventListener('click', function() {
-  vPDF_archivoBase64 = null;
-  document.getElementById('vPDF-upload').style.display     = 'block';
-  document.getElementById('vPDF-resultado').style.display  = 'none';
-  document.getElementById('vPDF-procesando').style.display = 'none';
-  document.getElementById('vPDF-nombre').style.display     = 'none';
-  document.getElementById('vPDF-input').value              = '';
-  document.getElementById('vPDF-btnValidar').disabled      = true;
-  document.getElementById('vPDF-btnValidar').style.opacity = '.4';
-});
-</script>
-
     
-    
-    
+    // Reintentar
+    document.getElementById('vPDF-btnReintentar').addEventListener('click', function() {
+      vPDF_archivoBase64 = null;
+      document.getElementById('vPDF-upload').style.display     = 'block';
+      document.getElementById('vPDF-resultado').style.display  = 'none';
+      document.getElementById('vPDF-procesando').style.display = 'none';
+      document.getElementById('vPDF-nombre').style.display     = 'none';
+      document.getElementById('vPDF-input').value              = '';
+      document.getElementById('vPDF-btnValidar').disabled      = true;
+      document.getElementById('vPDF-btnValidar').style.opacity = '.4';
+    });
+       
     
     
     
@@ -2645,8 +2641,7 @@ document.getElementById('vPDF-btnReintentar').addEventListener('click', function
       cerrarExport();
       mostrarToast('JSON del pedido generado correctamente.', '', '📦', 4000);
     }
-    }
-
+  
     function descargar(blob, name) { var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; a.click(); setTimeout(function () { URL.revokeObjectURL(a.href) }, 1000) }
 
     if (CATALOGO_DISPONIBLE) {
