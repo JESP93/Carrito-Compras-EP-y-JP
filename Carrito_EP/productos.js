@@ -1,11274 +1,16152 @@
-// Estructura editable del catálogo:
-// - Productos agrupados por sector
-// - Un producto por bloque
-// - Mismo orden de campos en todos los registros
-// - Total: 935 productos (616 Cat.1 + 319 Cat.2)
-function producto(datos){
-  return {
-    id:'',
-    sector:'',
-    icono:'📦',
-    nombre:'',
-    desc:'',
-    precio:0,
-    tipo:'',
-    ciiu:'',
-    proceso:'',
-    ...datos
+// AUTO-GENERADO desde CATALOGO_UP.xlsx — no editar manualmente
+// Total: 734 productos
+window.PRODUCTOS = [
+  {
+    "id": "CAT-UNI-01",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Máquina plana industrial (confección)",
+    "desc": "Máquina plana industrial (confección) Función: Costura recta gama genérica Garantía: 06 meses por kit electrónico y 06 meses por descalibraciones mecánicas Tipo de aguja: Cubo delgado DBX1 o Cubo grueso 135X5 Sistema paso a paso Velocidad: Variable desde 500  hasta 4000 rpm Longitud de puntada (cubo delgado a 5 mm o cubo grueso 7 mm) Posicionador de aguja Luz led integrada Motor direct drive incorporado de 550w Devanador incorporado Mueble importado",
+    "precio": 1979208,
+    "icono": "🔧",
+    "imagen": "1",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-02",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Overlock industrial Tipo de material media luz",
+    "desc": "Overlock industrial Tipo de material media luz\nLongitud de la puntada, mm 3.6 Rango de avance diferencial 1: 0,7 - 1: 2 Plataforma Departamento Espesor de la aguja No. 75 Agujas aplicables DCx27 Número de agujas 2 Número de hilos cuatro Tipo de grasa automático Altura de elevación del prensatelas, mm 6 Velocidad máxima de costura 7000 sti / min Características del motor Servo incorporado Iluminar desde el fondo hay Distancia entre agujas 2 Ancho de rebordeado, mm 3.4 Distancia estándar entre agujas, mm2 Voltaje, V 110",
+    "precio": 2625480,
+    "icono": "🔧",
+    "imagen": "2",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-03",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Recubridora industrial TIPO\tRecubridora - Collarín USO Industrial MOTOR\tMecatrónica",
+    "desc": "Recubridora industrial TIPO\tRecubridora - Collarín USO Industrial MOTOR\tMecatrónica\nMARCA\tWillcox MODELO W500D PUNTADA Collarin Recubierto  AGUJAS\t3 HILOS\t5 VOLTAJE 110V POTENCIA 550W",
+    "precio": 3243240,
+    "icono": "🔧",
+    "imagen": "3",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-04",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "sublimadora termofijadora 38 x 38, 110 voltios, industrial, goma inferior . Base superior pintura teflonada",
+    "desc": "sublimadora termofijadora 38 x 38, 110 voltios, industrial, goma inferior . Base superior pintura teflonada",
+    "precio": 1776060,
+    "icono": "🔧",
+    "imagen": "4",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-05",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Mobiliario",
+    "nombre": "Mesa de corte textil 120 x 180 cm Nuestra Mesa de Corte para Tela – Diseño Americano está fabricada para trabajos exigen",
+    "desc": "Mesa de corte textil 120 x 180 cm Nuestra Mesa de Corte para Tela – Diseño Americano está fabricada para trabajos exigentes del sector textil, sastrerías, fábricas de confección o instituciones educativas. Su estructura metálica en pintura electrostática está diseñada para soportar cargas pesadas y uso continuo, mientras que su superficie de trabajo en tabla blanca de 18 mm (una cara) ofrece una base amplia, duradera y de fácil limpieza.\n\nLa mesa tiene una altura fija de 90 cm, ideal para mantener una postura ergonómica durante el corte, evitando dolores de espalda y fatiga en jornadas largas de trabajo.\n\nDisponible en múltiples medidas, es un producto modular y adaptable a distintos espacios de trabajo. Puedes elegir la variante que mejor se acomode a tu taller desde el menú.",
+    "precio": 772081,
+    "icono": "🔧",
+    "imagen": "5",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-06",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Cortadora vertical de tela Motores",
+    "desc": "Cortadora vertical de tela Motores\t\n110V, 1ph, 50 / 60Hz 220V, 1ph o 3ph, 50 / 60Hz Estándar: velocidad única Opcional: velocidad dual, velocidad variable Caballo de fuerza 2hp, 1ph a 4,000 RPM 2hp, 3ph a 4,000 RPM Peso 41 libras (18.5kg) Cuchillas Estándar: acero al carbono Opcional: acero de alta velocidad, recubierto de PTFE, borde ondulado, ranura ondulada, punta en ángulo Cinturones Estándar: grano medio Opcional: fino, grueso, áspero Tamaños de trazo 1.125 pulg. (2.86 cm) 1.25 pulg. (3.18 cm) 1.5 pulg. (3.81 cm) 1.75 pulg. (4.45 cm) Tamaños de hoja 5 pulg. (12,7 cm) 6 pulg. (15,2 cm) 7 pulg. (17,7 cm) 8 pulg. (20,3 cm) 9 pulg. (22,8 cm) 10 pulg. (25,4 cm) 11,5 pulg. (29,2 cm) 13 pulg. . (33 cm) Capacidad de corte\t\n3.5 pulgadas (8.9cm) 4.5 pulgadas (11.4cm) 5.5 pulgadas (13.9cm) 6.5 pulgadas (16.5cm) 7.5 pulgadas (19.1cm) 8.5 pulgadas (21.5cm) 10 pulgadas (25.4cm) 11.5 pulgadas ( 29,2 cm)",
+    "precio": 1545671,
+    "icono": "🔧",
+    "imagen": "6",
+    "specs": {
+      "dimensiones": "",
+      "peso": "41 libras (18.5kg) Cuchillas Estándar: a",
+      "capacidad": "de corte",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-07",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Plancha industrial Ancho 6 Alto 4 Largo 4 Especificaciones Tipo Planchas para ropa Tipo plancha Calor Material Acero Color Negro",
+    "desc": "Plancha industrial Ancho 6 Alto 4 Largo 4 Especificaciones Tipo Planchas para ropa Tipo plancha Calor Material Acero Color Negro\nCuenta con indicador de llenado No Cuenta con control de temperatura Si Cuenta con antiadherente\nSi Potencia 110 V Cuenta con apagado automático\nNo",
+    "precio": 491713,
+    "icono": "🔧",
+    "imagen": "7",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "110 V Cuenta con apagado automático",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-08",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Mobiliario",
+    "nombre": "plancha prensa industrial a vapor, fusionadora union, mas mueble mesa 82 x 25 cm, voltaje 110v, control digial lcd de te",
+    "desc": "plancha prensa industrial a vapor, fusionadora union, mas mueble mesa 82 x 25 cm, voltaje 110v, control digial lcd de temperatura, precision y facilidad de uso. 5 modos automaticos por tipo de tejido, naylon, seda, lana, algodón, lino, rafaga de vapor automatica/manual, deposito de agua deslizable de 300 ml con bomba electronica, apagado automatico de seguridad tras 10 segundos sin uso. presion de 50 kg para eliminar arrugas profundas.",
+    "precio": 1869853,
+    "icono": "🔧",
+    "imagen": "8",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-09",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Kit de patronaje (reglas/curvas) Kit de Patronaje - 19 Piezas",
+    "desc": "Kit de patronaje (reglas/curvas) Kit de Patronaje - 19 Piezas\n\nEste completo kit de patronaje incluye herramientas esenciales para cualquier amante de la costura o profesional del diseño. Está compuesto por:\n\n9 reglas de alta precisión: Fabricadas en plástico duradero, con líneas claras y excelente resistencia, ideales para un uso prolongado.\n-2 rodajas marca prenda.\n-1 cinta métrica automática de modistería.\n-1 tijera de sastre con mango ergonómico de plástico.\n-40 alfileres de acolchado con cabeza de bola perlada.\n-4 bolígrafos borrables por calor.\n\nEste kit viene en una elegante y resistente bolsa de fieltro, convirtiéndolo en el regalo ideal para principiantes en la costura, sastrería y diseñadores de moda.\n\nVersatilidad y precisión: Las reglas de costura multifuncionales son perfectas para proyectos de diseño de ropa DIY, como dibujo, corte, creación de patrones y marcado. Este kit cubrirá todas tus necesidades de costura y medición.",
+    "precio": 141372,
+    "icono": "🔧",
+    "imagen": "9",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-10",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Mobiliario",
+    "nombre": "Maniquí de costura graduable en altura",
+    "desc": "Maniquí de costura graduable en altura",
+    "precio": 297000,
+    "icono": "🔧",
+    "imagen": "10",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-11",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Sierra circular de mesa Sierra Banco | Diámetro de Disco 10\" (254mm) | 1800 Watts | Velocidad 0-4300 RPM | Incluye Disco",
+    "desc": "Sierra circular de mesa Sierra Banco | Diámetro de Disco 10\" (254mm) | 1800 Watts | Velocidad 0-4300 RPM | Incluye Disco de Sierra, Soporte, Guia de Angulo, Baston de Empuje |",
+    "precio": 1262844,
+    "icono": "🔧",
+    "imagen": "11",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-12",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Ingleteadora CARACTERISTICAS",
+    "desc": "Ingleteadora CARACTERISTICAS\n\nMayor rango de corte de inglete y bisel para mayor versatilidad.\nCapacidad de corte hasta 75mm alto x 140mm ancho a 0º x 0º. Corte transversal 48mm alto x 95mm ancho a 45º x 45º en corte compuesto.\nBloqueo de interruptor del gatillo para operar con una sola mano.\nTope para cortes repetitivos para cortes de una misma longitud.\nCARACTERISTICAS\n\nFrecuencia: 60 Hz.\nPotencia: 1,650 W.\nDiámetro del disco: 10\" (254 mm\nCorte en bisel: 45° a la izquierda.\nVelocidad: 4,800 RPM.",
+    "precio": 1123016,
+    "icono": "🔧",
+    "imagen": "12",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "de corte hasta 75mm alto x 140mm ancho a 0º x 0º. Corte tran",
+      "potencia": "1,650 W.",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-13",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Sierra sinfín Caracteristicas",
+    "desc": "Sierra sinfín Caracteristicas\n\n- Sierra de mesa inclinable sin límite para realizar cortes oblicuos\n\n- La hoja de la sierra se puede cambiar de forma segura y sin necesidad de herramientas\n\n- Tope paralelo para realizar cortes rectos\n\n- Ajuste de altura para cortes de precisión y uso seguro\n\n- Guía con rodamiento de bolas para cortes precisos\n\n- Conexión para extracción de polvo de 36 mm de diámetro\n\n- Empuje para un uso seguro",
+    "precio": 1052568,
+    "icono": "🔧",
+    "imagen": "13",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-14",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Cepilladora/regruesadora Ancho de vendaje 265 mm",
+    "desc": "Cepilladora/regruesadora Ancho de vendaje 265 mm\n- Longitud del tocador 1.110 mm.\n- Apósito reductor de sujeción 3 mm\n- El tope de preparación puede girarse hasta 45°\n- Diámetro del eje del cepillo 75 mm\n- cabezal de corte grande de 3 cuchillas\n- Velocidad 4.000 rpm\n- Altura máx. de espesor 190 mm.\n- Ancho de entrada de espesor 265 mm.\n- Avance de la cepilladora de espesor 5 m/min\n- Espesor máx. de sujeción espesor cepilladora 2 mm\n- Motor 2,3 HP / 230 V\n- Potencia de entrada 2.200 vatios\n- Conexión de aspiración 100 mm.\n- Peso 162 kg",
+    "precio": 10046675,
+    "icono": "🔧",
+    "imagen": "14",
+    "specs": {
+      "dimensiones": "",
+      "peso": "162 kg",
+      "capacidad": "",
+      "potencia": "de entrada 2.200 vatios",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-15",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Router/tupí Tipo",
+    "desc": "Router/tupí Tipo\nRebordeadora\nTipo velocidad\nFijo\nUso de herramienta\nProfesional\nAlimentación\nEléctrica\nInalámbrico\nNo\nVelocidad\n32000\nPotencia nominal\n530\nVoltaje\n110",
+    "precio": 306385,
+    "icono": "🔧",
+    "imagen": "15",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "nominal",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-16",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Esmeril de banco Tipo Esmeriles de banco Tipo velocidad Fijo Tipo de trabajo Profesional Uso de herramienta Profesional",
+    "desc": "Esmeril de banco Tipo Esmeriles de banco Tipo velocidad Fijo Tipo de trabajo Profesional Uso de herramienta Profesional Diámetro del disco 6 pulgadas Cuenta con bloqueo de seguridad No\nPotencia nominal 373 W Grano nº 0 Velocidad 3450 RPM Voltaje 110 V Alimentación Eléctrica Incluye\n(1) Disco grano grueso y (1) Disco grano medio.\nPotencia del motor 3450 RPM",
+    "precio": 497653,
+    "icono": "🔧",
+    "imagen": "17",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "nominal 373 W Grano nº 0 Velocidad 3450 RPM Voltaj",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-17",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Taladro de banco Peso\t14 kg",
+    "desc": "Taladro de banco Peso\t14 kg\nDimensiones\t47 × 37 × 23 cm\nPotencia\t1/3 HP / 250 W\nBroquero\t1/2\" – 13 mm\nTipo de Mandril\tCon llave\nCono de broquero\tB16\nVelocidades (5)\t760 – 3,070 rpm\nMesa de Trabajo\t16 cm x 16 cm\nAltura de trabajo\t20cm\nAltura total\t59cm",
+    "precio": 825660,
+    "icono": "🔧",
+    "imagen": "18",
+    "specs": {
+      "dimensiones": "47 × 37 × 23 cm",
+      "peso": "14 kg",
+      "capacidad": "",
+      "potencia": "1/3 HP / 250 W",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-18",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Compresor de aire Tipo Compresores de aire",
+    "desc": "Compresor de aire Tipo Compresores de aire\nUso de herramienta Industrial Largo del cable\n1.50 Capacidad del estanque 50 Incluye * 1 Botella de aceite monogrado SAE30 • 1 Filtro de aire • 1 Tapón del depósito de aceite • 2 Ruedas • 2 Soportes frontales de hule • 1 Bolsa con tornillería\nPresión máxima 116 Caudal máximo 3.2 Alimentación Eléctrica Potencia 2.610 Voltaje\n120 Motor Con Bobinas de aluminio Flujo de salida\n90",
+    "precio": 1273417,
+    "icono": "🔧",
+    "imagen": "19",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "del estanque 50 Incluye * 1 Botella de aceite monogrado SAE3",
+      "potencia": "2.610 Voltaje",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-19",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Pistola neumática para clavado Características",
+    "desc": "Pistola neumática para clavado Características\nCarcasa de aluminio. Capacidad de 100 clavos.\nMango ergonómico para mayor comodidad del operador. Gatillo de seguridad. Tipo clavo: Sin cabeza. Gama de clavos (largo): 15/32\" a 1.3/16\"(12-30 mm). Calibre clavos (espesor): 23\" (0,68mm). Presión de trabajo: 75-110 PSI.\nConsumo nominal: 90 psi. Entrada de aire: 1/4 NPT.\nDiámetro interno manguera: 3/8\" . Nivel de ruido: 90 dB. Ciclo de trabajo: Continuo. Válvula móvil para direccionar la salida de aire que evita molestias al operador.",
+    "precio": 191149,
+    "icono": "🔧",
+    "imagen": "20",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "de 100 clavos.",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-20",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Soldadora MIG/MAG Tipo Soldadoras Tipo de trabajo Industrial Uso de herramienta Profesional",
+    "desc": "Soldadora MIG/MAG Tipo Soldadoras Tipo de trabajo Industrial Uso de herramienta Profesional\nLargo del cable 3 m Incluye Antorcha MIG-MAG, pinza de masa y cable de conexión Ciclo de trabajo\n170A - 20% / 90A - 60% / 70A - 100% Frecuencia\n50/60 Hz Amperaje 170 A Alimentación Eléctrica\nVoltaje 230 V Rango de corriente 10 - 170 A\nProceso soldadura MIG-MAG / Flux / MMA / TIG DC-Lift Potencia nominal 3.2 kW Rango de temperatura\n40°C",
+    "precio": 5111845,
+    "icono": "🔧",
+    "imagen": "21",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "nominal 3.2 kW Rango de temperatura",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-21",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Soldadora TIG Tipo Soldador inversor Tipo de trabajo Profesional Uso de herramienta Profesional",
+    "desc": "Soldadora TIG Tipo Soldador inversor Tipo de trabajo Profesional Uso de herramienta Profesional\nAmperaje 250 A Voltaje 110 V, 220 V Rango de corriente 20 - 250 A Proceso soldadura FLUXCORE , LIFT TIG , MMA ( revestida )Potencia nominal 26.4 kW",
+    "precio": 1328065,
+    "icono": "🔧",
+    "imagen": "22",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "nominal 26.4 kW",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-22",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Cortadora plasma Tipo Cortadora de plasma Tipo de trabajo Profesional Tipo de panel de control Digital",
+    "desc": "Cortadora plasma Tipo Cortadora de plasma Tipo de trabajo Profesional Tipo de panel de control Digital\nUso de herramienta Profesional Incluye Antorcha de plasma 60A Conjunto pinza de masa Cable de alimentación Manual de usuario Kit consumibles básico Manual de uso Ciclo de trabajo 30%  frecuencia 60 HZ Amperaje 40 A Voltaje 110 V, 220 V Rango de corriente 20 - 40 A Proceso soldadura Corte por plasma Voltaje enchufable Multivoltaje 110/220 Potencia nominal 7480 W Rango de  temperatura 30",
+    "precio": 2375881,
+    "icono": "🔧",
+    "imagen": "23",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "nominal 7480 W Rango de  temperatura 30",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-23",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Prensa hidráulica Tipo Prensas Diámetro de apertura 65 cm Material Acero Tipo de trabajo",
+    "desc": "Prensa hidráulica Tipo Prensas Diámetro de apertura 65 cm Material Acero Tipo de trabajo\nIndustrial Tipo de prensa Prensa rápida Tipo de abrazadera Acero",
+    "precio": 807721,
+    "icono": "🔧",
+    "imagen": "24",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-24",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Dobladora de tubo/perfil La máquina dobladora de ángulos serie ALE-JY dobla diversos perfiles de metal, incluidos ángulo",
+    "desc": "Dobladora de tubo/perfil La máquina dobladora de ángulos serie ALE-JY dobla diversos perfiles de metal, incluidos ángulos de hierro, barras planas, canales de acero y tubos cuadrados, en formas curvas o anillos circulares.\n\nSu diseño compacto ofrece ventajas como bajo consumo de energía, alta eficiencia y funcionamiento silencioso, perfecto tanto para pequeños talleres como para grandes plantas de fabricación.\n\nEsta máquina es ampliamente utilizada en industrias que requieren doblado de metales para componentes estructurales como bridas, anillos y vigas curvas.",
+    "precio": 8248343,
+    "icono": "🔧",
+    "imagen": "25",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-25",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Cizalla manual/hidráulica HZ-55 Cizalla hidráulica manual (120KN - 13.4 TON) Marca ZAAG Fuerza de corte \t120KN - 13.4 TO",
+    "desc": "Cizalla manual/hidráulica HZ-55 Cizalla hidráulica manual (120KN - 13.4 TON) Marca ZAAG Fuerza de corte \t120KN - 13.4 TON Carrera 58 mm Longitud 582 mm Corte cables de cobre\t55 mm Corte ASCR 52 mm Empaque \tCaja de cartón  Peso de la herramienta 3.8",
+    "precio": 5851247,
+    "icono": "🔧",
+    "imagen": "26",
+    "specs": {
+      "dimensiones": "",
+      "peso": "de la herramienta 3.8",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-26",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Pulidora angular industrial Motor de 1250 W, montado sobre balero de bolas para mayor vida útil y mejor desempeño",
+    "desc": "Pulidora angular industrial Motor de 1250 W, montado sobre balero de bolas para mayor vida útil y mejor desempeño\nMango ergonómico antiderrapante de 2 posiciones, mejor control para el operador\nInterruptor con función de uso continuo\nUso industrial, para esmerilar y cortar acero, tubos, hierro en ángulo, ladrillos, azulejos, piedra y/o piezas de cerámica\nCumple la norma NOM-003-SCFI",
+    "precio": 313562,
+    "icono": "🔧",
+    "imagen": "27",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-27",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Juego de brocas industriales 5 Brocas para madera con punta centradora para una perforación más precisa.",
+    "desc": "Juego de brocas industriales 5 Brocas para madera con punta centradora para una perforación más precisa.\n11 Brocas HSS para metal con punta tradicional (118°).\n3 Brocas de manita con punta guía para perforaciones precisas y zanco hexagonal de cambio rápido.\n6 Brocas para concreto con punta de carburo de tungsteno.\nEstuche plástico con compartimientos laterales para guardar herramienta.\nIncluye:\n\n19 Puntas Estrella de 1\", PHI a PH3\n5 Puntas Pala de 1\", 3 mm a 12 mm\n9 Puntas cuadradas de 1\", S1 a S3\n10 Puntas hexagonales de 1\", 1/16\" a 7/64\"\n9 Puntas Estrella de 2\", PH1 a PH3\n3 Puntas Pala de 2\", 6 mm a 12 mm\n4 Puntas cuadradas de 2\", S1 a S3\n2 Puntas hexagonales de 2\", 5/32\" y 7/64\"\n9 Copas de 5/32\" a 3/8\"\n1 Extensión magnética de 1/4\"\n11 Brocas de acero rápido óxido negro de 1/16\" a 1/4\"\n6 Brocas para concreto de 1/4\" a 1/4\"\n5 Brocas para madera de 1/8\" a 3/8\"\n3 Brocas espada de 1/2\" a 3/4\"\n3 Topes para broca de 3/16\" a 3/8\"\n1 Llave bristol de 7/64\"",
+    "precio": 151945,
+    "icono": "🔧",
+    "imagen": "28",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-28",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Juego de llaves y dados Juego de Dados, Juego de Llaves de Carraca, Juego de Llaves de Vaso de 46 Piezas de 1/4 con Jueg",
+    "desc": "Juego de llaves y dados Juego de Dados, Juego de Llaves de Carraca, Juego de Llaves de Vaso de 46 Piezas de 1/4 con Juego de Llaves de Vaso de Broca Métricas y Extensiones Portátil,con Caja de Embalaje\nEl juego de llaves de vaso SOMOZO de 46 piezas es un conjunto completo de herramientas prácticas que se montan para ayudar a los aficionados e incluso a los profesionales en sus proyectos. Cada pieza de metal en este juego fue forjada de acero al carbono de alta calidad, endurecido y templado con un acabado pulido. Las herramientas están hechas para durar años y proporcionar siempre los mismos resultados de calidad.\n\nEnchufes de 9 bits.\nSL4, SL5.5, SL7; PH1, PH2, PH3; PZ1, PZ2, PZ3;\n\nEnchufes de 12 bits.\nH3, H4, H5, H6, H7, H8; T10, T15, T20, T25, T30, T40.\n\n13 llaves de vaso\n13 1/4 pulgadas: 4, 4.5, 5, 5.5, 6, 7, 8, 9, 10, 11, 12, 13, 14 mm.",
+    "precio": 596806,
+    "icono": "🔧",
+    "imagen": "29",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-29",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Calibrador pie de rey Diseñado para el trabajo exigente, este calibrador pie de rey ofrece una medición manual con un ra",
+    "desc": "Calibrador pie de rey Diseñado para el trabajo exigente, este calibrador pie de rey ofrece una medición manual con un rango de hasta 150 mm, ideal para una amplia variedad de aplicaciones. Su escala en pulgadas y centímetros, junto con una precisión de 0.02 mm, te permite obtener resultados detallados y confiables. La perilla de fijación asegura que tus mediciones se mantengan estables, facilitando la toma de datos y garantizando la exactitud requerida en tus proyectos.",
+    "precio": 65221,
+    "icono": "🔧",
+    "imagen": "30",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-30",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Micrómetro MICRÓMETRO DE EXTERIORES PROFESIONAL, CAPACIDAD 0- 1\", PRECISIÓN 0.001\" ASIMETO",
+    "desc": "Micrómetro MICRÓMETRO DE EXTERIORES PROFESIONAL, CAPACIDAD 0- 1\", PRECISIÓN 0.001\" ASIMETO",
+    "precio": 251737,
+    "icono": "🔧",
+    "imagen": "31",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-31",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Multímetro digital certificado Tipo",
+    "desc": "Multímetro digital certificado Tipo\nMultímetros\nUso\nProfesional\nTipo de trabajo\nProfesional\nVoltaje\n0 V\nAmperaje\n0 A\nAlimentación\nPila\nFunciones\nMedidor de voltaje",
+    "precio": 119869,
+    "icono": "🔧",
+    "imagen": "32",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-32",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Pinza amperimétrica Características Principales",
+    "desc": "Pinza amperimétrica Características Principales\nMedición de Corriente AC: Hasta 600A con gran precisión.\n\nTrue RMS: Mediciones precisas en cualquier condición de señal.\nNCV (Voltaje Sin Contacto): Detecta presencia de tensión en cables y paredes sin necesidad de contacto eléctrico.\n\nLive Test: Función para identificar cables de fase (línea) de forma rápida.\n\nPantalla Retroiluminada: Gran tamaño y excelente visibilidad en lugares oscuros.\n\nProtección Integral: Sistema de protección contra sobrecargas en todas las funciones.",
+    "precio": 154440,
+    "icono": "🔧",
+    "imagen": "33",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-33",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Detector de voltaje sin contacto Dale seguridad a tus instalaciones eléctricas con el Detector de Voltaje sin Contacto B",
+    "desc": "Detector de voltaje sin contacto Dale seguridad a tus instalaciones eléctricas con el Detector de Voltaje sin Contacto Bauker. Con un diseño compacto y práctico de 15.8 cm de largo, este detector te permite identificar la presencia de voltaje de hasta 1000W de forma rápida y segura, sin necesidad de contacto directo.",
+    "precio": 84229,
+    "icono": "🔧",
+    "imagen": "34",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-34",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Probador de tomas (tester) Ancho",
+    "desc": "Probador de tomas (tester) Ancho\n4.1 cm\nAlto\n1.9 cm\nLargo\n7.5 cm\nEspecificaciones\n\nTipo\nTester\nPotencia máxima\n0 W\nAlimentación\nOtra",
+    "precio": 55717,
+    "icono": "🔧",
+    "imagen": "35",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "máxima",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-35",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Juego de destornilladores aislados Destornilladores diseñados para trabajos eléctricos seguros, fabricados en acero crom",
+    "desc": "Juego de destornilladores aislados Destornilladores diseñados para trabajos eléctricos seguros, fabricados en acero cromado resistente al desgaste.\nCada destornillador está aislado para 1000V\nMangos ergonómicos para mayor comodidad y agarre.\nIncluye destornilladores de pala y Phillips en diferentes tamaños.\nIdeal para reparación y mantenimiento de equipos eléctricos.\nCumple con las normas de seguridad y calidad internacionales.\nPráctico estuche para almacenamiento y transporte fácil.",
+    "precio": 179863,
+    "icono": "🔧",
+    "imagen": "36",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-36",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Pelacables profesional Pela Cables Automática 8\" Truper",
+    "desc": "Pelacables profesional Pela Cables Automática 8\" Truper\nPermite quitar el aislamiento del cable de forma automática\nCapacidad de: 10 a 22 AWG\nIncluye cuchillas para corte de cables\nTope para medir la longitud del cable a pelar\n10 Mordazas para crimpar\nMedida: 8\"",
+    "precio": 124621,
+    "icono": "🔧",
+    "imagen": "37",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "de: 10 a 22 AWG",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-37",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Crimpadora terminales Dimensiones",
+    "desc": "Crimpadora terminales Dimensiones\n\nAncho\n11.5 cm\nAlto\n26.5 cm\nLargo\n5.5 cm\nEspecificaciones\n\nTipo\nCrimpeadora\nTipo de alicate\nPelacables\nTipo de trabajo\nProfesional\nMaterial del mango\nPlástico",
+    "precio": 47401,
+    "icono": "🔧",
+    "imagen": "38",
+    "specs": {
+      "dimensiones": "Ancho",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-38",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Juego de alicates (punta/corte) Tipo",
+    "desc": "Juego de alicates (punta/corte) Tipo\nSet de alicates\nIncluye\n1x Alicate de punta plana 165 mm, 1x Alicate Universal 165 mm, 1x Alicate Universal 190 mm\nNúmero de piezas\n3\nFormato del producto\nCaja\nPaís de Origen\nChina",
+    "precio": 106801,
+    "icono": "🔧",
+    "imagen": "39",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-39",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Pistola de calor Dimensiones Peso 0.8 kg",
+    "desc": "Pistola de calor Dimensiones Peso 0.8 kg\nEspecificacionesTipo  Pistolas de calor\nUso de herramienta Profesional Cuenta con bloqueo de seguridad No Cuenta con control de temperatura Si Inalámbrico No Potencia nominal\n1500 W Alimentación Eléctrica Rango de  emperatura 90 a 600 grados cent. Voltaje\n110 Incluye Pistola de calor, Boquillas, Mango de herramientas de pastoreo, Herramientas de pastoreo.",
+    "precio": 166201,
+    "icono": "🔧",
+    "imagen": "40",
+    "specs": {
+      "dimensiones": "Peso 0.8 kg",
+      "peso": "0.8 kg",
+      "capacidad": "",
+      "potencia": "nominal",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-40",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Estación de soldadura electrónica Pantalla LCD de 3 dígitos.",
+    "desc": "Estación de soldadura electrónica Pantalla LCD de 3 dígitos.\nConstrucción antiestática del cuerpo de la estación, cautín y pistola de aire.\nControl exacto de temperatura (±1 °C)\nCalentamiento rápido (3-5 seg.)\n\nVoltaje\t220 V /  50 Hz\nConsumo de energía\t700 Wt\nDiapasón de temperaturas\t100 °C ~ 450 °C\nFlujo de aire\t120 L/min (max.)\nEstabilidad de temperatura\t±1 °C\nPeso\t2,0 kg",
+    "precio": 331927,
+    "icono": "🔧",
+    "imagen": "41",
+    "specs": {
+      "dimensiones": "",
+      "peso": "2,0 kg",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-41",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Extractor de humos de soldadura",
+    "desc": "Extractor de humos de soldadura",
+    "precio": 3023149,
+    "icono": "🔧",
+    "imagen": "42",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-42",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Aspiradora industrial Especificaciones",
+    "desc": "Aspiradora industrial Especificaciones\n\nTipo\nBarril\nAncho\n30 cm\nAlto\n53 cm\nLargo\n30 cm\nPeso\n5 kg\nTipo de aspiradora\nBarril\nTipo de filtro\nPolvo, Agua\nUso de herramienta\nIndustrial\nMaterial\nAcero inoxidable\nLargo del cable\n6 m\nLargo de la manguera\n2.4 m\nColor\nPlateado\nIncluye\n1 Manguera de diámetro 1 1/4\" (32 mm). 1.9 m (6.2 ft) con seguro de ajuste, 1 Boquilla tipo garra, 1 Boquilla para ranuras, 1 Boquilla 2 en 1 para piso y alfombra, 3 Tubos de extensión diámetro 1 3/4” (32 mm), 1 Filtro de cartucho para sólidos, 1 Filtro de espuma para líquidos\nInalámbrico\nNo",
+    "precio": 839797,
+    "icono": "🔧",
+    "imagen": "43",
+    "specs": {
+      "dimensiones": "",
+      "peso": "5 kg",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-43",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Banco de trabajo industrial - Banco de trabajo estándar móvil - 2000 x 700 x 840 mm L x A x A WS885N-2000M40-X7000",
+    "desc": "Banco de trabajo industrial - Banco de trabajo estándar móvil - 2000 x 700 x 840 mm L x A x A WS885N-2000M40-X7000",
+    "precio": 3326400,
+    "icono": "🔧",
+    "imagen": "44",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-44",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Tornillo de banco Esta prensa cuenta con una garantía de 10 años, lo que te da la tranquilidad de saber que es una herra",
+    "desc": "Tornillo de banco Esta prensa cuenta con una garantía de 10 años, lo que te da la tranquilidad de saber que es una herramienta duradera. Sus mordazas de 6 pulgadas y apertura máxima de 4 pulgadas te permiten sujetar una amplia variedad de materiales. Además, su diseño incluye mordazas para tubo de 2 pulgadas y una profundidad de garganta de 2 1/4 pulgadas, lo que la hace ideal para trabajos profesionales.",
+    "precio": 454885,
+    "icono": "🔧",
+    "imagen": "45",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-45",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Mobiliario",
+    "nombre": "Estantería metálica industrial torre 240 x 120 cm",
+    "desc": "Estantería metálica industrial torre 240 x 120 cm",
+    "precio": 1225838,
+    "icono": "🔧",
+    "imagen": "46",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-46",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Equipo",
+    "nombre": "Lámpara de trabajo LED Esta luz de trabajo COB está hecha de material de alta calidad.",
+    "desc": "Lámpara de trabajo LED Esta luz de trabajo COB está hecha de material de alta calidad.\nAdopta cuentas de luz muy brillantes con brillo constante.\nFácil de llevar y de usar.\nUna gran elección para ti.\n\nGran Luz De Inundación De Alto Brillo.\nCarga De Emergencia Del Teléfono\nPantalla De Potencia De Carga\nInterfaz De Carga Micro Usb\nBaterías 3xaa\nMarca: Ecoled\nModelo: Lámpara De Trabajo Multifuncional \nTipo De Luz: Luz Led\nDimensiones: 15cm * 20cm Aprox.",
+    "precio": 50472,
+    "icono": "🔧",
+    "imagen": "47",
+    "specs": {
+      "dimensiones": "15cm * 20cm Aprox.",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "De Carga",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-47",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Equipo de protección personal industrial (careta/guantes)",
+    "desc": "Equipo de protección personal industrial (careta/guantes)",
+    "precio": 77220,
+    "icono": "🔧",
+    "imagen": "48",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-48",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Extintor multipropósito abc- 20 libras rdl",
+    "desc": "Extintor multipropósito abc- 20 libras rdl",
+    "precio": 130561,
+    "icono": "🔧",
+    "imagen": "49",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-49",
+    "tipologia": "M1",
+    "sector": "manufactura",
+    "ciiu": "C (14,16,25) / S (95)",
+    "proceso": "Producción / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "kit creative colors 36 piezas + 3 plantillas, pinturas para arte, colores varios, garantia 2 años.",
+    "desc": "kit creative colors 36 piezas + 3 plantillas, pinturas para arte, colores varios, garantia 2 años.",
+    "precio": 81835,
+    "icono": "🔧",
+    "imagen": "50",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-50",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Mobiliario",
+    "nombre": "Estantería metálica de exhibición Tipo",
+    "desc": "Estantería metálica de exhibición Tipo\nEstanterías metálica Ancho 90 cm Alto\n176 cm Profundidad 40 cm Dimensiones\n90 x 176 x 40 cm Peso 15.888 kg Tipo de estantería Estante Material  Metal Color\nGris Incluye Piezas de Union Cantidad de repisas\n5",
+    "precio": 356281,
+    "icono": "🛒",
+    "imagen": "51",
+    "specs": {
+      "dimensiones": "90 x 176 x 40 cm Peso 15.888 kg Tipo de estantería Estante Material  Metal Color",
+      "peso": "15.888 kg Tipo de estantería Estante Mat",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-51",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Mobiliario",
+    "nombre": "Góndolas para tienda Estructura: Metálica reforzada, de alta resistencia.",
+    "desc": "Góndolas para tienda Estructura: Metálica reforzada, de alta resistencia.\n\nNiveles de Exhibición:\n\n4 repisas metálicas\n\nAjustables en altura mediante sistema de ranura tipo enganche\n\nAcabado: Pintura electrostática horneada, anticorrosiva y fácil de limpiar.\n\nBase Estable: Repisa inferior amplia con patas metálicas para mayor estabilidad del módulo.\n\nDimensiones:\n\nAlto: 180 cm\n\nAncho: 100 cm\n\nFondo: 46 cm",
+    "precio": 1296108,
+    "icono": "🛒",
+    "imagen": "52",
+    "specs": {
+      "dimensiones": "Alto: 180 cm",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-52",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Nevera exhibidora vertical Tipo Nevera congelador superior o arriba Referencia del Producto en el Certificado/Empaque En",
+    "desc": "Nevera exhibidora vertical Tipo Nevera congelador superior o arriba Referencia del Producto en el Certificado/Empaque Enfriador vertical de circulación forzada y puerta de cristal. Modelo VFV-520 CZ. Tipo sin escarcha. Ancho 73 cm Alto 193 cm Profundidad 63 cm Peso 73.5 kg Ice Maker No\nTipo de panel de control Digital Tipo de  refrigerador - congelador Nevera Capacidad 440 litros Capacidad de refrigeración 440 litros Capacidad del congelador 0 litros",
+    "precio": 4068781,
+    "icono": "🛒",
+    "imagen": "53",
+    "specs": {
+      "dimensiones": "",
+      "peso": "73.5 kg Ice Maker No",
+      "capacidad": "440 litros Capacidad de refrigeración 440 litros Capacidad d",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-53",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Equipo",
+    "nombre": "Congelador tipo cofre Tipo Congeladores Referencia del Producto en el Certificado/Empaque CI-299TV Ancho 83.7 cm Alto 11",
+    "desc": "Congelador tipo cofre Tipo Congeladores Referencia del Producto en el Certificado/Empaque CI-299TV Ancho 83.7 cm Alto 112.4 cm Profundidad 63.7 cm Tipo de refrigerante R290 Capacidad 306 litros Color\nBlanco Número de gavetas 4 Cantidad de puertas 2\nConsumo energético 99 kWh/mes Posición del congelador Freezer horizontal Año de lanzamiento\n2025 Voltaje 115 V Garantía detalle 1 año general y 3 años en el compresor",
+    "precio": 2524381,
+    "icono": "🛒",
+    "imagen": "54",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "306 litros Color",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-54",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Balanza digital con torre Unidad de medida: Kg / lb., División mínima: 5 g (0.18 oz)., Pesada mínima: 100 g (3.5 oz)., M",
+    "desc": "Balanza digital con torre Unidad de medida: Kg / lb., División mínima: 5 g (0.18 oz)., Pesada mínima: 100 g (3.5 oz)., Memorias: 4., Función conteo de piezas y caja registradora., Función TARA (peso neto sin recipiente)., Platos de acero inoxidable., Pantallas LCD con luz de fondo para mayor visibilidad., Torreta con doble pantalla para usuario y cliente., Construcción robusta y patas niveladas que garantizan mayor precisión y durabilidad., Función de alarma por sobrepeso., Batería con autonomía de 150 horas., Teclado en acero inoxidable.",
+    "precio": 453697,
+    "icono": "🛒",
+    "imagen": "55",
+    "specs": {
+      "dimensiones": "",
+      "peso": "neto sin recipiente)., Platos de acero i",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-55",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Caja registradora / POS odo en Uno Caja Registradora Profesional para Pequeñas Empresas, Paquete POS Incluye: Monitor Tá",
+    "desc": "Caja registradora / POS odo en Uno Caja Registradora Profesional para Pequeñas Empresas, Paquete POS Incluye: Monitor Táctil para Cajero, Pantalla Frontal para Clientes, Cajón de Dinero, Escáner, Impresora",
+    "precio": 6446696,
+    "icono": "🛒",
+    "imagen": "56",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-56",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Lector de código de barras escaners",
+    "desc": "Lector de código de barras escaners",
+    "precio": 166201,
+    "icono": "🛒",
+    "imagen": "57",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-57",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Equipo",
+    "nombre": "Impresora térmica de recibos Tipo",
+    "desc": "Impresora térmica de recibos Tipo\nImpresoras Referencia del Producto en el Certificado/Empaque 7709281325989\nAncho 11 cm Alto 10 cm Largo 15 cm Tipo de impresora Impresora Tipo de impresión\nLáser monocromática Color Negra Cuenta con Wifi\nNo Calidad de impresión Alta resolución Compatibilidad Windows, Linux, Android y macOS",
+    "precio": 130561,
+    "icono": "🛒",
+    "imagen": "58",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-58",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Equipo",
+    "nombre": "Impresora de etiquetas MÉTODO DE IMPRESIÓN",
+    "desc": "Impresora de etiquetas MÉTODO DE IMPRESIÓN\nTérmico directo, Térmico por transferencia ANCHO DE IMPESIÓN 104MM VELOCIIDAD DE IMPESIÓN\n127MM/S INTERFAZ Ethernet, USB COMPATIBILIDAD\nAndroid, Windows, Linux, Mac OSEMULACIÓN DPL, EPL, TSPL, ZPL",
+    "precio": 684257,
+    "icono": "🛒",
+    "imagen": "59",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-59",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne",
+    "desc": "Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus necesidades!\nAncho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable.\nTiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente.\nPeso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.",
+    "precio": 236412,
+    "icono": "🛒",
+    "imagen": "60",
+    "specs": {
+      "dimensiones": "",
+      "peso": "ligero de solo 2.9 kg, lo que facilita s",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-60",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Dispensador de film stretch (empaque) Material y Diseño: Dispensador de stretch metálico con núcleo adaptable para bobin",
+    "desc": "Dispensador de film stretch (empaque) Material y Diseño: Dispensador de stretch metálico con núcleo adaptable para bobinas de 2\" y 3\", y capacidad para manejar anchos de 12\" (30 CM) a 20\" (50 CM).\nMango Ergonómico: Mango protegido con espuma para un agarre cómodo y seguro durante la aplicación del film stretch.\nBase en Aluminio: La base fabricada en aluminio proporciona estabilidad y durabilidad al dispensador.\nTensión Ajustable: Cuenta con un sistema de tensión ajustable, permitiendo adaptar la fuerza según las necesidades de envoltura.\nPeso: 1,6 KG.",
+    "precio": 415848,
+    "icono": "🛒",
+    "imagen": "61",
+    "specs": {
+      "dimensiones": "",
+      "peso": "1,6 KG.",
+      "capacidad": "para manejar anchos de 12\" (30 CM) a 20\" (50 CM).",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-61",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Carrito de mercado (uso interno) el carro para autoservicio metálico va más allá de las expectativas convencionales. Es",
+    "desc": "Carrito de mercado (uso interno) el carro para autoservicio metálico va más allá de las expectativas convencionales. Es una mezcla de diseño, utilidad y emoción. Cada vez que lo utilices, sentirás la diferencia en cada detalle pensado para mejorar tu experiencia  Ancho: 55 cm cm\n➣ Alto: 99 cm cm\n➣ Fondo: 90 cm cm\n➣ Colores: zincado\n➣ Desarmable: No",
+    "precio": 739471,
+    "icono": "🛒",
+    "imagen": "62",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-62",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Canastillas plásticas para surtido Canastilla plastica fondo rombo pared rombo 60x40x25",
+    "desc": "Canastillas plásticas para surtido Canastilla plastica fondo rombo pared rombo 60x40x25",
+    "precio": 36590,
+    "icono": "🛒",
+    "imagen": "63",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-63",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Contenedores grado alimentario Contenedor Portátil Scepter de Grado Alimenticio ? 19 L con Boquilla Reversible",
+    "desc": "Contenedores grado alimentario Contenedor Portátil Scepter de Grado Alimenticio ? 19 L con Boquilla Reversible",
+    "precio": 106801,
+    "icono": "🛒",
+    "imagen": "64",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-64",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Mobiliario",
+    "nombre": "Mesa inoxidable de preparación Mesas Acero 90 x 150 x 50 Con Entrepaño",
+    "desc": "Mesa inoxidable de preparación Mesas Acero 90 x 150 x 50 Con Entrepaño",
+    "precio": 2138281,
+    "icono": "🛒",
+    "imagen": "65",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-65",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Lavamanos en acero inoxidable (operación) Grifería institucional kit válvula de pedal con lavamanos de 28x30",
+    "desc": "Lavamanos en acero inoxidable (operación) Grifería institucional kit válvula de pedal con lavamanos de 28x30",
+    "precio": 391921,
+    "icono": "🛒",
+    "imagen": "66",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-66",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Gramera/báscula de precisión BASCULA  DIGITAL PARA COCINA CAPACIDAD 5 KG TRUPER, SENSOR DE ALTA PRESICION, PANTALLA LCD,",
+    "desc": "Gramera/báscula de precisión BASCULA  DIGITAL PARA COCINA CAPACIDAD 5 KG TRUPER, SENSOR DE ALTA PRESICION, PANTALLA LCD, MATERIAL DEL PLATO POLIPROPILENO, 15161",
+    "precio": 31366,
+    "icono": "🛒",
+    "imagen": "67",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-67",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Rebanadora de embutidos Tajadora de carnes frias EXH: Robusta estructura en aluminio anodizado disco de 30 centimetros d",
+    "desc": "Rebanadora de embutidos Tajadora de carnes frias EXH: Robusta estructura en aluminio anodizado disco de 30 centimetros de diametro",
+    "precio": 4004748,
+    "icono": "🛒",
+    "imagen": "68",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-68",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Mobiliario",
+    "nombre": "Vitrina mostrador Estructura en Lámina Cold Rolled Calibre 24; Entrepaños en Vidrio 4 mm. con boceleria metálica, Puerta",
+    "desc": "Vitrina mostrador Estructura en Lámina Cold Rolled Calibre 24; Entrepaños en Vidrio 4 mm. con boceleria metálica, Puertas en Vidrio Espejo Montadas sobre Correderas plasticas, con Bocel y Manija; Tapa Superior en Vidrio 5 mm. Fijo.",
+    "precio": 1513729,
+    "icono": "🛒",
+    "imagen": "69",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-69",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "l Licuadora Industrial acero inoxidable 25 litros",
+    "desc": "l Licuadora Industrial acero inoxidable 25 litros",
+    "precio": 3999402,
+    "icono": "🛒",
+    "imagen": "70",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-70",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Batidora/amasadora industrial 10 litros Capacidad max en harina3 libras",
+    "desc": "Batidora/amasadora industrial 10 litros Capacidad max en harina3 libras\nVelocidades2\nVoltaje110V 60Hz\nPotencia370W\nAccesoriosGancho, Paleta y globo\nDimensiones76X43X51cm (alto, ancho y fondo)",
+    "precio": 2684880,
+    "icono": "🛒",
+    "imagen": "71",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "max en harina3 libras",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-71",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Equipo",
+    "nombre": "Horno semindustrial de convección Horno de convección eléctrico a 220V con espacio para 4 bandejas. Exterior e interior",
+    "desc": "Horno semindustrial de convección Horno de convección eléctrico a 220V con espacio para 4 bandejas. Exterior e interior en acero inoxidable. Isulación térmica óptima. Ideal para puntos de café o negocios que requieran un volumen moderado de productos horneados o semi elaborados. Características eléctricas: Tensión: 220V bifásico, Potencia total: 2.52 kW/h, Corriente: 11 A. Dimensiones: Frente 0.60 / Fondo 0.60 / Altura 0.575 mts. Peso: 42 Kg",
+    "precio": 2968105,
+    "icono": "🛒",
+    "imagen": "72",
+    "specs": {
+      "dimensiones": "Frente 0.60 / Fondo 0.60 / Altura 0.575 mts. Peso: 42 Kg",
+      "peso": "42 Kg",
+      "capacidad": "",
+      "potencia": "total: 2.52 kW/h, Corriente: 11 A. Dimensiones: Fr",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-72",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Fermentadora/armario de fermentación Camara de fermentación Unox 16 Bandejas 60×40cm – Manual",
+    "desc": "Fermentadora/armario de fermentación Camara de fermentación Unox 16 Bandejas 60×40cm – Manual",
+    "precio": 24874463,
+    "icono": "🛒",
+    "imagen": "73",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-73",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Molino de granos Tipo",
+    "desc": "Molino de granos Tipo\nMolinos de cocina\nAño y mes de fabricación\nVisible en la etiqueta de los productos sujetos a la resolución 1440 del 2021.\nReferencia del Producto en el Certificado/Empaque\nL14200\nAncho\n14.5 cm\nAlto\n33 cm\nLargo\n15.7 cm\nMaterial del utensilio\nMetal\nColor\nPlateado\nNúmero de piezas\n11",
+    "precio": 166201,
+    "icono": "🛒",
+    "imagen": "74",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-74",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Selladora al vacío Tipo",
+    "desc": "Selladora al vacío Tipo\nElectrodomésticos de cocina modernos\nAncho\n43.18 cm\nAlto\n25.4 cm\nLargo\n52.5 cm\nMaterial\nPLASTICO\nColor\nNegro\nPotencia nominal\n125 W\nVoltaje\n117 V",
+    "precio": 593881,
+    "icono": "🛒",
+    "imagen": "75",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "nominal",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-75",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Empacadora semiautomática",
+    "desc": "Empacadora semiautomática",
+    "precio": 16750800,
+    "icono": "🛒",
+    "imagen": "76",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-76",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Equipo",
+    "nombre": "Refrigerador productivo Refrigerador vertical de dos puertas. Marco construcción exterior e interior en acero inoxidable",
+    "desc": "Refrigerador productivo Refrigerador vertical de dos puertas. Marco construcción exterior e interior en acero inoxidable. Capacidad: 40.74 pies cúbicos (1154 Litros).",
+    "precio": 10429719,
+    "icono": "🛒",
+    "imagen": "77",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "40.74 pies cúbicos (1154 Litros).",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-77",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Equipo",
+    "nombre": "extractor de olores Acabado de filtros de grasa\tAluminio",
+    "desc": "extractor de olores Acabado de filtros de grasa\tAluminio\nAluminio\nAlarma de cambio de filtros\tNo\nNo\nApagado programable\tNo\nNo\nCapacidad de Extracción (m3/hr)\t250m3/hr\n120m3/hr\nColor\tInoxidable\nInoxidable\nDisplay\tNo\nNo\nFiltro de carbón activado\tSi\nNo\nIndicador de encendido\tSi\nNo",
+    "precio": 410929,
+    "icono": "🛒",
+    "imagen": "78",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "de Extracción (m3/hr)\t250m3/hr",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-78",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Equipo",
+    "nombre": "Campana extractora Campana CRIP08-60N Inoxidable 3 Velocidades Negra",
+    "desc": "Campana extractora Campana CRIP08-60N Inoxidable 3 Velocidades Negra\n\nOpción de ser extractora (accesorio no incluido).\n• Caudal de aspiración de 210 m³/h.\n• Motor de 3 velocidades de operación, con controles frontales independientes.\n• 1 bombillo de 25W. Interruptor independiente para la luz.\n• Rejilla atrapagrasa removible y lavable.\n• Filtro de carbón activado para purificar los olores de la cocción.",
+    "precio": 356281,
+    "icono": "🛒",
+    "imagen": "79",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-79",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Freidora industrial Equipo fabricado totalmente en acero.",
+    "desc": "Freidora industrial Equipo fabricado totalmente en acero.\n– Pozuelo en acero 430\n– Tres quemadores en hierro fundido indeformables de alto rendimiento\n– Sistema de seguridad compuesto por termostato, piloto, termopila y válvula Unitrol.\n– Rodachinas de alto tráfico 3″ en poliuretano\n– Incluye GRATIS dos canastillas de trabajo pesado\n– Incluye GRATIS rejilla filtro de impurezas\n– Posee zona fria para mayor vida útil del aceite.\n– Obtendrás ahorro de aceite y gas con nuestro equipo",
+    "precio": 4098600,
+    "icono": "🛒",
+    "imagen": "80",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-80",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Plancha para asados Plancha Para Asar 47 Cm X 25 Cm",
+    "desc": "Plancha para asados Plancha Para Asar 47 Cm X 25 Cm",
+    "precio": 273228,
+    "icono": "🛒",
+    "imagen": "81",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-81",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Dispensador de salsas y topping (operación) ste dispensador de salsa comercial puede almacenar 1 tanque de salsa a su gu",
+    "desc": "Dispensador de salsas y topping (operación) ste dispensador de salsa comercial puede almacenar 1 tanque de salsa a su gusto. La construcción de acero inoxidable es confiable, resistente a la corrosión y fácil de limpiar.  Ancho: 54 cm\nAlto: 25 cm\nProfundo: 18 cm",
+    "precio": 1439975,
+    "icono": "🛒",
+    "imagen": "82",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-82",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Set gastronorm (bandejas)",
+    "desc": "Set gastronorm (bandejas)",
+    "precio": 2316600,
+    "icono": "🛒",
+    "imagen": "83",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-83",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Mobiliario",
+    "nombre": "Carro bandejero CARRO RACK PARA BANDEJA 521*661*1780",
+    "desc": "Carro bandejero CARRO RACK PARA BANDEJA 521*661*1780",
+    "precio": 3324081,
+    "icono": "🛒",
+    "imagen": "84",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-84",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Equipo",
+    "nombre": "Máquina de café semiautomática Potencia",
+    "desc": "Máquina de café semiautomática Potencia\n1450 Watts \nVoltaje\nRango entre 110 V y 120 V \nTipo de Producto\nCafetera Expresso \nTipo de Filtro\nNo Necesita \nCapacidad\n2  Tazas",
+    "precio": 3563881,
+    "icono": "🛒",
+    "imagen": "85",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "2  Tazas",
+      "potencia": "1450 Watts",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-85",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Equipo",
+    "nombre": "tiza de sastreria triangular",
+    "desc": "tiza de sastreria triangular",
+    "precio": 1901,
+    "icono": "🛒",
+    "imagen": "86",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-86",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Máquina plana de costura recta dos agujas barra fija mecánica con motor ahorrador externo de 750 watts. es una dos aguja",
+    "desc": "Máquina plana de costura recta dos agujas barra fija mecánica con motor ahorrador externo de 750 watts. es una dos agujas gama media alta con sistema de motor ahorrador silencioso y dos ganchos grandes. está diseñada para trabajar en confección de materiales livianos, medianos y pesados como la confección de jeans (moda y trabajo), dril (moda y trabajo), chaquetería, ropa interior, dotación corporativa y médica, entre otros. El tiempo de trabajo sugerido diario en este equipo sugerido es de 12 horas de trabajo diarias.\nSe entrega calibrada (ajustada) para el tipo de trabajo (liviano, semipesado o pesado) acordado inicialmente con el cliente. Antes de realizar la compra, pregunte a su comecial si el ajuste de la máquina (1/4, 1/8, 3/8, etc) está disponible.",
+    "precio": 4989600,
+    "icono": "🛒",
+    "imagen": "87",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-87",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Mobiliario",
+    "nombre": "impresora para sublimacion La impresora de sublimación  tiene un tamaño compacto muy práctico (17,1” (435 mm) de ancho x",
+    "desc": "impresora para sublimacion La impresora de sublimación  tiene un tamaño compacto muy práctico (17,1” (435 mm) de ancho x 13,5” (343 mm) de profundidad x 6,2” (159 mm) de alto), para que puedas crear tus grandes ideas en un espacio reducido. incluye un juego completo de cartuchos de tinta originales Brother (47 ml / CMYK): tinta de sublimación negra (SP01BKS), tinta de sublimación amarilla (SP01YS), tinta de sublimación magenta (SP01MS), tinta de sublimación cian (SP01CS) y dos hojas de papel de sublimación (SP01PLS)",
+    "precio": 2257200,
+    "icono": "🛒",
+    "imagen": "88",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-88",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "maquina plana triple transporte, Máquina plana de costura recta triple transporte extra pesada mecánica con motor ahorra",
+    "desc": "maquina plana triple transporte, Máquina plana de costura recta triple transporte extra pesada mecánica con motor ahorrador de 750/800 watts. es una potente y robusta máquina con gancho grande de trabajo pesado, largo de puntada hasta 9 mm y ajuste pesado para materiales de tapicería automotríz, cueros, carpas, carnaza, lonas, cuerina, camas y collares para mascotas, entre otros Tipo de aguja: Cubo grueso larga 134-35 o tres filos 134-35LR\nVelocidad: Variable desde 200 hasta 2500 rpm\nLongitud de puntada hasta 9 mm\nMotor ahorrador externo de 750 watts\nDevanador integrado en el cabezote",
+    "precio": 4989600,
+    "icono": "🛒",
+    "imagen": "89",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-89",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "cortadora circular mecatronica de 4 pulgadas con servomotor, ideal para cortar diferentes tipos de materiales gracias a",
+    "desc": "cortadora circular mecatronica de 4 pulgadas con servomotor, ideal para cortar diferentes tipos de materiales gracias a su velocidad variable que le permite mejor comportamiento en materiales licrados y delgados a bajas velocidades. Tiene capacidad para cortar de 5 a 40 capas de telas (según el material y la composición) en un solo tendido.",
+    "precio": 712800,
+    "icono": "🛒",
+    "imagen": "90",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "para cortar de 5 a 40 capas de telas (según el material y la",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-90",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Mobiliario",
+    "nombre": "Silla hidráulica profesional (peluquería) Silla de Barbería y Peluquería Reclinable Hidráulica y Giratoria Stetik Negro",
+    "desc": "Silla hidráulica profesional (peluquería) Silla de Barbería y Peluquería Reclinable Hidráulica y Giratoria Stetik Negro Bonno",
+    "precio": 2459041,
+    "icono": "🛒",
+    "imagen": "91",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-91",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Lavacabezas portátil Cuenta con dos contenedores de 2 galones cada uno (≈7.5 L):",
+    "desc": "Lavacabezas portátil Cuenta con dos contenedores de 2 galones cada uno (≈7.5 L):\n\n🔵 1 para agua limpia\n\n⚫ 1 para agua residual\n\nEsto garantiza un lavado continuo, higiénico y sin necesidad de conexiones fijas o plomería.",
+    "precio": 891000,
+    "icono": "🛒",
+    "imagen": "92",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-92",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Secador tipo casco Su potencia es de 1000W.",
+    "desc": "Secador tipo casco Su potencia es de 1000W.\nContiene pedestal y casco.\nVoluminizá tu cabello.",
+    "precio": 2253957,
+    "icono": "🛒",
+    "imagen": "93",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "es de 1000W.",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-93",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Equipo",
+    "nombre": "Máquina corta cabello profesional Tipo : Máquinas cortapelo",
+    "desc": "Máquina corta cabello profesional Tipo : Máquinas cortapelo\n\n•Modelo : GR4\n\n•Inalámbrico : Si\n\n•Potencia nominal : 7 W\n\n•Garantía : 3 meses",
+    "precio": 144817,
+    "icono": "🛒",
+    "imagen": "94",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "nominal : 7 W",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-94",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Esterilizador UV para herramientas La caja de desinfección UV + Ozono es un dispositivo compacto diseñado para eliminar",
+    "desc": "Esterilizador UV para herramientas La caja de desinfección UV + Ozono es un dispositivo compacto diseñado para eliminar bacterias, virus y otros patógenos de objetos personales mediante la combinación de luz ultravioleta y ozono. Ideal para desinfectar teléfonos, llaves, mascarillas y otros artículos pequeños, este dispositivo asegura una limpieza efectiva en pocos minutos.",
+    "precio": 1746360,
+    "icono": "🛒",
+    "imagen": "95",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-95",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Toalla/Capas de barbería (dotación)",
+    "desc": "Toalla/Capas de barbería (dotación)",
+    "precio": 41580,
+    "icono": "🛒",
+    "imagen": "96",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-96",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Equipo",
+    "nombre": "Espejo profesional con iluminación Espejo de tocador Hollywood M MIVONDA con 18 bombillas, espejo de maquillaje grande i",
+    "desc": "Espejo profesional con iluminación Espejo de tocador Hollywood M MIVONDA con 18 bombillas, espejo de maquillaje grande iluminado para escritorio y pared, 3 modos de iluminación regulables, conector y puerto de carga USB, blanco",
+    "precio": 817097,
+    "icono": "🛒",
+    "imagen": "97",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-97",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Mobiliario",
+    "nombre": "Carro auxiliar de peluquería Alto",
+    "desc": "Carro auxiliar de peluquería Alto\n82 cm\nAncho\n32 cm\nCantidad de cajones\n4\nColor\nNegro\nFondo\n35 cm\nMaterial\nPlástico",
+    "precio": 473893,
+    "icono": "🛒",
+    "imagen": "98",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-98",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "plancha profesional ideal para todo tipo de prendas al tener dial (botón) variador de temperatura . Se recomienda para l",
+    "desc": "plancha profesional ideal para todo tipo de prendas al tener dial (botón) variador de temperatura . Se recomienda para lapsos de tiempo de planchado inferiores a 8 horas diarias. Incluye tanque de agua, manguera y teflón contramarcado para evitar brillo sobre las prendas.",
+    "precio": 736560,
+    "icono": "🛒",
+    "imagen": "99",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-99",
+    "tipologia": "M2",
+    "sector": "comercio",
+    "ciiu": "G (47) / C (10,14) / S (96)",
+    "proceso": "Comercialización / Transformación / Operación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "cerradora de sacos y costales,  dimensiones 33 x 27 x 30 cm, voltaje 110/220 v, velocidad 1250 rpm, potencia 110w, peso",
+    "desc": "cerradora de sacos y costales,  dimensiones 33 x 27 x 30 cm, voltaje 110/220 v, velocidad 1250 rpm, potencia 110w, peso 5,5 kg Cose todo tipo de papel, textiles y bolsas plásticas.\nCorte de hilo automático.\nSistema de lubricación por bombeo.\nRendimiento de hasta 700 sacos diarios.\nTipo de aguja DNx1 (UY 143",
+    "precio": 594000,
+    "icono": "🛒",
+    "imagen": "100",
+    "specs": {
+      "dimensiones": "33 x 27 x 30 cm, voltaje 110/220 v, velocidad 1250 rpm, potencia 110w, peso 5,5",
+      "peso": "5,5 kg Cose todo tipo de papel, textiles",
+      "capacidad": "",
+      "potencia": "110w, peso 5,5 kg Cose todo tipo de papel, textile",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-100",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "impresora 3d volumen de impresión 228 x 128 x 230 mm, tamaño de la maquina 333 x 270 x 608 mm, peso de la maquina 12 kg,",
+    "desc": "impresora 3d volumen de impresión 228 x 128 x 230 mm, tamaño de la maquina 333 x 270 x 608 mm, peso de la maquina 12 kg, tecnologia lcd msla, materiales resinas fotosensibles de 405 nm, velocidad 1 a5 segunods por capa, resolucion  X-Y 29,7 um, 12 idiomas entre ellos español, pantalla tactil full color de 10,3\", resolucion 8k, potencia 100w",
+    "precio": 1991578,
+    "icono": "🏭",
+    "imagen": "101",
+    "specs": {
+      "dimensiones": "",
+      "peso": "de la maquina 12 kg, tecnologia lcd msla",
+      "capacidad": "",
+      "potencia": "100w",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-101",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Mobiliario",
+    "nombre": "escabiladero para 12 bandejas MaterialAcero inoxidable Capacidad12 bandejas Primera opciónBandeja de 60X40cm estándar europeo",
+    "desc": "escabiladero para 12 bandejas MaterialAcero inoxidable Capacidad12 bandejas Primera opciónBandeja de 60X40cm estándar europeo\nSegunda opciónBandeja de 45X65cm estándar americano Dimensiones160x52x65 cms (Alto, ancho, profundo)",
+    "precio": 1538816,
+    "icono": "🏭",
+    "imagen": "102",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-102",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "freidora a gas 6 litros doble Voltaje110 V",
+    "desc": "freidora a gas 6 litros doble Voltaje110 V\nCapacidad 3 litros cada tanque Dimensiones38,5x45,5x39,5cm (alto, profundo y ancho)\nGarantía6 meses",
+    "precio": 1028611,
+    "icono": "🏭",
+    "imagen": "103",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "3 litros cada tanque Dimensiones38,5x45,5x39,5cm (alto, prof",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-103",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "Extractor de aire/ventilación industrialExtractor De Aire Para Baño y Cocina Industrial Para Pared 41x41x14.5cm 110 Volt",
+    "desc": "Extractor de aire/ventilación industrialExtractor De Aire Para Baño y Cocina Industrial Para Pared 41x41x14.5cm 110 Voltios Volker",
+    "precio": 368161,
+    "icono": "🏭",
+    "imagen": "104",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-104",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "empacadora al vacio 1 barra de sellado 30 cm. 39 x 29,5 x 5 centímetros Voltaje110 voltios",
+    "desc": "empacadora al vacio 1 barra de sellado 30 cm. 39 x 29,5 x 5 centímetros Voltaje110 voltios\nPotencia370 vatios Bomba de vacíoCapacidad: 8 m3 / hora Dimensiones49,5 x 34 x 37,5 cms\nPeso40 Kilogramos",
+    "precio": 4479710,
+    "icono": "🏭",
+    "imagen": "106",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "8 m3 / hora Dimensiones49,5 x 34 x 37,5 cms",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-105",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "Iluminación industrial de taller la Lámpara Led Highbay 200W, ideal para interiores industriales. Con 18000 lm, 6500K y",
+    "desc": "Iluminación industrial de taller la Lámpara Led Highbay 200W, ideal para interiores industriales. Con 18000 lm, 6500K y 50,000 h de vida útil.",
+    "precio": 539827,
+    "icono": "🏭",
+    "imagen": "107",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-106",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Herramientas de control de calidad (calibrador) Tipo : Calibradores y micrómetros",
+    "desc": "Herramientas de control de calidad (calibrador) Tipo : Calibradores y micrómetros\n\n•Ancho : 5 mm\n\n•Alto : 1.5 cm\n\n•Largo : 1.5 cm\n\n•Color : Negro",
+    "precio": 178081,
+    "icono": "🏭",
+    "imagen": "108",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-107",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "extractor de jugos y zumos de frutas y vegetales Capacidad100-120 kilogramos/hora Potencia550W Velocidad2800 RPM",
+    "desc": "extractor de jugos y zumos de frutas y vegetales Capacidad100-120 kilogramos/hora Potencia550W Velocidad2800 RPM\nVoltaje110V Dimensiones43 x 35 x 52 cm\nPesoBruto 20 Kgs - Neto 22 Kgs",
+    "precio": 3042824,
+    "icono": "🏭",
+    "imagen": "109",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-108",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Báscula digital industrial Báscula de piso Industrial 150KG Capacidad: 150kg",
+    "desc": "Báscula digital industrial Báscula de piso Industrial 150KG Capacidad: 150kg\nDivisión: 20g\nUnidades de peso: lb y Kg\nIndicador en ABS de alta resistencia\nBatería interna recargable de 4V y autonomía de 8horas\nDimensión plataforma: 30x40cm\nDisplay: LCD\nDisplay de tres pantallas con 7 dígitos cada uno\nFunción Indicador: Liquidador\nSistema de Tara para disminuir recipientes",
+    "precio": 305316,
+    "icono": "🏭",
+    "imagen": "110",
+    "specs": {
+      "dimensiones": "",
+      "peso": "lb y Kg",
+      "capacidad": "150kg",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-109",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Mobiliario",
+    "nombre": "licuadora de inmersion 12\" trabajo pesado Voltaje120 voltios Potencia850 vatios",
+    "desc": "licuadora de inmersion 12\" trabajo pesado Voltaje120 voltios Potencia850 vatios\nMotor1 1/4 hp Capacidad máxima de mezcla13 galones Material de la hojaAcero inoxidable\nDimensiones13 x 66 x 25.4 cm (ancho, alto y profundo)",
+    "precio": 2523074,
+    "icono": "🏭",
+    "imagen": "111",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "máxima de mezcla13 galones Material de la hojaAcero inoxidab",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-110",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "licuadora antiruido 1,5 litros, 3 velocidades Voltaje110V Potencia950 vatios",
+    "desc": "licuadora antiruido 1,5 litros, 3 velocidades Voltaje110V Potencia950 vatios\nPulsadorPara frapear Dimensiones26 x 46 x 29 cm (ancho, alto y profundo) Peso6.8 Kg",
+    "precio": 2571462,
+    "icono": "🏭",
+    "imagen": "112",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-111",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "greca para 120 tintos Modo de calentamientoGas / Eléctrica",
+    "desc": "greca para 120 tintos Modo de calentamientoGas / Eléctrica\nElaboradaAcero inoxidable\nAccesoriosBronce cromado\nSistema Eléctrico110V\nSwitch3 calores (Alto, medio, bajo y off)\nCable encauchetado2 x 12\nGarantía6 meses",
+    "precio": 1147964,
+    "icono": "🏭",
+    "imagen": "113",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-112",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "maquina electrica para hacer pasta. Voltaje110V",
+    "desc": "maquina electrica para hacer pasta. Voltaje110V\nTipos de pastaEspagueti de 2mm, fetuccini de 4mm, lasaña\nDimensiones33X34X30cm (ancho, alto, fondo)",
+    "precio": 1502820,
+    "icono": "🏭",
+    "imagen": "114",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-113",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "vitrina exhibidora de alimentos calientes. Temperatura20 a 70 grados centígrados",
+    "desc": "vitrina exhibidora de alimentos calientes. Temperatura20 a 70 grados centígrados\nVoltaje110V o 220V IluminaciónReflector luz cálida o blanca SistemaCalefacción por resistencia y aire forzado Potencia1800 watios\nControl de temperaturaFull Gause 512\nDimensiones100 x 130 x 75 cm (ancho, alto y profundo)",
+    "precio": 8910000,
+    "icono": "🏭",
+    "imagen": "115",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-114",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Etiquetadora manual/semiauto Dimensiones: 27.6cm de ancho, 58cm de alto y 86cm de profundidad.",
+    "desc": "Etiquetadora manual/semiauto Dimensiones: 27.6cm de ancho, 58cm de alto y 86cm de profundidad.\nVelocidad máxima de impresión en blanco y negro: 1ppm.\nVelocidad máxima de impresión en color: 1ppm.\nResolución máxima de impresión en blanco y negro: 0.\nResolución máxima de impresión en color: 0.\nEs electrónico.\nEs portátil.\nCapacidad máxima de la tarjeta de memoria: 0MB.\nTipo de pilas: No.",
+    "precio": 5274353,
+    "icono": "🏭",
+    "imagen": "116",
+    "specs": {
+      "dimensiones": "27.6cm de ancho, 58cm de alto y 86cm de profundidad.",
+      "peso": "",
+      "capacidad": "máxima de la tarjeta de memoria: 0MB.",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-115",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "vitrina para helados y postres, VidriosTemplados de 6 mm IluminacionLuz LED Control de temperaturaDigital Descongelación",
+    "desc": "vitrina para helados y postres, VidriosTemplados de 6 mm IluminacionLuz LED Control de temperaturaDigital DescongelaciónAutomática\nVoltaje110 voltios Potencia550 watios Dimensiones68x72x185 cms (frente, profundo, alto)",
+    "precio": 14541120,
+    "icono": "🏭",
+    "imagen": "117",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-116",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "maquina para helado suave de mesa 2 sabores + 1 twist. Carcasa en acero inoxidable 304A, bomba de aire electrica para me",
+    "desc": "maquina para helado suave de mesa 2 sabores + 1 twist. Carcasa en acero inoxidable 304A, bomba de aire electrica para mejora de textura del helado, avisador de nivel de mezcla en tolvas, tolvas con gran capacidad para 5.8 litros, compresor de frio 1,25 hp,voltaje 110/60hz, potencia 2200 w, gas refrigerantes R410a ecologico. capacidad de produccion 20-25 litros hora",
+    "precio": 21265200,
+    "icono": "🏭",
+    "imagen": "118",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "para 5.8 litros, compresor de frio 1,25 hp,voltaje 110/60hz",
+      "potencia": "2200 w, gas refrigerantes R410a ecologico. capacid",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-117",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "enderezador hidraulico para carro 10T Tamaño: 28 x 15,7 x 5,9 pulgadas.",
+    "desc": "enderezador hidraulico para carro 10T Tamaño: 28 x 15,7 x 5,9 pulgadas.\n•Peso: 64 libras. •Capacidad de carga: 10 toneladas. •Tipo de energía del gato: Hidráulico.\n•Altura de elevación máxima: 135 MM – 358 MM. •Cilindro Altura mínima: 390 MM. •Presión de trabajo: 62 MPA. •Aceite se llena: 500 GR. •Manguera de alta presión de 56″ de largo.  INCLUYE: •Bomba hidráulica 1 x hydraulic. •1×56 » manguera de gato. •1×10 ton ram. •1xspreader ram. •Extensión 1×22 »\n•Extensión 1×12 » •Extensión de 1×8 » •1×4 «de extensión. •Conector 1xmale. •Base 1xflat.  •Cabeza.\n•1xwedge. •1xspreader plunger toe. •1xspreader ram toe. •1xserrated silla de montar. •1xRubber Head.\n•1xHigh Caja de impacto.",
+    "precio": 969865,
+    "icono": "🏭",
+    "imagen": "119",
+    "specs": {
+      "dimensiones": "",
+      "peso": "64 libras. •Capacidad de carga: 10 tonel",
+      "capacidad": "de carga: 10 toneladas. •Tipo de energía del gato: Hidráulic",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-118",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "UPS / regulador de voltaje Ups Hikvision de 1000 Va 600w 6 Tomas Nema 5-15r (4r - 2sr)",
+    "desc": "UPS / regulador de voltaje Ups Hikvision de 1000 Va 600w 6 Tomas Nema 5-15r (4r - 2sr)",
+    "precio": 332521,
+    "icono": "🏭",
+    "imagen": "120",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-119",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Deshidratador industrial en Acero Inoxidable 10 bandejas Seca las comida por un ventilador que ha sido instalado en la p",
+    "desc": "Deshidratador industrial en Acero Inoxidable 10 bandejas Seca las comida por un ventilador que ha sido instalado en la parte trasera que posee 1000 watt como elemento de calentamiento, haciendo este fácil de limpiar.\nEl deshidratador se apagara automáticamente cuando la hora fijada anteriormente llegue a su fin.\nEl reloj automático y el termostato, harán que la deshidratación de la comida, sea como un abrir y cerrar de ojos.\nInstrucciones vienen incluidas.\nMaquina eléctrica 110 volts.\nDimensiones externas aprox: 54 cm de largo, por 42 cm de ancho y 38 cm de alto.\nPesa 36 libras aprox.\nCapacidad de 1.5 metros cuadrados de producto a deshidratar.",
+    "precio": 2732388,
+    "icono": "🏭",
+    "imagen": "121",
+    "specs": {
+      "dimensiones": "externas aprox: 54 cm de largo, por 42 cm de ancho y 38 cm de alto.",
+      "peso": "",
+      "capacidad": "de 1.5 metros cuadrados de producto a deshidratar.",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-120",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "Horno industrial de convección Horno de convección a gas con controles eléctricos. Está fabricado en acero inoxidable 43",
+    "desc": "Horno industrial de convección Horno de convección a gas con controles eléctricos. Está fabricado en acero inoxidable 430 con puertas batientes de alto impacto con vidrio para fácil visibilidad. Luz halógena interior. Dimensiones: Frente 0.965 / Fondo sin apertura de la puerta 0.76 y con la apertura de las puertas es de 1.16 - Altura 1.45",
+    "precio": 15911066,
+    "icono": "🏭",
+    "imagen": "122",
+    "specs": {
+      "dimensiones": "Frente 0.965 / Fondo sin apertura de la puerta 0.76 y con la apertura de las pue",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-121",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Mezcladora industrial ReferenciaBX35A",
+    "desc": "Mezcladora industrial ReferenciaBX35A\nVoltaje110v\nCapacidad35Kg\nPotencia0.75Kw\nFrecuencia60Hz\nDimensiones67x51x110cm",
+    "precio": 10488496,
+    "icono": "🏭",
+    "imagen": "123",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-122",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Molino/triturador de granos Voltaje110 voltios",
+    "desc": "Molino/triturador de granos Voltaje110 voltios\nCapacidad de molienda800g\nPotencia2.000 W\nVelocidad25.000 rpm\nCapacidad de producción20-40 kg/h\nTiempo continuo operación5min - Descanso: 8min\nDimensiones22 x 21 x 49.5 cm",
+    "precio": 1088564,
+    "icono": "🏭",
+    "imagen": "124",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "de molienda800g",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-123",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Marmita/75 litros, a gas en acero inoxidable, sistema para controlar la temperatura del producto",
+    "desc": "Marmita/75 litros, a gas en acero inoxidable, sistema para controlar la temperatura del producto",
+    "precio": 23760000,
+    "icono": "🏭",
+    "imagen": "125",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-124",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "Cámara fría/cuarto frío Cuarto frío de 2.00 x 2.00 x 2.50 mts para carnes, pescado, pollo, mariscos, frutas, verduras, e",
+    "desc": "Cámara fría/cuarto frío Cuarto frío de 2.00 x 2.00 x 2.50 mts para carnes, pescado, pollo, mariscos, frutas, verduras, etc. para congelamiento o enfriamiento, temperaturas: -20~-10°C/0~10° diseñada para mantener la cadena de frío de los alimentos.",
+    "precio": 38016000,
+    "icono": "🏭",
+    "imagen": "126",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-125",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "Refrigerador/congelador productivo Peso199kg Dimensiones totales132 x 80 x 210 cms (frente, profundo, alto) Maxima Tempe",
+    "desc": "Refrigerador/congelador productivo Peso199kg Dimensiones totales132 x 80 x 210 cms (frente, profundo, alto) Maxima Temperatura ambiente26 ° C / 60% HR Potencia300W 1/3 Hp Corriente4 amperios Voltaje110v Capacidad1300L Rango de temperatura+4°C a + 8 ° C",
+    "precio": 17641800,
+    "icono": "🏭",
+    "imagen": "127",
+    "specs": {
+      "dimensiones": "totales132 x 80 x 210 cms (frente, profundo, alto) Maxima Temperatura ambiente26",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-126",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Mobiliario",
+    "nombre": "Carro bandejero inoxidable Carro de Servicio para 3 bandejas en Acero Inox.",
+    "desc": "Carro bandejero inoxidable Carro de Servicio para 3 bandejas en Acero Inox.\n\nEs desmontable y cuenta con tubo de acero inoxidable de 25 mm. de diámetro; además sus ruedas llevan freno",
+    "precio": 2014849,
+    "icono": "🏭",
+    "imagen": "128",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-127",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "DESMONTADORA LLANTAS Maquina desmontadora de neumáticos profesional que trabaja con presión de aire y corriente de 110 v",
+    "desc": "DESMONTADORA LLANTAS Maquina desmontadora de neumáticos profesional que trabaja con presión de aire y corriente de 110 v Potencia: 1,1 kw Voltaje: 110 V",
+    "precio": 6058800,
+    "icono": "🏭",
+    "imagen": "129",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "1,1 kw Voltaje: 110 V",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-128",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Envases grado alimentario (frascos/tarrinas)",
+    "desc": "Envases grado alimentario (frascos/tarrinas)",
+    "precio": 23641,
+    "icono": "🏭",
+    "imagen": "130",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-129",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "kit montallantas sellomatic + set 10 tacos para carro o moto",
+    "desc": "kit montallantas sellomatic + set 10 tacos para carro o moto",
+    "precio": 35521,
+    "icono": "🏭",
+    "imagen": "131",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-130",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Juego de Ratchet 61 Piezas – Kit Completo de Dados y Llaves Combinadas Profesional El juego de ratchet de 61 piezas es u",
+    "desc": "Juego de Ratchet 61 Piezas – Kit Completo de Dados y Llaves Combinadas Profesional El juego de ratchet de 61 piezas es un kit completo de herramientas diseñado para trabajos mecánicos, automotrices y de mantenimiento general. Incluye dados, extensiones, ratchets, llaves combinadas y accesorios organizados en un práctico maletín resistente para fácil transporte y almacenamiento. Fabricado en acero de alta resistencia tipo Chrome Vanadium, ofrece durabilidad, precisión y excelente desempeño en trabajos de alto esfuerzo. Es ideal para talleres mecánicos, montallantas, técnicos, emprendimientos y uso doméstico profesional.",
+    "precio": 209682,
+    "icono": "🏭",
+    "imagen": "132",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-131",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "polichadora inalambrica 18v sin bat ni carga Tamaño del respaldo: 125 mm (5″) Orbitas por minuto (opm): Modo normal: 0 –",
+    "desc": "polichadora inalambrica 18v sin bat ni carga Tamaño del respaldo: 125 mm (5″) Orbitas por minuto (opm): Modo normal: 0 – 6.800 Modo de acabado: 0 – 5,200 Carreras por minuto: Modo normal: 0 – 13,600 Modo de acabado: 0-10,400\nVelocidad sin carga: Modo normal: 0 – 780\nModo de acabado: 0-600 Diámetro de orbita: 5,5 mm (7/32 «) Dimensiones (L x A x A): 530x123x134 mm Peso neto: 3.6 kg",
+    "precio": 2102641,
+    "icono": "🏭",
+    "imagen": "133",
+    "specs": {
+      "dimensiones": "(L x A x A): 530x123x134 mm Peso neto: 3.6 kg",
+      "peso": "neto: 3.6 kg",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-132",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "SOLDADOR 180 AMP Especificaciones - Uso Profesional - Liviano - Alta portabilidad. - 180 Amperios de Potencia. DIN 10/25",
+    "desc": "SOLDADOR 180 AMP Especificaciones - Uso Profesional - Liviano - Alta portabilidad. - 180 Amperios de Potencia. DIN 10/25 - Cuenta con Ventilación. - Puede soldar hasta 1/8” en electrodos revestidos. - ARC FORCE, Hot Start.\n- Pantalla Digital. - Medidas: alto 12.5cm, ancho 8.5cm largo 21.5 cm. - Pesa: 3 Kilos. - Amperios de Portencia: 180 - Conexión: 110 / 220V 1PH - Ciclo de Trabajo: 40% - UO: 65V - Tipos de Electrodos: 7018 / 6013 - Rango de Amperaje: 20 - 180 AMP - Medidas: alto 12.5cm, ancho 8.5cm largo 21.5 cm.",
+    "precio": 582001,
+    "icono": "🏭",
+    "imagen": "134",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-133",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Mobiliario",
+    "nombre": "Rango de amperaje: 5 - 150 amperios. - Tipos de electrodos que suelda: 6013, 7018, 6011, SS.- Ciclo de trabajo a 40°C: 5",
+    "desc": "Rango de amperaje: 5 - 150 amperios. - Tipos de electrodos que suelda: 6013, 7018, 6011, SS.- Ciclo de trabajo a 40°C: 50% - Voltaje de entrada: 110/220 voltios (1 fase) - Frecuencia: 50/60 Hz.-Voltaje al vacío: 50-95 voltios (ULTRA ARC) - Consumo máximo: 45A (110V) - 32A (220V) - procesos: MIG/MAG - TIG LIFT ARC. TIG: LIFT ARC (Facilita el inicio de arco en TIG, sin contaminación del tungsteno. - IP: IP23S -  Tipo de aislamiento: F - Diámetro electrodo: 1.6 - 4.0 mm (5/32”) - Arranque: 5 amperios - Conectores rápidos: 35-50 -  Peso: 3.5 Kg -  Garantía: 3 años. -  Uso: Industrial.  -  Material de la carcasa: acero -  Material frontal / trasero: plástico - dimensiones: 23 cm alto x 16 cm ancho x 30 cm largo Características - HMI con pantalla IPS a todo color. - Sistema de ventilación automática. - Arranque en 5 amperios. - Rejillas laterales para una ventilación optimizada que permite mayor espacio interno para los componentes. -  Perilla con generación de pulsos (encoder) incremental y función pulsadora. - Incluye VRD Safety, más seguridad par el soldador. - 150 amperios al 50% del ciclo de trabajo. - Garantía de 1 año. Incluye  - Conjunto de pinza de masa.\n- Conjunto de pinza porta electrodo. - Cinta de transporte. Tecnología -  ULTRA ARC: La última tecnología resonante con control por microprocesador para ofrecer el mejor arco. - ASY TUNE: Diseñado para ser simple y fácil de regular. - TIG LIFT ARC: Facilita el inicio de arco en TIG, sin contaminación del tungsteno. -  ANTI STICK: Si el electrodo se pega, el equipo detiene la potencia para que se pueda despegar fácilmente. - ULTRA CONNECT: Permite la conexión a 110V/220V.-HMI COLOR: Interfaz de usuario con pantalla a todo color. - ARC FORCE: Mejora la estabilidad del arco y evita que el electrodo se pegue. - HOT START: Facilita el inicio del arco, precalentando el electrodo.",
+    "precio": 1306681,
+    "icono": "🏭",
+    "imagen": "135",
+    "specs": {
+      "dimensiones": "23 cm alto x 16 cm ancho x 30 cm largo Características - HMI con pantalla IPS a",
+      "peso": "3.5 Kg -  Garantía: 3 años. -  Uso: Indu",
+      "capacidad": "",
+      "potencia": "para que se pueda despegar fácilmente. - ULTRA CON",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-134",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Plotter de corte (si aplica a producción gráfica) Dimensiones",
+    "desc": "Plotter de corte (si aplica a producción gráfica) Dimensiones\n97x33x36\nReferencia del Producto en el Certificado/Empaque\nProCut Plus KI-720AB\nComposición\n60% Acero 30% Plástico 5% Aluminio 5% Electrónica\nPresentación\nUnidad\nTipo de adorno\nOtros\nMaterial del cuerpo\nMetal\nColor\nAmarillo",
+    "precio": 2934241,
+    "icono": "🏭",
+    "imagen": "136",
+    "specs": {
+      "dimensiones": "97x33x36",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-135",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Laminadora/calandra (producción gráfica) Aplicable a máquinas UV DTF, puede completar las tareas de estampado en oro, el",
+    "desc": "Laminadora/calandra (producción gráfica) Aplicable a máquinas UV DTF, puede completar las tareas de estampado en oro, eliminación de residuos y pelado de películas de una sola vez.\n- Ambos rodillos de presión de la máquina están equipados con funciones de calentamiento.\n- Alta automatización y fácil de usar.",
+    "precio": 11701800,
+    "icono": "🏭",
+    "imagen": "137",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-136",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "Cámara de video semiprofesional Tipo de Camara",
+    "desc": "Cámara de video semiprofesional Tipo de Camara\nSemiprofesional \nTamaño Pantalla\n3  Pulgadas\nProfundida de Inmersion\n0  Metro(s)\nResolucion de la Foto\n24.1  Megapixeles\nZoom Digital\nNo Tiene Zoom Digital \nZoom Optico\nNo Tiene Zoom Optico",
+    "precio": 2821381,
+    "icono": "🏭",
+    "imagen": "138",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-137",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Lentes básicos (kit) Objetivo con montura EF / formato de fotograma completo",
+    "desc": "Lentes básicos (kit) Objetivo con montura EF / formato de fotograma completo\nRango de apertura: f / 1.8 a f / 22\nSuper Spectra Coating\nMotor paso a paso STM\nDiafragma redondeado de 7 cuchillas",
+    "precio": 712788,
+    "icono": "🏭",
+    "imagen": "139",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-138",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Trípode profesional Capacidad de carga: 34 lb",
+    "desc": "Trípode profesional Capacidad de carga: 34 lb\nTrípode extensible de 24 a 77 pulgadas\nLongitud plegada: 19″\nPatas de aleación de aluminio de 4 secciones con sistema de bloqueo abatible\nPata y columna convertibles en monopie\nRosca macho de 1/4″-20\nGiro, inclinación y rotación de 360°\nInclinación de 90°\nColumna central de 2 secciones\nPeso: 3,5 libras",
+    "precio": 392028,
+    "icono": "🏭",
+    "imagen": "140",
+    "specs": {
+      "dimensiones": "",
+      "peso": "3,5 libras",
+      "capacidad": "de carga: 34 lb",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-139",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "Gimbal/estabilizador Para cámaras sin espejo y teléfonos inteligentes",
+    "desc": "Gimbal/estabilizador Para cámaras sin espejo y teléfonos inteligentes\nDiseño liviano, carga útil de hasta 4,4 lb\nControl de cámara mediante Bluetooth/USB-C\nFunciona con el módulo de seguimiento inteligente\nModos horizontales y verticales, ejes de 360°\nBatería de 3100 mAh, 13 horas de duración\nFunciones de panorama, time-lapse y seguimiento\nPuerto NATO para asas y accesorios\nIncluye agarre extendido/trípode",
+    "precio": 2019588,
+    "icono": "🏭",
+    "imagen": "141",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-140",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "Kit de iluminación LED continua Temperatura de color: 3200-5600 K, CRI: 96",
+    "desc": "Kit de iluminación LED continua Temperatura de color: 3200-5600 K, CRI: 96\n660 LED: 330 luz diurna y 330 tungsteno\nTres adaptadores de 100-240 V CA, 50/60 Hz\nTres tripodes de iluminación’\nTres estuches de transporte para paneles LED",
+    "precio": 1900788,
+    "icono": "🏭",
+    "imagen": "142",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-141",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Micrófonos inalámbricos Sistema inalámbrico profesional, dos frecuencias, dos antenas, dos micrófonos de mano. 60 metr",
+    "desc": "Micrófonos inalámbricos Sistema inalámbrico profesional, dos frecuencias, dos antenas, dos micrófonos de mano. 60 metros de alcance, accesorios incluidos. Respuesta de frecuencia: 60Hz- 15KHz.",
+    "precio": 627264,
+    "icono": "🏭",
+    "imagen": "143",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-142",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "Interface de audio La interfaz Sonic Cube II es una interfaz de audio profesional de doble canal que cuenta con un pream",
+    "desc": "Interface de audio La interfaz Sonic Cube II es una interfaz de audio profesional de doble canal que cuenta con un preamplificador analógico de alta calidad con excelente rango dinámico y rendimiento de distorsión, también incorpora tecnología de modelado digital para amplificadores de guitarra y efectos DSP, ofreciendo una mayor versatilidad.",
+    "precio": 464389,
+    "icono": "🏭",
+    "imagen": "144",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-143",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "Grabadora de audio Gracias a un micrófono de alta sensibilidad, una reproducción sencilla y sus más de 159 horas de alma",
+    "desc": "Grabadora de audio Gracias a un micrófono de alta sensibilidad, una reproducción sencilla y sus más de 159 horas de almacenamiento2, el portátil y versátil grabador de voz digital de la serie UX570 te permite grabar conferencias, reuniones y música con una gran calidad.",
+    "precio": 742381,
+    "icono": "🏭",
+    "imagen": "145",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-144",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Disco duro externo ssd externo 2 tb",
+    "desc": "Disco duro externo ssd externo 2 tb",
+    "precio": 1057320,
+    "icono": "🏭",
+    "imagen": "146",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-145",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Monitor de referencia Entradas:",
+    "desc": "Monitor de referencia Entradas:\n\"Bluetooth 5.0\n1- Estéreo de 1/8\"\"\n2- TRS ¼” balanceada\n2- RCA no balanceadas\"\n\nRespuesta en frecuencia:\n80 Hz – 20 kHz\n\nFrecuencia de Crossover:\n2.8 kHz\n\nPotencia del amplificador:\n25W/por altavoz\n\nLF Driver:\n3.5\"",
+    "precio": 786456,
+    "icono": "🏭",
+    "imagen": "147",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "del amplificador:",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-146",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Fondo croma Fondo perfecto para televisión, producción de video y fotografía.",
+    "desc": "Fondo croma Fondo perfecto para televisión, producción de video y fotografía.\nEl telón cuenta con un doblez para colgar en la barra.\nBordes reforzados para evitar daños de tela.\nHecho de 100% puro algodón muslin.",
+    "precio": 237481,
+    "icono": "🏭",
+    "imagen": "148",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-147",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Equipo",
+    "nombre": "Teleprompter básico Lectura clara, sin necesidad de memorizar, presentación fluida y natural.",
+    "desc": "Teleprompter básico Lectura clara, sin necesidad de memorizar, presentación fluida y natural.\n• Fácil de instalar y guardar.\n• Sin fugas de luz en el lente de la cámara.\n• Mantiene el nivel de los ojos y la alineación del lente para diferentes dispositivos.\n• Clip de liberación rápida para smartphone.\n• Anillo adaptador de lente de cámara: 58/67/72/77/82 mm.\n• Admite disparos con lente gran angular sin viñeteado.\n• Cuenta con soportes para zapata fría y una entrada de rosca de 1/4\"\n• Control remoto Bluetooth",
+    "precio": 475081,
+    "icono": "🏭",
+    "imagen": "149",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-148",
+    "tipologia": "M3",
+    "sector": "produccion",
+    "ciiu": "C (10–33) / R (90)",
+    "proceso": "Producción / Transformación / Edición",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Case/rack de transporte de equipos Rack de 8 unidades ligero y resistente, fabricado en una mezcla de componentes y polí",
+    "desc": "Case/rack de transporte de equipos Rack de 8 unidades ligero y resistente, fabricado en una mezcla de componentes y polímeros de alta resistencia química, que lo hace resistente a ácidos o golpes. Tiene una profundidad útil de 420 mm.",
+    "precio": 924264,
+    "icono": "🏭",
+    "imagen": "150",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-149",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Semillas certificadas (granos y hortalizas) 10 gramos (5 paquetes)",
+    "desc": "Semillas certificadas (granos y hortalizas) 10 gramos (5 paquetes)",
+    "precio": 36828,
+    "icono": "🌾",
+    "imagen": "151",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-150",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Plántulas/almácigos",
+    "desc": "Plántulas/almácigos",
+    "precio": 21562,
+    "icono": "🌾",
+    "imagen": "152",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-151",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Bolsas para vivero",
+    "desc": "Bolsas para vivero",
+    "precio": 8910,
+    "icono": "🌾",
+    "imagen": "153",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-152",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Sustrato agrícola (coco/turba) 25 litros",
+    "desc": "Sustrato agrícola (coco/turba) 25 litros",
+    "precio": 33264,
+    "icono": "🌾",
+    "imagen": "154",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-153",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Compost/abono orgánico 50 kilos",
+    "desc": "Compost/abono orgánico 50 kilos",
+    "precio": 20493,
+    "icono": "🌾",
+    "imagen": "155",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-154",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Fertilizante NPK 50 kg",
+    "desc": "Fertilizante NPK 50 kg",
+    "precio": 181764,
+    "icono": "🌾",
+    "imagen": "156",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-155",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Cal dolomita/Enmiendas 50 kg",
+    "desc": "Cal dolomita/Enmiendas 50 kg",
+    "precio": 71161,
+    "icono": "🌾",
+    "imagen": "157",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-156",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Bioinsumos (Trichoderma/Micorrizas) 150 gr",
+    "desc": "Bioinsumos (Trichoderma/Micorrizas) 150 gr",
+    "precio": 60826,
+    "icono": "🌾",
+    "imagen": "158",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-157",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Trampas cromáticas",
+    "desc": "Trampas cromáticas",
+    "precio": 21028,
+    "icono": "🌾",
+    "imagen": "159",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-158",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Feromonas para monitoreo",
+    "desc": "Feromonas para monitoreo",
+    "precio": 71280,
+    "icono": "🌾",
+    "imagen": "160",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-159",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Malla anti-insectos 2x2 x 1,20",
+    "desc": "Malla anti-insectos 2x2 x 1,20",
+    "precio": 287203,
+    "icono": "🌾",
+    "imagen": "161",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-160",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Malla sombra MALLA SOMBRA MULTIPROPOSITO 4X100 METROS MACHO® (65%)",
+    "desc": "Malla sombra MALLA SOMBRA MULTIPROPOSITO 4X100 METROS MACHO® (65%)",
+    "precio": 667180,
+    "icono": "🌾",
+    "imagen": "162",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-161",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Tutores y cintas de amarre",
+    "desc": "Tutores y cintas de amarre",
+    "precio": 415800,
+    "icono": "🌾",
+    "imagen": "163",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-162",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Pala punta redonda 150 cm, ancho 20 cm - alto 150 cm , mango en madera. Material hoja acero.",
+    "desc": "Pala punta redonda 150 cm, ancho 20 cm - alto 150 cm , mango en madera. Material hoja acero.",
+    "precio": 54511,
+    "icono": "🌾",
+    "imagen": "164",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-163",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Rastrillo metalico 14 dientes, ancho 34 cm - alto 122 cm, mango en madera.",
+    "desc": "Rastrillo metalico 14 dientes, ancho 34 cm - alto 122 cm, mango en madera.",
+    "precio": 54511,
+    "icono": "🌾",
+    "imagen": "165",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-164",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Tijeras de poda Tipo : Tijeras de podar  •Ancho : 28 cm •Alto : 4 cm •Largo : 80 cm •Color : Negro/Gris/rojo",
+    "desc": "Tijeras de poda Tipo : Tijeras de podar  •Ancho : 28 cm •Alto : 4 cm •Largo : 80 cm •Color : Negro/Gris/rojo",
+    "precio": 178081,
+    "icono": "🌾",
+    "imagen": "166",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-165",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Serrucho de poda Serrucho Cortador de Ramas O de Poda Plegable Cuchilla 10''",
+    "desc": "Serrucho de poda Serrucho Cortador de Ramas O de Poda Plegable Cuchilla 10''",
+    "precio": 54529,
+    "icono": "🌾",
+    "imagen": "167",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-166",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Carretilla de carga Carretilla Negra Plastica Cachaca 169 Litros 6ft Imsa",
+    "desc": "Carretilla de carga Carretilla Negra Plastica Cachaca 169 Litros 6ft Imsa",
+    "precio": 443878,
+    "icono": "🌾",
+    "imagen": "168",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-167",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Bomba de espalda (aspersión) Pulverizador Manual 16 Lt  Tipo : Fumigadoras manuales de espalda •Ancho : 610 mm •Alto : 1",
+    "desc": "Bomba de espalda (aspersión) Pulverizador Manual 16 Lt  Tipo : Fumigadoras manuales de espalda •Ancho : 610 mm •Alto : 185 mm •Largo : 410 mm •Diámetro : 1 cm",
+    "precio": 94921,
+    "icono": "🌾",
+    "imagen": "169",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-168",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Equipo",
+    "nombre": "Motobomba para riego Motobomba  Gasolina Twp80sx 3''x3'' 6.5hp / 196cc Caudal 35mca y 60m3/h",
+    "desc": "Motobomba para riego Motobomba  Gasolina Twp80sx 3''x3'' 6.5hp / 196cc Caudal 35mca y 60m3/h",
+    "precio": 802969,
+    "icono": "🌾",
+    "imagen": "170",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-169",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Kit riego por goteo (manguera/cinta/goteros) Incluye: Adaptador de manguera de 1 x 3/4 a 1/4 pulgadas. 10 conectores de",
+    "desc": "Kit riego por goteo (manguera/cinta/goteros) Incluye: Adaptador de manguera de 1 x 3/4 a 1/4 pulgadas. 10 conectores de 1/4 pulgadas con bloqueo en T. 2 adaptadores de manguera de 3/4 a 1/2 pulgadas. 3 conectores de 1/2 a 4 vías de 1/4 pulgadas. 2 conectores de 1/2 a 2 vías de 1/4 pulgadas. 4 estacas de soporte de goteo de 1/2 pulgadas.6 clavijas de extremo acoplado de  1/4 pulgadas. 2 enchufes de extremo bloqueado de 1/2 pulgadas. Tubo de 98 pies de 1/4. 26 pies.\nTubo de 1/2″ 10 emisores de goteo, 10 ulverizadores, 10 boquillas de nebulización; Cada boquilla de pulverización se puede ajustar individualmente de acuerdo a sus ajustes y necesidades. Los 3 conectores resistentes de 1/2 a 4 vías de 1/4 pulgadas que pueden dividir el agua en 12 ramas; además de añadir 2 conectores de 1/2″ a 2 vías de 1/4″ que pueden dividir el agua en 4 ramas, para crear la rama maravillosa para sus plantas. Aumenta la presión del agua resolviendo el problema de la escasez de agua al final de los sistemas de riego.",
+    "precio": 427680,
+    "icono": "🌾",
+    "imagen": "171",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-170",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Aspersores y microaspersores",
+    "desc": "Aspersores y microaspersores",
+    "precio": 71280,
+    "icono": "🌾",
+    "imagen": "172",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-171",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Tanque de almacenamiento de agua •Tipo : Tanque 500 Litros •Uso : Residencial, institucional e industrial •Normas de Fab",
+    "desc": "Tanque de almacenamiento de agua •Tipo : Tanque 500 Litros •Uso : Residencial, institucional e industrial •Normas de Fabricación : RAS 0330 •Ancho : 105 cm •Alto : 103 cm",
+    "precio": 275616,
+    "icono": "🌾",
+    "imagen": "173",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-172",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Filtros y válvulas de riego **DIMENSIONES**:",
+    "desc": "Filtros y válvulas de riego **DIMENSIONES**:\n- ALTO: 5 pulgadas - ANCHO: 4 pulgadas\n- LARGO: 3 pulgadas **MATERIALES**: PVC resistente a la corrosión  **USO**: Ideal para sistemas de riego agrícola, jardinería o pesaje industrial",
+    "precio": 126914,
+    "icono": "🌾",
+    "imagen": "174",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-173",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Medidor de pH de suelo/agua Especializado con electrodo para la medida de pH del suelo.",
+    "desc": "Medidor de pH de suelo/agua Especializado con electrodo para la medida de pH del suelo.\nPantalla LCD multi-nivel. Operación amigable con el usuario con sólo dos botones. Mensajes tutoriales sobre la pantalla. Calibración automática de uno o dos puntos. BEPS: El Sistema de prevención en el error de batería alerta al usuario en caso de que el poder de la batería se encuentre bajo y pueda afectar adversamente las lecturas. Muestra porcentaje de batería. Compacto, para trabajo exigente y a prueba de agua.",
+    "precio": 4304124,
+    "icono": "🌾",
+    "imagen": "175",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-174",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Medidor de conductividad (EC) ESPECIFICACIONES",
+    "desc": "Medidor de conductividad (EC) ESPECIFICACIONES\nDistancia 0 a 1999 µS / cm 1 µS / cm\nResolución 1 µS / cm\nExactitud ± 2% de escala completa\nSoluciones de calibración (incluidas) 1413 µS / cm (M10031B)\nSonda de conductividad SE510 (incluido)\nCompensación de temperatura automático, de 5 a 50 ° C\nAmbiente 0 a 50 ° C / 32 a 122 ° F; HR máx. 95%\nTipo de Batería: 1 x 9V (incluido)\nDuración de la batería: aprox. 300 horas de uso continuo\nDimensiones: 145 x 80 x 40 mm\nPeso: 220 g (con batería)",
+    "precio": 883753,
+    "icono": "🌾",
+    "imagen": "176",
+    "specs": {
+      "dimensiones": "145 x 80 x 40 mm",
+      "peso": "220 g (con batería)",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-175",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Termohigrómetro Caracteristicas generales",
+    "desc": "Termohigrómetro Caracteristicas generales \nPoder Batería de 1.5V (R03) x 1 Monitor 92.5mm x 60mm Color del producto Blanco Peso neto del producto 110g Tamaño del producto 130 mm x 22 mm x 78 mm Accesorios estandar Baterías, sonda de temperatura externa Embalaje individual standard Caja de regalo, bolso de burbujas, manual en inglés.",
+    "precio": 81972,
+    "icono": "🌾",
+    "imagen": "177",
+    "specs": {
+      "dimensiones": "",
+      "peso": "neto del producto 110g Tamaño del produc",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-176",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Equipo",
+    "nombre": "Estación climática básica Caracaterísticas: Con 3 sensores Terminal de lectura portátil Lectura de datos en tiempo real",
+    "desc": "Estación climática básica Caracaterísticas: Con 3 sensores Terminal de lectura portátil Lectura de datos en tiempo real Almacenamiento de datos de hasta 200000 mediciones Soporta carga de datos en la nube Señal estable y de alta precisión\nLarga distancia de transmisión Resistencia al agua Soporta la integración de más sensores\nFácil de instalar y transportar Contiene: Terminal portátil Sensor integrado de humedad,  tempertura y presión atmosférica. Con cubierta\nSensor de velocidad del viento Sensor de dirección del viento Tripode Caja de alumnio",
+    "precio": 4561920,
+    "icono": "🌾",
+    "imagen": "178",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-177",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Báscula de plataforma Acero inoxidable 304",
+    "desc": "Báscula de plataforma Acero inoxidable 304\n4 celdas de carga tipo viga\nCaja de empalme ABS\nBáscula 1 x 1  programación 500KG",
+    "precio": 4453812,
+    "icono": "🌾",
+    "imagen": "179",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-178",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Lavadora de frutas/verduras",
+    "desc": "Lavadora de frutas/verduras",
+    "precio": 18669765,
+    "icono": "🌾",
+    "imagen": "181",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-179",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Centrífuga/secadora de hojas Tipo",
+    "desc": "Centrífuga/secadora de hojas Tipo\nEquipo de secado rotativo\nMétodo de calefacción\nLibre de pirógenos\nMaterial\nSUS304, SUS304L\nVoltaje\n220V, 110V\nClave de puntos de venta\nFácil de operar, Alta productividad, Larga vida de servicio, Multifuncional\nLos campos de aplicación\nVegetal planta de procesamiento, Catering comercial, De procesamiento de fruta planta",
+    "precio": 5346000,
+    "icono": "🌾",
+    "imagen": "182",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-180",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "palin hoyador con cabo, ancho 19 cm - alto 160 cm , espesor 0,20 cm. Tipo de pala cuadrada, material mango madera, - ace",
+    "desc": "palin hoyador con cabo, ancho 19 cm - alto 160 cm , espesor 0,20 cm. Tipo de pala cuadrada, material mango madera, - acero al carbono",
+    "precio": 68173,
+    "icono": "🌾",
+    "imagen": "183",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-181",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "tijera de podar a una mano, anchoi 8 cm - alto 1,2 cm, largo 15,4 cm. Material de la hoja en acero, ancho de corte 20 mm",
+    "desc": "tijera de podar a una mano, anchoi 8 cm - alto 1,2 cm, largo 15,4 cm. Material de la hoja en acero, ancho de corte 20 mm.",
+    "precio": 40849,
+    "icono": "🌾",
+    "imagen": "184",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-182",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "guadaña a gasolina, eje recto, de 32,6 cc, 1,3 hp Alimentacion gasolina, aceite, motor 2 tiempos, uso industrial, alto 5",
+    "desc": "guadaña a gasolina, eje recto, de 32,6 cc, 1,3 hp Alimentacion gasolina, aceite, motor 2 tiempos, uso industrial, alto 50 cm.",
+    "precio": 1853161,
+    "icono": "🌾",
+    "imagen": "185",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-183",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "motosierra a gasolina 2.8 hp - espada de 70 cm, ancho  26 cm - alto 30 cm , tipo profesional",
+    "desc": "motosierra a gasolina 2.8 hp - espada de 70 cm, ancho  26 cm - alto 30 cm , tipo profesional",
+    "precio": 741193,
+    "icono": "🌾",
+    "imagen": "186",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-184",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "barra forjada en una sola pieza en acero de alto carbono, pre-afilado. Con un tratamiento termico con temple y revenido",
+    "desc": "barra forjada en una sola pieza en acero de alto carbono, pre-afilado. Con un tratamiento termico con temple y revenido garantizadno un menor desgaste. de 14 libras con punta y pala 130 cm x 10 cm",
+    "precio": 187169,
+    "icono": "🌾",
+    "imagen": "187",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-185",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "barreton de 3 libras, color negro, en acero con alto contenido de carbono y tratamiento termico. (sin cabo)",
+    "desc": "barreton de 3 libras, color negro, en acero con alto contenido de carbono y tratamiento termico. (sin cabo)",
+    "precio": 49456,
+    "icono": "🌾",
+    "imagen": "188",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-186",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "baston abonador, diseñada para aplicar fertilizantes  enmiendas solidas en los cultivos sin necesidad de agacharse, opti",
+    "desc": "baston abonador, diseñada para aplicar fertilizantes  enmiendas solidas en los cultivos sin necesidad de agacharse, optimizando el trabajo en el campo. Ideal para cultivos como : café, platano, banano, cacao, aguacate y citricos.",
+    "precio": 98366,
+    "icono": "🌾",
+    "imagen": "189",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-187",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Equipo",
+    "nombre": "bidon para gasolina de 5 litros, transparente con homologacion.",
+    "desc": "bidon para gasolina de 5 litros, transparente con homologacion.",
+    "precio": 81289,
+    "icono": "🌾",
+    "imagen": "190",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-188",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Equipo",
+    "nombre": "bomba presurizacion de hasta 3 servicios, ideal para instalar antes de calentadores, lavadoras, lavaplatos y regaderas q",
+    "desc": "bomba presurizacion de hasta 3 servicios, ideal para instalar antes de calentadores, lavadoras, lavaplatos y regaderas que requieren de presion. - utilizar con tuberia de 1/4 en la salida. Tipo de motor electrico, potencia 0,40 HP RPM del motor. 3450 RPM, encendido automatico/ manual, - voltaje 127v.",
+    "precio": 641520,
+    "icono": "🌾",
+    "imagen": "191",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "0,40 HP RPM del motor. 3450 RPM, encendido automat",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-189",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Equipo",
+    "nombre": "compactador verticaal a gasolina, con correa de distribucion silenciosa, hacen este motor ligero y compacto con muy poco",
+    "desc": "compactador verticaal a gasolina, con correa de distribucion silenciosa, hacen este motor ligero y compacto con muy poco mantinimiento. El dicesño combinado con un escape de gran capacidad reducen el ruido a un nivel bajo. Rangos de frecuencia oscilan entre 450 y 700 golpes por minuto. potenciado por gasolina 4T, fuerza de impacto 13KN, altura de salto 85mm. golpes por minuto 650-690.",
+    "precio": 9486180,
+    "icono": "🌾",
+    "imagen": "192",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "reducen el ruido a un nivel bajo. Rangos de frecuencia oscil",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-190",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Mobiliario",
+    "nombre": "cortador de ramas con mango telescopico 2,34 mts, 14\" con mango de acero con extension maxima 2,34 mts, serrucho y podad",
+    "desc": "cortador de ramas con mango telescopico 2,34 mts, 14\" con mango de acero con extension maxima 2,34 mts, serrucho y podador, cortes limpios y precisos, resorte extrafuerte. Sistema de doble polea, dientes con triple filo para cortes rapidos.",
+    "precio": 129515,
+    "icono": "🌾",
+    "imagen": "193",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-191",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "CORTASETOS MINI BATERIA 10.8V INCORPORADA+CARGADOR, El juego de cortasetos con batería es adecuado para tareas doméstica",
+    "desc": "CORTASETOS MINI BATERIA 10.8V INCORPORADA+CARGADOR, El juego de cortasetos con batería es adecuado para tareas domésticas como el mantenimiento de setos más pequeños de hoja perenne y plantas leñosas ornamentales de hojas pequeñas como los bojes. También puedes utilizar el cortasetos para recortar los bordes del césped 1x cortasetos inalámbrico • 1 Batería de iones de litio, cargador estándar AL 1 • 1 cortasetos, barra de 20 cm de longitud, incluida funda para cuchillas • 1 cortacésped, corte de 12 cm de ancho, incluida la funda de la cuchilla • Tensión terminal: 10,8 V • Peso: 0,8 kg (sin batería)",
+    "precio": 1021918,
+    "icono": "🌾",
+    "imagen": "194",
+    "specs": {
+      "dimensiones": "",
+      "peso": "0,8 kg (sin batería)",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-192",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Electrobomba Alta Presión Domestica 1Hp 110V / 22 • Tipo de",
+    "desc": "Electrobomba Alta Presión Domestica 1Hp 110V / 22 • Tipo de Motor: Eléctrico. • Potencia del Motor: 1.00 hp. • RPM del Motor: 3450 RPM. • Voltaje: 127 / 220 V. • Fases del motor: Monofásico. • Protección térmica: si. • Tipo de Bomba: Domestica. • Flujo Optimo: 115.00 LPM. • Altura optima: 24.00 m • Numero de etapas: 1 etapa. • Diámetro de succión: 1.25 pulg. • Tipo de impulsor: Cerrado. • Material del cuerpo: Hierro Gris. • Material del impulsor: Nylon / Noryl. • Material del sello mecánico: Cerámica, carbón, acero inoxidable y/o buna. • Temperatura máxima del Agua: 40 C.",
+    "precio": 971368,
+    "icono": "🌾",
+    "imagen": "195",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "del Motor: 1.00 hp. • RPM del Motor: 3450 RPM. • V",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-193",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Bebederos automáticos (pecuaria menor) 6.5 LITROS",
+    "desc": "Bebederos automáticos (pecuaria menor) 6.5 LITROS",
+    "precio": 36828,
+    "icono": "🌾",
+    "imagen": "196",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-194",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "ELECTROBOMBA DRENAJE 1/2HP 110V AGUAS SUCIAS 1.1/4,son la solución fiable para las aguas residuales. Normalmente se util",
+    "desc": "ELECTROBOMBA DRENAJE 1/2HP 110V AGUAS SUCIAS 1.1/4,son la solución fiable para las aguas residuales. Normalmente se utilizan en instalaciones fijas para la evacuación de sumideros, pero también pueden utilizarse de forma móvil, por ejemplo, en depósitos, cisternas, zanjas o en caso de inundación. Las electrobombas tienen más potencia y un mayor paso libre. El motor sobredimensionado permite que la electrobomba trabaje al descubierto sin que el motor se sobrecaliente. La amplia descarga lateral está diseñada para evacuar grandes cantidades de agua en poco tiempo con un consumo muy reducido. ESPECIFICACIONES • • Caudal: hasta 240 l/min (14.4 m3/h) • Altura: hasta 10 m • Temperatura del líquido: hasta +40 °C (+90 °C para servicio intermitente máximo de 3 minuas) • Paso de cuerpos sólidos: hasta Ø 30 mm • Máxima profundidad de uso: hasta 5 m (con cable de alimentación de longitud adecuada) • Inmersión mínima para servicio continuo: 35 mm • Motor: 2 polos • Protección: IP 68",
+    "precio": 1864862,
+    "icono": "🌾",
+    "imagen": "197",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "y un mayor paso libre. El motor sobredimensionado",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-195",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "Mojarra 45% Hna 40 kg, es un alimento con niveles de proteína por encima de 45% y con niveles de grasa mínimos de 5%, es",
+    "desc": "Mojarra 45% Hna 40 kg, es un alimento con niveles de proteína por encima de 45% y con niveles de grasa mínimos de 5%, especialmente diseñado para la primera etapa de alimentación de mojarra /tilapias.",
+    "precio": 223344,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-196",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "Truchas 50% Iniciación SC Ext 20 kg, es un alimento extruido con un nivel de proteína por encima del 50% y con niveles d",
+    "desc": "Truchas 50% Iniciación SC Ext 20 kg, es un alimento extruido con un nivel de proteína por encima del 50% y con niveles de grasa mínimos al 13%, especialmente diseñado para la primera etapa de alimentación de la Trucha, garantizando un crecimiento ideal de los alevinos.",
+    "precio": 202435,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-197",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "Tilapia 30 Ext AGR 40 kg, viene presentada en gránulos flotantes de 4.5 mm de diámetro para ofrecer a peces desde los 15",
+    "desc": "Tilapia 30 Ext AGR 40 kg, viene presentada en gránulos flotantes de 4.5 mm de diámetro para ofrecer a peces desde los 150 gramos hasta los 250 gramos de peso promedio, además, cuenta con otra presentación especial de 6.0 mm de diámetro.",
+    "precio": 153490,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "promedio, además, cuenta con otra presen",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-198",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "aireador splash con rejilla, 1hp (0,75kw), 220v. 3.200 litros/minuto. Frecuencia 60hz, fases 1, ctrans de oxigeno Kg02/H",
+    "desc": "aireador splash con rejilla, 1hp (0,75kw), 220v. 3.200 litros/minuto. Frecuencia 60hz, fases 1, ctrans de oxigeno Kg02/H 19 kg 02/h. 85 x 93 x 48 - peso 85 kg",
+    "precio": 3265812,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "85 kg",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-199",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "aireador sumergible potencia 0,34 HP (250w), voltaje 110v, ingreso de aire 12,960 L/H, profundidad de instalacion permit",
+    "desc": "aireador sumergible potencia 0,34 HP (250w), voltaje 110v, ingreso de aire 12,960 L/H, profundidad de instalacion permitida 0,3 mts- 0,65 mts., caudal 50,000 L/H, dimensiones. 25x12,5 x 15,5 cm",
+    "precio": 1460467,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "0,34 HP (250w), voltaje 110v, ingreso de aire 12,9",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-200",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "soplador industrial potencia 0,37 kw - 0,50 HP, comsumo amperios 6,7 - 110v, presion max 12 kpa/1,7 psi. Caudal max 60 m",
+    "desc": "soplador industrial potencia 0,37 kw - 0,50 HP, comsumo amperios 6,7 - 110v, presion max 12 kpa/1,7 psi. Caudal max 60 m3/h 35,3 cfm, diemetro de conexión  1 1/4",
+    "precio": 1392158,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "0,37 kw - 0,50 HP, comsumo amperios 6,7 - 110v, pr",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-201",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "manguera difusora 10 mts. Diseñada para usos en tanques de geo membrana o concreto, debe trabar a profundidades entre 1,",
+    "desc": "manguera difusora 10 mts. Diseñada para usos en tanques de geo membrana o concreto, debe trabar a profundidades entre 1,5 y 1 metro. Longitud 10 mts. Grosor de la parede 6,5 mm. Presion de rotura 80 PSI, flujo de aire optimo 1,3 cfm/2,223h, diametro externo 25 mm. diametro interno 12 mm. dimenciones largo 55, ancho 55, alto 26 - peso 1,5 kg}",
+    "precio": 244550,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "1,5 kg}",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-202",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "disco difusor de burbujas 9\" pulgadas, area de cobertura 25 - 0,8 m2, flujo de diseño 5-5,5 m3/h, fjujo optimo de tabajo",
+    "desc": "disco difusor de burbujas 9\" pulgadas, area de cobertura 25 - 0,8 m2, flujo de diseño 5-5,5 m3/h, fjujo optimo de tabajo 3m3/h, tamaño de burbuja 1-2 mm, numero de poros 1 mm, transferencia de oxigeno (SOTR) 39 kg/h, perdidas de friccion 32 - 0,44 mca. tipo de conector roscado 3/4\" NPT. mach",
+    "precio": 203563,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-203",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "motoazada (motocultor) gasolina 7hp, ancho de trabajo 75 cm - 100 cm, profundidad de arado 15-30 cm, 3 velocidades, capa",
+    "desc": "motoazada (motocultor) gasolina 7hp, ancho de trabajo 75 cm - 100 cm, profundidad de arado 15-30 cm, 3 velocidades, capacidad tanque combustible 3,6 litros, manillar regulable en altura - reversible. Dimensiones: 96x46x66 cm, torque max. 11,7 Nm / 2,500 rpm, filtro de aceite. dimensiones del motor: 38 x 33 x 34 cm,  transmision de engranajes, embrague de disco de friccion, velocidades 2+1, cuchillas secas 4 pcs 8 grupo, 32 und mas disco lateral peso bruto 92 kg",
+    "precio": 4056247,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "96x46x66 cm, torque max. 11,7 Nm / 2,500 rpm, filtro de aceite. dimensiones del",
+      "peso": "bruto 92 kg",
+      "capacidad": "tanque combustible 3,6 litros, manillar regulable en altura",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-204",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "cortador de maleza 1M Gasolina 7hp Ancho De Corte De 100cm Dos Velocidades Ideal Para Cosechar Forrajes Y Pastos De Cort",
+    "desc": "cortador de maleza 1M Gasolina 7hp Ancho De Corte De 100cm Dos Velocidades Ideal Para Cosechar Forrajes Y Pastos De Corte Como Alfalfa, Avena Y Trigo\nPotencia, precisión y durabilidad en una sola máquina. Ideal para cortar pasto, heno y maleza en terrenos agrícolas y áreas verdes. Cuenta con cuchillas de alto rendimiento, motor robusto y diseño ergonómico para largas jornadas de trabajo. Perfecta para maximizar tu productividad con cortes rápidos y uniformes. Información Técnica Motor H170F4.0KW Cambios de marcha 1/0/-1 Cambios de marcha de trabajo 0/1\nAncho de corte 100 cm Llantas 5.0-6 Dimensiones: Ancho: 100 cm Alto: 66 cm Longitud: 125 cm Peso: 155 kg",
+    "precio": 6105132,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "Ancho: 100 cm Alto: 66 cm Longitud: 125 cm Peso: 155 kg",
+      "peso": "155 kg",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-205",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ahoyadora, tipo de motor 2 tiempos, potencia (kw/hp) 1,3 /1,8 - cilindrada 51,7 cc, encendido magneto transitorizado, ti",
+    "desc": "ahoyadora, tipo de motor 2 tiempos, potencia (kw/hp) 1,3 /1,8 - cilindrada 51,7 cc, encendido magneto transitorizado, tipo de combustible gasolina, regimen 9600 rpm, deposito de combustible 1000 ml, arranque manual, mezcla 40:1 aceite, dimensiones efectivas broca: Ø 20 x 76 cm Dimensiones  L x An x Al (cm) 87 x 89 x 57 Peso bruto 15,5 kg",
+    "precio": 1679059,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "efectivas broca: Ø 20 x 76 cm Dimensiones  L x An x Al (cm) 87 x 89 x 57 Peso br",
+      "peso": "bruto 15,5 kg",
+      "capacidad": "",
+      "potencia": "(kw/hp) 1,3 /1,8 - cilindrada 51,7 cc, encendido m",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-206",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "fumigadora 14 litros gasolina La Fumigadora esta equipada con un motor de 2 tiempos de 41.5 cc y una potencia de 2.4 HP,",
+    "desc": "fumigadora 14 litros gasolina La Fumigadora esta equipada con un motor de 2 tiempos de 41.5 cc y una potencia de 2.4 HP, esta fumigadora ofrece un rendimiento excepcional en la aplicación de pesticidas, fungicidas y fertilizantes líquidos. Su tanque de 14 litros permite cubrir grandes superficies sin necesidad de recargas frecuentes, mientras que su alcance de pulverización horizontal de hasta 12 metros garantiza una distribución uniforme del producto. Ideal para cultivos de mediana altura, esta fumigadora es perfecta para pequeños y medianos productores que buscan eficiencia y durabilidad en sus equipos.",
+    "precio": 1024650,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "de 2.4 HP, esta fumigadora ofrece un rendimiento e",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-207",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "La Fumigadora es una herramienta equipada con un motor de 26cc y una potencia de 1 HP, esta fumigadora ofrece un rendimi",
+    "desc": "La Fumigadora es una herramienta equipada con un motor de 26cc y una potencia de 1 HP, esta fumigadora ofrece un rendimiento excepcional en la aplicación de pesticidas, fungicidas y fertilizantes líquidos. Su tanque de 25 litros permite cubrir grandes superficies sin necesidad de recargas frecuentes, mientras que sus dos lanzas con boquillas ajustables garantizan una distribución uniforme del producto. Ideal para cultivos de mediana altura, esta fumigadora es perfecta para pequeños y medianos productores que buscan eficiencia y durabilidad en sus equipos.",
+    "precio": 976833,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "de 1 HP, esta fumigadora ofrece un rendimiento exc",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-208",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "La Fumigadora 2L es la herramienta ideal para el cuidado de tu jardín, huerto o cultivos pequeños. Su diseño ergonómico",
+    "desc": "La Fumigadora 2L es la herramienta ideal para el cuidado de tu jardín, huerto o cultivos pequeños. Su diseño ergonómico y compacto permite una fumigación precisa y cómoda, garantizando la protección de tus plantas contra plagas y enfermedades. Fabricada con materiales resistentes, asegura durabilidad y un óptimo rendimiento en cada uso. Con su capacidad de 2 litros, esta fumigadora manual es perfecta para quienes buscan practicidad y eficiencia en labores agrícolas y de jardinería.",
+    "precio": 30591,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "de 2 litros, esta fumigadora manual es perfecta para quienes",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-209",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "La Desgranadora de Maíz es la aliada perfecta para productores, agricultores y negocios que buscan agilizar la cosecha y",
+    "desc": "La Desgranadora de Maíz es la aliada perfecta para productores, agricultores y negocios que buscan agilizar la cosecha y aumentar la productividad. Su diseño robusto y eficiente permite desgranar maíz con rapidez, reduciendo esfuerzo y tiempo de trabajo. Ideal para fincas, granjas y procesos de almacenamiento, ofreciendo un rendimiento constante y confiable.\ncapacidad de produccion 400-500 kg/hora, diametro tambor 450 mm, longitud del cilindro 600 mm, diametro eje, 1 1/4\", velocidad 450 rpm, peso kg sin motor 35, lamina tambor hr calibre 1/8\", fuerza motriz requeridad elctrico 2HP, gasolina 6.5HP, presentacion base fija.",
+    "precio": 3688740,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "kg sin motor 35, lamina tambor hr calibr",
+      "capacidad": "de produccion 400-500 kg/hora, diametro tambor 450 mm, longi",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-210",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "Diminazene diaceturato+Oxitetraciclina clorhidrato+ Vitamina B12+ Antipirina. HEMOPARASITICIDA de AMPLIO ESPECTRO y ACCI",
+    "desc": "Diminazene diaceturato+Oxitetraciclina clorhidrato+ Vitamina B12+ Antipirina. HEMOPARASITICIDA de AMPLIO ESPECTRO y ACCIÓN TOTAL. El más completo hemoparasiticida. Altamente eficaz contra Babesia, Anaplasma y Trypanosoma (Fiebre de garrapata, ranilla roja, ranilla blanca, renguera, secadera). Además controla la fiebre y estimula la hematopoyesis. Solución lista para usar: No requiere mezcla o reconstitución. Dosis: Bovinos, ovinos 1 mL/13 kg. equinos 1 mL/8 kg. caninos 1 mL/6 kg. Composición garantizada: Cada mL contiene: Diminazene Diaceturato  40 mg Oxitetraciclina base 100 mg Antipirina 150 mg.\nCianocobalamina (Vit. B12) 15 mcg.\nExcipientes, c.s.p 1 mL. Especies: Bovinos, equinos, ovinos y caninos",
+    "precio": 211464,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-211",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "HEMODIUM® se administra por vía intramuscular profunda en solución al 2%, la cual se obtiene disolviendo el contenido de",
+    "desc": "HEMODIUM® se administra por vía intramuscular profunda en solución al 2%, la cual se obtiene disolviendo el contenido de este frasco en 50 ml del diluyente estéril adjunto.  Se aconseja un buen masaje después de la aplicación. Cada mL de solución reconstituido contiene: Isometamidium (como Clorhidrato de cloruro de\nisometamidium 0,02 g) …………………….. 0,019 g\nExcipientes c.s.p. ……………………………. 1 mL\n 1 mL de la solución por cada 40 kg de peso (0,5 mg/kg), esta dosis permite una protección de 2 a 6 meses dependiendo de la actividad y sensibilidad de las cepas de Tripanosoma. En zonas de mediana a alta incidencia aplicar 1 mL de la solución por cada 20 kg de peso (1 mg/kg). La frecuencia de administración depende del criterio del médico veterinario. Administrar por vía intramuscular profunda.   En Bovinos, Ovinos y Caprinos para el tratamiento de la Tripanosomosis causadas por Trypanosoma vivax, Trypanosoma brucei brucei y T. evansi.",
+    "precio": 77220,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "(0,5 mg/kg), esta dosis permite una prot",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-212",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "zapapico forjado 3105 5libras negro, forjado en una sola pieza en acero de alto carbono, son tratados térmicamente con t",
+    "desc": "zapapico forjado 3105 5libras negro, forjado en una sola pieza en acero de alto carbono, son tratados térmicamente con temple y revenido garantizando un menor desgaste y mayor resistencia en ambos extremos. Son resistentes a la flexión, tracción, torsión e impacto y vienen en presentación con cabo y sin cabo. Tratamiento térmico focalizado en las formas de impacto (Pala y Pico)",
+    "precio": 61183,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-213",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "azadon forjado cafetero Herramientas forjadas en una sola pieza en acero de alto Carbono SAE 1045, preafilado, con trata",
+    "desc": "azadon forjado cafetero Herramientas forjadas en una sola pieza en acero de alto Carbono SAE 1045, preafilado, con tratamiento térmico con temple y revenido, garantizando menor desgaste.",
+    "precio": 50903,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-214",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "almadana forjada 4 libras cabo madera con caras de golpe pulidas, resistentes al impacto con mayor firmeza en la zona ce",
+    "desc": "almadana forjada 4 libras cabo madera con caras de golpe pulidas, resistentes al impacto con mayor firmeza en la zona central, disminuyendo las vibraciones a través del cabo.",
+    "precio": 66833,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-215",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "palustre 8 - mango madera Mango en madera secada bajo condiciones controladas. Hoja ﬂexible y ligera, para facilitar su",
+    "desc": "palustre 8 - mango madera Mango en madera secada bajo condiciones controladas. Hoja ﬂexible y ligera, para facilitar su maniobrabilidad y funcionalidad.",
+    "precio": 16611,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-216",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "pala azadon N. 2 cabo largo madera",
+    "desc": "pala azadon N. 2 cabo largo madera",
+    "precio": 72299,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-217",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "machete cacao pesado",
+    "desc": "machete cacao pesado",
+    "precio": 92646,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-218",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "machete tres canales 18\" - niquel son troquelado en una sola pieza de acero, hasta el final de la cacha para poder gener",
+    "desc": "machete tres canales 18\" - niquel son troquelado en una sola pieza de acero, hasta el final de la cacha para poder generar golpes firmes disminuyendo la vibración. Lámina flexible que brinda mayor resistencia a la hoja. Son ideales en el sector agrícola para cortar, rozar y desyerbar árboles, potreros, arbustos y cultivos",
+    "precio": 41956,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-219",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "martillo profesional pulido 29 mm cabo madera forjada en acero de alto carbono con doble tratamiento térmico. Cabeza pul",
+    "desc": "martillo profesional pulido 29 mm cabo madera forjada en acero de alto carbono con doble tratamiento térmico. Cabeza pulida con recubrimiento superficial para protección a la oxidación. Cabo de madera dura secada bajo condiciones controladas, con cuello reforzado para evitar fracturas",
+    "precio": 42953,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-220",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "carreta 65 litros - chasis mad negro llanta antipinchazo se caracterizan por ser el único de la categoría en el mercado",
+    "desc": "carreta 65 litros - chasis mad negro llanta antipinchazo se caracterizan por ser el único de la categoría en el mercado con platón con doble grafado, lo que incrementa sustancialmente su resistencia y duración. Producto sometido a un proceso de diseño riguroso que le otorga características formales estéticas y funcionales de alto nivel: La apariencia de las carretas es excelente, destacándose por sus acabados y presentación. Excelente geometría en el ángulo del chasís que permite un desempeño ideal a través de una postura más cómoda y segura.",
+    "precio": 389606,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-221",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "carreta 100 lts, chasis mad platon plastico llanta neumatica",
+    "desc": "carreta 100 lts, chasis mad platon plastico llanta neumatica",
+    "precio": 417321,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-222",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "sopladora a gasolina 0,9hp, 27 cm3, 700m3/hora Su diseño ligero y compacto, motor de bajo consumo de combustible, acceso",
+    "desc": "sopladora a gasolina 0,9hp, 27 cm3, 700m3/hora Su diseño ligero y compacto, motor de bajo consumo de combustible, acceso al filtro de aire sin herramientas y un deposito de combustible en posición vertical para el llenado fácil lo hace la herramienta perfecta para limpiar.",
+    "precio": 1805227,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-223",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "cepillo electrico 12v-20, 700w, 16500rpm para madera. Ancho de cepillo 82 mm, profundidad de rebaje ajustable 0-9 mm. Ni",
+    "desc": "cepillo electrico 12v-20, 700w, 16500rpm para madera. Ancho de cepillo 82 mm, profundidad de rebaje ajustable 0-9 mm. Nivel de presion acustica 88 dB(A). Nivel de potencia acustica 99 dB(A), tolerancia K3 dB.",
+    "precio": 862550,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "acustica 99 dB(A), tolerancia K3 dB.",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-224",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "demoledor pared inalambrico, tension de la bateria 18.0 V, energia de impacto max 2J, numero de impactos en velocidad no",
+    "desc": "demoledor pared inalambrico, tension de la bateria 18.0 V, energia de impacto max 2J, numero de impactos en velocidad nominal de rotacion 0-5100 bpm, velocidad nominal de rotacion 0-1800 rpm.",
+    "precio": 3376358,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-225",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "combo inalambrico taladro percutor + llave de impacto. Tension de la bateria 12V, tipo de bateria litio. Ajustes del par",
+    "desc": "combo inalambrico taladro percutor + llave de impacto. Tension de la bateria 12V, tipo de bateria litio. Ajustes del par de giro 20+1, + bateria de lito 12v torque 13/30/-Nm, vel giro en vacio 1a V/2da V) 0-380/ 0-1,300 rpm",
+    "precio": 1522424,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-226",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "pulidora inalambrica, velocidad sin carga 0-9000 rpm, tamaño del disco 115 mm, vibracion 6,7 m/s2, indicador de carga Si",
+    "desc": "pulidora inalambrica, velocidad sin carga 0-9000 rpm, tamaño del disco 115 mm, vibracion 6,7 m/s2, indicador de carga Si, peso : 2,2 kg.",
+    "precio": 1695249,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "2,2 kg.",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-227",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "atornillador inalambrico, tension de la bateria 3,6v, torque (suave/duro/max) 2,5/5/-Nm, velocidad de giro en vacio (1a",
+    "desc": "atornillador inalambrico, tension de la bateria 3,6v, torque (suave/duro/max) 2,5/5/-Nm, velocidad de giro en vacio (1a velocidad/ 2a velocidad) - 360 rpm, tipo de bateria litio, capaciadad min./max. De sujecion del porta brocas 6,35 mm, diametro max, de los tornillo 5 mm,",
+    "precio": 377071,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-228",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "nivel laser precision +/- 0,6 mm/n, proyeccion 2 lineas, alcance hasta 12 m, diodo laser 500-540 nm, <5 mW, tiempo de ni",
+    "desc": "nivel laser precision +/- 0,6 mm/n, proyeccion 2 lineas, alcance hasta 12 m, diodo laser 500-540 nm, <5 mW, tiempo de nivelacion 6 s, temperatura de servicio -10 - 40°C, temperatura de almacenamiento -20 - 70 °C, clase de laser 630-650 Nm, <5Mw, intervalo de auto nivelacion +/- 3,5° - color de la linea laser verde.",
+    "precio": 1003951,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-229",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "azuela forjada con martillo ojo cuadrado,  están forjadas en una sola pieza en acero de alto carbono, tratadas térmicame",
+    "desc": "azuela forjada con martillo ojo cuadrado,  están forjadas en una sola pieza en acero de alto carbono, tratadas térmicamente con temple y revenido garantizando un menor desgaste y haciéndolas más fuertes a la flexión, tracción e impacto.",
+    "precio": 58538,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-230",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "lima triangular regualr 6m/p alto rendimiento Superﬁcies con rectificado superior que permite una formación más precisa",
+    "desc": "lima triangular regualr 6m/p alto rendimiento Superﬁcies con rectificado superior que permite una formación más precisa del diente para mayor duración, reduciendo la posibilidad de fractura. Espiga más larga para apalancar el cabo. Lima triangular de 4 ½” es utilizada en el limado de ángulos agudos internos y para afilar serruchos, sierras, machetes y otras herramientas de corte.",
+    "precio": 7350,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-231",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "lima triangular delgada 4,5 s/m alto rendimiento. Superﬁcies con rectificado superior que permite una formación más prec",
+    "desc": "lima triangular delgada 4,5 s/m alto rendimiento. Superﬁcies con rectificado superior que permite una formación más precisa del diente para mayor duración, reduciendo la posibilidad de fractura. Espiga más larga para apalancar el cabo. Lima triangular de 4 ½” es utilizada en el limado de ángulos agudos internos y para afilar serruchos, sierras, machetes y otras herramientas de corte.",
+    "precio": 8990,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-232",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "lima motosierra 7/32 x 8s/m Especificadamente diseñada para afilar la cadena de las motosierras. Diseño de picado y form",
+    "desc": "lima motosierra 7/32 x 8s/m Especificadamente diseñada para afilar la cadena de las motosierras. Diseño de picado y formación de dientes perfectamente definido que se adapta a los dientes de la cadena para obtener rendimiento uniforme.",
+    "precio": 6350,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-233",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "juego de 3 herramientas para jardin Incluye: pala cuchara, transplantador y cultivador. Mango ergonómico que proporciona",
+    "desc": "juego de 3 herramientas para jardin Incluye: pala cuchara, transplantador y cultivador. Mango ergonómico que proporciona mayor comodidad durante las tareas de jardinería. Fabricadas en plástico de alta durabilidad. Fabricadas en plástico de alta durabilidad. Con indicadores de medición en centimetros y pulgadas.",
+    "precio": 42950,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-234",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "pistola plastica 5 funciones Fabricada en polipropileno de alto impacto. 5 funciones fácilmente ajustables según la nece",
+    "desc": "pistola plastica 5 funciones Fabricada en polipropileno de alto impacto. 5 funciones fácilmente ajustables según la necesidad de riego. Seguro para riego continuo. Presión de trabajo 40 PSI.",
+    "precio": 29931,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-235",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "pistola plastica 1 funcion, Fabricada en polipropileno de alto impacto. Seguro para riego continuo. Presión óptima de tr",
+    "desc": "pistola plastica 1 funcion, Fabricada en polipropileno de alto impacto. Seguro para riego continuo. Presión óptima de trabajo 40 PSI. Incluye conector click rápido.",
+    "precio": 19676,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-236",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "flexometro de 5 metros  Carcasa en plástico recubierta contra impactos. Cinta Recubierta con nylon (10 veces más de vida",
+    "desc": "flexometro de 5 metros  Carcasa en plástico recubierta contra impactos. Cinta Recubierta con nylon (10 veces más de vida util). Fleje y resorte de uso intensivo. El gancho de \"cero absoluto\" se desliza para mayor precisión en la medida. Fleje mas ancho y grueso que permite extensiones mas largas fuera de la carcasa.",
+    "precio": 20862,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-237",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "serrucho 20\" profesional Fabricados en acero SK5 con elevada dureza (50HRC), altamente durable y resistente a la abrasió",
+    "desc": "serrucho 20\" profesional Fabricados en acero SK5 con elevada dureza (50HRC), altamente durable y resistente a la abrasión. 5 dientes por pulgada, endurecidos por inducción con triple filo tipo diamante. Mango ergonómico de madera secada bajo condiciones controladas. Hoja recubierta con barniz protector para evitar su oxidación.",
+    "precio": 44482,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-238",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "serrucho 18\" profesional. Fabricados en acero SK5 con elevada dureza (50HRC), altamente durable y resistente a la abrasi",
+    "desc": "serrucho 18\" profesional. Fabricados en acero SK5 con elevada dureza (50HRC), altamente durable y resistente a la abrasión. 5 dientes por pulgada, endurecidos por inducción con triple filo tipo diamante. Mango ergonómico de madera secada bajo condiciones controladas. Hoja recubierta con barniz protector para evitar su oxidación.",
+    "precio": 41328,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-239",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "hacha forjada 3.5 libras ojo gota de cabo largo. Forjados en una sola pieza en acero de alto carbono SAE 1045. Tratamien",
+    "desc": "hacha forjada 3.5 libras ojo gota de cabo largo. Forjados en una sola pieza en acero de alto carbono SAE 1045. Tratamiento térmico en ojo y cuerpo que hace que el desgaste sea homogéneo Nuestras hachas presentan alineación entre el ojo y el filo, lo que permite un corte más preciso y eficiente. Tiene una forma cónica que disminuye el esfuerzo de impacto y retiro. Mejor sujeción en la cabeza a través de los canales de flujo resina. Presentación con cabo y sin cabo. Las encabadas tienen una relación adecuada de longitud peso para que la herramienta sea balanceada. Tratadas térmicamente con temple y revenido garantizando un menor desgaste, resistentes a la torsión, flexión, tracción e impacto. Son pre afiladas, con una capa de laca en la parte del filo para protegerla de la oxidación. Mango en madera con doble curvatura que permite visualizar en todo momento la cabeza para perfeccionar el corte.",
+    "precio": 117228,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "para que la herramienta sea balanceada.",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-240",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "hacha forjada 3 libras ojo redondo MI, Forjados en una sola pieza en acero de alto carbono SAE 1045. Tratamiento térmico",
+    "desc": "hacha forjada 3 libras ojo redondo MI, Forjados en una sola pieza en acero de alto carbono SAE 1045. Tratamiento térmico en ojo y cuerpo que hace que el desgaste sea homogéneo Nuestras hachas presentan alineación entre el ojo y el filo, lo que permite un corte más preciso y eficiente. Tiene una forma cónica que disminuye el esfuerzo de impacto y retiro. Mejor sujeción en la cabeza a través de los canales de flujo resina. Presentación con cabo y sin cabo. Las encabadas tienen una relación adecuada de longitud peso para que la herramienta sea balanceada. Tratadas térmicamente con temple y revenido garantizando un menor desgaste, resistentes a la torsión, flexión, tracción e impacto. Son pre afiladas, con una capa de laca en la parte del filo para protegerla de la oxidación. Mango en madera con doble curvatura que permite visualizar en todo momento la cabeza para perfeccionar el corte.",
+    "precio": 72302,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "para que la herramienta sea balanceada.",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-241",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "sembradora rotativa  Ideal para la siembra de soya, maíz, fríjol, sandía, algodón, arveja, habichuela, garbanzos, maníes",
+    "desc": "sembradora rotativa  Ideal para la siembra de soya, maíz, fríjol, sandía, algodón, arveja, habichuela, garbanzos, maníes, entre otros, permite granos superiores al tamaño de la soya (> 5 mm). Podrás trabajarla en terrenos no labrados, siempre y cuando no estén muy compactos. Su rendimiento aproximado es de hasta 3 ha/día.",
+    "precio": 1228077,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-242",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "abonadora de espalda duo Abonadora de granulados por gravedad con niveles de dosificación gradual para un mejor aprovech",
+    "desc": "abonadora de espalda duo Abonadora de granulados por gravedad con niveles de dosificación gradual para un mejor aprovechamiento del fertilizante. Es ideal para cultivos de abonado planta a planta y cultivos en surcos te permite realizar dosificaciones y aspersión de fertilizante de manera continua. Así mismo, también cuenta con dos mangueras de dosificación para surcos lo que agiliza y simplifica el proceso de fertilización en cultivos de surcos. Es equipo ergonómico ajustable en altura (correas) tipo mochila para espalda que evita el contacto de la piel con el fertilizante. Por su forma, operación y peso, se puede usar en cualquier tipo de terrenos, ya sea planos, ondulados o laderas.",
+    "precio": 320920,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-243",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "abonadora de espalda tula La Abonadora de Espalda Tula es una herramienta esencial para agricultores que buscan optimiza",
+    "desc": "abonadora de espalda tula La Abonadora de Espalda Tula es una herramienta esencial para agricultores que buscan optimizar la distribución de fertilizantes en sus cultivos. Su diseño ergonómico permite un uso cómodo durante largas jornadas de trabajo, mientras que su capacidad de carga y su distribución uniforme de abonos aseguran que cada planta reciba los nutrientes necesarios de manera eficiente. Ideal para una variedad de cultivos, esta abonadora te ayudará a ahorrar tiempo y esfuerzo",
+    "precio": 266272,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "de carga y su distribución uniforme de abonos aseguran que c",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-244",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "fumigadora estacionaria es una herramienta de alto rendimiento diseñada para maximizar la eficiencia en la pulverización",
+    "desc": "fumigadora estacionaria es una herramienta de alto rendimiento diseñada para maximizar la eficiencia en la pulverización de cultivos y el control de plagas. Equipada con un potente motor  6.5 HP, genera una presión de 500 PSI (35 bares), asegurando una aplicación uniforme y precisa de líquidos. Su caudal ajustable de 30 a 40 L/min permite una mayor cobertura, optimizando el uso de fertilizantes, herbicidas e insecticidas. Construida para resistir condiciones exigentes, cuenta con pistones de acero de 30 mm que garantizan durabilidad y un desempeño constante. Incluye un rollo de manguera y una lanza, brindando versatilidad para trabajos de fumigación en distintos tipos de terrenos agrícolas.",
+    "precio": 1663200,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-245",
+    "tipologia": "M1",
+    "sector": "agro",
+    "ciiu": "",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "generador a gasolina 6,5 kw",
+    "desc": "generador a gasolina 6,5 kw  Tipo: Generador a gasolina\nPotencia máxima: 6.5 kw\nMotor: Gasolina 15 HP\nFrecuencia: 60 Hz\nVoltaje: 230 V\nCapacidad de combustible: 25 L\nSistema de arranque: retroceso / eléctrico\nTiempo de operación continuo: 8 h\nInterruptor de encendido / apagado\nCon ruedas y mango",
+    "precio": 3054110,
+    "icono": "🌾",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "de combustible: 25 L",
+      "potencia": "máxima: 6.5 kw",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-246",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Incubadora avícola Incubadora De 400 Huevos Inteligente industrial Automática",
+    "desc": "Incubadora avícola Incubadora De 400 Huevos Inteligente industrial Automática",
+    "precio": 3504600,
+    "icono": "🌾",
+    "imagen": "198",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-247",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Criadora avícola caperuza estandar",
+    "desc": "Criadora avícola caperuza estandar",
+    "precio": 347609,
+    "icono": "🌾",
+    "imagen": "199",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-248",
+    "tipologia": "M2",
+    "sector": "agro",
+    "ciiu": "A (01–03) / C (10–12)",
+    "proceso": "Producción / Poscosecha / Conservación",
+    "tipo": "Equipo",
+    "nombre": "Aireador para estanque Sumergible Tipo Fuente de 1 a 2 Hp,",
+    "desc": "Aireador para estanque Sumergible Tipo Fuente de 1 a 2 Hp,",
+    "precio": 1076328,
+    "icono": "🌾",
+    "imagen": "200",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-249",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "Procesador: AMD Ryzen™ 3 7330U 4 núcleos",
+    "desc": "Procesador: AMD Ryzen™ 3 7330U 4 núcleos\nde CPU, 8 hilos, Frecuencia Base de 2.3 GHz\nhasta 4.3 GHz Frecuencia Máxima, 10 MB de\nCache L2 + L3\nChipset: Integrado en el procesador\nSistema Operativo FreeDOS 3.0 en Español.\nPantalla Interfaces Certificaciones Seguridad\nGarantía Gráficos Memoria RAM\nAlmacenamiento Teclado Mouse Audio\nCámara Web Conectividad Batería\nAdaptador AC Peso (2) USB 3.2 Gen 1 (1)\nUSB Tipo C 3.2 Gen1 (Datos) (1) HDMI\nv1.4b FCC, UL, CE, RoHS, ISO 14001-9001,\nMIL-STD 810H TPM 2.0 LCD delgada de 14\"\nen diagonal con retroiluminación LED, HD\n(1366x768), con antirreflejo, de 250 nits,\nSVA Integrada: AMD Radeon™ Graphics 8 GB\n(1x8GB) DDR4 3200. Soporta hasta 16 GB en\n(2) Slots. Ranuras no accesibles por el\ncliente. La velocidad de transferencia puede\nvariar según la configuración Unidad de",
+    "precio": 2019600,
+    "icono": "💻",
+    "imagen": "201",
+    "specs": {
+      "dimensiones": "",
+      "peso": "(2) USB 3.2 Gen 1 (1)",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-250",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "Computador de escritorio (software básico) computador todo en uno intel core i5 13420H, 8 gb, 512 gb ssd, 24\" - windows",
+    "desc": "Computador de escritorio (software básico) computador todo en uno intel core i5 13420H, 8 gb, 512 gb ssd, 24\" - windows 11 pro oem, 2 altavoces de 3w, audio by harman",
+    "precio": 2968812,
+    "icono": "💻",
+    "imagen": "202",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-251",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "Router Wi‑Fi Tipo",
+    "desc": "Router Wi‑Fi Tipo\nRouter\nAncho\n10.6 cm\nAlto\n2.4 cm\nLargo\n11.5 cm\nColor\nNegro\nInalámbrico\nSi\nNúmero de puertos\n4\nVelocidad de conexión\n0 - 1200 Mbps\nÁrea de cobertura\n40 m2\nAlimentación\nEléctrica",
+    "precio": 154321,
+    "icono": "💻",
+    "imagen": "203",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-252",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Repetidor Wi‑Fi Tipo",
+    "desc": "Repetidor Wi‑Fi Tipo\nExtensor\nAncho\n7.7 cm\nAlto\n8 cm\nLargo\n7.8 cm\nColor\nBlanco\nInalámbrico\nSi\nNúmero de puertos\n1\nVelocidad de conexión\n0 - 750 Mbps\nÁrea de cobertura\n7 m2",
+    "precio": 142441,
+    "icono": "💻",
+    "imagen": "204",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-253",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Plotter de corte manual para vinilo 720 mm Ancho máximo de la medida 720 mm Ancho de corte máximo\t620 mm Idioma\tES Exact",
+    "desc": "Plotter de corte manual para vinilo 720 mm Ancho máximo de la medida 720 mm Ancho de corte máximo\t620 mm Idioma\tES Exactitud\t+/-0,01 mm Precisión de alimentación\t10 metros Interfaz\tUSB/COM Rodillo de alimentación\tRodillo de aluminio Motor de accionamiento\tMotor paso a paso Carro\tCarro ABS Pararse\tSoporte de hierro\nVelocidad\t20-800 mm/s Fuerza\t20-500 g Fuente de alimentación\tCA 110-220 V\nSoftware\tMAESTRO DE SEÑALES Potencia de la máquina\t100 W",
+    "precio": 1979208,
+    "icono": "💻",
+    "imagen": "205",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "de la máquina\t100 W",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-254",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "maquina para tatuar x 4,2 mm máquina rotativa inalámbrica diseñada para artistas que buscan trazo estable, líneas defini",
+    "desc": "maquina para tatuar x 4,2 mm máquina rotativa inalámbrica diseñada para artistas que buscan trazo estable, líneas definidas y rellenos suaves sin pérdida de potencia. Su motor de alto rendimiento garantiza un flujo constante incluso en sesiones largas, manteniendo una vibración mínima para mayor control y comodidad. Con un cuerpo ergonómico en acabado premium Máquina rotativa tipo Pen – profesional y de alto rendimiento Motor estable para trazos limpios y uniformes Perfecta para líneas, sombras y color Compatible con cartuchos universales Fabricación en materiales resistentes y durables Diseño ergonómico que reduce fatiga en sesiones largas",
+    "precio": 1663200,
+    "icono": "💻",
+    "imagen": "206",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-255",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Etiquetadora manual",
+    "desc": "Etiquetadora manual",
+    "precio": 42649,
+    "icono": "💻",
+    "imagen": "207",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-256",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Balanza digital para envíos (empaque) Capacidad: 300kg",
+    "desc": "Balanza digital para envíos (empaque) Capacidad: 300kg\nDivisión: 50g\nUnidades de peso: lb y Kg\nBatería interna recargable de 4V y autonomía de 8horas\nDimensión plataforma: 40 x 50 cm \nDisplay: LCD\nDisplay de tres pantallas con 7 dígitos cada uno\nFunción Indicador: Liquidador\nSistema de Tara para disminuir recipientes",
+    "precio": 504900,
+    "icono": "💻",
+    "imagen": "208",
+    "specs": {
+      "dimensiones": "",
+      "peso": "lb y Kg",
+      "capacidad": "300kg",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-257",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "set de pigmentos para tatuar 10oz Saturación Extrema: Colores vivos que entran fácilmente en la piel, reduciendo el trau",
+    "desc": "set de pigmentos para tatuar 10oz Saturación Extrema: Colores vivos que entran fácilmente en la piel, reduciendo el trauma y optimizando el tiempo de la sesión. Fórmula Orgánica y Vegana: Libre de crueldad animal y fabricada con ingredientes de la más alta calidad bajo estrictos estándares de esterilidad. Curación Confiable: Olvídate de los colores que pierden fuerza; este set garantiza tonos que permanecen fieles al diseño original con el paso de los años. x 12 colores",
+    "precio": 724680,
+    "icono": "💻",
+    "imagen": "209",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-258",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "monociclo jirafa  perfecto para artistas de circo que buscan impacto visual y un desafío adicional. Con su estructura el",
+    "desc": "monociclo jirafa  perfecto para artistas de circo que buscan impacto visual y un desafío adicional. Con su estructura elevada y un diseño robusto, ofrece estabilidad y resistencia para espectáculos o entrenamientos avanzados.",
+    "precio": 855360,
+    "icono": "💻",
+    "imagen": "210",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-259",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Dispensador de cinta / cinta de embalaje",
+    "desc": "Dispensador de cinta / cinta de embalaje",
+    "precio": 56786,
+    "icono": "💻",
+    "imagen": "211",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-260",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Tela para acrobacia aérea de pique deportivo, no elástica, ideal para yoga y acrobacias aéreas.",
+    "desc": "Tela para acrobacia aérea de pique deportivo, no elástica, ideal para yoga y acrobacias aéreas.\nAncho  150 cm.\nlargo 14 metros\nvarios colores vibrantes.\nAlta resistencia, agarre cómodo y caída fluida. Perfecta para elevar tu práctica, desde posturas estáticas hasta envolturas dinámicas.",
+    "precio": 178200,
+    "icono": "💻",
+    "imagen": "212",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-261",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Cajas de cartón nuevas (empaque)",
+    "desc": "Cajas de cartón nuevas (empaque)",
+    "precio": 5821,
+    "icono": "💻",
+    "imagen": "213",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-262",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Sobres de seguridad  13 x 19 en poliester",
+    "desc": "Sobres de seguridad  13 x 19 en poliester",
+    "precio": 21384,
+    "icono": "💻",
+    "imagen": "214",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-263",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Relleno protector (papel burbuja) - 50 cm x 5 mts",
+    "desc": "Relleno protector (papel burbuja) - 50 cm x 5 mts",
+    "precio": 18889,
+    "icono": "💻",
+    "imagen": "215",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-264",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Diabolo de Luz Eje libre es un diábolo de  tamaño grande, de origen Chino. viene equipada con dos kits de luz LED. Estos",
+    "desc": "Diabolo de Luz Eje libre es un diábolo de  tamaño grande, de origen Chino. viene equipada con dos kits de luz LED. Estos kits enfocan los LEDs en las copas laterales traslúcidas, haciendo que todo el diábolo brille, Creando el efecto de múltiples puntos de color punto de luz para cualquier persona mirando desde los lados.\n\nEquipado con eje de giro libre  unidireccional que  hará que le diábolo gire durante mucho más tiempo que los diábolos fijos.",
+    "precio": 154440,
+    "icono": "💻",
+    "imagen": "216",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-265",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Mobiliario",
+    "nombre": "Mesa de empaque Mesa recomendada para logística. Con bandeja de teclado y repisa. Con entrepaño inferior para ubicar mat",
+    "desc": "Mesa de empaque Mesa recomendada para logística. Con bandeja de teclado y repisa. Con entrepaño inferior para ubicar materiales. Superficies en madera aglomerado con recubrimiento en lona negra. Fabricado en Sistema Modular Lean (tubería de acero cold rolled recubierta de PVC color blanco y uniones en acero con pintura electrostática negra).",
+    "precio": 2126520,
+    "icono": "💻",
+    "imagen": "217",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-266",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Mobiliario",
+    "nombre": "dron Seguimiento de sujetos a una velocidad de hasta 26,8 mph",
+    "desc": "dron Seguimiento de sujetos a una velocidad de hasta 26,8 mph\nCaptura el momento con SelfieShot\nCámara lenta 4K60, 4K100 y vertical 2.7K\nGimbal de 2 ejes con EIS\nControl con tu voz y gestos\nQuickShots, MasterShots y Dolly Zoom\nDetección de obstáculos omnidireccional\nHasta 19 minutos de tiempo de vuelo\n49 GB de almacenamiento interno",
+    "precio": 1781988,
+    "icono": "💻",
+    "imagen": "218",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-267",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Interfaz de audio USB-C de 2 entradas / 2 salidas con 2 preamplificadores XMAX-L, salida de audifonos, E / S MIDI, Studi",
+    "desc": "Interfaz de audio USB-C de 2 entradas / 2 salidas con 2 preamplificadores XMAX-L, salida de audifonos, E / S MIDI, Studio One Artist DAW y Studio Magic Plug-in Suite - Mac / PC",
+    "precio": 837540,
+    "icono": "💻",
+    "imagen": "219",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-268",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Pistola etiquetadora",
+    "desc": "Pistola etiquetadora",
+    "precio": 41580,
+    "icono": "💻",
+    "imagen": "220",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-269",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Kit de fotografía de producto (caja de luz)",
+    "desc": "Kit de fotografía de producto (caja de luz)",
+    "precio": 198396,
+    "icono": "💻",
+    "imagen": "221",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-270",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "Iluminación LED para foto Temperatura de color: 3200-5600 K, CRI: 96",
+    "desc": "Iluminación LED para foto Temperatura de color: 3200-5600 K, CRI: 96\n660 LED: 330 luz diurna y 330 tungsteno\nTres adaptadores de 100-240 V CA, 50/60 Hz\nTres tripodes de iluminación’\nTres estuches de transporte para paneles LED",
+    "precio": 1900788,
+    "icono": "💻",
+    "imagen": "222",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-271",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Trípode para fotografía Capacidad de carga: 34 lb",
+    "desc": "Trípode para fotografía Capacidad de carga: 34 lb\nTrípode extensible de 24 a 77 pulgadas\nLongitud plegada: 19″\nPatas de aleación de aluminio de 4 secciones con sistema de bloqueo abatible\nPata y columna convertibles en monopie\nRosca macho de 1/4″-20\nGiro, inclinación y rotación de 360°\nInclinación de 90°\nColumna central de 2 secciones\nPeso: 3,5 libras",
+    "precio": 392028,
+    "icono": "💻",
+    "imagen": "223",
+    "specs": {
+      "dimensiones": "",
+      "peso": "3,5 libras",
+      "capacidad": "de carga: 34 lb",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-272",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Fondo blanco para fotografía Papel grueso mate de 11 metros de largo",
+    "desc": "Fondo blanco para fotografía Papel grueso mate de 11 metros de largo\nLibre de ácido, libre de lignina y con PH neutro\nEnrollado en tubo de cartón de diámetro ø5cm",
+    "precio": 475081,
+    "icono": "💻",
+    "imagen": "224",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-273",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Soporte para celular (foto) Trípode hecho en Aleación de Aluminio.",
+    "desc": "Soporte para celular (foto) Trípode hecho en Aleación de Aluminio.\n• Compatible con Cámaras Canon, Nikon, Sony, Panasonic.\n• Altura máxima de 157 centímetros\n• Nivelador de burbuja incorporado\n• Cabeza Giratoria de 360 grados horizontal y 90 grados vertical.\n• Ajuste de patas con liberación rápida\n• Pies de gomas antideslizantes.\n• Base smartphone compatible con todos los Smartphones de hasta 100mm de ancho.",
+    "precio": 130561,
+    "icono": "💻",
+    "imagen": "225",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-274",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "Cámara deportiva para registro El nuevo procesador GP2 hace que esta sea la GoPro más potente hasta la fecha",
+    "desc": "Cámara deportiva para registro El nuevo procesador GP2 hace que esta sea la GoPro más potente hasta la fecha\nImpresionantes vídeos a 5,3K60 y 4K120, y fotos de 23 MP\nEstabilización de vídeo avanzada HyperSmooth 4.0\nResistente y sumergible hasta 10 m\nSube automáticamente tu contenido a la nube mientras la cargas\nTimeWarp 3.0, cámara lenta 8X y mucho más para clavar la toma\nCompatible con la aplicación Quik",
+    "precio": 1306800,
+    "icono": "💻",
+    "imagen": "226",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-275",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "Cámara mirrorless básica (si aplica) Cámara Mirrorless Con Lente 16-50mm f/3.5-5.6 + Memoria 64Gb de 100Mb/s + Bolso",
+    "desc": "Cámara mirrorless básica (si aplica) Cámara Mirrorless Con Lente 16-50mm f/3.5-5.6 + Memoria 64Gb de 100Mb/s + Bolso",
+    "precio": 4039188,
+    "icono": "💻",
+    "imagen": "227",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-276",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Micrófono de condensador DE CONDENSADOR SM4-K-KIT DE SHURE",
+    "desc": "Micrófono de condensador DE CONDENSADOR SM4-K-KIT DE SHURE",
+    "precio": 1597860,
+    "icono": "💻",
+    "imagen": "228",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-277",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Micrófono lavalier Micrófono omnidireccional",
+    "desc": "Micrófono lavalier Micrófono omnidireccional\nConexión plug-and-play Compatible con cámaras\nCable largo de 1.5 m \nConstrucción resistente\nConector TRS de 3.5 mm",
+    "precio": 166308,
+    "icono": "💻",
+    "imagen": "229",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-278",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "El nuevo mezclador analógico , es un mezclador de 12 canales de que ofrece todo lo que el músico o el simple entusiasta",
+    "desc": "El nuevo mezclador analógico , es un mezclador de 12 canales de que ofrece todo lo que el músico o el simple entusiasta necesitan, así como un sonido claro y potente gracias al uso de preamplificadores de bajo ruido. Equipado con un conjunto completo de funciones, ofrece transmisión de audio Bluetooth, así como grabación y reproducción USB. Equipado con un procesador de efectos digital, también funciona como una interfaz de audio USB de 2 + 2 canales para grabación/reproducción DAW. Incluyen audio USB con un grabador/reproductor integrado capaz de grabar archivos MP3 directamente en unidades USB. Puede reproducir archivos MP3 como pistas de acompañamiento o reproducir música de fondo durante las pausas en vivo. Tiene Salidas Balanceadas XLR",
+    "precio": 1306087,
+    "icono": "💻",
+    "imagen": "230",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-279",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "Modelo: Smooth Q5 Ultra Combo",
+    "desc": "Modelo: Smooth Q5 Ultra Combo\nTipo de producto: Gimbal / estabilizador para smartphone (3 ejes con IA)\nEstabilización: 3 ejes (Inclinación, Balanceo, Panorámica)\nSeguimiento: Seguimiento inteligente por IA con control por gestos y voz\nCompatibilidad: Smartphones iOS y Android (ancho aprox. 60–85 mm, peso hasta ~280 g)\nLuz LED integrada: Sí, hasta ~226 lux\nBrazo telescópico: Integrado (~215 mm)\nControl remoto inalámbrico: Sí\nModos de control: Gestos, voz, control remoto y app ZY Cami\nBatería: Integrada, carga por USB-C\nAutonomía: Hasta 13.5 h de uso normal; ~5.5 h con luz encendida\nTiempo de carga: Aproximadamente 2 h\nRotación controlable:\nPanorámica: ~240°\nAlabeo: ~180°\nInclinación: ~80°\nDimensiones aproximadas (plegado): ~160 × 110 × 52 mm\nPeso aproximado: ~390 g",
+    "precio": 593881,
+    "icono": "💻",
+    "imagen": "231",
+    "specs": {
+      "dimensiones": "aproximadas (plegado): ~160 × 110 × 52 mm",
+      "peso": "hasta ~280 g)",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-280",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Audífonos de monitoreo",
+    "desc": "Audífonos de monitoreo",
+    "precio": 255420,
+    "icono": "💻",
+    "imagen": "232",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-281",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "Plato Giratorio con LED para Display o Video Producto ø25cm Especificaciones:",
+    "desc": "Plato Giratorio con LED para Display o Video Producto ø25cm Especificaciones:\nCircunvolución de 360°\nColor blanco\nDiámetro: 10 \"/ 25cm\nAltura: 3,8 cm\nRotación constante 1.6RPM,\nPeso de carga: 0 ~ 20 libras (hasta 9kg)\nRotación en sentido horario y antihorario (encenderlo y apagarlo puede cambiar la dirección de rotación)\nLuz LED central\nEnchufe de CA de 2 pines planos\nVoltaje: 100V ~ 120V / 60Hz\nPaquete incluye:\n1x Disco giratorio de ø25cm",
+    "precio": 290977,
+    "icono": "💻",
+    "imagen": "233",
+    "specs": {
+      "dimensiones": "",
+      "peso": "de carga: 0 ~ 20 libras (hasta 9kg)",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-282",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "MONITOR Resolución 1080p60 • Brillo de 1600 cd/m2 • Entrada HDMI y salida de bucle",
+    "desc": "MONITOR Resolución 1080p60 • Brillo de 1600 cd/m2 • Entrada HDMI y salida de bucle\n• Compatibilidad con vídeo hasta DCI 4K, LUT 3D • Histograma, vectorscopio y más\n• Entradas de alimentación CC y USB-C - Salida CC • Placa de batería serie L\n• Soporte trasero para conectar transmisores Monitor de campo HDMI 4K de 5,5\"\nCompacto, portátil, alto brillo, HDMI 4K, fácil de enfocar, exposición precisa y potencia flexible son las ventajas de F5 PROX.Creación de nivel para fotógrafo, primer aire acondicionado y creador de contenido.",
+    "precio": 1009699,
+    "icono": "💻",
+    "imagen": "234",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "flexible son las ventajas de F5 PROX.Creación de n",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-283",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "Maquina de Humo Máquina de humo portátil",
+    "desc": "Maquina de Humo Máquina de humo portátil\n• Interfaz sencilla con pantalla a color\n• Puerto de carga USB-C\n• 36 modos ajustables\n• Incluye control remoto inalámbrico\n• Incluye dos baterías reemplazables\n• Incluye líquido de humo\n• Entrada de tornillo 1/4\"",
+    "precio": 502417,
+    "icono": "💻",
+    "imagen": "235",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-284",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "AISLADOR PASIVO RADIAL ESTEREO  es un aislador para señales desbalanceadas y balanceadas de nivel de línea con conexión",
+    "desc": "AISLADOR PASIVO RADIAL ESTEREO  es un aislador para señales desbalanceadas y balanceadas de nivel de línea con conexión TRS O TS diseñado para eliminar rápidamente el ruido producto del loop de tierra que se genera entre sistema de audio sin afectar la señal original. Ideal para utilizar junto con pedaleras de guitarra para eliminar los ruidos producto del selector de los pedales. Dimensiones (Ancho-Alto-Profundo)\n10 X 4. 3 X 6. 5cm\n10 X 4.3 X 6.5cm\nPeso\n0. 408Kg\n0.408Kg\nImpedancia de salida\n600Ω",
+    "precio": 869616,
+    "icono": "💻",
+    "imagen": "236",
+    "specs": {
+      "dimensiones": "(Ancho-Alto-Profundo)",
+      "peso": "0. 408Kg",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-285",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Memorias SD clase alta 128 gb, extreme pro",
+    "desc": "Memorias SD clase alta 128 gb, extreme pro",
+    "precio": 213828,
+    "icono": "💻",
+    "imagen": "237",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-286",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "Soporte brazo articulado (cámara/mic) Tiene una altura mínima de 10cm y máxima de 94cm.",
+    "desc": "Soporte brazo articulado (cámara/mic) Tiene una altura mínima de 10cm y máxima de 94cm.\nSu ángulo de rotación es de 360°.\nEstá fabricado en aluminio.",
+    "precio": 374101,
+    "icono": "💻",
+    "imagen": "238",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-287",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "Estabilizador/gimbal Estabilizador de 3 ejes para vlogs o videos con celular",
+    "desc": "Estabilizador/gimbal Estabilizador de 3 ejes para vlogs o videos con celular\n• Rotación de 360° y modo Vortex integrados\n• Luz de relleno integrada, seguimiento por IA\n• Compatible con celulares de 5cm a 8,8cm de ancho\n• Panel de control todo en uno\n• Algoritmo de estabilización avanzado\n• Puntos de montaje magnéticos\n• Conectividad Bluetooth 5.1",
+    "precio": 1187881,
+    "icono": "💻",
+    "imagen": "239",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-288",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Software básico (ofimática)",
+    "desc": "Software básico (ofimática)",
+    "precio": 1306800,
+    "icono": "💻",
+    "imagen": "240",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-289",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Equipo",
+    "nombre": "PARLANTE PARED Peso",
+    "desc": "PARLANTE PARED Peso\n4.7 Kg\nRespuesta en frecuencia\n55Hz - 20 kHz\nPotencia\n80W\nSensibilidad\n90 dB\nImpedancia\n8 Ohms\nDRIVERS\n8.25 LF\n1 HF\n8.25 LF\n1 HF\n8.25 LF",
+    "precio": 452628,
+    "icono": "💻",
+    "imagen": "241",
+    "specs": {
+      "dimensiones": "",
+      "peso": "4.7 Kg",
+      "capacidad": "",
+      "potencia": "80W",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-290",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "GUITARRA ELECTROACÚSTICA TAGIMA Garantía:",
+    "desc": "GUITARRA ELECTROACÚSTICA TAGIMA Garantía:\n12 meses\nCuerpo:\nFolk\nTapa:\nAbeto\nEcualizador:\nTEQ8\nESCALA:\nTech Wood – C 25.5 ″\nMástil:\nOkoume – Forma C\nAros/Fondo:\nAgathis\nCuerdas:\nAcero\nPeso del Producto:\n4 Kg\nMedidas del producto cm (Largo x Ancho x Alto):\n112 x 10 x 40",
+    "precio": 967032,
+    "icono": "💻",
+    "imagen": "242",
+    "specs": {
+      "dimensiones": "",
+      "peso": "del Producto:",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-291",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Lector QR/Pagos Incluye soporte: Sí",
+    "desc": "Lector QR/Pagos Incluye soporte: Sí\nVoltaje: 110V\nLector fijo.\nSu tipo de escaneo es omnidireccional.\nTiene sensor de tecnología láser.\nRegistra y decodifica un amplio volumen de datos.",
+    "precio": 248648,
+    "icono": "💻",
+    "imagen": "243",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-292",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Mobiliario",
+    "nombre": "Mostrador portátil de exhibición en acrilico",
+    "desc": "Mostrador portátil de exhibición en acrilico",
+    "precio": 724680,
+    "icono": "💻",
+    "imagen": "244",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-293",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Mobiliario",
+    "nombre": "Vitrina pequeña de exhibición - vidrio templado puerta corrediza",
+    "desc": "Vitrina pequeña de exhibición - vidrio templado puerta corrediza",
+    "precio": 1909116,
+    "icono": "💻",
+    "imagen": "245",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-294",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Mobiliario",
+    "nombre": "Maniquí de exhibición (si vende textiles) cuerpo entero",
+    "desc": "Maniquí de exhibición (si vende textiles) cuerpo entero",
+    "precio": 754380,
+    "icono": "💻",
+    "imagen": "246",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-295",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Mobiliario",
+    "nombre": "Perchero metálico",
+    "desc": "Perchero metálico",
+    "precio": 141372,
+    "icono": "💻",
+    "imagen": "247",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-296",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Mobiliario",
+    "nombre": "Góndola modular Dimensiones:",
+    "desc": "Góndola modular Dimensiones:\n\nAltura: 220 cm\nAncho: 128 cm\nProfundidad: 55 cm\nPeso : 30 kg\nContenido del paquete:\n\n1 x Góndola modular",
+    "precio": 4522716,
+    "icono": "💻",
+    "imagen": "248",
+    "specs": {
+      "dimensiones": "Altura: 220 cm",
+      "peso": "30 kg",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-297",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "guitarra electica controles volumen maestro, tono 1 mastil medio tono 2 puente CUERPO",
+    "desc": "guitarra electica controles volumen maestro, tono 1 mastil medio tono 2 puente CUERPO\nPoplar Acabado del cuerpo Uretano satinado Mástil Maple\\, perfil “C”\nMaple\\ perfil “C” Acabado del Mastil Uretano satinado DIAPASON\nIndian Laurel\\, radio 9.5” [241 mm] TRASTES 21\\, Narrow Tall 21\\ narrow tall Incrustaciones\nPunto blanco CLAVIJAS Sellados tipo Die-Cast Escala 25.5” (648 mm)\nPUENTE Trémolo sincronizado estilo vintage de 6 selletas con block saddles\nGolpeador 3 capas blanco",
+    "precio": 900504,
+    "icono": "💻",
+    "imagen": "249",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-298",
+    "tipologia": "M3",
+    "sector": "digital",
+    "ciiu": "G (47) / R (90)",
+    "proceso": "Comercialización / Producción",
+    "tipo": "Insumo/Dotación",
+    "nombre": "sintetizador secuenciador Teclado",
+    "desc": "sintetizador secuenciador Teclado\n37 teclas (sensibles a la velocidad y a la velocidad de liberación)\nSonidos\n\"Incluye 261 interpretaciones\\ 799 programas y 1042 secuencias de ondas.Almacenamiento para decenas de miles de interpretaciones de usuarios.\"\nFuente de alimentación\nAdaptador de CA (CC 12 V\\ 2500 mA)\nPolifonía Máxima\n96 voces estéreo\nFiltros\nLPF de 2 polos\\ HPF de 2 polos\\ BPF de 2 polos\\ rechazo de banda de 2 polos\\ LPF de 4 polos\\ HPF de 4 polos\\ BPF de 4 polos\\ rechazo de banda de 4 polos\\ filtro múltiple\\ MS-20 LPF\\ MS-20 HPF\\ Polysix\nSistema generador de sonido\nSecuenciación de ondas 2.0\nEntradas/Salidas\n*Auriculares (conector telefónico estéreo de 6\\3 mm). *SALIDA L/MONO y R (conectores telefónicos TRS de 6\\3 mm con impedancia balanceada) *AMORTIGUADOR (conector telefónico de 6\\3 mm) * Conectores MIDI IN y OUT * Puerto USB B\nConsumo de energía\n5 W\nArtículos incluidos\nAdaptador de CA",
+    "precio": 2512620,
+    "icono": "💻",
+    "imagen": "250",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-299",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Estufa semindustrial Estufa a gas de 4 quemadores, fabricada en acero inoxidable 201, válvula de gas Alpha Brass, regula",
+    "desc": "Estufa semindustrial Estufa a gas de 4 quemadores, fabricada en acero inoxidable 201, válvula de gas Alpha Brass, regulador de 4\" y kits de conversión LP incluidos, tubo de entrada de gas de 3/4\". BTU: 112.000. Área de trabajo: 0.6025 * 0.599 mts. Dimensiones: Frente: 0.6096 / Fondo: 0.730 / Alto: 0.341 mts. Peso: 50kg.",
+    "precio": 3175145,
+    "icono": "🍽️",
+    "imagen": "251",
+    "specs": {
+      "dimensiones": "Frente: 0.6096 / Fondo: 0.730 / Alto: 0.341 mts. Peso: 50kg.",
+      "peso": "50kg.",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-300",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "batidora 10 litros, capacidad maxima en harina 3 libras, 2 velocidades, voltaje 110v 60 hz, potencia 370w, dimensiones 7",
+    "desc": "batidora 10 litros, capacidad maxima en harina 3 libras, 2 velocidades, voltaje 110v 60 hz, potencia 370w, dimensiones 76 x  43 x 51 cm",
+    "precio": 2572020,
+    "icono": "🍽️",
+    "imagen": "252",
+    "specs": {
+      "dimensiones": "76 x  43 x 51 cm",
+      "peso": "",
+      "capacidad": "maxima en harina 3 libras, 2 velocidades, voltaje 110v 60 hz",
+      "potencia": "370w, dimensiones 76 x  43 x 51 cm",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-301",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "batidora 5,6 litros profesional, dimensiones 33,8 x 37,3 x 41,9 cm, 110 voltios, potencia 500vatios, capacidad 5,6 litos",
+    "desc": "batidora 5,6 litros profesional, dimensiones 33,8 x 37,3 x 41,9 cm, 110 voltios, potencia 500vatios, capacidad 5,6 litos, caballos fuerza 1,3 hp.",
+    "precio": 2079000,
+    "icono": "🍽️",
+    "imagen": "253",
+    "specs": {
+      "dimensiones": "33,8 x 37,3 x 41,9 cm, 110 voltios, potencia 500vatios, capacidad 5,6 litos, cab",
+      "peso": "",
+      "capacidad": "5,6 litos, caballos fuerza 1,3 hp.",
+      "potencia": "500vatios, capacidad 5,6 litos, caballos fuerza 1",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-302",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Equipo",
+    "nombre": "Horno eléctrico (operación) Horno Eléctrico Gratinador 25 Litros Negro",
+    "desc": "Horno eléctrico (operación) Horno Eléctrico Gratinador 25 Litros Negro\n(0)",
+    "precio": 296881,
+    "icono": "🍽️",
+    "imagen": "254",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-303",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Equipo",
+    "nombre": "cortadora tajadora de pan 31 cuchillas en acero, Ancho de corte12mm (1,2 cm) Voltaje110 - 60Hz",
+    "desc": "cortadora tajadora de pan 31 cuchillas en acero, Ancho de corte12mm (1,2 cm) Voltaje110 - 60Hz\nPotencia370W Peso73 Kg Dimensiones47 x 62 x 64 cm (ancho, alto y profundo)",
+    "precio": 4196729,
+    "icono": "🍽️",
+    "imagen": "255",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-304",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Equipo",
+    "nombre": "dispensador de bebidas 5 litros fabricado en acero inoxidable, recipiente en policarbonato, dimensiones. 43 x38 x 52 cm",
+    "desc": "dispensador de bebidas 5 litros fabricado en acero inoxidable, recipiente en policarbonato, dimensiones. 43 x38 x 52 cm .",
+    "precio": 1311552,
+    "icono": "🍽️",
+    "imagen": "256",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-305",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Mobiliario",
+    "nombre": "dispensador de cereales sencillo Capacidad4 litros Fabricado enAcero inoxidable",
+    "desc": "dispensador de cereales sencillo Capacidad4 litros Fabricado enAcero inoxidable\nDimensiones18.5 x 24 x 61 cm Usalo en la barra de desayuno o buffet de tu hotel para servir deliciosos cereales, granola o refrigerios. ¡También es perfecto para cafés y pastelerías!\nTambién puedes usarlo como dispensador de bocadillos o cereales en el espacio de descanso de sus empleados, o para dispensar dulces en tu negocio tematico. ¡Las opciones son infinitas con este dispensador!",
+    "precio": 491832,
+    "icono": "🍽️",
+    "imagen": "257",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-306",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "hidrolavadora 1300 psi 1200w Almacenamiento de accesorios integrado Fácil acceso a los accesorios para mayor comodidad y",
+    "desc": "hidrolavadora 1300 psi 1200w Almacenamiento de accesorios integrado Fácil acceso a los accesorios para mayor comodidad y organización\nCompacto y portátil Fácil de transportar y almacenar\nPotencia de limpieza: Presión máxima de 1300 PSI | 90 Bar Ligero y potente\nFunción de auto succión Funciona con cualquier fuente de agua si no hay un sistema de agua corriente o una presión muy baja en el sistema de suministro\nBomba de aluminio Vida útil más larga y menos mantenimiento\nESPECIFICACIONES:\n\nPotencia Máxima:               1200 W\nFlujo Máximo/Nominal:       5,5 l/min\nPresión Máxima:                1300 PSI     (90 bar)\nPresión Nominal:                870 PSI (60 bar)\nTemperatura Máxima de Entada:    50°C\nINCLUYE:\n\n(1) Hidrolavadora (1) Manguera de presión (1) Boquilla de pulverización (1) Lanza con boquilla ajustable (1) Filtro de agua (1) Conexión rápida (1) Pasador de limpieza de boquilla.",
+    "precio": 408357,
+    "icono": "🍽️",
+    "imagen": "258",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "de limpieza: Presión máxima de 1300 PSI | 90 Bar L",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-307",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Equipo",
+    "nombre": "juego de mangueras de alta presion  Descripción  El juego de accesorios del equipo de serie incluye una manguera de alta",
+    "desc": "juego de mangueras de alta presion  Descripción  El juego de accesorios del equipo de serie incluye una manguera de alta presión de 7,5 m, una pistola de alta presión ergonómica y un adaptador para montar posteriormente la práctica unión rápida Quick Connect para las gamas K 2 a K 7.\nCaracterísticas\n- Adaptador - Desconexión sencilla de la manguera de alta presión de pistola y equipo. - La manguera de alta presión se engancha y desengancha del equipo y de la pistola de manera rápida y cómoda, lo que ahorra tiempo y trabajo. - Manguera de alta presión - Con conexiones Quick Connect para una colocación rápida. - Pistola de alta presión - Para un trabajo ergonómico.\n\nEspecificaciones - Temperatura máx. (°C): 60 - Presión máx. (bar);: 180 - Longitud (m): 7,5 - Peso. (kg): 1,2 - Dimensiones (la. × an. × al.). (mm): 551 x 250 x 60",
+    "precio": 376934,
+    "icono": "🍽️",
+    "imagen": "259",
+    "specs": {
+      "dimensiones": "(la. × an. × al.). (mm): 551 x 250 x 60",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-308",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Equipo",
+    "nombre": "hidrolavadora ESPECIFICACIONES",
+    "desc": "hidrolavadora ESPECIFICACIONES\nCilindraje: 212cc\nPotencia: 7HP\nCaudal: 9,5L/min\nPresión máxIMA: 3.100 psi\nTemperatura del agua: Fría\nBloqueo automático: Si\nCombustible: Gasolina\nCapacidad tanque: combustible 3,6L\nConsumo: 1,8L/hr\nEmbalaje (alto x largo x ancho): 55 x 62 x 53 cm\nPeso: 30Kg",
+    "precio": 2353309,
+    "icono": "🍽️",
+    "imagen": "260",
+    "specs": {
+      "dimensiones": "",
+      "peso": "30Kg",
+      "capacidad": "tanque: combustible 3,6L",
+      "potencia": "7HP",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-309",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Dispensador térmico/termo 3 litros",
+    "desc": "Dispensador térmico/termo 3 litros",
+    "precio": 123552,
+    "icono": "🍽️",
+    "imagen": "263",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-310",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Vajillas",
+    "desc": "Vajillas",
+    "precio": 415800,
+    "icono": "🍽️",
+    "imagen": "264",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-311",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Báscula de cocina Bascula De Cocina Digital 5 kg",
+    "desc": "Báscula de cocina Bascula De Cocina Digital 5 kg",
+    "precio": 91357,
+    "icono": "🍽️",
+    "imagen": "266",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-312",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Señalización de seguridad",
+    "desc": "Señalización de seguridad",
+    "precio": 89100,
+    "icono": "🍽️",
+    "imagen": "272",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-313",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Uniformes de trabajo (dotación) antifluido.",
+    "desc": "Uniformes de trabajo (dotación) antifluido.",
+    "precio": 184140,
+    "icono": "🍽️",
+    "imagen": "274",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-314",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Guantes y mallas para cabello (dotación)",
+    "desc": "Guantes y mallas para cabello (dotación)",
+    "precio": 21384,
+    "icono": "🍽️",
+    "imagen": "275",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-315",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Equipo",
+    "nombre": "Máquina de coser para cuero (calzado) Tipo de puntada lanzadera",
+    "desc": "Máquina de coser para cuero (calzado) Tipo de puntada lanzadera\nTipo de material piel, mediana, pesada\nLongitud de la puntada, mm cuatro\nTipo de promoción prensatelas rodillo de alimentación inferior y superior\nPlataforma de columna\nEspesor de la aguja No. 90-140\nAgujas aplicables DPx5\nNúmero de agujas uno\nNúmero de hilos 2\nTipo de grasa goteo",
+    "precio": 2208575,
+    "icono": "🍽️",
+    "imagen": "276",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-316",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Equipo",
+    "nombre": "Prensa para calzado Modelo",
+    "desc": "Prensa para calzado Modelo\nSR-YHJ\nVoltaje\n220v 50hz\nPresión de laminación\n0,3-0,5Mpa\nTiempo de laminación\n0-30s\nCapacidad\n150pair/h\nTamaño\n450*820*1130mm\nPeso\n140kg",
+    "precio": 4391204,
+    "icono": "🍽️",
+    "imagen": "277",
+    "specs": {
+      "dimensiones": "",
+      "peso": "140kg",
+      "capacidad": "150pair/h",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-317",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Hormas para calzado (juego)",
+    "desc": "Hormas para calzado (juego)",
+    "precio": 117850,
+    "icono": "🍽️",
+    "imagen": "278",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-318",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Lijadora/pulidora para calzado Máquina pulidora de calzado para un acabado profesional. Potente motor de 1KW, 380V/50Hz,",
+    "desc": "Lijadora/pulidora para calzado Máquina pulidora de calzado para un acabado profesional. Potente motor de 1KW, 380V/50Hz,",
+    "precio": 8095662,
+    "icono": "🍽️",
+    "imagen": "279",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-319",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Pegadora/dispensador de adhesivo",
+    "desc": "Pegadora/dispensador de adhesivo",
+    "precio": 259624,
+    "icono": "🍽️",
+    "imagen": "280",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-320",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Kit de suelas nuevas",
+    "desc": "Kit de suelas nuevas",
+    "precio": 53460,
+    "icono": "🍽️",
+    "imagen": "281",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-321",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Kit de cordones y ojales",
+    "desc": "Kit de cordones y ojales",
+    "precio": 77220,
+    "icono": "🍽️",
+    "imagen": "282",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-322",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Herramientas de reparación (martillo/lezna)",
+    "desc": "Herramientas de reparación (martillo/lezna)",
+    "precio": 380160,
+    "icono": "🍽️",
+    "imagen": "283",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-323",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Secador de mano profesional Secador Super Mega Turbo Profesional 2400W",
+    "desc": "Secador de mano profesional Secador Super Mega Turbo Profesional 2400W",
+    "precio": 225719,
+    "icono": "🍽️",
+    "imagen": "287",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-324",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Tijeras profesionales",
+    "desc": "Tijeras profesionales",
+    "precio": 50015,
+    "icono": "🍽️",
+    "imagen": "289",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-325",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Aspiradora industrial (limpieza operativa) Aspiradora de Sólidos y Líquidos 60 L con Cepillo Trabajo Pesado",
+    "desc": "Aspiradora industrial (limpieza operativa) Aspiradora de Sólidos y Líquidos 60 L con Cepillo Trabajo Pesado",
+    "precio": 1640509,
+    "icono": "🍽️",
+    "imagen": "294",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-326",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Equipo",
+    "nombre": "Iluminación LED de local Luminaria lineal LED 36W en elegante chasis negro, ideal para iluminación profesional y decorat",
+    "desc": "Iluminación LED de local Luminaria lineal LED 36W en elegante chasis negro, ideal para iluminación profesional y decorativa. Incorpora tecnología 3CCT con interruptor integrado para elegir entre luz cálida 3000K, neutra 4000K o blanca 6500K.",
+    "precio": 309356,
+    "icono": "🍽️",
+    "imagen": "299",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "CAT-UNI-327",
+    "tipologia": "M1",
+    "sector": "alimentos",
+    "ciiu": "I (56) / S (95–96)",
+    "proceso": "Operación / Transformación",
+    "tipo": "Insumo/Dotación",
+    "nombre": "Cerraduras/elementos de seguridad (operación) Tipo : Cerraduras",
+    "desc": "Cerraduras/elementos de seguridad (operación) Tipo : Cerraduras\n\n•Alto : 31 cm\n\n•Largo : 13.5 cm\n\n•Uso Cerradura : Acceso",
+    "precio": 59281,
+    "icono": "🍽️",
+    "imagen": "300",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 001 ALASKA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 001 ALASKA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 001 ALASKA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 002 OSLO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 002 OSLO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 002 OSLO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 003 PRAGA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 003 PRAGA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 003 PRAGA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 004 SAO PAULO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 004 SAO PAULO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 004 SAO PAULO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 005 MADRID",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 005 MADRID",
+    "desc": "ESMALTE SHIKLE GEL 8ML 005 MADRID",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 006 LONDRES",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 006 LONDRES",
+    "desc": "ESMALTE SHIKLE GEL 8ML 006 LONDRES",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-007",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 007 NUEVA YORK",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 007 NUEVA YORK",
+    "desc": "ESMALTE SHIKLE GEL 8ML 007 NUEVA YORK",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-008",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 008 PARIS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 008 PARIS",
+    "desc": "ESMALTE SHIKLE GEL 8ML 008 PARIS",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-009",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 009 TOKIO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 009 TOKIO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 009 TOKIO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-010",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 01 CRACKING GEL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 01 CRACKING GEL",
+    "desc": "ESMALTE SHIKLE GEL 8ML 01 CRACKING GEL",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-011",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 010 BERLIN",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 010 BERLIN",
+    "desc": "ESMALTE SHIKLE GEL 8ML 010 BERLIN",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-012",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 011 MARSELLA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 011 MARSELLA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 011 MARSELLA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-013",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 012 SIDNEY",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 012 SIDNEY",
+    "desc": "ESMALTE SHIKLE GEL 8ML 012 SIDNEY",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-014",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 013 LOS ANGELES",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 013 LOS ANGELES",
+    "desc": "ESMALTE SHIKLE GEL 8ML 013 LOS ANGELES",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-015",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 017 DUBAI",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 017 DUBAI",
+    "desc": "ESMALTE SHIKLE GEL 8ML 017 DUBAI",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-016",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 018 MILAN",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 018 MILAN",
+    "desc": "ESMALTE SHIKLE GEL 8ML 018 MILAN",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-017",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 019 ESTAMBUL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 019 ESTAMBUL",
+    "desc": "ESMALTE SHIKLE GEL 8ML 019 ESTAMBUL",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-018",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 02 CRACKING GEL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 02 CRACKING GEL",
+    "desc": "ESMALTE SHIKLE GEL 8ML 02 CRACKING GEL",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-019",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 020 ROSARIO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 020 ROSARIO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 020 ROSARIO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-020",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 021 BOGOTA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 021 BOGOTA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 021 BOGOTA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-021",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 022 LIMA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 022 LIMA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 022 LIMA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-022",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 023 SINGAPUR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 023 SINGAPUR",
+    "desc": "ESMALTE SHIKLE GEL 8ML 023 SINGAPUR",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-023",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 024 MONTREAL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 024 MONTREAL",
+    "desc": "ESMALTE SHIKLE GEL 8ML 024 MONTREAL",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-024",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 025 TORONTO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 025 TORONTO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 025 TORONTO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-025",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 026 HOUSTON",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 026 HOUSTON",
+    "desc": "ESMALTE SHIKLE GEL 8ML 026 HOUSTON",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-026",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 027 SAN FRANCISCO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 027 SAN FRANCISCO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 027 SAN FRANCISCO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-027",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 028 CARACAS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 028 CARACAS",
+    "desc": "ESMALTE SHIKLE GEL 8ML 028 CARACAS",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-028",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 029 LISBOA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 029 LISBOA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 029 LISBOA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-029",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 030 BARCELONA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 030 BARCELONA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 030 BARCELONA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-030",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 031 HONG KONG",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 031 HONG KONG",
+    "desc": "ESMALTE SHIKLE GEL 8ML 031 HONG KONG",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-031",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 032 VIENA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 032 VIENA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 032 VIENA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-032",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 033 ZURICH",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 033 ZURICH",
+    "desc": "ESMALTE SHIKLE GEL 8ML 033 ZURICH",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-033",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 034 ROMANA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 034 ROMANA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 034 ROMANA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-034",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 035 SHANGAI",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 035 SHANGAI",
+    "desc": "ESMALTE SHIKLE GEL 8ML 035 SHANGAI",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-035",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 036 ADELAIDA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 036 ADELAIDA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 036 ADELAIDA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-036",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 037 DALLAS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 037 DALLAS",
+    "desc": "ESMALTE SHIKLE GEL 8ML 037 DALLAS",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-037",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 038 CASABLANCA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 038 CASABLANCA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 038 CASABLANCA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-038",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 039 TAILANDIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 039 TAILANDIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 039 TAILANDIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-039",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 040 JALISCO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 040 JALISCO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 040 JALISCO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-040",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 041 MONTERREY",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 041 MONTERREY",
+    "desc": "ESMALTE SHIKLE GEL 8ML 041 MONTERREY",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-041",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 042 OSAKA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 042 OSAKA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 042 OSAKA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-042",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 044 HELSINKI",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 044 HELSINKI",
+    "desc": "ESMALTE SHIKLE GEL 8ML 044 HELSINKI",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-043",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 045 MONTEVIDEO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 045 MONTEVIDEO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 045 MONTEVIDEO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-044",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 046 GINEBRA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 046 GINEBRA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 046 GINEBRA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-045",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 047 LYON",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 047 LYON",
+    "desc": "ESMALTE SHIKLE GEL 8ML 047 LYON",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-046",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 048 DUBLIN",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 048 DUBLIN",
+    "desc": "ESMALTE SHIKLE GEL 8ML 048 DUBLIN",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-047",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 049 TAMPA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 049 TAMPA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 049 TAMPA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-048",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 050 FLORENCIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 050 FLORENCIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 050 FLORENCIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-049",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 051 NAPOLES",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 051 NAPOLES",
+    "desc": "ESMALTE SHIKLE GEL 8ML 051 NAPOLES",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-050",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 052 MOSCU",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 052 MOSCU",
+    "desc": "ESMALTE SHIKLE GEL 8ML 052 MOSCU",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-051",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 053 BEIRUT",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 053 BEIRUT",
+    "desc": "ESMALTE SHIKLE GEL 8ML 053 BEIRUT",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-052",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 054 ST. PETERSBURGO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 054 ST. PETERSBURGO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 054 ST. PETERSBURGO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-053",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 055 CHICAGO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 055 CHICAGO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 055 CHICAGO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-054",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 056 CURAZAO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 056 CURAZAO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 056 CURAZAO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-055",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 057 MANILA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 057 MANILA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 057 MANILA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-056",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 058 VENECIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 058 VENECIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 058 VENECIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-057",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 059 LA PAZ",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 059 LA PAZ",
+    "desc": "ESMALTE SHIKLE GEL 8ML 059 LA PAZ",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-058",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 060 ROTTERDAM",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 060 ROTTERDAM",
+    "desc": "ESMALTE SHIKLE GEL 8ML 060 ROTTERDAM",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-059",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 061 ALEJANDRIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 061 ALEJANDRIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 061 ALEJANDRIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-060",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 062 KYOTO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 062 KYOTO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 062 KYOTO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-061",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 063 URUGUAY",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 063 URUGUAY",
+    "desc": "ESMALTE SHIKLE GEL 8ML 063 URUGUAY",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-062",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 064 PEKIN",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 064 PEKIN",
+    "desc": "ESMALTE SHIKLE GEL 8ML 064 PEKIN",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-063",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 065 COLOMBIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 065 COLOMBIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 065 COLOMBIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-064",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 066 MANCHESTER",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 066 MANCHESTER",
+    "desc": "ESMALTE SHIKLE GEL 8ML 066 MANCHESTER",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-065",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 067 ARGENTINA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 067 ARGENTINA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 067 ARGENTINA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-066",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 068 ATLANTA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 068 ATLANTA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 068 ATLANTA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-067",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 069 CHINA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 069 CHINA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 069 CHINA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-068",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 070 GRANADA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 070 GRANADA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 070 GRANADA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-069",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 071 BARRANQUILLA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 071 BARRANQUILLA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 071 BARRANQUILLA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-070",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 072 BOSTON",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 072 BOSTON",
+    "desc": "ESMALTE SHIKLE GEL 8ML 072 BOSTON",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-071",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 073 HAMBURGO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 073 HAMBURGO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 073 HAMBURGO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-072",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 074 CAMERUN",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 074 CAMERUN",
+    "desc": "ESMALTE SHIKLE GEL 8ML 074 CAMERUN",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-073",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 075 PORTO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 075 PORTO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 075 PORTO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-074",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 076 VANCOUVER",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 076 VANCOUVER",
+    "desc": "ESMALTE SHIKLE GEL 8ML 076 VANCOUVER",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-075",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 077 RABAT",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 077 RABAT",
+    "desc": "ESMALTE SHIKLE GEL 8ML 077 RABAT",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-076",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 078 BRASILIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 078 BRASILIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 078 BRASILIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-077",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 079 DENVER",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 079 DENVER",
+    "desc": "ESMALTE SHIKLE GEL 8ML 079 DENVER",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-078",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 080 AUSTIN",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 080 AUSTIN",
+    "desc": "ESMALTE SHIKLE GEL 8ML 080 AUSTIN",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-079",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 082 LETICIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 082 LETICIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 082 LETICIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-080",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 083 MARRAKECH",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 083 MARRAKECH",
+    "desc": "ESMALTE SHIKLE GEL 8ML 083 MARRAKECH",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-081",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 084 RECIFE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 084 RECIFE",
+    "desc": "ESMALTE SHIKLE GEL 8ML 084 RECIFE",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-082",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 085 LIBANO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 085 LIBANO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 085 LIBANO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-083",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 086 LAS VEGAS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 086 LAS VEGAS",
+    "desc": "ESMALTE SHIKLE GEL 8ML 086 LAS VEGAS",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-084",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 087 BASILEA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 087 BASILEA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 087 BASILEA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-085",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 088 KIOTO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 088 KIOTO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 088 KIOTO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-086",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 089 PORTUGAL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 089 PORTUGAL",
+    "desc": "ESMALTE SHIKLE GEL 8ML 089 PORTUGAL",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-087",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 090 ANKARA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 090 ANKARA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 090 ANKARA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-088",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 091 VENEZUELA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 091 VENEZUELA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 091 VENEZUELA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-089",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 092 BUCAREST",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 092 BUCAREST",
+    "desc": "ESMALTE SHIKLE GEL 8ML 092 BUCAREST",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-090",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 093 CARTAGENA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 093 CARTAGENA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 093 CARTAGENA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-091",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 094 CALI",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 094 CALI",
+    "desc": "ESMALTE SHIKLE GEL 8ML 094 CALI",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-092",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 095 JEDDAH",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 095 JEDDAH",
+    "desc": "ESMALTE SHIKLE GEL 8ML 095 JEDDAH",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-093",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 096 EGIPTO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 096 EGIPTO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 096 EGIPTO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-094",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 097 JAPON",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 097 JAPON",
+    "desc": "ESMALTE SHIKLE GEL 8ML 097 JAPON",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-095",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 098 KABUL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 098 KABUL",
+    "desc": "ESMALTE SHIKLE GEL 8ML 098 KABUL",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-096",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 099 PARAGUAY",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 099 PARAGUAY",
+    "desc": "ESMALTE SHIKLE GEL 8ML 099 PARAGUAY",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-097",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 100 MAYORCA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 100 MAYORCA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 100 MAYORCA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-098",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 101 AMSTERDAM",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 101 AMSTERDAM",
+    "desc": "ESMALTE SHIKLE GEL 8ML 101 AMSTERDAM",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-099",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 102 MUNICH",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 102 MUNICH",
+    "desc": "ESMALTE SHIKLE GEL 8ML 102 MUNICH",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-100",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 103 BELGRADO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 103 BELGRADO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 103 BELGRADO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-101",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 104 ARGELIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 104 ARGELIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 104 ARGELIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-102",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 105 GUADALAJARA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 105 GUADALAJARA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 105 GUADALAJARA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-103",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 106 HANOI",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 106 HANOI",
+    "desc": "ESMALTE SHIKLE GEL 8ML 106 HANOI",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-104",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 107 HONOLULU",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 107 HONOLULU",
+    "desc": "ESMALTE SHIKLE GEL 8ML 107 HONOLULU",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-105",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 108 LAGOS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 108 LAGOS",
+    "desc": "ESMALTE SHIKLE GEL 8ML 108 LAGOS",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-106",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 109 PERU",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 109 PERU",
+    "desc": "ESMALTE SHIKLE GEL 8ML 109 PERU",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-107",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 110 SAO LUIS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 110 SAO LUIS",
+    "desc": "ESMALTE SHIKLE GEL 8ML 110 SAO LUIS",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-108",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 111 ITALIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 111 ITALIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 111 ITALIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-109",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 112 SICILIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 112 SICILIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 112 SICILIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-110",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 113 CANADA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 113 CANADA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 113 CANADA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-111",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 114 PORTO ALEGRE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 114 PORTO ALEGRE",
+    "desc": "ESMALTE SHIKLE GEL 8ML 114 PORTO ALEGRE",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-112",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 115 BUENOS AIRES",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 115 BUENOS AIRES",
+    "desc": "ESMALTE SHIKLE GEL 8ML 115 BUENOS AIRES",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-113",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 116 DAMASCO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 116 DAMASCO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 116 DAMASCO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-114",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 117 HAWAII",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 117 HAWAII",
+    "desc": "ESMALTE SHIKLE GEL 8ML 117 HAWAII",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-115",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 118 NAGOYA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 118 NAGOYA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 118 NAGOYA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-116",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 119 FRANCIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 119 FRANCIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 119 FRANCIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-117",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 120 EDIMBURGO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 120 EDIMBURGO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 120 EDIMBURGO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-118",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 121 NAIROBI",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 121 NAIROBI",
+    "desc": "ESMALTE SHIKLE GEL 8ML 121 NAIROBI",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-119",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 122 TALLIN",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 122 TALLIN",
+    "desc": "ESMALTE SHIKLE GEL 8ML 122 TALLIN",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-120",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 123 MALTA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 123 MALTA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 123 MALTA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-121",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 124 ATENAS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 124 ATENAS",
+    "desc": "ESMALTE SHIKLE GEL 8ML 124 ATENAS",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-122",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 125 SEUL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 125 SEUL",
+    "desc": "ESMALTE SHIKLE GEL 8ML 125 SEUL",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-123",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 126 ESPAÑA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 126 ESPAÑA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 126 ESPAÑA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-124",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 127 ROMA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 127 ROMA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 127 ROMA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-125",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 128 PALERMO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 128 PALERMO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 128 PALERMO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-126",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 129 CIUDAD JUAREZ",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 129 CIUDAD JUAREZ",
+    "desc": "ESMALTE SHIKLE GEL 8ML 129 CIUDAD JUAREZ",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-127",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 130 CAPE TOWN",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 130 CAPE TOWN",
+    "desc": "ESMALTE SHIKLE GEL 8ML 130 CAPE TOWN",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-128",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 131 GUANGZHOW",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 131 GUANGZHOW",
+    "desc": "ESMALTE SHIKLE GEL 8ML 131 GUANGZHOW",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-129",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 132 PANAMA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 132 PANAMA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 132 PANAMA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-130",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 133 ESTOKOLMO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 133 ESTOKOLMO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 133 ESTOKOLMO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-131",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 134 PALOMINO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 134 PALOMINO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 134 PALOMINO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-132",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 135 CANTON",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 135 CANTON",
+    "desc": "ESMALTE SHIKLE GEL 8ML 135 CANTON",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-133",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 136 AMALFI",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 136 AMALFI",
+    "desc": "ESMALTE SHIKLE GEL 8ML 136 AMALFI",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-134",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 137 ABUDABI",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 137 ABUDABI",
+    "desc": "ESMALTE SHIKLE GEL 8ML 137 ABUDABI",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-135",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 138 VARSOVIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 138 VARSOVIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 138 VARSOVIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-136",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 139 KIEV",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 139 KIEV",
+    "desc": "ESMALTE SHIKLE GEL 8ML 139 KIEV",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-137",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 140 LIVERPOOL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 140 LIVERPOOL",
+    "desc": "ESMALTE SHIKLE GEL 8ML 140 LIVERPOOL",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-138",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 141 BRESLAVIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 141 BRESLAVIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 141 BRESLAVIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-139",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 142 MONACO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 142 MONACO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 142 MONACO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-140",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 143 RIGA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 143 RIGA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 143 RIGA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-141",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 144 GENEVA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 144 GENEVA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 144 GENEVA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-142",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 145 BERNA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 145 BERNA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 145 BERNA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-143",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 146 MARRUECOS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 146 MARRUECOS",
+    "desc": "ESMALTE SHIKLE GEL 8ML 146 MARRUECOS",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-144",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 147 MELBOURNE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 147 MELBOURNE",
+    "desc": "ESMALTE SHIKLE GEL 8ML 147 MELBOURNE",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-145",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 148 SANTIAGO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 148 SANTIAGO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 148 SANTIAGO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-146",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 149 BOLONIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 149 BOLONIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 149 BOLONIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-147",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 150 LA HABANA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 150 LA HABANA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 150 LA HABANA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-148",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 151 DORTMUND",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 151 DORTMUND",
+    "desc": "ESMALTE SHIKLE GEL 8ML 151 DORTMUND",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-149",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 152 BRUSELAS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 152 BRUSELAS",
+    "desc": "ESMALTE SHIKLE GEL 8ML 152 BRUSELAS",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-150",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 153 AMBERES",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 153 AMBERES",
+    "desc": "ESMALTE SHIKLE GEL 8ML 153 AMBERES",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-151",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 154 BOMBAY",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 154 BOMBAY",
+    "desc": "ESMALTE SHIKLE GEL 8ML 154 BOMBAY",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-152",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 155 JINAN",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 155 JINAN",
+    "desc": "ESMALTE SHIKLE GEL 8ML 155 JINAN",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-153",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 156 BILBAO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 156 BILBAO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 156 BILBAO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-154",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 157 VILNA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 157 VILNA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 157 VILNA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-155",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 158 SAN JULIAN",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 158 SAN JULIAN",
+    "desc": "ESMALTE SHIKLE GEL 8ML 158 SAN JULIAN",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-156",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 159 LEON",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 159 LEON",
+    "desc": "ESMALTE SHIKLE GEL 8ML 159 LEON",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-157",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 160 DETROIT",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 160 DETROIT",
+    "desc": "ESMALTE SHIKLE GEL 8ML 160 DETROIT",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-158",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 161 KOREA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 161 KOREA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 161 KOREA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-159",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 162 BEIJING",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 162 BEIJING",
+    "desc": "ESMALTE SHIKLE GEL 8ML 162 BEIJING",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-160",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 163 SOFIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 163 SOFIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 163 SOFIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-161",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 164 SUDAFRICA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 164 SUDAFRICA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 164 SUDAFRICA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-162",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 165 MIAMI",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 165 MIAMI",
+    "desc": "ESMALTE SHIKLE GEL 8ML 165 MIAMI",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-163",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 166 SALVADOR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 166 SALVADOR",
+    "desc": "ESMALTE SHIKLE GEL 8ML 166 SALVADOR",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-164",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 167 ALICANTE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 167 ALICANTE",
+    "desc": "ESMALTE SHIKLE GEL 8ML 167 ALICANTE",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-165",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 168 COSTA RICA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 168 COSTA RICA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 168 COSTA RICA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-166",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 169 NIGERIA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 169 NIGERIA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 169 NIGERIA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-167",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 170 EL CAIRO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 170 EL CAIRO",
+    "desc": "ESMALTE SHIKLE GEL 8ML 170 EL CAIRO",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-168",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 171 BANGKOK",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 171 BANGKOK",
+    "desc": "ESMALTE SHIKLE GEL 8ML 171 BANGKOK",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-169",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 172 COPENHAGUE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 172 COPENHAGUE",
+    "desc": "ESMALTE SHIKLE GEL 8ML 172 COPENHAGUE",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-170",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML 173 OTTAWA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML 173 OTTAWA",
+    "desc": "ESMALTE SHIKLE GEL 8ML 173 OTTAWA",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-171",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML BASE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML BASE",
+    "desc": "ESMALTE SHIKLE GEL 8ML BASE",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-172",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML BLOOMING GEL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML BLOOMING GEL",
+    "desc": "ESMALTE SHIKLE GEL 8ML BLOOMING GEL",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-173",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML RUBBER 001 CLEAR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML RUBBER 001 CLEAR",
+    "desc": "ESMALTE SHIKLE GEL 8ML RUBBER 001 CLEAR",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-174",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML RUBBER 002",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML RUBBER 002",
+    "desc": "ESMALTE SHIKLE GEL 8ML RUBBER 002",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-175",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML RUBBER 003",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML RUBBER 003",
+    "desc": "ESMALTE SHIKLE GEL 8ML RUBBER 003",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-176",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML RUBBER 004",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML RUBBER 004",
+    "desc": "ESMALTE SHIKLE GEL 8ML RUBBER 004",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-177",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML TOP COAT",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML TOP COAT",
+    "desc": "ESMALTE SHIKLE GEL 8ML TOP COAT",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ESM-178",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE SHIKLE GEL 8ML TOP COAT MATTE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE SHIKLE GEL 8ML TOP COAT MATTE",
+    "desc": "ESMALTE SHIKLE GEL 8ML TOP COAT MATTE",
+    "precio": 9100,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-BAR-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "WYPALL ROLLO X88",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "WYPALL ROLLO X88",
+    "desc": "WYPALL ROLLO X88",
+    "precio": 28340,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ELC-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "DRILL INALAMBRICO 35.000RPM SG705",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "DRILL INALAMBRICO 35.000RPM SG705",
+    "desc": "DRILL INALAMBRICO 35.000RPM SG705",
+    "precio": 129870,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ELC-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LAMPARA SUN T2 PLUS 98W METALIZADA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LAMPARA SUN T2 PLUS 98W METALIZADA",
+    "desc": "LAMPARA SUN T2 PLUS 98W METALIZADA",
+    "precio": 97370,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ELC-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "EXTRACTOR PLANO LUJO BLANCO - ROSA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "EXTRACTOR PLANO LUJO BLANCO - ROSA",
+    "desc": "EXTRACTOR PLANO LUJO BLANCO - ROSA",
+    "precio": 103870,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ELC-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "AEROGRAFO CON DORADO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "AEROGRAFO CON DORADO",
+    "desc": "AEROGRAFO CON DORADO",
+    "precio": 84370,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ACC-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "MALETA GRANDE LUJO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "MALETA GRANDE LUJO",
+    "desc": "MALETA GRANDE LUJO",
+    "precio": 247000,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ULTRABOND CANM X15 ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ULTRABOND CANM X15 ML",
+    "desc": "ULTRABOND CANM X15 ML",
+    "precio": 18070,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PH BOND CANM 0.25 OZ",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PH BOND CANM 0.25 OZ",
+    "desc": "PH BOND CANM 0.25 OZ",
+    "precio": 13650,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "REMOVEDOR MAGICO SHIKLE GEL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "REMOVEDOR MAGICO SHIKLE GEL",
+    "desc": "REMOVEDOR MAGICO SHIKLE GEL",
+    "precio": 8450,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "REMOVEDOR CANM X500 ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "REMOVEDOR CANM X500 ML",
+    "desc": "REMOVEDOR CANM X500 ML",
+    "precio": 60710,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-LIM-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMA RONIKI FINA 100/100",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMA RONIKI FINA 100/100",
+    "desc": "LIMA RONIKI FINA 100/100",
+    "precio": 3900,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-LIM-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMA RONIKI FINA 100/150",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMA RONIKI FINA 100/150",
+    "desc": "LIMA RONIKI FINA 100/150",
+    "precio": 3900,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-LIM-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMA RONIKI FINA 100/180",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMA RONIKI FINA 100/180",
+    "desc": "LIMA RONIKI FINA 100/180",
+    "precio": 3900,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-LIM-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMA RONIKI FINA 240/240",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMA RONIKI FINA 240/240",
+    "desc": "LIMA RONIKI FINA 240/240",
+    "precio": 3900,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "MONOMERO MORALAN 500ML (16.7oz)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "MONOMERO MORALAN 500ML (16.7oz)",
+    "desc": "MONOMERO MORALAN 500ML (16.7oz)",
+    "precio": 178750,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ACRILICO CANM CRYSTAL CLEAR 50 GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ACRILICO CANM CRYSTAL CLEAR 50 GR",
+    "desc": "ACRILICO CANM CRYSTAL CLEAR 50 GR",
+    "precio": 46540,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-007",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ACRILICO CANM COVER PEACH GOLD 50 GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ACRILICO CANM COVER PEACH GOLD 50 GR",
+    "desc": "ACRILICO CANM COVER PEACH GOLD 50 GR",
+    "precio": 76960,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-008",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PAINT CANM SELVA NEGRA (NEGRO) X 5ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PAINT CANM SELVA NEGRA (NEGRO) X 5ML",
+    "desc": "PAINT CANM SELVA NEGRA (NEGRO) X 5ML",
+    "precio": 23270,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-009",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PAINT CANM ALGODON DE LA INDIA (BLANCO) X 5ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PAINT CANM ALGODON DE LA INDIA (BLANCO) X 5ML",
+    "desc": "PAINT CANM ALGODON DE LA INDIA (BLANCO) X 5ML",
+    "precio": 23270,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-PIN-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PINCEL 100% KOLINSKY BLISSED #10",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PINCEL 100% KOLINSKY BLISSED #10",
+    "desc": "PINCEL 100% KOLINSKY BLISSED #10",
+    "precio": 68770,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-010",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "POLYGEL SHIKLE 30 GR CLEAR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "POLYGEL SHIKLE 30 GR CLEAR",
+    "desc": "POLYGEL SHIKLE 30 GR CLEAR",
+    "precio": 23400,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-011",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "POLYGEL SHIKLE 30 GR 007",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "POLYGEL SHIKLE 30 GR 007",
+    "desc": "POLYGEL SHIKLE 30 GR 007",
+    "precio": 23400,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-HER-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "MOLDEADOR DE POLYGEL MORALAND 4 OZ (120ML)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "MOLDEADOR DE POLYGEL MORALAND 4 OZ (120ML)",
+    "desc": "MOLDEADOR DE POLYGEL MORALAND 4 OZ (120ML)",
+    "precio": 19760,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-HER-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "MORTERO DIAMANTE ROSA MINI",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "MORTERO DIAMANTE ROSA MINI",
+    "desc": "MORTERO DIAMANTE ROSA MINI",
+    "precio": 18070,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ACC-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ARO EXHIBIDOR X50",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ARO EXHIBIDOR X50",
+    "desc": "ARO EXHIBIDOR X50",
+    "precio": 4940,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-012",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ACEITE DE CUTICULA X8ML CANM",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ACEITE DE CUTICULA X8ML CANM",
+    "desc": "ACEITE DE CUTICULA X8ML CANM",
+    "precio": 9880,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-BAR-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GUANTE NITRILO NEGRO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GUANTE NITRILO NEGRO",
+    "desc": "GUANTE NITRILO NEGRO",
+    "precio": 20670,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-PIN-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMPIADOR DE PINCELES UTOPICK X60ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMPIADOR DE PINCELES UTOPICK X60ML",
+    "desc": "LIMPIADOR DE PINCELES UTOPICK X60ML",
+    "precio": 16250,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ACC-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "REPOSA MANOS COJIN DE BASE METALICA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "REPOSA MANOS COJIN DE BASE METALICA",
+    "desc": "REPOSA MANOS COJIN DE BASE METALICA",
+    "precio": 84500,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-PIN-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PINCEL DECORACION X5",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PINCEL DECORACION X5",
+    "desc": "PINCEL DECORACION X5",
+    "precio": 10270,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-013",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PAINT CANM AQUA X 5ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PAINT CANM AQUA X 5ML",
+    "desc": "PAINT CANM AQUA X 5ML",
+    "precio": 22230,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-014",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PAINT CANM BANANA X 5ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PAINT CANM BANANA X 5ML",
+    "desc": "PAINT CANM BANANA X 5ML",
+    "precio": 22230,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-015",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PAINT CANM BABY PINK X 5ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PAINT CANM BABY PINK X 5ML",
+    "desc": "PAINT CANM BABY PINK X 5ML",
+    "precio": 22230,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-016",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PAINT CANM CANDY X 5ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PAINT CANM CANDY X 5ML",
+    "desc": "PAINT CANM CANDY X 5ML",
+    "precio": 22230,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-017",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PAINT CANM CHICA PINK X 5ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PAINT CANM CHICA PINK X 5ML",
+    "desc": "PAINT CANM CHICA PINK X 5ML",
+    "precio": 22230,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-018",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PAINT CANM CIRUELA DEL CAMPO X 5ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PAINT CANM CIRUELA DEL CAMPO X 5ML",
+    "desc": "PAINT CANM CIRUELA DEL CAMPO X 5ML",
+    "precio": 22230,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-019",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PAINT CANM COLINAS DE MIEL X 5ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PAINT CANM COLINAS DE MIEL X 5ML",
+    "desc": "PAINT CANM COLINAS DE MIEL X 5ML",
+    "precio": 22230,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-020",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PAINT CANM CONFITE DE MENTA X 5ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PAINT CANM CONFITE DE MENTA X 5ML",
+    "desc": "PAINT CANM CONFITE DE MENTA X 5ML",
+    "precio": 22230,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-021",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PAINT CANM COSECHA DE MANZANAS X 5ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PAINT CANM COSECHA DE MANZANAS X 5ML",
+    "desc": "PAINT CANM COSECHA DE MANZANAS X 5ML",
+    "precio": 22230,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ACC-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PIEDRA SS3 VISO TORNASOL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PIEDRA SS3 VISO TORNASOL",
+    "desc": "PIEDRA SS3 VISO TORNASOL",
+    "precio": 5135,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ELC-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TINA PEDICURE ELECTRICA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TINA PEDICURE ELECTRICA",
+    "desc": "TINA PEDICURE ELECTRICA",
+    "precio": 116870,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-SPA-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "SAL EFERVECENTES THE ROSE X500",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "SAL EFERVECENTES THE ROSE X500",
+    "desc": "SAL EFERVECENTES THE ROSE X500",
+    "precio": 21970,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-SPA-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "JELLY SPA 20 SERVICIOS (GRANDE) THE ROSE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "JELLY SPA 20 SERVICIOS (GRANDE) THE ROSE",
+    "desc": "JELLY SPA 20 SERVICIOS (GRANDE) THE ROSE",
+    "precio": 25350,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-SPA-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "BOMBAS THE ROSE X40 BOLSA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "BOMBAS THE ROSE X40 BOLSA",
+    "desc": "BOMBAS THE ROSE X40 BOLSA",
+    "precio": 29250,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-HER-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ALICATE GOVE BASIC 5 MM",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ALICATE GOVE BASIC 5 MM",
+    "desc": "ALICATE GOVE BASIC 5 MM",
+    "precio": 34970,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-HER-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "KIT PUSHER X4",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "KIT PUSHER X4",
+    "desc": "KIT PUSHER X4",
+    "precio": 10270,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-HER-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "KIT PUNTAS X7 SOLO CERAMICA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "KIT PUNTAS X7 SOLO CERAMICA",
+    "desc": "KIT PUNTAS X7 SOLO CERAMICA",
+    "precio": 20670,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-HER-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "KIT PUNTAS MANICURA RUSA X6 C.A",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "KIT PUNTAS MANICURA RUSA X6 C.A",
+    "desc": "KIT PUNTAS MANICURA RUSA X6 C.A",
+    "precio": 25870,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-ELC-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LAMPARA PRESS ON 6W SIRENA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LAMPARA PRESS ON 6W SIRENA",
+    "desc": "LAMPARA PRESS ON 6W SIRENA",
+    "precio": 14170,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "BLS-UNA-022",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "SOFT GEL TIPS COFFIN MORADAS X600",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "SOFT GEL TIPS COFFIN MORADAS X600",
+    "desc": "SOFT GEL TIPS COFFIN MORADAS X600",
+    "precio": 18850,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ELC-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "SECADOR CMS COSMO DISNEY MINNIE MOUSE 120RPM (ROSETTE) REF 0059",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "SECADOR CMS COSMO DISNEY MINNIE MOUSE 120RPM (ROSETTE) REF 0059",
+    "desc": "SECADOR CMS COSMO DISNEY MINNIE MOUSE 120RPM (ROSETTE) REF 0059",
+    "precio": 584870,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ELC-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PLANCHA CMS COSMO DISNEY MINNIE MOUSE (ROSETTE) REF 0058",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PLANCHA CMS COSMO DISNEY MINNIE MOUSE (ROSETTE) REF 0058",
+    "desc": "PLANCHA CMS COSMO DISNEY MINNIE MOUSE (ROSETTE) REF 0058",
+    "precio": 343070,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GOMINA N17 TA X1000GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GOMINA N17 TA X1000GR",
+    "desc": "GOMINA N17 TA X1000GR",
+    "precio": 22815,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CEP-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CEPILLO BLOMER NYLON 7204 (CABELLO GRUESO, CRESPO Y GRASO)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CEPILLO BLOMER NYLON 7204 (CABELLO GRUESO, CRESPO Y GRASO)",
+    "desc": "CEPILLO BLOMER NYLON 7204 (CABELLO GRUESO, CRESPO Y GRASO)",
+    "precio": 24635,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CEP-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CEPILLO BLOMER NYLON 7202 (CABELLO GRUESO, CRESPO Y GRASO)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CEPILLO BLOMER NYLON 7202 (CABELLO GRUESO, CRESPO Y GRASO)",
+    "desc": "CEPILLO BLOMER NYLON 7202 (CABELLO GRUESO, CRESPO Y GRASO)",
+    "precio": 16835,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CEP-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CEPILLO BLOMER PENACHO MIXTO 7103 (TODO TIPO DE CABELLO, CRESPOS)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CEPILLO BLOMER PENACHO MIXTO 7103 (TODO TIPO DE CABELLO, CRESPOS)",
+    "desc": "CEPILLO BLOMER PENACHO MIXTO 7103 (TODO TIPO DE CABELLO, CRESPOS)",
+    "precio": 20735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CEP-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CEPILLO BLOMER PENACHO MIXTO 7101 (TODO TIPO DE CABELLO, CRESPOS)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CEPILLO BLOMER PENACHO MIXTO 7101 (TODO TIPO DE CABELLO, CRESPOS)",
+    "desc": "CEPILLO BLOMER PENACHO MIXTO 7101 (TODO TIPO DE CABELLO, CRESPOS)",
+    "precio": 16835,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CEP-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CEPILLO TERMICO BLOMER NYLON (REF:14001)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CEPILLO TERMICO BLOMER NYLON (REF:14001)",
+    "desc": "CEPILLO TERMICO BLOMER NYLON (REF:14001)",
+    "precio": 31135,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CEP-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CEPILLO TERMICO BLOMER NYLON (REF:14002)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CEPILLO TERMICO BLOMER NYLON (REF:14002)",
+    "desc": "CEPILLO TERMICO BLOMER NYLON (REF:14002)",
+    "precio": 36335,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CEP-007",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CEPILLO TERMICO BLOMER NYLON (REF:14003)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CEPILLO TERMICO BLOMER NYLON (REF:14003)",
+    "desc": "CEPILLO TERMICO BLOMER NYLON (REF:14003)",
+    "precio": 51935,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LACA RECAMIER #3 (FIJACION ALTA) X1000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LACA RECAMIER #3 (FIJACION ALTA) X1000ML",
+    "desc": "LACA RECAMIER #3 (FIJACION ALTA) X1000ML",
+    "precio": 77935,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LACA RECAMIER SECA SPRAY #2 (FIJACION MEDIA) X280ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LACA RECAMIER SECA SPRAY #2 (FIJACION MEDIA) X280ML",
+    "desc": "LACA RECAMIER SECA SPRAY #2 (FIJACION MEDIA) X280ML",
+    "precio": 42835,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESPUMA MOUSSE RECAMIER X280ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESPUMA MOUSSE RECAMIER X280ML",
+    "desc": "ESPUMA MOUSSE RECAMIER X280ML",
+    "precio": 46215,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CERA RECAMIER X200GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CERA RECAMIER X200GR",
+    "desc": "CERA RECAMIER X200GR",
+    "precio": 37050,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CEP-008",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "KIT PEINE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "KIT PEINE",
+    "desc": "KIT PEINE",
+    "precio": 7085,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CEP-009",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PEINE CARBONO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PEINE CARBONO",
+    "desc": "PEINE CARBONO",
+    "precio": 2015,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ACC-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GANCHO CABEZA ZABAL CAJA ROJA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GANCHO CABEZA ZABAL CAJA ROJA",
+    "desc": "GANCHO CABEZA ZABAL CAJA ROJA",
+    "precio": 1625,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ACC-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CAUCHO ENKOR PAQUETE X12",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CAUCHO ENKOR PAQUETE X12",
+    "desc": "CAUCHO ENKOR PAQUETE X12",
+    "precio": 15600,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ELC-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LAMPARA LED UV DIGITAL X 98 WATTS (METALIZADA) REF T2PLUSC",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LAMPARA LED UV DIGITAL X 98 WATTS (METALIZADA) REF T2PLUSC",
+    "desc": "LAMPARA LED UV DIGITAL X 98 WATTS (METALIZADA) REF T2PLUSC",
+    "precio": 97435,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ELC-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LAMPARA PRESS ON TIPO SIRENA CAJA LILA INALAMBRICA (OPALO) REF 211B",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LAMPARA PRESS ON TIPO SIRENA CAJA LILA INALAMBRICA (OPALO) REF 211B",
+    "desc": "LAMPARA PRESS ON TIPO SIRENA CAJA LILA INALAMBRICA (OPALO) REF 211B",
+    "precio": 37050,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ELC-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "MOTOR TOOL TIPO RADIO 30.000 RPM REF BQ-520",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "MOTOR TOOL TIPO RADIO 30.000 RPM REF BQ-520",
+    "desc": "MOTOR TOOL TIPO RADIO 30.000 RPM REF BQ-520",
+    "precio": 155870,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "POLVO ACRILICO LATIN NAIL COVER (PINK COVER) X40GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "POLVO ACRILICO LATIN NAIL COVER (PINK COVER) X40GR",
+    "desc": "POLVO ACRILICO LATIN NAIL COVER (PINK COVER) X40GR",
+    "precio": 75335,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "POLVO ACRILICO LATIN NAILS (CLEAR) X40GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "POLVO ACRILICO LATIN NAILS (CLEAR) X40GR",
+    "desc": "POLVO ACRILICO LATIN NAILS (CLEAR) X40GR",
+    "precio": 46735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "POLVO ACRILICO LATIN NAILS (NATURAL) X40GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "POLVO ACRILICO LATIN NAILS (NATURAL) X40GR",
+    "desc": "POLVO ACRILICO LATIN NAILS (NATURAL) X40GR",
+    "precio": 46735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "POLVO ACRILICO LATIN NAILS (SUPER TIZA) X40GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "POLVO ACRILICO LATIN NAILS (SUPER TIZA) X40GR",
+    "desc": "POLVO ACRILICO LATIN NAILS (SUPER TIZA) X40GR",
+    "precio": 54535,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "MONOMERO LATIN NAILS X250ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "MONOMERO LATIN NAILS X250ML",
+    "desc": "MONOMERO LATIN NAILS X250ML",
+    "precio": 81835,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "REMOVEDOR DE UÑAS ACRILICAS Y SEMIPERMANENTE LATIN NAILS X4ONZ X140ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "REMOVEDOR DE UÑAS ACRILICAS Y SEMIPERMANENTE LATIN NAILS X4ONZ X140ML",
+    "desc": "REMOVEDOR DE UÑAS ACRILICAS Y SEMIPERMANENTE LATIN NAILS X4ONZ X140ML",
+    "precio": 31460,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-LIM-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMA ACOLCHADA GRUESA 100/100 (REF:DN812)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMA ACOLCHADA GRUESA 100/100 (REF:DN812)",
+    "desc": "LIMA ACOLCHADA GRUESA 100/100 (REF:DN812)",
+    "precio": 2145,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-LIM-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMA LIZMAR X144 UND",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMA LIZMAR X144 UND",
+    "desc": "LIMA LIZMAR X144 UND",
+    "precio": 27235,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-LIM-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMA METALICA PICOLORO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMA METALICA PICOLORO",
+    "desc": "LIMA METALICA PICOLORO",
+    "precio": 715,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-LIM-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMA VENUX DESMANCHADORA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMA VENUX DESMANCHADORA",
+    "desc": "LIMA VENUX DESMANCHADORA",
+    "precio": 2340,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-LIM-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMA ENKOR (NAIL POLISHER) REF 33083",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMA ENKOR (NAIL POLISHER) REF 33083",
+    "desc": "LIMA ENKOR (NAIL POLISHER) REF 33083",
+    "precio": 1755,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-LIM-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMA 100/180 OPI TIPO CEBRA GRUESA CUADRADA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMA 100/180 OPI TIPO CEBRA GRUESA CUADRADA",
+    "desc": "LIMA 100/180 OPI TIPO CEBRA GRUESA CUADRADA",
+    "precio": 1235,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-LIM-007",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMA ILU TIPO SEMI OVALADA MORADA (180/240) (REF:DN2502)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMA ILU TIPO SEMI OVALADA MORADA (180/240) (REF:DN2502)",
+    "desc": "LIMA ILU TIPO SEMI OVALADA MORADA (180/240) (REF:DN2502)",
+    "precio": 1625,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-LIM-008",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMA ILU TIPO SEMI OVALADA MORADA (100/180) (REF:DN2506)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMA ILU TIPO SEMI OVALADA MORADA (100/180) (REF:DN2506)",
+    "desc": "LIMA ILU TIPO SEMI OVALADA MORADA (100/180) (REF:DN2506)",
+    "precio": 1625,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PUSHER SENCILLO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PUSHER SENCILLO",
+    "desc": "PUSHER SENCILLO",
+    "precio": 1235,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PIN-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PINCEL ACRILICO TIPO KOLINSKY OPALO #8",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PINCEL ACRILICO TIPO KOLINSKY OPALO #8",
+    "desc": "PINCEL ACRILICO TIPO KOLINSKY OPALO #8",
+    "precio": 58370,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PIN-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "KIT PINCEL (CJ:11) LINER X3 TODOS DN1789, 1240, 1269, 1788, 527, 1249, 1250",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "KIT PINCEL (CJ:11) LINER X3 TODOS DN1789, 1240, 1269, 1788, 527, 1249, 1250",
+    "desc": "KIT PINCEL (CJ:11) LINER X3 TODOS DN1789, 1240, 1269, 1788, 527, 1249, 1250",
+    "precio": 5135,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PIN-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PINCEL KRISMAR DOBLE ACRILICO Y GEL (REF:16256)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PINCEL KRISMAR DOBLE ACRILICO Y GEL (REF:16256)",
+    "desc": "PINCEL KRISMAR DOBLE ACRILICO Y GEL (REF:16256)",
+    "precio": 15535,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PIN-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PINCEL LUJO (CJ:13) DOBLE DIFUMINADOR PATECABRA OPALO REF STB-2",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PINCEL LUJO (CJ:13) DOBLE DIFUMINADOR PATECABRA OPALO REF STB-2",
+    "desc": "PINCEL LUJO (CJ:13) DOBLE DIFUMINADOR PATECABRA OPALO REF STB-2",
+    "precio": 8970,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-BAR-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LOCION MENTOLADA BARBARO Ó IMPERATOR X1000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LOCION MENTOLADA BARBARO Ó IMPERATOR X1000ML",
+    "desc": "LOCION MENTOLADA BARBARO Ó IMPERATOR X1000ML",
+    "precio": 29640,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-BAR-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GEL MENTOLADO BARBARO Ó IMPERATOR X1000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GEL MENTOLADO BARBARO Ó IMPERATOR X1000ML",
+    "desc": "GEL MENTOLADO BARBARO Ó IMPERATOR X1000ML",
+    "precio": 26650,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "SH VENUX X4000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "SH VENUX X4000ML",
+    "desc": "SH VENUX X4000ML",
+    "precio": 41535,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-007",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ACON VENUX X4000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ACON VENUX X4000ML",
+    "desc": "ACON VENUX X4000ML",
+    "precio": 41535,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-008",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "SILICONA PROLINE X283GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "SILICONA PROLINE X283GR",
+    "desc": "SILICONA PROLINE X283GR",
+    "precio": 24570,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-009",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "SH RECAMIER BRAZILISS PASO 1 X500ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "SH RECAMIER BRAZILISS PASO 1 X500ML",
+    "desc": "SH RECAMIER BRAZILISS PASO 1 X500ML",
+    "precio": 46735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-010",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TTO RECAMIER BRAZILISS PASO 2 X1000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TTO RECAMIER BRAZILISS PASO 2 X1000ML",
+    "desc": "TTO RECAMIER BRAZILISS PASO 2 X1000ML",
+    "precio": 284700,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-011",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TTO RECAMIER BRAZILISS PASO 3 X500ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TTO RECAMIER BRAZILISS PASO 3 X500ML",
+    "desc": "TTO RECAMIER BRAZILISS PASO 3 X500ML",
+    "precio": 61035,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "KIT PUNTAS CERAMICA X7 UNIDADES (CUADRADO) (REF:DN2843)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "KIT PUNTAS CERAMICA X7 UNIDADES (CUADRADO) (REF:DN2843)",
+    "desc": "KIT PUNTAS CERAMICA X7 UNIDADES (CUADRADO) (REF:DN2843)",
+    "precio": 22035,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "KIT PUNTAS MIXTAS CERAMICA Y TUNGSTENO X7 (REF:DH-05)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "KIT PUNTAS MIXTAS CERAMICA Y TUNGSTENO X7 (REF:DH-05)",
+    "desc": "KIT PUNTAS MIXTAS CERAMICA Y TUNGSTENO X7 (REF:DH-05)",
+    "precio": 38870,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "KIT PUNTAS RUSAS (CARBURO) PLATEADAS X10 REF FZ-02",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "KIT PUNTAS RUSAS (CARBURO) PLATEADAS X10 REF FZ-02",
+    "desc": "KIT PUNTAS RUSAS (CARBURO) PLATEADAS X10 REF FZ-02",
+    "precio": 19370,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "KIT PERMING BEAUTIFUL EYELASHES STARS COLORS REF SC-001 CAJA NEGRA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "KIT PERMING BEAUTIFUL EYELASHES STARS COLORS REF SC-001 CAJA NEGRA",
+    "desc": "KIT PERMING BEAUTIFUL EYELASHES STARS COLORS REF SC-001 CAJA NEGRA",
+    "precio": 57070,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CEJ-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TINTE CEJAS REVERS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TINTE CEJAS REVERS",
+    "desc": "TINTE CEJAS REVERS",
+    "precio": 15535,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PIN-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PINCEL CEJAS FINO DOBLE CON CEPILLO PESTAÑAS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PINCEL CEJAS FINO DOBLE CON CEPILLO PESTAÑAS",
+    "desc": "PINCEL CEJAS FINO DOBLE CON CEPILLO PESTAÑAS",
+    "precio": 1495,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ESM-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE MASGLO COLOR, BASE AJO, ROSADA, UÑAS FUERTES, MATIFICADOR X13.5ML (SURTIDOS)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE MASGLO COLOR, BASE AJO, ROSADA, UÑAS FUERTES, MATIFICADOR X13.5ML (SURTIDOS)",
+    "desc": "ESMALTE MASGLO COLOR, BASE AJO, ROSADA, UÑAS FUERTES, MATIFICADOR X13.5ML (SURTIDOS)",
+    "precio": 9425,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ESM-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "BRILLO SECANTE MASGLO X13.5ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "BRILLO SECANTE MASGLO X13.5ML",
+    "desc": "BRILLO SECANTE MASGLO X13.5ML",
+    "precio": 11115,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-007",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PROTEIN BOAD LATIN NAILS X15ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PROTEIN BOAD LATIN NAILS X15ML",
+    "desc": "PROTEIN BOAD LATIN NAILS X15ML",
+    "precio": 22035,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-008",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PRIMER LATIN NAILS X15ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PRIMER LATIN NAILS X15ML",
+    "desc": "PRIMER LATIN NAILS X15ML",
+    "precio": 22035,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-009",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "LIMPIADOR DE UÑAS LATIN NAILS X250ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "LIMPIADOR DE UÑAS LATIN NAILS X250ML",
+    "desc": "LIMPIADOR DE UÑAS LATIN NAILS X250ML",
+    "precio": 22035,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ESM-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (127 TIZA) X15ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (127 TIZA) X15ML",
+    "desc": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (127 TIZA) X15ML",
+    "precio": 30420,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ESM-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (128 NEGRO) X15ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (128 NEGRO) X15ML",
+    "desc": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (128 NEGRO) X15ML",
+    "precio": 30420,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ESM-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (BASE) X15ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (BASE) X15ML",
+    "desc": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (BASE) X15ML",
+    "precio": 30420,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ESM-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (TOP COAT) X15ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (TOP COAT) X15ML",
+    "desc": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (TOP COAT) X15ML",
+    "precio": 30420,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ESM-007",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (COLORES) X15ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (COLORES) X15ML",
+    "desc": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE (COLORES) X15ML",
+    "precio": 30420,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ESM-008",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE BASE RUBBER (CLEAR) X15ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE BASE RUBBER (CLEAR) X15ML",
+    "desc": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE BASE RUBBER (CLEAR) X15ML",
+    "precio": 30420,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ESM-009",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE BASE RUBBER (03) X15ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE BASE RUBBER (03) X15ML",
+    "desc": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE BASE RUBBER (03) X15ML",
+    "precio": 30420,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ESM-010",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE BASE RUBBER (07) X15ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE BASE RUBBER (07) X15ML",
+    "desc": "ESMALTE LATIN NAILS GRANDE SEMIPERMANENTE BASE RUBBER (07) X15ML",
+    "precio": 30420,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-010",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GEL RECONSTRUCTOR O RESINA LATIN NAILS CLEAR VISCO X15GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GEL RECONSTRUCTOR O RESINA LATIN NAILS CLEAR VISCO X15GR",
+    "desc": "GEL RECONSTRUCTOR O RESINA LATIN NAILS CLEAR VISCO X15GR",
+    "precio": 33735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-011",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GEL RECONSTRUCTOR O RESINA LATIN NAILS MEGAWHITE X15GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GEL RECONSTRUCTOR O RESINA LATIN NAILS MEGAWHITE X15GR",
+    "desc": "GEL RECONSTRUCTOR O RESINA LATIN NAILS MEGAWHITE X15GR",
+    "precio": 33735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-012",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GEL RECONSTRUCTOR O RESINA LATIN NAILS PINK COVER X15GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GEL RECONSTRUCTOR O RESINA LATIN NAILS PINK COVER X15GR",
+    "desc": "GEL RECONSTRUCTOR O RESINA LATIN NAILS PINK COVER X15GR",
+    "precio": 33735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-013",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GEL RECONSTRUCTOR O RESINA LATIN NAILS PINK X15GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GEL RECONSTRUCTOR O RESINA LATIN NAILS PINK X15GR",
+    "desc": "GEL RECONSTRUCTOR O RESINA LATIN NAILS PINK X15GR",
+    "precio": 33735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-014",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ACRYGEL LATIN NAILS PEQUEÑO CLEAR X30GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ACRYGEL LATIN NAILS PEQUEÑO CLEAR X30GR",
+    "desc": "ACRYGEL LATIN NAILS PEQUEÑO CLEAR X30GR",
+    "precio": 44135,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-015",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ACRYGEL LATIN NAILS PEQUEÑO X30GR #05",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ACRYGEL LATIN NAILS PEQUEÑO X30GR #05",
+    "desc": "ACRYGEL LATIN NAILS PEQUEÑO X30GR #05",
+    "precio": 44135,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-016",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ACRYGEL LATIN NAILS PEQUEÑO X30GR #08",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ACRYGEL LATIN NAILS PEQUEÑO X30GR #08",
+    "desc": "ACRYGEL LATIN NAILS PEQUEÑO X30GR #08",
+    "precio": 44135,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-017",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ACRYGEL LATIN NAILS PEQUEÑO X30GR #12",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ACRYGEL LATIN NAILS PEQUEÑO X30GR #12",
+    "desc": "ACRYGEL LATIN NAILS PEQUEÑO X30GR #12",
+    "precio": 44135,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-018",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GEL SATURACION LATIN NAILS ESCARCHADO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GEL SATURACION LATIN NAILS ESCARCHADO",
+    "desc": "GEL SATURACION LATIN NAILS ESCARCHADO",
+    "precio": 32435,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-019",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PAINTING GEL LATIN NAILS TODOS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PAINTING GEL LATIN NAILS TODOS",
+    "desc": "PAINTING GEL LATIN NAILS TODOS",
+    "precio": 23335,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-020",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GEL SPIDER LATIN NAILS NEGRO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GEL SPIDER LATIN NAILS NEGRO",
+    "desc": "GEL SPIDER LATIN NAILS NEGRO",
+    "precio": 27235,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-021",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GEL SPIDER LATIN NAILS DORADO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GEL SPIDER LATIN NAILS DORADO",
+    "desc": "GEL SPIDER LATIN NAILS DORADO",
+    "precio": 27235,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-022",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GEL SPIDER LATIN NAILS BLANCO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GEL SPIDER LATIN NAILS BLANCO",
+    "desc": "GEL SPIDER LATIN NAILS BLANCO",
+    "precio": 27235,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-023",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GEL SPIDER LATIN NAILS PLATEADO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GEL SPIDER LATIN NAILS PLATEADO",
+    "desc": "GEL SPIDER LATIN NAILS PLATEADO",
+    "precio": 27235,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ESM-011",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ESMALTE LATIN NAILS PEQUEÑO SEMIPERMANENTE (COLORES) X8ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ESMALTE LATIN NAILS PEQUEÑO SEMIPERMANENTE (COLORES) X8ML",
+    "desc": "ESMALTE LATIN NAILS PEQUEÑO SEMIPERMANENTE (COLORES) X8ML",
+    "precio": 17095,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ALICATE MUNDIAL FLEX PLASTICO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ALICATE MUNDIAL FLEX PLASTICO",
+    "desc": "ALICATE MUNDIAL FLEX PLASTICO",
+    "precio": 10335,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ALICATE MUNDIAL METALICO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ALICATE MUNDIAL METALICO",
+    "desc": "ALICATE MUNDIAL METALICO",
+    "precio": 18525,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-007",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CUBO PULIDOR ENKOR GRANDE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CUBO PULIDOR ENKOR GRANDE",
+    "desc": "CUBO PULIDOR ENKOR GRANDE",
+    "precio": 1625,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-008",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CORTAUÑAS RECTO GRANDE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CORTAUÑAS RECTO GRANDE",
+    "desc": "CORTAUÑAS RECTO GRANDE",
+    "precio": 1235,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-009",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "DISCLOIDE FINO OPALO, SD CARE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "DISCLOIDE FINO OPALO, SD CARE",
+    "desc": "DISCLOIDE FINO OPALO, SD CARE",
+    "precio": 4225,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-010",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PUNTAS CERAMICA PARA MOTOR TOOL INDIVIDUAL (TODAS) SURTIDAS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PUNTAS CERAMICA PARA MOTOR TOOL INDIVIDUAL (TODAS) SURTIDAS",
+    "desc": "PUNTAS CERAMICA PARA MOTOR TOOL INDIVIDUAL (TODAS) SURTIDAS",
+    "precio": 7670,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-011",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PUNTAS PARA MOTOR RUSAS Ó ESCOBITA (CARBURO) PLATEADAS SURTIDAS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PUNTAS PARA MOTOR RUSAS Ó ESCOBITA (CARBURO) PLATEADAS SURTIDAS",
+    "desc": "PUNTAS PARA MOTOR RUSAS Ó ESCOBITA (CARBURO) PLATEADAS SURTIDAS",
+    "precio": 6370,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ELC-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "RASPACALLOS ELECTRICO DOBLE PUNTA + LIJA REPUESTO (REF:DN3485)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "RASPACALLOS ELECTRICO DOBLE PUNTA + LIJA REPUESTO (REF:DN3485)",
+    "desc": "RASPACALLOS ELECTRICO DOBLE PUNTA + LIJA REPUESTO (REF:DN3485)",
+    "precio": 155935,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-024",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GEMAS (CJ:4) SOBRE CRYSTAL FLAT BACK (BLANCA TORNASOL) REF 2891, 2892",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GEMAS (CJ:4) SOBRE CRYSTAL FLAT BACK (BLANCA TORNASOL) REF 2891, 2892",
+    "desc": "GEMAS (CJ:4) SOBRE CRYSTAL FLAT BACK (BLANCA TORNASOL) REF 2891, 2892",
+    "precio": 3835,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-SPA-001",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "EXFOLIANTE FRUTOS SPA VENUX (CHOCOLATE NUTELLA) X1000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "EXFOLIANTE FRUTOS SPA VENUX (CHOCOLATE NUTELLA) X1000ML",
+    "desc": "EXFOLIANTE FRUTOS SPA VENUX (CHOCOLATE NUTELLA) X1000ML",
+    "precio": 18460,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-012",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "RASPACALLO HIELO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "RASPACALLO HIELO",
+    "desc": "RASPACALLO HIELO",
+    "precio": 2015,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-025",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "REMOVEDOR CALLOS VENUX LIQUIDO X500ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "REMOVEDOR CALLOS VENUX LIQUIDO X500ML",
+    "desc": "REMOVEDOR CALLOS VENUX LIQUIDO X500ML",
+    "precio": 12935,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-026",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "REMOVEDOR CUTICULA VENUX LIQUIDO X500ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "REMOVEDOR CUTICULA VENUX LIQUIDO X500ML",
+    "desc": "REMOVEDOR CUTICULA VENUX LIQUIDO X500ML",
+    "precio": 12935,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-BAR-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CARTON CUCHILLA DORCO X12 (EMPAQUE ROJO) TRADICIONAL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CARTON CUCHILLA DORCO X12 (EMPAQUE ROJO) TRADICIONAL",
+    "desc": "CARTON CUCHILLA DORCO X12 (EMPAQUE ROJO) TRADICIONAL",
+    "precio": 12870,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ELC-007",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "MAQUINA WAHL CLASICA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "MAQUINA WAHL CLASICA",
+    "desc": "MAQUINA WAHL CLASICA",
+    "precio": 257400,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-BAR-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "COOL CARE REFRESCANTE PARA MAQUINAS ANDIS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "COOL CARE REFRESCANTE PARA MAQUINAS ANDIS",
+    "desc": "COOL CARE REFRESCANTE PARA MAQUINAS ANDIS",
+    "precio": 37570,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-027",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "REMOVEDOR CUTICULA AROBELL CREMA X170ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "REMOVEDOR CUTICULA AROBELL CREMA X170ML",
+    "desc": "REMOVEDOR CUTICULA AROBELL CREMA X170ML",
+    "precio": 12025,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-028",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "REMOVEDOR THE ROSE LECHE COCO X60ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "REMOVEDOR THE ROSE LECHE COCO X60ML",
+    "desc": "REMOVEDOR THE ROSE LECHE COCO X60ML",
+    "precio": 6435,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PALETA ONDULADO PESTAÑAS PAQUETE X10",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PALETA ONDULADO PESTAÑAS PAQUETE X10",
+    "desc": "PALETA ONDULADO PESTAÑAS PAQUETE X10",
+    "precio": 5070,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PESTAÑA POSTIZA ATENEA PREMIUM INDIVIDUAL (TALLA M)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PESTAÑA POSTIZA ATENEA PREMIUM INDIVIDUAL (TALLA M)",
+    "desc": "PESTAÑA POSTIZA ATENEA PREMIUM INDIVIDUAL (TALLA M)",
+    "precio": 5135,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ACC-003",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "COCA MANICURE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "COCA MANICURE",
+    "desc": "COCA MANICURE",
+    "precio": 1885,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ACC-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "COCA TINTE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "COCA TINTE",
+    "desc": "COCA TINTE",
+    "precio": 1755,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-012",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "AGUA OXIGENADA VENUX (VOLUMEN 10) X4000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "AGUA OXIGENADA VENUX (VOLUMEN 10) X4000ML",
+    "desc": "AGUA OXIGENADA VENUX (VOLUMEN 10) X4000ML",
+    "precio": 37180,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-013",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "COLOR REVERSE SALERM",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "COLOR REVERSE SALERM",
+    "desc": "COLOR REVERSE SALERM",
+    "precio": 70070,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-014",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "POLVO DECOLORANTE KARICIA TARRO X400GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "POLVO DECOLORANTE KARICIA TARRO X400GR",
+    "desc": "POLVO DECOLORANTE KARICIA TARRO X400GR",
+    "precio": 58240,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-015",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "POLVO DECOLORANTE DKOLORA TARRO X550GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "POLVO DECOLORANTE DKOLORA TARRO X550GR",
+    "desc": "POLVO DECOLORANTE DKOLORA TARRO X550GR",
+    "precio": 71110,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-016",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "POLVO DECOLORANTE ALFAPARF 9 TONOS X400GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "POLVO DECOLORANTE ALFAPARF 9 TONOS X400GR",
+    "desc": "POLVO DECOLORANTE ALFAPARF 9 TONOS X400GR",
+    "precio": 94835,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-017",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "AGUA OXIGENADA VENUX (VOLUMEN 30) X4000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "AGUA OXIGENADA VENUX (VOLUMEN 30) X4000ML",
+    "desc": "AGUA OXIGENADA VENUX (VOLUMEN 30) X4000ML",
+    "precio": 37180,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-018",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "AGUA OXIGENADA VENUX (VOLUMEN 40) X4000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "AGUA OXIGENADA VENUX (VOLUMEN 40) X4000ML",
+    "desc": "AGUA OXIGENADA VENUX (VOLUMEN 40) X4000ML",
+    "precio": 37180,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-019",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "AGUA OXIGENADA VENUX (VOLUMEN 20) X4000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "AGUA OXIGENADA VENUX (VOLUMEN 20) X4000ML",
+    "desc": "AGUA OXIGENADA VENUX (VOLUMEN 20) X4000ML",
+    "precio": 37180,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-020",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CREMA PEINAR + TTO MYE EXTRA FUERZA 2 EN 1 X1000GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CREMA PEINAR + TTO MYE EXTRA FUERZA 2 EN 1 X1000GR",
+    "desc": "CREMA PEINAR + TTO MYE EXTRA FUERZA 2 EN 1 X1000GR",
+    "precio": 36335,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-021",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "AMINOACIDOS KASDALY PROTEINA CAPILAR (ACEITE DE CANNABIS) X190ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "AMINOACIDOS KASDALY PROTEINA CAPILAR (ACEITE DE CANNABIS) X190ML",
+    "desc": "AMINOACIDOS KASDALY PROTEINA CAPILAR (ACEITE DE CANNABIS) X190ML",
+    "precio": 46735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-BAR-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "DESINFECTANTE GLUTARALDEHIDO X1000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "DESINFECTANTE GLUTARALDEHIDO X1000ML",
+    "desc": "DESINFECTANTE GLUTARALDEHIDO X1000ML",
+    "precio": 26910,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-022",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GORRO ALUMINIO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GORRO ALUMINIO",
+    "desc": "GORRO ALUMINIO",
+    "precio": 1755,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-023",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GORRO PROTECTOR PUNTO AZUL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GORRO PROTECTOR PUNTO AZUL",
+    "desc": "GORRO PROTECTOR PUNTO AZUL",
+    "precio": 1755,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-024",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GORRO RAYOS CON AGUJA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GORRO RAYOS CON AGUJA",
+    "desc": "GORRO RAYOS CON AGUJA",
+    "precio": 2535,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PIN-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "BROCHA TINTE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "BROCHA TINTE",
+    "desc": "BROCHA TINTE",
+    "precio": 715,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-025",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TTO/ACON MENTA HAIR (BOMBONERA) X2000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TTO/ACON MENTA HAIR (BOMBONERA) X2000ML",
+    "desc": "TTO/ACON MENTA HAIR (BOMBONERA) X2000ML",
+    "precio": 57135,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-026",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "AMPOLLA ECONOMICA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "AMPOLLA ECONOMICA",
+    "desc": "AMPOLLA ECONOMICA",
+    "precio": 1430,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-027",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "AMPOLLA LEHIT X13ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "AMPOLLA LEHIT X13ML",
+    "desc": "AMPOLLA LEHIT X13ML",
+    "precio": 4810,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-028",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CERA POLVO CABELLO AGIVA STYLING DUST STRONG HOLD (2) NEGRA X20GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CERA POLVO CABELLO AGIVA STYLING DUST STRONG HOLD (2) NEGRA X20GR",
+    "desc": "CERA POLVO CABELLO AGIVA STYLING DUST STRONG HOLD (2) NEGRA X20GR",
+    "precio": 36335,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-BAR-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TAPABOCAS NEGRO CAJA X50",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TAPABOCAS NEGRO CAJA X50",
+    "desc": "TAPABOCAS NEGRO CAJA X50",
+    "precio": 8970,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-BAR-007",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "GUANTE NITRILO NEGRO (TALLA M)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "GUANTE NITRILO NEGRO (TALLA M)",
+    "desc": "GUANTE NITRILO NEGRO (TALLA M)",
+    "precio": 20670,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-029",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TERMOPROTECTOR RECAMIER VEGAN KERATIN X300ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TERMOPROTECTOR RECAMIER VEGAN KERATIN X300ML",
+    "desc": "TERMOPROTECTOR RECAMIER VEGAN KERATIN X300ML",
+    "precio": 34970,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-030",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TERMOPROTECTOR LECHE PAL PELO TRADICIONAL (AZUL) X440ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TERMOPROTECTOR LECHE PAL PELO TRADICIONAL (AZUL) X440ML",
+    "desc": "TERMOPROTECTOR LECHE PAL PELO TRADICIONAL (AZUL) X440ML",
+    "precio": 36335,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PIN-007",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "BROCHA SACUDIDORA TONYGUY",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "BROCHA SACUDIDORA TONYGUY",
+    "desc": "BROCHA SACUDIDORA TONYGUY",
+    "precio": 14950,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-029",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "POLVO ESPEJO (CJ:1) PARA UÑAS CAJA X6 REF 212-355",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "POLVO ESPEJO (CJ:1) PARA UÑAS CAJA X6 REF 212-355",
+    "desc": "POLVO ESPEJO (CJ:1) PARA UÑAS CAJA X6 REF 212-355",
+    "precio": 9750,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-030",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "SECANTE DE UÑAS NAIL ENAMMEL DRYER VINOTINTO X212GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "SECANTE DE UÑAS NAIL ENAMMEL DRYER VINOTINTO X212GR",
+    "desc": "SECANTE DE UÑAS NAIL ENAMMEL DRYER VINOTINTO X212GR",
+    "precio": 20735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-031",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "UÑA PRESS ON EFECTO ACRILICO NUDE (LONG STILETTO) X300PCS REF DN4092",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "UÑA PRESS ON EFECTO ACRILICO NUDE (LONG STILETTO) X300PCS REF DN4092",
+    "desc": "UÑA PRESS ON EFECTO ACRILICO NUDE (LONG STILETTO) X300PCS REF DN4092",
+    "precio": 16835,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-032",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "UÑA PRESS ON COFFIN LISA CON MITAD POROSIDAD X240PCS REF MG-177",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "UÑA PRESS ON COFFIN LISA CON MITAD POROSIDAD X240PCS REF MG-177",
+    "desc": "UÑA PRESS ON COFFIN LISA CON MITAD POROSIDAD X240PCS REF MG-177",
+    "precio": 9750,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ELC-008",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "EXTRACTOR DE POLVO DE UÑAS (REF:868-1)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "EXTRACTOR DE POLVO DE UÑAS (REF:868-1)",
+    "desc": "EXTRACTOR DE POLVO DE UÑAS (REF:868-1)",
+    "precio": 96850,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-013",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CEPILLO UÑAS PEDI GRANDE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CEPILLO UÑAS PEDI GRANDE",
+    "desc": "CEPILLO UÑAS PEDI GRANDE",
+    "precio": 1105,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-014",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CEPILLO UÑAS MANICURE PEQUEÑO X2",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CEPILLO UÑAS MANICURE PEQUEÑO X2",
+    "desc": "CEPILLO UÑAS MANICURE PEQUEÑO X2",
+    "precio": 1040,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-033",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "BASE UÑAS DE GATO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "BASE UÑAS DE GATO",
+    "desc": "BASE UÑAS DE GATO",
+    "precio": 11635,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ELC-009",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TINA PARA PIES MULTIFUNCION FOLDING GOOT MG REF SQ-806",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TINA PARA PIES MULTIFUNCION FOLDING GOOT MG REF SQ-806",
+    "desc": "TINA PARA PIES MULTIFUNCION FOLDING GOOT MG REF SQ-806",
+    "precio": 116870,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ACC-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "SEPARADOR SILICONA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "SEPARADOR SILICONA",
+    "desc": "SEPARADOR SILICONA",
+    "precio": 1885,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-004",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PESTAÑA INDIVIDUAL ENKOR EFECTO RUSO (TODOS)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PESTAÑA INDIVIDUAL ENKOR EFECTO RUSO (TODOS)",
+    "desc": "PESTAÑA INDIVIDUAL ENKOR EFECTO RUSO (TODOS)",
+    "precio": 5785,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-005",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PESTAÑA POSTIZA ATENEA PREMIUM INDIVIDUAL (TALLA L)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PESTAÑA POSTIZA ATENEA PREMIUM INDIVIDUAL (TALLA L)",
+    "desc": "PESTAÑA POSTIZA ATENEA PREMIUM INDIVIDUAL (TALLA L)",
+    "precio": 5135,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PESTAÑA POSTIZA ATENEA PREMIUM INDIVIDUAL (TALLA S)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PESTAÑA POSTIZA ATENEA PREMIUM INDIVIDUAL (TALLA S)",
+    "desc": "PESTAÑA POSTIZA ATENEA PREMIUM INDIVIDUAL (TALLA S)",
+    "precio": 5135,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-007",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PESTAÑA PELO A PELO NAGARAKU (0.05D)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PESTAÑA PELO A PELO NAGARAKU (0.05D)",
+    "desc": "PESTAÑA PELO A PELO NAGARAKU (0.05D)",
+    "precio": 13520,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ELC-010",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "MINI VENTILADOR SECADO DE PESTAÑAS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "MINI VENTILADOR SECADO DE PESTAÑAS",
+    "desc": "MINI VENTILADOR SECADO DE PESTAÑAS",
+    "precio": 23270,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-008",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CEPILLO PARA LAVAR PESTAÑAS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CEPILLO PARA LAVAR PESTAÑAS",
+    "desc": "CEPILLO PARA LAVAR PESTAÑAS",
+    "precio": 3835,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CEJ-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "REGLA PARA CEJAS O PIE DE REY",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "REGLA PARA CEJAS O PIE DE REY",
+    "desc": "REGLA PARA CEJAS O PIE DE REY",
+    "precio": 3640,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-009",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "ANILLO PEGANTE DE PESTAÑA SENCILLO REDONDO X100 (TODOS)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "ANILLO PEGANTE DE PESTAÑA SENCILLO REDONDO X100 (TODOS)",
+    "desc": "ANILLO PEGANTE DE PESTAÑA SENCILLO REDONDO X100 (TODOS)",
+    "precio": 3835,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-010",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "BOMBA PARA LAVAR PESTAÑAS (MEDIANA) X250",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "BOMBA PARA LAVAR PESTAÑAS (MEDIANA) X250",
+    "desc": "BOMBA PARA LAVAR PESTAÑAS (MEDIANA) X250",
+    "precio": 3770,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-011",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CINTA TRANSPORE PEQUEÑA DELGADA, SIN MARCA (TODAS)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CINTA TRANSPORE PEQUEÑA DELGADA, SIN MARCA (TODAS)",
+    "desc": "CINTA TRANSPORE PEQUEÑA DELGADA, SIN MARCA (TODAS)",
+    "precio": 2535,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-012",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "MICROAPLICADOR X100",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "MICROAPLICADOR X100",
+    "desc": "MICROAPLICADOR X100",
+    "precio": 3835,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-013",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "SELLANTE DE PESTAÑAS COATING TIPO PESTAÑINA NEGRO, TRANSPARENTE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "SELLANTE DE PESTAÑAS COATING TIPO PESTAÑINA NEGRO, TRANSPARENTE",
+    "desc": "SELLANTE DE PESTAÑAS COATING TIPO PESTAÑINA NEGRO, TRANSPARENTE",
+    "precio": 28535,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-014",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CEPILLO DE PESTAÑAS X50UND",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CEPILLO DE PESTAÑAS X50UND",
+    "desc": "CEPILLO DE PESTAÑAS X50UND",
+    "precio": 3835,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-015",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PARCHE PESTAÑAS HIDROGEL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PARCHE PESTAÑAS HIDROGEL",
+    "desc": "PARCHE PESTAÑAS HIDROGEL",
+    "precio": 325,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-016",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PEGA PESTAÑA SKY ROJA X5ML (1 A 2 SEGUNDOS)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PEGA PESTAÑA SKY ROJA X5ML (1 A 2 SEGUNDOS)",
+    "desc": "PEGA PESTAÑA SKY ROJA X5ML (1 A 2 SEGUNDOS)",
+    "precio": 22035,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-017",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PRIMER PESTAÑAS TARRO BLANCO X15ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PRIMER PESTAÑAS TARRO BLANCO X15ML",
+    "desc": "PRIMER PESTAÑAS TARRO BLANCO X15ML",
+    "precio": 20670,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-018",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PRIMER PESTAÑAS BANANA PRE-TREATMENT 10ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PRIMER PESTAÑAS BANANA PRE-TREATMENT 10ML",
+    "desc": "PRIMER PESTAÑAS BANANA PRE-TREATMENT 10ML",
+    "precio": 14170,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-019",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "SH PESTAÑA Y CEJAS AVALEIS BY KARICIA (ESPUMA) X150ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "SH PESTAÑA Y CEJAS AVALEIS BY KARICIA (ESPUMA) X150ML",
+    "desc": "SH PESTAÑA Y CEJAS AVALEIS BY KARICIA (ESPUMA) X150ML",
+    "precio": 27170,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-020",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "REMOVEDOR PARA PESTAÑAS PINK GEL X15ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "REMOVEDOR PARA PESTAÑAS PINK GEL X15ML",
+    "desc": "REMOVEDOR PARA PESTAÑAS PINK GEL X15ML",
+    "precio": 21970,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-021",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "PEGA PESTAÑAS LADY BLACK",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "PEGA PESTAÑAS LADY BLACK",
+    "desc": "PEGA PESTAÑAS LADY BLACK",
+    "precio": 34450,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PES-022",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "KIT PINZA PESTAÑAS DU X2 REF 6971 RECTA Y CURVA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "KIT PINZA PESTAÑAS DU X2 REF 6971 RECTA Y CURVA",
+    "desc": "KIT PINZA PESTAÑAS DU X2 REF 6971 RECTA Y CURVA",
+    "precio": 55770,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-BAR-008",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "BARBERA PUMA",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "BARBERA PUMA",
+    "desc": "BARBERA PUMA",
+    "precio": 7735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-HER-015",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TIJERA RAUGCCI ESTAMPADA (LISA)",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TIJERA RAUGCCI ESTAMPADA (LISA)",
+    "desc": "TIJERA RAUGCCI ESTAMPADA (LISA)",
+    "precio": 73450,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-PIN-008",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CEPILLO PULIDOR PEQUEÑO CABO PLASTICO DELGADO LARGO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CEPILLO PULIDOR PEQUEÑO CABO PLASTICO DELGADO LARGO",
+    "desc": "CEPILLO PULIDOR PEQUEÑO CABO PLASTICO DELGADO LARGO",
+    "precio": 2535,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-ACC-006",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TALCO BABY POWDER (BLANCO) X625GR",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TALCO BABY POWDER (BLANCO) X625GR",
+    "desc": "TALCO BABY POWDER (BLANCO) X625GR",
+    "precio": 7280,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-031",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TINTE DUVY CLASS",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TINTE DUVY CLASS",
+    "desc": "TINTE DUVY CLASS",
+    "precio": 12811,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-032",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TINTE IGORA ROYAL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TINTE IGORA ROYAL",
+    "desc": "TINTE IGORA ROYAL",
+    "precio": 25675,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-033",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TINTE ALFAPARF EVOLUTION",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TINTE ALFAPARF EVOLUTION",
+    "desc": "TINTE ALFAPARF EVOLUTION",
+    "precio": 22750,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-034",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "REMOVEDOR ESMALTE VENUX X1000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "REMOVEDOR ESMALTE VENUX X1000ML",
+    "desc": "REMOVEDOR ESMALTE VENUX X1000ML",
+    "precio": 38870,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-UNA-035",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "SH REMOVEDOR CALLOS Y CUTICULA VENUX X1000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "SH REMOVEDOR CALLOS Y CUTICULA VENUX X1000ML",
+    "desc": "SH REMOVEDOR CALLOS Y CUTICULA VENUX X1000ML",
+    "precio": 14950,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-034",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TTO MATIZANTE PROKPIL (BEIGE) X300ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TTO MATIZANTE PROKPIL (BEIGE) X300ML",
+    "desc": "TTO MATIZANTE PROKPIL (BEIGE) X300ML",
+    "precio": 33735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-035",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TTO MATIZANTE PROKPIL (CENIZO) X300ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TTO MATIZANTE PROKPIL (CENIZO) X300ML",
+    "desc": "TTO MATIZANTE PROKPIL (CENIZO) X300ML",
+    "precio": 33735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-036",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TTO MATIZANTE PROKPIL (COBRE) X300ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TTO MATIZANTE PROKPIL (COBRE) X300ML",
+    "desc": "TTO MATIZANTE PROKPIL (COBRE) X300ML",
+    "precio": 33735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-037",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TTO MATIZANTE PROKPIL (ROJO) X300ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TTO MATIZANTE PROKPIL (ROJO) X300ML",
+    "desc": "TTO MATIZANTE PROKPIL (ROJO) X300ML",
+    "precio": 33735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-038",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TINTE PALETTE",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TINTE PALETTE",
+    "desc": "TINTE PALETTE",
+    "precio": 12545,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-SPA-002",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "EXFOLIANTE FRUTOS SPA VENUX (FRUTOS DEL BOSQUE) X1000ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "EXFOLIANTE FRUTOS SPA VENUX (FRUTOS DEL BOSQUE) X1000ML",
+    "desc": "EXFOLIANTE FRUTOS SPA VENUX (FRUTOS DEL BOSQUE) X1000ML",
+    "precio": 18460,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-BAR-009",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TOALLA WYPALL PLANA (X70) X50 EMPAQUE ROJO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TOALLA WYPALL PLANA (X70) X50 EMPAQUE ROJO",
+    "desc": "TOALLA WYPALL PLANA (X70) X50 EMPAQUE ROJO",
+    "precio": 36335,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-BAR-010",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "CUELLERO BLANCO X5",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "CUELLERO BLANCO X5",
+    "desc": "CUELLERO BLANCO X5",
+    "precio": 12935,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-039",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TINTE IGORA VITAL",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TINTE IGORA VITAL",
+    "desc": "TINTE IGORA VITAL",
+    "precio": 16055,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-040",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "KANECALON JUMBO",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "KANECALON JUMBO",
+    "desc": "KANECALON JUMBO",
+    "precio": 8515,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
+  },
+  {
+    "id": "KTV-CAB-041",
+    "tipologia": "M1",
+    "sector": "bls",
+    "ciiu": "TTO MATIZANTE PROKPIL (PLATINO) X300ML",
+    "proceso": "",
+    "tipo": "",
+    "nombre": "TTO MATIZANTE PROKPIL (PLATINO) X300ML",
+    "desc": "TTO MATIZANTE PROKPIL (PLATINO) X300ML",
+    "precio": 33735,
+    "icono": "✂️",
+    "imagen": "",
+    "specs": {
+      "dimensiones": "",
+      "peso": "",
+      "capacidad": "",
+      "potencia": "",
+      "otrasEspecificaciones": "",
+      "condicionesServicios": "",
+      "requerimientosEspeciales": ""
+    }
   }
-}
-
-// Manufactura
-const PRODUCTOS_MANUFACTURA=[
-  producto({
-    id:'P001',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Máquina plana industrial (confección) Función: Costura recta gama genérica',
-    desc:'Garantía: 06 meses por kit electrónico y 06 meses por descalibraciones mecánicas Tipo de aguja: Cubo delgado DBX1 o Cubo grueso 135X5 Sistema paso a paso Velocidad: Variable desde 500 hasta 4000 rpm Longitud de puntada (cubo delgado a 5 mm o cubo grueso 7 mm) Posicionador de aguja Luz led integrada Motor direct drive incorporado de 550w Devanador incorporado Mueble importado',
-    precio:2973810,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P002',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Overlock industrial Overlock con costura overlock de seis hilos para telas ligeras y medianas Fácil cambio para diferent',
-    desc:'Sistema de lubricación automática Mejorado - mecanismo de barra de aguja cerrado Tensión óptima del hilo Diseño unico Servomotor integrado en la cabeza, control de velocidad continuo El ahorro de energía Ruido bajo Alto rendimiento',
-    precio:5310500,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P003',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Recubridora industrial TIPO Recubridora - Collarín USO Industrial MOTOR Mecatrónica',
-    desc:'MARCA Willcox MODELO W500D PUNTADA Collarin Recubierto  AGUJAS 3 HILOS 5 VOLTAJE 110V POTENCIA 550W',
-    precio:4873050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P004',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Fileteadora industrial Fabricante Jinthex',
-    desc:'Producción Metal Tipo de puntada cadena Tipo de material ligero, medio, pesado Longitud de la puntada, mm 3.6 Rango de avance diferencial 0,7-2 Plataforma bloque Agujas aplicables B-27 (DCx27) Número de hilos cinco Tipo de grasa automático Altura de elevación del prensatelas, mm6 Automatización no Velocidad máxima de costura 6000 Características del motor motor doméstico Distancia entre agujas 3',
-    precio:2969829,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P005',
-    sector:'manufactura',
-    icono:'🪑',
-    nombre:'Mesa de corte textil 120 x 180 cm Nuestra Mesa de Corte para Tela – Diseño Americano está fabricada para trabajos exigen',
-    desc:'La mesa tiene una altura fija de 90 cm, ideal para mantener una postura ergonómica durante el corte, evitando dolores de espalda y fatiga en jornadas largas de trabajo.  Disponible en múltiples medidas, es un producto modular y adaptable a distintos espacios de trabajo. Puedes elegir la variante que mejor se acomode a tu taller desde el menú.',
-    precio:1160072,
-    tipo:'Mobiliario',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P006',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Cortadora vertical de tela Motores',
-    desc:'110V, 1ph, 50 / 60Hz 220V, 1ph o 3ph, 50 / 60Hz Estándar: velocidad única Opcional: velocidad dual, velocidad variable Caballo de fuerza 2hp, 1ph a 4,000 RPM 2hp, 3ph a 4,000 RPM Peso 41 libras (18.5kg) Cuchillas Estándar: acero al carbono Opcional: acero de alta velocidad, recubierto de PTFE, borde ondulado, ranura ondulada, punta en ángulo Cinturones Estándar: grano medio Opcional: fino, grueso,',
-    precio:2322410,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P007',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Plancha industrial Ancho 6 Alto 4 Largo 4 Especificaciones Tipo Planchas para ropa Tipo plancha Calor Material Acero Col',
-    desc:'Cuenta con indicador de llenado No Cuenta con control de temperatura Si Cuenta con antiadherente Si Potencia 110 V Cuenta con apagado automático No',
-    precio:738812,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P008',
-    sector:'manufactura',
-    icono:'🪑',
-    nombre:'Mesa de planchado con aspiración La mesa tiene las siguientes características y se completa de:',
-    desc:'* forma inclinada rectangular (1250 x 700 mm.), calentada electricamente y aspirante * aspirador incorporado de 0,56Kw * predisposición para aplicar n°1 brazo para forma * chimenea',
-    precio:11600715,
-    tipo:'Mobiliario',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P009',
-    sector:'manufactura',
-    icono:'✂️',
-    nombre:'Kit de patronaje (reglas/curvas) Kit de Patronaje - 19 Piezas',
-    desc:'Este completo kit de patronaje incluye herramientas esenciales para cualquier amante de la costura o profesional del diseño. Está compuesto por:  9 reglas de alta precisión: Fabricadas en plástico duradero, con líneas claras y excelente resistencia, ideales para un uso prolongado. -2 rodajas marca prenda. -1 cinta métrica automática de modistería. -1 tijera de sastre con mango ergonómico de plásti',
-    precio:212415,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P010',
-    sector:'manufactura',
-    icono:'🪑',
-    nombre:'Maniquí de costura graduable en altura',
-    desc:'Maniquí de costura con altura graduable. Torso completo. Superficie almohadillada para fijar con alfileres. Para diseño y ajuste de prendas.',
-    precio:446250,
-    tipo:'Mobiliario',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P011',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Sierra circular de mesa Sierra Banco | Diámetro de Disco 10" (254mm) | 1800 Watts | Velocidad 0-4300 RPM | Incluye Disco',
-    desc:'Sierra circular de mesa, disco 10" (254mm), 1800W, velocidad 0-4300 RPM. Incluye disco, soporte, guía de ángulo y bastón de empuje. Ideal para cortes rectos, transversales y en ángulo en madera.',
-    precio:1897455,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P012',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Ingleteadora CARACTERISTICAS',
-    desc:'Mayor rango de corte de inglete y bisel para mayor versatilidad. Capacidad de corte hasta 75mm alto x 140mm ancho a 0º x 0º. Corte transversal 48mm alto x 95mm ancho a 45º x 45º en corte compuesto. Bloqueo de interruptor del gatillo para operar con una sola mano. Tope para cortes repetitivos para cortes de una misma longitud. CARACTERISTICAS  Frecuencia: 60 Hz. Potencia: 1,650 W. Diámetro del disc',
-    precio:1687360,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P013',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Sierra sinfín Caracteristicas',
-    desc:'- Sierra de mesa inclinable sin límite para realizar cortes oblicuos  - La hoja de la sierra se puede cambiar de forma segura y sin necesidad de herramientas  - Tope paralelo para realizar cortes rectos  - Ajuste de altura para cortes de precisión y uso seguro  - Guía con rodamiento de bolas para cortes precisos  - Conexión para extracción de polvo de 36 mm de diámetro  - Empuje para un uso seguro',
-    precio:1581510,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P014',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Cepilladora/regruesadora Ancho de vendaje 265 mm',
-    desc:'- Longitud del tocador 1.110 mm. - Apósito reductor de sujeción 3 mm - El tope de preparación puede girarse hasta 45° - Diámetro del eje del cepillo 75 mm - cabezal de corte grande de 3 cuchillas - Velocidad 4.000 rpm - Altura máx. de espesor 190 mm. - Ancho de entrada de espesor 265 mm. - Avance de la cepilladora de espesor 5 m/min - Espesor máx. de sujeción espesor cepilladora 2 mm - Motor 2,3 H',
-    precio:15095382,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P015',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Router/tupí Tipo',
-    desc:'Rebordeadora Tipo velocidad Fijo Uso de herramienta Profesional Alimentación Eléctrica Inalámbrico No Velocidad 32000 Potencia nominal 530 Voltaje 110',
-    precio:460352,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P016',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Esmeril de banco Tipo Esmeriles de banco Tipo velocidad Fijo Tipo de trabajo Profesional Uso de herramienta Profesional',
-    desc:'Potencia nominal 373 W Grano nº 0 Velocidad 3450 RPM Voltaje 110 V Alimentación Eléctrica Incluye (1) Disco grano grueso y (1) Disco grano medio. Potencia del motor 3450 RPM',
-    precio:747736,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P017',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Taladro de banco Peso 14 kg',
-    desc:'Dimensiones 47 × 37 × 23 cm Potencia 1/3 HP / 250 W Broquero 1/2" – 13 mm Tipo de Mandril Con llave Cono de broquero B16 Velocidades (5) 760 – 3,070 rpm Mesa de Trabajo 16 cm x 16 cm Altura de trabajo 20cm Altura total 59cm',
-    precio:1240575,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P018',
-    sector:'manufactura',
-    icono:'🏭',
-    nombre:'Compresor de aire Tipo Compresores de aire',
-    desc:'Uso de herramienta Industrial Largo del cable 1.50 Capacidad del estanque 50 Incluye * 1 Botella de aceite monogrado SAE30 • 1 Filtro de aire • 1 Tapón del depósito de aceite • 2 Ruedas • 2 Soportes frontales de hule • 1 Bolsa con tornillería Presión máxima 116 Caudal máximo 3.2 Alimentación Eléctrica Potencia 2.610 Voltaje 120 Motor Con Bobinas de aluminio Flujo de salida 90',
-    precio:1913342,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P019',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pistola neumática para clavado Características',
-    desc:'Carcasa de aluminio. Capacidad de 100 clavos. Mango ergonómico para mayor comodidad del operador. Gatillo de seguridad. Tipo clavo: Sin cabeza. Gama de clavos (largo): 15/32" a 1.3/16"(12-30 mm). Calibre clavos (espesor): 23" (0,68mm). Presión de trabajo: 75-110 PSI. Consumo nominal: 90 psi. Entrada de aire: 1/4 NPT. Diámetro interno manguera: 3/8" . Nivel de ruido: 90 dB. Ciclo de trabajo: Contin',
-    precio:287206,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P020',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Soldadora MIG/MAG Tipo Soldadoras Tipo de trabajo Industrial Uso de herramienta Profesional',
-    desc:'Largo del cable 3 m Incluye Antorcha MIG-MAG, pinza de masa y cable de conexión Ciclo de trabajo 170A - 20% / 90A - 60% / 70A - 100% Frecuencia 50/60 Hz Amperaje 170 A Alimentación Eléctrica Voltaje 230 V Rango de corriente 10 - 170 A Proceso soldadura MIG-MAG / Flux / MMA / TIG DC-Lift Potencia nominal 3.2 kW Rango de temperatura 40°C',
-    precio:7680676,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P021',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Soldadora TIG Tipo Soldador inversor Tipo de trabajo Profesional Uso de herramienta Profesional',
-    desc:'Amperaje 250 A Voltaje 110 V, 220 V Rango de corriente 20 - 250 A Proceso soldadura FLUXCORE , LIFT TIG , MMA ( revestida )Potencia nominal 26.4 kW',
-    precio:1995452,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P022',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Cortadora plasma Tipo Cortadora de plasma Tipo de trabajo Profesional Tipo de panel de control Digital',
-    desc:'Uso de herramienta Profesional Incluye Antorcha de plasma 60A Conjunto pinza de masa Cable de alimentación Manual de usuario Kit consumibles básico Manual de uso Ciclo de trabajo 30%  frecuencia 60 HZ Amperaje 40 A Voltaje 110 V, 220 V Rango de corriente 20 - 40 A Proceso soldadura Corte por plasma Voltaje enchufable Multivoltaje 110/220 Potencia nominal 7480 W Rango de  temperatura 30',
-    precio:3569822,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P023',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Prensa hidráulica Tipo Prensas Diámetro de apertura 65 cm Material Acero Tipo de trabajo',
-    desc:'Industrial Tipo de prensa Prensa rápida Tipo de abrazadera Acero',
-    precio:1213622,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P024',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Dobladora de tubo/perfil La máquina dobladora de ángulos serie ALE-JY dobla diversos perfiles de metal, incluidos ángulo',
-    desc:'Su diseño compacto ofrece ventajas como bajo consumo de energía, alta eficiencia y funcionamiento silencioso, perfecto tanto para pequeños talleres como para grandes plantas de fabricación.  Esta máquina es ampliamente utilizada en industrias que requieren doblado de metales para componentes estructurales como bridas, anillos y vigas curvas.',
-    precio:12393344,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P025',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Cizalla manual/hidráulica HZ-55 Cizalla hidráulica manual (120KN - 13.4 TON) Marca ZAAG Fuerza de corte  120KN - 13.4 TO',
-    desc:'Cizalla manual/hidráulica HZ-55 (120KN). Para corte de varillas y perfiles metálicos. Acero reforzado. Para obras civiles y talleres eléctricos.',
-    precio:8791646,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P026',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pulidora angular industrial Motor de 1250 W, montado sobre balero de bolas para mayor vida útil y mejor desempeño',
-    desc:'Mango ergonómico antiderrapante de 2 posiciones, mejor control para el operador Interruptor con función de uso continuo Uso industrial, para esmerilar y cortar acero, tubos, hierro en ángulo, ladrillos, azulejos, piedra y/o piezas de cerámica Cumple la norma NOM-003-SCFI',
-    precio:471135,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P027',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Juego de brocas industriales 5 Brocas para madera con punta centradora para una perforación más precisa.',
-    desc:'11 Brocas HSS para metal con punta tradicional (118°). 3 Brocas de manita con punta guía para perforaciones precisas y zanco hexagonal de cambio rápido. 6 Brocas para concreto con punta de carburo de tungsteno. Estuche plástico con compartimientos laterales para guardar herramienta. Incluye:  19 Puntas Estrella de 1", PHI a PH3 5 Puntas Pala de 1", 3 mm a 12 mm 9 Puntas cuadradas de 1", S1 a S3 10',
-    precio:228302,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P028',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Juego de llaves y dados Juego de Dados, Juego de Llaves de Carraca, Juego de Llaves de Vaso de 46 Piezas de 1/4 con Jueg',
-    desc:'El juego de llaves de vaso SOMOZO de 46 piezas es un conjunto completo de herramientas prácticas que se montan para ayudar a los aficionados e incluso a los profesionales en sus proyectos. Cada pieza de metal en este juego fue forjada de acero al carbono de alta calidad, endurecido y templado con un acabado pulido. Las herramientas están hechas para durar años y proporcionar siempre los mismos res',
-    precio:896716,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P029',
-    sector:'manufactura',
-    icono:'📏',
-    nombre:'Calibrador pie de rey Diseñado para el trabajo exigente, este calibrador pie de rey ofrece una medición manual con un ra',
-    desc:'Calibrador pie de rey en acero inoxidable. Mide diámetros y profundidades. Precisión 0.02 mm. Esencial para control de calidad en talleres metalmecánicos.',
-    precio:97996,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P030',
-    sector:'manufactura',
-    icono:'📏',
-    nombre:'Micrómetro MICRÓMETRO DE EXTERIORES PROFESIONAL, CAPACIDAD 0- 1", PRECISIÓN 0.001" ASIMETO',
-    desc:'Micrómetro de exteriores profesional, capacidad 0-1 pulgada, precisión 0.001 mm. Para medición precisa en metalmecánica y control de calidad.',
-    precio:378242,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P031',
-    sector:'manufactura',
-    icono:'📏',
-    nombre:'Multímetro digital certificado Tipo',
-    desc:'Multímetros Uso Profesional Tipo de trabajo Profesional Voltaje 0 V Amperaje 0 A Alimentación Pila Funciones Medidor de voltaje',
-    precio:180106,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P032',
-    sector:'manufactura',
-    icono:'📏',
-    nombre:'Pinza amperimétrica Características Principales',
-    desc:'Medición de Corriente AC: Hasta 600A con gran precisión.  True RMS: Mediciones precisas en cualquier condición de señal. NCV (Voltaje Sin Contacto): Detecta presencia de tensión en cables y paredes sin necesidad de contacto eléctrico.  Live Test: Función para identificar cables de fase (línea) de forma rápida.  Pantalla Retroiluminada: Gran tamaño y excelente visibilidad en lugares oscuros.  Prote',
-    precio:232050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P033',
-    sector:'manufactura',
-    icono:'⚡',
-    nombre:'Detector de voltaje sin contacto Dale seguridad a tus instalaciones eléctricas con el Detector de Voltaje sin Contacto B',
-    desc:'Detector de voltaje sin contacto. Detecta tensión sin tocar el cable. Señal luminosa y sonora. Herramienta de seguridad para técnicos eléctricos.',
-    precio:126556,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P034',
-    sector:'manufactura',
-    icono:'⚡',
-    nombre:'Probador de tomas (tester) Ancho',
-    desc:'4.1 cm Alto 1.9 cm Largo 7.5 cm Especificaciones  Tipo Tester Potencia máxima 0 W Alimentación Otra',
-    precio:83716,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P035',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Juego de destornilladores aislados Destornilladores diseñados para trabajos eléctricos seguros, fabricados en acero crom',
-    desc:'Cada destornillador está aislado para 1000V Mangos ergonómicos para mayor comodidad y agarre. Incluye destornilladores de pala y Phillips en diferentes tamaños. Ideal para reparación y mantenimiento de equipos eléctricos. Cumple con las normas de seguridad y calidad internacionales. Práctico estuche para almacenamiento y transporte fácil.',
-    precio:270249,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P036',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pelacables profesional Pela Cables Automática 8" Truper',
-    desc:'Permite quitar el aislamiento del cable de forma automática Capacidad de: 10 a 22 AWG Incluye cuchillas para corte de cables Tope para medir la longitud del cable a pelar 10 Mordazas para crimpar Medida: 8"',
-    precio:187246,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P037',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Crimpadora terminales Dimensiones',
-    desc:'Ancho 11.5 cm Alto 26.5 cm Largo 5.5 cm Especificaciones  Tipo Crimpeadora Tipo de alicate Pelacables Tipo de trabajo Profesional Material del mango Plástico',
-    precio:71222,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P038',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Juego de alicates (punta/corte) Tipo',
-    desc:'Set de alicates Incluye 1x Alicate de punta plana 165 mm, 1x Alicate Universal 165 mm, 1x Alicate Universal 190 mm Número de piezas 3 Formato del producto Caja País de Origen China',
-    precio:160472,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P039',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pistola de calor Dimensiones',
-    desc:'Peso 0.8 kg Especificaciones  Tipo Pistolas de calor Uso de herramienta Profesional Cuenta con bloqueo de seguridad No Cuenta con control de temperatura Si Inalámbrico No Potencia nominal 1500 W Alimentación Eléctrica Rango de temperatura 90 a 600 grados cent. Voltaje 110 Incluye Pistola de calor, Boquillas, Mango de herramientas de pastoreo, Herramientas de pastoreo.',
-    precio:249722,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P040',
-    sector:'manufactura',
-    icono:'🔌',
-    nombre:'Estación de soldadura electrónica Pantalla LCD de 3 dígitos.',
-    desc:'Construcción antiestática del cuerpo de la estación, cautín y pistola de aire. Control exacto de temperatura (±1 °C) Calentamiento rápido (3-5 seg.)  Voltaje 220 V /  50 Hz Consumo de energía 700 Wt Diapasón de temperaturas 100 °C ~ 450 °C Flujo de aire 120 L/min (max.) Estabilidad de temperatura ±1 °C Peso 2,0 kg',
-    precio:498729,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P041',
-    sector:'manufactura',
-    icono:'🌬️',
-    nombre:'Extractor de humos de soldadura',
-    desc:'Extractor de humos para soldadura con filtros de alta eficiencia. Elimina gases nocivos. Protege la salud del operario. Para talleres de soldadura.',
-    precio:4542357,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P042',
-    sector:'manufactura',
-    icono:'🧹',
-    nombre:'Aspiradora industrial Especificaciones',
-    desc:'Tipo Barril Ancho 30 cm Alto 53 cm Largo 30 cm Peso 5 kg Tipo de aspiradora Barril Tipo de filtro Polvo, Agua Uso de herramienta Industrial Material Acero inoxidable Largo del cable 6 m Largo de la manguera 2.4 m Color Plateado Incluye 1 Manguera de diámetro 1 1/4" (32 mm). 1.9 m (6.2 ft) con seguro de ajuste, 1 Boquilla tipo garra, 1 Boquilla para ranuras, 1 Boquilla 2 en 1 para piso y alfombra,',
-    precio:1261816,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P043',
-    sector:'manufactura',
-    icono:'🪑',
-    nombre:'Banco de trabajo industrial - Banco de trabajo estándar móvil - 2000 x 700 x 840 mm L x A x A WS885N-2000M40-X7000',
-    desc:'Banco de trabajo industrial estándar móvil (2000 x 700 mm). Superficie resistente. Ruedas con freno. Ideal para talleres de metalmecánica, carpintería y servicios técnicos.',
-    precio:4998000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P044',
-    sector:'manufactura',
-    icono:'🔩',
-    nombre:'Tornillo de banco Esta prensa cuenta con una garantía de 10 años, lo que te da la tranquilidad de saber que es una herra',
-    desc:'Tornillo de banco industrial con garantía de 10 años. Mandíbulas en acero endurecido. Fija piezas con firmeza. Para tornería y metalmecánica.',
-    precio:683476,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P045',
-    sector:'manufactura',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:1841852,
-    tipo:'Mobiliario',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P046',
-    sector:'manufactura',
-    icono:'💡',
-    nombre:'Lámpara de trabajo LED Esta luz de trabajo COB está hecha de material de alta calidad.',
-    desc:'Adopta cuentas de luz muy brillantes con brillo constante. Fácil de llevar y de usar. Una gran elección para ti.  Gran Luz De Inundación De Alto Brillo. Carga De Emergencia Del Teléfono Pantalla De Potencia De Carga Interfaz De Carga Micro Usb Baterías 3xaa Marca: Ecoled Modelo: Lámpara De Trabajo Multifuncional  Tipo De Luz: Luz Led Dimensiones: 15cm * 20cm Aprox.',
-    precio:75836,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P047',
-    sector:'manufactura',
-    icono:'🦺',
-    nombre:'Equipo de protección personal industrial (careta/guantes)',
-    desc:'EPP industrial: careta facial y guantes resistentes. Protege de chispas y proyecciones. Cumple normas de seguridad industrial.',
-    precio:116025,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P048',
-    sector:'manufactura',
-    icono:'🧯',
-    nombre:'Extintor multipropósito (taller) abc- 20 libras rdl',
-    desc:'Extintor multipropósito ABC 20 libras. Apaga fuegos tipo A, B y C. Certificado con manómetro. Obligatorio en talleres, cocinas y bodegas.',
-    precio:196172,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P049',
-    sector:'manufactura',
-    icono:'🩹',
-    nombre:'Botiquín industrial (taller) Estuche plástico mini cuadrado, medidas 21,5 cm x 11.5 cm x 6 cm compuesto por 13 elementos',
-    desc:'Botiquín de primeros auxilios industrial. Incluye vendas, antisépticos, curitas y guantes. Cumple normas de seguridad industrial. Estuche plástico compacto.',
-    precio:83716,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P298',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'agujas en precentacion campana , groz beckert, schmetz,singer',
-    desc:'Agujas industriales para máquinas de coser (Groz-Beckert, Schmetz, Singer). Presentación en campana. Compatibles con máquinas planas, overlock y recubridoras. Punta precisa para costura limpia.',
-    precio:9608,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P299',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'rematadores en toda su precentacion',
-    desc:'Producto de uso industrial o comercial. Consulte con su asesor para más especificaciones técnicas y disponibilidad.',
-    precio:2768,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P300',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'carreteles',
-    desc:'Carreteles para máquinas de coser industriales. Almacenan el hilo inferior. Compatibles con máquinas planas y overlock. Resistentes al calor.',
-    precio:977,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P301',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'abreojales en 3 precentaciones',
-    desc:'Herramienta para abrir ojales en telas y cuero. Disponible en 3 tamaños. Ideal para confección de ropa, marroquinería y calzado. Fácil de usar y de larga duración.',
-    precio:1466,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P302',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'metro en 3 precentaciones',
-    desc:'Metro o cinta métrica para costura en 3 presentaciones. Cinta flexible. Graduada en centímetros y pulgadas. Para patronaje y corte de telas.',
-    precio:2851,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P303',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'ijeras en 5 tamaños',
-    desc:'Tijeras de costura en 5 tamaños. Acero inoxidable, filo duradero. Corte preciso en telas. Mangos ergonómicos para largas jornadas de confección.',
-    precio:8305,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P304',
-    sector:'manufactura',
-    icono:'⚙️',
-    nombre:'pinzas de enhebrar',
-    desc:'Pinzas enhebradoras para pasar el hilo fácilmente por la aguja. Ahorran tiempo y esfuerzo. Para máquinas industriales y domésticas.',
-    precio:5473,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P305',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'alfileres rodaja y caja',
-    desc:'Alfileres de costura en presentación de rodaja y caja. Punta fina que no daña las telas. Esenciales para fijar y ajustar piezas antes de coser.',
-    precio:2066,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P306',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'guias de iman',
-    desc:'Guías magnéticas para máquinas de coser. Adhieren a la placa para guiar la tela a distancia constante. Garantizan costuras rectas.',
-    precio:4183,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P307',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'lamparas',
-    desc:'Lámparas para máquinas de coser industriales. Iluminan el área de costura. LED de bajo consumo y larga vida útil.',
-    precio:15145,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P308',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'ganchos para cualquier tipo de maquina',
-    desc:'Ganchos accesorios para máquinas de coser industriales. Facilitan el guiado y tensión del hilo. Mejoran la calidad de la costura.',
-    precio:34459,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P309',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'tizas',
-    desc:'Tizas de sastre para marcado en telas. Trazo limpio. Fácilmente removible al lavado. Para confección y sastrería.',
-    precio:1140,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P310',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'caja porta carretel',
-    desc:'Organizador tipo caja para almacenar carretes e hilos de costura. Mantiene el hilo limpio y ordenado. Fácil acceso durante la confección.',
-    precio:8225,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P311',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Máquina plana industrial (confección) Función: Costura recta gama genérica',
-    desc:'Garantía: 06 meses por kit electrónico y 06 meses por descalibraciones mecánicas Tipo de aguja: Cubo delgado DBX1 o Cubo grueso 135X5 Sistema paso a paso Velocidad: Variable desde 500 hasta 4000 rpm Longitud de puntada (cubo delgado a 5 mm o cubo grueso 7 mm) Posicionador de aguja Luz led integrada Motor direct drive incorporado de 550w Devanador incorporado Mueble importado',
-    precio:2053557,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P312',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Overlock industrial Overlock con costura overlock de seis hilos para telas ligeras y medianas Fácil cambio para diferent',
-    desc:'Sistema de lubricación automática Mejorado - mecanismo de barra de aguja cerrado Tensión óptima del hilo Diseño unico Servomotor integrado en la cabeza, control de velocidad continuo El ahorro de energía Ruido bajo Alto rendimiento',
-    precio:2524198,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P313',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Recubridora industrial TIPO Recubridora - Collarín USO Industrial MOTOR Mecatrónica',
-    desc:'MARCA Willcox MODELO W500D PUNTADA Collarin Recubierto  AGUJAS 3 HILOS 5 VOLTAJE 110V POTENCIA 550W',
-    precio:3257030,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P314',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Fileteadora industrial Fabricante Jinthex',
-    desc:'Producción Metal Tipo de puntada cadena Tipo de material ligero, medio, pesado Longitud de la puntada, mm 3.6 Rango de avance diferencial 0,7-2 Plataforma bloque Agujas aplicables B-27 (DCx27) Número de hilos cinco Tipo de grasa automático Altura de elevación del prensatelas, mm6 Automatización no Velocidad máxima de costura 6000 Características del motor motor doméstico Distancia entre agujas 3',
-    precio:2328776,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P315',
-    sector:'manufactura',
-    icono:'🪑',
-    nombre:'Mesa de corte textil 120 x 180 cm Nuestra Mesa de Corte para Tela – Diseño Americano está fabricada para trabajos exigen',
-    desc:'La mesa tiene una altura fija de 90 cm, ideal para mantener una postura ergonómica durante el corte, evitando dolores de espalda y fatiga en jornadas largas de trabajo.  Disponible en múltiples medidas, es un producto modular y adaptable a distintos espacios de trabajo. Puedes elegir la variante que mejor se acomode a tu taller desde el menú.',
-    precio:1369581,
-    tipo:'Mobiliario',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P316',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Cortadora vertical de tela Motores',
-    desc:'110V, 1ph, 50 / 60Hz 220V, 1ph o 3ph, 50 / 60Hz Estándar: velocidad única Opcional: velocidad dual, velocidad variable Caballo de fuerza 2hp, 1ph a 4,000 RPM 2hp, 3ph a 4,000 RPM Peso 41 libras (18.5kg) Cuchillas Estándar: acero al carbono Opcional: acero de alta velocidad, recubierto de PTFE, borde ondulado, ranura ondulada, punta en ángulo Cinturones Estándar: grano medio Opcional: fino, grueso,',
-    precio:2500062,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P317',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'AFILADORES PARA CORTADORA',
-    desc:'Afiladores para mantener el filo de cuchillas de cortadoras de tela. Garantizan cortes precisos y prolongan la vida útil. Indispensable para talleres de confección.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P318',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'CUCHILLAS',
-    desc:'Cuchillas de repuesto para cortadoras de tela industrial. Acero de alta velocidad. Cortes precisos en múltiples capas. Compatibles con cortadoras verticales.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P319',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Plancha industrial Ancho 6 Alto 4 Largo 4 Especificaciones Tipo Planchas para ropa Tipo plancha Calor Material Acero Col',
-    desc:'Cuenta con indicador de llenado No Cuenta con control de temperatura Si Cuenta con antiadherente Si Potencia 110 V Cuenta con apagado automático No',
-    precio:553695,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P320',
-    sector:'manufactura',
-    icono:'🪑',
-    nombre:'Mesa de planchado con aspiración La mesa tiene las siguientes características y se completa de:',
-    desc:'* forma inclinada rectangular (1250 x 700 mm.), calentada electricamente y aspirante * aspirador incorporado de 0,56Kw * predisposición para aplicar n°1 brazo para forma * chimenea',
-    precio:5457154,
-    tipo:'Mobiliario',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P321',
-    sector:'manufactura',
-    icono:'✂️',
-    nombre:'Kit de patronaje (reglas/curvas) Kit de Patronaje - 19 Piezas',
-    desc:'Este completo kit de patronaje incluye herramientas esenciales para cualquier amante de la costura o profesional del diseño. Está compuesto por:  9 reglas de alta precisión: Fabricadas en plástico duradero, con líneas claras y excelente resistencia, ideales para un uso prolongado. -2 rodajas marca prenda. -1 cinta métrica automática de modistería. -1 tijera de sastre con mango ergonómico de plásti',
-    precio:162852,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P322',
-    sector:'manufactura',
-    icono:'🪑',
-    nombre:'Maniquí de costura graduable en altura',
-    desc:'Maniquí de costura con altura graduable. Torso completo. Superficie almohadillada para fijar con alfileres. Para diseño y ajuste de prendas.',
-    precio:651406,
-    tipo:'Mobiliario',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P323',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Sierra circular de mesa Sierra Banco | Diámetro de Disco 10" (254mm) | 1800 Watts | Velocidad 0-4300 RPM | Incluye Disco',
-    desc:'Sierra circular de mesa, disco 10" (254mm), 1800W, velocidad 0-4300 RPM. Incluye disco, soporte, guía de ángulo y bastón de empuje. Ideal para cortes rectos, transversales y en ángulo en madera.',
-    precio:2320303,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P324',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Ingleteadora CARACTERISTICAS',
-    desc:'Mayor rango de corte de inglete y bisel para mayor versatilidad. Capacidad de corte hasta 75mm alto x 140mm ancho a 0º x 0º. Corte transversal 48mm alto x 95mm ancho a 45º x 45º en corte compuesto. Bloqueo de interruptor del gatillo para operar con una sola mano. Tope para cortes repetitivos para cortes de una misma longitud. CARACTERISTICAS  Frecuencia: 60 Hz. Potencia: 1,650 W. Diámetro del disc',
-    precio:2595565,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P325',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Sierra sinfín Caracteristicas',
-    desc:'- Sierra de mesa inclinable sin límite para realizar cortes oblicuos  - La hoja de la sierra se puede cambiar de forma segura y sin necesidad de herramientas  - Tope paralelo para realizar cortes rectos  - Ajuste de altura para cortes de precisión y uso seguro  - Guía con rodamiento de bolas para cortes precisos  - Conexión para extracción de polvo de 36 mm de diámetro  - Empuje para un uso seguro',
-    precio:8474420,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P326',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Cepilladora/regruesadora Ancho de vendaje 265 mm',
-    desc:'- Longitud del tocador 1.110 mm. - Apósito reductor de sujeción 3 mm - El tope de preparación puede girarse hasta 45° - Diámetro del eje del cepillo 75 mm - cabezal de corte grande de 3 cuchillas - Velocidad 4.000 rpm - Altura máx. de espesor 190 mm. - Ancho de entrada de espesor 265 mm. - Avance de la cepilladora de espesor 5 m/min - Espesor máx. de sujeción espesor cepilladora 2 mm - Motor 2,3 H',
-    precio:7523656,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P327',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Router/tupí Tipo',
-    desc:'Rebordeadora Tipo velocidad Fijo Uso de herramienta Profesional Alimentación Eléctrica Inalámbrico No Velocidad 32000 Potencia nominal 530 Voltaje 110',
-    precio:3523248,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P328',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Esmeril de banco Tipo Esmeriles de banco Tipo velocidad Fijo Tipo de trabajo Profesional Uso de herramienta Profesional',
-    desc:'Potencia nominal 373 W Grano nº 0 Velocidad 3450 RPM Voltaje 110 V Alimentación Eléctrica Incluye (1) Disco grano grueso y (1) Disco grano medio. Potencia del motor 3450 RPM',
-    precio:1293875,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P329',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Esmeril de banco Tipo Esmeriles de banco Tipo velocidad Fijo Tipo de trabajo Profesional Uso de herramienta Profesional',
-    desc:'Potencia nominal 373 W Grano nº 0 Velocidad 3450 RPM Voltaje 110 V Alimentación Eléctrica Incluye (1) Disco grano grueso y (1) Disco grano medio. Potencia del motor 3450 RPM',
-    precio:1946357,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P330',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Taladro de banco Peso 14 kg',
-    desc:'Dimensiones 47 × 37 × 23 cm Potencia 1/3 HP / 250 W Broquero 1/2" – 13 mm Tipo de Mandril Con llave Cono de broquero B16 Velocidades (5) 760 – 3,070 rpm Mesa de Trabajo 16 cm x 16 cm Altura de trabajo 20cm Altura total 59cm',
-    precio:838289,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P331',
-    sector:'manufactura',
-    icono:'🏭',
-    nombre:'Compresor de aire Tipo Compresores de aire',
-    desc:'Uso de herramienta Industrial Largo del cable 1.50 Capacidad del estanque 50 Incluye * 1 Botella de aceite monogrado SAE30 • 1 Filtro de aire • 1 Tapón del depósito de aceite • 2 Ruedas • 2 Soportes frontales de hule • 1 Bolsa con tornillería Presión máxima 116 Caudal máximo 3.2 Alimentación Eléctrica Potencia 2.610 Voltaje 120 Motor Con Bobinas de aluminio Flujo de salida 90',
-    precio:1011500,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P332',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pistola neumática para clavado Características',
-    desc:'Carcasa de aluminio. Capacidad de 100 clavos. Mango ergonómico para mayor comodidad del operador. Gatillo de seguridad. Tipo clavo: Sin cabeza. Gama de clavos (largo): 15/32" a 1.3/16"(12-30 mm). Calibre clavos (espesor): 23" (0,68mm). Presión de trabajo: 75-110 PSI. Consumo nominal: 90 psi. Entrada de aire: 1/4 NPT. Diámetro interno manguera: 3/8" . Nivel de ruido: 90 dB. Ciclo de trabajo: Contin',
-    precio:1174717,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P333',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Soldadora MIG/MAG Tipo Soldadoras Tipo de trabajo Industrial Uso de herramienta Profesional',
-    desc:'Largo del cable 3 m Incluye Antorcha MIG-MAG, pinza de masa y cable de conexión Ciclo de trabajo 170A - 20% / 90A - 60% / 70A - 100% Frecuencia 50/60 Hz Amperaje 170 A Alimentación Eléctrica Voltaje 230 V Rango de corriente 10 - 170 A Proceso soldadura MIG-MAG / Flux / MMA / TIG DC-Lift Potencia nominal 3.2 kW Rango de temperatura 40°C',
-    precio:5781833,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P334',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Soldadora MIG/MAG Tipo Soldadoras Tipo de trabajo Industrial Uso de herramienta Profesional',
-    desc:'Largo del cable 3 m Incluye Antorcha MIG-MAG, pinza de masa y cable de conexión Ciclo de trabajo 170A - 20% / 90A - 60% / 70A - 100% Frecuencia 50/60 Hz Amperaje 170 A Alimentación Eléctrica Voltaje 230 V Rango de corriente 10 - 170 A Proceso soldadura MIG-MAG / Flux / MMA / TIG DC-Lift Potencia nominal 3.2 kW Rango de temperatura 40°C',
-    precio:10421332,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P335',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Soldadora MIG/MAG Tipo Soldadoras Tipo de trabajo Industrial Uso de herramienta Profesional',
-    desc:'Largo del cable 3 m Incluye Antorcha MIG-MAG, pinza de masa y cable de conexión Ciclo de trabajo 170A - 20% / 90A - 60% / 70A - 100% Frecuencia 50/60 Hz Amperaje 170 A Alimentación Eléctrica Voltaje 230 V Rango de corriente 10 - 170 A Proceso soldadura MIG-MAG / Flux / MMA / TIG DC-Lift Potencia nominal 3.2 kW Rango de temperatura 40°C',
-    precio:15153230,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P336',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Soldadora TIG Tipo Soldador inversor Tipo de trabajo Profesional Uso de herramienta Profesional',
-    desc:'Amperaje 250 A Voltaje 110 V, 220 V Rango de corriente 20 - 250 A Proceso soldadura FLUXCORE , LIFT TIG , MMA ( revestida )Potencia nominal 26.4 kW',
-    precio:6897737,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P337',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Cortadora plasma Tipo Cortadora de plasma Tipo de trabajo Profesional Tipo de panel de control Digital',
-    desc:'Uso de herramienta Profesional Incluye Antorcha de plasma 60A Conjunto pinza de masa Cable de alimentación Manual de usuario Kit consumibles básico Manual de uso Ciclo de trabajo 30%  frecuencia 60 HZ Amperaje 40 A Voltaje 110 V, 220 V Rango de corriente 20 - 40 A Proceso soldadura Corte por plasma Voltaje enchufable Multivoltaje 110/220 Potencia nominal 7480 W Rango de  temperatura 30',
-    precio:6714013,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P338',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Prensa hidráulica Tipo Prensas Diámetro de apertura 65 cm Material Acero Tipo de trabajo',
-    desc:'Industrial Tipo de prensa Prensa rápida Tipo de abrazadera Acero',
-    precio:1428000,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P339',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Dobladora de tubo/perfil La máquina dobladora de ángulos serie ALE-JY dobla diversos perfiles de metal, incluidos ángulo',
-    desc:'Su diseño compacto ofrece ventajas como bajo consumo de energía, alta eficiencia y funcionamiento silencioso, perfecto tanto para pequeños talleres como para grandes plantas de fabricación.  Esta máquina es ampliamente utilizada en industrias que requieren doblado de metales para componentes estructurales como bridas, anillos y vigas curvas.',
-    precio:2975000,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P340',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Cizalla manual/hidráulica HZ-55 Cizalla hidráulica manual (120KN - 13.4 TON) Marca ZAAG Fuerza de corte  120KN - 13.4 TO',
-    desc:'Cizalla manual/hidráulica HZ-55 (120KN). Para corte de varillas y perfiles metálicos. Acero reforzado. Para obras civiles y talleres eléctricos.',
-    precio:14673628,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P341',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pulidora angular industrial Motor de 1250 W, montado sobre balero de bolas para mayor vida útil y mejor desempeño',
-    desc:'Mango ergonómico antiderrapante de 2 posiciones, mejor control para el operador Interruptor con función de uso continuo Uso industrial, para esmerilar y cortar acero, tubos, hierro en ángulo, ladrillos, azulejos, piedra y/o piezas de cerámica Cumple la norma NOM-003-SCFI',
-    precio:1169751,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P342',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Juego de brocas industriales 5 Brocas para madera con punta centradora para una perforación más precisa.',
-    desc:'11 Brocas HSS para metal con punta tradicional (118°). 3 Brocas de manita con punta guía para perforaciones precisas y zanco hexagonal de cambio rápido. 6 Brocas para concreto con punta de carburo de tungsteno. Estuche plástico con compartimientos laterales para guardar herramienta. Incluye:  19 Puntas Estrella de 1", PHI a PH3 5 Puntas Pala de 1", 3 mm a 12 mm 9 Puntas cuadradas de 1", S1 a S3 10',
-    precio:155550,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P343',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Juego de llaves y dados Juego de Dados, Juego de Llaves de Carraca, Juego de Llaves de Vaso de 46 Piezas de 1/4 con Jueg',
-    desc:'El juego de llaves de vaso SOMOZO de 46 piezas es un conjunto completo de herramientas prácticas que se montan para ayudar a los aficionados e incluso a los profesionales en sus proyectos. Cada pieza de metal en este juego fue forjada de acero al carbono de alta calidad, endurecido y templado con un acabado pulido. Las herramientas están hechas para durar años y proporcionar siempre los mismos res',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P344',
-    sector:'manufactura',
-    icono:'📏',
-    nombre:'Calibrador pie de rey Diseñado para el trabajo exigente, este calibrador pie de rey ofrece una medición manual con un ra',
-    desc:'Calibrador pie de rey en acero inoxidable. Mide diámetros y profundidades. Precisión 0.02 mm. Esencial para control de calidad en talleres metalmecánicos.',
-    precio:266323,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P345',
-    sector:'manufactura',
-    icono:'📏',
-    nombre:'Micrómetro MICRÓMETRO DE EXTERIORES PROFESIONAL, CAPACIDAD 0- 1", PRECISIÓN 0.001" ASIMETO',
-    desc:'Micrómetro de exteriores profesional, capacidad 0-1 pulgada, precisión 0.001 mm. Para medición precisa en metalmecánica y control de calidad.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P346',
-    sector:'manufactura',
-    icono:'📏',
-    nombre:'Multímetro digital certificado Tipo',
-    desc:'Multímetros Uso Profesional Tipo de trabajo Profesional Voltaje 0 V Amperaje 0 A Alimentación Pila Funciones Medidor de voltaje',
-    precio:89250,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P347',
-    sector:'manufactura',
-    icono:'📏',
-    nombre:'Pinza amperimétrica Características Principales',
-    desc:'Medición de Corriente AC: Hasta 600A con gran precisión.  True RMS: Mediciones precisas en cualquier condición de señal. NCV (Voltaje Sin Contacto): Detecta presencia de tensión en cables y paredes sin necesidad de contacto eléctrico.  Live Test: Función para identificar cables de fase (línea) de forma rápida.  Pantalla Retroiluminada: Gran tamaño y excelente visibilidad en lugares oscuros.  Prote',
-    precio:516556,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P348',
-    sector:'manufactura',
-    icono:'⚡',
-    nombre:'Detector de voltaje sin contacto Dale seguridad a tus instalaciones eléctricas con el Detector de Voltaje sin Contacto B',
-    desc:'Detector de voltaje sin contacto. Detecta tensión sin tocar el cable. Señal luminosa y sonora. Herramienta de seguridad para técnicos eléctricos.',
-    precio:80012,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P349',
-    sector:'manufactura',
-    icono:'⚡',
-    nombre:'Probador de tomas (tester) Ancho',
-    desc:'4.1 cm Alto 1.9 cm Largo 7.5 cm Especificaciones  Tipo Tester Potencia máxima 0 W Alimentación Otra',
-    precio:221603,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P350',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Juego de destornilladores aislados Destornilladores diseñados para trabajos eléctricos seguros, fabricados en acero crom',
-    desc:'Cada destornillador está aislado para 1000V Mangos ergonómicos para mayor comodidad y agarre. Incluye destornilladores de pala y Phillips en diferentes tamaños. Ideal para reparación y mantenimiento de equipos eléctricos. Cumple con las normas de seguridad y calidad internacionales. Práctico estuche para almacenamiento y transporte fácil.',
-    precio:260206,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P351',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pelacables profesional Pela Cables Automática 8" Truper',
-    desc:'Permite quitar el aislamiento del cable de forma automática Capacidad de: 10 a 22 AWG Incluye cuchillas para corte de cables Tope para medir la longitud del cable a pelar 10 Mordazas para crimpar Medida: 8"',
-    precio:58370,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P352',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pelacables profesional Pela Cables Automática 8" Truper',
-    desc:'Permite quitar el aislamiento del cable de forma automática Capacidad de: 10 a 22 AWG Incluye cuchillas para corte de cables Tope para medir la longitud del cable a pelar 10 Mordazas para crimpar Medida: 8"',
-    precio:234772,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P353',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Crimpadora terminales Dimensiones',
-    desc:'Ancho 11.5 cm Alto 26.5 cm Largo 5.5 cm Especificaciones  Tipo Crimpeadora Tipo de alicate Pelacables Tipo de trabajo Profesional Material del mango Plástico',
-    precio:97734,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P354',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Juego de alicates (punta/corte) Tipo',
-    desc:'Set de alicates Incluye 1x Alicate de punta plana 165 mm, 1x Alicate Universal 165 mm, 1x Alicate Universal 190 mm Número de piezas 3 Formato del producto Caja País de Origen China',
-    precio:160193,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P355',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pistola de calor Dimensiones',
-    desc:'Peso 0.8 kg Especificaciones  Tipo Pistolas de calor Uso de herramienta Profesional Cuenta con bloqueo de seguridad No Cuenta con control de temperatura Si Inalámbrico No Potencia nominal 1500 W Alimentación Eléctrica Rango de temperatura 90 a 600 grados cent. Voltaje 110 Incluye Pistola de calor, Boquillas, Mango de herramientas de pastoreo, Herramientas de pastoreo.',
-    precio:876603,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P356',
-    sector:'manufactura',
-    icono:'🔌',
-    nombre:'Estación de soldadura electrónica Pantalla LCD de 3 dígitos.',
-    desc:'Construcción antiestática del cuerpo de la estación, cautín y pistola de aire. Control exacto de temperatura (±1 °C) Calentamiento rápido (3-5 seg.)  Voltaje 220 V /  50 Hz Consumo de energía 700 Wt Diapasón de temperaturas 100 °C ~ 450 °C Flujo de aire 120 L/min (max.) Estabilidad de temperatura ±1 °C Peso 2,0 kg',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P357',
-    sector:'manufactura',
-    icono:'🌬️',
-    nombre:'Extractor de humos de soldadura',
-    desc:'Extractor de humos para soldadura con filtros de alta eficiencia. Elimina gases nocivos. Protege la salud del operario. Para talleres de soldadura.',
-    precio:535500,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P358',
-    sector:'manufactura',
-    icono:'🧹',
-    nombre:'Aspiradora industrial Especificaciones',
-    desc:'Tipo Barril Ancho 30 cm Alto 53 cm Largo 30 cm Peso 5 kg Tipo de aspiradora Barril Tipo de filtro Polvo, Agua Uso de herramienta Industrial Material Acero inoxidable Largo del cable 6 m Largo de la manguera 2.4 m Color Plateado Incluye 1 Manguera de diámetro 1 1/4" (32 mm). 1.9 m (6.2 ft) con seguro de ajuste, 1 Boquilla tipo garra, 1 Boquilla para ranuras, 1 Boquilla 2 en 1 para piso y alfombra,',
-    precio:1823918,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P359',
-    sector:'manufactura',
-    icono:'🪑',
-    nombre:'Banco de trabajo industrial - Banco de trabajo estándar móvil - 2000 x 700 x 840 mm L x A x A WS885N-2000M40-X7000',
-    desc:'Banco de trabajo industrial estándar móvil (2000 x 700 mm). Superficie resistente. Ruedas con freno. Ideal para talleres de metalmecánica, carpintería y servicios técnicos.',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P360',
-    sector:'manufactura',
-    icono:'🔩',
-    nombre:'Tornillo de banco Esta prensa cuenta con una garantía de 10 años, lo que te da la tranquilidad de saber que es una herra',
-    desc:'Tornillo de banco industrial con garantía de 10 años. Mandíbulas en acero endurecido. Fija piezas con firmeza. Para tornería y metalmecánica.',
-    precio:148750,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P361',
-    sector:'manufactura',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:380800,
-    tipo:'Mobiliario',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P362',
-    sector:'manufactura',
-    icono:'💡',
-    nombre:'Lámpara de trabajo LED Esta luz de trabajo COB está hecha de material de alta calidad.',
-    desc:'Adopta cuentas de luz muy brillantes con brillo constante. Fácil de llevar y de usar. Una gran elección para ti.  Gran Luz De Inundación De Alto Brillo. Carga De Emergencia Del Teléfono Pantalla De Potencia De Carga Interfaz De Carga Micro Usb Baterías 3xaa Marca: Ecoled Modelo: Lámpara De Trabajo Multifuncional  Tipo De Luz: Luz Led Dimensiones: 15cm * 20cm Aprox.',
-    precio:115554,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P363',
-    sector:'manufactura',
-    icono:'🦺',
-    nombre:'Equipo de protección personal industrial (careta/guantes)',
-    desc:'EPP industrial: careta facial y guantes resistentes. Protege de chispas y proyecciones. Cumple normas de seguridad industrial.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P364',
-    sector:'manufactura',
-    icono:'🧯',
-    nombre:'Extintor multipropósito (taller) abc- 20 libras rdl',
-    desc:'Extintor multipropósito ABC 20 libras. Apaga fuegos tipo A, B y C. Certificado con manómetro. Obligatorio en talleres, cocinas y bodegas.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'P365',
-    sector:'manufactura',
-    icono:'🩹',
-    nombre:'Botiquín industrial (taller) Estuche plástico mini cuadrado, medidas 21,5 cm x 11.5 cm x 6 cm compuesto por 13 elementos',
-    desc:'Botiquín de primeros auxilios industrial. Incluye vendas, antisépticos, curitas y guantes. Cumple normas de seguridad industrial. Estuche plástico compacto.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-001',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'agujas en precentacion campana , groz beckert, schmetz,singer',
-    desc:'Agujas industriales para máquinas de coser (Groz-Beckert, Schmetz, Singer). Presentación en campana. Compatibles con máquinas planas, overlock y recubridoras. Punta precisa para costura limpia.',
-    precio:8074,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-002',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'rematadores en toda su precentacion',
-    desc:'Producto de uso industrial o comercial. Consulte con su asesor para más especificaciones técnicas y disponibilidad.',
-    precio:2326,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-003',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'carreteles',
-    desc:'Carreteles para máquinas de coser industriales. Almacenan el hilo inferior. Compatibles con máquinas planas y overlock. Resistentes al calor.',
-    precio:821,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-004',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'abreojales en 3 precentaciones',
-    desc:'Herramienta para abrir ojales en telas y cuero. Disponible en 3 tamaños. Ideal para confección de ropa, marroquinería y calzado. Fácil de usar y de larga duración.',
-    precio:1232,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-005',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'metro en 3 precentaciones',
-    desc:'Metro o cinta métrica para costura en 3 presentaciones. Cinta flexible. Graduada en centímetros y pulgadas. Para patronaje y corte de telas.',
-    precio:2395,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-006',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'ijeras en 5 tamaños',
-    desc:'Tijeras de costura en 5 tamaños. Acero inoxidable, filo duradero. Corte preciso en telas. Mangos ergonómicos para largas jornadas de confección.',
-    precio:6979,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-007',
-    sector:'manufactura',
-    icono:'⚙️',
-    nombre:'pinzas de enhebrar',
-    desc:'Pinzas enhebradoras para pasar el hilo fácilmente por la aguja. Ahorran tiempo y esfuerzo. Para máquinas industriales y domésticas.',
-    precio:4599,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-008',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'alfileres rodaja y caja',
-    desc:'Alfileres de costura en presentación de rodaja y caja. Punta fina que no daña las telas. Esenciales para fijar y ajustar piezas antes de coser.',
-    precio:1736,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-009',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'guias de iman',
-    desc:'Guías magnéticas para máquinas de coser. Adhieren a la placa para guiar la tela a distancia constante. Garantizan costuras rectas.',
-    precio:3515,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-010',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'lamparas',
-    desc:'Lámparas para máquinas de coser industriales. Iluminan el área de costura. LED de bajo consumo y larga vida útil.',
-    precio:12727,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-011',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'ganchos para cualquier tipo de maquina',
-    desc:'Ganchos accesorios para máquinas de coser industriales. Facilitan el guiado y tensión del hilo. Mejoran la calidad de la costura.',
-    precio:28957,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-012',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'tizas',
-    desc:'Tizas de sastre para marcado en telas. Trazo limpio. Fácilmente removible al lavado. Para confección y sastrería.',
-    precio:958,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-013',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'caja porta carretel',
-    desc:'Organizador tipo caja para almacenar carretes e hilos de costura. Mantiene el hilo limpio y ordenado. Fácil acceso durante la confección.',
-    precio:6912,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-014',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Máquina plana industrial (confección) Función: Costura recta gama genérica',
-    desc:'Garantía: 06 meses por kit electrónico y 06 meses por descalibraciones mecánicas Tipo de aguja: Cubo delgado DBX1 o Cubo grueso 135X5 Sistema paso a paso Velocidad: Variable desde 500 hasta 4000 rpm Longitud de puntada (cubo delgado a 5 mm o cubo grueso 7 mm) Posicionador de aguja Luz led integrada Motor direct drive incorporado de 550w Devanador incorporado Mueble importado',
-    precio:1725678,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-015',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Overlock industrial Overlock con costura overlock de seis hilos para telas ligeras y medianas Fácil cambio para diferent',
-    desc:'Sistema de lubricación automática Mejorado - mecanismo de barra de aguja cerrado Tensión óptima del hilo Diseño unico Servomotor integrado en la cabeza, control de velocidad continuo El ahorro de energía Ruido bajo Alto rendimiento',
-    precio:2121175,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-016',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Recubridora industrial TIPO Recubridora - Collarín USO Industrial MOTOR Mecatrónica',
-    desc:'MARCA Willcox MODELO W500D PUNTADA Collarin Recubierto  AGUJAS 3 HILOS 5 VOLTAJE 110V POTENCIA 550W',
-    precio:2737000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-017',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Fileteadora industrial Fabricante Jinthex',
-    desc:'Producción Metal Tipo de puntada cadena Tipo de material ligero, medio, pesado Longitud de la puntada, mm 3.6 Rango de avance diferencial 0,7-2 Plataforma bloque Agujas aplicables B-27 (DCx27) Número de hilos cinco Tipo de grasa automático Altura de elevación del prensatelas, mm6 Automatización no Velocidad máxima de costura 6000 Características del motor motor doméstico Distancia entre agujas 3',
-    precio:1956955,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-018',
-    sector:'manufactura',
-    icono:'🪑',
-    nombre:'Mesa de corte textil 120 x 180 cm Nuestra Mesa de Corte para Tela – Diseño Americano está fabricada para trabajos exigen',
-    desc:'La mesa tiene una altura fija de 90 cm, ideal para mantener una postura ergonómica durante el corte, evitando dolores de espalda y fatiga en jornadas largas de trabajo.  Disponible en múltiples medidas, es un producto modular y adaptable a distintos espacios de trabajo. Puedes elegir la variante que mejor se acomode a tu taller desde el menú.',
-    precio:1150908,
-    tipo:'Mobiliario',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-019',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Cortadora vertical de tela Motores',
-    desc:'110V, 1ph, 50 / 60Hz 220V, 1ph o 3ph, 50 / 60Hz Estándar: velocidad única Opcional: velocidad dual, velocidad variable Caballo de fuerza 2hp, 1ph a 4,000 RPM 2hp, 3ph a 4,000 RPM Peso 41 libras (18.5kg) Cuchillas Estándar: acero al carbono Opcional: acero de alta velocidad, recubierto de PTFE, borde ondulado, ranura ondulada, punta en ángulo Cinturones Estándar: grano medio Opcional: fino, grueso,',
-    precio:2100893,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-020',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'AFILADORES PARA CORTADORA',
-    desc:'Afiladores para mantener el filo de cuchillas de cortadoras de tela. Garantizan cortes precisos y prolongan la vida útil. Indispensable para talleres de confección.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-021',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'CUCHILLAS',
-    desc:'Cuchillas de repuesto para cortadoras de tela industrial. Acero de alta velocidad. Cortes precisos en múltiples capas. Compatibles con cortadoras verticales.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-022',
-    sector:'manufactura',
-    icono:'🧵',
-    nombre:'Plancha industrial Ancho 6 Alto 4 Largo 4 Especificaciones Tipo Planchas para ropa Tipo plancha Calor Material Acero Col',
-    desc:'Cuenta con indicador de llenado No Cuenta con control de temperatura Si Cuenta con antiadherente Si Potencia 110 V Cuenta con apagado automático No',
-    precio:465290,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-023',
-    sector:'manufactura',
-    icono:'🪑',
-    nombre:'Mesa de planchado con aspiración La mesa tiene las siguientes características y se completa de:',
-    desc:'* forma inclinada rectangular (1250 x 700 mm.), calentada electricamente y aspirante * aspirador incorporado de 0,56Kw * predisposición para aplicar n°1 brazo para forma * chimenea',
-    precio:4585844,
-    tipo:'Mobiliario',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-024',
-    sector:'manufactura',
-    icono:'✂️',
-    nombre:'Kit de patronaje (reglas/curvas) Kit de Patronaje - 19 Piezas',
-    desc:'Este completo kit de patronaje incluye herramientas esenciales para cualquier amante de la costura o profesional del diseño. Está compuesto por:  9 reglas de alta precisión: Fabricadas en plástico duradero, con líneas claras y excelente resistencia, ideales para un uso prolongado. -2 rodajas marca prenda. -1 cinta métrica automática de modistería. -1 tijera de sastre con mango ergonómico de plásti',
-    precio:136850,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-025',
-    sector:'manufactura',
-    icono:'🪑',
-    nombre:'Maniquí de costura graduable en altura',
-    desc:'Maniquí de costura con altura graduable. Torso completo. Superficie almohadillada para fijar con alfileres. Para diseño y ajuste de prendas.',
-    precio:547400,
-    tipo:'Mobiliario',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-026',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Sierra circular de mesa Sierra Banco | Diámetro de Disco 10" (254mm) | 1800 Watts | Velocidad 0-4300 RPM | Incluye Disco',
-    desc:'Sierra circular de mesa, disco 10" (254mm), 1800W, velocidad 0-4300 RPM. Incluye disco, soporte, guía de ángulo y bastón de empuje. Ideal para cortes rectos, transversales y en ángulo en madera.',
-    precio:1949834,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-027',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Ingleteadora CARACTERISTICAS',
-    desc:'Mayor rango de corte de inglete y bisel para mayor versatilidad. Capacidad de corte hasta 75mm alto x 140mm ancho a 0º x 0º. Corte transversal 48mm alto x 95mm ancho a 45º x 45º en corte compuesto. Bloqueo de interruptor del gatillo para operar con una sola mano. Tope para cortes repetitivos para cortes de una misma longitud. CARACTERISTICAS  Frecuencia: 60 Hz. Potencia: 1,650 W. Diámetro del disc',
-    precio:2181147,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-028',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Sierra sinfín Caracteristicas',
-    desc:'- Sierra de mesa inclinable sin límite para realizar cortes oblicuos  - La hoja de la sierra se puede cambiar de forma segura y sin necesidad de herramientas  - Tope paralelo para realizar cortes rectos  - Ajuste de altura para cortes de precisión y uso seguro  - Guía con rodamiento de bolas para cortes precisos  - Conexión para extracción de polvo de 36 mm de diámetro  - Empuje para un uso seguro',
-    precio:7121361,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-029',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Cepilladora/regruesadora Ancho de vendaje 265 mm',
-    desc:'- Longitud del tocador 1.110 mm. - Apósito reductor de sujeción 3 mm - El tope de preparación puede girarse hasta 45° - Diámetro del eje del cepillo 75 mm - cabezal de corte grande de 3 cuchillas - Velocidad 4.000 rpm - Altura máx. de espesor 190 mm. - Ancho de entrada de espesor 265 mm. - Avance de la cepilladora de espesor 5 m/min - Espesor máx. de sujeción espesor cepilladora 2 mm - Motor 2,3 H',
-    precio:6322400,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-030',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Router/tupí Tipo',
-    desc:'Rebordeadora Tipo velocidad Fijo Uso de herramienta Profesional Alimentación Eléctrica Inalámbrico No Velocidad 32000 Potencia nominal 530 Voltaje 110',
-    precio:2960713,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-031',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Esmeril de banco Tipo Esmeriles de banco Tipo velocidad Fijo Tipo de trabajo Profesional Uso de herramienta Profesional',
-    desc:'Potencia nominal 373 W Grano nº 0 Velocidad 3450 RPM Voltaje 110 V Alimentación Eléctrica Incluye (1) Disco grano grueso y (1) Disco grano medio. Potencia del motor 3450 RPM',
-    precio:1087290,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-032',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Esmeril de banco Tipo Esmeriles de banco Tipo velocidad Fijo Tipo de trabajo Profesional Uso de herramienta Profesional',
-    desc:'Potencia nominal 373 W Grano nº 0 Velocidad 3450 RPM Voltaje 110 V Alimentación Eléctrica Incluye (1) Disco grano grueso y (1) Disco grano medio. Potencia del motor 3450 RPM',
-    precio:1635594,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-033',
-    sector:'manufactura',
-    icono:'🪚',
-    nombre:'Taladro de banco Peso 14 kg',
-    desc:'Dimensiones 47 × 37 × 23 cm Potencia 1/3 HP / 250 W Broquero 1/2" – 13 mm Tipo de Mandril Con llave Cono de broquero B16 Velocidades (5) 760 – 3,070 rpm Mesa de Trabajo 16 cm x 16 cm Altura de trabajo 20cm Altura total 59cm',
-    precio:704444,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-034',
-    sector:'manufactura',
-    icono:'🏭',
-    nombre:'Compresor de aire Tipo Compresores de aire',
-    desc:'Uso de herramienta Industrial Largo del cable 1.50 Capacidad del estanque 50 Incluye * 1 Botella de aceite monogrado SAE30 • 1 Filtro de aire • 1 Tapón del depósito de aceite • 2 Ruedas • 2 Soportes frontales de hule • 1 Bolsa con tornillería Presión máxima 116 Caudal máximo 3.2 Alimentación Eléctrica Potencia 2.610 Voltaje 120 Motor Con Bobinas de aluminio Flujo de salida 90',
-    precio:1011500,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-035',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pistola neumática para clavado Características',
-    desc:'Carcasa de aluminio. Capacidad de 100 clavos. Mango ergonómico para mayor comodidad del operador. Gatillo de seguridad. Tipo clavo: Sin cabeza. Gama de clavos (largo): 15/32" a 1.3/16"(12-30 mm). Calibre clavos (espesor): 23" (0,68mm). Presión de trabajo: 75-110 PSI. Consumo nominal: 90 psi. Entrada de aire: 1/4 NPT. Diámetro interno manguera: 3/8" . Nivel de ruido: 90 dB. Ciclo de trabajo: Contin',
-    precio:987157,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-036',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Soldadora MIG/MAG Tipo Soldadoras Tipo de trabajo Industrial Uso de herramienta Profesional',
-    desc:'Largo del cable 3 m Incluye Antorcha MIG-MAG, pinza de masa y cable de conexión Ciclo de trabajo 170A - 20% / 90A - 60% / 70A - 100% Frecuencia 50/60 Hz Amperaje 170 A Alimentación Eléctrica Voltaje 230 V Rango de corriente 10 - 170 A Proceso soldadura MIG-MAG / Flux / MMA / TIG DC-Lift Potencia nominal 3.2 kW Rango de temperatura 40°C',
-    precio:4858683,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-037',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Soldadora MIG/MAG Tipo Soldadoras Tipo de trabajo Industrial Uso de herramienta Profesional',
-    desc:'Largo del cable 3 m Incluye Antorcha MIG-MAG, pinza de masa y cable de conexión Ciclo de trabajo 170A - 20% / 90A - 60% / 70A - 100% Frecuencia 50/60 Hz Amperaje 170 A Alimentación Eléctrica Voltaje 230 V Rango de corriente 10 - 170 A Proceso soldadura MIG-MAG / Flux / MMA / TIG DC-Lift Potencia nominal 3.2 kW Rango de temperatura 40°C',
-    precio:8757422,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-038',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Soldadora MIG/MAG Tipo Soldadoras Tipo de trabajo Industrial Uso de herramienta Profesional',
-    desc:'Largo del cable 3 m Incluye Antorcha MIG-MAG, pinza de masa y cable de conexión Ciclo de trabajo 170A - 20% / 90A - 60% / 70A - 100% Frecuencia 50/60 Hz Amperaje 170 A Alimentación Eléctrica Voltaje 230 V Rango de corriente 10 - 170 A Proceso soldadura MIG-MAG / Flux / MMA / TIG DC-Lift Potencia nominal 3.2 kW Rango de temperatura 40°C',
-    precio:12733807,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-039',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Soldadora TIG Tipo Soldador inversor Tipo de trabajo Profesional Uso de herramienta Profesional',
-    desc:'Amperaje 250 A Voltaje 110 V, 220 V Rango de corriente 20 - 250 A Proceso soldadura FLUXCORE , LIFT TIG , MMA ( revestida )Potencia nominal 26.4 kW',
-    precio:5796417,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-040',
-    sector:'manufactura',
-    icono:'🔥',
-    nombre:'Cortadora plasma Tipo Cortadora de plasma Tipo de trabajo Profesional Tipo de panel de control Digital',
-    desc:'Uso de herramienta Profesional Incluye Antorcha de plasma 60A Conjunto pinza de masa Cable de alimentación Manual de usuario Kit consumibles básico Manual de uso Ciclo de trabajo 30%  frecuencia 60 HZ Amperaje 40 A Voltaje 110 V, 220 V Rango de corriente 20 - 40 A Proceso soldadura Corte por plasma Voltaje enchufable Multivoltaje 110/220 Potencia nominal 7480 W Rango de  temperatura 30',
-    precio:5642028,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-041',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Prensa hidráulica Tipo Prensas Diámetro de apertura 65 cm Material Acero Tipo de trabajo',
-    desc:'Industrial Tipo de prensa Prensa rápida Tipo de abrazadera Acero',
-    precio:1428000,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-042',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Dobladora de tubo/perfil La máquina dobladora de ángulos serie ALE-JY dobla diversos perfiles de metal, incluidos ángulo',
-    desc:'Su diseño compacto ofrece ventajas como bajo consumo de energía, alta eficiencia y funcionamiento silencioso, perfecto tanto para pequeños talleres como para grandes plantas de fabricación.  Esta máquina es ampliamente utilizada en industrias que requieren doblado de metales para componentes estructurales como bridas, anillos y vigas curvas.',
-    precio:2975000,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-043',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Cizalla manual/hidráulica HZ-55 Cizalla hidráulica manual (120KN - 13.4 TON) Marca ZAAG Fuerza de corte  120KN - 13.4 TO',
-    desc:'Cizalla manual/hidráulica HZ-55 (120KN). Para corte de varillas y perfiles metálicos. Acero reforzado. Para obras civiles y talleres eléctricos.',
-    precio:12330780,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-044',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pulidora angular industrial Motor de 1250 W, montado sobre balero de bolas para mayor vida útil y mejor desempeño',
-    desc:'Mango ergonómico antiderrapante de 2 posiciones, mejor control para el operador Interruptor con función de uso continuo Uso industrial, para esmerilar y cortar acero, tubos, hierro en ángulo, ladrillos, azulejos, piedra y/o piezas de cerámica Cumple la norma NOM-003-SCFI',
-    precio:982984,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-045',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Juego de brocas industriales 5 Brocas para madera con punta centradora para una perforación más precisa.',
-    desc:'11 Brocas HSS para metal con punta tradicional (118°). 3 Brocas de manita con punta guía para perforaciones precisas y zanco hexagonal de cambio rápido. 6 Brocas para concreto con punta de carburo de tungsteno. Estuche plástico con compartimientos laterales para guardar herramienta. Incluye:  19 Puntas Estrella de 1", PHI a PH3 5 Puntas Pala de 1", 3 mm a 12 mm 9 Puntas cuadradas de 1", S1 a S3 10',
-    precio:130714,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-046',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Juego de llaves y dados Juego de Dados, Juego de Llaves de Carraca, Juego de Llaves de Vaso de 46 Piezas de 1/4 con Jueg',
-    desc:'El juego de llaves de vaso SOMOZO de 46 piezas es un conjunto completo de herramientas prácticas que se montan para ayudar a los aficionados e incluso a los profesionales en sus proyectos. Cada pieza de metal en este juego fue forjada de acero al carbono de alta calidad, endurecido y templado con un acabado pulido. Las herramientas están hechas para durar años y proporcionar siempre los mismos res',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-047',
-    sector:'manufactura',
-    icono:'📏',
-    nombre:'Calibrador pie de rey Diseñado para el trabajo exigente, este calibrador pie de rey ofrece una medición manual con un ra',
-    desc:'Calibrador pie de rey en acero inoxidable. Mide diámetros y profundidades. Precisión 0.02 mm. Esencial para control de calidad en talleres metalmecánicos.',
-    precio:223801,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-048',
-    sector:'manufactura',
-    icono:'📏',
-    nombre:'Micrómetro MICRÓMETRO DE EXTERIORES PROFESIONAL, CAPACIDAD 0- 1", PRECISIÓN 0.001" ASIMETO',
-    desc:'Micrómetro de exteriores profesional, capacidad 0-1 pulgada, precisión 0.001 mm. Para medición precisa en metalmecánica y control de calidad.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-049',
-    sector:'manufactura',
-    icono:'📏',
-    nombre:'Multímetro digital certificado Tipo',
-    desc:'Multímetros Uso Profesional Tipo de trabajo Profesional Voltaje 0 V Amperaje 0 A Alimentación Pila Funciones Medidor de voltaje',
-    precio:89250,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-050',
-    sector:'manufactura',
-    icono:'📏',
-    nombre:'Pinza amperimétrica Características Principales',
-    desc:'Medición de Corriente AC: Hasta 600A con gran precisión.  True RMS: Mediciones precisas en cualquier condición de señal. NCV (Voltaje Sin Contacto): Detecta presencia de tensión en cables y paredes sin necesidad de contacto eléctrico.  Live Test: Función para identificar cables de fase (línea) de forma rápida.  Pantalla Retroiluminada: Gran tamaño y excelente visibilidad en lugares oscuros.  Prote',
-    precio:434081,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-051',
-    sector:'manufactura',
-    icono:'⚡',
-    nombre:'Detector de voltaje sin contacto Dale seguridad a tus instalaciones eléctricas con el Detector de Voltaje sin Contacto B',
-    desc:'Detector de voltaje sin contacto. Detecta tensión sin tocar el cable. Señal luminosa y sonora. Herramienta de seguridad para técnicos eléctricos.',
-    precio:67237,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-052',
-    sector:'manufactura',
-    icono:'⚡',
-    nombre:'Probador de tomas (tester) Ancho',
-    desc:'4.1 cm Alto 1.9 cm Largo 7.5 cm Especificaciones  Tipo Tester Potencia máxima 0 W Alimentación Otra',
-    precio:186221,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-053',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Juego de destornilladores aislados Destornilladores diseñados para trabajos eléctricos seguros, fabricados en acero crom',
-    desc:'Cada destornillador está aislado para 1000V Mangos ergonómicos para mayor comodidad y agarre. Incluye destornilladores de pala y Phillips en diferentes tamaños. Ideal para reparación y mantenimiento de equipos eléctricos. Cumple con las normas de seguridad y calidad internacionales. Práctico estuche para almacenamiento y transporte fácil.',
-    precio:218660,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-054',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pelacables profesional Pela Cables Automática 8" Truper',
-    desc:'Permite quitar el aislamiento del cable de forma automática Capacidad de: 10 a 22 AWG Incluye cuchillas para corte de cables Tope para medir la longitud del cable a pelar 10 Mordazas para crimpar Medida: 8"',
-    precio:49051,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-055',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pelacables profesional Pela Cables Automática 8" Truper',
-    desc:'Permite quitar el aislamiento del cable de forma automática Capacidad de: 10 a 22 AWG Incluye cuchillas para corte de cables Tope para medir la longitud del cable a pelar 10 Mordazas para crimpar Medida: 8"',
-    precio:197288,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-056',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Crimpadora terminales Dimensiones',
-    desc:'Ancho 11.5 cm Alto 26.5 cm Largo 5.5 cm Especificaciones  Tipo Crimpeadora Tipo de alicate Pelacables Tipo de trabajo Profesional Material del mango Plástico',
-    precio:82129,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-057',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Juego de alicates (punta/corte) Tipo',
-    desc:'Set de alicates Incluye 1x Alicate de punta plana 165 mm, 1x Alicate Universal 165 mm, 1x Alicate Universal 190 mm Número de piezas 3 Formato del producto Caja País de Origen China',
-    precio:134616,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-058',
-    sector:'manufactura',
-    icono:'🔧',
-    nombre:'Pistola de calor Dimensiones',
-    desc:'Peso 0.8 kg Especificaciones  Tipo Pistolas de calor Uso de herramienta Profesional Cuenta con bloqueo de seguridad No Cuenta con control de temperatura Si Inalámbrico No Potencia nominal 1500 W Alimentación Eléctrica Rango de temperatura 90 a 600 grados cent. Voltaje 110 Incluye Pistola de calor, Boquillas, Mango de herramientas de pastoreo, Herramientas de pastoreo.',
-    precio:736641,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-059',
-    sector:'manufactura',
-    icono:'🔌',
-    nombre:'Estación de soldadura electrónica Pantalla LCD de 3 dígitos.',
-    desc:'Construcción antiestática del cuerpo de la estación, cautín y pistola de aire. Control exacto de temperatura (±1 °C) Calentamiento rápido (3-5 seg.)  Voltaje 220 V /  50 Hz Consumo de energía 700 Wt Diapasón de temperaturas 100 °C ~ 450 °C Flujo de aire 120 L/min (max.) Estabilidad de temperatura ±1 °C Peso 2,0 kg',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-060',
-    sector:'manufactura',
-    icono:'🌬️',
-    nombre:'Extractor de humos de soldadura',
-    desc:'Extractor de humos para soldadura con filtros de alta eficiencia. Elimina gases nocivos. Protege la salud del operario. Para talleres de soldadura.',
-    precio:535500,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-061',
-    sector:'manufactura',
-    icono:'🧹',
-    nombre:'Aspiradora industrial Especificaciones',
-    desc:'Tipo Barril Ancho 30 cm Alto 53 cm Largo 30 cm Peso 5 kg Tipo de aspiradora Barril Tipo de filtro Polvo, Agua Uso de herramienta Industrial Material Acero inoxidable Largo del cable 6 m Largo de la manguera 2.4 m Color Plateado Incluye 1 Manguera de diámetro 1 1/4" (32 mm). 1.9 m (6.2 ft) con seguro de ajuste, 1 Boquilla tipo garra, 1 Boquilla para ranuras, 1 Boquilla 2 en 1 para piso y alfombra,',
-    precio:1532705,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-062',
-    sector:'manufactura',
-    icono:'🪑',
-    nombre:'Banco de trabajo industrial - Banco de trabajo estándar móvil - 2000 x 700 x 840 mm L x A x A WS885N-2000M40-X7000',
-    desc:'Banco de trabajo industrial estándar móvil (2000 x 700 mm). Superficie resistente. Ruedas con freno. Ideal para talleres de metalmecánica, carpintería y servicios técnicos.',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-063',
-    sector:'manufactura',
-    icono:'🔩',
-    nombre:'Tornillo de banco Esta prensa cuenta con una garantía de 10 años, lo que te da la tranquilidad de saber que es una herra',
-    desc:'Tornillo de banco industrial con garantía de 10 años. Mandíbulas en acero endurecido. Fija piezas con firmeza. Para tornería y metalmecánica.',
-    precio:148750,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-064',
-    sector:'manufactura',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:380800,
-    tipo:'Mobiliario',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-065',
-    sector:'manufactura',
-    icono:'💡',
-    nombre:'Lámpara de trabajo LED Esta luz de trabajo COB está hecha de material de alta calidad.',
-    desc:'Adopta cuentas de luz muy brillantes con brillo constante. Fácil de llevar y de usar. Una gran elección para ti.  Gran Luz De Inundación De Alto Brillo. Carga De Emergencia Del Teléfono Pantalla De Potencia De Carga Interfaz De Carga Micro Usb Baterías 3xaa Marca: Ecoled Modelo: Lámpara De Trabajo Multifuncional  Tipo De Luz: Luz Led Dimensiones: 15cm * 20cm Aprox.',
-    precio:97104,
-    tipo:'Equipo',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-066',
-    sector:'manufactura',
-    icono:'🦺',
-    nombre:'Equipo de protección personal industrial (careta/guantes)',
-    desc:'EPP industrial: careta facial y guantes resistentes. Protege de chispas y proyecciones. Cumple normas de seguridad industrial.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-067',
-    sector:'manufactura',
-    icono:'🧯',
-    nombre:'Extintor multipropósito (taller) abc- 20 libras rdl',
-    desc:'Extintor multipropósito ABC 20 libras. Apaga fuegos tipo A, B y C. Certificado con manómetro. Obligatorio en talleres, cocinas y bodegas.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  }),
-
-  producto({
-    id:'CAT2-068',
-    sector:'manufactura',
-    icono:'🩹',
-    nombre:'Botiquín industrial (taller) Estuche plástico mini cuadrado, medidas 21,5 cm x 11.5 cm x 6 cm compuesto por 13 elementos',
-    desc:'Botiquín de primeros auxilios industrial. Incluye vendas, antisépticos, curitas y guantes. Cumple normas de seguridad industrial. Estuche plástico compacto.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (14,16,25) / S (95)',
-    proceso:'Producción / Operación'
-  })
-
 ];
-
-// Comercio y Servicios
-const PRODUCTOS_COMERCIO=[
-  producto({
-    id:'P050',
-    sector:'comercio',
-    icono:'🗄️',
-    nombre:'Estantería metálica de exhibición Tipo',
-    desc:'Estanterías metálica Ancho 90 cm Alto 176 cm Profundidad 40 cm Dimensiones 90 x 176 x 40 cm Peso 15.888 kg Tipo de estantería Estante Material Metal Color Gris Incluye Piezas de Union Cantidad de repisas 5',
-    precio:535322,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P051',
-    sector:'comercio',
-    icono:'🗄️',
-    nombre:'Góndolas para tienda Estructura: Metálica reforzada, de alta resistencia.',
-    desc:'Niveles de Exhibición:  4 repisas metálicas  Ajustables en altura mediante sistema de ranura tipo enganche  Acabado: Pintura electrostática horneada, anticorrosiva y fácil de limpiar.  Base Estable: Repisa inferior amplia con patas metálicas para mayor estabilidad del módulo.  Dimensiones:  Alto: 180 cm  Ancho: 100 cm  Fondo: 46 cm',
-    precio:1947435,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P052',
-    sector:'comercio',
-    icono:'❄️',
-    nombre:'Nevera exhibidora vertical Tipo Nevera congelador superior o arriba Referencia del Producto en el Certificado/Empaque En',
-    desc:'Tipo de panel de control Digital Tipo de  refrigerador - congelador Nevera Capacidad 440 litros Capacidad de refrigeración 440 litros Capacidad del congelador 0 litros',
-    precio:6113446,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P053',
-    sector:'comercio',
-    icono:'❄️',
-    nombre:'Congelador tipo cofre Tipo Congeladores Referencia del Producto en el Certificado/Empaque CI-299TV Ancho 83.7 cm Alto 11',
-    desc:'Blanco Número de gavetas 4 Cantidad de puertas 2 Consumo energético 99 kWh/mes Posición del congelador Freezer horizontal Año de lanzamiento 2025 Voltaje 115 V Garantía detalle 1 año general y 3 años en el compresor',
-    precio:3792946,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P054',
-    sector:'comercio',
-    icono:'⚖️',
-    nombre:'Balanza digital con torre Unidad de medida: Kg / lb., División mínima: 5 g (0.18 oz)., Pesada mínima: 100 g (3.5 oz)., M',
-    desc:'Balanza digital con torre y pantalla visible para cliente y vendedor. Capacidad 30 kg. Ideal para tiendas, plazas de mercado y empacadoras. Precisa y fácil de calibrar.',
-    precio:681692,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P055',
-    sector:'comercio',
-    icono:'💰',
-    nombre:'Caja registradora / POS odo en Uno Caja Registradora Profesional para Pequeñas Empresas, Paquete POS Incluye: Monitor Tá',
-    desc:'Sistema POS todo en uno. Incluye monitor táctil, cajón de dinero, escáner e impresora térmica. Administra ventas, inventario y cierre de caja.',
-    precio:9686324,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P056',
-    sector:'comercio',
-    icono:'📱',
-    nombre:'Lector de código de barras escaners',
-    desc:'Lector de código de barras USB o inalámbrico. Lee códigos 1D y 2D. Compatible con sistemas POS e inventario. Para tiendas y bodegas.',
-    precio:249722,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P057',
-    sector:'comercio',
-    icono:'🖨️',
-    nombre:'Impresora térmica de recibos Tipo',
-    desc:'Impresoras Referencia del Producto en el Certificado/Empaque 7709281325989 Ancho 11 cm Alto 10 cm Largo 15 cm Tipo de impresora Impresora Tipo de impresión Láser monocromática Color Negra Cuenta con Wifi No Calidad de impresión Alta resolución Compatibilidad Windows, Linux, Android y macOS',
-    precio:196172,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P058',
-    sector:'comercio',
-    icono:'🖨️',
-    nombre:'Impresora de etiquetas MÉTODO DE IMPRESIÓN',
-    desc:'Térmico directo, Térmico por transferencia ANCHO DE IMPESIÓN 104MM VELOCIIDAD DE IMPESIÓN 127MM/S INTERFAZ Ethernet, USB COMPATIBILIDAD Android, Windows, Linux, Mac OSEMULACIÓN DPL, EPL, TSPL, ZPL',
-    precio:1028114,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P059',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:355215,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P060',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Dispensador de film stretch (empaque) Material y Diseño: Dispensador de stretch metálico con núcleo adaptable para bobin',
-    desc:'Mango Ergonómico: Mango protegido con espuma para un agarre cómodo y seguro durante la aplicación del film stretch. Base en Aluminio: La base fabricada en aluminio proporciona estabilidad y durabilidad al dispensador. Tensión Ajustable: Cuenta con un sistema de tensión ajustable, permitiendo adaptar la fuerza según las necesidades de envoltura. Peso: 1,6 KG.',
-    precio:624821,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P061',
-    sector:'comercio',
-    icono:'🛒',
-    nombre:'Carrito de mercado (uso interno) el carro para autoservicio metálico va más allá de las expectativas convencionales. Es',
-    desc:'➣ Alto: 99 cm cm ➣ Fondo: 90 cm cm ➣ Colores: zincado ➣ Desarmable: No',
-    precio:1111073,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P062',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Canastillas plásticas para surtido Canastilla plastica fondo rombo pared rombo 60x40x25',
-    desc:'Canastillas plásticas rígidas para almacenamiento y transporte. Apilables. Ideales para frutas, verduras, panadería, carnicería y logística.',
-    precio:54978,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P063',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Contenedores grado alimentario Contenedor Portátil Scepter de Grado Alimenticio ? 19 L con Boquilla Reversible',
-    desc:'Contenedores portátiles de grado alimentario. Material libre de BPA. Herméticos y apilables. Para almacenamiento de líquidos y alimentos en restaurantes.',
-    precio:160472,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P064',
-    sector:'comercio',
-    icono:'🪑',
-    nombre:'Mesa inoxidable de preparación Mesas Acero 90 x 150 x 50 Con Entrepaño',
-    desc:'Mesa de preparación en acero inoxidable (90 x 150 x 50 cm) con entrepaño. Resistente a la corrosión. Cumple normas sanitarias.',
-    precio:3212822,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P065',
-    sector:'comercio',
-    icono:'🚰',
-    nombre:'Lavamanos en acero inoxidable (operación) Grifería institucional kit válvula de pedal con lavamanos de 28x30',
-    desc:'Lavamanos en acero inoxidable con grifería institucional de válvula de pedal o palanca. Cumple normas sanitarias. Para cocinas industriales y áreas de manipulación de alimentos.',
-    precio:588872,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P066',
-    sector:'comercio',
-    icono:'⚖️',
-    nombre:'Gramera/báscula de precisión BASCULA  DIGITAL PARA COCINA CAPACIDAD 5 KG TRUPER, SENSOR DE ALTA PRESICION, PANTALLA LCD,',
-    desc:'Báscula digital de precisión para cocina, capacidad 5 kg. Plataforma en acero inoxidable. Función tara. Para panadería y restaurantes.',
-    precio:47128,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P067',
-    sector:'comercio',
-    icono:'🔪',
-    nombre:'Rebanadora de embutidos Tajadora de carnes frias EXH: Robusta estructura en aluminio anodizado disco de 30 centimetros d',
-    desc:'Tajadora de carnes frías y embutidos en acero inoxidable. Hoja ajustable. Para supermercados y plazas de mercado.',
-    precio:6017235,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P068',
-    sector:'comercio',
-    icono:'🗄️',
-    nombre:'Vitrina mostrador Estructura en Lámina Cold Rolled Calibre 24; Entrepaños en Vidrio 4 mm. con boceleria metálica, Puerta',
-    desc:'Vitrina mostrador con vidrio templado y puerta corrediza. Exhibe productos de forma elegante. Para joyerías, tiendas de accesorios y puntos de venta.',
-    precio:2274417,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P069',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'l Licuadora Industrial acero inoxidable 25 litros',
-    desc:'Licuadora industrial en acero inoxidable de 25 litros. Motor potente para grandes volúmenes. Para juguerías y restaurantes.',
-    precio:6009202,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P070',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Batidora/amasadora industrial 10 litros Capacidad max en harina3 libras',
-    desc:'Velocidades2 Voltaje110V 60Hz Potencia370W AccesoriosGancho, Paleta y globo Dimensiones76X43X51cm (alto, ancho y fondo)',
-    precio:4034100,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P071',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Horno semindustrial de convección Horno de convección eléctrico a 220V con espacio para 4 bandejas. Exterior e interior',
-    desc:'Horno de convección eléctrico a 220V para uso semindustrial. Calor uniforme. Para panadería, pastelería y restaurantes pequeños.',
-    precio:4459653,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P072',
-    sector:'comercio',
-    icono:'🏭',
-    nombre:'Fermentadora/armario de fermentación Camara de fermentación Unox 16 Bandejas 60×40cm – Manual',
-    desc:'Armario de fermentación de 16 bandejas. Control preciso de temperatura y humedad. Fermentación uniforme para mayor calidad del pan.',
-    precio:37374508,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P073',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Molino de granos Tipo',
-    desc:'Molinos de cocina Año y mes de fabricación Visible en la etiqueta de los productos sujetos a la resolución 1440 del 2021. Referencia del Producto en el Certificado/Empaque L14200 Ancho 14.5 cm Alto 33 cm Largo 15.7 cm Material del utensilio Metal Color Plateado Número de piezas 11',
-    precio:249722,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P074',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:892322,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P075',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Empacadora semiautomática',
-    desc:'Empacadora semiautomática para sellado de productos en bolsas. Aumenta la velocidad de empaque. Para procesadoras de alimentos y pequeñas industrias.',
-    precio:25168500,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P076',
-    sector:'comercio',
-    icono:'❄️',
-    nombre:'Refrigerador productivo Refrigerador vertical de dos puertas. Marco construcción exterior e interior en acero inoxidable',
-    desc:'Refrigerador vertical de dos puertas para uso productivo. Gran capacidad, temperatura regulable. Para restaurantes, panaderías y tiendas.',
-    precio:15670917,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P077',
-    sector:'comercio',
-    icono:'🌬️',
-    nombre:'extractor de olores Acabado de filtros de grasa Aluminio',
-    desc:'Aluminio Alarma de cambio de filtros No No Apagado programable No No Capacidad de Extracción (m3/hr) 250m3/hr 120m3/hr Color Inoxidable Inoxidable Display No No Filtro de carbón activado Si No Indicador de encendido Si No',
-    precio:617432,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P078',
-    sector:'comercio',
-    icono:'🌬️',
-    nombre:'Campana extractora Campana CRIP08-60N Inoxidable 3 Velocidades Negra',
-    desc:'Opción de ser extractora (accesorio no incluido). • Caudal de aspiración de 210 m³/h. • Motor de 3 velocidades de operación, con controles frontales independientes. • 1 bombillo de 25W. Interruptor independiente para la luz. • Rejilla atrapagrasa removible y lavable. • Filtro de carbón activado para purificar los olores de la cocción.',
-    precio:535322,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P079',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Freidora industrial Equipo fabricado totalmente en acero.',
-    desc:'– Pozuelo en acero 430 – Tres quemadores en hierro fundido indeformables de alto rendimiento – Sistema de seguridad compuesto por termostato, piloto, termopila y válvula Unitrol. – Rodachinas de alto tráfico 3″ en poliuretano – Incluye GRATIS dos canastillas de trabajo pesado – Incluye GRATIS rejilla filtro de impurezas – Posee zona fria para mayor vida útil del aceite. – Obtendrás ahorro de aceit',
-    precio:6158250,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P080',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Plancha para asados Plancha Para Asar 47 Cm X 25 Cm',
-    desc:'Plancha para asados 47 x 25 cm en acero inoxidable. Distribución uniforme del calor. Para restaurantes y negocios de comida rápida.',
-    precio:410532,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P081',
-    sector:'comercio',
-    icono:'🍽️',
-    nombre:'Dispensador de salsas y topping (operación) ste dispensador de salsa comercial puede almacenar 1 tanque de salsa a su gu',
-    desc:'Alto: 25 cm Profundo: 18 cm',
-    precio:2163598,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P082',
-    sector:'comercio',
-    icono:'🍽️',
-    nombre:'Set gastronorm (bandejas)',
-    desc:'Set de bandejas Gastronorm en acero inoxidable. Medidas estándar. Compatibles con hornos y refrigeradores. Para cocinas profesionales.',
-    precio:3480750,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P083',
-    sector:'comercio',
-    icono:'🪑',
-    nombre:'Carro bandejero CARRO RACK PARA BANDEJA 521*661*1780',
-    desc:'Carro rack metálico para bandejas de panadería. Ruedas para desplazamiento en cocina. Permite transportar y almacenar múltiples bandejas.',
-    precio:4994516,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P084',
-    sector:'comercio',
-    icono:'☕',
-    nombre:'Máquina de café semiautomática Potencia',
-    desc:'1450 Watts  Voltaje Rango entre 110 V y 120 V  Tipo de Producto Cafetera Expresso  Tipo de Filtro No Necesita  Capacidad 2  Tazas',
-    precio:5354822,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P085',
-    sector:'comercio',
-    icono:'🧵',
-    nombre:'Máquina plana industrial (confección) Función: Costura recta gama genérica',
-    desc:'Garantía: 06 meses por kit electrónico y 06 meses por descalibraciones mecánicas Tipo de aguja: Cubo delgado DBX1 o Cubo grueso 135X5 Sistema paso a paso Velocidad: Variable desde 500 hasta 4000 rpm Longitud de puntada (cubo delgado a 5 mm o cubo grueso 7 mm) Posicionador de aguja Luz led integrada Motor direct drive incorporado de 550w Devanador incorporado Mueble importado',
-    precio:2973810,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P086',
-    sector:'comercio',
-    icono:'🧵',
-    nombre:'Overlock industrial Overlock con costura overlock de seis hilos para telas ligeras y medianas Fácil cambio para diferent',
-    desc:'Sistema de lubricación automática Mejorado - mecanismo de barra de aguja cerrado Tensión óptima del hilo Diseño unico Servomotor integrado en la cabeza, control de velocidad continuo El ahorro de energía Ruido bajo Alto rendimiento',
-    precio:5310500,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P087',
-    sector:'comercio',
-    icono:'🪑',
-    nombre:'Mesa de corte textil 120 x 180 cm Nuestra Mesa de Corte para Tela – Diseño Americano está fabricada para trabajos exigen',
-    desc:'La mesa tiene una altura fija de 90 cm, ideal para mantener una postura ergonómica durante el corte, evitando dolores de espalda y fatiga en jornadas largas de trabajo.  Disponible en múltiples medidas, es un producto modular y adaptable a distintos espacios de trabajo. Puedes elegir la variante que mejor se acomode a tu taller desde el menú.',
-    precio:1160072,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P088',
-    sector:'comercio',
-    icono:'🧵',
-    nombre:'Cortadora vertical de tela Motores',
-    desc:'110V, 1ph, 50 / 60Hz 220V, 1ph o 3ph, 50 / 60Hz Estándar: velocidad única Opcional: velocidad dual, velocidad variable Caballo de fuerza 2hp, 1ph a 4,000 RPM 2hp, 3ph a 4,000 RPM Peso 41 libras (18.5kg) Cuchillas Estándar: acero al carbono Opcional: acero de alta velocidad, recubierto de PTFE, borde ondulado, ranura ondulada, punta en ángulo Cinturones Estándar: grano medio Opcional: fino, grueso,',
-    precio:2322410,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P089',
-    sector:'comercio',
-    icono:'🧵',
-    nombre:'Plancha industrial Ancho 6 Alto 4 Largo 4 Especificaciones Tipo Planchas para ropa Tipo plancha Calor Material Acero Col',
-    desc:'Cuenta con indicador de llenado No Cuenta con control de temperatura Si Cuenta con antiadherente Si Potencia 110 V Cuenta con apagado automático No',
-    precio:738812,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P090',
-    sector:'comercio',
-    icono:'💇',
-    nombre:'Silla hidráulica profesional (peluquería) Silla de Barbería y Peluquería Reclinable Hidráulica y Giratoria Stetik Negro',
-    desc:'Silla hidráulica profesional para peluquería y barbería. Giratoria y reclinable. Tapizado en cuero sintético. Comodidad al cliente y facilidad al estilista.',
-    precio:3694772,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P091',
-    sector:'comercio',
-    icono:'🚿',
-    nombre:'Lavacabezas portátil Cuenta con dos contenedores de 2 galones cada uno (≈7.5 L):',
-    desc:'🔵 1 para agua limpia  ⚫ 1 para agua residual  Esto garantiza un lavado continuo, higiénico y sin necesidad de conexiones fijas o plomería.',
-    precio:1338750,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P092',
-    sector:'comercio',
-    icono:'💨',
-    nombre:'Secador tipo casco Su potencia es de 1000W.',
-    desc:'Contiene pedestal y casco. Voluminizá tu cabello.',
-    precio:3386627,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P093',
-    sector:'comercio',
-    icono:'✂️',
-    nombre:'Máquina corta cabello profesional Tipo : Máquinas cortapelo',
-    desc:'•Modelo : GR4  •Inalámbrico : Si  •Potencia nominal : 7 W  •Garantía : 3 meses',
-    precio:217592,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P094',
-    sector:'comercio',
-    icono:'💰',
-    nombre:'Esterilizador UV para herramientas La caja de desinfección UV + Ozono es un dispositivo compacto diseñado para eliminar',
-    desc:'Esterilizador UV + Ozono para herramientas de peluquería. Elimina bacterias y virus. Compacto y silencioso. Para cumplir normas sanitarias en establecimientos de belleza.',
-    precio:2623950,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P095',
-    sector:'comercio',
-    icono:'💇',
-    nombre:'Toalla/Capas de barbería (dotación)',
-    desc:'Set de toallas y capas para barbería, 10 unidades. Material resistente al lavado. Protegen al cliente durante el servicio. Higiene para establecimientos de belleza.',
-    precio:62475,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P096',
-    sector:'comercio',
-    icono:'🪞',
-    nombre:'Espejo profesional con iluminación Espejo de tocador Hollywood M MIVONDA con 18 bombillas, espejo de maquillaje grande i',
-    desc:'Espejo de tocador con 18 bombillas LED. Tres modos de iluminación. Puerto USB de carga. Para salones de belleza y maquillaje profesional.',
-    precio:1227709,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P097',
-    sector:'comercio',
-    icono:'💇',
-    nombre:'Carro auxiliar de peluquería Alto',
-    desc:'82 cm Ancho 32 cm Cantidad de cajones 4 Color Negro Fondo 35 cm Material Plástico',
-    precio:712036,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P098',
-    sector:'comercio',
-    icono:'🩹',
-    nombre:'Botiquín industrial (taller) Estuche plástico mini cuadrado, medidas 21,5 cm x 11.5 cm x 6 cm compuesto por 13 elementos',
-    desc:'Botiquín de primeros auxilios industrial. Incluye vendas, antisépticos, curitas y guantes. Cumple normas de seguridad industrial. Estuche plástico compacto.',
-    precio:83716,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P099',
-    sector:'comercio',
-    icono:'🧯',
-    nombre:'Extintor multipropósito (taller) abc- 20 libras rdl',
-    desc:'Extintor multipropósito ABC 20 libras. Apaga fuegos tipo A, B y C. Certificado con manómetro. Obligatorio en talleres, cocinas y bodegas.',
-    precio:196172,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P366',
-    sector:'comercio',
-    icono:'🗄️',
-    nombre:'Estantería metálica de exhibición Tipo',
-    desc:'Estanterías metálica Ancho 90 cm Alto 176 cm Profundidad 40 cm Dimensiones 90 x 176 x 40 cm Peso 15.888 kg Tipo de estantería Estante Material Metal Color Gris Incluye Piezas de Union Cantidad de repisas 5',
-    precio:333200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P367',
-    sector:'comercio',
-    icono:'🗄️',
-    nombre:'Góndolas para tienda Estructura: Metálica reforzada, de alta resistencia.',
-    desc:'Niveles de Exhibición:  4 repisas metálicas  Ajustables en altura mediante sistema de ranura tipo enganche  Acabado: Pintura electrostática horneada, anticorrosiva y fácil de limpiar.  Base Estable: Repisa inferior amplia con patas metálicas para mayor estabilidad del módulo.  Dimensiones:  Alto: 180 cm  Ancho: 100 cm  Fondo: 46 cm',
-    precio:535500,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P368',
-    sector:'comercio',
-    icono:'❄️',
-    nombre:'Nevera exhibidora vertical Tipo Nevera congelador superior o arriba Referencia del Producto en el Certificado/Empaque En',
-    desc:'Tipo de panel de control Digital Tipo de  refrigerador - congelador Nevera Capacidad 440 litros Capacidad de refrigeración 440 litros Capacidad del congelador 0 litros',
-    precio:7412660,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P369',
-    sector:'comercio',
-    icono:'❄️',
-    nombre:'Congelador tipo cofre Tipo Congeladores Referencia del Producto en el Certificado/Empaque CI-299TV Ancho 83.7 cm Alto 11',
-    desc:'Blanco Número de gavetas 4 Cantidad de puertas 2 Consumo energético 99 kWh/mes Posición del congelador Freezer horizontal Año de lanzamiento 2025 Voltaje 115 V Garantía detalle 1 año general y 3 años en el compresor',
-    precio:4750466,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P370',
-    sector:'comercio',
-    icono:'⚖️',
-    nombre:'Balanza digital con torre Unidad de medida: Kg / lb., División mínima: 5 g (0.18 oz)., Pesada mínima: 100 g (3.5 oz)., M',
-    desc:'Balanza digital con torre y pantalla visible para cliente y vendedor. Capacidad 30 kg. Ideal para tiendas, plazas de mercado y empacadoras. Precisa y fácil de calibrar.',
-    precio:214200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P371',
-    sector:'comercio',
-    icono:'💰',
-    nombre:'Caja registradora / POS odo en Uno Caja Registradora Profesional para Pequeñas Empresas, Paquete POS Incluye: Monitor Tá',
-    desc:'Sistema POS todo en uno. Incluye monitor táctil, cajón de dinero, escáner e impresora térmica. Administra ventas, inventario y cierre de caja.',
-    precio:5256468,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P372',
-    sector:'comercio',
-    icono:'📱',
-    nombre:'Lector de código de barras escaners',
-    desc:'Lector de código de barras USB o inalámbrico. Lee códigos 1D y 2D. Compatible con sistemas POS e inventario. Para tiendas y bodegas.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P373',
-    sector:'comercio',
-    icono:'🖨️',
-    nombre:'Impresora térmica de recibos Tipo',
-    desc:'Impresoras Referencia del Producto en el Certificado/Empaque 7709281325989 Ancho 11 cm Alto 10 cm Largo 15 cm Tipo de impresora Impresora Tipo de impresión Láser monocromática Color Negra Cuenta con Wifi No Calidad de impresión Alta resolución Compatibilidad Windows, Linux, Android y macOS',
-    precio:214200,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P374',
-    sector:'comercio',
-    icono:'🖨️',
-    nombre:'Impresora de etiquetas MÉTODO DE IMPRESIÓN',
-    desc:'Térmico directo, Térmico por transferencia ANCHO DE IMPESIÓN 104MM VELOCIIDAD DE IMPESIÓN 127MM/S INTERFAZ Ethernet, USB COMPATIBILIDAD Android, Windows, Linux, Mac OSEMULACIÓN DPL, EPL, TSPL, ZPL',
-    precio:416500,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P375',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:455528,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P376',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Dispensador de film stretch (empaque) Material y Diseño: Dispensador de stretch metálico con núcleo adaptable para bobin',
-    desc:'Mango Ergonómico: Mango protegido con espuma para un agarre cómodo y seguro durante la aplicación del film stretch. Base en Aluminio: La base fabricada en aluminio proporciona estabilidad y durabilidad al dispensador. Tensión Ajustable: Cuenta con un sistema de tensión ajustable, permitiendo adaptar la fuerza según las necesidades de envoltura. Peso: 1,6 KG.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P377',
-    sector:'comercio',
-    icono:'🛒',
-    nombre:'Carrito de mercado (uso interno) el carro para autoservicio metálico va más allá de las expectativas convencionales. Es',
-    desc:'➣ Alto: 99 cm cm ➣ Fondo: 90 cm cm ➣ Colores: zincado ➣ Desarmable: No',
-    precio:214200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P378',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Canastillas plásticas para surtido Canastilla plastica fondo rombo pared rombo 60x40x25',
-    desc:'Canastillas plásticas rígidas para almacenamiento y transporte. Apilables. Ideales para frutas, verduras, panadería, carnicería y logística.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P379',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Contenedores grado alimentario Contenedor Portátil Scepter de Grado Alimenticio ? 19 L con Boquilla Reversible',
-    desc:'Contenedores portátiles de grado alimentario. Material libre de BPA. Herméticos y apilables. Para almacenamiento de líquidos y alimentos en restaurantes.',
-    precio:65450,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P380',
-    sector:'comercio',
-    icono:'🪑',
-    nombre:'Mesa inoxidable de preparación Mesas Acero 90 x 150 x 50 Con Entrepaño',
-    desc:'Mesa de preparación en acero inoxidable (90 x 150 x 50 cm) con entrepaño. Resistente a la corrosión. Cumple normas sanitarias.',
-    precio:1011500,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P381',
-    sector:'comercio',
-    icono:'🚰',
-    nombre:'Lavamanos en acero inoxidable (operación) Grifería institucional kit válvula de pedal con lavamanos de 28x30',
-    desc:'Lavamanos en acero inoxidable con grifería institucional de válvula de pedal o palanca. Cumple normas sanitarias. Para cocinas industriales y áreas de manipulación de alimentos.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P382',
-    sector:'comercio',
-    icono:'⚖️',
-    nombre:'Gramera/báscula de precisión BASCULA  DIGITAL PARA COCINA CAPACIDAD 5 KG TRUPER, SENSOR DE ALTA PRESICION, PANTALLA LCD,',
-    desc:'Báscula digital de precisión para cocina, capacidad 5 kg. Plataforma en acero inoxidable. Función tara. Para panadería y restaurantes.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P383',
-    sector:'comercio',
-    icono:'🔪',
-    nombre:'Rebanadora de embutidos Tajadora de carnes frias EXH: Robusta estructura en aluminio anodizado disco de 30 centimetros d',
-    desc:'Tajadora de carnes frías y embutidos en acero inoxidable. Hoja ajustable. Para supermercados y plazas de mercado.',
-    precio:2973810,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P384',
-    sector:'comercio',
-    icono:'🗄️',
-    nombre:'Vitrina mostrador Estructura en Lámina Cold Rolled Calibre 24; Entrepaños en Vidrio 4 mm. con boceleria metálica, Puerta',
-    desc:'Vitrina mostrador con vidrio templado y puerta corrediza. Exhibe productos de forma elegante. Para joyerías, tiendas de accesorios y puntos de venta.',
-    precio:809200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P385',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'l Licuadora Industrial acero inoxidable 25 litros',
-    desc:'Licuadora industrial en acero inoxidable de 25 litros. Motor potente para grandes volúmenes. Para juguerías y restaurantes.',
-    precio:6015593,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P386',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Batidora/amasadora industrial 10 litros Capacidad max en harina3 libras',
-    desc:'Velocidades2 Voltaje110V 60Hz Potencia370W AccesoriosGancho, Paleta y globo Dimensiones76X43X51cm (alto, ancho y fondo)',
-    precio:6083566,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P387',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Horno semindustrial de convección Horno de convección eléctrico a 220V con espacio para 4 bandejas. Exterior e interior',
-    desc:'Horno de convección eléctrico a 220V para uso semindustrial. Calor uniforme. Para panadería, pastelería y restaurantes pequeños.',
-    precio:3332000,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P388',
-    sector:'comercio',
-    icono:'🏭',
-    nombre:'Fermentadora/armario de fermentación Camara de fermentación Unox 16 Bandejas 60×40cm – Manual',
-    desc:'Armario de fermentación de 16 bandejas. Control preciso de temperatura y humedad. Fermentación uniforme para mayor calidad del pan.',
-    precio:4165000,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P389',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Molino de granos Tipo',
-    desc:'Molinos de cocina Año y mes de fabricación Visible en la etiqueta de los productos sujetos a la resolución 1440 del 2021. Referencia del Producto en el Certificado/Empaque L14200 Ancho 14.5 cm Alto 33 cm Largo 15.7 cm Material del utensilio Metal Color Plateado Número de piezas 11',
-    precio:499800,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P390',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P391',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Empacadora semiautomática',
-    desc:'Empacadora semiautomática para sellado de productos en bolsas. Aumenta la velocidad de empaque. Para procesadoras de alimentos y pequeñas industrias.',
-    precio:5421914,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P392',
-    sector:'comercio',
-    icono:'❄️',
-    nombre:'Refrigerador productivo Refrigerador vertical de dos puertas. Marco construcción exterior e interior en acero inoxidable',
-    desc:'Refrigerador vertical de dos puertas para uso productivo. Gran capacidad, temperatura regulable. Para restaurantes, panaderías y tiendas.',
-    precio:2618000,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P393',
-    sector:'comercio',
-    icono:'🌬️',
-    nombre:'extractor de olores Acabado de filtros de grasa Aluminio',
-    desc:'Aluminio Alarma de cambio de filtros No No Apagado programable No No Capacidad de Extracción (m3/hr) 250m3/hr 120m3/hr Color Inoxidable Inoxidable Display No No Filtro de carbón activado Si No Indicador de encendido Si No',
-    precio:333200,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P394',
-    sector:'comercio',
-    icono:'🌬️',
-    nombre:'Campana extractora Campana CRIP08-60N Inoxidable 3 Velocidades Negra',
-    desc:'Opción de ser extractora (accesorio no incluido). • Caudal de aspiración de 210 m³/h. • Motor de 3 velocidades de operación, con controles frontales independientes. • 1 bombillo de 25W. Interruptor independiente para la luz. • Rejilla atrapagrasa removible y lavable. • Filtro de carbón activado para purificar los olores de la cocción.',
-    precio:571200,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P395',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Freidora industrial Equipo fabricado totalmente en acero.',
-    desc:'– Pozuelo en acero 430 – Tres quemadores en hierro fundido indeformables de alto rendimiento – Sistema de seguridad compuesto por termostato, piloto, termopila y válvula Unitrol. – Rodachinas de alto tráfico 3″ en poliuretano – Incluye GRATIS dos canastillas de trabajo pesado – Incluye GRATIS rejilla filtro de impurezas – Posee zona fria para mayor vida útil del aceite. – Obtendrás ahorro de aceit',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P396',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Plancha para asados Plancha Para Asar 47 Cm X 25 Cm',
-    desc:'Plancha para asados 47 x 25 cm en acero inoxidable. Distribución uniforme del calor. Para restaurantes y negocios de comida rápida.',
-    precio:148750,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P397',
-    sector:'comercio',
-    icono:'🍽️',
-    nombre:'Dispensador de salsas y topping (operación) ste dispensador de salsa comercial puede almacenar 1 tanque de salsa a su gu',
-    desc:'Alto: 25 cm Profundo: 18 cm',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P398',
-    sector:'comercio',
-    icono:'🍽️',
-    nombre:'Set gastronorm (bandejas)',
-    desc:'Set de bandejas Gastronorm en acero inoxidable. Medidas estándar. Compatibles con hornos y refrigeradores. Para cocinas profesionales.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P399',
-    sector:'comercio',
-    icono:'🪑',
-    nombre:'Carro bandejero CARRO RACK PARA BANDEJA 521*661*1780',
-    desc:'Carro rack metálico para bandejas de panadería. Ruedas para desplazamiento en cocina. Permite transportar y almacenar múltiples bandejas.',
-    precio:571200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P400',
-    sector:'comercio',
-    icono:'☕',
-    nombre:'Máquina de café semiautomática Potencia',
-    desc:'1450 Watts  Voltaje Rango entre 110 V y 120 V  Tipo de Producto Cafetera Expresso  Tipo de Filtro No Necesita  Capacidad 2  Tazas',
-    precio:2142000,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P401',
-    sector:'comercio',
-    icono:'🧵',
-    nombre:'Máquina plana industrial (confección) Función: Costura recta gama genérica',
-    desc:'Garantía: 06 meses por kit electrónico y 06 meses por descalibraciones mecánicas Tipo de aguja: Cubo delgado DBX1 o Cubo grueso 135X5 Sistema paso a paso Velocidad: Variable desde 500 hasta 4000 rpm Longitud de puntada (cubo delgado a 5 mm o cubo grueso 7 mm) Posicionador de aguja Luz led integrada Motor direct drive incorporado de 550w Devanador incorporado Mueble importado',
-    precio:2053557,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P402',
-    sector:'comercio',
-    icono:'🧵',
-    nombre:'Overlock industrial Overlock con costura overlock de seis hilos para telas ligeras y medianas Fácil cambio para diferent',
-    desc:'Sistema de lubricación automática Mejorado - mecanismo de barra de aguja cerrado Tensión óptima del hilo Diseño unico Servomotor integrado en la cabeza, control de velocidad continuo El ahorro de energía Ruido bajo Alto rendimiento',
-    precio:3354741,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P403',
-    sector:'comercio',
-    icono:'🪑',
-    nombre:'Mesa de corte textil 120 x 180 cm Nuestra Mesa de Corte para Tela – Diseño Americano está fabricada para trabajos exigen',
-    desc:'La mesa tiene una altura fija de 90 cm, ideal para mantener una postura ergonómica durante el corte, evitando dolores de espalda y fatiga en jornadas largas de trabajo.  Disponible en múltiples medidas, es un producto modular y adaptable a distintos espacios de trabajo. Puedes elegir la variante que mejor se acomode a tu taller desde el menú.',
-    precio:1628515,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P404',
-    sector:'comercio',
-    icono:'🧵',
-    nombre:'Cortadora vertical de tela Motores',
-    desc:'110V, 1ph, 50 / 60Hz 220V, 1ph o 3ph, 50 / 60Hz Estándar: velocidad única Opcional: velocidad dual, velocidad variable Caballo de fuerza 2hp, 1ph a 4,000 RPM 2hp, 3ph a 4,000 RPM Peso 41 libras (18.5kg) Cuchillas Estándar: acero al carbono Opcional: acero de alta velocidad, recubierto de PTFE, borde ondulado, ranura ondulada, punta en ángulo Cinturones Estándar: grano medio Opcional: fino, grueso,',
-    precio:2895924,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P405',
-    sector:'comercio',
-    icono:'🧵',
-    nombre:'Plancha industrial Ancho 6 Alto 4 Largo 4 Especificaciones Tipo Planchas para ropa Tipo plancha Calor Material Acero Col',
-    desc:'Cuenta con indicador de llenado No Cuenta con control de temperatura Si Cuenta con antiadherente Si Potencia 110 V Cuenta con apagado automático No',
-    precio:814258,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P406',
-    sector:'comercio',
-    icono:'💇',
-    nombre:'Silla hidráulica profesional (peluquería) Silla de Barbería y Peluquería Reclinable Hidráulica y Giratoria Stetik Negro',
-    desc:'Silla hidráulica profesional para peluquería y barbería. Giratoria y reclinable. Tapizado en cuero sintético. Comodidad al cliente y facilidad al estilista.',
-    precio:690200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P407',
-    sector:'comercio',
-    icono:'🚿',
-    nombre:'Lavacabezas portátil Cuenta con dos contenedores de 2 galones cada uno (≈7.5 L):',
-    desc:'🔵 1 para agua limpia  ⚫ 1 para agua residual  Esto garantiza un lavado continuo, higiénico y sin necesidad de conexiones fijas o plomería.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P408',
-    sector:'comercio',
-    icono:'💨',
-    nombre:'Secador tipo casco Su potencia es de 1000W.',
-    desc:'Contiene pedestal y casco. Voluminizá tu cabello.',
-    precio:452200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P409',
-    sector:'comercio',
-    icono:'✂️',
-    nombre:'Máquina corta cabello profesional Tipo : Máquinas cortapelo',
-    desc:'•Modelo : GR4  •Inalámbrico : Si  •Potencia nominal : 7 W  •Garantía : 3 meses',
-    precio:214200,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P410',
-    sector:'comercio',
-    icono:'💰',
-    nombre:'Esterilizador UV para herramientas La caja de desinfección UV + Ozono es un dispositivo compacto diseñado para eliminar',
-    desc:'Esterilizador UV + Ozono para herramientas de peluquería. Elimina bacterias y virus. Compacto y silencioso. Para cumplir normas sanitarias en establecimientos de belleza.',
-    precio:148750,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P411',
-    sector:'comercio',
-    icono:'💇',
-    nombre:'Toalla/Capas de barbería (dotación)',
-    desc:'Set de toallas y capas para barbería, 10 unidades. Material resistente al lavado. Protegen al cliente durante el servicio. Higiene para establecimientos de belleza.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P412',
-    sector:'comercio',
-    icono:'🪞',
-    nombre:'Espejo profesional con iluminación Espejo de tocador Hollywood M MIVONDA con 18 bombillas, espejo de maquillaje grande i',
-    desc:'Espejo de tocador con 18 bombillas LED. Tres modos de iluminación. Puerto USB de carga. Para salones de belleza y maquillaje profesional.',
-    precio:333200,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P413',
-    sector:'comercio',
-    icono:'💇',
-    nombre:'Carro auxiliar de peluquería Alto',
-    desc:'82 cm Ancho 32 cm Cantidad de cajones 4 Color Negro Fondo 35 cm Material Plástico',
-    precio:172550,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P414',
-    sector:'comercio',
-    icono:'🩹',
-    nombre:'Botiquín industrial (taller) Estuche plástico mini cuadrado, medidas 21,5 cm x 11.5 cm x 6 cm compuesto por 13 elementos',
-    desc:'Botiquín de primeros auxilios industrial. Incluye vendas, antisépticos, curitas y guantes. Cumple normas de seguridad industrial. Estuche plástico compacto.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'P415',
-    sector:'comercio',
-    icono:'🧯',
-    nombre:'Extintor multipropósito (taller) abc- 20 libras rdl',
-    desc:'Extintor multipropósito ABC 20 libras. Apaga fuegos tipo A, B y C. Certificado con manómetro. Obligatorio en talleres, cocinas y bodegas.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-069',
-    sector:'comercio',
-    icono:'🗄️',
-    nombre:'Estantería metálica de exhibición Tipo',
-    desc:'Estanterías metálica Ancho 90 cm Alto 176 cm Profundidad 40 cm Dimensiones 90 x 176 x 40 cm Peso 15.888 kg Tipo de estantería Estante Material Metal Color Gris Incluye Piezas de Union Cantidad de repisas 5',
-    precio:333200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-070',
-    sector:'comercio',
-    icono:'🗄️',
-    nombre:'Góndolas para tienda Estructura: Metálica reforzada, de alta resistencia.',
-    desc:'Niveles de Exhibición:  4 repisas metálicas  Ajustables en altura mediante sistema de ranura tipo enganche  Acabado: Pintura electrostática horneada, anticorrosiva y fácil de limpiar.  Base Estable: Repisa inferior amplia con patas metálicas para mayor estabilidad del módulo.  Dimensiones:  Alto: 180 cm  Ancho: 100 cm  Fondo: 46 cm',
-    precio:535500,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-071',
-    sector:'comercio',
-    icono:'❄️',
-    nombre:'Nevera exhibidora vertical Tipo Nevera congelador superior o arriba Referencia del Producto en el Certificado/Empaque En',
-    desc:'Tipo de panel de control Digital Tipo de  refrigerador - congelador Nevera Capacidad 440 litros Capacidad de refrigeración 440 litros Capacidad del congelador 0 litros',
-    precio:6229126,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-072',
-    sector:'comercio',
-    icono:'❄️',
-    nombre:'Congelador tipo cofre Tipo Congeladores Referencia del Producto en el Certificado/Empaque CI-299TV Ancho 83.7 cm Alto 11',
-    desc:'Blanco Número de gavetas 4 Cantidad de puertas 2 Consumo energético 99 kWh/mes Posición del congelador Freezer horizontal Año de lanzamiento 2025 Voltaje 115 V Garantía detalle 1 año general y 3 años en el compresor',
-    precio:3991988,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-073',
-    sector:'comercio',
-    icono:'⚖️',
-    nombre:'Balanza digital con torre Unidad de medida: Kg / lb., División mínima: 5 g (0.18 oz)., Pesada mínima: 100 g (3.5 oz)., M',
-    desc:'Balanza digital con torre y pantalla visible para cliente y vendedor. Capacidad 30 kg. Ideal para tiendas, plazas de mercado y empacadoras. Precisa y fácil de calibrar.',
-    precio:214200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-074',
-    sector:'comercio',
-    icono:'💰',
-    nombre:'Caja registradora / POS odo en Uno Caja Registradora Profesional para Pequeñas Empresas, Paquete POS Incluye: Monitor Tá',
-    desc:'Sistema POS todo en uno. Incluye monitor táctil, cajón de dinero, escáner e impresora térmica. Administra ventas, inventario y cierre de caja.',
-    precio:5256468,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-075',
-    sector:'comercio',
-    icono:'📱',
-    nombre:'Lector de código de barras escaners',
-    desc:'Lector de código de barras USB o inalámbrico. Lee códigos 1D y 2D. Compatible con sistemas POS e inventario. Para tiendas y bodegas.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-076',
-    sector:'comercio',
-    icono:'🖨️',
-    nombre:'Impresora térmica de recibos Tipo',
-    desc:'Impresoras Referencia del Producto en el Certificado/Empaque 7709281325989 Ancho 11 cm Alto 10 cm Largo 15 cm Tipo de impresora Impresora Tipo de impresión Láser monocromática Color Negra Cuenta con Wifi No Calidad de impresión Alta resolución Compatibilidad Windows, Linux, Android y macOS',
-    precio:214200,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-077',
-    sector:'comercio',
-    icono:'🖨️',
-    nombre:'Impresora de etiquetas MÉTODO DE IMPRESIÓN',
-    desc:'Térmico directo, Térmico por transferencia ANCHO DE IMPESIÓN 104MM VELOCIIDAD DE IMPESIÓN 127MM/S INTERFAZ Ethernet, USB COMPATIBILIDAD Android, Windows, Linux, Mac OSEMULACIÓN DPL, EPL, TSPL, ZPL',
-    precio:416500,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-078',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:382797,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-079',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Dispensador de film stretch (empaque) Material y Diseño: Dispensador de stretch metálico con núcleo adaptable para bobin',
-    desc:'Mango Ergonómico: Mango protegido con espuma para un agarre cómodo y seguro durante la aplicación del film stretch. Base en Aluminio: La base fabricada en aluminio proporciona estabilidad y durabilidad al dispensador. Tensión Ajustable: Cuenta con un sistema de tensión ajustable, permitiendo adaptar la fuerza según las necesidades de envoltura. Peso: 1,6 KG.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-080',
-    sector:'comercio',
-    icono:'🛒',
-    nombre:'Carrito de mercado (uso interno) el carro para autoservicio metálico va más allá de las expectativas convencionales. Es',
-    desc:'➣ Alto: 99 cm cm ➣ Fondo: 90 cm cm ➣ Colores: zincado ➣ Desarmable: No',
-    precio:214200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-081',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Canastillas plásticas para surtido Canastilla plastica fondo rombo pared rombo 60x40x25',
-    desc:'Canastillas plásticas rígidas para almacenamiento y transporte. Apilables. Ideales para frutas, verduras, panadería, carnicería y logística.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-082',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Contenedores grado alimentario Contenedor Portátil Scepter de Grado Alimenticio ? 19 L con Boquilla Reversible',
-    desc:'Contenedores portátiles de grado alimentario. Material libre de BPA. Herméticos y apilables. Para almacenamiento de líquidos y alimentos en restaurantes.',
-    precio:65450,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-083',
-    sector:'comercio',
-    icono:'🪑',
-    nombre:'Mesa inoxidable de preparación Mesas Acero 90 x 150 x 50 Con Entrepaño',
-    desc:'Mesa de preparación en acero inoxidable (90 x 150 x 50 cm) con entrepaño. Resistente a la corrosión. Cumple normas sanitarias.',
-    precio:1011500,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-084',
-    sector:'comercio',
-    icono:'🚰',
-    nombre:'Lavamanos en acero inoxidable (operación) Grifería institucional kit válvula de pedal con lavamanos de 28x30',
-    desc:'Lavamanos en acero inoxidable con grifería institucional de válvula de pedal o palanca. Cumple normas sanitarias. Para cocinas industriales y áreas de manipulación de alimentos.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-085',
-    sector:'comercio',
-    icono:'⚖️',
-    nombre:'Gramera/báscula de precisión BASCULA  DIGITAL PARA COCINA CAPACIDAD 5 KG TRUPER, SENSOR DE ALTA PRESICION, PANTALLA LCD,',
-    desc:'Báscula digital de precisión para cocina, capacidad 5 kg. Plataforma en acero inoxidable. Función tara. Para panadería y restaurantes.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-086',
-    sector:'comercio',
-    icono:'🔪',
-    nombre:'Rebanadora de embutidos Tajadora de carnes frias EXH: Robusta estructura en aluminio anodizado disco de 30 centimetros d',
-    desc:'Tajadora de carnes frías y embutidos en acero inoxidable. Hoja ajustable. Para supermercados y plazas de mercado.',
-    precio:2499000,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-087',
-    sector:'comercio',
-    icono:'🗄️',
-    nombre:'Vitrina mostrador Estructura en Lámina Cold Rolled Calibre 24; Entrepaños en Vidrio 4 mm. con boceleria metálica, Puerta',
-    desc:'Vitrina mostrador con vidrio templado y puerta corrediza. Exhibe productos de forma elegante. Para joyerías, tiendas de accesorios y puntos de venta.',
-    precio:809200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-088',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'l Licuadora Industrial acero inoxidable 25 litros',
-    desc:'Licuadora industrial en acero inoxidable de 25 litros. Motor potente para grandes volúmenes. Para juguerías y restaurantes.',
-    precio:5055120,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-089',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Batidora/amasadora industrial 10 litros Capacidad max en harina3 libras',
-    desc:'Velocidades2 Voltaje110V 60Hz Potencia370W AccesoriosGancho, Paleta y globo Dimensiones76X43X51cm (alto, ancho y fondo)',
-    precio:5112240,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-090',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Horno semindustrial de convección Horno de convección eléctrico a 220V con espacio para 4 bandejas. Exterior e interior',
-    desc:'Horno de convección eléctrico a 220V para uso semindustrial. Calor uniforme. Para panadería, pastelería y restaurantes pequeños.',
-    precio:3332000,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-091',
-    sector:'comercio',
-    icono:'🏭',
-    nombre:'Fermentadora/armario de fermentación Camara de fermentación Unox 16 Bandejas 60×40cm – Manual',
-    desc:'Armario de fermentación de 16 bandejas. Control preciso de temperatura y humedad. Fermentación uniforme para mayor calidad del pan.',
-    precio:4165000,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-092',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Molino de granos Tipo',
-    desc:'Molinos de cocina Año y mes de fabricación Visible en la etiqueta de los productos sujetos a la resolución 1440 del 2021. Referencia del Producto en el Certificado/Empaque L14200 Ancho 14.5 cm Alto 33 cm Largo 15.7 cm Material del utensilio Metal Color Plateado Número de piezas 11',
-    precio:499800,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-093',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-094',
-    sector:'comercio',
-    icono:'📦',
-    nombre:'Empacadora semiautomática',
-    desc:'Empacadora semiautomática para sellado de productos en bolsas. Aumenta la velocidad de empaque. Para procesadoras de alimentos y pequeñas industrias.',
-    precio:4556230,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-095',
-    sector:'comercio',
-    icono:'❄️',
-    nombre:'Refrigerador productivo Refrigerador vertical de dos puertas. Marco construcción exterior e interior en acero inoxidable',
-    desc:'Refrigerador vertical de dos puertas para uso productivo. Gran capacidad, temperatura regulable. Para restaurantes, panaderías y tiendas.',
-    precio:2618000,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-096',
-    sector:'comercio',
-    icono:'🌬️',
-    nombre:'extractor de olores Acabado de filtros de grasa Aluminio',
-    desc:'Aluminio Alarma de cambio de filtros No No Apagado programable No No Capacidad de Extracción (m3/hr) 250m3/hr 120m3/hr Color Inoxidable Inoxidable Display No No Filtro de carbón activado Si No Indicador de encendido Si No',
-    precio:333200,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-097',
-    sector:'comercio',
-    icono:'🌬️',
-    nombre:'Campana extractora Campana CRIP08-60N Inoxidable 3 Velocidades Negra',
-    desc:'Opción de ser extractora (accesorio no incluido). • Caudal de aspiración de 210 m³/h. • Motor de 3 velocidades de operación, con controles frontales independientes. • 1 bombillo de 25W. Interruptor independiente para la luz. • Rejilla atrapagrasa removible y lavable. • Filtro de carbón activado para purificar los olores de la cocción.',
-    precio:571200,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-098',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Freidora industrial Equipo fabricado totalmente en acero.',
-    desc:'– Pozuelo en acero 430 – Tres quemadores en hierro fundido indeformables de alto rendimiento – Sistema de seguridad compuesto por termostato, piloto, termopila y válvula Unitrol. – Rodachinas de alto tráfico 3″ en poliuretano – Incluye GRATIS dos canastillas de trabajo pesado – Incluye GRATIS rejilla filtro de impurezas – Posee zona fria para mayor vida útil del aceite. – Obtendrás ahorro de aceit',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-099',
-    sector:'comercio',
-    icono:'🍳',
-    nombre:'Plancha para asados Plancha Para Asar 47 Cm X 25 Cm',
-    desc:'Plancha para asados 47 x 25 cm en acero inoxidable. Distribución uniforme del calor. Para restaurantes y negocios de comida rápida.',
-    precio:148750,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-100',
-    sector:'comercio',
-    icono:'🍽️',
-    nombre:'Dispensador de salsas y topping (operación) ste dispensador de salsa comercial puede almacenar 1 tanque de salsa a su gu',
-    desc:'Alto: 25 cm Profundo: 18 cm',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-101',
-    sector:'comercio',
-    icono:'🍽️',
-    nombre:'Set gastronorm (bandejas)',
-    desc:'Set de bandejas Gastronorm en acero inoxidable. Medidas estándar. Compatibles con hornos y refrigeradores. Para cocinas profesionales.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-102',
-    sector:'comercio',
-    icono:'🪑',
-    nombre:'Carro bandejero CARRO RACK PARA BANDEJA 521*661*1780',
-    desc:'Carro rack metálico para bandejas de panadería. Ruedas para desplazamiento en cocina. Permite transportar y almacenar múltiples bandejas.',
-    precio:571200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-103',
-    sector:'comercio',
-    icono:'☕',
-    nombre:'Máquina de café semiautomática Potencia',
-    desc:'1450 Watts  Voltaje Rango entre 110 V y 120 V  Tipo de Producto Cafetera Expresso  Tipo de Filtro No Necesita  Capacidad 2  Tazas',
-    precio:2142000,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-104',
-    sector:'comercio',
-    icono:'🧵',
-    nombre:'Máquina plana industrial (confección) Función: Costura recta gama genérica',
-    desc:'Garantía: 06 meses por kit electrónico y 06 meses por descalibraciones mecánicas Tipo de aguja: Cubo delgado DBX1 o Cubo grueso 135X5 Sistema paso a paso Velocidad: Variable desde 500 hasta 4000 rpm Longitud de puntada (cubo delgado a 5 mm o cubo grueso 7 mm) Posicionador de aguja Luz led integrada Motor direct drive incorporado de 550w Devanador incorporado Mueble importado',
-    precio:1725678,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-105',
-    sector:'comercio',
-    icono:'🧵',
-    nombre:'Overlock industrial Overlock con costura overlock de seis hilos para telas ligeras y medianas Fácil cambio para diferent',
-    desc:'Sistema de lubricación automática Mejorado - mecanismo de barra de aguja cerrado Tensión óptima del hilo Diseño unico Servomotor integrado en la cabeza, control de velocidad continuo El ahorro de energía Ruido bajo Alto rendimiento',
-    precio:2819110,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-106',
-    sector:'comercio',
-    icono:'🪑',
-    nombre:'Mesa de corte textil 120 x 180 cm Nuestra Mesa de Corte para Tela – Diseño Americano está fabricada para trabajos exigen',
-    desc:'La mesa tiene una altura fija de 90 cm, ideal para mantener una postura ergonómica durante el corte, evitando dolores de espalda y fatiga en jornadas largas de trabajo.  Disponible en múltiples medidas, es un producto modular y adaptable a distintos espacios de trabajo. Puedes elegir la variante que mejor se acomode a tu taller desde el menú.',
-    precio:1368500,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-107',
-    sector:'comercio',
-    icono:'🧵',
-    nombre:'Cortadora vertical de tela Motores',
-    desc:'110V, 1ph, 50 / 60Hz 220V, 1ph o 3ph, 50 / 60Hz Estándar: velocidad única Opcional: velocidad dual, velocidad variable Caballo de fuerza 2hp, 1ph a 4,000 RPM 2hp, 3ph a 4,000 RPM Peso 41 libras (18.5kg) Cuchillas Estándar: acero al carbono Opcional: acero de alta velocidad, recubierto de PTFE, borde ondulado, ranura ondulada, punta en ángulo Cinturones Estándar: grano medio Opcional: fino, grueso,',
-    precio:2433550,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-108',
-    sector:'comercio',
-    icono:'🧵',
-    nombre:'Plancha industrial Ancho 6 Alto 4 Largo 4 Especificaciones Tipo Planchas para ropa Tipo plancha Calor Material Acero Col',
-    desc:'Cuenta con indicador de llenado No Cuenta con control de temperatura Si Cuenta con antiadherente Si Potencia 110 V Cuenta con apagado automático No',
-    precio:684250,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-109',
-    sector:'comercio',
-    icono:'💇',
-    nombre:'Silla hidráulica profesional (peluquería) Silla de Barbería y Peluquería Reclinable Hidráulica y Giratoria Stetik Negro',
-    desc:'Silla hidráulica profesional para peluquería y barbería. Giratoria y reclinable. Tapizado en cuero sintético. Comodidad al cliente y facilidad al estilista.',
-    precio:690200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-110',
-    sector:'comercio',
-    icono:'🚿',
-    nombre:'Lavacabezas portátil Cuenta con dos contenedores de 2 galones cada uno (≈7.5 L):',
-    desc:'🔵 1 para agua limpia  ⚫ 1 para agua residual  Esto garantiza un lavado continuo, higiénico y sin necesidad de conexiones fijas o plomería.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-111',
-    sector:'comercio',
-    icono:'💨',
-    nombre:'Secador tipo casco Su potencia es de 1000W.',
-    desc:'Contiene pedestal y casco. Voluminizá tu cabello.',
-    precio:452200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-112',
-    sector:'comercio',
-    icono:'✂️',
-    nombre:'Máquina corta cabello profesional Tipo : Máquinas cortapelo',
-    desc:'•Modelo : GR4  •Inalámbrico : Si  •Potencia nominal : 7 W  •Garantía : 3 meses',
-    precio:214200,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-113',
-    sector:'comercio',
-    icono:'💰',
-    nombre:'Esterilizador UV para herramientas La caja de desinfección UV + Ozono es un dispositivo compacto diseñado para eliminar',
-    desc:'Esterilizador UV + Ozono para herramientas de peluquería. Elimina bacterias y virus. Compacto y silencioso. Para cumplir normas sanitarias en establecimientos de belleza.',
-    precio:148750,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-114',
-    sector:'comercio',
-    icono:'💇',
-    nombre:'Toalla/Capas de barbería (dotación)',
-    desc:'Set de toallas y capas para barbería, 10 unidades. Material resistente al lavado. Protegen al cliente durante el servicio. Higiene para establecimientos de belleza.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-115',
-    sector:'comercio',
-    icono:'🪞',
-    nombre:'Espejo profesional con iluminación Espejo de tocador Hollywood M MIVONDA con 18 bombillas, espejo de maquillaje grande i',
-    desc:'Espejo de tocador con 18 bombillas LED. Tres modos de iluminación. Puerto USB de carga. Para salones de belleza y maquillaje profesional.',
-    precio:333200,
-    tipo:'Equipo',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-116',
-    sector:'comercio',
-    icono:'💇',
-    nombre:'Carro auxiliar de peluquería Alto',
-    desc:'82 cm Ancho 32 cm Cantidad de cajones 4 Color Negro Fondo 35 cm Material Plástico',
-    precio:172550,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-117',
-    sector:'comercio',
-    icono:'🩹',
-    nombre:'Botiquín industrial (taller) Estuche plástico mini cuadrado, medidas 21,5 cm x 11.5 cm x 6 cm compuesto por 13 elementos',
-    desc:'Botiquín de primeros auxilios industrial. Incluye vendas, antisépticos, curitas y guantes. Cumple normas de seguridad industrial. Estuche plástico compacto.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  }),
-
-  producto({
-    id:'CAT2-118',
-    sector:'comercio',
-    icono:'🧯',
-    nombre:'Extintor multipropósito (taller) abc- 20 libras rdl',
-    desc:'Extintor multipropósito ABC 20 libras. Apaga fuegos tipo A, B y C. Certificado con manómetro. Obligatorio en talleres, cocinas y bodegas.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / C (10,14) / S (96)',
-    proceso:'Comercialización / Transformación / Operación'
-  })
-
-];
-
-// Producción
-const PRODUCTOS_PRODUCCION=[
-  producto({
-    id:'P100',
-    sector:'produccion',
-    icono:'🪑',
-    nombre:'Banco de trabajo industrial - Banco de trabajo estándar móvil - 2000 x 700 x 840 mm L x A x A WS885N-2000M40-X7000',
-    desc:'Banco de trabajo industrial estándar móvil (2000 x 700 mm). Superficie resistente. Ruedas con freno. Ideal para talleres de metalmecánica, carpintería y servicios técnicos.',
-    precio:4998000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P101',
-    sector:'produccion',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:1841852,
-    tipo:'Mobiliario',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P102',
-    sector:'produccion',
-    icono:'🏭',
-    nombre:'Compresor de aire Tipo Compresores de aire',
-    desc:'Uso de herramienta Industrial Largo del cable 1.50 Capacidad del estanque 50 Incluye * 1 Botella de aceite monogrado SAE30 • 1 Filtro de aire • 1 Tapón del depósito de aceite • 2 Ruedas • 2 Soportes frontales de hule • 1 Bolsa con tornillería Presión máxima 116 Caudal máximo 3.2 Alimentación Eléctrica Potencia 2.610 Voltaje 120 Motor Con Bobinas de aluminio Flujo de salida 90',
-    precio:1913342,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P103',
-    sector:'produccion',
-    icono:'🌬️',
-    nombre:'Extractor de aire/ventilación industrialExtractor De Aire Para Baño y Cocina Industrial Para Pared 41x41x14.5cm 110 Volt',
-    desc:'Extractor de aire para ventilación industrial. Bajo consumo y silencioso. Mejora la calidad del aire. Fácil instalación en paredes y techos.',
-    precio:553172,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P104',
-    sector:'produccion',
-    icono:'🧹',
-    nombre:'Aspiradora industrial Especificaciones',
-    desc:'Tipo Barril Ancho 30 cm Alto 53 cm Largo 30 cm Peso 5 kg Tipo de aspiradora Barril Tipo de filtro Polvo, Agua Uso de herramienta Industrial Material Acero inoxidable Largo del cable 6 m Largo de la manguera 2.4 m Color Plateado Incluye 1 Manguera de diámetro 1 1/4" (32 mm). 1.9 m (6.2 ft) con seguro de ajuste, 1 Boquilla tipo garra, 1 Boquilla para ranuras, 1 Boquilla 2 en 1 para piso y alfombra,',
-    precio:1261816,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P105',
-    sector:'produccion',
-    icono:'💡',
-    nombre:'Iluminación industrial de taller la Lámpara Led Highbay 200W, ideal para interiores industriales. Con 18000 lm, 6500K y',
-    desc:'Lámpara LED HighBay 200W para iluminación industrial de talleres. Alta eficiencia, bajo consumo. Vida útil de 50,000 horas. Luz blanca fría.',
-    precio:811104,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P106',
-    sector:'produccion',
-    icono:'📏',
-    nombre:'Herramientas de control de calidad (calibrador) Tipo : Calibradores y micrómetros',
-    desc:'•Ancho : 5 mm  •Alto : 1.5 cm  •Largo : 1.5 cm  •Color : Negro',
-    precio:267572,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P107',
-    sector:'produccion',
-    icono:'📏',
-    nombre:'Micrómetro MICRÓMETRO DE EXTERIORES PROFESIONAL, CAPACIDAD 0- 1", PRECISIÓN 0.001" ASIMETO',
-    desc:'Micrómetro de exteriores profesional, capacidad 0-1 pulgada, precisión 0.001 mm. Para medición precisa en metalmecánica y control de calidad.',
-    precio:378242,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P108',
-    sector:'produccion',
-    icono:'⚖️',
-    nombre:'Báscula digital industrial Báscula de piso Industrial 150KG Capacidad: 150kg',
-    desc:'División: 20g Unidades de peso: lb y Kg Indicador en ABS de alta resistencia Batería interna recargable de 4V y autonomía de 8horas Dimensión plataforma: 30x40cm Display: LCD Display de tres pantallas con 7 dígitos cada uno Función Indicador: Liquidador Sistema de Tara para disminuir recipientes',
-    precio:458745,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P109',
-    sector:'produccion',
-    icono:'🪑',
-    nombre:'Mesa inoxidable de preparación Mesas Acero 90 x 150 x 50 Con Entrepaño',
-    desc:'Mesa de preparación en acero inoxidable (90 x 150 x 50 cm) con entrepaño. Resistente a la corrosión. Cumple normas sanitarias.',
-    precio:3212822,
-    tipo:'Mobiliario',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P110',
-    sector:'produccion',
-    icono:'🚰',
-    nombre:'Lavamanos en acero inoxidable (operación) Grifería institucional kit válvula de pedal con lavamanos de 28x30',
-    desc:'Lavamanos en acero inoxidable con grifería institucional de válvula de pedal o palanca. Cumple normas sanitarias. Para cocinas industriales y áreas de manipulación de alimentos.',
-    precio:588872,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P111',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:355215,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P112',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:892322,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P113',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Empacadora semiautomática',
-    desc:'Empacadora semiautomática para sellado de productos en bolsas. Aumenta la velocidad de empaque. Para procesadoras de alimentos y pequeñas industrias.',
-    precio:25168500,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P114',
-    sector:'produccion',
-    icono:'🏷️',
-    nombre:'Etiquetadora manual/semiauto Dimensiones: 27.6cm de ancho, 58cm de alto y 86cm de profundidad.',
-    desc:'Velocidad máxima de impresión en blanco y negro: 1ppm. Velocidad máxima de impresión en color: 1ppm. Resolución máxima de impresión en blanco y negro: 0. Resolución máxima de impresión en color: 0. Es electrónico. Es portátil. Capacidad máxima de la tarjeta de memoria: 0MB. Tipo de pilas: No.',
-    precio:7924848,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P115',
-    sector:'produccion',
-    icono:'🖨️',
-    nombre:'Impresora de etiquetas MÉTODO DE IMPRESIÓN',
-    desc:'Térmico directo, Térmico por transferencia ANCHO DE IMPESIÓN 104MM VELOCIIDAD DE IMPESIÓN 127MM/S INTERFAZ Ethernet, USB COMPATIBILIDAD Android, Windows, Linux, Mac OSEMULACIÓN DPL, EPL, TSPL, ZPL',
-    precio:1028114,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P116',
-    sector:'produccion',
-    icono:'📱',
-    nombre:'Lector de código de barras escaners',
-    desc:'Lector de código de barras USB o inalámbrico. Lee códigos 1D y 2D. Compatible con sistemas POS e inventario. Para tiendas y bodegas.',
-    precio:249722,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P117',
-    sector:'produccion',
-    icono:'💻',
-    nombre:'Procesador: AMD Ryzen™ 3 7330U 4 núcleos',
-    desc:'de CPU, 8 hilos, Frecuencia Base de 2.3 GHz hasta 4.3 GHz Frecuencia Máxima, 10 MB de Cache L2 + L3 Chipset: Integrado en el procesador Sistema Operativo FreeDOS 3.0 en Español. Pantalla Interfaces Certificaciones Seguridad Garantía Gráficos Memoria RAM Almacenamiento Teclado Mouse Audio Cámara Web Conectividad Batería Adaptador AC Peso (2) USB 3.2 Gen 1 (1) USB Tipo C 3.2 Gen1 (Datos) (1) HDMI v1',
-    precio:3034500,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P118',
-    sector:'produccion',
-    icono:'🔋',
-    nombre:'UPS / regulador de voltaje Ups Hikvision de 1000 Va 600w 6 Tomas Nema 5-15r (4r - 2sr)',
-    desc:'UPS Hikvision 1000 VA/600 W con 6 tomas Nema. Protege equipos de apagones y fluctuaciones de voltaje. Autonomía de 10-15 minutos.',
-    precio:499622,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P119',
-    sector:'produccion',
-    icono:'🏭',
-    nombre:'Deshidratador industrial en Acero Inoxidable 10 bandejas Seca las comida por un ventilador que ha sido instalado en la p',
-    desc:'El deshidratador se apagara automáticamente cuando la hora fijada anteriormente llegue a su fin. El reloj automático y el termostato, harán que la deshidratación de la comida, sea como un abrir y cerrar de ojos. Instrucciones vienen incluidas. Maquina eléctrica 110 volts. Dimensiones externas aprox: 54 cm de largo, por 42 cm de ancho y 38 cm de alto. Pesa 36 libras aprox. Capacidad de 1.5 metros c',
-    precio:4105482,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P120',
-    sector:'produccion',
-    icono:'🍳',
-    nombre:'Horno industrial de convección Horno de convección a gas con controles eléctricos. Está fabricado en acero inoxidable 43',
-    desc:'Horno de convección a gas con controles eléctricos. Distribución uniforme del calor. Alta capacidad. Para panaderías y restaurantes.',
-    precio:23906778,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P121',
-    sector:'produccion',
-    icono:'🍳',
-    nombre:'Mezcladora industrial ReferenciaBX35A',
-    desc:'Voltaje110v Capacidad35Kg Potencia0.75Kw Frecuencia60Hz Dimensiones67x51x110cm',
-    precio:15759230,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P122',
-    sector:'produccion',
-    icono:'🍳',
-    nombre:'Molino/triturador de granos Voltaje110 voltios',
-    desc:'Capacidad de molienda800g Potencia2.000 W Velocidad25.000 rpm Capacidad de producción20-40 kg/h Tiempo continuo operación5min - Descanso: 8min Dimensiones22 x 21 x 49.5 cm',
-    precio:1635596,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P123',
-    sector:'produccion',
-    icono:'🍲',
-    nombre:'Marmita/75 litros, a gas en acero inoxidable, sistema para controlar la temperatura del producto',
-    desc:'Marmita de 75 litros a gas en acero inoxidable con control de temperatura. Para sopas, salsas y alimentos en gran cantidad.',
-    precio:35700000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P124',
-    sector:'produccion',
-    icono:'❄️',
-    nombre:'Cámara fría/cuarto frío Cuarto frío de 2.00 x 2.00 x 2.50 mts para carnes, pescado, pollo, mariscos, frutas, verduras, e',
-    desc:'Cuarto frío 2.00 x 2.00 x 2.50 m para carnes y productos perecederos. Panel sándwich aislante. Control digital de temperatura.',
-    precio:57120000,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P125',
-    sector:'produccion',
-    icono:'❄️',
-    nombre:'Refrigerador/congelador productivo Peso199kg',
-    desc:'Dimensiones totales132 x 80 x 210 cms (frente, profundo, alto) Maxima Temperatura ambiente26 ° C / 60% HR Potencia300W 1/3 Hp Corriente4 amperios Voltaje110v Capacidad1300L Rango de temperatura+4°C a + 8 ° C',
-    precio:26507250,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P126',
-    sector:'produccion',
-    icono:'🪑',
-    nombre:'Carro bandejero inoxidable Carro de Servicio para 3 bandejas en Acero Inox.',
-    desc:'Es desmontable y cuenta con tubo de acero inoxidable de 25 mm. de diámetro; además sus ruedas llevan freno',
-    precio:3027362,
-    tipo:'Mobiliario',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P127',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Contenedores grado alimentario Contenedor Portátil Scepter de Grado Alimenticio ? 19 L con Boquilla Reversible',
-    desc:'Contenedores portátiles de grado alimentario. Material libre de BPA. Herméticos y apilables. Para almacenamiento de líquidos y alimentos en restaurantes.',
-    precio:160472,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P128',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Envases grado alimentario (frascos/tarrinas)',
-    desc:'Envases de grado alimentario: frascos y tarrinas. Material inocuo. Para mermeladas, salsas, lácteos y miel. Herméticos y apilables.',
-    precio:35522,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P129',
-    sector:'produccion',
-    icono:'🧵',
-    nombre:'Máquina plana industrial (confección) Función: Costura recta gama genérica',
-    desc:'Garantía: 06 meses por kit electrónico y 06 meses por descalibraciones mecánicas Tipo de aguja: Cubo delgado DBX1 o Cubo grueso 135X5 Sistema paso a paso Velocidad: Variable desde 500 hasta 4000 rpm Longitud de puntada (cubo delgado a 5 mm o cubo grueso 7 mm) Posicionador de aguja Luz led integrada Motor direct drive incorporado de 550w Devanador incorporado Mueble importado',
-    precio:2973810,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P130',
-    sector:'produccion',
-    icono:'🧵',
-    nombre:'Overlock industrial Overlock con costura overlock de seis hilos para telas ligeras y medianas Fácil cambio para diferent',
-    desc:'Sistema de lubricación automática Mejorado - mecanismo de barra de aguja cerrado Tensión óptima del hilo Diseño unico Servomotor integrado en la cabeza, control de velocidad continuo El ahorro de energía Ruido bajo Alto rendimiento',
-    precio:5310500,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P131',
-    sector:'produccion',
-    icono:'🧵',
-    nombre:'Recubridora industrial TIPO Recubridora - Collarín USO Industrial MOTOR Mecatrónica',
-    desc:'MARCA Willcox MODELO W500D PUNTADA Collarin Recubierto  AGUJAS 3 HILOS 5 VOLTAJE 110V POTENCIA 550W',
-    precio:4873050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P132',
-    sector:'produccion',
-    icono:'🧵',
-    nombre:'Cortadora vertical de tela Motores',
-    desc:'110V, 1ph, 50 / 60Hz 220V, 1ph o 3ph, 50 / 60Hz Estándar: velocidad única Opcional: velocidad dual, velocidad variable Caballo de fuerza 2hp, 1ph a 4,000 RPM 2hp, 3ph a 4,000 RPM Peso 41 libras (18.5kg) Cuchillas Estándar: acero al carbono Opcional: acero de alta velocidad, recubierto de PTFE, borde ondulado, ranura ondulada, punta en ángulo Cinturones Estándar: grano medio Opcional: fino, grueso,',
-    precio:2322410,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P133',
-    sector:'produccion',
-    icono:'🪑',
-    nombre:'Mesa de corte textil 120 x 180 cm Nuestra Mesa de Corte para Tela – Diseño Americano está fabricada para trabajos exigen',
-    desc:'La mesa tiene una altura fija de 90 cm, ideal para mantener una postura ergonómica durante el corte, evitando dolores de espalda y fatiga en jornadas largas de trabajo.  Disponible en múltiples medidas, es un producto modular y adaptable a distintos espacios de trabajo. Puedes elegir la variante que mejor se acomode a tu taller desde el menú.',
-    precio:1160072,
-    tipo:'Mobiliario',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P134',
-    sector:'produccion',
-    icono:'🖨️',
-    nombre:'Plotter de corte (si aplica a producción gráfica) Dimensiones',
-    desc:'97x33x36 Referencia del Producto en el Certificado/Empaque ProCut Plus KI-720AB Composición 60% Acero 30% Plástico 5% Aluminio 5% Electrónica Presentación Unidad Tipo de adorno Otros Material del cuerpo Metal Color Amarillo',
-    precio:4408772,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P135',
-    sector:'produccion',
-    icono:'🏭',
-    nombre:'Laminadora/calandra (producción gráfica) Aplicable a máquinas UV DTF, puede completar las tareas de estampado en oro, el',
-    desc:'- Ambos rodillos de presión de la máquina están equipados con funciones de calentamiento. - Alta automatización y fácil de usar.',
-    precio:17582250,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P136',
-    sector:'produccion',
-    icono:'📷',
-    nombre:'Cámara de video semiprofesional Tipo de Camara',
-    desc:'Semiprofesional  Tamaño Pantalla 3  Pulgadas Profundida de Inmersion 0  Metro(s) Resolucion de la Foto 24.1  Megapixeles Zoom Digital No Tiene Zoom Digital  Zoom Optico No Tiene Zoom Optico',
-    precio:4239196,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P137',
-    sector:'produccion',
-    icono:'📷',
-    nombre:'Lentes básicos (kit) Objetivo con montura EF / formato de fotograma completo',
-    desc:'Rango de apertura: f / 1.8 a f / 22 Super Spectra Coating Motor paso a paso STM Diafragma redondeado de 7 cuchillas',
-    precio:1070982,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P138',
-    sector:'produccion',
-    icono:'🧺',
-    nombre:'Trípode profesional Capacidad de carga: 34 lb',
-    desc:'Trípode extensible de 24 a 77 pulgadas Longitud plegada: 19″ Patas de aleación de aluminio de 4 secciones con sistema de bloqueo abatible Pata y columna convertibles en monopie Rosca macho de 1/4″-20 Giro, inclinación y rotación de 360° Inclinación de 90° Columna central de 2 secciones Peso: 3,5 libras',
-    precio:589032,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P139',
-    sector:'produccion',
-    icono:'🪞',
-    nombre:'Gimbal/estabilizador Para cámaras sin espejo y teléfonos inteligentes',
-    desc:'Diseño liviano, carga útil de hasta 4,4 lb Control de cámara mediante Bluetooth/USB-C Funciona con el módulo de seguimiento inteligente Modos horizontales y verticales, ejes de 360° Batería de 3100 mAh, 13 horas de duración Funciones de panorama, time-lapse y seguimiento Puerto NATO para asas y accesorios Incluye agarre extendido/trípode',
-    precio:3034482,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P140',
-    sector:'produccion',
-    icono:'💡',
-    nombre:'Kit de iluminación LED continua Temperatura de color: 3200-5600 K, CRI: 96',
-    desc:'660 LED: 330 luz diurna y 330 tungsteno Tres adaptadores de 100-240 V CA, 50/60 Hz Tres tripodes de iluminación’ Tres estuches de transporte para paneles LED',
-    precio:2855982,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P141',
-    sector:'produccion',
-    icono:'🎙️',
-    nombre:'Micrófonos inalámbricos Sistema inalámbrico profesional, dos frecuencias, dos antenas, dos micrófonos de mano. 60 metr',
-    desc:'Sistema inalámbrico profesional con dos micrófonos y receptor. Para presentaciones, grabaciones y producción de video. Sin cables.',
-    precio:942480,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P142',
-    sector:'produccion',
-    icono:'🎙️',
-    nombre:'Interface de audio La interfaz Sonic Cube II es una interfaz de audio profesional de doble canal que cuenta con un pream',
-    desc:'Interfaz de audio profesional para grabación y producción musical. Entradas XLR y jack. Compatible con computador vía USB. Fidelidad profesional.',
-    precio:697756,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P143',
-    sector:'produccion',
-    icono:'🎙️',
-    nombre:'Grabadora de audio Gracias a un micrófono de alta sensibilidad, una reproducción sencilla y sus más de 159 horas de alma',
-    desc:'Grabadora de audio digital portátil con micrófono de alta sensibilidad. Graba en MP3/WAV. Para podcasts, entrevistas y registro de campo.',
-    precio:1115446,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P144',
-    sector:'produccion',
-    icono:'💾',
-    nombre:'Disco duro externo ssd externo 2 tb',
-    desc:'Disco duro externo SSD de 2 TB. Alta velocidad de transferencia. Compacto y resistente. Para respaldo de archivos de fotografía, video y proyectos digitales.',
-    precio:1588650,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P145',
-    sector:'produccion',
-    icono:'🎙️',
-    nombre:'Monitor de referencia Entradas:',
-    desc:'"Bluetooth 5.0 1- Estéreo de 1/8"" 2- TRS ¼” balanceada 2- RCA no balanceadas"  Respuesta en frecuencia: 80 Hz – 20 kHz  Frecuencia de Crossover: 2.8 kHz  Potencia del amplificador: 25W/por altavoz  LF Driver: 3.5"',
-    precio:1181670,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P146',
-    sector:'produccion',
-    icono:'📸',
-    nombre:'Fondo croma Fondo perfecto para televisión, producción de video y fotografía.',
-    desc:'El telón cuenta con un doblez para colgar en la barra. Bordes reforzados para evitar daños de tela. Hecho de 100% puro algodón muslin.',
-    precio:356822,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P147',
-    sector:'produccion',
-    icono:'📺',
-    nombre:'Teleprompter básico Lectura clara, sin necesidad de memorizar, presentación fluida y natural.',
-    desc:'• Fácil de instalar y guardar. • Sin fugas de luz en el lente de la cámara. • Mantiene el nivel de los ojos y la alineación del lente para diferentes dispositivos. • Clip de liberación rápida para smartphone. • Anillo adaptador de lente de cámara: 58/67/72/77/82 mm. • Admite disparos con lente gran angular sin viñeteado. • Cuenta con soportes para zapata fría y una entrada de rosca de 1/4" • Contr',
-    precio:713822,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P148',
-    sector:'produccion',
-    icono:'💰',
-    nombre:'Case/rack de transporte de equipos Rack de 8 unidades ligero y resistente, fabricado en una mezcla de componentes y polí',
-    desc:'Rack de transporte de 8 unidades, liviano y resistente. Protege equipos de audio y video durante el traslado. Para camarógrafos y productores de contenido.',
-    precio:1388730,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P416',
-    sector:'produccion',
-    icono:'🪑',
-    nombre:'Banco de trabajo industrial - Banco de trabajo estándar móvil - 2000 x 700 x 840 mm L x A x A WS885N-2000M40-X7000',
-    desc:'Banco de trabajo industrial estándar móvil (2000 x 700 mm). Superficie resistente. Ruedas con freno. Ideal para talleres de metalmecánica, carpintería y servicios técnicos.',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P417',
-    sector:'produccion',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:380800,
-    tipo:'Mobiliario',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P418',
-    sector:'produccion',
-    icono:'🏭',
-    nombre:'Compresor de aire Tipo Compresores de aire',
-    desc:'Uso de herramienta Industrial Largo del cable 1.50 Capacidad del estanque 50 Incluye * 1 Botella de aceite monogrado SAE30 • 1 Filtro de aire • 1 Tapón del depósito de aceite • 2 Ruedas • 2 Soportes frontales de hule • 1 Bolsa con tornillería Presión máxima 116 Caudal máximo 3.2 Alimentación Eléctrica Potencia 2.610 Voltaje 120 Motor Con Bobinas de aluminio Flujo de salida 90',
-    precio:1011500,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P419',
-    sector:'produccion',
-    icono:'🌬️',
-    nombre:'Extractor de aire/ventilación industrialExtractor De Aire Para Baño y Cocina Industrial Para Pared 41x41x14.5cm 110 Volt',
-    desc:'Extractor de aire para ventilación industrial. Bajo consumo y silencioso. Mejora la calidad del aire. Fácil instalación en paredes y techos.',
-    precio:220150,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P420',
-    sector:'produccion',
-    icono:'🧹',
-    nombre:'Aspiradora industrial Especificaciones',
-    desc:'Tipo Barril Ancho 30 cm Alto 53 cm Largo 30 cm Peso 5 kg Tipo de aspiradora Barril Tipo de filtro Polvo, Agua Uso de herramienta Industrial Material Acero inoxidable Largo del cable 6 m Largo de la manguera 2.4 m Color Plateado Incluye 1 Manguera de diámetro 1 1/4" (32 mm). 1.9 m (6.2 ft) con seguro de ajuste, 1 Boquilla tipo garra, 1 Boquilla para ranuras, 1 Boquilla 2 en 1 para piso y alfombra,',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P421',
-    sector:'produccion',
-    icono:'💡',
-    nombre:'Iluminación industrial de taller la Lámpara Led Highbay 200W, ideal para interiores industriales. Con 18000 lm, 6500K y',
-    desc:'Lámpara LED HighBay 200W para iluminación industrial de talleres. Alta eficiencia, bajo consumo. Vida útil de 50,000 horas. Luz blanca fría.',
-    precio:148750,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P422',
-    sector:'produccion',
-    icono:'📏',
-    nombre:'Herramientas de control de calidad (calibrador) Tipo : Calibradores y micrómetros',
-    desc:'•Ancho : 5 mm  •Alto : 1.5 cm  •Largo : 1.5 cm  •Color : Negro',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P423',
-    sector:'produccion',
-    icono:'📏',
-    nombre:'Micrómetro MICRÓMETRO DE EXTERIORES PROFESIONAL, CAPACIDAD 0- 1", PRECISIÓN 0.001" ASIMETO',
-    desc:'Micrómetro de exteriores profesional, capacidad 0-1 pulgada, precisión 0.001 mm. Para medición precisa en metalmecánica y control de calidad.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P424',
-    sector:'produccion',
-    icono:'⚖️',
-    nombre:'Báscula digital industrial Báscula de piso Industrial 150KG Capacidad: 150kg',
-    desc:'División: 20g Unidades de peso: lb y Kg Indicador en ABS de alta resistencia Batería interna recargable de 4V y autonomía de 8horas Dimensión plataforma: 30x40cm Display: LCD Display de tres pantallas con 7 dígitos cada uno Función Indicador: Liquidador Sistema de Tara para disminuir recipientes',
-    precio:452200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P425',
-    sector:'produccion',
-    icono:'🪑',
-    nombre:'Mesa inoxidable de preparación Mesas Acero 90 x 150 x 50 Con Entrepaño',
-    desc:'Mesa de preparación en acero inoxidable (90 x 150 x 50 cm) con entrepaño. Resistente a la corrosión. Cumple normas sanitarias.',
-    precio:1011500,
-    tipo:'Mobiliario',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P426',
-    sector:'produccion',
-    icono:'🚰',
-    nombre:'Lavamanos en acero inoxidable (operación) Grifería institucional kit válvula de pedal con lavamanos de 28x30',
-    desc:'Lavamanos en acero inoxidable con grifería institucional de válvula de pedal o palanca. Cumple normas sanitarias. Para cocinas industriales y áreas de manipulación de alimentos.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P427',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P428',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P429',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Empacadora semiautomática',
-    desc:'Empacadora semiautomática para sellado de productos en bolsas. Aumenta la velocidad de empaque. Para procesadoras de alimentos y pequeñas industrias.',
-    precio:1428000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P430',
-    sector:'produccion',
-    icono:'🏷️',
-    nombre:'Etiquetadora manual/semiauto Dimensiones: 27.6cm de ancho, 58cm de alto y 86cm de profundidad.',
-    desc:'Velocidad máxima de impresión en blanco y negro: 1ppm. Velocidad máxima de impresión en color: 1ppm. Resolución máxima de impresión en blanco y negro: 0. Resolución máxima de impresión en color: 0. Es electrónico. Es portátil. Capacidad máxima de la tarjeta de memoria: 0MB. Tipo de pilas: No.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P431',
-    sector:'produccion',
-    icono:'🖨️',
-    nombre:'Impresora de etiquetas MÉTODO DE IMPRESIÓN',
-    desc:'Térmico directo, Térmico por transferencia ANCHO DE IMPESIÓN 104MM VELOCIIDAD DE IMPESIÓN 127MM/S INTERFAZ Ethernet, USB COMPATIBILIDAD Android, Windows, Linux, Mac OSEMULACIÓN DPL, EPL, TSPL, ZPL',
-    precio:416500,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P432',
-    sector:'produccion',
-    icono:'📱',
-    nombre:'Lector de código de barras escaners',
-    desc:'Lector de código de barras USB o inalámbrico. Lee códigos 1D y 2D. Compatible con sistemas POS e inventario. Para tiendas y bodegas.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P433',
-    sector:'produccion',
-    icono:'💻',
-    nombre:'Procesador: AMD Ryzen™ 3 7330U 4 núcleos',
-    desc:'de CPU, 8 hilos, Frecuencia Base de 2.3 GHz hasta 4.3 GHz Frecuencia Máxima, 10 MB de Cache L2 + L3 Chipset: Integrado en el procesador Sistema Operativo FreeDOS 3.0 en Español. Pantalla Interfaces Certificaciones Seguridad Garantía Gráficos Memoria RAM Almacenamiento Teclado Mouse Audio Cámara Web Conectividad Batería Adaptador AC Peso (2) USB 3.2 Gen 1 (1) USB Tipo C 3.2 Gen1 (Datos) (1) HDMI v1',
-    precio:3126749,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P434',
-    sector:'produccion',
-    icono:'🔋',
-    nombre:'UPS / regulador de voltaje Ups Hikvision de 1000 Va 600w 6 Tomas Nema 5-15r (4r - 2sr)',
-    desc:'UPS Hikvision 1000 VA/600 W con 6 tomas Nema. Protege equipos de apagones y fluctuaciones de voltaje. Autonomía de 10-15 minutos.',
-    precio:485531,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P435',
-    sector:'produccion',
-    icono:'🏭',
-    nombre:'Deshidratador industrial en Acero Inoxidable 10 bandejas Seca las comida por un ventilador que ha sido instalado en la p',
-    desc:'El deshidratador se apagara automáticamente cuando la hora fijada anteriormente llegue a su fin. El reloj automático y el termostato, harán que la deshidratación de la comida, sea como un abrir y cerrar de ojos. Instrucciones vienen incluidas. Maquina eléctrica 110 volts. Dimensiones externas aprox: 54 cm de largo, por 42 cm de ancho y 38 cm de alto. Pesa 36 libras aprox. Capacidad de 1.5 metros c',
-    precio:2380352,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P436',
-    sector:'produccion',
-    icono:'🍳',
-    nombre:'Horno industrial de convección Horno de convección a gas con controles eléctricos. Está fabricado en acero inoxidable 43',
-    desc:'Horno de convección a gas con controles eléctricos. Distribución uniforme del calor. Alta capacidad. Para panaderías y restaurantes.',
-    precio:4522000,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P437',
-    sector:'produccion',
-    icono:'🍳',
-    nombre:'Mezcladora industrial ReferenciaBX35A',
-    desc:'Voltaje110v Capacidad35Kg Potencia0.75Kw Frecuencia60Hz Dimensiones67x51x110cm',
-    precio:3332000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P438',
-    sector:'produccion',
-    icono:'🍳',
-    nombre:'Molino/triturador de granos Voltaje110 voltios',
-    desc:'Capacidad de molienda800g Potencia2.000 W Velocidad25.000 rpm Capacidad de producción20-40 kg/h Tiempo continuo operación5min - Descanso: 8min Dimensiones22 x 21 x 49.5 cm',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P439',
-    sector:'produccion',
-    icono:'🍲',
-    nombre:'Marmita/75 litros, a gas en acero inoxidable, sistema para controlar la temperatura del producto',
-    desc:'Marmita de 75 litros a gas en acero inoxidable con control de temperatura. Para sopas, salsas y alimentos en gran cantidad.',
-    precio:2618000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P440',
-    sector:'produccion',
-    icono:'❄️',
-    nombre:'Cámara fría/cuarto frío Cuarto frío de 2.00 x 2.00 x 2.50 mts para carnes, pescado, pollo, mariscos, frutas, verduras, e',
-    desc:'Cuarto frío 2.00 x 2.00 x 2.50 m para carnes y productos perecederos. Panel sándwich aislante. Control digital de temperatura.',
-    precio:14280000,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P441',
-    sector:'produccion',
-    icono:'❄️',
-    nombre:'Refrigerador/congelador productivo Peso199kg',
-    desc:'Dimensiones totales132 x 80 x 210 cms (frente, profundo, alto) Maxima Temperatura ambiente26 ° C / 60% HR Potencia300W 1/3 Hp Corriente4 amperios Voltaje110v Capacidad1300L Rango de temperatura+4°C a + 8 ° C',
-    precio:3808000,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P442',
-    sector:'produccion',
-    icono:'🪑',
-    nombre:'Carro bandejero inoxidable Carro de Servicio para 3 bandejas en Acero Inox.',
-    desc:'Es desmontable y cuenta con tubo de acero inoxidable de 25 mm. de diámetro; además sus ruedas llevan freno',
-    precio:809200,
-    tipo:'Mobiliario',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P443',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Contenedores grado alimentario Contenedor Portátil Scepter de Grado Alimenticio ? 19 L con Boquilla Reversible',
-    desc:'Contenedores portátiles de grado alimentario. Material libre de BPA. Herméticos y apilables. Para almacenamiento de líquidos y alimentos en restaurantes.',
-    precio:65450,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P444',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Envases grado alimentario (frascos/tarrinas)',
-    desc:'Envases de grado alimentario: frascos y tarrinas. Material inocuo. Para mermeladas, salsas, lácteos y miel. Herméticos y apilables.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P445',
-    sector:'produccion',
-    icono:'🧵',
-    nombre:'Máquina plana industrial (confección) Función: Costura recta gama genérica',
-    desc:'Garantía: 06 meses por kit electrónico y 06 meses por descalibraciones mecánicas Tipo de aguja: Cubo delgado DBX1 o Cubo grueso 135X5 Sistema paso a paso Velocidad: Variable desde 500 hasta 4000 rpm Longitud de puntada (cubo delgado a 5 mm o cubo grueso 7 mm) Posicionador de aguja Luz led integrada Motor direct drive incorporado de 550w Devanador incorporado Mueble importado',
-    precio:2117070,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P446',
-    sector:'produccion',
-    icono:'🧵',
-    nombre:'Overlock industrial Overlock con costura overlock de seis hilos para telas ligeras y medianas Fácil cambio para diferent',
-    desc:'Sistema de lubricación automática Mejorado - mecanismo de barra de aguja cerrado Tensión óptima del hilo Diseño unico Servomotor integrado en la cabeza, control de velocidad continuo El ahorro de energía Ruido bajo Alto rendimiento',
-    precio:3354741,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P447',
-    sector:'produccion',
-    icono:'🧵',
-    nombre:'Recubridora industrial TIPO Recubridora - Collarín USO Industrial MOTOR Mecatrónica',
-    desc:'MARCA Willcox MODELO W500D PUNTADA Collarin Recubierto  AGUJAS 3 HILOS 5 VOLTAJE 110V POTENCIA 550W',
-    precio:3908436,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P448',
-    sector:'produccion',
-    icono:'🧵',
-    nombre:'Cortadora vertical de tela Motores',
-    desc:'110V, 1ph, 50 / 60Hz 220V, 1ph o 3ph, 50 / 60Hz Estándar: velocidad única Opcional: velocidad dual, velocidad variable Caballo de fuerza 2hp, 1ph a 4,000 RPM 2hp, 3ph a 4,000 RPM Peso 41 libras (18.5kg) Cuchillas Estándar: acero al carbono Opcional: acero de alta velocidad, recubierto de PTFE, borde ondulado, ranura ondulada, punta en ángulo Cinturones Estándar: grano medio Opcional: fino, grueso,',
-    precio:1345295,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P449',
-    sector:'produccion',
-    icono:'🪑',
-    nombre:'Mesa de corte textil 120 x 180 cm Nuestra Mesa de Corte para Tela – Diseño Americano está fabricada para trabajos exigen',
-    desc:'La mesa tiene una altura fija de 90 cm, ideal para mantener una postura ergonómica durante el corte, evitando dolores de espalda y fatiga en jornadas largas de trabajo.  Disponible en múltiples medidas, es un producto modular y adaptable a distintos espacios de trabajo. Puedes elegir la variante que mejor se acomode a tu taller desde el menú.',
-    precio:1628515,
-    tipo:'Mobiliario',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P450',
-    sector:'produccion',
-    icono:'🖨️',
-    nombre:'Plotter de corte (si aplica a producción gráfica) Dimensiones',
-    desc:'97x33x36 Referencia del Producto en el Certificado/Empaque ProCut Plus KI-720AB Composición 60% Acero 30% Plástico 5% Aluminio 5% Electrónica Presentación Unidad Tipo de adorno Otros Material del cuerpo Metal Color Amarillo',
-    precio:19542180,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P451',
-    sector:'produccion',
-    icono:'🏭',
-    nombre:'Laminadora/calandra (producción gráfica) Aplicable a máquinas UV DTF, puede completar las tareas de estampado en oro, el',
-    desc:'- Ambos rodillos de presión de la máquina están equipados con funciones de calentamiento. - Alta automatización y fácil de usar.',
-    precio:98560560,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P452',
-    sector:'produccion',
-    icono:'🏭',
-    nombre:'Laminadora/calandra (producción gráfica) Aplicable a máquinas UV DTF, puede completar las tareas de estampado en oro, el',
-    desc:'- Ambos rodillos de presión de la máquina están equipados con funciones de calentamiento. - Alta automatización y fácil de usar.',
-    precio:127024170,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P453',
-    sector:'produccion',
-    icono:'📷',
-    nombre:'Cámara de video semiprofesional Tipo de Camara',
-    desc:'Semiprofesional  Tamaño Pantalla 3  Pulgadas Profundida de Inmersion 0  Metro(s) Resolucion de la Foto 24.1  Megapixeles Zoom Digital No Tiene Zoom Digital  Zoom Optico No Tiene Zoom Optico',
-    precio:3332000,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P454',
-    sector:'produccion',
-    icono:'📷',
-    nombre:'Lentes básicos (kit) Objetivo con montura EF / formato de fotograma completo',
-    desc:'Rango de apertura: f / 1.8 a f / 22 Super Spectra Coating Motor paso a paso STM Diafragma redondeado de 7 cuchillas',
-    precio:1428000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P455',
-    sector:'produccion',
-    icono:'🧺',
-    nombre:'Trípode profesional Capacidad de carga: 34 lb',
-    desc:'Trípode extensible de 24 a 77 pulgadas Longitud plegada: 19″ Patas de aleación de aluminio de 4 secciones con sistema de bloqueo abatible Pata y columna convertibles en monopie Rosca macho de 1/4″-20 Giro, inclinación y rotación de 360° Inclinación de 90° Columna central de 2 secciones Peso: 3,5 libras',
-    precio:452200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P456',
-    sector:'produccion',
-    icono:'🪞',
-    nombre:'Gimbal/estabilizador Para cámaras sin espejo y teléfonos inteligentes',
-    desc:'Diseño liviano, carga útil de hasta 4,4 lb Control de cámara mediante Bluetooth/USB-C Funciona con el módulo de seguimiento inteligente Modos horizontales y verticales, ejes de 360° Batería de 3100 mAh, 13 horas de duración Funciones de panorama, time-lapse y seguimiento Puerto NATO para asas y accesorios Incluye agarre extendido/trípode',
-    precio:809200,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P457',
-    sector:'produccion',
-    icono:'💡',
-    nombre:'Kit de iluminación LED continua Temperatura de color: 3200-5600 K, CRI: 96',
-    desc:'660 LED: 330 luz diurna y 330 tungsteno Tres adaptadores de 100-240 V CA, 50/60 Hz Tres tripodes de iluminación’ Tres estuches de transporte para paneles LED',
-    precio:1011500,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P458',
-    sector:'produccion',
-    icono:'🎙️',
-    nombre:'Micrófonos inalámbricos Sistema inalámbrico profesional, dos frecuencias, dos antenas, dos micrófonos de mano. 60 metr',
-    desc:'Sistema inalámbrico profesional con dos micrófonos y receptor. Para presentaciones, grabaciones y producción de video. Sin cables.',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P459',
-    sector:'produccion',
-    icono:'🎙️',
-    nombre:'Interface de audio La interfaz Sonic Cube II es una interfaz de audio profesional de doble canal que cuenta con un pream',
-    desc:'Interfaz de audio profesional para grabación y producción musical. Entradas XLR y jack. Compatible con computador vía USB. Fidelidad profesional.',
-    precio:571200,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P460',
-    sector:'produccion',
-    icono:'🎙️',
-    nombre:'Grabadora de audio Gracias a un micrófono de alta sensibilidad, una reproducción sencilla y sus más de 159 horas de alma',
-    desc:'Grabadora de audio digital portátil con micrófono de alta sensibilidad. Graba en MP3/WAV. Para podcasts, entrevistas y registro de campo.',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P461',
-    sector:'produccion',
-    icono:'💾',
-    nombre:'Disco duro externo ssd externo 2 tb',
-    desc:'Disco duro externo SSD de 2 TB. Alta velocidad de transferencia. Compacto y resistente. Para respaldo de archivos de fotografía, video y proyectos digitales.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P462',
-    sector:'produccion',
-    icono:'🎙️',
-    nombre:'Monitor de referencia Entradas:',
-    desc:'"Bluetooth 5.0 1- Estéreo de 1/8"" 2- TRS ¼” balanceada 2- RCA no balanceadas"  Respuesta en frecuencia: 80 Hz – 20 kHz  Frecuencia de Crossover: 2.8 kHz  Potencia del amplificador: 25W/por altavoz  LF Driver: 3.5"',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P463',
-    sector:'produccion',
-    icono:'📸',
-    nombre:'Fondo croma Fondo perfecto para televisión, producción de video y fotografía.',
-    desc:'El telón cuenta con un doblez para colgar en la barra. Bordes reforzados para evitar daños de tela. Hecho de 100% puro algodón muslin.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P464',
-    sector:'produccion',
-    icono:'📺',
-    nombre:'Teleprompter básico Lectura clara, sin necesidad de memorizar, presentación fluida y natural.',
-    desc:'• Fácil de instalar y guardar. • Sin fugas de luz en el lente de la cámara. • Mantiene el nivel de los ojos y la alineación del lente para diferentes dispositivos. • Clip de liberación rápida para smartphone. • Anillo adaptador de lente de cámara: 58/67/72/77/82 mm. • Admite disparos con lente gran angular sin viñeteado. • Cuenta con soportes para zapata fría y una entrada de rosca de 1/4" • Contr',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'P465',
-    sector:'produccion',
-    icono:'💰',
-    nombre:'Case/rack de transporte de equipos Rack de 8 unidades ligero y resistente, fabricado en una mezcla de componentes y polí',
-    desc:'Rack de transporte de 8 unidades, liviano y resistente. Protege equipos de audio y video durante el traslado. Para camarógrafos y productores de contenido.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-119',
-    sector:'produccion',
-    icono:'🪑',
-    nombre:'Banco de trabajo industrial - Banco de trabajo estándar móvil - 2000 x 700 x 840 mm L x A x A WS885N-2000M40-X7000',
-    desc:'Banco de trabajo industrial estándar móvil (2000 x 700 mm). Superficie resistente. Ruedas con freno. Ideal para talleres de metalmecánica, carpintería y servicios técnicos.',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-120',
-    sector:'produccion',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:380800,
-    tipo:'Mobiliario',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-121',
-    sector:'produccion',
-    icono:'🏭',
-    nombre:'Compresor de aire Tipo Compresores de aire',
-    desc:'Uso de herramienta Industrial Largo del cable 1.50 Capacidad del estanque 50 Incluye * 1 Botella de aceite monogrado SAE30 • 1 Filtro de aire • 1 Tapón del depósito de aceite • 2 Ruedas • 2 Soportes frontales de hule • 1 Bolsa con tornillería Presión máxima 116 Caudal máximo 3.2 Alimentación Eléctrica Potencia 2.610 Voltaje 120 Motor Con Bobinas de aluminio Flujo de salida 90',
-    precio:1011500,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-122',
-    sector:'produccion',
-    icono:'🌬️',
-    nombre:'Extractor de aire/ventilación industrialExtractor De Aire Para Baño y Cocina Industrial Para Pared 41x41x14.5cm 110 Volt',
-    desc:'Extractor de aire para ventilación industrial. Bajo consumo y silencioso. Mejora la calidad del aire. Fácil instalación en paredes y techos.',
-    precio:220150,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-123',
-    sector:'produccion',
-    icono:'🧹',
-    nombre:'Aspiradora industrial Especificaciones',
-    desc:'Tipo Barril Ancho 30 cm Alto 53 cm Largo 30 cm Peso 5 kg Tipo de aspiradora Barril Tipo de filtro Polvo, Agua Uso de herramienta Industrial Material Acero inoxidable Largo del cable 6 m Largo de la manguera 2.4 m Color Plateado Incluye 1 Manguera de diámetro 1 1/4" (32 mm). 1.9 m (6.2 ft) con seguro de ajuste, 1 Boquilla tipo garra, 1 Boquilla para ranuras, 1 Boquilla 2 en 1 para piso y alfombra,',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-124',
-    sector:'produccion',
-    icono:'💡',
-    nombre:'Iluminación industrial de taller la Lámpara Led Highbay 200W, ideal para interiores industriales. Con 18000 lm, 6500K y',
-    desc:'Lámpara LED HighBay 200W para iluminación industrial de talleres. Alta eficiencia, bajo consumo. Vida útil de 50,000 horas. Luz blanca fría.',
-    precio:148750,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-125',
-    sector:'produccion',
-    icono:'📏',
-    nombre:'Herramientas de control de calidad (calibrador) Tipo : Calibradores y micrómetros',
-    desc:'•Ancho : 5 mm  •Alto : 1.5 cm  •Largo : 1.5 cm  •Color : Negro',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-126',
-    sector:'produccion',
-    icono:'📏',
-    nombre:'Micrómetro MICRÓMETRO DE EXTERIORES PROFESIONAL, CAPACIDAD 0- 1", PRECISIÓN 0.001" ASIMETO',
-    desc:'Micrómetro de exteriores profesional, capacidad 0-1 pulgada, precisión 0.001 mm. Para medición precisa en metalmecánica y control de calidad.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-127',
-    sector:'produccion',
-    icono:'⚖️',
-    nombre:'Báscula digital industrial Báscula de piso Industrial 150KG Capacidad: 150kg',
-    desc:'División: 20g Unidades de peso: lb y Kg Indicador en ABS de alta resistencia Batería interna recargable de 4V y autonomía de 8horas Dimensión plataforma: 30x40cm Display: LCD Display de tres pantallas con 7 dígitos cada uno Función Indicador: Liquidador Sistema de Tara para disminuir recipientes',
-    precio:452200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-128',
-    sector:'produccion',
-    icono:'🪑',
-    nombre:'Mesa inoxidable de preparación Mesas Acero 90 x 150 x 50 Con Entrepaño',
-    desc:'Mesa de preparación en acero inoxidable (90 x 150 x 50 cm) con entrepaño. Resistente a la corrosión. Cumple normas sanitarias.',
-    precio:1011500,
-    tipo:'Mobiliario',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-129',
-    sector:'produccion',
-    icono:'🚰',
-    nombre:'Lavamanos en acero inoxidable (operación) Grifería institucional kit válvula de pedal con lavamanos de 28x30',
-    desc:'Lavamanos en acero inoxidable con grifería institucional de válvula de pedal o palanca. Cumple normas sanitarias. Para cocinas industriales y áreas de manipulación de alimentos.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-130',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-131',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-132',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Empacadora semiautomática',
-    desc:'Empacadora semiautomática para sellado de productos en bolsas. Aumenta la velocidad de empaque. Para procesadoras de alimentos y pequeñas industrias.',
-    precio:1428000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-133',
-    sector:'produccion',
-    icono:'🏷️',
-    nombre:'Etiquetadora manual/semiauto Dimensiones: 27.6cm de ancho, 58cm de alto y 86cm de profundidad.',
-    desc:'Velocidad máxima de impresión en blanco y negro: 1ppm. Velocidad máxima de impresión en color: 1ppm. Resolución máxima de impresión en blanco y negro: 0. Resolución máxima de impresión en color: 0. Es electrónico. Es portátil. Capacidad máxima de la tarjeta de memoria: 0MB. Tipo de pilas: No.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-134',
-    sector:'produccion',
-    icono:'🖨️',
-    nombre:'Impresora de etiquetas MÉTODO DE IMPRESIÓN',
-    desc:'Térmico directo, Térmico por transferencia ANCHO DE IMPESIÓN 104MM VELOCIIDAD DE IMPESIÓN 127MM/S INTERFAZ Ethernet, USB COMPATIBILIDAD Android, Windows, Linux, Mac OSEMULACIÓN DPL, EPL, TSPL, ZPL',
-    precio:416500,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-135',
-    sector:'produccion',
-    icono:'📱',
-    nombre:'Lector de código de barras escaners',
-    desc:'Lector de código de barras USB o inalámbrico. Lee códigos 1D y 2D. Compatible con sistemas POS e inventario. Para tiendas y bodegas.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-136',
-    sector:'produccion',
-    icono:'💻',
-    nombre:'Procesador: AMD Ryzen™ 3 7330U 4 núcleos',
-    desc:'de CPU, 8 hilos, Frecuencia Base de 2.3 GHz hasta 4.3 GHz Frecuencia Máxima, 10 MB de Cache L2 + L3 Chipset: Integrado en el procesador Sistema Operativo FreeDOS 3.0 en Español. Pantalla Interfaces Certificaciones Seguridad Garantía Gráficos Memoria RAM Almacenamiento Teclado Mouse Audio Cámara Web Conectividad Batería Adaptador AC Peso (2) USB 3.2 Gen 1 (1) USB Tipo C 3.2 Gen1 (Datos) (1) HDMI v1',
-    precio:2627520,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-137',
-    sector:'produccion',
-    icono:'🔋',
-    nombre:'UPS / regulador de voltaje Ups Hikvision de 1000 Va 600w 6 Tomas Nema 5-15r (4r - 2sr)',
-    desc:'UPS Hikvision 1000 VA/600 W con 6 tomas Nema. Protege equipos de apagones y fluctuaciones de voltaje. Autonomía de 10-15 minutos.',
-    precio:408009,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-138',
-    sector:'produccion',
-    icono:'🏭',
-    nombre:'Deshidratador industrial en Acero Inoxidable 10 bandejas Seca las comida por un ventilador que ha sido instalado en la p',
-    desc:'El deshidratador se apagara automáticamente cuando la hora fijada anteriormente llegue a su fin. El reloj automático y el termostato, harán que la deshidratación de la comida, sea como un abrir y cerrar de ojos. Instrucciones vienen incluidas. Maquina eléctrica 110 volts. Dimensiones externas aprox: 54 cm de largo, por 42 cm de ancho y 38 cm de alto. Pesa 36 libras aprox. Capacidad de 1.5 metros c',
-    precio:2000296,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-139',
-    sector:'produccion',
-    icono:'🍳',
-    nombre:'Horno industrial de convección Horno de convección a gas con controles eléctricos. Está fabricado en acero inoxidable 43',
-    desc:'Horno de convección a gas con controles eléctricos. Distribución uniforme del calor. Alta capacidad. Para panaderías y restaurantes.',
-    precio:4522000,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-140',
-    sector:'produccion',
-    icono:'🍳',
-    nombre:'Mezcladora industrial ReferenciaBX35A',
-    desc:'Voltaje110v Capacidad35Kg Potencia0.75Kw Frecuencia60Hz Dimensiones67x51x110cm',
-    precio:3332000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-141',
-    sector:'produccion',
-    icono:'🍳',
-    nombre:'Molino/triturador de granos Voltaje110 voltios',
-    desc:'Capacidad de molienda800g Potencia2.000 W Velocidad25.000 rpm Capacidad de producción20-40 kg/h Tiempo continuo operación5min - Descanso: 8min Dimensiones22 x 21 x 49.5 cm',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-142',
-    sector:'produccion',
-    icono:'🍲',
-    nombre:'Marmita/75 litros, a gas en acero inoxidable, sistema para controlar la temperatura del producto',
-    desc:'Marmita de 75 litros a gas en acero inoxidable con control de temperatura. Para sopas, salsas y alimentos en gran cantidad.',
-    precio:2618000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-143',
-    sector:'produccion',
-    icono:'❄️',
-    nombre:'Cámara fría/cuarto frío Cuarto frío de 2.00 x 2.00 x 2.50 mts para carnes, pescado, pollo, mariscos, frutas, verduras, e',
-    desc:'Cuarto frío 2.00 x 2.00 x 2.50 m para carnes y productos perecederos. Panel sándwich aislante. Control digital de temperatura.',
-    precio:14280000,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-144',
-    sector:'produccion',
-    icono:'❄️',
-    nombre:'Refrigerador/congelador productivo Peso199kg',
-    desc:'Dimensiones totales132 x 80 x 210 cms (frente, profundo, alto) Maxima Temperatura ambiente26 ° C / 60% HR Potencia300W 1/3 Hp Corriente4 amperios Voltaje110v Capacidad1300L Rango de temperatura+4°C a + 8 ° C',
-    precio:3808000,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-145',
-    sector:'produccion',
-    icono:'🪑',
-    nombre:'Carro bandejero inoxidable Carro de Servicio para 3 bandejas en Acero Inox.',
-    desc:'Es desmontable y cuenta con tubo de acero inoxidable de 25 mm. de diámetro; además sus ruedas llevan freno',
-    precio:809200,
-    tipo:'Mobiliario',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-146',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Contenedores grado alimentario Contenedor Portátil Scepter de Grado Alimenticio ? 19 L con Boquilla Reversible',
-    desc:'Contenedores portátiles de grado alimentario. Material libre de BPA. Herméticos y apilables. Para almacenamiento de líquidos y alimentos en restaurantes.',
-    precio:65450,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-147',
-    sector:'produccion',
-    icono:'📦',
-    nombre:'Envases grado alimentario (frascos/tarrinas)',
-    desc:'Envases de grado alimentario: frascos y tarrinas. Material inocuo. Para mermeladas, salsas, lácteos y miel. Herméticos y apilables.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-148',
-    sector:'produccion',
-    icono:'🧵',
-    nombre:'Máquina plana industrial (confección) Función: Costura recta gama genérica',
-    desc:'Garantía: 06 meses por kit electrónico y 06 meses por descalibraciones mecánicas Tipo de aguja: Cubo delgado DBX1 o Cubo grueso 135X5 Sistema paso a paso Velocidad: Variable desde 500 hasta 4000 rpm Longitud de puntada (cubo delgado a 5 mm o cubo grueso 7 mm) Posicionador de aguja Luz led integrada Motor direct drive incorporado de 550w Devanador incorporado Mueble importado',
-    precio:1779050,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-149',
-    sector:'produccion',
-    icono:'🧵',
-    nombre:'Overlock industrial Overlock con costura overlock de seis hilos para telas ligeras y medianas Fácil cambio para diferent',
-    desc:'Sistema de lubricación automática Mejorado - mecanismo de barra de aguja cerrado Tensión óptima del hilo Diseño unico Servomotor integrado en la cabeza, control de velocidad continuo El ahorro de energía Ruido bajo Alto rendimiento',
-    precio:2819110,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-150',
-    sector:'produccion',
-    icono:'🧵',
-    nombre:'Recubridora industrial TIPO Recubridora - Collarín USO Industrial MOTOR Mecatrónica',
-    desc:'MARCA Willcox MODELO W500D PUNTADA Collarin Recubierto  AGUJAS 3 HILOS 5 VOLTAJE 110V POTENCIA 550W',
-    precio:3284400,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-151',
-    sector:'produccion',
-    icono:'🧵',
-    nombre:'Cortadora vertical de tela Motores',
-    desc:'110V, 1ph, 50 / 60Hz 220V, 1ph o 3ph, 50 / 60Hz Estándar: velocidad única Opcional: velocidad dual, velocidad variable Caballo de fuerza 2hp, 1ph a 4,000 RPM 2hp, 3ph a 4,000 RPM Peso 41 libras (18.5kg) Cuchillas Estándar: acero al carbono Opcional: acero de alta velocidad, recubierto de PTFE, borde ondulado, ranura ondulada, punta en ángulo Cinturones Estándar: grano medio Opcional: fino, grueso,',
-    precio:1130500,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-152',
-    sector:'produccion',
-    icono:'🪑',
-    nombre:'Mesa de corte textil 120 x 180 cm Nuestra Mesa de Corte para Tela – Diseño Americano está fabricada para trabajos exigen',
-    desc:'La mesa tiene una altura fija de 90 cm, ideal para mantener una postura ergonómica durante el corte, evitando dolores de espalda y fatiga en jornadas largas de trabajo.  Disponible en múltiples medidas, es un producto modular y adaptable a distintos espacios de trabajo. Puedes elegir la variante que mejor se acomode a tu taller desde el menú.',
-    precio:1368500,
-    tipo:'Mobiliario',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-153',
-    sector:'produccion',
-    icono:'🖨️',
-    nombre:'Plotter de corte (si aplica a producción gráfica) Dimensiones',
-    desc:'97x33x36 Referencia del Producto en el Certificado/Empaque ProCut Plus KI-720AB Composición 60% Acero 30% Plástico 5% Aluminio 5% Electrónica Presentación Unidad Tipo de adorno Otros Material del cuerpo Metal Color Amarillo',
-    precio:16422000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-154',
-    sector:'produccion',
-    icono:'🏭',
-    nombre:'Laminadora/calandra (producción gráfica) Aplicable a máquinas UV DTF, puede completar las tareas de estampado en oro, el',
-    desc:'- Ambos rodillos de presión de la máquina están equipados con funciones de calentamiento. - Alta automatización y fácil de usar.',
-    precio:82824000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-155',
-    sector:'produccion',
-    icono:'🏭',
-    nombre:'Laminadora/calandra (producción gráfica) Aplicable a máquinas UV DTF, puede completar las tareas de estampado en oro, el',
-    desc:'- Ambos rodillos de presión de la máquina están equipados con funciones de calentamiento. - Alta automatización y fácil de usar.',
-    precio:106743000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-156',
-    sector:'produccion',
-    icono:'📷',
-    nombre:'Cámara de video semiprofesional Tipo de Camara',
-    desc:'Semiprofesional  Tamaño Pantalla 3  Pulgadas Profundida de Inmersion 0  Metro(s) Resolucion de la Foto 24.1  Megapixeles Zoom Digital No Tiene Zoom Digital  Zoom Optico No Tiene Zoom Optico',
-    precio:3332000,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-157',
-    sector:'produccion',
-    icono:'📷',
-    nombre:'Lentes básicos (kit) Objetivo con montura EF / formato de fotograma completo',
-    desc:'Rango de apertura: f / 1.8 a f / 22 Super Spectra Coating Motor paso a paso STM Diafragma redondeado de 7 cuchillas',
-    precio:1428000,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-158',
-    sector:'produccion',
-    icono:'🧺',
-    nombre:'Trípode profesional Capacidad de carga: 34 lb',
-    desc:'Trípode extensible de 24 a 77 pulgadas Longitud plegada: 19″ Patas de aleación de aluminio de 4 secciones con sistema de bloqueo abatible Pata y columna convertibles en monopie Rosca macho de 1/4″-20 Giro, inclinación y rotación de 360° Inclinación de 90° Columna central de 2 secciones Peso: 3,5 libras',
-    precio:452200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-159',
-    sector:'produccion',
-    icono:'🪞',
-    nombre:'Gimbal/estabilizador Para cámaras sin espejo y teléfonos inteligentes',
-    desc:'Diseño liviano, carga útil de hasta 4,4 lb Control de cámara mediante Bluetooth/USB-C Funciona con el módulo de seguimiento inteligente Modos horizontales y verticales, ejes de 360° Batería de 3100 mAh, 13 horas de duración Funciones de panorama, time-lapse y seguimiento Puerto NATO para asas y accesorios Incluye agarre extendido/trípode',
-    precio:809200,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-160',
-    sector:'produccion',
-    icono:'💡',
-    nombre:'Kit de iluminación LED continua Temperatura de color: 3200-5600 K, CRI: 96',
-    desc:'660 LED: 330 luz diurna y 330 tungsteno Tres adaptadores de 100-240 V CA, 50/60 Hz Tres tripodes de iluminación’ Tres estuches de transporte para paneles LED',
-    precio:1011500,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-161',
-    sector:'produccion',
-    icono:'🎙️',
-    nombre:'Micrófonos inalámbricos Sistema inalámbrico profesional, dos frecuencias, dos antenas, dos micrófonos de mano. 60 metr',
-    desc:'Sistema inalámbrico profesional con dos micrófonos y receptor. Para presentaciones, grabaciones y producción de video. Sin cables.',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-162',
-    sector:'produccion',
-    icono:'🎙️',
-    nombre:'Interface de audio La interfaz Sonic Cube II es una interfaz de audio profesional de doble canal que cuenta con un pream',
-    desc:'Interfaz de audio profesional para grabación y producción musical. Entradas XLR y jack. Compatible con computador vía USB. Fidelidad profesional.',
-    precio:571200,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-163',
-    sector:'produccion',
-    icono:'🎙️',
-    nombre:'Grabadora de audio Gracias a un micrófono de alta sensibilidad, una reproducción sencilla y sus más de 159 horas de alma',
-    desc:'Grabadora de audio digital portátil con micrófono de alta sensibilidad. Graba en MP3/WAV. Para podcasts, entrevistas y registro de campo.',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-164',
-    sector:'produccion',
-    icono:'💾',
-    nombre:'Disco duro externo ssd externo 2 tb',
-    desc:'Disco duro externo SSD de 2 TB. Alta velocidad de transferencia. Compacto y resistente. Para respaldo de archivos de fotografía, video y proyectos digitales.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-165',
-    sector:'produccion',
-    icono:'🎙️',
-    nombre:'Monitor de referencia Entradas:',
-    desc:'"Bluetooth 5.0 1- Estéreo de 1/8"" 2- TRS ¼” balanceada 2- RCA no balanceadas"  Respuesta en frecuencia: 80 Hz – 20 kHz  Frecuencia de Crossover: 2.8 kHz  Potencia del amplificador: 25W/por altavoz  LF Driver: 3.5"',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-166',
-    sector:'produccion',
-    icono:'📸',
-    nombre:'Fondo croma Fondo perfecto para televisión, producción de video y fotografía.',
-    desc:'El telón cuenta con un doblez para colgar en la barra. Bordes reforzados para evitar daños de tela. Hecho de 100% puro algodón muslin.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-167',
-    sector:'produccion',
-    icono:'📺',
-    nombre:'Teleprompter básico Lectura clara, sin necesidad de memorizar, presentación fluida y natural.',
-    desc:'• Fácil de instalar y guardar. • Sin fugas de luz en el lente de la cámara. • Mantiene el nivel de los ojos y la alineación del lente para diferentes dispositivos. • Clip de liberación rápida para smartphone. • Anillo adaptador de lente de cámara: 58/67/72/77/82 mm. • Admite disparos con lente gran angular sin viñeteado. • Cuenta con soportes para zapata fría y una entrada de rosca de 1/4" • Contr',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  }),
-
-  producto({
-    id:'CAT2-168',
-    sector:'produccion',
-    icono:'💰',
-    nombre:'Case/rack de transporte de equipos Rack de 8 unidades ligero y resistente, fabricado en una mezcla de componentes y polí',
-    desc:'Rack de transporte de 8 unidades, liviano y resistente. Protege equipos de audio y video durante el traslado. Para camarógrafos y productores de contenido.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'C (10–33) / R (90)',
-    proceso:'Producción / Transformación / Edición'
-  })
-
-];
-
-// Agropecuario
-const PRODUCTOS_AGRO=[
-  producto({
-    id:'P149',
-    sector:'agro',
-    icono:'🌱',
-    nombre:'Semillas certificadas (granos y hortalizas) 10 gramos',
-    desc:'Semillas certificadas de granos y hortalizas, 10 gramos. Alta tasa de germinación. Resistentes a enfermedades. Adaptadas al clima colombiano.',
-    precio:55335,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P150',
-    sector:'agro',
-    icono:'🌱',
-    nombre:'Plántulas/almácigos',
-    desc:'Plántulas listas para trasplante producidas en condiciones controladas. Mayor uniformidad y menor tiempo a la primera cosecha.',
-    precio:32398,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P151',
-    sector:'agro',
-    icono:'🌱',
-    nombre:'Bolsas para vivero',
-    desc:'Bolsas plásticas negras para vivero. Resistentes a la intemperie. Ideales para germinación, trasplante y producción de plántulas. Buen drenaje y desarrollo radicular.',
-    precio:13388,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P152',
-    sector:'agro',
-    icono:'🧪',
-    nombre:'Sustrato agrícola (coco/turba) 25 litros',
-    desc:'Sustrato agrícola de coco/turba, 25 litros. Excelente retención de humedad y aireación. Libre de patógenos. Para germinación y plantas en maceta.',
-    precio:49980,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P153',
-    sector:'agro',
-    icono:'💰',
-    nombre:'Compost/abono orgánico 50 kilos',
-    desc:'Compost y abono orgánico de alta calidad, 50 kilos. Mejora la fertilidad del suelo. Aporta materia orgánica y microorganismos benéficos.',
-    precio:30791,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P154',
-    sector:'agro',
-    icono:'🧪',
-    nombre:'Fertilizante NPK 50 kg',
-    desc:'Fertilizante NPK (Nitrógeno-Fósforo-Potasio), presentación 50 kg. Estimula crecimiento, floración y producción de frutos. Para todo tipo de cultivos agrícolas.',
-    precio:273105,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P155',
-    sector:'agro',
-    icono:'🧪',
-    nombre:'Cal dolomita/Enmiendas 50 kg',
-    desc:'Cal dolomita para corrección de acidez del suelo, 50 kg. Aporta calcio y magnesio. Mejora la estructura del suelo y disponibilidad de nutrientes.',
-    precio:106922,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P156',
-    sector:'agro',
-    icono:'🧪',
-    nombre:'Bioinsumos (Trichoderma/Micorrizas) 150 gr',
-    desc:'Bioinsumos de Trichoderma y Micorrizas (150 gr). Mejoran salud del suelo y protegen raíces. Aumentan la absorción de nutrientes. 100% orgánico.',
-    precio:91392,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P157',
-    sector:'agro',
-    icono:'🌿',
-    nombre:'Trampas cromáticas',
-    desc:'Trampas cromáticas para captura de insectos plaga. Adhesivo de larga duración. Método ecológico. Para control de mosca blanca, trips y minadores.',
-    precio:31594,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P158',
-    sector:'agro',
-    icono:'🌿',
-    nombre:'Feromonas para monitoreo',
-    desc:'Feromonas para monitoreo y control de plagas en cultivos. Método ecológico. Reduce el uso de pesticidas. Para cultivos y invernaderos.',
-    precio:107100,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P159',
-    sector:'agro',
-    icono:'🌿',
-    nombre:'Malla anti-insectos 2x2 x 1,20',
-    desc:'Malla anti-insectos 2x2 m, ancho 1.20 m. Protege cultivos de plagas sin pesticidas. Resistente a la intemperie. Para invernaderos y huertas orgánicas.',
-    precio:431529,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P160',
-    sector:'agro',
-    icono:'💰',
-    nombre:'Malla sombra MALLA SOMBRA MULTIPROPOSITO 4X100 METROS MACHO® (65%)',
-    desc:'Malla sombra multipropósito 65%, 4x100 m. Reduce la radiación solar. Para viveros, invernaderos y jardines.',
-    precio:1002454,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P161',
-    sector:'agro',
-    icono:'🌿',
-    nombre:'Tutores y cintas de amarre',
-    desc:'Tutores y cintas de amarre para soporte de plantas. Para crecimiento vertical de cultivos como tomate y frijol. Reutilizables.',
-    precio:624750,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P162',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Palas y azadones',
-    desc:'Producto de uso industrial o comercial. Consulte con su asesor para más especificaciones técnicas y disponibilidad.',
-    precio:71222,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P163',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Rastrillos y picas',
-    desc:'Set de rastrillo y pica con cabo de madera para labores agrícolas. Herramientas básicas para preparar suelos, airear camas de siembra y romper terrones.',
-    precio:160472,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P164',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Tijeras de poda Tipo : Tijeras de podar',
-    desc:'•Ancho : 28 cm  •Alto : 4 cm  •Largo : 80 cm  •Color : Negro/Gris/rojo',
-    precio:267572,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P165',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Serrucho de poda Serrucho Cortador de Ramas O de Poda Plegable Cuchilla 10\'\'',
-    desc:'Serrucho plegable para poda de ramas. Hoja de acero con dientes endurecidos. Corte limpio y preciso. Para frutales y jardines.',
-    precio:81932,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P166',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Carretilla de carga Carretilla Negra Plastica Cachaca 169 Litros 6ft Imsa',
-    desc:'Carretilla plástica de 169 litros para transporte de materiales. Liviana y resistente. Rueda grande para terrenos irregulares. Para finca y talleres.',
-    precio:579946,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P167',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Bomba de espalda (aspersión) Pulverizador Manual 16 Lt  Tipo : Fumigadoras manuales de espalda',
-    desc:'•Ancho : 610 mm  •Alto : 185 mm  •Largo : 410 mm  •Diámetro : 1 cm',
-    precio:142622,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P168',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Motobomba para riego Motobomba  Gasolina Twp80sx 3\'\'x3\'\' 6.5hp / 196cc Caudal 35mca y 60m3/h',
-    desc:'Motobomba a gasolina 3x3 pulgadas, 6.5 HP. Para riego de cultivos y vaciado de pozos. Fácil arranque y bajo consumo de combustible.',
-    precio:1206482,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P169',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Kit riego por goteo (manguera/cinta/goteros) Incluye:',
-    desc:'Adaptador de manguera de 1 x 3/4 a 1/4 pulgadas. 10 conectores de 1/4 pulgadas con bloqueo en T. 2 adaptadores de manguera de 3/4 a 1/2 pulgadas. 3 conectores de 1/2 a 4 vías de 1/4 pulgadas. 2 conectores de 1/2 a 2 vías de 1/4 pulgadas. 4 estacas de soporte de goteo de 1/2 pulgadas. 6 clavijas de extremo acoplado de 1/4 pulgadas. 2 enchufes de extremo bloqueado de 1/2 pulgadas. Tubo de 98 pies de',
-    precio:642600,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P170',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Aspersores y microaspersores',
-    desc:'Aspersores y microaspersores para riego agrícola. Distribución uniforme del agua. Ahorro de hasta 40% comparado con riego por inundación. Fácil instalación.',
-    precio:107100,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P171',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Tanque de almacenamiento de agua •Tipo : Tanque 500 Litros',
-    desc:'•Uso : Residencial, institucional e industrial  •Normas de Fabricación : RAS 0330  •Ancho : 105 cm  •Alto : 103 cm',
-    precio:414120,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P172',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Filtros y válvulas de riego **DIMENSIONES**:',
-    desc:'- ALTO: 5 pulgadas - ANCHO: 4 pulgadas - LARGO: 3 pulgadas  **MATERIALES**: PVC resistente a la corrosión  **USO**: Ideal para sistemas de riego agrícola, jardinería o pesaje industrial',
-    precio:190692,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P173',
-    sector:'agro',
-    icono:'🌡️',
-    nombre:'Medidor de pH de suelo/agua Especializado con electrodo para la medida de pH del suelo.',
-    desc:'Pantalla LCD multi-nivel. Operación amigable con el usuario con sólo dos botones. Mensajes tutoriales sobre la pantalla. Calibración automática de uno o dos puntos. BEPS: El Sistema de prevención en el error de batería alerta al usuario en caso de que el poder de la batería se encuentre bajo y pueda afectar adversamente las lecturas. Muestra porcentaje de batería. Compacto, para trabajo exigente y',
-    precio:6467055,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P174',
-    sector:'agro',
-    icono:'🌡️',
-    nombre:'Medidor de conductividad (EC) ESPECIFICACIONES',
-    desc:'Distancia 0 a 1999 µS / cm 1 µS / cm Resolución 1 µS / cm Exactitud ± 2% de escala completa Soluciones de calibración (incluidas) 1413 µS / cm (M10031B) Sonda de conductividad SE510 (incluido) Compensación de temperatura automático, de 5 a 50 ° C Ambiente 0 a 50 ° C / 32 a 122 ° F; HR máx. 95% Tipo de Batería: 1 x 9V (incluido) Duración de la batería: aprox. 300 horas de uso continuo Dimensiones:',
-    precio:1327862,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P175',
-    sector:'agro',
-    icono:'🌡️',
-    nombre:'Termohigrómetro Caracteristicas generales',
-    desc:'Poder  Batería de 1.5V (R03) x 1  Monitor  92.5mm x 60mm  Color del producto  Blanco  Peso neto del producto  110g  Tamaño del producto  130 mm x 22 mm x 78 mm  Accesorios estandar  Baterías, sonda de temperatura externa  Embalaje individual standard  Caja de regalo, bolso de burbujas, manual en inglés.',
-    precio:123165,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P176',
-    sector:'agro',
-    icono:'🌡️',
-    nombre:'Estación climática básica Caracaterísticas:',
-    desc:'Con 3 sensores Terminal de lectura portátil Lectura de datos en tiempo real Almacenamiento de datos de hasta 200000 mediciones Soporta carga de datos en la nube Señal estable y de alta precisión Larga distancia de transmisión Resistencia al agua Soporta la integración de más sensores Fácil de instalar y transportar Contiene:  Terminal portátil Sensor integrado de humedad, tempertura y presión atmo',
-    precio:6854400,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P177',
-    sector:'agro',
-    icono:'⚖️',
-    nombre:'Báscula de plataforma Acero inoxidable 304',
-    desc:'4 celdas de carga tipo viga Caja de empalme ABS Báscula 1 x 1  programación 500KG',
-    precio:6691965,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P178',
-    sector:'agro',
-    icono:'🏭',
-    nombre:'Lavadora de frutas/verduras',
-    desc:'Lavadora industrial de frutas y verduras. Limpieza por inmersión y agitación. Acero inoxidable de grado alimentario. Garantiza higiene.',
-    precio:28051793,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P179',
-    sector:'agro',
-    icono:'🏭',
-    nombre:'Centrífuga/secadora de hojas Tipo',
-    desc:'Equipo de secado rotativo Método de calefacción Libre de pirógenos Material SUS304, SUS304L Voltaje 220V, 110V Clave de puntos de venta Fácil de operar, Alta productividad, Larga vida de servicio, Multifuncional Los campos de aplicación Vegetal planta de procesamiento, Catering comercial, De procesamiento de fruta planta',
-    precio:8032500,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P180',
-    sector:'agro',
-    icono:'🏭',
-    nombre:'Deshidratador industrial en Acero Inoxidable 10 bandejas Seca las comida por un ventilador que ha sido instalado en la p',
-    desc:'El deshidratador se apagara automáticamente cuando la hora fijada anteriormente llegue a su fin. El reloj automático y el termostato, harán que la deshidratación de la comida, sea como un abrir y cerrar de ojos. Instrucciones vienen incluidas. Maquina eléctrica 110 volts. Dimensiones externas aprox: 54 cm de largo, por 42 cm de ancho y 38 cm de alto. Pesa 36 libras aprox. Capacidad de 1.5 metros c',
-    precio:4105482,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P181',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:355215,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P182',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:892322,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P183',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Empacadora semiautomática',
-    desc:'Empacadora semiautomática para sellado de productos en bolsas. Aumenta la velocidad de empaque. Para procesadoras de alimentos y pequeñas industrias.',
-    precio:25168500,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P184',
-    sector:'agro',
-    icono:'🍳',
-    nombre:'Molino/triturador de granos Voltaje110 voltios',
-    desc:'Capacidad de molienda800g Potencia2.000 W Velocidad25.000 rpm Capacidad de producción20-40 kg/h Tiempo continuo operación5min - Descanso: 8min Dimensiones22 x 21 x 49.5 cm',
-    precio:1635596,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P185',
-    sector:'agro',
-    icono:'🍳',
-    nombre:'Batidora/amasadora industrial 10 litros Capacidad max en harina3 libras',
-    desc:'Velocidades2 Voltaje110V 60Hz Potencia370W AccesoriosGancho, Paleta y globo Dimensiones76X43X51cm (alto, ancho y fondo)',
-    precio:4034100,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P186',
-    sector:'agro',
-    icono:'🍲',
-    nombre:'Marmita/75 litros, a gas en acero inoxidable, sistema para controlar la temperatura del producto',
-    desc:'Marmita de 75 litros a gas en acero inoxidable con control de temperatura. Para sopas, salsas y alimentos en gran cantidad.',
-    precio:35700000,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P187',
-    sector:'agro',
-    icono:'🍳',
-    nombre:'Horno industrial de convección Horno de convección a gas con controles eléctricos. Está fabricado en acero inoxidable 43',
-    desc:'Horno de convección a gas con controles eléctricos. Distribución uniforme del calor. Alta capacidad. Para panaderías y restaurantes.',
-    precio:23906778,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P188',
-    sector:'agro',
-    icono:'❄️',
-    nombre:'Refrigerador/congelador productivo Peso199kg',
-    desc:'Dimensiones totales132 x 80 x 210 cms (frente, profundo, alto) Maxima Temperatura ambiente26 ° C / 60% HR Potencia300W 1/3 Hp Corriente4 amperios Voltaje110v Capacidad1300L Rango de temperatura+4°C a + 8 ° C',
-    precio:26507250,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P189',
-    sector:'agro',
-    icono:'❄️',
-    nombre:'Cámara fría/cuarto frío Cuarto frío de 2.00 x 2.00 x 2.50 mts para carnes, pescado, pollo, mariscos, frutas, verduras, e',
-    desc:'Cuarto frío 2.00 x 2.00 x 2.50 m para carnes y productos perecederos. Panel sándwich aislante. Control digital de temperatura.',
-    precio:57120000,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P190',
-    sector:'agro',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:1841852,
-    tipo:'Mobiliario',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P191',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Canastillas plásticas para surtido Canastilla plastica fondo rombo pared rombo 60x40x25',
-    desc:'Canastillas plásticas rígidas para almacenamiento y transporte. Apilables. Ideales para frutas, verduras, panadería, carnicería y logística.',
-    precio:54978,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P192',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Envases grado alimentario (frascos/tarrinas)',
-    desc:'Envases de grado alimentario: frascos y tarrinas. Material inocuo. Para mermeladas, salsas, lácteos y miel. Herméticos y apilables.',
-    precio:35522,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P193',
-    sector:'agro',
-    icono:'🐔',
-    nombre:'Bebederos automáticos (pecuaria menor) 6.5 LITROS',
-    desc:'Bebederos automáticos para aves y animales menores, capacidad 6.5 litros. Dispensan agua continua sin desperdicio. Fáciles de limpiar. Ideales para pollos, gallinas y conejos.',
-    precio:55335,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P194',
-    sector:'agro',
-    icono:'🐔',
-    nombre:'Comederos automáticos (pecuaria menor) 6.5 LITROS',
-    desc:'Comederos automáticos para aves y animales menores, capacidad 6.5 litros. Dispensan alimento gradualmente. Fáciles de limpiar. Para pollos y codornices.',
-    precio:55335,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P195',
-    sector:'agro',
-    icono:'🐔',
-    nombre:'Incubadora avícola Incubadora De 400 Huevos Inteligente industrial Automática',
-    desc:'Incubadora avícola automática para 400 huevos. Volteo automático, control de temperatura y humedad. Alta tasa de eclosión. Para productores avícolas.',
-    precio:5265750,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P196',
-    sector:'agro',
-    icono:'🐔',
-    nombre:'Criadora avícola caperuza estandar',
-    desc:'Criadora avícola a gas. Proporciona calor uniforme para pollitos recién nacidos. Control de temperatura. Reduce la mortalidad en la etapa inicial de cría.',
-    precio:522291,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P197',
-    sector:'agro',
-    icono:'🐟',
-    nombre:'Aireador para estanque Sumergible Tipo Fuente de 1 a 2 Hp,',
-    desc:'Aireador sumergible de 1 a 2 HP para estanques piscícolas. Oxigena el agua para mantener sanos los peces. Bajo consumo energético. Ideal para cultivo de tilapia y cachama.',
-    precio:1617210,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P466',
-    sector:'agro',
-    icono:'🌱',
-    nombre:'Semillas certificadas (granos y hortalizas) 10 gramos',
-    desc:'Semillas certificadas de granos y hortalizas, 10 gramos. Alta tasa de germinación. Resistentes a enfermedades. Adaptadas al clima colombiano.',
-    precio:17850,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P467',
-    sector:'agro',
-    icono:'🌱',
-    nombre:'Plántulas/almácigos',
-    desc:'Plántulas listas para trasplante producidas en condiciones controladas. Mayor uniformidad y menor tiempo a la primera cosecha.',
-    precio:10115,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P468',
-    sector:'agro',
-    icono:'🌱',
-    nombre:'Bolsas para vivero',
-    desc:'Bolsas plásticas negras para vivero. Resistentes a la intemperie. Ideales para germinación, trasplante y producción de plántulas. Buen drenaje y desarrollo radicular.',
-    precio:14280,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P469',
-    sector:'agro',
-    icono:'🧪',
-    nombre:'Sustrato agrícola (coco/turba) 25 litros',
-    desc:'Sustrato agrícola de coco/turba, 25 litros. Excelente retención de humedad y aireación. Libre de patógenos. Para germinación y plantas en maceta.',
-    precio:33320,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P470',
-    sector:'agro',
-    icono:'💰',
-    nombre:'Compost/abono orgánico 50 kilos',
-    desc:'Compost y abono orgánico de alta calidad, 50 kilos. Mejora la fertilidad del suelo. Aporta materia orgánica y microorganismos benéficos.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P471',
-    sector:'agro',
-    icono:'🧪',
-    nombre:'Fertilizante NPK 50 kg',
-    desc:'Fertilizante NPK (Nitrógeno-Fósforo-Potasio), presentación 50 kg. Estimula crecimiento, floración y producción de frutos. Para todo tipo de cultivos agrícolas.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P472',
-    sector:'agro',
-    icono:'🧪',
-    nombre:'Cal dolomita/Enmiendas 50 kg',
-    desc:'Cal dolomita para corrección de acidez del suelo, 50 kg. Aporta calcio y magnesio. Mejora la estructura del suelo y disponibilidad de nutrientes.',
-    precio:33320,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P473',
-    sector:'agro',
-    icono:'🧪',
-    nombre:'Bioinsumos (Trichoderma/Micorrizas) 150 gr',
-    desc:'Bioinsumos de Trichoderma y Micorrizas (150 gr). Mejoran salud del suelo y protegen raíces. Aumentan la absorción de nutrientes. 100% orgánico.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P474',
-    sector:'agro',
-    icono:'🌿',
-    nombre:'Trampas cromáticas',
-    desc:'Trampas cromáticas para captura de insectos plaga. Adhesivo de larga duración. Método ecológico. Para control de mosca blanca, trips y minadores.',
-    precio:21420,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P475',
-    sector:'agro',
-    icono:'🌿',
-    nombre:'Feromonas para monitoreo',
-    desc:'Feromonas para monitoreo y control de plagas en cultivos. Método ecológico. Reduce el uso de pesticidas. Para cultivos y invernaderos.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P476',
-    sector:'agro',
-    icono:'🌿',
-    nombre:'Malla anti-insectos 2x2 x 1,20',
-    desc:'Malla anti-insectos 2x2 m, ancho 1.20 m. Protege cultivos de plagas sin pesticidas. Resistente a la intemperie. Para invernaderos y huertas orgánicas.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P477',
-    sector:'agro',
-    icono:'💰',
-    nombre:'Malla sombra MALLA SOMBRA MULTIPROPOSITO 4X100 METROS MACHO® (65%)',
-    desc:'Malla sombra multipropósito 65%, 4x100 m. Reduce la radiación solar. Para viveros, invernaderos y jardines.',
-    precio:339150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P478',
-    sector:'agro',
-    icono:'🌿',
-    nombre:'Tutores y cintas de amarre',
-    desc:'Tutores y cintas de amarre para soporte de plantas. Para crecimiento vertical de cultivos como tomate y frijol. Reutilizables.',
-    precio:29750,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P479',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Palas con cabo',
-    desc:'Pala con cabo de madera reforzado. Hoja en acero templado. Para labores agrícolas: siembra, trasplante y preparación del suelo.',
-    precio:40005,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P480',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'azadon con cabo',
-    desc:'Azadón con cabo de madera reforzado. Hoja en acero templado. Ideal para preparación de suelos, deshierbe y cultivo de hortalizas. Mango ergonómico.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P481',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Rastrillos con cabo',
-    desc:'Rastrillo con cabo de madera. Dientes en acero resistente. Para nivelar, airear y limpiar el suelo en huertas y jardines.',
-    precio:32570,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P482',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'pica con cabo',
-    desc:'Pica agrícola con cabo de madera. Hoja de acero de alta resistencia. Para preparación del suelo y labores de campo en terrenos duros.',
-    precio:92011,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P483',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Tijeras de poda Tipo : Tijeras de podar',
-    desc:'•Ancho : 28 cm  •Alto : 4 cm  •Largo : 80 cm  •Color : Negro/Gris/rojo',
-    precio:67583,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P484',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Serrucho de poda Serrucho Cortador de Ramas O de Poda Plegable Cuchilla 10\'\'',
-    desc:'Serrucho plegable para poda de ramas. Hoja de acero con dientes endurecidos. Corte limpio y preciso. Para frutales y jardines.',
-    precio:179462,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P485',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Carretilla de carga Carretilla Negra Plastica Cachaca 169 Litros 6ft Imsa',
-    desc:'Carretilla plástica de 169 litros para transporte de materiales. Liviana y resistente. Rueda grande para terrenos irregulares. Para finca y talleres.',
-    precio:390844,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P486',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Bomba de espalda (aspersión) Pulverizador Manual 16 Lt  Tipo : Fumigadoras manuales de espalda',
-    desc:'•Ancho : 610 mm  •Alto : 185 mm  •Largo : 410 mm  •Diámetro : 1 cm',
-    precio:204379,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P487',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Motobomba para riego Motobomba  Gasolina Twp80sx 3\'\'x3\'\' 6.5hp / 196cc Caudal 35mca y 60m3/h',
-    desc:'Motobomba a gasolina 3x3 pulgadas, 6.5 HP. Para riego de cultivos y vaciado de pozos. Fácil arranque y bajo consumo de combustible.',
-    precio:809200,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P488',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Kit riego por goteo (manguera/cinta/goteros) Incluye:',
-    desc:'Adaptador de manguera de 1 x 3/4 a 1/4 pulgadas. 10 conectores de 1/4 pulgadas con bloqueo en T. 2 adaptadores de manguera de 3/4 a 1/2 pulgadas. 3 conectores de 1/2 a 4 vías de 1/4 pulgadas. 2 conectores de 1/2 a 2 vías de 1/4 pulgadas. 4 estacas de soporte de goteo de 1/2 pulgadas. 6 clavijas de extremo acoplado de 1/4 pulgadas. 2 enchufes de extremo bloqueado de 1/2 pulgadas. Tubo de 98 pies de',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P489',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Aspersores y microaspersores',
-    desc:'Aspersores y microaspersores para riego agrícola. Distribución uniforme del agua. Ahorro de hasta 40% comparado con riego por inundación. Fácil instalación.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P490',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Tanque de almacenamiento de agua •Tipo : Tanque 500 Litros',
-    desc:'•Uso : Residencial, institucional e industrial  •Normas de Fabricación : RAS 0330  •Ancho : 105 cm  •Alto : 103 cm',
-    precio:361530,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P491',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Filtros y válvulas de riego **DIMENSIONES**:',
-    desc:'- ALTO: 5 pulgadas - ANCHO: 4 pulgadas - LARGO: 3 pulgadas  **MATERIALES**: PVC resistente a la corrosión  **USO**: Ideal para sistemas de riego agrícola, jardinería o pesaje industrial',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P492',
-    sector:'agro',
-    icono:'🌡️',
-    nombre:'Medidor de pH de suelo/agua Especializado con electrodo para la medida de pH del suelo.',
-    desc:'Pantalla LCD multi-nivel. Operación amigable con el usuario con sólo dos botones. Mensajes tutoriales sobre la pantalla. Calibración automática de uno o dos puntos. BEPS: El Sistema de prevención en el error de batería alerta al usuario en caso de que el poder de la batería se encuentre bajo y pueda afectar adversamente las lecturas. Muestra porcentaje de batería. Compacto, para trabajo exigente y',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P493',
-    sector:'agro',
-    icono:'🌡️',
-    nombre:'Medidor de conductividad (EC) ESPECIFICACIONES',
-    desc:'Distancia 0 a 1999 µS / cm 1 µS / cm Resolución 1 µS / cm Exactitud ± 2% de escala completa Soluciones de calibración (incluidas) 1413 µS / cm (M10031B) Sonda de conductividad SE510 (incluido) Compensación de temperatura automático, de 5 a 50 ° C Ambiente 0 a 50 ° C / 32 a 122 ° F; HR máx. 95% Tipo de Batería: 1 x 9V (incluido) Duración de la batería: aprox. 300 horas de uso continuo Dimensiones:',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P494',
-    sector:'agro',
-    icono:'🌡️',
-    nombre:'Termohigrómetro Caracteristicas generales',
-    desc:'Poder  Batería de 1.5V (R03) x 1  Monitor  92.5mm x 60mm  Color del producto  Blanco  Peso neto del producto  110g  Tamaño del producto  130 mm x 22 mm x 78 mm  Accesorios estandar  Baterías, sonda de temperatura externa  Embalaje individual standard  Caja de regalo, bolso de burbujas, manual en inglés.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P495',
-    sector:'agro',
-    icono:'🌡️',
-    nombre:'Estación climática básica Caracaterísticas:',
-    desc:'Con 3 sensores Terminal de lectura portátil Lectura de datos en tiempo real Almacenamiento de datos de hasta 200000 mediciones Soporta carga de datos en la nube Señal estable y de alta precisión Larga distancia de transmisión Resistencia al agua Soporta la integración de más sensores Fácil de instalar y transportar Contiene:  Terminal portátil Sensor integrado de humedad, tempertura y presión atmo',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P496',
-    sector:'agro',
-    icono:'⚖️',
-    nombre:'Báscula de plataforma Acero inoxidable 304',
-    desc:'4 celdas de carga tipo viga Caja de empalme ABS Báscula 1 x 1  programación 500KG',
-    precio:452200,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P497',
-    sector:'agro',
-    icono:'🏭',
-    nombre:'Lavadora de frutas/verduras',
-    desc:'Lavadora industrial de frutas y verduras. Limpieza por inmersión y agitación. Acero inoxidable de grado alimentario. Garantiza higiene.',
-    precio:1011500,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P498',
-    sector:'agro',
-    icono:'🏭',
-    nombre:'Centrífuga/secadora de hojas Tipo',
-    desc:'Equipo de secado rotativo Método de calefacción Libre de pirógenos Material SUS304, SUS304L Voltaje 220V, 110V Clave de puntos de venta Fácil de operar, Alta productividad, Larga vida de servicio, Multifuncional Los campos de aplicación Vegetal planta de procesamiento, Catering comercial, De procesamiento de fruta planta',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P499',
-    sector:'agro',
-    icono:'🏭',
-    nombre:'Deshidratador industrial en Acero Inoxidable 10 bandejas Seca las comida por un ventilador que ha sido instalado en la p',
-    desc:'El deshidratador se apagara automáticamente cuando la hora fijada anteriormente llegue a su fin. El reloj automático y el termostato, harán que la deshidratación de la comida, sea como un abrir y cerrar de ojos. Instrucciones vienen incluidas. Maquina eléctrica 110 volts. Dimensiones externas aprox: 54 cm de largo, por 42 cm de ancho y 38 cm de alto. Pesa 36 libras aprox. Capacidad de 1.5 metros c',
-    precio:1011500,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P500',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P501',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P502',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Empacadora semiautomática',
-    desc:'Empacadora semiautomática para sellado de productos en bolsas. Aumenta la velocidad de empaque. Para procesadoras de alimentos y pequeñas industrias.',
-    precio:1428000,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P503',
-    sector:'agro',
-    icono:'🍳',
-    nombre:'Molino/triturador de granos Voltaje110 voltios',
-    desc:'Capacidad de molienda800g Potencia2.000 W Velocidad25.000 rpm Capacidad de producción20-40 kg/h Tiempo continuo operación5min - Descanso: 8min Dimensiones22 x 21 x 49.5 cm',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P504',
-    sector:'agro',
-    icono:'🍳',
-    nombre:'Batidora/amasadora industrial 10 litros Capacidad max en harina3 libras',
-    desc:'Velocidades2 Voltaje110V 60Hz Potencia370W AccesoriosGancho, Paleta y globo Dimensiones76X43X51cm (alto, ancho y fondo)',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P505',
-    sector:'agro',
-    icono:'🍲',
-    nombre:'Marmita/75 litros, a gas en acero inoxidable, sistema para controlar la temperatura del producto',
-    desc:'Marmita de 75 litros a gas en acero inoxidable con control de temperatura. Para sopas, salsas y alimentos en gran cantidad.',
-    precio:2618000,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P506',
-    sector:'agro',
-    icono:'🍳',
-    nombre:'Horno industrial de convección Horno de convección a gas con controles eléctricos. Está fabricado en acero inoxidable 43',
-    desc:'Horno de convección a gas con controles eléctricos. Distribución uniforme del calor. Alta capacidad. Para panaderías y restaurantes.',
-    precio:4522000,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P507',
-    sector:'agro',
-    icono:'❄️',
-    nombre:'Refrigerador/congelador productivo Peso199kg',
-    desc:'Dimensiones totales132 x 80 x 210 cms (frente, profundo, alto) Maxima Temperatura ambiente26 ° C / 60% HR Potencia300W 1/3 Hp Corriente4 amperios Voltaje110v Capacidad1300L Rango de temperatura+4°C a + 8 ° C',
-    precio:3808000,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P508',
-    sector:'agro',
-    icono:'❄️',
-    nombre:'Cámara fría/cuarto frío Cuarto frío de 2.00 x 2.00 x 2.50 mts para carnes, pescado, pollo, mariscos, frutas, verduras, e',
-    desc:'Cuarto frío 2.00 x 2.00 x 2.50 m para carnes y productos perecederos. Panel sándwich aislante. Control digital de temperatura.',
-    precio:14280000,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P509',
-    sector:'agro',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:380800,
-    tipo:'Mobiliario',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P510',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Canastillas plásticas para surtido Canastilla plastica fondo rombo pared rombo 60x40x25',
-    desc:'Canastillas plásticas rígidas para almacenamiento y transporte. Apilables. Ideales para frutas, verduras, panadería, carnicería y logística.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P511',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Envases grado alimentario (frascos/tarrinas)',
-    desc:'Envases de grado alimentario: frascos y tarrinas. Material inocuo. Para mermeladas, salsas, lácteos y miel. Herméticos y apilables.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P512',
-    sector:'agro',
-    icono:'🐔',
-    nombre:'Bebederos automáticos (pecuaria menor) 6.5 LITROS',
-    desc:'Bebederos automáticos para aves y animales menores, capacidad 6.5 litros. Dispensan agua continua sin desperdicio. Fáciles de limpiar. Ideales para pollos, gallinas y conejos.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P513',
-    sector:'agro',
-    icono:'🐔',
-    nombre:'Comederos automáticos (pecuaria menor) 6.5 LITROS',
-    desc:'Comederos automáticos para aves y animales menores, capacidad 6.5 litros. Dispensan alimento gradualmente. Fáciles de limpiar. Para pollos y codornices.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P514',
-    sector:'agro',
-    icono:'🐔',
-    nombre:'Incubadora avícola Incubadora De 400 Huevos Inteligente industrial Automática',
-    desc:'Incubadora avícola automática para 400 huevos. Volteo automático, control de temperatura y humedad. Alta tasa de eclosión. Para productores avícolas.',
-    precio:571200,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P515',
-    sector:'agro',
-    icono:'🐔',
-    nombre:'Criadora avícola caperuza estandar',
-    desc:'Criadora avícola a gas. Proporciona calor uniforme para pollitos recién nacidos. Control de temperatura. Reduce la mortalidad en la etapa inicial de cría.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'P516',
-    sector:'agro',
-    icono:'🐟',
-    nombre:'Aireador para estanque Sumergible Tipo Fuente de 1 a 2 Hp,',
-    desc:'Aireador sumergible de 1 a 2 HP para estanques piscícolas. Oxigena el agua para mantener sanos los peces. Bajo consumo energético. Ideal para cultivo de tilapia y cachama.',
-    precio:214200,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-169',
-    sector:'agro',
-    icono:'🌱',
-    nombre:'Semillas certificadas (granos y hortalizas) 10 gramos',
-    desc:'Semillas certificadas de granos y hortalizas, 10 gramos. Alta tasa de germinación. Resistentes a enfermedades. Adaptadas al clima colombiano.',
-    precio:17850,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-170',
-    sector:'agro',
-    icono:'🌱',
-    nombre:'Plántulas/almácigos',
-    desc:'Plántulas listas para trasplante producidas en condiciones controladas. Mayor uniformidad y menor tiempo a la primera cosecha.',
-    precio:10115,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-171',
-    sector:'agro',
-    icono:'🌱',
-    nombre:'Bolsas para vivero',
-    desc:'Bolsas plásticas negras para vivero. Resistentes a la intemperie. Ideales para germinación, trasplante y producción de plántulas. Buen drenaje y desarrollo radicular.',
-    precio:14280,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-172',
-    sector:'agro',
-    icono:'🧪',
-    nombre:'Sustrato agrícola (coco/turba) 25 litros',
-    desc:'Sustrato agrícola de coco/turba, 25 litros. Excelente retención de humedad y aireación. Libre de patógenos. Para germinación y plantas en maceta.',
-    precio:33320,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-173',
-    sector:'agro',
-    icono:'💰',
-    nombre:'Compost/abono orgánico 50 kilos',
-    desc:'Compost y abono orgánico de alta calidad, 50 kilos. Mejora la fertilidad del suelo. Aporta materia orgánica y microorganismos benéficos.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-174',
-    sector:'agro',
-    icono:'🧪',
-    nombre:'Fertilizante NPK 50 kg',
-    desc:'Fertilizante NPK (Nitrógeno-Fósforo-Potasio), presentación 50 kg. Estimula crecimiento, floración y producción de frutos. Para todo tipo de cultivos agrícolas.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-175',
-    sector:'agro',
-    icono:'🧪',
-    nombre:'Cal dolomita/Enmiendas 50 kg',
-    desc:'Cal dolomita para corrección de acidez del suelo, 50 kg. Aporta calcio y magnesio. Mejora la estructura del suelo y disponibilidad de nutrientes.',
-    precio:33320,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-176',
-    sector:'agro',
-    icono:'🧪',
-    nombre:'Bioinsumos (Trichoderma/Micorrizas) 150 gr',
-    desc:'Bioinsumos de Trichoderma y Micorrizas (150 gr). Mejoran salud del suelo y protegen raíces. Aumentan la absorción de nutrientes. 100% orgánico.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-177',
-    sector:'agro',
-    icono:'🌿',
-    nombre:'Trampas cromáticas',
-    desc:'Trampas cromáticas para captura de insectos plaga. Adhesivo de larga duración. Método ecológico. Para control de mosca blanca, trips y minadores.',
-    precio:21420,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-178',
-    sector:'agro',
-    icono:'🌿',
-    nombre:'Feromonas para monitoreo',
-    desc:'Feromonas para monitoreo y control de plagas en cultivos. Método ecológico. Reduce el uso de pesticidas. Para cultivos y invernaderos.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-179',
-    sector:'agro',
-    icono:'🌿',
-    nombre:'Malla anti-insectos 2x2 x 1,20',
-    desc:'Malla anti-insectos 2x2 m, ancho 1.20 m. Protege cultivos de plagas sin pesticidas. Resistente a la intemperie. Para invernaderos y huertas orgánicas.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-180',
-    sector:'agro',
-    icono:'💰',
-    nombre:'Malla sombra MALLA SOMBRA MULTIPROPOSITO 4X100 METROS MACHO® (65%)',
-    desc:'Malla sombra multipropósito 65%, 4x100 m. Reduce la radiación solar. Para viveros, invernaderos y jardines.',
-    precio:339150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-181',
-    sector:'agro',
-    icono:'🌿',
-    nombre:'Tutores y cintas de amarre',
-    desc:'Tutores y cintas de amarre para soporte de plantas. Para crecimiento vertical de cultivos como tomate y frijol. Reutilizables.',
-    precio:29750,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-182',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Palas con cabo',
-    desc:'Pala con cabo de madera reforzado. Hoja en acero templado. Para labores agrícolas: siembra, trasplante y preparación del suelo.',
-    precio:33618,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-183',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'azadon con cabo',
-    desc:'Azadón con cabo de madera reforzado. Hoja en acero templado. Ideal para preparación de suelos, deshierbe y cultivo de hortalizas. Mango ergonómico.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-184',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Rastrillos con cabo',
-    desc:'Rastrillo con cabo de madera. Dientes en acero resistente. Para nivelar, airear y limpiar el suelo en huertas y jardines.',
-    precio:27370,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-185',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'pica con cabo',
-    desc:'Pica agrícola con cabo de madera. Hoja de acero de alta resistencia. Para preparación del suelo y labores de campo en terrenos duros.',
-    precio:77320,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-186',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Tijeras de poda Tipo : Tijeras de podar',
-    desc:'•Ancho : 28 cm  •Alto : 4 cm  •Largo : 80 cm  •Color : Negro/Gris/rojo',
-    precio:56793,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-187',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Serrucho de poda Serrucho Cortador de Ramas O de Poda Plegable Cuchilla 10\'\'',
-    desc:'Serrucho plegable para poda de ramas. Hoja de acero con dientes endurecidos. Corte limpio y preciso. Para frutales y jardines.',
-    precio:150809,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-188',
-    sector:'agro',
-    icono:'🧑‍🌾',
-    nombre:'Carretilla de carga Carretilla Negra Plastica Cachaca 169 Litros 6ft Imsa',
-    desc:'Carretilla plástica de 169 litros para transporte de materiales. Liviana y resistente. Rueda grande para terrenos irregulares. Para finca y talleres.',
-    precio:328440,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-189',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Bomba de espalda (aspersión) Pulverizador Manual 16 Lt  Tipo : Fumigadoras manuales de espalda',
-    desc:'•Ancho : 610 mm  •Alto : 185 mm  •Largo : 410 mm  •Diámetro : 1 cm',
-    precio:171747,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-190',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Motobomba para riego Motobomba  Gasolina Twp80sx 3\'\'x3\'\' 6.5hp / 196cc Caudal 35mca y 60m3/h',
-    desc:'Motobomba a gasolina 3x3 pulgadas, 6.5 HP. Para riego de cultivos y vaciado de pozos. Fácil arranque y bajo consumo de combustible.',
-    precio:809200,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-191',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Kit riego por goteo (manguera/cinta/goteros) Incluye:',
-    desc:'Adaptador de manguera de 1 x 3/4 a 1/4 pulgadas. 10 conectores de 1/4 pulgadas con bloqueo en T. 2 adaptadores de manguera de 3/4 a 1/2 pulgadas. 3 conectores de 1/2 a 4 vías de 1/4 pulgadas. 2 conectores de 1/2 a 2 vías de 1/4 pulgadas. 4 estacas de soporte de goteo de 1/2 pulgadas. 6 clavijas de extremo acoplado de 1/4 pulgadas. 2 enchufes de extremo bloqueado de 1/2 pulgadas. Tubo de 98 pies de',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-192',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Aspersores y microaspersores',
-    desc:'Aspersores y microaspersores para riego agrícola. Distribución uniforme del agua. Ahorro de hasta 40% comparado con riego por inundación. Fácil instalación.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-193',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Tanque de almacenamiento de agua •Tipo : Tanque 500 Litros',
-    desc:'•Uso : Residencial, institucional e industrial  •Normas de Fabricación : RAS 0330  •Ancho : 105 cm  •Alto : 103 cm',
-    precio:303807,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-194',
-    sector:'agro',
-    icono:'💧',
-    nombre:'Filtros y válvulas de riego **DIMENSIONES**:',
-    desc:'- ALTO: 5 pulgadas - ANCHO: 4 pulgadas - LARGO: 3 pulgadas  **MATERIALES**: PVC resistente a la corrosión  **USO**: Ideal para sistemas de riego agrícola, jardinería o pesaje industrial',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-195',
-    sector:'agro',
-    icono:'🌡️',
-    nombre:'Medidor de pH de suelo/agua Especializado con electrodo para la medida de pH del suelo.',
-    desc:'Pantalla LCD multi-nivel. Operación amigable con el usuario con sólo dos botones. Mensajes tutoriales sobre la pantalla. Calibración automática de uno o dos puntos. BEPS: El Sistema de prevención en el error de batería alerta al usuario en caso de que el poder de la batería se encuentre bajo y pueda afectar adversamente las lecturas. Muestra porcentaje de batería. Compacto, para trabajo exigente y',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-196',
-    sector:'agro',
-    icono:'🌡️',
-    nombre:'Medidor de conductividad (EC) ESPECIFICACIONES',
-    desc:'Distancia 0 a 1999 µS / cm 1 µS / cm Resolución 1 µS / cm Exactitud ± 2% de escala completa Soluciones de calibración (incluidas) 1413 µS / cm (M10031B) Sonda de conductividad SE510 (incluido) Compensación de temperatura automático, de 5 a 50 ° C Ambiente 0 a 50 ° C / 32 a 122 ° F; HR máx. 95% Tipo de Batería: 1 x 9V (incluido) Duración de la batería: aprox. 300 horas de uso continuo Dimensiones:',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-197',
-    sector:'agro',
-    icono:'🌡️',
-    nombre:'Termohigrómetro Caracteristicas generales',
-    desc:'Poder  Batería de 1.5V (R03) x 1  Monitor  92.5mm x 60mm  Color del producto  Blanco  Peso neto del producto  110g  Tamaño del producto  130 mm x 22 mm x 78 mm  Accesorios estandar  Baterías, sonda de temperatura externa  Embalaje individual standard  Caja de regalo, bolso de burbujas, manual en inglés.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-198',
-    sector:'agro',
-    icono:'🌡️',
-    nombre:'Estación climática básica Caracaterísticas:',
-    desc:'Con 3 sensores Terminal de lectura portátil Lectura de datos en tiempo real Almacenamiento de datos de hasta 200000 mediciones Soporta carga de datos en la nube Señal estable y de alta precisión Larga distancia de transmisión Resistencia al agua Soporta la integración de más sensores Fácil de instalar y transportar Contiene:  Terminal portátil Sensor integrado de humedad, tempertura y presión atmo',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-199',
-    sector:'agro',
-    icono:'⚖️',
-    nombre:'Báscula de plataforma Acero inoxidable 304',
-    desc:'4 celdas de carga tipo viga Caja de empalme ABS Báscula 1 x 1  programación 500KG',
-    precio:452200,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-200',
-    sector:'agro',
-    icono:'🏭',
-    nombre:'Lavadora de frutas/verduras',
-    desc:'Lavadora industrial de frutas y verduras. Limpieza por inmersión y agitación. Acero inoxidable de grado alimentario. Garantiza higiene.',
-    precio:1011500,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-201',
-    sector:'agro',
-    icono:'🏭',
-    nombre:'Centrífuga/secadora de hojas Tipo',
-    desc:'Equipo de secado rotativo Método de calefacción Libre de pirógenos Material SUS304, SUS304L Voltaje 220V, 110V Clave de puntos de venta Fácil de operar, Alta productividad, Larga vida de servicio, Multifuncional Los campos de aplicación Vegetal planta de procesamiento, Catering comercial, De procesamiento de fruta planta',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-202',
-    sector:'agro',
-    icono:'🏭',
-    nombre:'Deshidratador industrial en Acero Inoxidable 10 bandejas Seca las comida por un ventilador que ha sido instalado en la p',
-    desc:'El deshidratador se apagara automáticamente cuando la hora fijada anteriormente llegue a su fin. El reloj automático y el termostato, harán que la deshidratación de la comida, sea como un abrir y cerrar de ojos. Instrucciones vienen incluidas. Maquina eléctrica 110 volts. Dimensiones externas aprox: 54 cm de largo, por 42 cm de ancho y 38 cm de alto. Pesa 36 libras aprox. Capacidad de 1.5 metros c',
-    precio:1011500,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-203',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-204',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-205',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Empacadora semiautomática',
-    desc:'Empacadora semiautomática para sellado de productos en bolsas. Aumenta la velocidad de empaque. Para procesadoras de alimentos y pequeñas industrias.',
-    precio:1428000,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-206',
-    sector:'agro',
-    icono:'🍳',
-    nombre:'Molino/triturador de granos Voltaje110 voltios',
-    desc:'Capacidad de molienda800g Potencia2.000 W Velocidad25.000 rpm Capacidad de producción20-40 kg/h Tiempo continuo operación5min - Descanso: 8min Dimensiones22 x 21 x 49.5 cm',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-207',
-    sector:'agro',
-    icono:'🍳',
-    nombre:'Batidora/amasadora industrial 10 litros Capacidad max en harina3 libras',
-    desc:'Velocidades2 Voltaje110V 60Hz Potencia370W AccesoriosGancho, Paleta y globo Dimensiones76X43X51cm (alto, ancho y fondo)',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-208',
-    sector:'agro',
-    icono:'🍲',
-    nombre:'Marmita/75 litros, a gas en acero inoxidable, sistema para controlar la temperatura del producto',
-    desc:'Marmita de 75 litros a gas en acero inoxidable con control de temperatura. Para sopas, salsas y alimentos en gran cantidad.',
-    precio:2618000,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-209',
-    sector:'agro',
-    icono:'🍳',
-    nombre:'Horno industrial de convección Horno de convección a gas con controles eléctricos. Está fabricado en acero inoxidable 43',
-    desc:'Horno de convección a gas con controles eléctricos. Distribución uniforme del calor. Alta capacidad. Para panaderías y restaurantes.',
-    precio:4522000,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-210',
-    sector:'agro',
-    icono:'❄️',
-    nombre:'Refrigerador/congelador productivo Peso199kg',
-    desc:'Dimensiones totales132 x 80 x 210 cms (frente, profundo, alto) Maxima Temperatura ambiente26 ° C / 60% HR Potencia300W 1/3 Hp Corriente4 amperios Voltaje110v Capacidad1300L Rango de temperatura+4°C a + 8 ° C',
-    precio:3808000,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-211',
-    sector:'agro',
-    icono:'❄️',
-    nombre:'Cámara fría/cuarto frío Cuarto frío de 2.00 x 2.00 x 2.50 mts para carnes, pescado, pollo, mariscos, frutas, verduras, e',
-    desc:'Cuarto frío 2.00 x 2.00 x 2.50 m para carnes y productos perecederos. Panel sándwich aislante. Control digital de temperatura.',
-    precio:14280000,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-212',
-    sector:'agro',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:380800,
-    tipo:'Mobiliario',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-213',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Canastillas plásticas para surtido Canastilla plastica fondo rombo pared rombo 60x40x25',
-    desc:'Canastillas plásticas rígidas para almacenamiento y transporte. Apilables. Ideales para frutas, verduras, panadería, carnicería y logística.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-214',
-    sector:'agro',
-    icono:'📦',
-    nombre:'Envases grado alimentario (frascos/tarrinas)',
-    desc:'Envases de grado alimentario: frascos y tarrinas. Material inocuo. Para mermeladas, salsas, lácteos y miel. Herméticos y apilables.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-215',
-    sector:'agro',
-    icono:'🐔',
-    nombre:'Bebederos automáticos (pecuaria menor) 6.5 LITROS',
-    desc:'Bebederos automáticos para aves y animales menores, capacidad 6.5 litros. Dispensan agua continua sin desperdicio. Fáciles de limpiar. Ideales para pollos, gallinas y conejos.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-216',
-    sector:'agro',
-    icono:'🐔',
-    nombre:'Comederos automáticos (pecuaria menor) 6.5 LITROS',
-    desc:'Comederos automáticos para aves y animales menores, capacidad 6.5 litros. Dispensan alimento gradualmente. Fáciles de limpiar. Para pollos y codornices.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-217',
-    sector:'agro',
-    icono:'🐔',
-    nombre:'Incubadora avícola Incubadora De 400 Huevos Inteligente industrial Automática',
-    desc:'Incubadora avícola automática para 400 huevos. Volteo automático, control de temperatura y humedad. Alta tasa de eclosión. Para productores avícolas.',
-    precio:571200,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-218',
-    sector:'agro',
-    icono:'🐔',
-    nombre:'Criadora avícola caperuza estandar',
-    desc:'Criadora avícola a gas. Proporciona calor uniforme para pollitos recién nacidos. Control de temperatura. Reduce la mortalidad en la etapa inicial de cría.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  }),
-
-  producto({
-    id:'CAT2-219',
-    sector:'agro',
-    icono:'🐟',
-    nombre:'Aireador para estanque Sumergible Tipo Fuente de 1 a 2 Hp,',
-    desc:'Aireador sumergible de 1 a 2 HP para estanques piscícolas. Oxigena el agua para mantener sanos los peces. Bajo consumo energético. Ideal para cultivo de tilapia y cachama.',
-    precio:214200,
-    tipo:'Equipo',
-    ciiu:'A (01–03) / C (10–12)',
-    proceso:'Producción / Poscosecha / Conservación'
-  })
-
-];
-
-// Digital y Cultural
-const PRODUCTOS_DIGITAL=[
-  producto({
-    id:'P198',
-    sector:'digital',
-    icono:'💻',
-    nombre:'Procesador: AMD Ryzen™ 3 7330U 4 núcleos',
-    desc:'de CPU, 8 hilos, Frecuencia Base de 2.3 GHz hasta 4.3 GHz Frecuencia Máxima, 10 MB de Cache L2 + L3 Chipset: Integrado en el procesador Sistema Operativo FreeDOS 3.0 en Español. Pantalla Interfaces Certificaciones Seguridad Garantía Gráficos Memoria RAM Almacenamiento Teclado Mouse Audio Cámara Web Conectividad Batería Adaptador AC Peso (2) USB 3.2 Gen 1 (1) USB Tipo C 3.2 Gen1 (Datos) (1) HDMI v1',
-    precio:3034500,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P199',
-    sector:'digital',
-    icono:'💻',
-    nombre:'Computador de escritorio (software básico) computador todo en uno intel core i5 13420H, 8 gb, 512 gb ssd, 24" - windows',
-    desc:'Licencia de software básico de ofimática. Procesador de texto, hoja de cálculo y presentaciones. Para administración del negocio.',
-    precio:4460715,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P200',
-    sector:'digital',
-    icono:'📶',
-    nombre:'Router Wi‑Fi Tipo',
-    desc:'Router Ancho 10.6 cm Alto 2.4 cm Largo 11.5 cm Color Negro Inalámbrico Si Número de puertos 4 Velocidad de conexión 0 - 1200 Mbps Área de cobertura 40 m2 Alimentación Eléctrica',
-    precio:231872,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P201',
-    sector:'digital',
-    icono:'📶',
-    nombre:'Repetidor Wi‑Fi Tipo',
-    desc:'Extensor Ancho 7.7 cm Alto 8 cm Largo 7.8 cm Color Blanco Inalámbrico Si Número de puertos 1 Velocidad de conexión 0 - 750 Mbps Área de cobertura 7 m2',
-    precio:214022,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P202',
-    sector:'digital',
-    icono:'🔋',
-    nombre:'UPS / regulador de voltaje Ups Hikvision de 1000 Va 600w 6 Tomas Nema 5-15r (4r - 2sr)',
-    desc:'UPS Hikvision 1000 VA/600 W con 6 tomas Nema. Protege equipos de apagones y fluctuaciones de voltaje. Autonomía de 10-15 minutos.',
-    precio:499622,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P203',
-    sector:'digital',
-    icono:'🖨️',
-    nombre:'Impresora de etiquetas MÉTODO DE IMPRESIÓN',
-    desc:'Térmico directo, Térmico por transferencia ANCHO DE IMPESIÓN 104MM VELOCIIDAD DE IMPESIÓN 127MM/S INTERFAZ Ethernet, USB COMPATIBILIDAD Android, Windows, Linux, Mac OSEMULACIÓN DPL, EPL, TSPL, ZPL',
-    precio:1028114,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P204',
-    sector:'digital',
-    icono:'🏷️',
-    nombre:'Etiquetadora manual',
-    desc:'Etiquetadora manual para impresión y aplicación de etiquetas de precio. Para tiendas, bodegas y supermercados. Compatible con rollos de etiquetas estándar.',
-    precio:64082,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P205',
-    sector:'digital',
-    icono:'⚖️',
-    nombre:'Balanza digital para envíos (empaque) Capacidad: 300kg',
-    desc:'División: 50g Unidades de peso: lb y Kg Batería interna recargable de 4V y autonomía de 8horas Dimensión plataforma: 40 x 50 cm  Display: LCD Display de tres pantallas con 7 dígitos cada uno Función Indicador: Liquidador Sistema de Tara para disminuir recipientes',
-    precio:758625,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P206',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:355215,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P207',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:892322,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P208',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Dispensador de cinta / cinta de embalaje',
-    desc:'Dispensador de cinta de embalaje. Facilita el sellado rápido de cajas. Mango ergonómico. Aumenta la productividad en el proceso de empaque.',
-    precio:85323,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P209',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Dispensador de film stretch (empaque) Material y Diseño: Dispensador de stretch metálico con núcleo adaptable para bobin',
-    desc:'Mango Ergonómico: Mango protegido con espuma para un agarre cómodo y seguro durante la aplicación del film stretch. Base en Aluminio: La base fabricada en aluminio proporciona estabilidad y durabilidad al dispensador. Tensión Ajustable: Cuenta con un sistema de tensión ajustable, permitiendo adaptar la fuerza según las necesidades de envoltura. Peso: 1,6 KG.',
-    precio:624821,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P210',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Cajas de cartón nuevas (empaque)',
-    desc:'Cajas de cartón corrugado nuevas para empaque y envío. Resistentes a impactos. Para e-commerce, envíos de domicilio y almacenamiento.',
-    precio:8746,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P211',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Sobres de seguridad  13 x 19 en poliester',
-    desc:'Sobres de seguridad en poliéster 13 x 19 cm con cierre adhesivo inviolable. Para envíos de documentos, joyas y productos de e-commerce.',
-    precio:32130,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P212',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Relleno protector (papel burbuja) - 50 cm x 5 mts',
-    desc:'Relleno protector de papel burbuja 50 cm x 5 mts. Protege productos frágiles durante envíos. Para e-commerce y mensajería.',
-    precio:28382,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P213',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Canastillas plásticas para surtido Canastilla plastica fondo rombo pared rombo 60x40x25',
-    desc:'Canastillas plásticas rígidas para almacenamiento y transporte. Apilables. Ideales para frutas, verduras, panadería, carnicería y logística.',
-    precio:54978,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P214',
-    sector:'digital',
-    icono:'🪑',
-    nombre:'Mesa de empaque Mesa recomendada para logística. Con bandeja de teclado y repisa. Con entrepaño inferior para ubicar mat',
-    desc:'Mesa de empaque para logística. Superficie amplia con repisa inferior. Para centros de distribución, bodegas y e-commerce.',
-    precio:3195150,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P215',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:1841852,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P216',
-    sector:'digital',
-    icono:'📱',
-    nombre:'Lector de código de barras escaners',
-    desc:'Lector de código de barras USB o inalámbrico. Lee códigos 1D y 2D. Compatible con sistemas POS e inventario. Para tiendas y bodegas.',
-    precio:249722,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P217',
-    sector:'digital',
-    icono:'🏷️',
-    nombre:'Pistola etiquetadora',
-    desc:'Pistola etiquetadora de precios. Imprime y aplica etiquetas en una sola pasada. Para supermercados, tiendas y droguerías.',
-    precio:62475,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P218',
-    sector:'digital',
-    icono:'📸',
-    nombre:'Kit de fotografía de producto (caja de luz)',
-    desc:'Kit de fotografía de producto con caja de luz plegable. Fondos blanco y negro, luces LED. Para fotos profesionales de productos en e-commerce.',
-    precio:298095,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P219',
-    sector:'digital',
-    icono:'💡',
-    nombre:'Iluminación LED para foto Temperatura de color: 3200-5600 K, CRI: 96',
-    desc:'660 LED: 330 luz diurna y 330 tungsteno Tres adaptadores de 100-240 V CA, 50/60 Hz Tres tripodes de iluminación’ Tres estuches de transporte para paneles LED',
-    precio:2855982,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P220',
-    sector:'digital',
-    icono:'🧺',
-    nombre:'Trípode para fotografía Capacidad de carga: 34 lb',
-    desc:'Trípode extensible de 24 a 77 pulgadas Longitud plegada: 19″ Patas de aleación de aluminio de 4 secciones con sistema de bloqueo abatible Pata y columna convertibles en monopie Rosca macho de 1/4″-20 Giro, inclinación y rotación de 360° Inclinación de 90° Columna central de 2 secciones Peso: 3,5 libras',
-    precio:589032,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P221',
-    sector:'digital',
-    icono:'📸',
-    nombre:'Fondo blanco para fotografía Papel grueso mate de 11 metros de largo',
-    desc:'Libre de ácido, libre de lignina y con PH neutro Enrollado en tubo de cartón de diámetro ø5cm',
-    precio:713822,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P222',
-    sector:'digital',
-    icono:'📷',
-    nombre:'Soporte para celular (foto) Trípode hecho en Aleación de Aluminio.',
-    desc:'• Compatible con Cámaras Canon, Nikon, Sony, Panasonic. • Altura máxima de 157 centímetros • Nivelador de burbuja incorporado • Cabeza Giratoria de 360 grados horizontal y 90 grados vertical. • Ajuste de patas con liberación rápida • Pies de gomas antideslizantes. • Base smartphone compatible con todos los Smartphones de hasta 100mm de ancho.',
-    precio:196172,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P223',
-    sector:'digital',
-    icono:'💻',
-    nombre:'Cámara deportiva para registro El nuevo procesador GP2 hace que esta sea la GoPro más potente hasta la fecha',
-    desc:'Impresionantes vídeos a 5,3K60 y 4K120, y fotos de 23 MP Estabilización de vídeo avanzada HyperSmooth 4.0 Resistente y sumergible hasta 10 m Sube automáticamente tu contenido a la nube mientras la cargas TimeWarp 3.0, cámara lenta 8X y mucho más para clavar la toma Compatible con la aplicación Quik',
-    precio:1963500,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P224',
-    sector:'digital',
-    icono:'📷',
-    nombre:'Cámara mirrorless básica (si aplica) Cámara Mirrorless Con Lente 16-50mm f/3.5-5.6 + Memoria 64Gb de 100Mb/s + Bolso',
-    desc:'Cámara mirrorless básica con lente 16-50mm, sensor de alta resolución, video 4K. Para fotografía de producto y producción de contenido digital.',
-    precio:6068982,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P225',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Micrófono de condensador DE CONDENSADOR SM4-K-KIT DE SHURE',
-    desc:'Micrófono de condensador de alta sensibilidad. Para grabación de voz, instrumentos y producción de podcasts y contenido digital.',
-    precio:2400825,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P226',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Micrófono lavalier Micrófono omnidireccional',
-    desc:'Conexión plug-and-play Compatible con cámaras Cable largo de 1.5 m  Construcción resistente Conector TRS de 3.5 mm',
-    precio:249882,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P227',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Interface de audio La interfaz Sonic Cube II es una interfaz de audio profesional de doble canal que cuenta con un pream',
-    desc:'Interfaz de audio profesional para grabación y producción musical. Entradas XLR y jack. Compatible con computador vía USB. Fidelidad profesional.',
-    precio:697756,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P228',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Grabadora de audio Gracias a un micrófono de alta sensibilidad, una reproducción sencilla y sus más de 159 horas de alma',
-    desc:'Grabadora de audio digital portátil con micrófono de alta sensibilidad. Graba en MP3/WAV. Para podcasts, entrevistas y registro de campo.',
-    precio:1115446,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P229',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Audífonos de monitoreo',
-    desc:'Audífonos profesionales de monitoreo para producción de audio y video. Respuesta de frecuencia plana. Compatibles con interfaces de audio profesionales.',
-    precio:383775,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P230',
-    sector:'digital',
-    icono:'💡',
-    nombre:'Kit de iluminación LED continua Temperatura de color: 3200-5600 K, CRI: 96',
-    desc:'660 LED: 330 luz diurna y 330 tungsteno Tres adaptadores de 100-240 V CA, 50/60 Hz Tres tripodes de iluminación’ Tres estuches de transporte para paneles LED',
-    precio:2855982,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P231',
-    sector:'digital',
-    icono:'📸',
-    nombre:'Fondo croma Fondo perfecto para televisión, producción de video y fotografía.',
-    desc:'El telón cuenta con un doblez para colgar en la barra. Bordes reforzados para evitar daños de tela. Hecho de 100% puro algodón muslin.',
-    precio:356822,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P232',
-    sector:'digital',
-    icono:'📺',
-    nombre:'Teleprompter básico Lectura clara, sin necesidad de memorizar, presentación fluida y natural.',
-    desc:'• Fácil de instalar y guardar. • Sin fugas de luz en el lente de la cámara. • Mantiene el nivel de los ojos y la alineación del lente para diferentes dispositivos. • Clip de liberación rápida para smartphone. • Anillo adaptador de lente de cámara: 58/67/72/77/82 mm. • Admite disparos con lente gran angular sin viñeteado. • Cuenta con soportes para zapata fría y una entrada de rosca de 1/4" • Contr',
-    precio:713822,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P233',
-    sector:'digital',
-    icono:'💾',
-    nombre:'Disco duro externo ssd externo 2 tb',
-    desc:'Disco duro externo SSD de 2 TB. Alta velocidad de transferencia. Compacto y resistente. Para respaldo de archivos de fotografía, video y proyectos digitales.',
-    precio:1588650,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P234',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Memorias SD clase alta 128 gb, extreme pro',
-    desc:'Memorias SD 128 GB clase alta. Alta velocidad de transferencia. Para cámaras, drones y grabadoras de video. Resistentes al agua y polvo.',
-    precio:321282,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P235',
-    sector:'digital',
-    icono:'📷',
-    nombre:'Soporte brazo articulado (cámara/mic) Tiene una altura mínima de 10cm y máxima de 94cm.',
-    desc:'Su ángulo de rotación es de 360°. Está fabricado en aluminio.',
-    precio:562096,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P236',
-    sector:'digital',
-    icono:'🎬',
-    nombre:'Estabilizador/gimbal Estabilizador de 3 ejes para vlogs o videos con celular',
-    desc:'• Rotación de 360° y modo Vortex integrados • Luz de relleno integrada, seguimiento por IA • Compatible con celulares de 5cm a 8,8cm de ancho • Panel de control todo en uno • Algoritmo de estabilización avanzado • Puntos de montaje magnéticos • Conectividad Bluetooth 5.1',
-    precio:1784822,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P237',
-    sector:'digital',
-    icono:'💿',
-    nombre:'Software básico (ofimática)',
-    desc:'Licencia de software básico de ofimática. Procesador de texto, hoja de cálculo y presentaciones. Para administración del negocio.',
-    precio:1963500,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P238',
-    sector:'digital',
-    icono:'🖨️',
-    nombre:'Impresora térmica de recibos Tipo',
-    desc:'Impresoras Referencia del Producto en el Certificado/Empaque 7709281325989 Ancho 11 cm Alto 10 cm Largo 15 cm Tipo de impresora Impresora Tipo de impresión Láser monocromática Color Negra Cuenta con Wifi No Calidad de impresión Alta resolución Compatibilidad Windows, Linux, Android y macOS',
-    precio:196172,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P239',
-    sector:'digital',
-    icono:'💰',
-    nombre:'Caja registradora / POS odo en Uno Caja Registradora Profesional para Pequeñas Empresas, Paquete POS Incluye: Monitor Tá',
-    desc:'Sistema POS todo en uno. Incluye monitor táctil, cajón de dinero, escáner e impresora térmica. Administra ventas, inventario y cierre de caja.',
-    precio:9686324,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P240',
-    sector:'digital',
-    icono:'📱',
-    nombre:'Lector QR/Pagos Incluye soporte: Sí',
-    desc:'Voltaje: 110V Lector fijo. Su tipo de escaneo es omnidireccional. Tiene sensor de tecnología láser. Registra y decodifica un amplio volumen de datos.',
-    precio:373600,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P241',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Mostrador portátil de exhibición en acrilico',
-    desc:'Mostrador portátil de exhibición en acrílico transparente. Plegable y liviano. Para ferias, eventos y exposición de accesorios.',
-    precio:1088850,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P242',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Vitrina pequeña de exhibición - vidrio templado puerta corrediza',
-    desc:'Vitrina pequeña de exhibición con vidrio templado y puerta corrediza. Para tiendas de tecnología, joyería y farmacia.',
-    precio:2868495,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P243',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Maniquí de exhibición (si vende textiles) cuerpo entero',
-    desc:'Maniquí de exhibición de cuerpo entero para venta de ropa. Postura natural. Para vitrinas y tiendas de ropa.',
-    precio:1133475,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P244',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Perchero metálico',
-    desc:'Perchero metálico resistente para exhibición y organización de ropa. Para tiendas, boutiques y talleres de confección.',
-    precio:212415,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P245',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Góndola modular Dimensiones:',
-    desc:'Altura: 220 cm Ancho: 128 cm Profundidad: 55 cm Peso : 30 kg Contenido del paquete:  1 x Góndola modular',
-    precio:6795495,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P246',
-    sector:'digital',
-    icono:'🧯',
-    nombre:'Extintor multipropósito (bodega) abc- 20 libras rdl',
-    desc:'Extintor multipropósito ABC 20 libras. Apaga fuegos tipo A, B y C. Certificado con manómetro. Obligatorio en talleres, cocinas y bodegas.',
-    precio:196172,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P247',
-    sector:'digital',
-    icono:'🩹',
-    nombre:'Botiquín industrial (taller) Estuche plástico mini cuadrado, medidas 21,5 cm x 11.5 cm x 6 cm compuesto por 13 elementos',
-    desc:'Botiquín de primeros auxilios industrial. Incluye vendas, antisépticos, curitas y guantes. Cumple normas de seguridad industrial. Estuche plástico compacto.',
-    precio:83716,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P517',
-    sector:'digital',
-    icono:'💻',
-    nombre:'Procesador: AMD Ryzen™ 3 7330U 4 núcleos',
-    desc:'de CPU, 8 hilos, Frecuencia Base de 2.3 GHz hasta 4.3 GHz Frecuencia Máxima, 10 MB de Cache L2 + L3 Chipset: Integrado en el procesador Sistema Operativo FreeDOS 3.0 en Español. Pantalla Interfaces Certificaciones Seguridad Garantía Gráficos Memoria RAM Almacenamiento Teclado Mouse Audio Cámara Web Conectividad Batería Adaptador AC Peso (2) USB 3.2 Gen 1 (1) USB Tipo C 3.2 Gen1 (Datos) (1) HDMI v1',
-    precio:2142000,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P518',
-    sector:'digital',
-    icono:'💻',
-    nombre:'Computador de escritorio (software básico) computador todo en uno intel core i5 13420H, 8 gb, 512 gb ssd, 24" - windows',
-    desc:'Licencia de software básico de ofimática. Procesador de texto, hoja de cálculo y presentaciones. Para administración del negocio.',
-    precio:5862654,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P519',
-    sector:'digital',
-    icono:'📶',
-    nombre:'Router Wi‑Fi Tipo',
-    desc:'Router Ancho 10.6 cm Alto 2.4 cm Largo 11.5 cm Color Negro Inalámbrico Si Número de puertos 4 Velocidad de conexión 0 - 1200 Mbps Área de cobertura 40 m2 Alimentación Eléctrica',
-    precio:101150,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P520',
-    sector:'digital',
-    icono:'📶',
-    nombre:'Repetidor Wi‑Fi Tipo',
-    desc:'Extensor Ancho 7.7 cm Alto 8 cm Largo 7.8 cm Color Blanco Inalámbrico Si Número de puertos 1 Velocidad de conexión 0 - 750 Mbps Área de cobertura 7 m2',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P521',
-    sector:'digital',
-    icono:'🔋',
-    nombre:'UPS / regulador de voltaje Ups Hikvision de 1000 Va 600w 6 Tomas Nema 5-15r (4r - 2sr)',
-    desc:'UPS Hikvision 1000 VA/600 W con 6 tomas Nema. Protege equipos de apagones y fluctuaciones de voltaje. Autonomía de 10-15 minutos.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P522',
-    sector:'digital',
-    icono:'🖨️',
-    nombre:'Impresora de etiquetas MÉTODO DE IMPRESIÓN',
-    desc:'Térmico directo, Térmico por transferencia ANCHO DE IMPESIÓN 104MM VELOCIIDAD DE IMPESIÓN 127MM/S INTERFAZ Ethernet, USB COMPATIBILIDAD Android, Windows, Linux, Mac OSEMULACIÓN DPL, EPL, TSPL, ZPL',
-    precio:416500,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P523',
-    sector:'digital',
-    icono:'🏷️',
-    nombre:'Etiquetadora manual',
-    desc:'Etiquetadora manual para impresión y aplicación de etiquetas de precio. Para tiendas, bodegas y supermercados. Compatible con rollos de etiquetas estándar.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P524',
-    sector:'digital',
-    icono:'⚖️',
-    nombre:'Balanza digital para envíos (empaque) Capacidad: 300kg',
-    desc:'División: 50g Unidades de peso: lb y Kg Batería interna recargable de 4V y autonomía de 8horas Dimensión plataforma: 40 x 50 cm  Display: LCD Display de tres pantallas con 7 dígitos cada uno Función Indicador: Liquidador Sistema de Tara para disminuir recipientes',
-    precio:475810,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P525',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P526',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P527',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Dispensador de cinta / cinta de embalaje',
-    desc:'Dispensador de cinta de embalaje. Facilita el sellado rápido de cajas. Mango ergonómico. Aumenta la productividad en el proceso de empaque.',
-    precio:29750,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P528',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Dispensador de film stretch (empaque) Material y Diseño: Dispensador de stretch metálico con núcleo adaptable para bobin',
-    desc:'Mango Ergonómico: Mango protegido con espuma para un agarre cómodo y seguro durante la aplicación del film stretch. Base en Aluminio: La base fabricada en aluminio proporciona estabilidad y durabilidad al dispensador. Tensión Ajustable: Cuenta con un sistema de tensión ajustable, permitiendo adaptar la fuerza según las necesidades de envoltura. Peso: 1,6 KG.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P529',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Cajas de cartón nuevas (empaque)',
-    desc:'Cajas de cartón corrugado nuevas para empaque y envío. Resistentes a impactos. Para e-commerce, envíos de domicilio y almacenamiento.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P530',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Sobres de seguridad  13 x 19 en poliester',
-    desc:'Sobres de seguridad en poliéster 13 x 19 cm con cierre adhesivo inviolable. Para envíos de documentos, joyas y productos de e-commerce.',
-    precio:33320,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P531',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Relleno protector (papel burbuja) - 50 cm x 5 mts',
-    desc:'Relleno protector de papel burbuja 50 cm x 5 mts. Protege productos frágiles durante envíos. Para e-commerce y mensajería.',
-    precio:21420,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P532',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Canastillas plásticas para surtido Canastilla plastica fondo rombo pared rombo 60x40x25',
-    desc:'Canastillas plásticas rígidas para almacenamiento y transporte. Apilables. Ideales para frutas, verduras, panadería, carnicería y logística.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P533',
-    sector:'digital',
-    icono:'🪑',
-    nombre:'Mesa de empaque Mesa recomendada para logística. Con bandeja de teclado y repisa. Con entrepaño inferior para ubicar mat',
-    desc:'Mesa de empaque para logística. Superficie amplia con repisa inferior. Para centros de distribución, bodegas y e-commerce.',
-    precio:571200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P534',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:380800,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P535',
-    sector:'digital',
-    icono:'📱',
-    nombre:'Lector de código de barras escaners',
-    desc:'Lector de código de barras USB o inalámbrico. Lee códigos 1D y 2D. Compatible con sistemas POS e inventario. Para tiendas y bodegas.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P536',
-    sector:'digital',
-    icono:'🏷️',
-    nombre:'Pistola etiquetadora',
-    desc:'Pistola etiquetadora de precios. Imprime y aplica etiquetas en una sola pasada. Para supermercados, tiendas y droguerías.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P537',
-    sector:'digital',
-    icono:'📸',
-    nombre:'Kit de fotografía de producto (caja de luz)',
-    desc:'Kit de fotografía de producto con caja de luz plegable. Fondos blanco y negro, luces LED. Para fotos profesionales de productos en e-commerce.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P538',
-    sector:'digital',
-    icono:'💡',
-    nombre:'Iluminación LED para foto Temperatura de color: 3200-5600 K, CRI: 96',
-    desc:'660 LED: 330 luz diurna y 330 tungsteno Tres adaptadores de 100-240 V CA, 50/60 Hz Tres tripodes de iluminación’ Tres estuches de transporte para paneles LED',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P539',
-    sector:'digital',
-    icono:'🧺',
-    nombre:'Trípode para fotografía Capacidad de carga: 34 lb',
-    desc:'Trípode extensible de 24 a 77 pulgadas Longitud plegada: 19″ Patas de aleación de aluminio de 4 secciones con sistema de bloqueo abatible Pata y columna convertibles en monopie Rosca macho de 1/4″-20 Giro, inclinación y rotación de 360° Inclinación de 90° Columna central de 2 secciones Peso: 3,5 libras',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P540',
-    sector:'digital',
-    icono:'📸',
-    nombre:'Fondo blanco para fotografía Papel grueso mate de 11 metros de largo',
-    desc:'Libre de ácido, libre de lignina y con PH neutro Enrollado en tubo de cartón de diámetro ø5cm',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P541',
-    sector:'digital',
-    icono:'📷',
-    nombre:'Soporte para celular (foto) Trípode hecho en Aleación de Aluminio.',
-    desc:'• Compatible con Cámaras Canon, Nikon, Sony, Panasonic. • Altura máxima de 157 centímetros • Nivelador de burbuja incorporado • Cabeza Giratoria de 360 grados horizontal y 90 grados vertical. • Ajuste de patas con liberación rápida • Pies de gomas antideslizantes. • Base smartphone compatible con todos los Smartphones de hasta 100mm de ancho.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P542',
-    sector:'digital',
-    icono:'💻',
-    nombre:'Cámara deportiva para registro El nuevo procesador GP2 hace que esta sea la GoPro más potente hasta la fecha',
-    desc:'Impresionantes vídeos a 5,3K60 y 4K120, y fotos de 23 MP Estabilización de vídeo avanzada HyperSmooth 4.0 Resistente y sumergible hasta 10 m Sube automáticamente tu contenido a la nube mientras la cargas TimeWarp 3.0, cámara lenta 8X y mucho más para clavar la toma Compatible con la aplicación Quik',
-    precio:1428000,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P543',
-    sector:'digital',
-    icono:'📷',
-    nombre:'Cámara mirrorless básica (si aplica) Cámara Mirrorless Con Lente 16-50mm f/3.5-5.6 + Memoria 64Gb de 100Mb/s + Bolso',
-    desc:'Cámara mirrorless básica con lente 16-50mm, sensor de alta resolución, video 4K. Para fotografía de producto y producción de contenido digital.',
-    precio:3332000,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P544',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Micrófono de condensador DE CONDENSADOR SM4-K-KIT DE SHURE',
-    desc:'Micrófono de condensador de alta sensibilidad. Para grabación de voz, instrumentos y producción de podcasts y contenido digital.',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P545',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Micrófono lavalier Micrófono omnidireccional',
-    desc:'Conexión plug-and-play Compatible con cámaras Cable largo de 1.5 m  Construcción resistente Conector TRS de 3.5 mm',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P546',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Interface de audio La interfaz Sonic Cube II es una interfaz de audio profesional de doble canal que cuenta con un pream',
-    desc:'Interfaz de audio profesional para grabación y producción musical. Entradas XLR y jack. Compatible con computador vía USB. Fidelidad profesional.',
-    precio:571200,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P547',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Grabadora de audio Gracias a un micrófono de alta sensibilidad, una reproducción sencilla y sus más de 159 horas de alma',
-    desc:'Grabadora de audio digital portátil con micrófono de alta sensibilidad. Graba en MP3/WAV. Para podcasts, entrevistas y registro de campo.',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P548',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Audífonos de monitoreo',
-    desc:'Audífonos profesionales de monitoreo para producción de audio y video. Respuesta de frecuencia plana. Compatibles con interfaces de audio profesionales.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P549',
-    sector:'digital',
-    icono:'💡',
-    nombre:'Kit de iluminación LED continua Temperatura de color: 3200-5600 K, CRI: 96',
-    desc:'660 LED: 330 luz diurna y 330 tungsteno Tres adaptadores de 100-240 V CA, 50/60 Hz Tres tripodes de iluminación’ Tres estuches de transporte para paneles LED',
-    precio:1011500,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P550',
-    sector:'digital',
-    icono:'📸',
-    nombre:'Fondo croma Fondo perfecto para televisión, producción de video y fotografía.',
-    desc:'El telón cuenta con un doblez para colgar en la barra. Bordes reforzados para evitar daños de tela. Hecho de 100% puro algodón muslin.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P551',
-    sector:'digital',
-    icono:'📺',
-    nombre:'Teleprompter básico Lectura clara, sin necesidad de memorizar, presentación fluida y natural.',
-    desc:'• Fácil de instalar y guardar. • Sin fugas de luz en el lente de la cámara. • Mantiene el nivel de los ojos y la alineación del lente para diferentes dispositivos. • Clip de liberación rápida para smartphone. • Anillo adaptador de lente de cámara: 58/67/72/77/82 mm. • Admite disparos con lente gran angular sin viñeteado. • Cuenta con soportes para zapata fría y una entrada de rosca de 1/4" • Contr',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P552',
-    sector:'digital',
-    icono:'💾',
-    nombre:'Disco duro externo ssd externo 2 tb',
-    desc:'Disco duro externo SSD de 2 TB. Alta velocidad de transferencia. Compacto y resistente. Para respaldo de archivos de fotografía, video y proyectos digitales.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P553',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Memorias SD clase alta 128 gb, extreme pro',
-    desc:'Memorias SD 128 GB clase alta. Alta velocidad de transferencia. Para cámaras, drones y grabadoras de video. Resistentes al agua y polvo.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P554',
-    sector:'digital',
-    icono:'📷',
-    nombre:'Soporte brazo articulado (cámara/mic) Tiene una altura mínima de 10cm y máxima de 94cm.',
-    desc:'Su ángulo de rotación es de 360°. Está fabricado en aluminio.',
-    precio:220150,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P555',
-    sector:'digital',
-    icono:'🎬',
-    nombre:'Estabilizador/gimbal Estabilizador de 3 ejes para vlogs o videos con celular',
-    desc:'• Rotación de 360° y modo Vortex integrados • Luz de relleno integrada, seguimiento por IA • Compatible con celulares de 5cm a 8,8cm de ancho • Panel de control todo en uno • Algoritmo de estabilización avanzado • Puntos de montaje magnéticos • Conectividad Bluetooth 5.1',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P556',
-    sector:'digital',
-    icono:'💿',
-    nombre:'Software básico (ofimática)',
-    desc:'Licencia de software básico de ofimática. Procesador de texto, hoja de cálculo y presentaciones. Para administración del negocio.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P557',
-    sector:'digital',
-    icono:'🖨️',
-    nombre:'Impresora térmica de recibos Tipo',
-    desc:'Impresoras Referencia del Producto en el Certificado/Empaque 7709281325989 Ancho 11 cm Alto 10 cm Largo 15 cm Tipo de impresora Impresora Tipo de impresión Láser monocromática Color Negra Cuenta con Wifi No Calidad de impresión Alta resolución Compatibilidad Windows, Linux, Android y macOS',
-    precio:214200,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P558',
-    sector:'digital',
-    icono:'💰',
-    nombre:'Caja registradora / POS odo en Uno Caja Registradora Profesional para Pequeñas Empresas, Paquete POS Incluye: Monitor Tá',
-    desc:'Sistema POS todo en uno. Incluye monitor táctil, cajón de dinero, escáner e impresora térmica. Administra ventas, inventario y cierre de caja.',
-    precio:5256468,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P559',
-    sector:'digital',
-    icono:'📱',
-    nombre:'Lector QR/Pagos Incluye soporte: Sí',
-    desc:'Voltaje: 110V Lector fijo. Su tipo de escaneo es omnidireccional. Tiene sensor de tecnología láser. Registra y decodifica un amplio volumen de datos.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P560',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Mostrador portátil de exhibición en acrilico',
-    desc:'Mostrador portátil de exhibición en acrílico transparente. Plegable y liviano. Para ferias, eventos y exposición de accesorios.',
-    precio:333200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P561',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Vitrina pequeña de exhibición - vidrio templado puerta corrediza',
-    desc:'Vitrina pequeña de exhibición con vidrio templado y puerta corrediza. Para tiendas de tecnología, joyería y farmacia.',
-    precio:809200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P562',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Maniquí de exhibición (si vende textiles) cuerpo entero',
-    desc:'Maniquí de exhibición de cuerpo entero para venta de ropa. Postura natural. Para vitrinas y tiendas de ropa.',
-    precio:339150,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P563',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Perchero metálico',
-    desc:'Perchero metálico resistente para exhibición y organización de ropa. Para tiendas, boutiques y talleres de confección.',
-    precio:101150,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P564',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Góndola modular Dimensiones:',
-    desc:'Altura: 220 cm Ancho: 128 cm Profundidad: 55 cm Peso : 30 kg Contenido del paquete:  1 x Góndola modular',
-    precio:535500,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P565',
-    sector:'digital',
-    icono:'🧯',
-    nombre:'Extintor multipropósito (bodega) abc- 20 libras rdl',
-    desc:'Extintor multipropósito ABC 20 libras. Apaga fuegos tipo A, B y C. Certificado con manómetro. Obligatorio en talleres, cocinas y bodegas.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'P566',
-    sector:'digital',
-    icono:'🩹',
-    nombre:'Botiquín industrial (taller) Estuche plástico mini cuadrado, medidas 21,5 cm x 11.5 cm x 6 cm compuesto por 13 elementos',
-    desc:'Botiquín de primeros auxilios industrial. Incluye vendas, antisépticos, curitas y guantes. Cumple normas de seguridad industrial. Estuche plástico compacto.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-220',
-    sector:'digital',
-    icono:'💻',
-    nombre:'Procesador: AMD Ryzen™ 3 7330U 4 núcleos',
-    desc:'de CPU, 8 hilos, Frecuencia Base de 2.3 GHz hasta 4.3 GHz Frecuencia Máxima, 10 MB de Cache L2 + L3 Chipset: Integrado en el procesador Sistema Operativo FreeDOS 3.0 en Español. Pantalla Interfaces Certificaciones Seguridad Garantía Gráficos Memoria RAM Almacenamiento Teclado Mouse Audio Cámara Web Conectividad Batería Adaptador AC Peso (2) USB 3.2 Gen 1 (1) USB Tipo C 3.2 Gen1 (Datos) (1) HDMI v1',
-    precio:2142000,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-221',
-    sector:'digital',
-    icono:'💻',
-    nombre:'Computador de escritorio (software básico) computador todo en uno intel core i5 13420H, 8 gb, 512 gb ssd, 24" - windows',
-    desc:'Licencia de software básico de ofimática. Procesador de texto, hoja de cálculo y presentaciones. Para administración del negocio.',
-    precio:4926600,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-222',
-    sector:'digital',
-    icono:'📶',
-    nombre:'Router Wi‑Fi Tipo',
-    desc:'Router Ancho 10.6 cm Alto 2.4 cm Largo 11.5 cm Color Negro Inalámbrico Si Número de puertos 4 Velocidad de conexión 0 - 1200 Mbps Área de cobertura 40 m2 Alimentación Eléctrica',
-    precio:101150,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-223',
-    sector:'digital',
-    icono:'📶',
-    nombre:'Repetidor Wi‑Fi Tipo',
-    desc:'Extensor Ancho 7.7 cm Alto 8 cm Largo 7.8 cm Color Blanco Inalámbrico Si Número de puertos 1 Velocidad de conexión 0 - 750 Mbps Área de cobertura 7 m2',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-224',
-    sector:'digital',
-    icono:'🔋',
-    nombre:'UPS / regulador de voltaje Ups Hikvision de 1000 Va 600w 6 Tomas Nema 5-15r (4r - 2sr)',
-    desc:'UPS Hikvision 1000 VA/600 W con 6 tomas Nema. Protege equipos de apagones y fluctuaciones de voltaje. Autonomía de 10-15 minutos.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-225',
-    sector:'digital',
-    icono:'🖨️',
-    nombre:'Impresora de etiquetas MÉTODO DE IMPRESIÓN',
-    desc:'Térmico directo, Térmico por transferencia ANCHO DE IMPESIÓN 104MM VELOCIIDAD DE IMPESIÓN 127MM/S INTERFAZ Ethernet, USB COMPATIBILIDAD Android, Windows, Linux, Mac OSEMULACIÓN DPL, EPL, TSPL, ZPL',
-    precio:416500,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-226',
-    sector:'digital',
-    icono:'🏷️',
-    nombre:'Etiquetadora manual',
-    desc:'Etiquetadora manual para impresión y aplicación de etiquetas de precio. Para tiendas, bodegas y supermercados. Compatible con rollos de etiquetas estándar.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-227',
-    sector:'digital',
-    icono:'⚖️',
-    nombre:'Balanza digital para envíos (empaque) Capacidad: 300kg',
-    desc:'División: 50g Unidades de peso: lb y Kg Batería interna recargable de 4V y autonomía de 8horas Dimensión plataforma: 40 x 50 cm  Display: LCD Display de tres pantallas con 7 dígitos cada uno Función Indicador: Liquidador Sistema de Tara para disminuir recipientes',
-    precio:399840,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-228',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-229',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-230',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Dispensador de cinta / cinta de embalaje',
-    desc:'Dispensador de cinta de embalaje. Facilita el sellado rápido de cajas. Mango ergonómico. Aumenta la productividad en el proceso de empaque.',
-    precio:29750,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-231',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Dispensador de film stretch (empaque) Material y Diseño: Dispensador de stretch metálico con núcleo adaptable para bobin',
-    desc:'Mango Ergonómico: Mango protegido con espuma para un agarre cómodo y seguro durante la aplicación del film stretch. Base en Aluminio: La base fabricada en aluminio proporciona estabilidad y durabilidad al dispensador. Tensión Ajustable: Cuenta con un sistema de tensión ajustable, permitiendo adaptar la fuerza según las necesidades de envoltura. Peso: 1,6 KG.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-232',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Cajas de cartón nuevas (empaque)',
-    desc:'Cajas de cartón corrugado nuevas para empaque y envío. Resistentes a impactos. Para e-commerce, envíos de domicilio y almacenamiento.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-233',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Sobres de seguridad  13 x 19 en poliester',
-    desc:'Sobres de seguridad en poliéster 13 x 19 cm con cierre adhesivo inviolable. Para envíos de documentos, joyas y productos de e-commerce.',
-    precio:33320,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-234',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Relleno protector (papel burbuja) - 50 cm x 5 mts',
-    desc:'Relleno protector de papel burbuja 50 cm x 5 mts. Protege productos frágiles durante envíos. Para e-commerce y mensajería.',
-    precio:21420,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-235',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Canastillas plásticas para surtido Canastilla plastica fondo rombo pared rombo 60x40x25',
-    desc:'Canastillas plásticas rígidas para almacenamiento y transporte. Apilables. Ideales para frutas, verduras, panadería, carnicería y logística.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-236',
-    sector:'digital',
-    icono:'🪑',
-    nombre:'Mesa de empaque Mesa recomendada para logística. Con bandeja de teclado y repisa. Con entrepaño inferior para ubicar mat',
-    desc:'Mesa de empaque para logística. Superficie amplia con repisa inferior. Para centros de distribución, bodegas y e-commerce.',
-    precio:571200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-237',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:380800,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-238',
-    sector:'digital',
-    icono:'📱',
-    nombre:'Lector de código de barras escaners',
-    desc:'Lector de código de barras USB o inalámbrico. Lee códigos 1D y 2D. Compatible con sistemas POS e inventario. Para tiendas y bodegas.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-239',
-    sector:'digital',
-    icono:'🏷️',
-    nombre:'Pistola etiquetadora',
-    desc:'Pistola etiquetadora de precios. Imprime y aplica etiquetas en una sola pasada. Para supermercados, tiendas y droguerías.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-240',
-    sector:'digital',
-    icono:'📸',
-    nombre:'Kit de fotografía de producto (caja de luz)',
-    desc:'Kit de fotografía de producto con caja de luz plegable. Fondos blanco y negro, luces LED. Para fotos profesionales de productos en e-commerce.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-241',
-    sector:'digital',
-    icono:'💡',
-    nombre:'Iluminación LED para foto Temperatura de color: 3200-5600 K, CRI: 96',
-    desc:'660 LED: 330 luz diurna y 330 tungsteno Tres adaptadores de 100-240 V CA, 50/60 Hz Tres tripodes de iluminación’ Tres estuches de transporte para paneles LED',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-242',
-    sector:'digital',
-    icono:'🧺',
-    nombre:'Trípode para fotografía Capacidad de carga: 34 lb',
-    desc:'Trípode extensible de 24 a 77 pulgadas Longitud plegada: 19″ Patas de aleación de aluminio de 4 secciones con sistema de bloqueo abatible Pata y columna convertibles en monopie Rosca macho de 1/4″-20 Giro, inclinación y rotación de 360° Inclinación de 90° Columna central de 2 secciones Peso: 3,5 libras',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-243',
-    sector:'digital',
-    icono:'📸',
-    nombre:'Fondo blanco para fotografía Papel grueso mate de 11 metros de largo',
-    desc:'Libre de ácido, libre de lignina y con PH neutro Enrollado en tubo de cartón de diámetro ø5cm',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-244',
-    sector:'digital',
-    icono:'📷',
-    nombre:'Soporte para celular (foto) Trípode hecho en Aleación de Aluminio.',
-    desc:'• Compatible con Cámaras Canon, Nikon, Sony, Panasonic. • Altura máxima de 157 centímetros • Nivelador de burbuja incorporado • Cabeza Giratoria de 360 grados horizontal y 90 grados vertical. • Ajuste de patas con liberación rápida • Pies de gomas antideslizantes. • Base smartphone compatible con todos los Smartphones de hasta 100mm de ancho.',
-    precio:53550,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-245',
-    sector:'digital',
-    icono:'💻',
-    nombre:'Cámara deportiva para registro El nuevo procesador GP2 hace que esta sea la GoPro más potente hasta la fecha',
-    desc:'Impresionantes vídeos a 5,3K60 y 4K120, y fotos de 23 MP Estabilización de vídeo avanzada HyperSmooth 4.0 Resistente y sumergible hasta 10 m Sube automáticamente tu contenido a la nube mientras la cargas TimeWarp 3.0, cámara lenta 8X y mucho más para clavar la toma Compatible con la aplicación Quik',
-    precio:1428000,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-246',
-    sector:'digital',
-    icono:'📷',
-    nombre:'Cámara mirrorless básica (si aplica) Cámara Mirrorless Con Lente 16-50mm f/3.5-5.6 + Memoria 64Gb de 100Mb/s + Bolso',
-    desc:'Cámara mirrorless básica con lente 16-50mm, sensor de alta resolución, video 4K. Para fotografía de producto y producción de contenido digital.',
-    precio:3332000,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-247',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Micrófono de condensador DE CONDENSADOR SM4-K-KIT DE SHURE',
-    desc:'Micrófono de condensador de alta sensibilidad. Para grabación de voz, instrumentos y producción de podcasts y contenido digital.',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-248',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Micrófono lavalier Micrófono omnidireccional',
-    desc:'Conexión plug-and-play Compatible con cámaras Cable largo de 1.5 m  Construcción resistente Conector TRS de 3.5 mm',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-249',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Interface de audio La interfaz Sonic Cube II es una interfaz de audio profesional de doble canal que cuenta con un pream',
-    desc:'Interfaz de audio profesional para grabación y producción musical. Entradas XLR y jack. Compatible con computador vía USB. Fidelidad profesional.',
-    precio:571200,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-250',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Grabadora de audio Gracias a un micrófono de alta sensibilidad, una reproducción sencilla y sus más de 159 horas de alma',
-    desc:'Grabadora de audio digital portátil con micrófono de alta sensibilidad. Graba en MP3/WAV. Para podcasts, entrevistas y registro de campo.',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-251',
-    sector:'digital',
-    icono:'🎙️',
-    nombre:'Audífonos de monitoreo',
-    desc:'Audífonos profesionales de monitoreo para producción de audio y video. Respuesta de frecuencia plana. Compatibles con interfaces de audio profesionales.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-252',
-    sector:'digital',
-    icono:'💡',
-    nombre:'Kit de iluminación LED continua Temperatura de color: 3200-5600 K, CRI: 96',
-    desc:'660 LED: 330 luz diurna y 330 tungsteno Tres adaptadores de 100-240 V CA, 50/60 Hz Tres tripodes de iluminación’ Tres estuches de transporte para paneles LED',
-    precio:1011500,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-253',
-    sector:'digital',
-    icono:'📸',
-    nombre:'Fondo croma Fondo perfecto para televisión, producción de video y fotografía.',
-    desc:'El telón cuenta con un doblez para colgar en la barra. Bordes reforzados para evitar daños de tela. Hecho de 100% puro algodón muslin.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-254',
-    sector:'digital',
-    icono:'📺',
-    nombre:'Teleprompter básico Lectura clara, sin necesidad de memorizar, presentación fluida y natural.',
-    desc:'• Fácil de instalar y guardar. • Sin fugas de luz en el lente de la cámara. • Mantiene el nivel de los ojos y la alineación del lente para diferentes dispositivos. • Clip de liberación rápida para smartphone. • Anillo adaptador de lente de cámara: 58/67/72/77/82 mm. • Admite disparos con lente gran angular sin viñeteado. • Cuenta con soportes para zapata fría y una entrada de rosca de 1/4" • Contr',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-255',
-    sector:'digital',
-    icono:'💾',
-    nombre:'Disco duro externo ssd externo 2 tb',
-    desc:'Disco duro externo SSD de 2 TB. Alta velocidad de transferencia. Compacto y resistente. Para respaldo de archivos de fotografía, video y proyectos digitales.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-256',
-    sector:'digital',
-    icono:'📦',
-    nombre:'Memorias SD clase alta 128 gb, extreme pro',
-    desc:'Memorias SD 128 GB clase alta. Alta velocidad de transferencia. Para cámaras, drones y grabadoras de video. Resistentes al agua y polvo.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-257',
-    sector:'digital',
-    icono:'📷',
-    nombre:'Soporte brazo articulado (cámara/mic) Tiene una altura mínima de 10cm y máxima de 94cm.',
-    desc:'Su ángulo de rotación es de 360°. Está fabricado en aluminio.',
-    precio:220150,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-258',
-    sector:'digital',
-    icono:'🎬',
-    nombre:'Estabilizador/gimbal Estabilizador de 3 ejes para vlogs o videos con celular',
-    desc:'• Rotación de 360° y modo Vortex integrados • Luz de relleno integrada, seguimiento por IA • Compatible con celulares de 5cm a 8,8cm de ancho • Panel de control todo en uno • Algoritmo de estabilización avanzado • Puntos de montaje magnéticos • Conectividad Bluetooth 5.1',
-    precio:452200,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-259',
-    sector:'digital',
-    icono:'💿',
-    nombre:'Software básico (ofimática)',
-    desc:'Licencia de software básico de ofimática. Procesador de texto, hoja de cálculo y presentaciones. Para administración del negocio.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-260',
-    sector:'digital',
-    icono:'🖨️',
-    nombre:'Impresora térmica de recibos Tipo',
-    desc:'Impresoras Referencia del Producto en el Certificado/Empaque 7709281325989 Ancho 11 cm Alto 10 cm Largo 15 cm Tipo de impresora Impresora Tipo de impresión Láser monocromática Color Negra Cuenta con Wifi No Calidad de impresión Alta resolución Compatibilidad Windows, Linux, Android y macOS',
-    precio:214200,
-    tipo:'Equipo',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-261',
-    sector:'digital',
-    icono:'💰',
-    nombre:'Caja registradora / POS odo en Uno Caja Registradora Profesional para Pequeñas Empresas, Paquete POS Incluye: Monitor Tá',
-    desc:'Sistema POS todo en uno. Incluye monitor táctil, cajón de dinero, escáner e impresora térmica. Administra ventas, inventario y cierre de caja.',
-    precio:5256468,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-262',
-    sector:'digital',
-    icono:'📱',
-    nombre:'Lector QR/Pagos Incluye soporte: Sí',
-    desc:'Voltaje: 110V Lector fijo. Su tipo de escaneo es omnidireccional. Tiene sensor de tecnología láser. Registra y decodifica un amplio volumen de datos.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-263',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Mostrador portátil de exhibición en acrilico',
-    desc:'Mostrador portátil de exhibición en acrílico transparente. Plegable y liviano. Para ferias, eventos y exposición de accesorios.',
-    precio:333200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-264',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Vitrina pequeña de exhibición - vidrio templado puerta corrediza',
-    desc:'Vitrina pequeña de exhibición con vidrio templado y puerta corrediza. Para tiendas de tecnología, joyería y farmacia.',
-    precio:809200,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-265',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Maniquí de exhibición (si vende textiles) cuerpo entero',
-    desc:'Maniquí de exhibición de cuerpo entero para venta de ropa. Postura natural. Para vitrinas y tiendas de ropa.',
-    precio:339150,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-266',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Perchero metálico',
-    desc:'Perchero metálico resistente para exhibición y organización de ropa. Para tiendas, boutiques y talleres de confección.',
-    precio:101150,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-267',
-    sector:'digital',
-    icono:'🗄️',
-    nombre:'Góndola modular Dimensiones:',
-    desc:'Altura: 220 cm Ancho: 128 cm Profundidad: 55 cm Peso : 30 kg Contenido del paquete:  1 x Góndola modular',
-    precio:535500,
-    tipo:'Mobiliario',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-268',
-    sector:'digital',
-    icono:'🧯',
-    nombre:'Extintor multipropósito (bodega) abc- 20 libras rdl',
-    desc:'Extintor multipropósito ABC 20 libras. Apaga fuegos tipo A, B y C. Certificado con manómetro. Obligatorio en talleres, cocinas y bodegas.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  }),
-
-  producto({
-    id:'CAT2-269',
-    sector:'digital',
-    icono:'🩹',
-    nombre:'Botiquín industrial (taller) Estuche plástico mini cuadrado, medidas 21,5 cm x 11.5 cm x 6 cm compuesto por 13 elementos',
-    desc:'Botiquín de primeros auxilios industrial. Incluye vendas, antisépticos, curitas y guantes. Cumple normas de seguridad industrial. Estuche plástico compacto.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'G (47) / R (90)',
-    proceso:'Comercialización / Producción'
-  })
-
-];
-
-// Alimentos y Oficios
-const PRODUCTOS_ALIMENTOS=[
-  producto({
-    id:'P248',
-    sector:'alimentos',
-    icono:'🔥',
-    nombre:'Estufa semindustrial Estufa a gas de 4 quemadores, fabricada en acero inoxidable 201, válvula de gas Alpha Brass, regula',
-    desc:'Estufa a gas de 4 quemadores en acero inoxidable. Alta resistencia al calor y uso continuo. Para restaurantes, cafeterías y negocios de comida.',
-    precio:4770736,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P249',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'Freidora industrial Equipo fabricado totalmente en acero.',
-    desc:'– Pozuelo en acero 430 – Tres quemadores en hierro fundido indeformables de alto rendimiento – Sistema de seguridad compuesto por termostato, piloto, termopila y válvula Unitrol. – Rodachinas de alto tráfico 3″ en poliuretano – Incluye GRATIS dos canastillas de trabajo pesado – Incluye GRATIS rejilla filtro de impurezas – Posee zona fria para mayor vida útil del aceite. – Obtendrás ahorro de aceit',
-    precio:6158250,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P250',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'Plancha para asados Plancha Para Asar 47 Cm X 25 Cm',
-    desc:'Plancha para asados 47 x 25 cm en acero inoxidable. Distribución uniforme del calor. Para restaurantes y negocios de comida rápida.',
-    precio:410532,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P251',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'Horno eléctrico (operación) Horno Eléctrico Gratinador 25 Litros Negro',
-    desc:'(0)',
-    precio:446072,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P252',
-    sector:'alimentos',
-    icono:'❄️',
-    nombre:'Refrigerador productivo Refrigerador vertical de dos puertas. Marco construcción exterior e interior en acero inoxidable',
-    desc:'Refrigerador vertical de dos puertas para uso productivo. Gran capacidad, temperatura regulable. Para restaurantes, panaderías y tiendas.',
-    precio:15670917,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P253',
-    sector:'alimentos',
-    icono:'❄️',
-    nombre:'Congelador tipo cofre Tipo Congeladores Referencia del Producto en el Certificado/Empaque CI-299TV Ancho 83.7 cm Alto 11',
-    desc:'Blanco Número de gavetas 4 Cantidad de puertas 2 Consumo energético 99 kWh/mes Posición del congelador Freezer horizontal Año de lanzamiento 2025 Voltaje 115 V Garantía detalle 1 año general y 3 años en el compresor',
-    precio:3792946,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P254',
-    sector:'alimentos',
-    icono:'🪑',
-    nombre:'Mesa inoxidable de preparación Mesas Acero 90 x 150 x 50 Con Entrepaño',
-    desc:'Mesa de preparación en acero inoxidable (90 x 150 x 50 cm) con entrepaño. Resistente a la corrosión. Cumple normas sanitarias.',
-    precio:3212822,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P255',
-    sector:'alimentos',
-    icono:'🚰',
-    nombre:'Lavamanos en acero inoxidable (operación) Grifería institucional kit válvula de pedal con lavamanos de 28x30',
-    desc:'Lavamanos en acero inoxidable con grifería institucional de válvula de pedal o palanca. Cumple normas sanitarias. Para cocinas industriales y áreas de manipulación de alimentos.',
-    precio:588872,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P256',
-    sector:'alimentos',
-    icono:'🌬️',
-    nombre:'Campana extractora Campana CRIP08-60N Inoxidable 3 Velocidades Negra',
-    desc:'Opción de ser extractora (accesorio no incluido). • Caudal de aspiración de 210 m³/h. • Motor de 3 velocidades de operación, con controles frontales independientes. • 1 bombillo de 25W. Interruptor independiente para la luz. • Rejilla atrapagrasa removible y lavable. • Filtro de carbón activado para purificar los olores de la cocción.',
-    precio:535322,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P257',
-    sector:'alimentos',
-    icono:'🌬️',
-    nombre:'Extractor de aire/ventilación industrialExtractor De Aire Para Baño y Cocina Industrial Para Pared 41x41x14.5cm 110 Volt',
-    desc:'Extractor de aire para ventilación industrial. Bajo consumo y silencioso. Mejora la calidad del aire. Fácil instalación en paredes y techos.',
-    precio:553172,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P258',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'l Licuadora Industrial acero inoxidable 25 litros',
-    desc:'Licuadora industrial en acero inoxidable de 25 litros. Motor potente para grandes volúmenes. Para juguerías y restaurantes.',
-    precio:6009202,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P259',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'Batidora/amasadora industrial 10 litros Capacidad max en harina3 libras',
-    desc:'Velocidades2 Voltaje110V 60Hz Potencia370W AccesoriosGancho, Paleta y globo Dimensiones76X43X51cm (alto, ancho y fondo)',
-    precio:4034100,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P260',
-    sector:'alimentos',
-    icono:'🍽️',
-    nombre:'Dispensador térmico/termo 3 litros',
-    desc:'Dispensador térmico de 3 litros para bebidas calientes. Mantiene temperatura hasta 12 horas. Para cafeterías y restaurantes.',
-    precio:185640,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P261',
-    sector:'alimentos',
-    icono:'🍽️',
-    nombre:'Vajilla y utensilios comerciales',
-    desc:'Set de vajilla y utensilios para cocina comercial. Material resistente al uso intensivo. Para restaurantes, cafeterías y negocios de comida.',
-    precio:624750,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P262',
-    sector:'alimentos',
-    icono:'📦',
-    nombre:'Contenedores grado alimentario Contenedor Portátil Scepter de Grado Alimenticio ? 19 L con Boquilla Reversible',
-    desc:'Contenedores portátiles de grado alimentario. Material libre de BPA. Herméticos y apilables. Para almacenamiento de líquidos y alimentos en restaurantes.',
-    precio:160472,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P263',
-    sector:'alimentos',
-    icono:'⚖️',
-    nombre:'Báscula de cocina Bascula De Cocina Digital 5 kg',
-    desc:'Báscula digital de cocina, capacidad 5 kg. Pantalla LCD. Función tara. Ideal para panaderías y restaurantes. Precisión de 1 gramo.',
-    precio:137266,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P264',
-    sector:'alimentos',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:355215,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P265',
-    sector:'alimentos',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:892322,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P266',
-    sector:'alimentos',
-    icono:'🗄️',
-    nombre:'Vitrina mostrador Vitrina Mostrador 112 x 120 x 45 cms',
-    desc:'Vitrina mostrador con vidrio templado y puerta corrediza. Exhibe productos de forma elegante. Para joyerías, tiendas de accesorios y puntos de venta.',
-    precio:2274417,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P267',
-    sector:'alimentos',
-    icono:'🪑',
-    nombre:'Carro bandejero CARRO RACK PARA BANDEJA 521*661*1780',
-    desc:'Carro rack metálico para bandejas de panadería. Ruedas para desplazamiento en cocina. Permite transportar y almacenar múltiples bandejas.',
-    precio:4994516,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P268',
-    sector:'alimentos',
-    icono:'🧯',
-    nombre:'Extintor multipropósito abc- 20 libras rdl',
-    desc:'Extintor multipropósito ABC 20 libras. Apaga fuegos tipo A, B y C. Certificado con manómetro. Obligatorio en talleres, cocinas y bodegas.',
-    precio:196172,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P269',
-    sector:'alimentos',
-    icono:'⚠️',
-    nombre:'Señalización de seguridad',
-    desc:'Kit de señalización de seguridad industrial. Salidas de emergencia, rutas de evacuación y áreas de riesgo. Material resistente en PVC.',
-    precio:133875,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P270',
-    sector:'alimentos',
-    icono:'🩹',
-    nombre:'Botiquín industrial (taller) Estuche plástico mini cuadrado, medidas 21,5 cm x 11.5 cm x 6 cm compuesto por 13 elementos',
-    desc:'Botiquín de primeros auxilios industrial. Incluye vendas, antisépticos, curitas y guantes. Cumple normas de seguridad industrial. Estuche plástico compacto.',
-    precio:83716,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P271',
-    sector:'alimentos',
-    icono:'👔',
-    nombre:'Uniformes de trabajo (dotación) antifluido.',
-    desc:'Uniformes de trabajo antifluido para dotación laboral. Material resistente y fácil de limpiar. Protege al trabajador. Para cocinas, talleres y servicios.',
-    precio:276675,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P272',
-    sector:'alimentos',
-    icono:'🦺',
-    nombre:'Guantes y mallas para cabello (dotación)',
-    desc:'Guantes de nitrilo y mallas para cabello en dotación. Protección e higiene. Para peluquerías, cocinas y laboratorios.',
-    precio:32130,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P273',
-    sector:'alimentos',
-    icono:'🧵',
-    nombre:'Máquina de coser para cuero (calzado) Tipo de puntada lanzadera',
-    desc:'Tipo de material piel, mediana, pesada Longitud de la puntada, mm cuatro Tipo de promoción prensatelas rodillo de alimentación inferior y superior Plataforma de columna Espesor de la aguja No. 90-140 Agujas aplicables DPx5 Número de agujas uno Número de hilos 2 Tipo de grasa goteo',
-    precio:3318440,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P274',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Prensa para calzado Modelo',
-    desc:'SR-YHJ Voltaje 220v 50hz Presión de laminación 0,3-0,5Mpa Tiempo de laminación 0-30s Capacidad 150pair/h Tamaño 450*820*1130mm Peso 140kg',
-    precio:6597896,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P275',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Hormas para calzado (juego)',
-    desc:'Juego completo de hormas para calzado en diferentes tallas. Para fabricación y reparación de zapatos. Dan forma y estructura al calzado.',
-    precio:177072,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P276',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Lijadora/pulidora para calzado Máquina pulidora de calzado para un acabado profesional. Potente motor de 1KW, 380V/50Hz,',
-    desc:'Máquina pulidora y lijadora para calzado. Acabado fino en suelas y cueros. Motor potente, bajo ruido. Para talleres de calzado.',
-    precio:12163936,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P277',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Pegadora/dispensador de adhesivo',
-    desc:'Pegadora y dispensador de adhesivo para calzado. Aplica pegante de forma uniforme. Para talleres de zapatería y marroquinería.',
-    precio:390092,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P278',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Kit de suelas nuevas',
-    desc:'Kit de suelas para calzado, 5 unidades. Para reparación de zapatos formales, deportivos y de seguridad industrial.',
-    precio:80325,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P279',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Kit de cordones y ojales',
-    desc:'Kit de cordones y ojales para calzado, 5 unidades. Para reparación de calzado deportivo, casual y de trabajo.',
-    precio:116025,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P280',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Herramientas de reparación (martillo/lezna)',
-    desc:'Set de herramientas para calzado: martillo de zapatero y lezna. Acero de alta resistencia. Para talabartería y arreglo de suelas.',
-    precio:571200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P281',
-    sector:'alimentos',
-    icono:'💇',
-    nombre:'Silla hidráulica profesional (peluquería) Silla de Barbería y Peluquería Reclinable Hidráulica y Giratoria Stetik Negro',
-    desc:'Silla hidráulica profesional para peluquería y barbería. Giratoria y reclinable. Tapizado en cuero sintético. Comodidad al cliente y facilidad al estilista.',
-    precio:3694772,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P282',
-    sector:'alimentos',
-    icono:'🚿',
-    nombre:'Lavacabezas portátil Cuenta con dos contenedores de 2 galones cada uno (≈7.5 L):',
-    desc:'🔵 1 para agua limpia  ⚫ 1 para agua residual  Esto garantiza un lavado continuo, higiénico y sin necesidad de conexiones fijas o plomería.',
-    precio:1338750,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P283',
-    sector:'alimentos',
-    icono:'💨',
-    nombre:'Secador tipo casco Su potencia es de 1000W.',
-    desc:'Contiene pedestal y casco. Voluminizá tu cabello.',
-    precio:3386627,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P284',
-    sector:'alimentos',
-    icono:'💨',
-    nombre:'Secador de mano profesional Secador Super Mega Turbo Profesional 2400W',
-    desc:'Secador de mano profesional 2400W con tecnología turbo. Múltiples velocidades y temperaturas. Secado rápido y uniforme. Para peluquerías y salones de estética.',
-    precio:339148,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P285',
-    sector:'alimentos',
-    icono:'✂️',
-    nombre:'Máquina corta cabello profesional Tipo : Máquinas cortapelo',
-    desc:'•Modelo : GR4  •Inalámbrico : Si  •Potencia nominal : 7 W  •Garantía : 3 meses',
-    precio:217592,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P286',
-    sector:'alimentos',
-    icono:'✂️',
-    nombre:'Tijeras profesionales',
-    desc:'Tijeras profesionales de peluquería en acero inoxidable. Filo preciso para corte de cabello. Ergonómicas. Presentación de 3 unidades para dotación.',
-    precio:75148,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P287',
-    sector:'alimentos',
-    icono:'💰',
-    nombre:'Esterilizador UV para herramientas La caja de desinfección UV + Ozono es un dispositivo compacto diseñado para eliminar',
-    desc:'Esterilizador UV + Ozono para herramientas de peluquería. Elimina bacterias y virus. Compacto y silencioso. Para cumplir normas sanitarias en establecimientos de belleza.',
-    precio:2623950,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P288',
-    sector:'alimentos',
-    icono:'💇',
-    nombre:'Carro auxiliar de peluquería Alto',
-    desc:'82 cm Ancho 32 cm Cantidad de cajones 4 Color Negro Fondo 35 cm Material Plástico',
-    precio:712036,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P289',
-    sector:'alimentos',
-    icono:'🪞',
-    nombre:'Espejo profesional con iluminación Espejo de tocador Hollywood M MIVONDA con 18 bombillas, espejo de maquillaje grande i',
-    desc:'Espejo de tocador con 18 bombillas LED. Tres modos de iluminación. Puerto USB de carga. Para salones de belleza y maquillaje profesional.',
-    precio:1227709,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P290',
-    sector:'alimentos',
-    icono:'💇',
-    nombre:'Silla hidráulica profesional (peluquería) Silla de Barbería y Peluquería Reclinable Hidráulica y Giratoria Stetik Negro',
-    desc:'Silla hidráulica profesional para peluquería y barbería. Giratoria y reclinable. Tapizado en cuero sintético. Comodidad al cliente y facilidad al estilista.',
-    precio:3694772,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P291',
-    sector:'alimentos',
-    icono:'🧹',
-    nombre:'Aspiradora industrial (limpieza operativa) Aspiradora de Sólidos y Líquidos 60 L con Cepillo Trabajo Pesado',
-    desc:'Aspiradora industrial para sólidos y líquidos, capacidad 60 litros. Motor potente para uso continuo. Ideal para talleres, salones de belleza y locales comerciales.',
-    precio:2464906,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P292',
-    sector:'alimentos',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:1841852,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P293',
-    sector:'alimentos',
-    icono:'💰',
-    nombre:'Caja registradora / POS odo en Uno Caja Registradora Profesional para Pequeñas Empresas, Paquete POS Incluye: Monitor Tá',
-    desc:'Sistema POS todo en uno. Incluye monitor táctil, cajón de dinero, escáner e impresora térmica. Administra ventas, inventario y cierre de caja.',
-    precio:9686324,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P294',
-    sector:'alimentos',
-    icono:'📱',
-    nombre:'Lector QR/Pagos Incluye soporte: Sí',
-    desc:'Voltaje: 110V Lector fijo. Su tipo de escaneo es omnidireccional. Tiene sensor de tecnología láser. Registra y decodifica un amplio volumen de datos.',
-    precio:373600,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P295',
-    sector:'alimentos',
-    icono:'🖨️',
-    nombre:'Impresora térmica de recibos Tipo',
-    desc:'Impresoras Referencia del Producto en el Certificado/Empaque 7709281325989 Ancho 11 cm Alto 10 cm Largo 15 cm Tipo de impresora Impresora Tipo de impresión Láser monocromática Color Negra Cuenta con Wifi No Calidad de impresión Alta resolución Compatibilidad Windows, Linux, Android y macOS',
-    precio:196172,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P296',
-    sector:'alimentos',
-    icono:'💡',
-    nombre:'Iluminación LED de local Luminaria lineal LED 36W en elegante chasis negro, ideal para iluminación profesional y decorat',
-    desc:'Luminaria lineal LED 36W. Tecnología 3CCT para luz cálida, neutra o blanca. Para locales comerciales, oficinas y salas de exhibición.',
-    precio:464816,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P297',
-    sector:'alimentos',
-    icono:'🔒',
-    nombre:'Cerraduras/elementos de seguridad (operación) Tipo : Cerraduras',
-    desc:'•Alto : 31 cm •Largo : 13.5 cm •Uso Cerradura : Acceso',
-    precio:89072,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P567',
-    sector:'alimentos',
-    icono:'🔥',
-    nombre:'Estufa semindustrial Estufa a gas de 4 quemadores, fabricada en acero inoxidable 201, válvula de gas Alpha Brass, regula',
-    desc:'Estufa a gas de 4 quemadores en acero inoxidable. Alta resistencia al calor y uso continuo. Para restaurantes, cafeterías y negocios de comida.',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P568',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'Freidora industrial Equipo fabricado totalmente en acero.',
-    desc:'– Pozuelo en acero 430 – Tres quemadores en hierro fundido indeformables de alto rendimiento – Sistema de seguridad compuesto por termostato, piloto, termopila y válvula Unitrol. – Rodachinas de alto tráfico 3″ en poliuretano – Incluye GRATIS dos canastillas de trabajo pesado – Incluye GRATIS rejilla filtro de impurezas – Posee zona fria para mayor vida útil del aceite. – Obtendrás ahorro de aceit',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P569',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'Plancha para asados Plancha Para Asar 47 Cm X 25 Cm',
-    desc:'Plancha para asados 47 x 25 cm en acero inoxidable. Distribución uniforme del calor. Para restaurantes y negocios de comida rápida.',
-    precio:148750,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P570',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'Horno eléctrico (operación) Horno Eléctrico Gratinador 25 Litros Negro',
-    desc:'(0)',
-    precio:339150,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P571',
-    sector:'alimentos',
-    icono:'❄️',
-    nombre:'Refrigerador productivo Refrigerador vertical de dos puertas. Marco construcción exterior e interior en acero inoxidable',
-    desc:'Refrigerador vertical de dos puertas para uso productivo. Gran capacidad, temperatura regulable. Para restaurantes, panaderías y tiendas.',
-    precio:2618000,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P572',
-    sector:'alimentos',
-    icono:'❄️',
-    nombre:'Congelador tipo cofre Tipo Congeladores Referencia del Producto en el Certificado/Empaque CI-299TV Ancho 83.7 cm Alto 11',
-    desc:'Blanco Número de gavetas 4 Cantidad de puertas 2 Consumo energético 99 kWh/mes Posición del congelador Freezer horizontal Año de lanzamiento 2025 Voltaje 115 V Garantía detalle 1 año general y 3 años en el compresor',
-    precio:1428000,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P573',
-    sector:'alimentos',
-    icono:'🪑',
-    nombre:'Mesa inoxidable de preparación Mesas Acero 90 x 150 x 50 Con Entrepaño',
-    desc:'Mesa de preparación en acero inoxidable (90 x 150 x 50 cm) con entrepaño. Resistente a la corrosión. Cumple normas sanitarias.',
-    precio:1011500,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P574',
-    sector:'alimentos',
-    icono:'🚰',
-    nombre:'Lavamanos en acero inoxidable (operación) Grifería institucional kit válvula de pedal con lavamanos de 28x30',
-    desc:'Lavamanos en acero inoxidable con grifería institucional de válvula de pedal o palanca. Cumple normas sanitarias. Para cocinas industriales y áreas de manipulación de alimentos.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P575',
-    sector:'alimentos',
-    icono:'🌬️',
-    nombre:'Campana extractora Campana CRIP08-60N Inoxidable 3 Velocidades Negra',
-    desc:'Opción de ser extractora (accesorio no incluido). • Caudal de aspiración de 210 m³/h. • Motor de 3 velocidades de operación, con controles frontales independientes. • 1 bombillo de 25W. Interruptor independiente para la luz. • Rejilla atrapagrasa removible y lavable. • Filtro de carbón activado para purificar los olores de la cocción.',
-    precio:571200,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P576',
-    sector:'alimentos',
-    icono:'🌬️',
-    nombre:'Extractor de aire/ventilación industrialExtractor De Aire Para Baño y Cocina Industrial Para Pared 41x41x14.5cm 110 Volt',
-    desc:'Extractor de aire para ventilación industrial. Bajo consumo y silencioso. Mejora la calidad del aire. Fácil instalación en paredes y techos.',
-    precio:220150,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P577',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'l Licuadora Industrial acero inoxidable 25 litros',
-    desc:'Licuadora industrial en acero inoxidable de 25 litros. Motor potente para grandes volúmenes. Para juguerías y restaurantes.',
-    precio:1011500,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P578',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'Batidora/amasadora industrial 10 litros Capacidad max en harina3 libras',
-    desc:'Velocidades2 Voltaje110V 60Hz Potencia370W AccesoriosGancho, Paleta y globo Dimensiones76X43X51cm (alto, ancho y fondo)',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P579',
-    sector:'alimentos',
-    icono:'🍽️',
-    nombre:'Dispensador térmico/termo 3 litros',
-    desc:'Dispensador térmico de 3 litros para bebidas calientes. Mantiene temperatura hasta 12 horas. Para cafeterías y restaurantes.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P580',
-    sector:'alimentos',
-    icono:'🍽️',
-    nombre:'Vajilla y utensilios comerciales',
-    desc:'Set de vajilla y utensilios para cocina comercial. Material resistente al uso intensivo. Para restaurantes, cafeterías y negocios de comida.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P581',
-    sector:'alimentos',
-    icono:'📦',
-    nombre:'Contenedores grado alimentario Contenedor Portátil Scepter de Grado Alimenticio ? 19 L con Boquilla Reversible',
-    desc:'Contenedores portátiles de grado alimentario. Material libre de BPA. Herméticos y apilables. Para almacenamiento de líquidos y alimentos en restaurantes.',
-    precio:65450,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P582',
-    sector:'alimentos',
-    icono:'⚖️',
-    nombre:'Báscula de cocina Bascula De Cocina Digital 5 kg',
-    desc:'Báscula digital de cocina, capacidad 5 kg. Pantalla LCD. Función tara. Ideal para panaderías y restaurantes. Precisión de 1 gramo.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P583',
-    sector:'alimentos',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P584',
-    sector:'alimentos',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P585',
-    sector:'alimentos',
-    icono:'🗄️',
-    nombre:'Vitrina mostrador Vitrina Mostrador 112 x 120 x 45 cms',
-    desc:'Vitrina mostrador con vidrio templado y puerta corrediza. Exhibe productos de forma elegante. Para joyerías, tiendas de accesorios y puntos de venta.',
-    precio:809200,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P586',
-    sector:'alimentos',
-    icono:'🪑',
-    nombre:'Carro bandejero CARRO RACK PARA BANDEJA 521*661*1780',
-    desc:'Carro rack metálico para bandejas de panadería. Ruedas para desplazamiento en cocina. Permite transportar y almacenar múltiples bandejas.',
-    precio:571200,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P587',
-    sector:'alimentos',
-    icono:'🧯',
-    nombre:'Extintor multipropósito abc- 20 libras rdl',
-    desc:'Extintor multipropósito ABC 20 libras. Apaga fuegos tipo A, B y C. Certificado con manómetro. Obligatorio en talleres, cocinas y bodegas.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P588',
-    sector:'alimentos',
-    icono:'⚠️',
-    nombre:'Señalización de seguridad',
-    desc:'Kit de señalización de seguridad industrial. Salidas de emergencia, rutas de evacuación y áreas de riesgo. Material resistente en PVC.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P589',
-    sector:'alimentos',
-    icono:'🩹',
-    nombre:'Botiquín industrial (taller) Estuche plástico mini cuadrado, medidas 21,5 cm x 11.5 cm x 6 cm compuesto por 13 elementos',
-    desc:'Botiquín de primeros auxilios industrial. Incluye vendas, antisépticos, curitas y guantes. Cumple normas de seguridad industrial. Estuche plástico compacto.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P590',
-    sector:'alimentos',
-    icono:'👔',
-    nombre:'Uniformes de trabajo (dotación) antifluido.',
-    desc:'Uniformes de trabajo antifluido para dotación laboral. Material resistente y fácil de limpiar. Protege al trabajador. Para cocinas, talleres y servicios.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P591',
-    sector:'alimentos',
-    icono:'🦺',
-    nombre:'Guantes y mallas para cabello (dotación)',
-    desc:'Guantes de nitrilo y mallas para cabello en dotación. Protección e higiene. Para peluquerías, cocinas y laboratorios.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P592',
-    sector:'alimentos',
-    icono:'🧵',
-    nombre:'Máquina de coser para cuero (calzado) Tipo de puntada lanzadera',
-    desc:'Tipo de material piel, mediana, pesada Longitud de la puntada, mm cuatro Tipo de promoción prensatelas rodillo de alimentación inferior y superior Plataforma de columna Espesor de la aguja No. 90-140 Agujas aplicables DPx5 Número de agujas uno Número de hilos 2 Tipo de grasa goteo',
-    precio:2142000,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P593',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Prensa para calzado Modelo',
-    desc:'SR-YHJ Voltaje 220v 50hz Presión de laminación 0,3-0,5Mpa Tiempo de laminación 0-30s Capacidad 150pair/h Tamaño 450*820*1130mm Peso 140kg',
-    precio:809200,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P594',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Hormas para calzado (juego)',
-    desc:'Juego completo de hormas para calzado en diferentes tallas. Para fabricación y reparación de zapatos. Dan forma y estructura al calzado.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P595',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Lijadora/pulidora para calzado Máquina pulidora de calzado para un acabado profesional. Potente motor de 1KW, 380V/50Hz,',
-    desc:'Máquina pulidora y lijadora para calzado. Acabado fino en suelas y cueros. Motor potente, bajo ruido. Para talleres de calzado.',
-    precio:452200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P596',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Pegadora/dispensador de adhesivo',
-    desc:'Pegadora y dispensador de adhesivo para calzado. Aplica pegante de forma uniforme. Para talleres de zapatería y marroquinería.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P597',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Kit de suelas nuevas',
-    desc:'Kit de suelas para calzado, 5 unidades. Para reparación de zapatos formales, deportivos y de seguridad industrial.',
-    precio:148750,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P598',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Kit de cordones y ojales',
-    desc:'Kit de cordones y ojales para calzado, 5 unidades. Para reparación de calzado deportivo, casual y de trabajo.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P599',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Herramientas de reparación (martillo/lezna)',
-    desc:'Set de herramientas para calzado: martillo de zapatero y lezna. Acero de alta resistencia. Para talabartería y arreglo de suelas.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P600',
-    sector:'alimentos',
-    icono:'💇',
-    nombre:'Silla hidráulica profesional (peluquería) Silla de Barbería y Peluquería Reclinable Hidráulica y Giratoria Stetik Negro',
-    desc:'Silla hidráulica profesional para peluquería y barbería. Giratoria y reclinable. Tapizado en cuero sintético. Comodidad al cliente y facilidad al estilista.',
-    precio:1325470,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P601',
-    sector:'alimentos',
-    icono:'🚿',
-    nombre:'Lavacabezas portátil Cuenta con dos contenedores de 2 galones cada uno (≈7.5 L):',
-    desc:'🔵 1 para agua limpia  ⚫ 1 para agua residual  Esto garantiza un lavado continuo, higiénico y sin necesidad de conexiones fijas o plomería.',
-    precio:1206517,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P602',
-    sector:'alimentos',
-    icono:'💨',
-    nombre:'Secador tipo casco Su potencia es de 1000W.',
-    desc:'Contiene pedestal y casco. Voluminizá tu cabello.',
-    precio:452200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P603',
-    sector:'alimentos',
-    icono:'💨',
-    nombre:'Secador de mano profesional Secador Super Mega Turbo Profesional 2400W',
-    desc:'Secador de mano profesional 2400W con tecnología turbo. Múltiples velocidades y temperaturas. Secado rápido y uniforme. Para peluquerías y salones de estética.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P604',
-    sector:'alimentos',
-    icono:'✂️',
-    nombre:'Máquina corta cabello profesional Tipo : Máquinas cortapelo',
-    desc:'•Modelo : GR4  •Inalámbrico : Si  •Potencia nominal : 7 W  •Garantía : 3 meses',
-    precio:214200,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P605',
-    sector:'alimentos',
-    icono:'✂️',
-    nombre:'Tijeras profesionales',
-    desc:'Tijeras profesionales de peluquería en acero inoxidable. Filo preciso para corte de cabello. Ergonómicas. Presentación de 3 unidades para dotación.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P606',
-    sector:'alimentos',
-    icono:'💰',
-    nombre:'Esterilizador UV para herramientas La caja de desinfección UV + Ozono es un dispositivo compacto diseñado para eliminar',
-    desc:'Esterilizador UV + Ozono para herramientas de peluquería. Elimina bacterias y virus. Compacto y silencioso. Para cumplir normas sanitarias en establecimientos de belleza.',
-    precio:148750,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P607',
-    sector:'alimentos',
-    icono:'💇',
-    nombre:'Carro auxiliar de peluquería Alto',
-    desc:'82 cm Ancho 32 cm Cantidad de cajones 4 Color Negro Fondo 35 cm Material Plástico',
-    precio:172550,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P608',
-    sector:'alimentos',
-    icono:'🪞',
-    nombre:'Espejo profesional con iluminación Espejo de tocador Hollywood M MIVONDA con 18 bombillas, espejo de maquillaje grande i',
-    desc:'Espejo de tocador con 18 bombillas LED. Tres modos de iluminación. Puerto USB de carga. Para salones de belleza y maquillaje profesional.',
-    precio:333200,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P609',
-    sector:'alimentos',
-    icono:'💇',
-    nombre:'Silla hidráulica profesional (peluquería) Silla de Barbería y Peluquería Reclinable Hidráulica y Giratoria Stetik Negro',
-    desc:'Silla hidráulica profesional para peluquería y barbería. Giratoria y reclinable. Tapizado en cuero sintético. Comodidad al cliente y facilidad al estilista.',
-    precio:690200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P610',
-    sector:'alimentos',
-    icono:'🧹',
-    nombre:'Aspiradora industrial (limpieza operativa) Aspiradora de Sólidos y Líquidos 60 L con Cepillo Trabajo Pesado',
-    desc:'Aspiradora industrial para sólidos y líquidos, capacidad 60 litros. Motor potente para uso continuo. Ideal para talleres, salones de belleza y locales comerciales.',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P611',
-    sector:'alimentos',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:380800,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P612',
-    sector:'alimentos',
-    icono:'💰',
-    nombre:'Caja registradora / POS odo en Uno Caja Registradora Profesional para Pequeñas Empresas, Paquete POS Incluye: Monitor Tá',
-    desc:'Sistema POS todo en uno. Incluye monitor táctil, cajón de dinero, escáner e impresora térmica. Administra ventas, inventario y cierre de caja.',
-    precio:6255197,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P613',
-    sector:'alimentos',
-    icono:'📱',
-    nombre:'Lector QR/Pagos Incluye soporte: Sí',
-    desc:'Voltaje: 110V Lector fijo. Su tipo de escaneo es omnidireccional. Tiene sensor de tecnología láser. Registra y decodifica un amplio volumen de datos.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P614',
-    sector:'alimentos',
-    icono:'🖨️',
-    nombre:'Impresora térmica de recibos Tipo',
-    desc:'Impresoras Referencia del Producto en el Certificado/Empaque 7709281325989 Ancho 11 cm Alto 10 cm Largo 15 cm Tipo de impresora Impresora Tipo de impresión Láser monocromática Color Negra Cuenta con Wifi No Calidad de impresión Alta resolución Compatibilidad Windows, Linux, Android y macOS',
-    precio:214200,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P615',
-    sector:'alimentos',
-    icono:'💡',
-    nombre:'Iluminación LED de local Luminaria lineal LED 36W en elegante chasis negro, ideal para iluminación profesional y decorat',
-    desc:'Luminaria lineal LED 36W. Tecnología 3CCT para luz cálida, neutra o blanca. Para locales comerciales, oficinas y salas de exhibición.',
-    precio:230200,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'P616',
-    sector:'alimentos',
-    icono:'🔒',
-    nombre:'Cerraduras/elementos de seguridad (operación) Tipo : Cerraduras',
-    desc:'•Alto : 31 cm  •Largo : 13.5 cm  •Uso Cerradura : Acceso',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-270',
-    sector:'alimentos',
-    icono:'🔥',
-    nombre:'Estufa semindustrial Estufa a gas de 4 quemadores, fabricada en acero inoxidable 201, válvula de gas Alpha Brass, regula',
-    desc:'Estufa a gas de 4 quemadores en acero inoxidable. Alta resistencia al calor y uso continuo. Para restaurantes, cafeterías y negocios de comida.',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-271',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'Freidora industrial Equipo fabricado totalmente en acero.',
-    desc:'– Pozuelo en acero 430 – Tres quemadores en hierro fundido indeformables de alto rendimiento – Sistema de seguridad compuesto por termostato, piloto, termopila y válvula Unitrol. – Rodachinas de alto tráfico 3″ en poliuretano – Incluye GRATIS dos canastillas de trabajo pesado – Incluye GRATIS rejilla filtro de impurezas – Posee zona fria para mayor vida útil del aceite. – Obtendrás ahorro de aceit',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-272',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'Plancha para asados Plancha Para Asar 47 Cm X 25 Cm',
-    desc:'Plancha para asados 47 x 25 cm en acero inoxidable. Distribución uniforme del calor. Para restaurantes y negocios de comida rápida.',
-    precio:148750,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-273',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'Horno eléctrico (operación) Horno Eléctrico Gratinador 25 Litros Negro',
-    desc:'(0)',
-    precio:339150,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-274',
-    sector:'alimentos',
-    icono:'❄️',
-    nombre:'Refrigerador productivo Refrigerador vertical de dos puertas. Marco construcción exterior e interior en acero inoxidable',
-    desc:'Refrigerador vertical de dos puertas para uso productivo. Gran capacidad, temperatura regulable. Para restaurantes, panaderías y tiendas.',
-    precio:2618000,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-275',
-    sector:'alimentos',
-    icono:'❄️',
-    nombre:'Congelador tipo cofre Tipo Congeladores Referencia del Producto en el Certificado/Empaque CI-299TV Ancho 83.7 cm Alto 11',
-    desc:'Blanco Número de gavetas 4 Cantidad de puertas 2 Consumo energético 99 kWh/mes Posición del congelador Freezer horizontal Año de lanzamiento 2025 Voltaje 115 V Garantía detalle 1 año general y 3 años en el compresor',
-    precio:1428000,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-276',
-    sector:'alimentos',
-    icono:'🪑',
-    nombre:'Mesa inoxidable de preparación Mesas Acero 90 x 150 x 50 Con Entrepaño',
-    desc:'Mesa de preparación en acero inoxidable (90 x 150 x 50 cm) con entrepaño. Resistente a la corrosión. Cumple normas sanitarias.',
-    precio:1011500,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-277',
-    sector:'alimentos',
-    icono:'🚰',
-    nombre:'Lavamanos en acero inoxidable (operación) Grifería institucional kit válvula de pedal con lavamanos de 28x30',
-    desc:'Lavamanos en acero inoxidable con grifería institucional de válvula de pedal o palanca. Cumple normas sanitarias. Para cocinas industriales y áreas de manipulación de alimentos.',
-    precio:333200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-278',
-    sector:'alimentos',
-    icono:'🌬️',
-    nombre:'Campana extractora Campana CRIP08-60N Inoxidable 3 Velocidades Negra',
-    desc:'Opción de ser extractora (accesorio no incluido). • Caudal de aspiración de 210 m³/h. • Motor de 3 velocidades de operación, con controles frontales independientes. • 1 bombillo de 25W. Interruptor independiente para la luz. • Rejilla atrapagrasa removible y lavable. • Filtro de carbón activado para purificar los olores de la cocción.',
-    precio:571200,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-279',
-    sector:'alimentos',
-    icono:'🌬️',
-    nombre:'Extractor de aire/ventilación industrialExtractor De Aire Para Baño y Cocina Industrial Para Pared 41x41x14.5cm 110 Volt',
-    desc:'Extractor de aire para ventilación industrial. Bajo consumo y silencioso. Mejora la calidad del aire. Fácil instalación en paredes y techos.',
-    precio:220150,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-280',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'l Licuadora Industrial acero inoxidable 25 litros',
-    desc:'Licuadora industrial en acero inoxidable de 25 litros. Motor potente para grandes volúmenes. Para juguerías y restaurantes.',
-    precio:1011500,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-281',
-    sector:'alimentos',
-    icono:'🍳',
-    nombre:'Batidora/amasadora industrial 10 litros Capacidad max en harina3 libras',
-    desc:'Velocidades2 Voltaje110V 60Hz Potencia370W AccesoriosGancho, Paleta y globo Dimensiones76X43X51cm (alto, ancho y fondo)',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-282',
-    sector:'alimentos',
-    icono:'🍽️',
-    nombre:'Dispensador térmico/termo 3 litros',
-    desc:'Dispensador térmico de 3 litros para bebidas calientes. Mantiene temperatura hasta 12 horas. Para cafeterías y restaurantes.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-283',
-    sector:'alimentos',
-    icono:'🍽️',
-    nombre:'Vajilla y utensilios comerciales',
-    desc:'Set de vajilla y utensilios para cocina comercial. Material resistente al uso intensivo. Para restaurantes, cafeterías y negocios de comida.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-284',
-    sector:'alimentos',
-    icono:'📦',
-    nombre:'Contenedores grado alimentario Contenedor Portátil Scepter de Grado Alimenticio ? 19 L con Boquilla Reversible',
-    desc:'Contenedores portátiles de grado alimentario. Material libre de BPA. Herméticos y apilables. Para almacenamiento de líquidos y alimentos en restaurantes.',
-    precio:65450,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-285',
-    sector:'alimentos',
-    icono:'⚖️',
-    nombre:'Báscula de cocina Bascula De Cocina Digital 5 kg',
-    desc:'Báscula digital de cocina, capacidad 5 kg. Pantalla LCD. Función tara. Ideal para panaderías y restaurantes. Precisión de 1 gramo.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-286',
-    sector:'alimentos',
-    icono:'📦',
-    nombre:'Selladora térmica de bolsas Longitud de sellado: 30cm. ¡Sella bolsas de tamaño considerable para satisfacer todas tus ne',
-    desc:'Ancho de sellado: 2mm, el tamaño perfecto para un sellado seguro y confiable. Tiempo de calentamiento ultrarrápido: entre 0.2 y 1.3 segundos, para que puedas trabajar eficientemente. Peso ligero de solo 2.9 kg, lo que facilita su transporte y manejo.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-287',
-    sector:'alimentos',
-    icono:'📦',
-    nombre:'Selladora al vacío Tipo',
-    desc:'Electrodomésticos de cocina modernos Ancho 43.18 cm Alto 25.4 cm Largo 52.5 cm Material PLASTICO Color Negro Potencia nominal 125 W Voltaje 117 V',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-288',
-    sector:'alimentos',
-    icono:'🗄️',
-    nombre:'Vitrina mostrador Vitrina Mostrador 112 x 120 x 45 cms',
-    desc:'Vitrina mostrador con vidrio templado y puerta corrediza. Exhibe productos de forma elegante. Para joyerías, tiendas de accesorios y puntos de venta.',
-    precio:809200,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-289',
-    sector:'alimentos',
-    icono:'🪑',
-    nombre:'Carro bandejero CARRO RACK PARA BANDEJA 521*661*1780',
-    desc:'Carro rack metálico para bandejas de panadería. Ruedas para desplazamiento en cocina. Permite transportar y almacenar múltiples bandejas.',
-    precio:571200,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-290',
-    sector:'alimentos',
-    icono:'🧯',
-    nombre:'Extintor multipropósito abc- 20 libras rdl',
-    desc:'Extintor multipropósito ABC 20 libras. Apaga fuegos tipo A, B y C. Certificado con manómetro. Obligatorio en talleres, cocinas y bodegas.',
-    precio:113050,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-291',
-    sector:'alimentos',
-    icono:'⚠️',
-    nombre:'Señalización de seguridad',
-    desc:'Kit de señalización de seguridad industrial. Salidas de emergencia, rutas de evacuación y áreas de riesgo. Material resistente en PVC.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-292',
-    sector:'alimentos',
-    icono:'🩹',
-    nombre:'Botiquín industrial (taller) Estuche plástico mini cuadrado, medidas 21,5 cm x 11.5 cm x 6 cm compuesto por 13 elementos',
-    desc:'Botiquín de primeros auxilios industrial. Incluye vendas, antisépticos, curitas y guantes. Cumple normas de seguridad industrial. Estuche plástico compacto.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-293',
-    sector:'alimentos',
-    icono:'👔',
-    nombre:'Uniformes de trabajo (dotación) antifluido.',
-    desc:'Uniformes de trabajo antifluido para dotación laboral. Material resistente y fácil de limpiar. Protege al trabajador. Para cocinas, talleres y servicios.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-294',
-    sector:'alimentos',
-    icono:'🦺',
-    nombre:'Guantes y mallas para cabello (dotación)',
-    desc:'Guantes de nitrilo y mallas para cabello en dotación. Protección e higiene. Para peluquerías, cocinas y laboratorios.',
-    precio:41650,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-295',
-    sector:'alimentos',
-    icono:'🧵',
-    nombre:'Máquina de coser para cuero (calzado) Tipo de puntada lanzadera',
-    desc:'Tipo de material piel, mediana, pesada Longitud de la puntada, mm cuatro Tipo de promoción prensatelas rodillo de alimentación inferior y superior Plataforma de columna Espesor de la aguja No. 90-140 Agujas aplicables DPx5 Número de agujas uno Número de hilos 2 Tipo de grasa goteo',
-    precio:2142000,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-296',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Prensa para calzado Modelo',
-    desc:'SR-YHJ Voltaje 220v 50hz Presión de laminación 0,3-0,5Mpa Tiempo de laminación 0-30s Capacidad 150pair/h Tamaño 450*820*1130mm Peso 140kg',
-    precio:809200,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-297',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Hormas para calzado (juego)',
-    desc:'Juego completo de hormas para calzado en diferentes tallas. Para fabricación y reparación de zapatos. Dan forma y estructura al calzado.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-298',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Lijadora/pulidora para calzado Máquina pulidora de calzado para un acabado profesional. Potente motor de 1KW, 380V/50Hz,',
-    desc:'Máquina pulidora y lijadora para calzado. Acabado fino en suelas y cueros. Motor potente, bajo ruido. Para talleres de calzado.',
-    precio:452200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-299',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Pegadora/dispensador de adhesivo',
-    desc:'Pegadora y dispensador de adhesivo para calzado. Aplica pegante de forma uniforme. Para talleres de zapatería y marroquinería.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-300',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Kit de suelas nuevas',
-    desc:'Kit de suelas para calzado, 5 unidades. Para reparación de zapatos formales, deportivos y de seguridad industrial.',
-    precio:148750,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-301',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Kit de cordones y ojales',
-    desc:'Kit de cordones y ojales para calzado, 5 unidades. Para reparación de calzado deportivo, casual y de trabajo.',
-    precio:77350,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-302',
-    sector:'alimentos',
-    icono:'👞',
-    nombre:'Herramientas de reparación (martillo/lezna)',
-    desc:'Set de herramientas para calzado: martillo de zapatero y lezna. Acero de alta resistencia. Para talabartería y arreglo de suelas.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-303',
-    sector:'alimentos',
-    icono:'💇',
-    nombre:'Silla hidráulica profesional (peluquería) Silla de Barbería y Peluquería Reclinable Hidráulica y Giratoria Stetik Negro',
-    desc:'Silla hidráulica profesional para peluquería y barbería. Giratoria y reclinable. Tapizado en cuero sintético. Comodidad al cliente y facilidad al estilista.',
-    precio:1113840,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-304',
-    sector:'alimentos',
-    icono:'🚿',
-    nombre:'Lavacabezas portátil Cuenta con dos contenedores de 2 galones cada uno (≈7.5 L):',
-    desc:'🔵 1 para agua limpia  ⚫ 1 para agua residual  Esto garantiza un lavado continuo, higiénico y sin necesidad de conexiones fijas o plomería.',
-    precio:1013880,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-305',
-    sector:'alimentos',
-    icono:'💨',
-    nombre:'Secador tipo casco Su potencia es de 1000W.',
-    desc:'Contiene pedestal y casco. Voluminizá tu cabello.',
-    precio:452200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-306',
-    sector:'alimentos',
-    icono:'💨',
-    nombre:'Secador de mano profesional Secador Super Mega Turbo Profesional 2400W',
-    desc:'Secador de mano profesional 2400W con tecnología turbo. Múltiples velocidades y temperaturas. Secado rápido y uniforme. Para peluquerías y salones de estética.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-307',
-    sector:'alimentos',
-    icono:'✂️',
-    nombre:'Máquina corta cabello profesional Tipo : Máquinas cortapelo',
-    desc:'•Modelo : GR4  •Inalámbrico : Si  •Potencia nominal : 7 W  •Garantía : 3 meses',
-    precio:214200,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-308',
-    sector:'alimentos',
-    icono:'✂️',
-    nombre:'Tijeras profesionales',
-    desc:'Tijeras profesionales de peluquería en acero inoxidable. Filo preciso para corte de cabello. Ergonómicas. Presentación de 3 unidades para dotación.',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-309',
-    sector:'alimentos',
-    icono:'💰',
-    nombre:'Esterilizador UV para herramientas La caja de desinfección UV + Ozono es un dispositivo compacto diseñado para eliminar',
-    desc:'Esterilizador UV + Ozono para herramientas de peluquería. Elimina bacterias y virus. Compacto y silencioso. Para cumplir normas sanitarias en establecimientos de belleza.',
-    precio:148750,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-310',
-    sector:'alimentos',
-    icono:'💇',
-    nombre:'Carro auxiliar de peluquería Alto',
-    desc:'82 cm Ancho 32 cm Cantidad de cajones 4 Color Negro Fondo 35 cm Material Plástico',
-    precio:172550,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-311',
-    sector:'alimentos',
-    icono:'🪞',
-    nombre:'Espejo profesional con iluminación Espejo de tocador Hollywood M MIVONDA con 18 bombillas, espejo de maquillaje grande i',
-    desc:'Espejo de tocador con 18 bombillas LED. Tres modos de iluminación. Puerto USB de carga. Para salones de belleza y maquillaje profesional.',
-    precio:333200,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-312',
-    sector:'alimentos',
-    icono:'💇',
-    nombre:'Silla hidráulica profesional (peluquería) Silla de Barbería y Peluquería Reclinable Hidráulica y Giratoria Stetik Negro',
-    desc:'Silla hidráulica profesional para peluquería y barbería. Giratoria y reclinable. Tapizado en cuero sintético. Comodidad al cliente y facilidad al estilista.',
-    precio:690200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-313',
-    sector:'alimentos',
-    icono:'🧹',
-    nombre:'Aspiradora industrial (limpieza operativa) Aspiradora de Sólidos y Líquidos 60 L con Cepillo Trabajo Pesado',
-    desc:'Aspiradora industrial para sólidos y líquidos, capacidad 60 litros. Motor potente para uso continuo. Ideal para talleres, salones de belleza y locales comerciales.',
-    precio:809200,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-314',
-    sector:'alimentos',
-    icono:'🗄️',
-    nombre:'Estantería metálica industrial torre 240 x 120 cm',
-    desc:'Estantería metálica industrial 240 x 120 cm. Estructura en acero anticorrosivo. Capacidad por nivel hasta 200 kg. Para bodegas, tiendas y talleres.',
-    precio:380800,
-    tipo:'Mobiliario',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-315',
-    sector:'alimentos',
-    icono:'💰',
-    nombre:'Caja registradora / POS odo en Uno Caja Registradora Profesional para Pequeñas Empresas, Paquete POS Incluye: Monitor Tá',
-    desc:'Sistema POS todo en uno. Incluye monitor táctil, cajón de dinero, escáner e impresora térmica. Administra ventas, inventario y cierre de caja.',
-    precio:5256468,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-316',
-    sector:'alimentos',
-    icono:'📱',
-    nombre:'Lector QR/Pagos Incluye soporte: Sí',
-    desc:'Voltaje: 110V Lector fijo. Su tipo de escaneo es omnidireccional. Tiene sensor de tecnología láser. Registra y decodifica un amplio volumen de datos.',
-    precio:220150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-317',
-    sector:'alimentos',
-    icono:'🖨️',
-    nombre:'Impresora térmica de recibos Tipo',
-    desc:'Impresoras Referencia del Producto en el Certificado/Empaque 7709281325989 Ancho 11 cm Alto 10 cm Largo 15 cm Tipo de impresora Impresora Tipo de impresión Láser monocromática Color Negra Cuenta con Wifi No Calidad de impresión Alta resolución Compatibilidad Windows, Linux, Android y macOS',
-    precio:214200,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-318',
-    sector:'alimentos',
-    icono:'💡',
-    nombre:'Iluminación LED de local Luminaria lineal LED 36W en elegante chasis negro, ideal para iluminación profesional y decorat',
-    desc:'Luminaria lineal LED 36W. Tecnología 3CCT para luz cálida, neutra o blanca. Para locales comerciales, oficinas y salas de exhibición.',
-    precio:193445,
-    tipo:'Equipo',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  }),
-
-  producto({
-    id:'CAT2-319',
-    sector:'alimentos',
-    icono:'🔒',
-    nombre:'Cerraduras/elementos de seguridad (operación) Tipo : Cerraduras',
-    desc:'•Alto : 31 cm  •Largo : 13.5 cm  •Uso Cerradura : Acceso',
-    precio:101150,
-    tipo:'Insumo/Dotación',
-    ciiu:'I (56) / S (95–96)',
-    proceso:'Operación / Transformación'
-  })
-
-];
-
-const PRODUCTOS=[
-  ...PRODUCTOS_MANUFACTURA,
-  ...PRODUCTOS_COMERCIO,
-  ...PRODUCTOS_PRODUCCION,
-  ...PRODUCTOS_AGRO,
-  ...PRODUCTOS_DIGITAL,
-  ...PRODUCTOS_ALIMENTOS
-];
-
-window.PRODUCTOS = PRODUCTOS;
