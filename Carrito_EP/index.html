@@ -1451,7 +1451,10 @@
       </div>
       <div class="pres-footer"><span class="pres-tope" id="presTopeTxt">Tope sin definir</span>
         <div class="pres-actions"><button class="btn-actualizar-catalogo" id="btnActualizarCatalogoMini">↻
-            Actualizar</button><button class="btn-cambiar-tipo" id="btnCambiar">↑ Cambiar UP</button></div>
+            Actualizar</button><button class="btn-cambiar-tipo" id="btnCambiar">↑ Cambiar UP</button><button
+            class="btn-cambiar-tipo" id="btnAbrirValidarPDF"
+            style="background:rgba(240,180,41,.2);border-color:var(--acento);color:var(--acento)">📋 Validar
+            PDF</button></div>
       </div>
     </div>
   </header>
@@ -1515,86 +1518,76 @@
         <button class="btn-export" id="btnDescargarPDF" style="margin-bottom:12px">📄 Descargar PDF del plan</button>
         <button class="btn-export" id="btnDescargarJSON" style="background:var(--verde2)">📦 Descargar JSON del
           pedido</button>
-        <button class="btn-export" id="btnAbrirValidarPDF" style="background:#1a1f2e; margin-top:8px; border:1.5px solid rgba(255,255,255,.2)"> 
-          📋 Validar PDF firmado </button>
       </div>
     </div>
   </div>
   <div class="overlay" id="overlayValidarPDF">
-  <div class="modal">
-    <div class="modal-handle"></div>
-    <div class="modal-head">
-      <h2>📋 Validar PDF firmado</h2>
-      <button class="modal-close" data-close="validarPDF">✕</button>
-    </div>
-    <div class="modal-body" style="padding:20px">
+    <div class="modal">
+      <div class="modal-handle"></div>
+      <div class="modal-head">
+        <h2>📋 Validar PDF firmado</h2>
+        <button class="modal-close" data-close="validarPDF">✕</button>
+      </div>
+      <div class="modal-body" style="padding:20px">
 
-      <!-- Estado inicial: subir archivo -->
-      <div id="vPDF-upload">
-        <p style="font-size:.88rem;color:#555;line-height:1.55;margin-bottom:16px">
-          Sube el PDF escaneado del plan de inversión firmado por el representante.
-          El sistema verificará que los productos coincidan y que haya firma.
-        </p>
-        <div id="vPDF-dropzone"
-          style="border:2px dashed var(--borde);border-radius:12px;padding:28px 16px;
+        <!-- Estado inicial: subir archivo -->
+        <div id="vPDF-upload">
+          <p style="font-size:.88rem;color:#555;line-height:1.55;margin-bottom:16px">
+            Sube el PDF escaneado del plan de inversión firmado por el representante.
+            El sistema verificará que los productos coincidan y que haya firma.
+          </p>
+          <div id="vPDF-dropzone" style="border:2px dashed var(--borde);border-radius:12px;padding:28px 16px;
                  text-align:center;cursor:pointer;background:var(--bg);margin-bottom:14px"
-          onclick="document.getElementById('vPDF-input').click()">
-          <div style="font-size:2rem;margin-bottom:6px">📄</div>
-          <div style="font-size:.9rem;font-weight:600;color:var(--gris)">Toca para seleccionar el PDF</div>
-          <div style="font-size:.75rem;color:var(--gris);margin-top:4px">Solo archivos .pdf</div>
-        </div>
-        <input type="file" id="vPDF-input" accept=".pdf" style="display:none">
-        <div id="vPDF-nombre"
-          style="font-size:.82rem;color:var(--verde);font-weight:600;
+            onclick="document.getElementById('vPDF-input').click()">
+            <div style="font-size:2rem;margin-bottom:6px">📄</div>
+            <div style="font-size:.9rem;font-weight:600;color:var(--gris)">Toca para seleccionar el PDF</div>
+            <div style="font-size:.75rem;color:var(--gris);margin-top:4px">Solo archivos .pdf</div>
+          </div>
+          <input type="file" id="vPDF-input" accept=".pdf" style="display:none">
+          <div id="vPDF-nombre" style="font-size:.82rem;color:var(--verde);font-weight:600;
                  margin-bottom:14px;display:none;text-align:center"></div>
-        <button class="btn-export" id="vPDF-btnValidar" disabled
-          style="opacity:.4">
-          🔍 Validar documento
-        </button>
-      </div>
-
-      <!-- Estado: procesando -->
-      <div id="vPDF-procesando" style="display:none;text-align:center;padding:30px 0">
-        <div style="font-size:2.2rem;margin-bottom:10px">⏳</div>
-        <div style="font-weight:700;margin-bottom:6px">Analizando el documento…</div>
-        <div style="font-size:.82rem;color:var(--gris)">
-          Estamos leyendo el PDF y verificando los productos y la firma.
-          Esto puede tardar hasta 30 segundos.
-        </div>
-      </div>
-
-      <!-- Estado: resultado -->
-      <div id="vPDF-resultado" style="display:none">
-        <div id="vPDF-resCard"
-          style="border-radius:12px;padding:16px;margin-bottom:14px;text-align:center">
-          <div id="vPDF-resIcono" style="font-size:2.5rem;margin-bottom:8px"></div>
-          <div id="vPDF-resTitulo"
-            style="font-size:1.1rem;font-weight:800;margin-bottom:6px"></div>
-          <div id="vPDF-resObs"
-            style="font-size:.85rem;line-height:1.5;opacity:.85"></div>
+          <button class="btn-export" id="vPDF-btnValidar" disabled style="opacity:.4">
+            🔍 Validar documento
+          </button>
         </div>
 
-        <!-- Detalle de ítems -->
-        <div id="vPDF-detalleItems" style="margin-bottom:14px"></div>
+        <!-- Estado: procesando -->
+        <div id="vPDF-procesando" style="display:none;text-align:center;padding:30px 0">
+          <div style="font-size:2.2rem;margin-bottom:10px">⏳</div>
+          <div style="font-weight:700;margin-bottom:6px">Analizando el documento…</div>
+          <div style="font-size:.82rem;color:var(--gris)">
+            Estamos leyendo el PDF y verificando los productos y la firma.
+            Esto puede tardar hasta 30 segundos.
+          </div>
+        </div>
 
-        <!-- Firma -->
-        <div id="vPDF-firmaRow"
-          style="display:flex;align-items:center;gap:8px;padding:10px 14px;
+        <!-- Estado: resultado -->
+        <div id="vPDF-resultado" style="display:none">
+          <div id="vPDF-resCard" style="border-radius:12px;padding:16px;margin-bottom:14px;text-align:center">
+            <div id="vPDF-resIcono" style="font-size:2.5rem;margin-bottom:8px"></div>
+            <div id="vPDF-resTitulo" style="font-size:1.1rem;font-weight:800;margin-bottom:6px"></div>
+            <div id="vPDF-resObs" style="font-size:.85rem;line-height:1.5;opacity:.85"></div>
+          </div>
+
+          <!-- Detalle de ítems -->
+          <div id="vPDF-detalleItems" style="margin-bottom:14px"></div>
+
+          <!-- Firma -->
+          <div id="vPDF-firmaRow" style="display:flex;align-items:center;gap:8px;padding:10px 14px;
                  background:var(--bg);border-radius:8px;border:1.5px solid var(--borde);
                  font-size:.85rem;margin-bottom:16px">
-          <span id="vPDF-firmaIcono" style="font-size:1.3rem"></span>
-          <span id="vPDF-firmaTxt"></span>
+            <span id="vPDF-firmaIcono" style="font-size:1.3rem"></span>
+            <span id="vPDF-firmaTxt"></span>
+          </div>
+
+          <button class="btn-export" id="vPDF-btnReintentar" style="background:var(--verde2)">
+            🔄 Validar otro PDF
+          </button>
         </div>
 
-        <button class="btn-export" id="vPDF-btnReintentar"
-          style="background:var(--verde2)">
-          🔄 Validar otro PDF
-        </button>
       </div>
-
     </div>
   </div>
-</div>
   <div id="toastContainer"></div>
   <div id="overlayConfirm">
     <div class="confirm-modal">
@@ -1640,56 +1633,56 @@
     var CATALOGO_PRODUCTOS = CATALOGO_DISPONIBLE ? window.PRODUCTOS : [];
     var TITULO_MAX = 121;
     function tituloProducto(s) { s = String(s || '').replace(/\s+/g, ' ').trim(); return s.length > TITULO_MAX ? s.substring(0, TITULO_MAX - 1).replace(/\s+$/, '') + '…' : s }
-    
+
     // ── Validador de PDF firmado ──────────────────────────────────────────────
     var BOT_VALIDAR_PDF = 'https://bot-captura-docs-f6e8fsejb9a7fgac.centralus-01.azurewebsites.net/api/validar_plan_pdf';
     var vPDF_archivoBase64 = null;
-    
+
     function abrirValidarPDF() {
       // Resetear estado
       vPDF_archivoBase64 = null;
-      document.getElementById('vPDF-upload').style.display    = 'block';
+      document.getElementById('vPDF-upload').style.display = 'block';
       document.getElementById('vPDF-procesando').style.display = 'none';
-      document.getElementById('vPDF-resultado').style.display  = 'none';
-      document.getElementById('vPDF-nombre').style.display     = 'none';
-      document.getElementById('vPDF-nombre').textContent       = '';
-      document.getElementById('vPDF-input').value              = '';
-      document.getElementById('vPDF-btnValidar').disabled      = true;
+      document.getElementById('vPDF-resultado').style.display = 'none';
+      document.getElementById('vPDF-nombre').style.display = 'none';
+      document.getElementById('vPDF-nombre').textContent = '';
+      document.getElementById('vPDF-input').value = '';
+      document.getElementById('vPDF-btnValidar').disabled = true;
       document.getElementById('vPDF-btnValidar').style.opacity = '.4';
       cerrarExport();
       document.getElementById('overlayValidarPDF').classList.add('open');
     }
-    
+
     function cerrarValidarPDF() {
       document.getElementById('overlayValidarPDF').classList.remove('open');
     }
-    
+
     // Abrir modal
     document.getElementById('btnAbrirValidarPDF').addEventListener('click', abrirValidarPDF);
-    
+
     // Cerrar con X
-    document.addEventListener('click', function(e) {
+    document.addEventListener('click', function (e) {
       var cb = e.target.closest('.modal-close');
       if (cb && cb.getAttribute('data-close') === 'validarPDF') cerrarValidarPDF();
       if (e.target === document.getElementById('overlayValidarPDF')) cerrarValidarPDF();
     });
-    
+
     // Seleccionar archivo
-    document.getElementById('vPDF-input').addEventListener('change', function(e) {
+    document.getElementById('vPDF-input').addEventListener('change', function (e) {
       var file = e.target.files[0];
       if (!file) return;
       if (file.type !== 'application/pdf') {
         mostrarToast('Solo se aceptan archivos PDF.', 'error', '❌', 4000);
         return;
       }
-    
+
       var nombreEl = document.getElementById('vPDF-nombre');
       nombreEl.textContent = '📄 ' + file.name;
       nombreEl.style.display = 'block';
-    
+
       // Convertir a base64
       var reader = new FileReader();
-      reader.onload = function(ev) {
+      reader.onload = function (ev) {
         vPDF_archivoBase64 = ev.target.result.split(',')[1]; // quitar "data:application/pdf;base64,"
         var btn = document.getElementById('vPDF-btnValidar');
         btn.disabled = false;
@@ -1697,12 +1690,12 @@
       };
       reader.readAsDataURL(file);
     });
-    
+
     // Drag & drop
     var dropzone = document.getElementById('vPDF-dropzone');
-    dropzone.addEventListener('dragover', function(e) { e.preventDefault(); dropzone.style.borderColor = 'var(--verde)'; });
-    dropzone.addEventListener('dragleave', function()  { dropzone.style.borderColor = 'var(--borde)'; });
-    dropzone.addEventListener('drop', function(e) {
+    dropzone.addEventListener('dragover', function (e) { e.preventDefault(); dropzone.style.borderColor = 'var(--verde)'; });
+    dropzone.addEventListener('dragleave', function () { dropzone.style.borderColor = 'var(--borde)'; });
+    dropzone.addEventListener('drop', function (e) {
       e.preventDefault();
       dropzone.style.borderColor = 'var(--borde)';
       var file = e.dataTransfer.files[0];
@@ -1713,21 +1706,21 @@
         document.getElementById('vPDF-input').dispatchEvent(new Event('change'));
       }
     });
-    
+
     // Validar
-    document.getElementById('vPDF-btnValidar').addEventListener('click', function() {
+    document.getElementById('vPDF-btnValidar').addEventListener('click', function () {
       if (!vPDF_archivoBase64) return;
       var codigo = codigoIniciativaActual;
       if (!codigo) {
         mostrarToast('No hay código de iniciativa activo. Ingresa primero tu código.', 'error', '❌', 5000);
         return;
       }
-    
+
       // Mostrar procesando
-      document.getElementById('vPDF-upload').style.display     = 'none';
+      document.getElementById('vPDF-upload').style.display = 'none';
       document.getElementById('vPDF-procesando').style.display = 'block';
-      document.getElementById('vPDF-resultado').style.display  = 'none';
-    
+      document.getElementById('vPDF-resultado').style.display = 'none';
+
       fetch(BOT_VALIDAR_PDF, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -1736,55 +1729,55 @@
           pdf_base64: vPDF_archivoBase64
         })
       })
-      .then(function(r) { return r.json(); })
-      .then(function(data) { mostrarResultadoValidacion(data); })
-      .catch(function(err) {
-        console.error('Error validando PDF:', err);
-        mostrarResultadoValidacion({
-          resultado_general: 'REVISION_MANUAL',
-          observaciones: 'Error de conexión. Intenta de nuevo.',
-          items_encontrados: [], items_faltantes: [],
-          tiene_firma: false, observacion_firma: ''
+        .then(function (r) { return r.json(); })
+        .then(function (data) { mostrarResultadoValidacion(data); })
+        .catch(function (err) {
+          console.error('Error validando PDF:', err);
+          mostrarResultadoValidacion({
+            resultado_general: 'REVISION_MANUAL',
+            observaciones: 'Error de conexión. Intenta de nuevo.',
+            items_encontrados: [], items_faltantes: [],
+            tiene_firma: false, observacion_firma: ''
+          });
         });
-      });
     });
-    
+
     function mostrarResultadoValidacion(data) {
       document.getElementById('vPDF-procesando').style.display = 'none';
-      document.getElementById('vPDF-upload').style.display     = 'none';
-      document.getElementById('vPDF-resultado').style.display  = 'block';
-    
-      var res     = data.resultado_general || 'REVISION_MANUAL';
-      var card    = document.getElementById('vPDF-resCard');
+      document.getElementById('vPDF-upload').style.display = 'none';
+      document.getElementById('vPDF-resultado').style.display = 'block';
+
+      var res = data.resultado_general || 'REVISION_MANUAL';
+      var card = document.getElementById('vPDF-resCard');
       var iconoEl = document.getElementById('vPDF-resIcono');
-      var titEl   = document.getElementById('vPDF-resTitulo');
-      var obsEl   = document.getElementById('vPDF-resObs');
-    
+      var titEl = document.getElementById('vPDF-resTitulo');
+      var obsEl = document.getElementById('vPDF-resObs');
+
       if (res === 'APROBADO') {
-        card.style.background    = '#f0fff4';
-        card.style.border        = '2px solid #38a169';
-        iconoEl.textContent      = '✅';
-        titEl.textContent        = 'Documento aprobado';
-        titEl.style.color        = '#276749';
+        card.style.background = '#f0fff4';
+        card.style.border = '2px solid #38a169';
+        iconoEl.textContent = '✅';
+        titEl.textContent = 'Documento aprobado';
+        titEl.style.color = '#276749';
       } else if (res === 'RECHAZADO') {
-        card.style.background    = '#fff5f5';
-        card.style.border        = '2px solid #e53e3e';
-        iconoEl.textContent      = '❌';
-        titEl.textContent        = 'Documento rechazado';
-        titEl.style.color        = '#c53030';
+        card.style.background = '#fff5f5';
+        card.style.border = '2px solid #e53e3e';
+        iconoEl.textContent = '❌';
+        titEl.textContent = 'Documento rechazado';
+        titEl.style.color = '#c53030';
       } else {
-        card.style.background    = '#fffbeb';
-        card.style.border        = '2px solid #d69e2e';
-        iconoEl.textContent      = '⚠️';
-        titEl.textContent        = 'Requiere revisión manual';
-        titEl.style.color        = '#7b5e0a';
+        card.style.background = '#fffbeb';
+        card.style.border = '2px solid #d69e2e';
+        iconoEl.textContent = '⚠️';
+        titEl.textContent = 'Requiere revisión manual';
+        titEl.style.color = '#7b5e0a';
       }
       obsEl.textContent = data.observaciones || '';
-    
+
       // Detalle ítems
       var det = document.getElementById('vPDF-detalleItems');
       var encontrados = data.items_encontrados || [];
-      var faltantes   = data.items_faltantes   || [];
+      var faltantes = data.items_faltantes || [];
       var html = '';
       if (encontrados.length) {
         html += '<div style="font-size:.78rem;font-weight:700;color:#276749;margin-bottom:4px">✅ Productos encontrados (' + encontrados.length + ')</div>';
@@ -1801,32 +1794,32 @@
         if (faltantes.length > 5) html += '<div style="font-size:.72rem;color:var(--gris);padding-left:10px">y ' + (faltantes.length - 5) + ' más…</div>';
       }
       det.innerHTML = html;
-    
+
       // Firma
       document.getElementById('vPDF-firmaIcono').textContent = data.tiene_firma ? '✍️' : '⚠️';
-      document.getElementById('vPDF-firmaTxt').textContent   = data.tiene_firma
+      document.getElementById('vPDF-firmaTxt').textContent = data.tiene_firma
         ? 'Firma detectada: ' + (data.observacion_firma || 'presente en el documento')
         : 'Sin firma detectada: ' + (data.observacion_firma || 'no se encontró firma en el documento');
       document.getElementById('vPDF-firmaRow').style.background = data.tiene_firma ? '#f0fff4' : '#fff5f5';
       document.getElementById('vPDF-firmaRow').style.borderColor = data.tiene_firma ? '#38a169' : '#e53e3e';
     }
-    
+
     // Reintentar
-    document.getElementById('vPDF-btnReintentar').addEventListener('click', function() {
+    document.getElementById('vPDF-btnReintentar').addEventListener('click', function () {
       vPDF_archivoBase64 = null;
-      document.getElementById('vPDF-upload').style.display     = 'block';
-      document.getElementById('vPDF-resultado').style.display  = 'none';
+      document.getElementById('vPDF-upload').style.display = 'block';
+      document.getElementById('vPDF-resultado').style.display = 'none';
       document.getElementById('vPDF-procesando').style.display = 'none';
-      document.getElementById('vPDF-nombre').style.display     = 'none';
-      document.getElementById('vPDF-input').value              = '';
-      document.getElementById('vPDF-btnValidar').disabled      = true;
+      document.getElementById('vPDF-nombre').style.display = 'none';
+      document.getElementById('vPDF-input').value = '';
+      document.getElementById('vPDF-btnValidar').disabled = true;
       document.getElementById('vPDF-btnValidar').style.opacity = '.4';
     });
-       
-    
-    
-    
-    
+
+
+
+
+
     if (CATALOGO_DISPONIBLE) { for (var tp = 0; tp < CATALOGO_PRODUCTOS.length; tp++) CATALOGO_PRODUCTOS[tp].nombre = tituloProducto(CATALOGO_PRODUCTOS[tp].nombre) }
 
     var CATALOGO_VERSION = 'v4';
@@ -2299,33 +2292,33 @@
         mostrarToast('La librería PDF no está disponible. Verifica tu conexión a internet.', 'error', '❌', 5000); return;
       }
       var jsPDF = (window.jspdf && window.jspdf.jsPDF) || jspdf.jsPDF;
-      var cod     = codigoIniciativaActual || normalizarCodigoIniciativa(document.getElementById('inputCodigoIniciativa').value);
+      var cod = codigoIniciativaActual || normalizarCodigoIniciativa(document.getElementById('inputCodigoIniciativa').value);
       var tipoNom = obtenerTipoNom();
-      var items   = obtenerItemsCarrito();
-      var total   = totalCarrito();
-      var fecha   = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric' });
-      var upD     = window._upData || {};  // ← siempre disponible gracias a los cambios anteriores
+      var items = obtenerItemsCarrito();
+      var total = totalCarrito();
+      var fecha = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric' });
+      var upD = window._upData || {};  // ← siempre disponible gracias a los cambios anteriores
 
-      var VERDE_HD  = [194, 214, 155];
-      var NEGRO     = [26,  31,  46 ];
-      var BLANCO    = [255, 255, 255];
-      var VERDE_PIE = [30,  92,  58 ];
+      var VERDE_HD = [194, 214, 155];
+      var NEGRO = [26, 31, 46];
+      var BLANCO = [255, 255, 255];
+      var VERDE_PIE = [30, 92, 58];
 
       var idRows = [
-        ['Nombre de la Unidad Productiva',               upD.unidad_nombre   || nombreUPActual || ''],
-        ['ID',                                            upD.unidad_doc      || cod || ''],
-        ['Representante de la Unidad Productiva',        upD.representante   || ''],
-        ['Documento de identidad del representante',     upD.unidad_doc      || ''],
+        ['Nombre de la Unidad Productiva', upD.unidad_nombre || nombreUPActual || ''],
+        ['ID', upD.unidad_doc || cod || ''],
+        ['Representante de la Unidad Productiva', upD.representante || ''],
+        ['Documento de identidad del representante', upD.unidad_doc || ''],
         ['Localización (dirección de la Unidad Productiva)', upD.unidad_direccion || ''],
-        ['Departamento',                                  upD.dpto            || ''],
-        ['Municipio',                                     upD.mpio            || ''],
-        ['Registro ante cámara de comercio (SÍ/NO)',     upD.registro_camara_comercio || ''],
-        ['Actividad económica',                           upD.unidad_sector   || ''],
+        ['Departamento', upD.dpto || ''],
+        ['Municipio', upD.mpio || ''],
+        ['Registro ante cámara de comercio (SÍ/NO)', upD.registro_camara_comercio || ''],
+        ['Actividad económica', upD.unidad_sector || ''],
       ];
 
-      var transporte  = (tipoNom === 'M1') ? 200000 : 0;
-      var totalFinal  = total + transporte;
-      var MAX_FILAS   = Math.max(items.length, 1);
+      var transporte = (tipoNom === 'M1') ? 200000 : 0;
+      var totalFinal = total + transporte;
+      var MAX_FILAS = Math.max(items.length, 1);
 
       function calcularAltura(sc) {
         var h = sc.marT;
@@ -2333,8 +2326,8 @@
         h += sc.idHdr;
         for (var r = 0; r < idRows.length; r++) {
           var lblL = Math.ceil(idRows[r][0].length / (sc.wL / sc.fs * 1.6));
-          var valL = Math.ceil((idRows[r][1]||'').length / (sc.wR / sc.fs * 1.6));
-          var nL   = Math.max(lblL, valL, 1);
+          var valL = Math.ceil((idRows[r][1] || '').length / (sc.wR / sc.fs * 1.6));
+          var nL = Math.max(lblL, valL, 1);
           h += sc.padV * 2 + nL * sc.lineH;
         }
         h += sc.gap;
@@ -2362,7 +2355,7 @@
       base.wR = cW0 * 0.45;
 
       var alturaTotal = calcularAltura(base);
-      var disponible  = PAGE_H - base.marT - base.marB;
+      var disponible = PAGE_H - base.marT - base.marB;
       var alturaContenido = alturaTotal - base.marT - base.marB;
       // Guardia robusta: nunca dividir por cero ni producir NaN/Infinity
       var scale = (alturaContenido > 0) ? Math.min(1, disponible / alturaContenido) : 1;
@@ -2372,193 +2365,193 @@
       function sv(v, fallback) { return (isFinite(v) && !isNaN(v) && v > 0) ? v : (fallback || 1); }
 
       var S = {
-        marL:    base.marL,    marR:    base.marR,
-        marT:    base.marT,    marB:    base.marB,
-        encH:    sv(base.encH    * scale, 4),
-        gap:     sv(base.gap     * scale, 1),
-        idHdr:   sv(base.idHdr   * scale, 4),
-        padV:    sv(base.padV    * scale, 0.8),
-        lineH:   sv(base.lineH   * scale, 2.5),
-        thH:     sv(base.thH     * scale, 5),
-        rowH:    sv(base.rowH    * scale, 4),
+        marL: base.marL, marR: base.marR,
+        marT: base.marT, marB: base.marB,
+        encH: sv(base.encH * scale, 4),
+        gap: sv(base.gap * scale, 1),
+        idHdr: sv(base.idHdr * scale, 4),
+        padV: sv(base.padV * scale, 0.8),
+        lineH: sv(base.lineH * scale, 2.5),
+        thH: sv(base.thH * scale, 5),
+        rowH: sv(base.rowH * scale, 4),
         firmasH: sv(base.firmasH * scale, 20),
-        fsEnc:   Math.max(6,  9    * scale),
-        fsId:    Math.max(5,  7.5  * scale),
-        fsProd:  Math.max(5,  7    * scale),
-        fsFirma: Math.max(5,  7    * scale),
-        fsPie:   Math.max(4,  6.5  * scale),
+        fsEnc: Math.max(6, 9 * scale),
+        fsId: Math.max(5, 7.5 * scale),
+        fsProd: Math.max(5, 7 * scale),
+        fsFirma: Math.max(5, 7 * scale),
+        fsPie: Math.max(4, 6.5 * scale),
       };
       var cW = PAGE_W - S.marL - S.marR;
       var wL = cW * 0.55, wR = cW * 0.45;
       var xL = S.marL, xR = S.marL + wL;
-      var wT = cW*0.28, wC = cW*0.08, wI = cW*0.30, wVU = cW*0.17, wVT = cW*0.17;
-      var xT = S.marL, xC = xT+wT, xI = xC+wC, xVU = xI+wI, xVT = xVU+wVU;
-      var wSpan = wT+wC+wI+wVU;
+      var wT = cW * 0.28, wC = cW * 0.08, wI = cW * 0.30, wVU = cW * 0.17, wVT = cW * 0.17;
+      var xT = S.marL, xC = xT + wT, xI = xC + wC, xVU = xI + wI, xVT = xVU + wVU;
+      var wSpan = wT + wC + wI + wVU;
 
       var doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
-      var pW  = doc.internal.pageSize.getWidth();
-      var pH  = doc.internal.pageSize.getHeight();
+      var pW = doc.internal.pageSize.getWidth();
+      var pH = doc.internal.pageSize.getHeight();
 
       // Wrappers seguros: si algún argumento es NaN/Infinity, simplemente no dibujan
       function safeRect(x, y, w, h, style) {
-        if ([x,y,w,h].some(function(v){ return !isFinite(v)||isNaN(v)||v<=0; })) return;
+        if ([x, y, w, h].some(function (v) { return !isFinite(v) || isNaN(v) || v <= 0; })) return;
         doc.rect(x, y, w, h, style);
       }
       function border(x, y, w, h) {
-        doc.setDrawColor(150,150,150); doc.setLineWidth(0.2);
+        doc.setDrawColor(150, 150, 150); doc.setLineWidth(0.2);
         safeRect(x, y, w, h, 'S');
       }
       function cell(txt, x, y, w, align) {
-        if ([x,y,w].some(function(v){ return !isFinite(v)||isNaN(v); })) return;
+        if ([x, y, w].some(function (v) { return !isFinite(v) || isNaN(v); })) return;
         align = align || 'left';
-        var tx = align==='right' ? x+w-1.2 : align==='center' ? x+w/2 : x+1.2;
-        doc.text(String(txt||''), tx, y, {align: align});
+        var tx = align === 'right' ? x + w - 1.2 : align === 'center' ? x + w / 2 : x + 1.2;
+        doc.text(String(txt || ''), tx, y, { align: align });
       }
 
       var y = S.marT;
 
       // Encabezado
       var encTxt = 'Universidad de Antioquia  |  Proyecto Interventoría iNNpulsa  |  Convocatoria ECONOMÍA POPULAR PARA EL CAMBIO  |  Plan de inversión';
-      doc.setFillColor(BLANCO[0],BLANCO[1],BLANCO[2]);
+      doc.setFillColor(BLANCO[0], BLANCO[1], BLANCO[2]);
       safeRect(S.marL, y, cW, S.encH, 'F'); border(S.marL, y, cW, S.encH);
-      doc.setFont('helvetica','bold'); doc.setFontSize(S.fsEnc * 0.82);
-      doc.setTextColor(NEGRO[0],NEGRO[1],NEGRO[2]);
-      cell(encTxt, S.marL, y + S.encH*0.65, cW, 'center');
+      doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsEnc * 0.82);
+      doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+      cell(encTxt, S.marL, y + S.encH * 0.65, cW, 'center');
       y += S.encH + S.gap;
 
       // Identificación - header
-      doc.setFillColor(VERDE_HD[0],VERDE_HD[1],VERDE_HD[2]);
-      safeRect(xL,y,wL,S.idHdr,'F'); border(xL,y,wL,S.idHdr);
-      safeRect(xR,y,wR,S.idHdr,'F'); border(xR,y,wR,S.idHdr);
-      doc.setFont('helvetica','bold'); doc.setFontSize(S.fsId);
-      doc.setTextColor(NEGRO[0],NEGRO[1],NEGRO[2]);
-      cell('Preguntas', xL, y+S.idHdr*0.7, wL, 'center');
-      cell('Respuestas',xR, y+S.idHdr*0.7, wR, 'center');
+      doc.setFillColor(VERDE_HD[0], VERDE_HD[1], VERDE_HD[2]);
+      safeRect(xL, y, wL, S.idHdr, 'F'); border(xL, y, wL, S.idHdr);
+      safeRect(xR, y, wR, S.idHdr, 'F'); border(xR, y, wR, S.idHdr);
+      doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsId);
+      doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+      cell('Preguntas', xL, y + S.idHdr * 0.7, wL, 'center');
+      cell('Respuestas', xR, y + S.idHdr * 0.7, wR, 'center');
       y += S.idHdr;
 
       // Identificación - filas
-      for (var r=0; r<idRows.length; r++) {
-        doc.setFont('helvetica','normal'); doc.setFontSize(S.fsId);
-        var lblLines = doc.splitTextToSize(String(idRows[r][0]||''), wL-2.5);
-        var valLines = doc.splitTextToSize(String(idRows[r][1]||''), wR-2.5);
-        var nL   = Math.max(lblLines.length, valLines.length, 1);
-        var cellH = S.padV + nL*S.lineH + S.padV;
-        doc.setFillColor(BLANCO[0],BLANCO[1],BLANCO[2]);
-        safeRect(xL,y,wL,cellH,'F'); border(xL,y,wL,cellH);
-        safeRect(xR,y,wR,cellH,'F'); border(xR,y,wR,cellH);
-        doc.setTextColor(NEGRO[0],NEGRO[1],NEGRO[2]);
-        for (var li=0; li<lblLines.length; li++) doc.text(lblLines[li], xL+1.2, y+S.padV+(li+0.8)*S.lineH);
-        for (var vi=0; vi<valLines.length; vi++) doc.text(valLines[vi], xR+1.2, y+S.padV+(vi+0.8)*S.lineH);
+      for (var r = 0; r < idRows.length; r++) {
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsId);
+        var lblLines = doc.splitTextToSize(String(idRows[r][0] || ''), wL - 2.5);
+        var valLines = doc.splitTextToSize(String(idRows[r][1] || ''), wR - 2.5);
+        var nL = Math.max(lblLines.length, valLines.length, 1);
+        var cellH = S.padV + nL * S.lineH + S.padV;
+        doc.setFillColor(BLANCO[0], BLANCO[1], BLANCO[2]);
+        safeRect(xL, y, wL, cellH, 'F'); border(xL, y, wL, cellH);
+        safeRect(xR, y, wR, cellH, 'F'); border(xR, y, wR, cellH);
+        doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+        for (var li = 0; li < lblLines.length; li++) doc.text(lblLines[li], xL + 1.2, y + S.padV + (li + 0.8) * S.lineH);
+        for (var vi = 0; vi < valLines.length; vi++) doc.text(valLines[vi], xR + 1.2, y + S.padV + (vi + 0.8) * S.lineH);
         y += cellH;
       }
       y += S.gap;
 
       // Tabla productos - encabezado
-      doc.setFillColor(VERDE_HD[0],VERDE_HD[1],VERDE_HD[2]);
-      [xT,xC,xI,xVU,xVT].forEach(function(x,k){ var w=[wT,wC,wI,wVU,wVT][k]; safeRect(x,y,w,S.thH,'F'); border(x,y,w,S.thH); });
-      doc.setFont('helvetica','bold'); doc.setFontSize(S.fsProd);
-      doc.setTextColor(NEGRO[0],NEGRO[1],NEGRO[2]);
-      doc.text('Denominación y descripción del', xT+1.2, y+S.thH*0.38);
-      doc.text('capital productivo priorizado',   xT+1.2, y+S.thH*0.75);
-      cell('Cantidad',              xC,  y+S.thH*0.6, wC,  'center');
-      cell('Denominación del ítem', xI,  y+S.thH*0.6, wI,  'center');
-      cell('Valor Unitario',        xVU, y+S.thH*0.6, wVU, 'center');
-      cell('Valor Total',           xVT, y+S.thH*0.6, wVT, 'center');
+      doc.setFillColor(VERDE_HD[0], VERDE_HD[1], VERDE_HD[2]);
+      [xT, xC, xI, xVU, xVT].forEach(function (x, k) { var w = [wT, wC, wI, wVU, wVT][k]; safeRect(x, y, w, S.thH, 'F'); border(x, y, w, S.thH); });
+      doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsProd);
+      doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+      doc.text('Denominación y descripción del', xT + 1.2, y + S.thH * 0.38);
+      doc.text('capital productivo priorizado', xT + 1.2, y + S.thH * 0.75);
+      cell('Cantidad', xC, y + S.thH * 0.6, wC, 'center');
+      cell('Denominación del ítem', xI, y + S.thH * 0.6, wI, 'center');
+      cell('Valor Unitario', xVU, y + S.thH * 0.6, wVU, 'center');
+      cell('Valor Total', xVT, y + S.thH * 0.6, wVT, 'center');
       y += S.thH;
 
       // Tabla productos - filas
-      doc.setFont('helvetica','normal'); doc.setFontSize(S.fsProd);
-      for (var i=0; i<MAX_FILAS; i++) {
+      doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsProd);
+      for (var i = 0; i < MAX_FILAS; i++) {
         var it = items[i] || null;
-        var tipoLines = it ? doc.splitTextToSize(it.producto.tipo||'', wT-2.5) : [''];
-        var nomLines  = it ? doc.splitTextToSize(it.producto.nombre||'', wI-2.5) : [''];
+        var tipoLines = it ? doc.splitTextToSize(it.producto.tipo || '', wT - 2.5) : [''];
+        var nomLines = it ? doc.splitTextToSize(it.producto.nombre || '', wI - 2.5) : [''];
         var nLP = Math.max(tipoLines.length, nomLines.length, 1);
-        var rH  = Math.max(S.rowH, 1.5 + nLP*S.lineH + 1.5);
-        doc.setFillColor(BLANCO[0],BLANCO[1],BLANCO[2]);
-        [xT,xC,xI,xVU,xVT].forEach(function(x,k){ var w=[wT,wC,wI,wVU,wVT][k]; safeRect(x,y,w,rH,'F'); border(x,y,w,rH); });
-        doc.setTextColor(NEGRO[0],NEGRO[1],NEGRO[2]);
+        var rH = Math.max(S.rowH, 1.5 + nLP * S.lineH + 1.5);
+        doc.setFillColor(BLANCO[0], BLANCO[1], BLANCO[2]);
+        [xT, xC, xI, xVU, xVT].forEach(function (x, k) { var w = [wT, wC, wI, wVU, wVT][k]; safeRect(x, y, w, rH, 'F'); border(x, y, w, rH); });
+        doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
         if (it) {
-          for (var tl=0; tl<tipoLines.length; tl++) doc.text(tipoLines[tl], xT+1.2, y+1.5+(tl+0.8)*S.lineH);
-          cell(String(it.cantidad),            xC,  y+rH/2+1, wC,  'center');
-          for (var nl=0; nl<nomLines.length; nl++) doc.text(nomLines[nl], xI+1.2, y+1.5+(nl+0.8)*S.lineH);
-          cell(COP.format(it.producto.precio), xVU, y+rH/2+1, wVU, 'right');
-          cell(COP.format(it.subtotal),        xVT, y+rH/2+1, wVT, 'right');
+          for (var tl = 0; tl < tipoLines.length; tl++) doc.text(tipoLines[tl], xT + 1.2, y + 1.5 + (tl + 0.8) * S.lineH);
+          cell(String(it.cantidad), xC, y + rH / 2 + 1, wC, 'center');
+          for (var nl = 0; nl < nomLines.length; nl++) doc.text(nomLines[nl], xI + 1.2, y + 1.5 + (nl + 0.8) * S.lineH);
+          cell(COP.format(it.producto.precio), xVU, y + rH / 2 + 1, wVU, 'right');
+          cell(COP.format(it.subtotal), xVT, y + rH / 2 + 1, wVT, 'right');
         }
         y += rH;
       }
 
       // Filas totales
       var totRows = [
-        {lbl:'TOTAL PLAN DE INVERSIÓN',         val:COP.format(total),      verde:true },
-        {lbl:'Transporte - aplica solo para M1', val:COP.format(transporte), verde:false},
-        {lbl:'TOTAL',                            val:COP.format(totalFinal), verde:true },
+        { lbl: 'TOTAL PLAN DE INVERSIÓN', val: COP.format(total), verde: true },
+        { lbl: 'Transporte - aplica solo para M1', val: COP.format(transporte), verde: false },
+        { lbl: 'TOTAL', val: COP.format(totalFinal), verde: true },
       ];
-      for (var ti=0; ti<totRows.length; ti++) {
+      for (var ti = 0; ti < totRows.length; ti++) {
         var tr = totRows[ti];
-        if (tr.verde) doc.setFillColor(VERDE_HD[0],VERDE_HD[1],VERDE_HD[2]);
-        else          doc.setFillColor(BLANCO[0],BLANCO[1],BLANCO[2]);
-        safeRect(xT,y,wSpan,S.rowH,'F'); border(xT,y,wSpan,S.rowH);
-        safeRect(xVT,y,wVT,S.rowH,'F'); border(xVT,y,wVT,  S.rowH);
-        doc.setFont('helvetica','bold'); doc.setFontSize(S.fsProd);
-        doc.setTextColor(NEGRO[0],NEGRO[1],NEGRO[2]);
-        cell(tr.lbl, xT,  y+S.rowH*0.65, wSpan, 'center');
-        doc.setFont('helvetica','normal');
-        cell(tr.val, xVT, y+S.rowH*0.65, wVT,   'right');
+        if (tr.verde) doc.setFillColor(VERDE_HD[0], VERDE_HD[1], VERDE_HD[2]);
+        else doc.setFillColor(BLANCO[0], BLANCO[1], BLANCO[2]);
+        safeRect(xT, y, wSpan, S.rowH, 'F'); border(xT, y, wSpan, S.rowH);
+        safeRect(xVT, y, wVT, S.rowH, 'F'); border(xVT, y, wVT, S.rowH);
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsProd);
+        doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+        cell(tr.lbl, xT, y + S.rowH * 0.65, wSpan, 'center');
+        doc.setFont('helvetica', 'normal');
+        cell(tr.val, xVT, y + S.rowH * 0.65, wVT, 'right');
         y += S.rowH;
       }
       y += S.gap;
 
       // Firmas
-      var wF  = cW/2, xF1 = S.marL, xF2 = S.marL+wF;
-      var fLY = y + S.firmasH*0.4;
-      var fTY = fLY + S.firmasH*0.12;
+      var wF = cW / 2, xF1 = S.marL, xF2 = S.marL + wF;
+      var fLY = y + S.firmasH * 0.4;
+      var fTY = fLY + S.firmasH * 0.12;
       var nombreGestor = String(upD.nombre_gestor || '').trim();
-      doc.setDrawColor(NEGRO[0],NEGRO[1],NEGRO[2]); doc.setLineWidth(0.35);
-      doc.line(xF1+4, fLY, xF1+wF-4, fLY);
-      doc.line(xF2+4, fLY, xF2+wF-4, fLY);
+      doc.setDrawColor(NEGRO[0], NEGRO[1], NEGRO[2]); doc.setLineWidth(0.35);
+      doc.line(xF1 + 4, fLY, xF1 + wF - 4, fLY);
+      doc.line(xF2 + 4, fLY, xF2 + wF - 4, fLY);
       // Nombre del gestor justo encima de la línea derecha
       if (nombreGestor) {
-        doc.setFont('helvetica','normal'); doc.setFontSize(S.fsFirma);
-        doc.setTextColor(NEGRO[0],NEGRO[1],NEGRO[2]);
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsFirma);
+        doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
         var gLines = doc.splitTextToSize(nombreGestor, wF - 8);
         var gBaseY = fLY - 1.5;
         for (var gi = gLines.length - 1; gi >= 0; gi--) {
           cell(gLines[gi], xF2, gBaseY - (gLines.length - 1 - gi) * S.lineH, wF, 'center');
         }
       }
-      doc.setFont('helvetica','bold'); doc.setFontSize(S.fsFirma);
-      doc.setTextColor(NEGRO[0],NEGRO[1],NEGRO[2]);
-      cell('REPRESENTANTE LEGAL',  xF1, fTY, wF, 'center');
-      cell('CONSULTOR DESIGNADO',  xF2, fTY, wF, 'center');
-      y += S.firmasH*0.55;
+      doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsFirma);
+      doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+      cell('REPRESENTANTE LEGAL', xF1, fTY, wF, 'center');
+      cell('CONSULTOR DESIGNADO', xF2, fTY, wF, 'center');
+      y += S.firmasH * 0.55;
 
       // Nombre UP
-      doc.setFont('helvetica','bold'); doc.setFontSize(S.fsFirma);
+      doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsFirma);
       var labelNom = 'NOMBRE UNIDAD PRODUCTIVA: ';
-      var wLblNom  = doc.getTextWidth(labelNom);
-      doc.setFont('helvetica','normal');
-      var nomValLines = doc.splitTextToSize(nombreUPActual||'', cW - wLblNom - 2);
-      doc.setFont('helvetica','bold');
-      doc.text(labelNom, S.marL, y+4);
-      doc.setFont('helvetica','normal');
-      doc.text(nomValLines[0]||'', S.marL+wLblNom, y+4);
-      for (var nv=1; nv<nomValLines.length; nv++) { y += S.lineH; doc.text(nomValLines[nv], S.marL+wLblNom, y+4); }
-      y += S.firmasH*0.22;
+      var wLblNom = doc.getTextWidth(labelNom);
+      doc.setFont('helvetica', 'normal');
+      var nomValLines = doc.splitTextToSize(nombreUPActual || '', cW - wLblNom - 2);
+      doc.setFont('helvetica', 'bold');
+      doc.text(labelNom, S.marL, y + 4);
+      doc.setFont('helvetica', 'normal');
+      doc.text(nomValLines[0] || '', S.marL + wLblNom, y + 4);
+      for (var nv = 1; nv < nomValLines.length; nv++) { y += S.lineH; doc.text(nomValLines[nv], S.marL + wLblNom, y + 4); }
+      y += S.firmasH * 0.22;
 
       // Fecha
-      doc.setFont('helvetica','bold');
+      doc.setFont('helvetica', 'bold');
       var labelFec = 'FECHA: ';
-      doc.text(labelFec, S.marL, y+4);
-      doc.setFont('helvetica','normal');
-      doc.text(fecha, S.marL+doc.getTextWidth(labelFec), y+4);
+      doc.text(labelFec, S.marL, y + 4);
+      doc.setFont('helvetica', 'normal');
+      doc.text(fecha, S.marL + doc.getTextWidth(labelFec), y + 4);
 
       // Pie
-      doc.setFontSize(S.fsPie); doc.setTextColor(150,150,150); doc.setFont('helvetica','normal');
-      doc.text('Generado automáticamente · Catálogo Análisis de Mercado', pW/2, pH-4, {align:'center'});
-      doc.setDrawColor(VERDE_PIE[0],VERDE_PIE[1],VERDE_PIE[2]); doc.setLineWidth(0.25);
-      doc.line(S.marL, pH-8, pW-S.marR, pH-8);
+      doc.setFontSize(S.fsPie); doc.setTextColor(150, 150, 150); doc.setFont('helvetica', 'normal');
+      doc.text('Generado automáticamente · Catálogo Análisis de Mercado', pW / 2, pH - 4, { align: 'center' });
+      doc.setDrawColor(VERDE_PIE[0], VERDE_PIE[1], VERDE_PIE[2]); doc.setLineWidth(0.25);
+      doc.line(S.marL, pH - 8, pW - S.marR, pH - 8);
 
-      var fname = (cod?cod+'_':'') + 'Plan_Inversion.pdf';
+      var fname = (cod ? cod + '_' : '') + 'Plan_Inversion.pdf';
       doc.save(fname);
       cerrarExport();
       mostrarToast('PDF generado correctamente.', '', '📄', 4000);
@@ -2573,44 +2566,44 @@
       var upD = window._upData || {};  // ← siempre disponible
 
       var pedido = {
-        codigo_iniciativa:  cod,
-        nombre_up:          nombreUPActual || upD.unidad_nombre || '',
-        tipologia:          tipoNom,
+        codigo_iniciativa: cod,
+        nombre_up: nombreUPActual || upD.unidad_nombre || '',
+        tipologia: tipoNom,
         presupuesto_maximo: presupuestoMaximo,
         total_seleccionado: total,
-        saldo_disponible:   presupuestoMaximo - total,
-        fecha_generacion:   new Date().toISOString(),
-        fecha_legible:      new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' }),
+        saldo_disponible: presupuestoMaximo - total,
+        fecha_generacion: new Date().toISOString(),
+        fecha_legible: new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' }),
         // Datos completos de la UP desde el JSON validado
         datos_up: {
-          unidad_nombre:            upD.unidad_nombre            || '',
-          unidad_doc:               upD.unidad_doc               || '',
-          representante:            upD.representante            || '',
-          unidad_direccion:         upD.unidad_direccion         || '',
-          dpto:                     upD.dpto                     || '',
-          mpio:                     upD.mpio                     || '',
+          unidad_nombre: upD.unidad_nombre || '',
+          unidad_doc: upD.unidad_doc || '',
+          representante: upD.representante || '',
+          unidad_direccion: upD.unidad_direccion || '',
+          dpto: upD.dpto || '',
+          mpio: upD.mpio || '',
           registro_camara_comercio: upD.registro_camara_comercio || '',
-          unidad_sector:            upD.unidad_sector            || '',
-          modalidad:                upD.modalidad                || tipoNom,
+          unidad_sector: upD.unidad_sector || '',
+          modalidad: upD.modalidad || tipoNom,
         },
         productos: items.map(function (it) {
           return {
-            id:             it.producto.id,
-            nombre:         it.producto.nombre,
-            sector:         it.producto.sector,
-            sector_nombre:  sNom(it.producto.sector),
-            ciiu:           it.producto.ciiu    || '',
-            proceso:        it.producto.proceso || '',
-            tipo:           it.producto.tipo    || '',
+            id: it.producto.id,
+            nombre: it.producto.nombre,
+            sector: it.producto.sector,
+            sector_nombre: sNom(it.producto.sector),
+            ciiu: it.producto.ciiu || '',
+            proceso: it.producto.proceso || '',
+            tipo: it.producto.tipo || '',
             precio_unitario: it.producto.precio,
-            cantidad:        it.cantidad,
-            subtotal:        it.subtotal
+            cantidad: it.cantidad,
+            subtotal: it.subtotal
           };
         }),
         resumen: {
           total_productos: items.length,
-          total_unidades:  (function () { var n = 0; for (var i = 0; i < items.length; i++) n += items[i].cantidad; return n; })(),
-          total_cop:       total
+          total_unidades: (function () { var n = 0; for (var i = 0; i < items.length; i++) n += items[i].cantidad; return n; })(),
+          total_cop: total
         }
       };
 
@@ -2630,18 +2623,18 @@
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(pedido)
       })
-      .then(function(r) {
-        if (r.ok) mostrarToast('Plan enviado al servidor correctamente.', '', '✅', 4000);
-        else mostrarToast('No se pudo enviar al servidor. El coordinador debe subirlo manualmente.', 'warn', '⚠️', 6000);
-      })
-      .catch(function() {
-        mostrarToast('Sin conexión. El coordinador debe subir el JSON manualmente.', 'warn', '⚠️', 6000);
-      });
+        .then(function (r) {
+          if (r.ok) mostrarToast('Plan enviado al servidor correctamente.', '', '✅', 4000);
+          else mostrarToast('No se pudo enviar al servidor. El coordinador debe subirlo manualmente.', 'warn', '⚠️', 6000);
+        })
+        .catch(function () {
+          mostrarToast('Sin conexión. El coordinador debe subir el JSON manualmente.', 'warn', '⚠️', 6000);
+        });
 
       cerrarExport();
       mostrarToast('JSON del pedido generado correctamente.', '', '📦', 4000);
     }
-  
+
     function descargar(blob, name) { var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; a.click(); setTimeout(function () { URL.revokeObjectURL(a.href) }, 1000) }
 
     if (CATALOGO_DISPONIBLE) {
