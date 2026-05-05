@@ -1569,7 +1569,7 @@
       <div class="modal-body" style="padding:20px">
         <p class="export-info">📌 ¿Estás seguro de que ya agregaste todo lo que deseas incluir en este plan de
           inversión? Revisa productos y cantidades antes de descargar.</p>
-        <p class="export-info">⚠️ <b>ADVERTENCIA:</b> Sólo se puede cargar un plan FIRMADO en pdf por Unidad Productiva. </p>
+        <p class="export-info">⚠️ <b>ADVERTENCIA:</b> Sólo se puede cargar un plan de inversión FIRMADO en pdf por Unidad Productiva. </p>
         <button class="btn-export" id="btnDescargarPDF" style="margin-bottom:12px">📄 Descargar PDF del plan</button>
         <button class="btn-export" id="btnDescargarJSON" style="background:var(--verde2)">📦 Descargar JSON del
           pedido</button>
@@ -1701,7 +1701,7 @@
       { id: 'digital', nombre: 'Digital y Cultural', icon: '💻' },
       { id: 'alimentos', nombre: 'Alimentos y Oficios', icon: '🍽️' },
       { id: 'bls', nombre: 'Belleza', icon: '✂️' },
-      { id: 'cotizar', nombre: 'Cotizar', icon: '📝' }
+      { id: 'cotizar', nombre: 'Otros Productos', icon: '📝' }
     ];
 
     var PM = {}; for (var i = 0; i < CATALOGO_PRODUCTOS.length; i++) PM[CATALOGO_PRODUCTOS[i].id] = CATALOGO_PRODUCTOS[i];
@@ -1930,8 +1930,8 @@
 
       sec.innerHTML =
         '<div class="cotizar-header">' +
-        '<div class="cotizar-header-title">📝 COTIZAR</div>' +
-        '<div class="cotizar-header-desc">Para los ítems que <strong>no están en el catálogo</strong> debemos buscar las <strong>COTIZACIONES de 3 proveedores</strong>. <strong>ESO PUEDE TOMAR BASTANTE TIEMPO</strong>, entonces debemos ser pacientes.</div>' +
+        '<div class="cotizar-header-title">📝 Solicitar otros productos</div>' +
+        '<div class="cotizar-header-desc">En esta sección se pueden adicionar nuevos items que <strong>NO están en el catálogo.</strong>  Recuerda que se deben entregar <strong> 3 COTIZACIONES de proveedores formales</strong>. <strong>ESO PUEDE TOMAR BASTANTE TIEMPO</strong>, entonces debemos ser pacientes.</div>' +
         '</div>' +
         itemsHtml +
         resumenHtml;
