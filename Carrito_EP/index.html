@@ -2555,7 +2555,24 @@
       doc.save(fname);
       cerrarExport();
       mostrarToast('PDF generado correctamente.', '', '📄', 4000);
-    }
+      // Enviar JSON al servidor automáticamente
+      var BOT_URL = 'https://bot-captura-docs-f6e8fsejb9a7fgac.centralus-01.azurewebsites.net/api/recibir_carrito';
+      var pedidoAuto = {
+        codigo_iniciativa: cod, nombre_up: nombreUPActual || upD.unidad_nombre || '',
+        tipologia: tipoNom, presupuesto_maximo: presupuestoMaximo,
+        total_seleccionado: total, fecha_generacion: new Date().toISOString(),
+        datos_up: { unidad_nombre: upD.unidad_nombre||'', unidad_doc: upD.unidad_doc||'',
+          representante: upD.representante||'', unidad_direccion: upD.unidad_direccion||'',
+          dpto: upD.dpto||'', mpio: upD.mpio||'', registro_camara_comercio: upD.registro_camara_comercio||'',
+          unidad_sector: upD.unidad_sector||'', modalidad: upD.modalidad||tipoNom },
+        productos: items.map(function(it){ return { id: it.producto.id, nombre: it.producto.nombre,
+          sector: it.producto.sector, sector_nombre: sNom(it.producto.sector),
+          ciiu: it.producto.ciiu||'', proceso: it.producto.proceso||'', tipo: it.producto.tipo||'',
+          precio_unitario: it.producto.precio, cantidad: it.cantidad, subtotal: it.subtotal }; })
+      };
+      fetch(BOT_URL, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(pedidoAuto) })
+        .then(function(r){ if(r.ok) mostrarToast('Plan registrado en el servidor.','','✅',3000); })
+        .catch(function(){ });
 
     // ── Exportar JSON ─────────────────────────────────────────
     function exportarJSON() {
