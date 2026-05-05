@@ -217,6 +217,7 @@
         <div class="pres-actions">
           <button class="btn-actualizar-catalogo" id="btnActualizarCatalogoMini">↻ Actualizar</button>
           <button class="btn-cambiar-tipo" id="btnCambiar">↑ Cambiar UP</button>
+          <button class="btn-cambiar-tipo" id="btnAbrirValidarPDF" style="background:rgba(240,180,41,.2);border-color:var(--acento);color:var(--acento)">📋 Validar PDF</button>
         </div>
       </div>
     </div>
@@ -269,6 +270,55 @@
         <p class="export-info">📌 ¿Estás seguro de que ya agregaste todo lo que deseas incluir en este plan de inversión? Revisa productos y cantidades antes de descargar.</p>
         <button class="btn-export" id="btnDescargarPDF" style="margin-bottom:12px">📄 Descargar PDF del plan</button>
         <button class="btn-export" id="btnDescargarJSON" style="background:var(--verde2)">📦 Descargar JSON del pedido</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay" id="overlayValidarPDF">
+    <div class="modal">
+      <div class="modal-handle"></div>
+      <div class="modal-head">
+        <h2>📋 Validar PDF firmado</h2>
+        <button class="modal-close" data-close="validarPDF">✕</button>
+      </div>
+      <div class="modal-body" style="padding:20px">
+        <div id="vPDF-upload">
+          <div class="field" style="margin-bottom:16px">
+            <label style="font-size:.78rem;font-weight:700;color:var(--gris);text-transform:uppercase;display:block;margin-bottom:6px">Código de la iniciativa</label>
+            <input type="text" id="vPDF-codigo" placeholder="Ej: 1006..." style="width:100%;padding:12px 14px;border:1.5px solid var(--borde);border-radius:8px;font-size:.95rem;font-family:inherit;background:var(--bg);outline:none">
+          </div>
+          <p style="font-size:.85rem;color:#555;line-height:1.55;margin-bottom:16px">
+            Sube el PDF del plan de inversión firmado por el representante. Verificamos productos y firma.
+          </p>
+          <div id="vPDF-dropzone" style="border:2px dashed var(--borde);border-radius:12px;padding:28px 16px;text-align:center;cursor:pointer;background:var(--bg);margin-bottom:14px" onclick="document.getElementById('vPDF-input').click()">
+            <div style="font-size:2rem;margin-bottom:6px">📄</div>
+            <div style="font-size:.9rem;font-weight:600;color:var(--gris)">Toca para seleccionar el PDF</div>
+            <div style="font-size:.75rem;color:var(--gris);margin-top:4px">Solo archivos .pdf</div>
+          </div>
+          <input type="file" id="vPDF-input" accept=".pdf" style="display:none">
+          <div id="vPDF-nombre" style="font-size:.82rem;color:var(--verde);font-weight:600;margin-bottom:14px;display:none;text-align:center"></div>
+          <button class="btn-export" id="vPDF-btnValidar" disabled style="opacity:.4">🔍 Validar documento</button>
+        </div>
+
+        <div id="vPDF-procesando" style="display:none;text-align:center;padding:30px 0">
+          <div style="font-size:2.2rem;margin-bottom:10px">⏳</div>
+          <div style="font-weight:700;margin-bottom:6px">Analizando el documento…</div>
+          <div style="font-size:.82rem;color:var(--gris)">Leyendo PDF y verificando productos. Hasta 30 segundos.</div>
+        </div>
+
+        <div id="vPDF-resultado" style="display:none">
+          <div id="vPDF-resCard" style="border-radius:12px;padding:16px;margin-bottom:14px;text-align:center">
+            <div id="vPDF-resIcono" style="font-size:2.5rem;margin-bottom:8px"></div>
+            <div id="vPDF-resTitulo" style="font-size:1.1rem;font-weight:800;margin-bottom:6px"></div>
+            <div id="vPDF-resObs" style="font-size:.85rem;line-height:1.5;opacity:.85"></div>
+          </div>
+          <div id="vPDF-detalleItems" style="margin-bottom:14px"></div>
+          <div id="vPDF-firmaRow" style="display:flex;align-items:center;gap:8px;padding:10px 14px;background:var(--bg);border-radius:8px;border:1.5px solid var(--borde);font-size:.85rem;margin-bottom:16px">
+            <span id="vPDF-firmaIcono" style="font-size:1.3rem"></span>
+            <span id="vPDF-firmaTxt"></span>
+          </div>
+          <button class="btn-export" id="vPDF-btnReintentar" style="background:var(--verde2)">🔄 Validar otro PDF</button>
+        </div>
       </div>
     </div>
   </div>
@@ -906,6 +956,143 @@
       a.click();
       setTimeout(function () { URL.revokeObjectURL(a.href) }, 1000)
     }
+
+    // ──────────────────────────────────────────────────────────────────
+    // VALIDADOR DE PDF FIRMADO
+    // ──────────────────────────────────────────────────────────────────
+    var BOT_VALIDAR_PDF = 'https://bot-captura-docs-f6e8fsejb9a7fgac.centralus-01.azurewebsites.net/api/validar_plan_pdf';
+    var vPDF_archivoBase64 = null;
+
+    function abrirValidarPDF() {
+      vPDF_archivoBase64 = null;
+      document.getElementById('vPDF-upload').style.display = 'block';
+      document.getElementById('vPDF-procesando').style.display = 'none';
+      document.getElementById('vPDF-resultado').style.display = 'none';
+      document.getElementById('vPDF-nombre').style.display = 'none';
+      document.getElementById('vPDF-input').value = '';
+      document.getElementById('vPDF-btnValidar').disabled = true;
+      document.getElementById('vPDF-btnValidar').style.opacity = '.4';
+      // Pre-llenar código si hay uno activo
+      var codInput = document.getElementById('vPDF-codigo');
+      if (codigoIniciativaActual) codInput.value = codigoIniciativaActual;
+      document.getElementById('overlayValidarPDF').classList.add('open');
+    }
+
+    function cerrarValidarPDF() {
+      document.getElementById('overlayValidarPDF').classList.remove('open');
+    }
+
+    document.getElementById('btnAbrirValidarPDF').addEventListener('click', abrirValidarPDF);
+
+    document.addEventListener('click', function (e) {
+      var cb = e.target.closest('.modal-close');
+      if (cb && cb.getAttribute('data-close') === 'validarPDF') cerrarValidarPDF();
+      if (e.target === document.getElementById('overlayValidarPDF')) cerrarValidarPDF();
+    });
+
+    document.getElementById('vPDF-input').addEventListener('change', function (e) {
+      var file = e.target.files[0];
+      if (!file) return;
+      if (file.type !== 'application/pdf') {
+        mostrarToast('Solo archivos PDF.', 'error', '❌', 4000);
+        return;
+      }
+      var nombreEl = document.getElementById('vPDF-nombre');
+      nombreEl.textContent = '📄 ' + file.name;
+      nombreEl.style.display = 'block';
+      var reader = new FileReader();
+      reader.onload = function (ev) {
+        vPDF_archivoBase64 = ev.target.result.split(',')[1];
+        var btn = document.getElementById('vPDF-btnValidar');
+        btn.disabled = false;
+        btn.style.opacity = '1';
+      };
+      reader.readAsDataURL(file);
+    });
+
+    document.getElementById('vPDF-btnValidar').addEventListener('click', function () {
+      if (!vPDF_archivoBase64) return;
+      var codigo = document.getElementById('vPDF-codigo').value.trim() || codigoIniciativaActual;
+      if (!codigo) {
+        mostrarToast('Ingresa el código de la iniciativa.', 'error', '❌', 5000);
+        return;
+      }
+      document.getElementById('vPDF-upload').style.display = 'none';
+      document.getElementById('vPDF-procesando').style.display = 'block';
+      document.getElementById('vPDF-resultado').style.display = 'none';
+
+      fetch(BOT_VALIDAR_PDF, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ codigo_iniciativa: codigo, pdf_base64: vPDF_archivoBase64 })
+      })
+        .then(function (r) { return r.json(); })
+        .then(function (data) { mostrarResultadoValidacion(data); })
+        .catch(function () {
+          mostrarResultadoValidacion({
+            resultado_general: 'REVISION_MANUAL',
+            observaciones: 'Error de conexión.',
+            items_encontrados: [], items_faltantes: [],
+            tiene_firma: false, observacion_firma: ''
+          });
+        });
+    });
+
+    function mostrarResultadoValidacion(data) {
+      document.getElementById('vPDF-procesando').style.display = 'none';
+      document.getElementById('vPDF-upload').style.display = 'none';
+      document.getElementById('vPDF-resultado').style.display = 'block';
+      var res = data.resultado_general || 'REVISION_MANUAL';
+      var card = document.getElementById('vPDF-resCard');
+      var iconoEl = document.getElementById('vPDF-resIcono');
+      var titEl = document.getElementById('vPDF-resTitulo');
+      var obsEl = document.getElementById('vPDF-resObs');
+      if (res === 'APROBADO') {
+        card.style.background = '#f0fff4'; card.style.border = '2px solid #38a169';
+        iconoEl.textContent = '✅'; titEl.textContent = 'Documento aprobado'; titEl.style.color = '#276749';
+      } else if (res === 'RECHAZADO') {
+        card.style.background = '#fff5f5'; card.style.border = '2px solid #e53e3e';
+        iconoEl.textContent = '❌'; titEl.textContent = 'Documento rechazado'; titEl.style.color = '#c53030';
+      } else {
+        card.style.background = '#fffbeb'; card.style.border = '2px solid #d69e2e';
+        iconoEl.textContent = '⚠️'; titEl.textContent = 'Requiere revisión manual'; titEl.style.color = '#7b5e0a';
+      }
+      obsEl.textContent = data.observaciones || '';
+
+      var det = document.getElementById('vPDF-detalleItems');
+      var encontrados = data.items_encontrados || [];
+      var faltantes = data.items_faltantes || [];
+      var html = '';
+      if (encontrados.length) {
+        html += '<div style="font-size:.78rem;font-weight:700;color:#276749;margin-bottom:4px">✅ Encontrados (' + encontrados.length + ')</div>';
+        for (var i = 0; i < Math.min(encontrados.length, 5); i++) html += '<div style="font-size:.75rem;color:#555;padding:2px 0 2px 10px">• ' + encontrados[i] + '</div>';
+        if (encontrados.length > 5) html += '<div style="font-size:.72rem;color:var(--gris);padding-left:10px">y ' + (encontrados.length - 5) + ' más…</div>';
+      }
+      if (faltantes.length) {
+        html += '<div style="font-size:.78rem;font-weight:700;color:#c53030;margin-top:8px;margin-bottom:4px">❌ No encontrados (' + faltantes.length + ')</div>';
+        for (var j = 0; j < Math.min(faltantes.length, 5); j++) html += '<div style="font-size:.75rem;color:#555;padding:2px 0 2px 10px">• ' + faltantes[j] + '</div>';
+        if (faltantes.length > 5) html += '<div style="font-size:.72rem;color:var(--gris);padding-left:10px">y ' + (faltantes.length - 5) + ' más…</div>';
+      }
+      det.innerHTML = html;
+
+      document.getElementById('vPDF-firmaIcono').textContent = data.tiene_firma ? '✍️' : '⚠️';
+      document.getElementById('vPDF-firmaTxt').textContent = data.tiene_firma
+        ? 'Firma detectada: ' + (data.observacion_firma || 'presente')
+        : 'Sin firma detectada: ' + (data.observacion_firma || 'no se encontró firma');
+      document.getElementById('vPDF-firmaRow').style.background = data.tiene_firma ? '#f0fff4' : '#fff5f5';
+      document.getElementById('vPDF-firmaRow').style.borderColor = data.tiene_firma ? '#38a169' : '#e53e3e';
+    }
+
+    document.getElementById('vPDF-btnReintentar').addEventListener('click', function () {
+      vPDF_archivoBase64 = null;
+      document.getElementById('vPDF-upload').style.display = 'block';
+      document.getElementById('vPDF-resultado').style.display = 'none';
+      document.getElementById('vPDF-procesando').style.display = 'none';
+      document.getElementById('vPDF-nombre').style.display = 'none';
+      document.getElementById('vPDF-input').value = '';
+      document.getElementById('vPDF-btnValidar').disabled = true;
+      document.getElementById('vPDF-btnValidar').style.opacity = '.4';
+    });
 
     // ──────────────────────────────────────────────────────────────────
     // INICIO
