@@ -2573,6 +2573,7 @@
       fetch(BOT_URL, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(pedidoAuto) })
         .then(function(r){ if(r.ok) mostrarToast('Plan registrado en el servidor.','','✅',3000); })
         .catch(function(){ });
+    }
 
     // ── Exportar JSON ─────────────────────────────────────────
     function exportarJSON() {
