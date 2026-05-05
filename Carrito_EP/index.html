@@ -414,6 +414,24 @@
       border-bottom-color: var(--verde)
     }
 
+    /* Cotizar tab special style */
+    .btn-sector[data-sector="cotizar"] {
+      color: #7b5e0a;
+    }
+    .btn-sector[data-sector="cotizar"].active {
+      color: #7b5e0a;
+      border-bottom-color: var(--acento);
+      background: #fffbeb;
+    }
+    .btn-sector[data-sector="cotizar"] .cat-count {
+      background: #fef3c7;
+      color: #7b5e0a;
+    }
+    .btn-sector[data-sector="cotizar"].active .cat-count {
+      background: #fde68a;
+      color: #7b5e0a;
+    }
+
     .cat-count {
       font-size: .65rem;
       background: var(--bg);
@@ -1205,6 +1223,227 @@
       color: var(--texto);
       border: 1.5px solid var(--borde)
     }
+
+    /* ═══════════════════════════════════════════════
+       SECCIÓN COTIZAR — estilos propios
+    ═══════════════════════════════════════════════ */
+    #seccionCotizar {
+      display: none;
+      padding: 14px 12px 24px;
+      grid-column: 1 / -1;
+    }
+
+    #seccionCotizar.visible {
+      display: block;
+    }
+
+    .cotizar-header {
+      background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+      border: 1.5px solid #fbbf24;
+      border-radius: 14px;
+      padding: 16px 16px 14px;
+      margin-bottom: 18px;
+    }
+
+    .cotizar-header-title {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: #78350f;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+
+    .cotizar-header-desc {
+      font-size: .82rem;
+      color: #92400e;
+      line-height: 1.6;
+    }
+
+    .cotizar-header-desc strong {
+      font-weight: 700;
+    }
+
+    .cotizar-item-card {
+      background: #fff;
+      border: 1.5px solid var(--borde);
+      border-radius: 14px;
+      margin-bottom: 14px;
+      overflow: hidden;
+      box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    }
+
+    .cotizar-item-header {
+      background: var(--verde);
+      color: #fff;
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .cotizar-item-num {
+      font-size: .85rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .cotizar-item-filled {
+      font-size: .7rem;
+      background: #6ee7a0;
+      color: #064e3b;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-weight: 700;
+      display: none;
+    }
+
+    .cotizar-item-filled.visible {
+      display: inline-block;
+    }
+
+    .cotizar-item-body {
+      padding: 14px;
+    }
+
+    .cotizar-field {
+      margin-bottom: 12px;
+    }
+
+    .cotizar-field:last-child {
+      margin-bottom: 0;
+    }
+
+    .cotizar-label {
+      font-size: .73rem;
+      font-weight: 700;
+      color: var(--gris);
+      text-transform: uppercase;
+      letter-spacing: .3px;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .cotizar-label span {
+      color: var(--rojo);
+      font-weight: 800;
+    }
+
+    .cotizar-input,
+    .cotizar-textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1.5px solid var(--borde);
+      border-radius: 8px;
+      font-size: .9rem;
+      font-family: inherit;
+      background: var(--bg);
+      color: var(--texto);
+      outline: none;
+      transition: border-color .2s;
+    }
+
+    .cotizar-input:focus,
+    .cotizar-textarea:focus {
+      border-color: var(--acento);
+      background: #fff;
+    }
+
+    .cotizar-textarea {
+      resize: vertical;
+      min-height: 72px;
+      line-height: 1.5;
+    }
+
+    .cotizar-input::placeholder,
+    .cotizar-textarea::placeholder {
+      color: #bbb;
+      font-size: .85rem;
+    }
+
+    .cotizar-garantia-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .cotizar-input-num {
+      width: 90px;
+      flex-shrink: 0;
+    }
+
+    .cotizar-garantia-unit {
+      font-size: .8rem;
+      color: var(--gris);
+      white-space: nowrap;
+    }
+
+    .cotizar-save-btn {
+      width: 100%;
+      margin-top: 14px;
+      padding: 12px;
+      background: var(--acento);
+      color: #1a2318;
+      border: none;
+      border-radius: 10px;
+      font-size: .92rem;
+      font-weight: 800;
+      font-family: inherit;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: opacity .2s;
+    }
+
+    .cotizar-save-btn:active {
+      opacity: .8;
+    }
+
+    .cotizar-resumen {
+      background: #f0fff4;
+      border: 1.5px solid #6ee7a0;
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin-top: 18px;
+    }
+
+    .cotizar-resumen-title {
+      font-size: .82rem;
+      font-weight: 800;
+      color: #064e3b;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .cotizar-resumen-item {
+      font-size: .8rem;
+      color: #065f46;
+      padding: 3px 0;
+      border-bottom: 1px solid #d1fae5;
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+    }
+
+    .cotizar-resumen-item:last-child {
+      border-bottom: none;
+    }
+
+    .cotizar-resumen-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #10b981;
+      flex-shrink: 0;
+      margin-top: 4px;
+    }
   </style>
 </head>
 
@@ -1282,7 +1521,11 @@
   <div class="cats-bar">
     <div class="cats-scroll" id="catsScroll"></div>
   </div>
+
+  <!-- Grid productos + sección cotizar comparten el mismo contenedor -->
   <div id="gridProductos"></div>
+  <div id="seccionCotizar"></div>
+
   <button id="cartFab">🛒 Ver selección <span class="cart-badge-fab" id="cartBadge">0</span><span class="cart-total-fab"
       id="cartTotalFab">$0</span></button>
 
@@ -1326,6 +1569,7 @@
       <div class="modal-body" style="padding:20px">
         <p class="export-info">📌 ¿Estás seguro de que ya agregaste todo lo que deseas incluir en este plan de
           inversión? Revisa productos y cantidades antes de descargar.</p>
+        <p class="export-info">⚠️ <b>ADVERTENCIA:</b> Sólo se puede cargar un plan FIRMADO en pdf por Unidad Productiva. </p>
         <button class="btn-export" id="btnDescargarPDF" style="margin-bottom:12px">📄 Descargar PDF del plan</button>
         <button class="btn-export" id="btnDescargarJSON" style="background:var(--verde2)">📦 Descargar JSON del
           pedido</button>
@@ -1456,7 +1700,8 @@
       { id: 'agro', nombre: 'Agropecuario', icon: '🌾' },
       { id: 'digital', nombre: 'Digital y Cultural', icon: '💻' },
       { id: 'alimentos', nombre: 'Alimentos y Oficios', icon: '🍽️' },
-      { id: 'bls', nombre: 'Belleza', icon: '✂️' }
+      { id: 'bls', nombre: 'Belleza', icon: '✂️' },
+      { id: 'cotizar', nombre: 'Cotizar', icon: '📝' }
     ];
 
     var PM = {}; for (var i = 0; i < CATALOGO_PRODUCTOS.length; i++) PM[CATALOGO_PRODUCTOS[i].id] = CATALOGO_PRODUCTOS[i];
@@ -1467,6 +1712,13 @@
     var carrito = {}, sectorActivo = 'todos', busqueda = '', ordenFiltrado = '', presupuestoMaximo = 0,
       codigoIniciativaActual = '', nombreUPActual = '', productosFiltrados = [],
       paginaActual = 0, POR_PAGINA = 20, timeoutBusqueda, detalleActual = null;
+
+    // ── Cotizar: hasta 5 ítems ─────────────────────────────────────────────
+    var COTIZAR_MAX = 5;
+    var cotizarItems = []; // array of { nombre, descripcion, brecha, garantia }
+    for (var ci = 0; ci < COTIZAR_MAX; ci++) {
+      cotizarItems.push({ nombre: '', descripcion: '', brecha: '', garantia: '' });
+    }
 
     var COP = new Intl.NumberFormat('es-CO', { style: 'currency', currency: 'COP', maximumFractionDigits: 0 });
     function norm(s) { return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '') }
@@ -1493,6 +1745,7 @@
         localStorage.setItem('analisis_mercado_codigo', codigoIniciativaActual);
         localStorage.setItem('analisis_mercado_nombreup', nombreUPActual);
         localStorage.setItem('analisis_mercado_version', CATALOGO_VERSION);
+        localStorage.setItem('analisis_mercado_cotizar', JSON.stringify(cotizarItems));
         if (window._upData && typeof window._upData === 'object') {
           localStorage.setItem('analisis_mercado_updata', JSON.stringify(window._upData));
         }
@@ -1506,11 +1759,29 @@
         var cod = localStorage.getItem('analisis_mercado_codigo');
         var nup = localStorage.getItem('analisis_mercado_nombreup');
         var upd = localStorage.getItem('analisis_mercado_updata');
+        var cot = localStorage.getItem('analisis_mercado_cotizar');
         if (c) { carrito = JSON.parse(c); if (!carrito || typeof carrito !== 'object') carrito = {} }
         if (p) presupuestoMaximo = parseInt(p) || 0;
         codigoIniciativaActual = normalizarCodigoIniciativa(cod);
         nombreUPActual = String(nup || '').trim();
         if (upd) { try { window._upData = JSON.parse(upd); } catch (e) { window._upData = {}; } } else { window._upData = window._upData || {}; }
+        if (cot) {
+          try {
+            var cotParsed = JSON.parse(cot);
+            if (Array.isArray(cotParsed)) {
+              for (var ci2 = 0; ci2 < COTIZAR_MAX; ci2++) {
+                if (cotParsed[ci2] && typeof cotParsed[ci2] === 'object') {
+                  cotizarItems[ci2] = {
+                    nombre: cotParsed[ci2].nombre || '',
+                    descripcion: cotParsed[ci2].descripcion || '',
+                    brecha: cotParsed[ci2].brecha || '',
+                    garantia: cotParsed[ci2].garantia || ''
+                  };
+                }
+              }
+            }
+          } catch (e) { }
+        }
       } catch (e) { carrito = {}; presupuestoMaximo = 0; codigoIniciativaActual = ''; nombreUPActual = ''; window._upData = {}; }
       if (presupuestoMaximo > 0) {
         document.getElementById('pantallaInicio').classList.add('oculta');
@@ -1532,20 +1803,52 @@
 
     function itemsDistintos() { var n = 0; for (var k in carrito) if (carrito[k] > 0 && PM[k]) n++; return n }
 
+    // Cuenta ítems de cotizar con al menos el nombre lleno
+    function cotizarLlenos() {
+      var n = 0;
+      for (var ci3 = 0; ci3 < cotizarItems.length; ci3++) {
+        if (cotizarItems[ci3].nombre.trim()) n++;
+      }
+      return n;
+    }
+
     function construirSectores() {
       var h = '';
       for (var i = 0; i < SECTORES.length; i++) {
         var s = SECTORES[i];
-        var cnt = s.id === 'seleccionados' ? itemsDistintos() : (SC[s.id] || 0);
+        var cnt;
+        if (s.id === 'seleccionados') cnt = itemsDistintos();
+        else if (s.id === 'cotizar') cnt = cotizarLlenos();
+        else cnt = SC[s.id] || 0;
         h += '<button class="btn-sector' + (s.id === 'todos' ? ' active' : '') + '" data-sector="' + s.id + '"><span>' + s.icon + '</span> ' + s.nombre + ' <span class="cat-count" id="cnt-' + s.id + '">' + cnt + '</span></button>'
       }
       document.getElementById('catsScroll').innerHTML = h
     }
 
-    function actualizarConteos() { var el = document.getElementById('cnt-seleccionados'); if (el) el.textContent = itemsDistintos() }
+    function actualizarConteos() {
+      var elSel = document.getElementById('cnt-seleccionados');
+      if (elSel) elSel.textContent = itemsDistintos();
+      var elCot = document.getElementById('cnt-cotizar');
+      if (elCot) elCot.textContent = cotizarLlenos();
+    }
 
     function aplicarFiltros() {
       paginaActual = 0; productosFiltrados = [];
+
+      // Ocultar/mostrar secciones según tab activo
+      var grid = document.getElementById('gridProductos');
+      var secCot = document.getElementById('seccionCotizar');
+
+      if (sectorActivo === 'cotizar') {
+        grid.style.display = 'none';
+        secCot.classList.add('visible');
+        renderCotizar();
+        return;
+      } else {
+        grid.style.display = '';
+        secCot.classList.remove('visible');
+      }
+
       for (var i = 0; i < CATALOGO_PRODUCTOS.length; i++) {
         var p = CATALOGO_PRODUCTOS[i];
         if (sectorActivo === 'seleccionados') { if (!(carrito[p.id] > 0)) continue }
@@ -1570,6 +1873,99 @@
       }
       if (totalPag > 1) h += '<div class="paginacion"><button class="pag-btn" id="pagPrev"' + (paginaActual === 0 ? ' disabled' : '') + '>← Anterior</button><span class="pag-info">' + (paginaActual + 1) + ' / ' + totalPag + '</span><button class="pag-btn" id="pagNext"' + (paginaActual >= totalPag - 1 ? ' disabled' : '') + '>Siguiente →</button></div>';
       grid.innerHTML = h;
+    }
+
+    // ═══════════════════════════════════════════════════════════════════
+    // RENDER SECCIÓN COTIZAR
+    // ═══════════════════════════════════════════════════════════════════
+    function renderCotizar() {
+      var sec = document.getElementById('seccionCotizar');
+
+      var resumenItems = [];
+      for (var ri = 0; ri < cotizarItems.length; ri++) {
+        if (cotizarItems[ri].nombre.trim()) resumenItems.push(cotizarItems[ri]);
+      }
+
+      var resumenHtml = '';
+      if (resumenItems.length > 0) {
+        resumenHtml = '<div class="cotizar-resumen"><div class="cotizar-resumen-title">✅ Ítems registrados (' + resumenItems.length + ')</div>';
+        for (var rj = 0; rj < resumenItems.length; rj++) {
+          resumenHtml += '<div class="cotizar-resumen-item"><span class="cotizar-resumen-dot"></span><span>' + esc(resumenItems[rj].nombre) + '</span></div>';
+        }
+        resumenHtml += '</div>';
+      }
+
+      var itemsHtml = '';
+      for (var idx = 0; idx < COTIZAR_MAX; idx++) {
+        var it = cotizarItems[idx];
+        var filled = it.nombre.trim() ? ' <span class="cotizar-item-filled visible">✓ Guardado</span>' : '<span class="cotizar-item-filled"></span>';
+        itemsHtml += '<div class="cotizar-item-card" id="cotizar-card-' + idx + '">' +
+          '<div class="cotizar-item-header">' +
+          '<span class="cotizar-item-num">📦 Ítem ' + (idx + 1) + filled + '</span>' +
+          '</div>' +
+          '<div class="cotizar-item-body">' +
+          '<div class="cotizar-field">' +
+          '<label class="cotizar-label">Nombre del ítem <span>*</span></label>' +
+          '<input class="cotizar-input" type="text" id="cot-nombre-' + idx + '" placeholder="Ej: Sierra circular profesional" value="' + esc(it.nombre) + '">' +
+          '</div>' +
+          '<div class="cotizar-field">' +
+          '<label class="cotizar-label">Descripción</label>' +
+          '<textarea class="cotizar-textarea" id="cot-desc-' + idx + '" placeholder="Características técnicas, marca referencia, tamaño, voltaje...">' + esc(it.descripcion) + '</textarea>' +
+          '</div>' +
+          '<div class="cotizar-field">' +
+          '<label class="cotizar-label">Brecha que ayuda a solventar este activo productivo</label>' +
+          '<textarea class="cotizar-textarea" id="cot-brecha-' + idx + '" placeholder="¿Qué problema o limitación productiva resuelve?">' + esc(it.brecha) + '</textarea>' +
+          '</div>' +
+          '<div class="cotizar-field">' +
+          '<label class="cotizar-label">Garantía (meses, si aplica)</label>' +
+          '<div class="cotizar-garantia-row">' +
+          '<input class="cotizar-input cotizar-input-num" type="number" min="0" id="cot-garantia-' + idx + '" placeholder="0" value="' + esc(it.garantia) + '">' +
+          '<span class="cotizar-garantia-unit">meses</span>' +
+          '</div>' +
+          '</div>' +
+          '<button class="cotizar-save-btn" data-cotizar-save="' + idx + '">💾 Guardar ítem ' + (idx + 1) + '</button>' +
+          '</div>' +
+          '</div>';
+      }
+
+      sec.innerHTML =
+        '<div class="cotizar-header">' +
+        '<div class="cotizar-header-title">📝 COTIZAR</div>' +
+        '<div class="cotizar-header-desc">Para los ítems que <strong>no están en el catálogo</strong> debemos buscar las <strong>COTIZACIONES de 3 proveedores</strong>. <strong>ESO PUEDE TOMAR BASTANTE TIEMPO</strong>, entonces debemos ser pacientes.</div>' +
+        '</div>' +
+        itemsHtml +
+        resumenHtml;
+
+      // Bind save buttons
+      var saveBtns = sec.querySelectorAll('[data-cotizar-save]');
+      for (var sb = 0; sb < saveBtns.length; sb++) {
+        (function(btn) {
+          btn.addEventListener('click', function() {
+            var idx2 = parseInt(this.getAttribute('data-cotizar-save'));
+            guardarItemCotizar(idx2);
+          });
+        })(saveBtns[sb]);
+      }
+    }
+
+    function guardarItemCotizar(idx) {
+      var nombre = (document.getElementById('cot-nombre-' + idx) || {}).value || '';
+      var desc = (document.getElementById('cot-desc-' + idx) || {}).value || '';
+      var brecha = (document.getElementById('cot-brecha-' + idx) || {}).value || '';
+      var garantia = (document.getElementById('cot-garantia-' + idx) || {}).value || '';
+
+      cotizarItems[idx] = {
+        nombre: nombre.trim(),
+        descripcion: desc.trim(),
+        brecha: brecha.trim(),
+        garantia: garantia.trim()
+      };
+
+      guardar();
+      actualizarConteos();
+      // Re-render para actualizar badge "Guardado"
+      renderCotizar();
+      mostrarToast('Ítem ' + (idx + 1) + ' guardado correctamente.', '', '💾', 3000);
     }
 
     document.getElementById('gridProductos').addEventListener('click', function (e) {
@@ -1686,13 +2082,28 @@
       });
     }
 
-    // ── Construir el objeto pedido (se usa para PDF, JSON y POST al bot) ──
+    // ── Construir el objeto pedido ──────────────────────────────────────────
     function construirPedido() {
       var cod = codigoIniciativaActual || normalizarCodigoIniciativa(document.getElementById('inputCodigoIniciativa').value);
       var tipoNom = obtenerTipoNom();
       var items = obtenerItemsCarrito();
       var total = totalCarrito();
       var upD = window._upData || {};
+
+      // Ítems de cotizar con nombre
+      var prodCotizar = [];
+      for (var ci4 = 0; ci4 < cotizarItems.length; ci4++) {
+        if (cotizarItems[ci4].nombre.trim()) {
+          prodCotizar.push({
+            numero_item: ci4 + 1,
+            nombre: cotizarItems[ci4].nombre,
+            descripcion: cotizarItems[ci4].descripcion,
+            brecha: cotizarItems[ci4].brecha,
+            garantia_meses: cotizarItems[ci4].garantia ? (parseInt(cotizarItems[ci4].garantia) || 0) : 0
+          });
+        }
+      }
+
       return {
         codigo_iniciativa: cod,
         nombre_up: nombreUPActual || upD.unidad_nombre || '',
@@ -1718,11 +2129,14 @@
             ciiu: it.producto.ciiu || '', proceso: it.producto.proceso || '', tipo: it.producto.tipo || '',
             precio_unitario: it.producto.precio, cantidad: it.cantidad, subtotal: it.subtotal
           };
-        })
+        }),
+        // ── COTIZAR ──────────────────────────────────────────────
+        cotizacion: prodCotizar.length > 0,
+        productos_cotizar: prodCotizar
       };
     }
 
-    // ── Enviar pedido al bot (tanto al exportar PDF como JSON) ────────────
+    // ── Enviar pedido al bot ──────────────────────────────────────────────
     function enviarPedidoAlBot(pedido) {
       fetch(BOT_RECIBIR_URL, {
         method: 'POST',
@@ -1879,6 +2293,7 @@
       var NEGRO = [26, 31, 46];
       var BLANCO = [255, 255, 255];
       var VERDE_PIE = [30, 92, 58];
+      var AMARILLO_HD = [254, 240, 138]; // para encabezado cotizar
 
       var idRows = [
         ['Nombre de la Unidad Productiva', upD.unidad_nombre || nombreUPActual || ''],
@@ -1896,6 +2311,9 @@
       var totalFinal = total + transporte;
       var MAX_FILAS = Math.max(items.length, 1);
 
+      // Ítems cotizar con nombre
+      var cotizarConNombre = pedido.productos_cotizar || [];
+
       function calcularAltura(sc) {
         var h = sc.marT;
         h += sc.encH + sc.gap;
@@ -1910,6 +2328,12 @@
         h += MAX_FILAS * sc.rowH;
         h += sc.rowH * 3;
         h += sc.gap;
+        // cotizar section
+        if (cotizarConNombre.length > 0) {
+          h += sc.thH; // cotizar header
+          h += cotizarConNombre.length * (sc.rowH * 3.5);
+          h += sc.gap;
+        }
         h += sc.firmasH;
         h += sc.marB;
         return h;
@@ -1983,7 +2407,7 @@
 
       var y = S.marT;
 
-      // ── Encabezado ────────────────────────────────────────────────────────────
+      // ── Encabezado ──────────────────────────────────────────────────────
       var encTxt = 'Universidad de Antioquia  |  Proyecto Interventoría iNNpulsa  |  ECONOMÍA POPULAR PARA EL CAMBIO  |  Plan de inversión';
       doc.setFillColor(BLANCO[0], BLANCO[1], BLANCO[2]);
       safeRect(S.marL, y, cW, S.encH, 'F'); border(S.marL, y, cW, S.encH);
@@ -1992,7 +2416,7 @@
       cell(encTxt, S.marL, y + S.encH * 0.65, cW, 'center');
       y += S.encH + S.gap;
 
-      // ── Identificación — encabezado ───────────────────────────────────────────
+      // ── Identificación — encabezado ─────────────────────────────────────
       doc.setFillColor(VERDE_HD[0], VERDE_HD[1], VERDE_HD[2]);
       safeRect(xL, y, wL, S.idHdr, 'F'); border(xL, y, wL, S.idHdr);
       safeRect(xR, y, wR, S.idHdr, 'F'); border(xR, y, wR, S.idHdr);
@@ -2002,7 +2426,7 @@
       cell('Respuestas', xR, y + S.idHdr * 0.7, wR, 'center');
       y += S.idHdr;
 
-      // ── Identificación — filas ────────────────────────────────────────────────
+      // ── Identificación — filas ──────────────────────────────────────────
       for (var r = 0; r < idRows.length; r++) {
         doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsId);
         var lblLines = doc.splitTextToSize(String(idRows[r][0] || ''), wL - 2.5);
@@ -2019,7 +2443,7 @@
       }
       y += S.gap;
 
-      // ── Tabla productos — encabezado ──────────────────────────────────────────
+      // ── Tabla productos — encabezado ────────────────────────────────────
       doc.setFillColor(VERDE_HD[0], VERDE_HD[1], VERDE_HD[2]);
       [[xT, wT], [xC, wC], [xI, wI], [xVU, wVU], [xVT, wVT]].forEach(function (p) {
         safeRect(p[0], y, p[1], S.thH, 'F'); border(p[0], y, p[1], S.thH);
@@ -2033,7 +2457,7 @@
       cell('V. Total', xVT, y + S.thH * 0.65, wVT, 'center');
       y += S.thH;
 
-      // ── Tabla productos — filas ───────────────────────────────────────────────
+      // ── Tabla productos — filas ─────────────────────────────────────────
       doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsProd);
       for (var i = 0; i < MAX_FILAS; i++) {
         var it = items[i] || null;
@@ -2056,7 +2480,7 @@
         y += rH;
       }
 
-      // ── Totales ───────────────────────────────────────────────────────────────
+      // ── Totales ─────────────────────────────────────────────────────────
       var totRows = [
         { lbl: 'TOTAL PLAN DE INVERSIÓN', val: COP.format(total), verde: true },
         { lbl: 'Transporte (M1)', val: COP.format(transporte), verde: false },
@@ -2078,7 +2502,58 @@
       }
       y += S.gap;
 
-      // ── Firmas ────────────────────────────────────────────────────────────────
+      // ── Sección COTIZAR en el PDF ────────────────────────────────────────
+      if (cotizarConNombre.length > 0) {
+        // Encabezado sección cotizar
+        doc.setFillColor(AMARILLO_HD[0], AMARILLO_HD[1], AMARILLO_HD[2]);
+        safeRect(S.marL, y, cW, S.thH, 'F'); border(S.marL, y, cW, S.thH);
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsProd);
+        doc.setTextColor(120, 53, 15);
+        cell('ÍTEMS A COTIZAR (no están en el catálogo — requieren 3 cotizaciones)', S.marL, y + S.thH * 0.65, cW, 'center');
+        y += S.thH;
+
+        // Columnas cotizar: Nombre | Descripción | Brecha | Garantía
+        var wCN = cW * 0.22, wCD = cW * 0.32, wCB = cW * 0.32, wCG = cW * 0.14;
+        var xCN = S.marL, xCD = xCN + wCN, xCB = xCD + wCD, xCG = xCB + wCB;
+
+        // Sub-encabezado columnas
+        doc.setFillColor(AMARILLO_HD[0], AMARILLO_HD[1], AMARILLO_HD[2]);
+        [[xCN, wCN], [xCD, wCD], [xCB, wCB], [xCG, wCG]].forEach(function(col) {
+          safeRect(col[0], y, col[1], S.thH * 0.85, 'F'); border(col[0], y, col[1], S.thH * 0.85);
+        });
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsProd * 0.88);
+        doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+        cell('Nombre', xCN, y + S.thH * 0.6, wCN, 'center');
+        cell('Descripción', xCD, y + S.thH * 0.6, wCD, 'center');
+        cell('Brecha productiva', xCB, y + S.thH * 0.6, wCB, 'center');
+        cell('Garantía', xCG, y + S.thH * 0.6, wCG, 'center');
+        y += S.thH * 0.85;
+
+        // Filas cotizar
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsProd * 0.9);
+        for (var ci5 = 0; ci5 < cotizarConNombre.length; ci5++) {
+          var cit = cotizarConNombre[ci5];
+          var cnLines = doc.splitTextToSize(cit.nombre || '', wCN - 2.4);
+          var cdLines = doc.splitTextToSize(cit.descripcion || '', wCD - 2.4);
+          var cbLines = doc.splitTextToSize(cit.brecha || '', wCB - 2.4);
+          var maxL = Math.max(cnLines.length, cdLines.length, cbLines.length, 1);
+          var cotRowH = Math.max(S.rowH * 2, 2 + maxL * S.lineH + 2);
+          doc.setFillColor(BLANCO[0], BLANCO[1], BLANCO[2]);
+          [[xCN, wCN], [xCD, wCD], [xCB, wCB], [xCG, wCG]].forEach(function(col) {
+            safeRect(col[0], y, col[1], cotRowH, 'F'); border(col[0], y, col[1], cotRowH);
+          });
+          doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+          for (var li2 = 0; li2 < cnLines.length; li2++) doc.text(cnLines[li2], xCN + 1.2, y + 2 + (li2 + 0.8) * S.lineH);
+          for (var li3 = 0; li3 < cdLines.length; li3++) doc.text(cdLines[li3], xCD + 1.2, y + 2 + (li3 + 0.8) * S.lineH);
+          for (var li4 = 0; li4 < cbLines.length; li4++) doc.text(cbLines[li4], xCB + 1.2, y + 2 + (li4 + 0.8) * S.lineH);
+          var garTxt = cit.garantia_meses > 0 ? cit.garantia_meses + ' meses' : 'N/A';
+          cell(garTxt, xCG, y + cotRowH / 2 + 1, wCG, 'center');
+          y += cotRowH;
+        }
+        y += S.gap;
+      }
+
+      // ── Firmas ──────────────────────────────────────────────────────────
       var wF = cW / 2, xF1 = S.marL, xF2 = S.marL + wF;
       var fLY = y + S.firmasH * 0.4;
       var fTY = fLY + S.firmasH * 0.12;
@@ -2086,7 +2561,6 @@
       doc.setDrawColor(NEGRO[0], NEGRO[1], NEGRO[2]); doc.setLineWidth(0.35);
       doc.line(xF1 + 4, fLY, xF1 + wF - 4, fLY);
       doc.line(xF2 + 4, fLY, xF2 + wF - 4, fLY);
-      // Nombre del gestor justo encima de la línea derecha
       if (nombreGestor) {
         doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsFirma);
         doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
@@ -2102,7 +2576,7 @@
       cell('CONSULTOR DESIGNADO', xF2, fTY, wF, 'center');
       y += S.firmasH * 0.55;
 
-      // ── Nombre UP ─────────────────────────────────────────────────────────────
+      // ── Nombre UP ────────────────────────────────────────────────────────
       doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsFirma);
       var labelNom = 'NOMBRE UNIDAD PRODUCTIVA: ';
       var wLblNom = doc.getTextWidth(labelNom);
@@ -2113,14 +2587,14 @@
       for (var nv = 1; nv < nomValLines.length; nv++) { y += S.lineH; doc.text(nomValLines[nv], S.marL + wLblNom, y + 4); }
       y += S.firmasH * 0.22;
 
-      // ── Fecha ─────────────────────────────────────────────────────────────────
+      // ── Fecha ─────────────────────────────────────────────────────────────
       doc.setFont('helvetica', 'bold');
       var labelFec = 'FECHA: ';
       doc.text(labelFec, S.marL, y + 4);
       doc.setFont('helvetica', 'normal');
       doc.text(fecha, S.marL + doc.getTextWidth(labelFec), y + 4);
 
-      // ── Pie ───────────────────────────────────────────────────────────────────
+      // ── Pie ───────────────────────────────────────────────────────────────
       doc.setFontSize(S.fsPie); doc.setTextColor(150, 150, 150); doc.setFont('helvetica', 'normal');
       doc.text('Generado automáticamente · Catálogo Análisis de Mercado', pW / 2, pH - 4, { align: 'center' });
       doc.setDrawColor(VERDE_PIE[0], VERDE_PIE[1], VERDE_PIE[2]); doc.setLineWidth(0.25);
@@ -2131,9 +2605,10 @@
       cerrarExport();
       mostrarToast('PDF generado correctamente.', '', '📄', 4000);
 
-      // Enviar al servidor automáticamente al descargar el PDF
+      // Enviar al servidor automáticamente
       enviarPedidoAlBot(pedido);
     }
+
     // ──────────────────────────────────────────────────────────────────
     // EXPORTAR JSON
     // ──────────────────────────────────────────────────────────────────
@@ -2144,10 +2619,7 @@
       var blob = new Blob([jsonStr], { type: 'application/json;charset=utf-8;' });
       var fname = (cod ? cod + '_' : '') + 'Pedido.json';
       descargar(blob, fname);
-
-      // Enviar al servidor también
       enviarPedidoAlBot(pedido);
-
       cerrarExport();
       mostrarToast('JSON del pedido generado correctamente.', '', '📦', 4000);
     }
@@ -2175,7 +2647,6 @@
       document.getElementById('vPDF-input').value = '';
       document.getElementById('vPDF-btnValidar').disabled = true;
       document.getElementById('vPDF-btnValidar').style.opacity = '.4';
-      // Pre-llenar código si hay uno activo
       var codInput = document.getElementById('vPDF-codigo');
       if (codigoIniciativaActual) codInput.value = codigoIniciativaActual;
       document.getElementById('overlayValidarPDF').classList.add('open');
