@@ -2138,7 +2138,7 @@
     });
 
     document.getElementById('btnDescargarPDF').addEventListener('click', function () { ejecutarExportConDatos('pdf') });
-    document.getElementById('btnDescargarJSON').addEventListener('click', function () { ejecutarExportConDatos('json') });
+    // document.getElementById('btnDescargarJSON').addEventListener('click', function () { ejecutarExportConDatos('json') });
     document.getElementById('detalleFoot').addEventListener('click', function (e) {
       var btn = e.target.closest('[data-action]'); if (!btn) return;
       cambiarCantDetalle(btn.getAttribute('data-id'), btn.getAttribute('data-action') === 'sumar' ? 1 : -1)
