@@ -414,7 +414,6 @@
       border-bottom-color: var(--verde)
     }
 
-    /* Cotizar tab special style */
     .btn-sector[data-sector="cotizar"] {
       color: #7b5e0a;
     }
@@ -898,6 +897,58 @@
       max-height: 90dvh
     }
 
+    /* ── NUEVO: banner objetivo plan dentro del modal carrito ── */
+    .objetivo-plan-banner {
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      border-bottom: 1.5px solid #bae6fd;
+      padding: 14px 20px 16px;
+      flex-shrink: 0;
+    }
+
+    .objetivo-plan-title {
+      font-size: .78rem;
+      font-weight: 800;
+      color: #0369a1;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .objetivo-plan-pregunta {
+      font-size: .82rem;
+      color: #0c4a6e;
+      line-height: 1.5;
+      margin-bottom: 10px;
+    }
+
+    .objetivo-plan-textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1.5px solid #bae6fd;
+      border-radius: 8px;
+      font-size: .88rem;
+      font-family: inherit;
+      background: #fff;
+      color: var(--texto);
+      outline: none;
+      resize: vertical;
+      min-height: 80px;
+      line-height: 1.5;
+      transition: border-color .2s;
+    }
+
+    .objetivo-plan-textarea:focus {
+      border-color: #0ea5e9;
+    }
+
+    .objetivo-plan-textarea::placeholder {
+      color: #94a3b8;
+      font-size: .83rem;
+    }
+
     .carrito-item {
       display: flex;
       flex-direction: column;
@@ -1305,7 +1356,6 @@
       display: inline-block;
     }
 
-    /* ── NUEVO: botón eliminar ítem ── */
     .cotizar-item-remove {
       background: rgba(255,255,255,.18);
       border: 1px solid rgba(255,255,255,.3);
@@ -1421,7 +1471,6 @@
       opacity: .8;
     }
 
-    /* ── NUEVO: botón agregar ítem ── */
     .cotizar-add-btn {
       width: 100%;
       margin-top: 4px;
@@ -1568,7 +1617,6 @@
     <div class="cats-scroll" id="catsScroll"></div>
   </div>
 
-  <!-- Grid productos + sección cotizar comparten el mismo contenedor -->
   <div id="gridProductos"></div>
   <div id="seccionCotizar"></div>
 
@@ -1591,6 +1639,12 @@
       <div class="modal-handle"></div>
       <div class="modal-head">
         <h2>🛒 Tu selección</h2><button class="modal-close" data-close="carrito">✕</button>
+      </div>
+      <!-- NUEVO: Banner objetivo plan -->
+      <div class="objetivo-plan-banner">
+        <div class="objetivo-plan-title">🎯 Objetivo del plan</div>
+        <div class="objetivo-plan-pregunta">¿Cuáles son los resultados esperados en términos de asociatividad, fortalecimiento de productos y servicios, encadenamientos productivos y/o comercialización?</div>
+        <textarea class="objetivo-plan-textarea" id="objetivoPlanTexto" placeholder="Describe los resultados esperados de tu plan de inversión..."></textarea>
       </div>
       <div class="modal-body">
         <div id="carritoBody"></div>
@@ -1617,8 +1671,6 @@
           inversión? Revisa productos y cantidades antes de descargar.</p>
         <p class="export-info">⚠️ <b>ADVERTENCIA:</b> Sólo se puede cargar un plan de inversión FIRMADO en pdf por Unidad Productiva. </p>
         <button class="btn-export" id="btnDescargarPDF" style="margin-bottom:12px">📄 Descargar PDF del plan</button>
-        <!-- <button class="btn-export" id="btnDescargarJSON" style="background:var(--verde2)">📦 Descargar JSON del
-          pedido</button> -->
       </div>
     </div>
   </div>
@@ -1698,8 +1750,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="./productos.js"></script>
   <script>
-    // ───────────────────────────────────────────────────────────────────────
-    // CONFIG: URL del bot para registrar el carrito automáticamente
     var BOT_RECIBIR_URL = 'https://bot-captura-docs-f6e8fsejb9a7fgac.centralus-01.azurewebsites.net/api/recibir_carrito';
 
     // ── Toast ──────────────────────────────────────────────
@@ -1759,11 +1809,13 @@
       codigoIniciativaActual = '', nombreUPActual = '', productosFiltrados = [],
       paginaActual = 0, POR_PAGINA = 20, timeoutBusqueda, detalleActual = null;
 
-    // ── Cotizar: máximo 3, comienza con 1 ítem visible ────────────────────
+    // ── NUEVO: objetivo del plan ──────────────────────────────
+    var objetivoPlanTexto = '';
+
+    // ── Cotizar ────────────────────────────────────────────────
     var COTIZAR_MAX = 3;
-    // cotizarItems almacena todos los datos; cotizarVisible indica cuántos se muestran
     var cotizarItems = [];
-    var cotizarVisible = 1; // ← CAMBIADO: inicia mostrando solo 1
+    var cotizarVisible = 1;
     for (var ci = 0; ci < COTIZAR_MAX; ci++) {
       cotizarItems.push({ nombre: '', descripcion: '', brecha: '', garantia: '' });
     }
@@ -1794,7 +1846,9 @@
         localStorage.setItem('analisis_mercado_nombreup', nombreUPActual);
         localStorage.setItem('analisis_mercado_version', CATALOGO_VERSION);
         localStorage.setItem('analisis_mercado_cotizar', JSON.stringify(cotizarItems));
-        localStorage.setItem('analisis_mercado_cotizar_visible', String(cotizarVisible)); // ← NUEVO
+        localStorage.setItem('analisis_mercado_cotizar_visible', String(cotizarVisible));
+        // ── NUEVO: guardar objetivo plan ──
+        localStorage.setItem('analisis_mercado_objetivo', objetivoPlanTexto);
         if (window._upData && typeof window._upData === 'object') {
           localStorage.setItem('analisis_mercado_updata', JSON.stringify(window._upData));
         }
@@ -1809,7 +1863,11 @@
         var nup = localStorage.getItem('analisis_mercado_nombreup');
         var upd = localStorage.getItem('analisis_mercado_updata');
         var cot = localStorage.getItem('analisis_mercado_cotizar');
-        var cotVis = localStorage.getItem('analisis_mercado_cotizar_visible'); // ← NUEVO
+        var cotVis = localStorage.getItem('analisis_mercado_cotizar_visible');
+        // ── NUEVO: cargar objetivo plan ──
+        var obj = localStorage.getItem('analisis_mercado_objetivo');
+        if (obj) objetivoPlanTexto = String(obj);
+
         if (c) { carrito = JSON.parse(c); if (!carrito || typeof carrito !== 'object') carrito = {} }
         if (p) presupuestoMaximo = parseInt(p) || 0;
         codigoIniciativaActual = normalizarCodigoIniciativa(cod);
@@ -1832,12 +1890,10 @@
             }
           } catch (e) { }
         }
-        // ← NUEVO: restaurar cuántos ítems eran visibles (mínimo 1, máximo COTIZAR_MAX)
         if (cotVis) {
           var v = parseInt(cotVis) || 1;
           cotizarVisible = Math.min(Math.max(v, 1), COTIZAR_MAX);
         } else {
-          // Si hay ítems guardados con nombre, mostrar al menos tantos como haya
           var filled = 0;
           for (var ci3b = 0; ci3b < COTIZAR_MAX; ci3b++) {
             if (cotizarItems[ci3b].nombre.trim()) filled = ci3b + 1;
@@ -1865,7 +1921,6 @@
 
     function itemsDistintos() { var n = 0; for (var k in carrito) if (carrito[k] > 0 && PM[k]) n++; return n }
 
-    // Cuenta ítems de cotizar con al menos el nombre lleno
     function cotizarLlenos() {
       var n = 0;
       for (var ci3 = 0; ci3 < cotizarItems.length; ci3++) {
@@ -1897,7 +1952,6 @@
     function aplicarFiltros() {
       paginaActual = 0; productosFiltrados = [];
 
-      // Ocultar/mostrar secciones según tab activo
       var grid = document.getElementById('gridProductos');
       var secCot = document.getElementById('seccionCotizar');
 
@@ -1943,7 +1997,6 @@
     function renderCotizar() {
       var sec = document.getElementById('seccionCotizar');
 
-      // Resumen de ítems guardados
       var resumenItems = [];
       for (var ri = 0; ri < cotizarItems.length; ri++) {
         if (cotizarItems[ri].nombre.trim()) resumenItems.push(cotizarItems[ri]);
@@ -1958,14 +2011,12 @@
         resumenHtml += '</div>';
       }
 
-      // Solo renderizar hasta cotizarVisible ítems
       var itemsHtml = '';
       for (var idx = 0; idx < cotizarVisible; idx++) {
         var it = cotizarItems[idx];
         var filledBadge = it.nombre.trim()
           ? '<span class="cotizar-item-filled visible">✓ Guardado</span>'
           : '<span class="cotizar-item-filled"></span>';
-        // Botón eliminar solo si hay más de 1 visible
         var removeBtn = cotizarVisible > 1
           ? '<button class="cotizar-item-remove" data-cotizar-remove="' + idx + '">✕ Eliminar</button>'
           : '';
@@ -1999,7 +2050,6 @@
           '</div>';
       }
 
-      // Botón agregar ítem (solo si no se alcanzó el máximo)
       var addBtnHtml = '';
       if (cotizarVisible < COTIZAR_MAX) {
         addBtnHtml = '<button class="cotizar-add-btn" id="btnAgregarItemCotizar">➕ Agregar otro ítem (' + cotizarVisible + ' / ' + COTIZAR_MAX + ' máximo)</button>';
@@ -2016,7 +2066,6 @@
         addBtnHtml +
         resumenHtml;
 
-      // Bind: guardar ítem
       var saveBtns = sec.querySelectorAll('[data-cotizar-save]');
       for (var sb = 0; sb < saveBtns.length; sb++) {
         (function(btn) {
@@ -2027,7 +2076,6 @@
         })(saveBtns[sb]);
       }
 
-      // Bind: eliminar ítem
       var removeBtns = sec.querySelectorAll('[data-cotizar-remove]');
       for (var rb = 0; rb < removeBtns.length; rb++) {
         (function(btn) {
@@ -2038,7 +2086,6 @@
         })(removeBtns[rb]);
       }
 
-      // Bind: agregar ítem
       var addBtn = document.getElementById('btnAgregarItemCotizar');
       if (addBtn) {
         addBtn.addEventListener('click', function() {
@@ -2071,9 +2118,7 @@
       mostrarToast('Ítem ' + (idx + 1) + ' guardado correctamente.', '', '💾', 3000);
     }
 
-    // ← NUEVO: eliminar un ítem visible (limpia sus datos y reduce cotizarVisible)
     function eliminarItemCotizar(idx) {
-      // Desplazar los ítems siguientes hacia arriba
       for (var ei = idx; ei < cotizarVisible - 1; ei++) {
         cotizarItems[ei] = {
           nombre: cotizarItems[ei + 1].nombre,
@@ -2082,7 +2127,6 @@
           garantia: cotizarItems[ei + 1].garantia
         };
       }
-      // Limpiar el último slot visible
       cotizarItems[cotizarVisible - 1] = { nombre: '', descripcion: '', brecha: '', garantia: '' };
       cotizarVisible = Math.max(cotizarVisible - 1, 1);
       guardar();
@@ -2123,6 +2167,12 @@
     });
     document.getElementById('ordenPrecio').addEventListener('change', function (e) { ordenFiltrado = e.target.value; aplicarFiltros() });
 
+    // ── NUEVO: guardar objetivo al escribir ──────────────────
+    document.getElementById('objetivoPlanTexto').addEventListener('input', function () {
+      objetivoPlanTexto = this.value;
+      guardar();
+    });
+
     document.addEventListener('click', function (e) {
       if (e.target.classList.contains('overlay')) { cerrarDetalle(); cerrarCarrito(); cerrarExport() }
       var cb = e.target.closest('.modal-close');
@@ -2138,7 +2188,6 @@
     });
 
     document.getElementById('btnDescargarPDF').addEventListener('click', function () { ejecutarExportConDatos('pdf') });
-    // document.getElementById('btnDescargarJSON').addEventListener('click', function () { ejecutarExportConDatos('json') });
     document.getElementById('detalleFoot').addEventListener('click', function (e) {
       var btn = e.target.closest('[data-action]'); if (!btn) return;
       cambiarCantDetalle(btn.getAttribute('data-id'), btn.getAttribute('data-action') === 'sumar' ? 1 : -1)
@@ -2213,7 +2262,6 @@
       var total = totalCarrito();
       var upD = window._upData || {};
 
-      // Ítems de cotizar con nombre
       var prodCotizar = [];
       for (var ci4 = 0; ci4 < cotizarItems.length; ci4++) {
         if (cotizarItems[ci4].nombre.trim()) {
@@ -2235,6 +2283,8 @@
         total_seleccionado: total,
         saldo_disponible: presupuestoMaximo - total,
         fecha_generacion: new Date().toISOString(),
+        // ── NUEVO: objetivo del plan ──
+        objetivo_plan: objetivoPlanTexto,
         datos_up: {
           unidad_nombre: upD.unidad_nombre || '',
           unidad_doc: upD.unidad_doc || '',
@@ -2253,13 +2303,11 @@
             precio_unitario: it.producto.precio, cantidad: it.cantidad, subtotal: it.subtotal
           };
         }),
-        // ── COTIZAR ──────────────────────────────────────────────
         cotizacion: prodCotizar.length > 0,
         productos_cotizar: prodCotizar
       };
     }
 
-    // ── Enviar pedido al bot ──────────────────────────────────────────────
     function enviarPedidoAlBot(pedido) {
       fetch(BOT_RECIBIR_URL, {
         method: 'POST',
@@ -2343,7 +2391,13 @@
       document.getElementById('cartFab').classList.toggle('visible', items > 0)
     }
 
-    function abrirCarrito() { renderCarrito(); document.getElementById('overlayCarrito').classList.add('open') }
+    function abrirCarrito() {
+      // ── NUEVO: sincronizar textarea con valor guardado ──
+      var ta = document.getElementById('objetivoPlanTexto');
+      if (ta) ta.value = objetivoPlanTexto;
+      renderCarrito();
+      document.getElementById('overlayCarrito').classList.add('open');
+    }
     function cerrarCarrito() { document.getElementById('overlayCarrito').classList.remove('open') }
     function vaciarCarrito() { mostrarConfirm('🗑️', '¿Vaciar el carrito?', 'Se eliminarán todos los productos.', 'Sí, vaciar', function () { carrito = {}; guardar(); actualizarUI(); actualizarConteos(); renderCarrito(); aplicarFiltros() }) }
 
@@ -2416,7 +2470,8 @@
       var NEGRO = [26, 31, 46];
       var BLANCO = [255, 255, 255];
       var VERDE_PIE = [30, 92, 58];
-      var AMARILLO_HD = [254, 240, 138]; // para encabezado cotizar
+      var AMARILLO_HD = [254, 240, 138];
+      var AZUL_HD = [186, 230, 253]; // ── NUEVO: color encabezado objetivo plan
 
       var idRows = [
         ['Nombre de la Unidad Productiva', upD.unidad_nombre || nombreUPActual || ''],
@@ -2434,8 +2489,9 @@
       var totalFinal = total + transporte;
       var MAX_FILAS = Math.max(items.length, 1);
 
-      // Ítems cotizar con nombre
       var cotizarConNombre = pedido.productos_cotizar || [];
+      // ── NUEVO: objetivo plan para PDF ──
+      var objPlan = (pedido.objetivo_plan || '').trim();
 
       function calcularAltura(sc) {
         var h = sc.marT;
@@ -2447,13 +2503,18 @@
           h += sc.padV * 2 + Math.max(lblL, valL, 1) * sc.lineH;
         }
         h += sc.gap;
+        // ── NUEVO: objetivo plan row en altura ──
+        if (objPlan) {
+          h += sc.thH; // encabezado objetivo
+          h += sc.padV * 2 + Math.ceil(objPlan.length / 80) * sc.lineH + sc.lineH;
+          h += sc.gap;
+        }
         h += sc.thH;
         h += MAX_FILAS * sc.rowH;
         h += sc.rowH * 3;
         h += sc.gap;
-        // cotizar section
         if (cotizarConNombre.length > 0) {
-          h += sc.thH; // cotizar header
+          h += sc.thH;
           h += cotizarConNombre.length * (sc.rowH * 3.5);
           h += sc.gap;
         }
@@ -2566,6 +2627,26 @@
       }
       y += S.gap;
 
+      // ── NUEVO: Sección objetivo del plan ────────────────────────────────
+      if (objPlan) {
+        // Encabezado
+        doc.setFillColor(AZUL_HD[0], AZUL_HD[1], AZUL_HD[2]);
+        safeRect(S.marL, y, cW, S.thH, 'F'); border(S.marL, y, cW, S.thH);
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsProd);
+        doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+        cell('OBJETIVO DEL PLAN — Resultados esperados', S.marL, y + S.thH * 0.65, cW, 'center');
+        y += S.thH;
+        // Contenido
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsProd);
+        var objLines = doc.splitTextToSize(objPlan, cW - 2.5);
+        var objCellH = S.padV + objLines.length * S.lineH + S.padV;
+        doc.setFillColor(BLANCO[0], BLANCO[1], BLANCO[2]);
+        safeRect(S.marL, y, cW, objCellH, 'F'); border(S.marL, y, cW, objCellH);
+        doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+        for (var ol = 0; ol < objLines.length; ol++) doc.text(objLines[ol], S.marL + 1.2, y + S.padV + (ol + 0.8) * S.lineH);
+        y += objCellH + S.gap;
+      }
+
       // ── Tabla productos — encabezado ────────────────────────────────────
       doc.setFillColor(VERDE_HD[0], VERDE_HD[1], VERDE_HD[2]);
       [[xT, wT], [xC, wC], [xI, wI], [xVU, wVU], [xVT, wVT]].forEach(function (p) {
@@ -2635,42 +2716,44 @@
         cell('ÍTEMS A COTIZAR (no están en el catálogo — requieren 3 cotizaciones)', S.marL, y + S.thH * 0.65, cW, 'center');
         y += S.thH;
 
-        // Columnas cotizar: Nombre | Descripción | Brecha | Garantía
+        // ── MODIFICADO: columnas cotizar proporcionales como el resto del PDF ──
+        // Usando las mismas proporciones relativas al cW, con splitTextToSize como el resto
         var wCN = cW * 0.22, wCD = cW * 0.32, wCB = cW * 0.32, wCG = cW * 0.14;
         var xCN = S.marL, xCD = xCN + wCN, xCB = xCD + wCD, xCG = xCB + wCB;
 
         // Sub-encabezado columnas
         doc.setFillColor(AMARILLO_HD[0], AMARILLO_HD[1], AMARILLO_HD[2]);
         [[xCN, wCN], [xCD, wCD], [xCB, wCB], [xCG, wCG]].forEach(function(col) {
-          safeRect(col[0], y, col[1], S.thH * 0.85, 'F'); border(col[0], y, col[1], S.thH * 0.85);
+          safeRect(col[0], y, col[1], S.idHdr, 'F'); border(col[0], y, col[1], S.idHdr);
         });
-        doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsProd * 0.88);
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsId);
         doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
-        cell('Nombre', xCN, y + S.thH * 0.6, wCN, 'center');
-        cell('Descripción', xCD, y + S.thH * 0.6, wCD, 'center');
-        cell('Brecha productiva', xCB, y + S.thH * 0.6, wCB, 'center');
-        cell('Garantía', xCG, y + S.thH * 0.6, wCG, 'center');
-        y += S.thH * 0.85;
+        cell('Nombre', xCN, y + S.idHdr * 0.7, wCN, 'center');
+        cell('Descripción', xCD, y + S.idHdr * 0.7, wCD, 'center');
+        cell('Brecha productiva', xCB, y + S.idHdr * 0.7, wCB, 'center');
+        cell('Garantía', xCG, y + S.idHdr * 0.7, wCG, 'center');
+        y += S.idHdr;
 
-        // Filas cotizar
-        doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsProd * 0.9);
+        // Filas cotizar — altura dinámica igual que las filas de idRows
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsId);
         for (var ci5 = 0; ci5 < cotizarConNombre.length; ci5++) {
           var cit = cotizarConNombre[ci5];
-          var cnLines = doc.splitTextToSize(cit.nombre || '', wCN - 2.4);
-          var cdLines = doc.splitTextToSize(cit.descripcion || '', wCD - 2.4);
-          var cbLines = doc.splitTextToSize(cit.brecha || '', wCB - 2.4);
+          var cnLines = doc.splitTextToSize(cit.nombre || '', wCN - 2.5);
+          var cdLines = doc.splitTextToSize(cit.descripcion || '', wCD - 2.5);
+          var cbLines = doc.splitTextToSize(cit.brecha || '', wCB - 2.5);
           var maxL = Math.max(cnLines.length, cdLines.length, cbLines.length, 1);
-          var cotRowH = Math.max(S.rowH * 2, 2 + maxL * S.lineH + 2);
+          // ── igual que idRows: padV + nL * lineH + padV ──
+          var cotRowH = S.padV + maxL * S.lineH + S.padV;
           doc.setFillColor(BLANCO[0], BLANCO[1], BLANCO[2]);
           [[xCN, wCN], [xCD, wCD], [xCB, wCB], [xCG, wCG]].forEach(function(col) {
             safeRect(col[0], y, col[1], cotRowH, 'F'); border(col[0], y, col[1], cotRowH);
           });
           doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
-          for (var li2 = 0; li2 < cnLines.length; li2++) doc.text(cnLines[li2], xCN + 1.2, y + 2 + (li2 + 0.8) * S.lineH);
-          for (var li3 = 0; li3 < cdLines.length; li3++) doc.text(cdLines[li3], xCD + 1.2, y + 2 + (li3 + 0.8) * S.lineH);
-          for (var li4 = 0; li4 < cbLines.length; li4++) doc.text(cbLines[li4], xCB + 1.2, y + 2 + (li4 + 0.8) * S.lineH);
+          for (var li2 = 0; li2 < cnLines.length; li2++) doc.text(cnLines[li2], xCN + 1.2, y + S.padV + (li2 + 0.8) * S.lineH);
+          for (var li3 = 0; li3 < cdLines.length; li3++) doc.text(cdLines[li3], xCD + 1.2, y + S.padV + (li3 + 0.8) * S.lineH);
+          for (var li4 = 0; li4 < cbLines.length; li4++) doc.text(cbLines[li4], xCB + 1.2, y + S.padV + (li4 + 0.8) * S.lineH);
           var garTxt = cit.garantia_meses > 0 ? cit.garantia_meses + ' meses' : 'N/A';
-          cell(garTxt, xCG, y + cotRowH / 2 + 1, wCG, 'center');
+          cell(garTxt, xCG, y + cotRowH / 2 + S.lineH * 0.3, wCG, 'center');
           y += cotRowH;
         }
         y += S.gap;
@@ -2728,7 +2811,6 @@
       cerrarExport();
       mostrarToast('PDF generado correctamente.', '', '📄', 4000);
 
-      // Enviar al servidor automáticamente
       enviarPedidoAlBot(pedido);
     }
 
