@@ -1305,6 +1305,23 @@
       display: inline-block;
     }
 
+    /* ── NUEVO: botón eliminar ítem ── */
+    .cotizar-item-remove {
+      background: rgba(255,255,255,.18);
+      border: 1px solid rgba(255,255,255,.3);
+      color: #fff;
+      font-size: .75rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-family: inherit;
+      line-height: 1.4;
+    }
+    .cotizar-item-remove:hover {
+      background: rgba(229,62,62,.5);
+    }
+
     .cotizar-item-body {
       padding: 14px;
     }
@@ -1402,6 +1419,35 @@
 
     .cotizar-save-btn:active {
       opacity: .8;
+    }
+
+    /* ── NUEVO: botón agregar ítem ── */
+    .cotizar-add-btn {
+      width: 100%;
+      margin-top: 4px;
+      margin-bottom: 18px;
+      padding: 13px;
+      background: #fff;
+      color: #78350f;
+      border: 2px dashed #fbbf24;
+      border-radius: 12px;
+      font-size: .92rem;
+      font-weight: 700;
+      font-family: inherit;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background .2s, border-color .2s;
+    }
+    .cotizar-add-btn:hover {
+      background: #fffbeb;
+      border-color: #f0b429;
+    }
+    .cotizar-add-btn:disabled {
+      opacity: .4;
+      cursor: default;
     }
 
     .cotizar-resumen {
@@ -1713,9 +1759,11 @@
       codigoIniciativaActual = '', nombreUPActual = '', productosFiltrados = [],
       paginaActual = 0, POR_PAGINA = 20, timeoutBusqueda, detalleActual = null;
 
-    // ── Cotizar: hasta 5 ítems ─────────────────────────────────────────────
+    // ── Cotizar: máximo 5, comienza con 1 ítem visible ────────────────────
     var COTIZAR_MAX = 5;
-    var cotizarItems = []; // array of { nombre, descripcion, brecha, garantia }
+    // cotizarItems almacena todos los datos; cotizarVisible indica cuántos se muestran
+    var cotizarItems = [];
+    var cotizarVisible = 1; // ← CAMBIADO: inicia mostrando solo 1
     for (var ci = 0; ci < COTIZAR_MAX; ci++) {
       cotizarItems.push({ nombre: '', descripcion: '', brecha: '', garantia: '' });
     }
@@ -1746,6 +1794,7 @@
         localStorage.setItem('analisis_mercado_nombreup', nombreUPActual);
         localStorage.setItem('analisis_mercado_version', CATALOGO_VERSION);
         localStorage.setItem('analisis_mercado_cotizar', JSON.stringify(cotizarItems));
+        localStorage.setItem('analisis_mercado_cotizar_visible', String(cotizarVisible)); // ← NUEVO
         if (window._upData && typeof window._upData === 'object') {
           localStorage.setItem('analisis_mercado_updata', JSON.stringify(window._upData));
         }
@@ -1760,6 +1809,7 @@
         var nup = localStorage.getItem('analisis_mercado_nombreup');
         var upd = localStorage.getItem('analisis_mercado_updata');
         var cot = localStorage.getItem('analisis_mercado_cotizar');
+        var cotVis = localStorage.getItem('analisis_mercado_cotizar_visible'); // ← NUEVO
         if (c) { carrito = JSON.parse(c); if (!carrito || typeof carrito !== 'object') carrito = {} }
         if (p) presupuestoMaximo = parseInt(p) || 0;
         codigoIniciativaActual = normalizarCodigoIniciativa(cod);
@@ -1781,6 +1831,18 @@
               }
             }
           } catch (e) { }
+        }
+        // ← NUEVO: restaurar cuántos ítems eran visibles (mínimo 1, máximo COTIZAR_MAX)
+        if (cotVis) {
+          var v = parseInt(cotVis) || 1;
+          cotizarVisible = Math.min(Math.max(v, 1), COTIZAR_MAX);
+        } else {
+          // Si hay ítems guardados con nombre, mostrar al menos tantos como haya
+          var filled = 0;
+          for (var ci3b = 0; ci3b < COTIZAR_MAX; ci3b++) {
+            if (cotizarItems[ci3b].nombre.trim()) filled = ci3b + 1;
+          }
+          cotizarVisible = Math.max(filled, 1);
         }
       } catch (e) { carrito = {}; presupuestoMaximo = 0; codigoIniciativaActual = ''; nombreUPActual = ''; window._upData = {}; }
       if (presupuestoMaximo > 0) {
@@ -1881,6 +1943,7 @@
     function renderCotizar() {
       var sec = document.getElementById('seccionCotizar');
 
+      // Resumen de ítems guardados
       var resumenItems = [];
       for (var ri = 0; ri < cotizarItems.length; ri++) {
         if (cotizarItems[ri].nombre.trim()) resumenItems.push(cotizarItems[ri]);
@@ -1895,13 +1958,21 @@
         resumenHtml += '</div>';
       }
 
+      // Solo renderizar hasta cotizarVisible ítems
       var itemsHtml = '';
-      for (var idx = 0; idx < COTIZAR_MAX; idx++) {
+      for (var idx = 0; idx < cotizarVisible; idx++) {
         var it = cotizarItems[idx];
-        var filled = it.nombre.trim() ? ' <span class="cotizar-item-filled visible">✓ Guardado</span>' : '<span class="cotizar-item-filled"></span>';
+        var filledBadge = it.nombre.trim()
+          ? '<span class="cotizar-item-filled visible">✓ Guardado</span>'
+          : '<span class="cotizar-item-filled"></span>';
+        // Botón eliminar solo si hay más de 1 visible
+        var removeBtn = cotizarVisible > 1
+          ? '<button class="cotizar-item-remove" data-cotizar-remove="' + idx + '">✕ Eliminar</button>'
+          : '';
         itemsHtml += '<div class="cotizar-item-card" id="cotizar-card-' + idx + '">' +
           '<div class="cotizar-item-header">' +
-          '<span class="cotizar-item-num">📦 Ítem ' + (idx + 1) + filled + '</span>' +
+          '<span class="cotizar-item-num">📦 Ítem ' + (idx + 1) + ' ' + filledBadge + '</span>' +
+          removeBtn +
           '</div>' +
           '<div class="cotizar-item-body">' +
           '<div class="cotizar-field">' +
@@ -1928,15 +1999,24 @@
           '</div>';
       }
 
+      // Botón agregar ítem (solo si no se alcanzó el máximo)
+      var addBtnHtml = '';
+      if (cotizarVisible < COTIZAR_MAX) {
+        addBtnHtml = '<button class="cotizar-add-btn" id="btnAgregarItemCotizar">➕ Agregar otro ítem (' + cotizarVisible + ' / ' + COTIZAR_MAX + ' máximo)</button>';
+      } else {
+        addBtnHtml = '<button class="cotizar-add-btn" disabled>✅ Máximo de ítems alcanzado (' + COTIZAR_MAX + ' / ' + COTIZAR_MAX + ')</button>';
+      }
+
       sec.innerHTML =
         '<div class="cotizar-header">' +
         '<div class="cotizar-header-title">📝 Solicitar otros productos</div>' +
         '<div class="cotizar-header-desc">En esta sección se pueden adicionar nuevos items que <strong>NO están en el catálogo.</strong>  Recuerda que se deben entregar <strong> 3 COTIZACIONES de proveedores formales</strong>. <strong>ESO PUEDE TOMAR BASTANTE TIEMPO</strong>, entonces debemos ser pacientes.</div>' +
         '</div>' +
         itemsHtml +
+        addBtnHtml +
         resumenHtml;
 
-      // Bind save buttons
+      // Bind: guardar ítem
       var saveBtns = sec.querySelectorAll('[data-cotizar-save]');
       for (var sb = 0; sb < saveBtns.length; sb++) {
         (function(btn) {
@@ -1945,6 +2025,30 @@
             guardarItemCotizar(idx2);
           });
         })(saveBtns[sb]);
+      }
+
+      // Bind: eliminar ítem
+      var removeBtns = sec.querySelectorAll('[data-cotizar-remove]');
+      for (var rb = 0; rb < removeBtns.length; rb++) {
+        (function(btn) {
+          btn.addEventListener('click', function() {
+            var idxR = parseInt(this.getAttribute('data-cotizar-remove'));
+            eliminarItemCotizar(idxR);
+          });
+        })(removeBtns[rb]);
+      }
+
+      // Bind: agregar ítem
+      var addBtn = document.getElementById('btnAgregarItemCotizar');
+      if (addBtn) {
+        addBtn.addEventListener('click', function() {
+          if (cotizarVisible < COTIZAR_MAX) {
+            cotizarVisible++;
+            guardar();
+            actualizarConteos();
+            renderCotizar();
+          }
+        });
       }
     }
 
@@ -1963,9 +2067,28 @@
 
       guardar();
       actualizarConteos();
-      // Re-render para actualizar badge "Guardado"
       renderCotizar();
       mostrarToast('Ítem ' + (idx + 1) + ' guardado correctamente.', '', '💾', 3000);
+    }
+
+    // ← NUEVO: eliminar un ítem visible (limpia sus datos y reduce cotizarVisible)
+    function eliminarItemCotizar(idx) {
+      // Desplazar los ítems siguientes hacia arriba
+      for (var ei = idx; ei < cotizarVisible - 1; ei++) {
+        cotizarItems[ei] = {
+          nombre: cotizarItems[ei + 1].nombre,
+          descripcion: cotizarItems[ei + 1].descripcion,
+          brecha: cotizarItems[ei + 1].brecha,
+          garantia: cotizarItems[ei + 1].garantia
+        };
+      }
+      // Limpiar el último slot visible
+      cotizarItems[cotizarVisible - 1] = { nombre: '', descripcion: '', brecha: '', garantia: '' };
+      cotizarVisible = Math.max(cotizarVisible - 1, 1);
+      guardar();
+      actualizarConteos();
+      renderCotizar();
+      mostrarToast('Ítem eliminado.', '', '🗑️', 2500);
     }
 
     document.getElementById('gridProductos').addEventListener('click', function (e) {
