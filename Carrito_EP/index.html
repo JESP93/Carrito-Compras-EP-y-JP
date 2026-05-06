@@ -311,6 +311,60 @@
       margin-top: 12px
     }
 
+    /* ── NUEVO: banner objetivo plan en la página principal (entre header y buscador) ── */
+    .objetivo-plan-inline {
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      border-bottom: 1.5px solid #bae6fd;
+      padding: 12px 16px 14px;
+      position: sticky;
+      top: 108px;
+      z-index: 95;
+    }
+
+    .objetivo-plan-inline-title {
+      font-size: .75rem;
+      font-weight: 800;
+      color: #0369a1;
+      text-transform: uppercase;
+      letter-spacing: .4px;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .objetivo-plan-inline-pregunta {
+      font-size: .78rem;
+      color: #0c4a6e;
+      line-height: 1.45;
+      margin-bottom: 8px;
+    }
+
+    .objetivo-plan-inline-textarea {
+      width: 100%;
+      padding: 9px 12px;
+      border: 1.5px solid #bae6fd;
+      border-radius: 8px;
+      font-size: .85rem;
+      font-family: inherit;
+      background: #fff;
+      color: var(--texto);
+      outline: none;
+      resize: vertical;
+      min-height: 70px;
+      line-height: 1.5;
+      transition: border-color .2s;
+    }
+
+    .objetivo-plan-inline-textarea:focus {
+      border-color: #0ea5e9;
+    }
+
+    .objetivo-plan-inline-textarea::placeholder {
+      color: #94a3b8;
+      font-size: .82rem;
+    }
+
     .search-wrap {
       padding: 10px 14px;
       background: var(--verde);
@@ -895,58 +949,6 @@
     #overlayCarrito .modal {
       max-height: 90vh;
       max-height: 90dvh
-    }
-
-    /* ── NUEVO: banner objetivo plan dentro del modal carrito ── */
-    .objetivo-plan-banner {
-      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
-      border-bottom: 1.5px solid #bae6fd;
-      padding: 14px 20px 16px;
-      flex-shrink: 0;
-    }
-
-    .objetivo-plan-title {
-      font-size: .78rem;
-      font-weight: 800;
-      color: #0369a1;
-      text-transform: uppercase;
-      letter-spacing: .4px;
-      margin-bottom: 6px;
-      display: flex;
-      align-items: center;
-      gap: 6px;
-    }
-
-    .objetivo-plan-pregunta {
-      font-size: .82rem;
-      color: #0c4a6e;
-      line-height: 1.5;
-      margin-bottom: 10px;
-    }
-
-    .objetivo-plan-textarea {
-      width: 100%;
-      padding: 10px 12px;
-      border: 1.5px solid #bae6fd;
-      border-radius: 8px;
-      font-size: .88rem;
-      font-family: inherit;
-      background: #fff;
-      color: var(--texto);
-      outline: none;
-      resize: vertical;
-      min-height: 80px;
-      line-height: 1.5;
-      transition: border-color .2s;
-    }
-
-    .objetivo-plan-textarea:focus {
-      border-color: #0ea5e9;
-    }
-
-    .objetivo-plan-textarea::placeholder {
-      color: #94a3b8;
-      font-size: .83rem;
     }
 
     .carrito-item {
@@ -1603,6 +1605,13 @@
     </div>
   </header>
 
+  <!-- ── NUEVO: Objetivo del plan — debajo del header, antes del buscador ── -->
+  <div class="objetivo-plan-inline">
+    <div class="objetivo-plan-inline-title">🎯 Objetivo del plan</div>
+    <div class="objetivo-plan-inline-pregunta">¿Cuáles son los resultados esperados en términos de asociatividad, fortalecimiento de productos y servicios, encadenamientos productivos y/o comercialización?</div>
+    <textarea class="objetivo-plan-inline-textarea" id="objetivoPlanTexto" placeholder="Describe los resultados esperados de tu plan de inversión..."></textarea>
+  </div>
+
   <div class="search-wrap">
     <div class="search-inner"><input id="buscador" type="search" placeholder="Buscar producto..."
         autocomplete="off"><span class="s-icon-search">🔍</span></div>
@@ -1639,12 +1648,6 @@
       <div class="modal-handle"></div>
       <div class="modal-head">
         <h2>🛒 Tu selección</h2><button class="modal-close" data-close="carrito">✕</button>
-      </div>
-      <!-- NUEVO: Banner objetivo plan -->
-      <div class="objetivo-plan-banner">
-        <div class="objetivo-plan-title">🎯 Objetivo del plan</div>
-        <div class="objetivo-plan-pregunta">¿Cuáles son los resultados esperados en términos de asociatividad, fortalecimiento de productos y servicios, encadenamientos productivos y/o comercialización?</div>
-        <textarea class="objetivo-plan-textarea" id="objetivoPlanTexto" placeholder="Describe los resultados esperados de tu plan de inversión..."></textarea>
       </div>
       <div class="modal-body">
         <div id="carritoBody"></div>
@@ -1809,7 +1812,7 @@
       codigoIniciativaActual = '', nombreUPActual = '', productosFiltrados = [],
       paginaActual = 0, POR_PAGINA = 20, timeoutBusqueda, detalleActual = null;
 
-    // ── NUEVO: objetivo del plan ──────────────────────────────
+    // ── objetivo del plan ──────────────────────────────
     var objetivoPlanTexto = '';
 
     // ── Cotizar ────────────────────────────────────────────────
@@ -1847,7 +1850,6 @@
         localStorage.setItem('analisis_mercado_version', CATALOGO_VERSION);
         localStorage.setItem('analisis_mercado_cotizar', JSON.stringify(cotizarItems));
         localStorage.setItem('analisis_mercado_cotizar_visible', String(cotizarVisible));
-        // ── NUEVO: guardar objetivo plan ──
         localStorage.setItem('analisis_mercado_objetivo', objetivoPlanTexto);
         if (window._upData && typeof window._upData === 'object') {
           localStorage.setItem('analisis_mercado_updata', JSON.stringify(window._upData));
@@ -1864,7 +1866,6 @@
         var upd = localStorage.getItem('analisis_mercado_updata');
         var cot = localStorage.getItem('analisis_mercado_cotizar');
         var cotVis = localStorage.getItem('analisis_mercado_cotizar_visible');
-        // ── NUEVO: cargar objetivo plan ──
         var obj = localStorage.getItem('analisis_mercado_objetivo');
         if (obj) objetivoPlanTexto = String(obj);
 
@@ -1909,6 +1910,9 @@
         else if (presupuestoMaximo === 50000000) n = 'M4';
         document.getElementById('presTopeTxt').textContent = 'Tope: ' + COP.format(presupuestoMaximo) + ' (' + n + ')'
       }
+      // Sincronizar textarea del objetivo en la página principal
+      var taInline = document.getElementById('objetivoPlanTexto');
+      if (taInline) taInline.value = objetivoPlanTexto;
       actualizarNombreHeader()
     }
 
@@ -2135,6 +2139,24 @@
       mostrarToast('Ítem eliminado.', '', '🗑️', 2500);
     }
 
+    // ── CAMBIO 2: sincronizar DOM → cotizarItems antes de construir el pedido ──
+    function sincronizarCotizarDesdeDOM() {
+      for (var idx = 0; idx < cotizarVisible; idx++) {
+        var elNombre = document.getElementById('cot-nombre-' + idx);
+        var elDesc = document.getElementById('cot-desc-' + idx);
+        var elBrecha = document.getElementById('cot-brecha-' + idx);
+        var elGarantia = document.getElementById('cot-garantia-' + idx);
+        if (elNombre) {
+          cotizarItems[idx] = {
+            nombre: elNombre.value.trim(),
+            descripcion: elDesc ? elDesc.value.trim() : cotizarItems[idx].descripcion,
+            brecha: elBrecha ? elBrecha.value.trim() : cotizarItems[idx].brecha,
+            garantia: elGarantia ? elGarantia.value.trim() : cotizarItems[idx].garantia
+          };
+        }
+      }
+    }
+
     document.getElementById('gridProductos').addEventListener('click', function (e) {
       var t = e.target;
       var btn = t.closest('[data-action]');
@@ -2167,7 +2189,7 @@
     });
     document.getElementById('ordenPrecio').addEventListener('change', function (e) { ordenFiltrado = e.target.value; aplicarFiltros() });
 
-    // ── NUEVO: guardar objetivo al escribir ──────────────────
+    // ── guardar objetivo al escribir (textarea inline en página) ──────────────
     document.getElementById('objetivoPlanTexto').addEventListener('input', function () {
       objetivoPlanTexto = this.value;
       guardar();
@@ -2256,6 +2278,9 @@
 
     // ── Construir el objeto pedido ──────────────────────────────────────────
     function construirPedido() {
+      // ── CAMBIO 2: sincronizar valores del DOM antes de leer cotizarItems ──
+      sincronizarCotizarDesdeDOM();
+
       var cod = codigoIniciativaActual || normalizarCodigoIniciativa(document.getElementById('inputCodigoIniciativa').value);
       var tipoNom = obtenerTipoNom();
       var items = obtenerItemsCarrito();
@@ -2283,7 +2308,6 @@
         total_seleccionado: total,
         saldo_disponible: presupuestoMaximo - total,
         fecha_generacion: new Date().toISOString(),
-        // ── NUEVO: objetivo del plan ──
         objetivo_plan: objetivoPlanTexto,
         datos_up: {
           unidad_nombre: upD.unidad_nombre || '',
@@ -2392,9 +2416,6 @@
     }
 
     function abrirCarrito() {
-      // ── NUEVO: sincronizar textarea con valor guardado ──
-      var ta = document.getElementById('objetivoPlanTexto');
-      if (ta) ta.value = objetivoPlanTexto;
       renderCarrito();
       document.getElementById('overlayCarrito').classList.add('open');
     }
@@ -2471,7 +2492,7 @@
       var BLANCO = [255, 255, 255];
       var VERDE_PIE = [30, 92, 58];
       var AMARILLO_HD = [254, 240, 138];
-      var AZUL_HD = [186, 230, 253]; // ── NUEVO: color encabezado objetivo plan
+      var AZUL_HD = [186, 230, 253];
 
       var idRows = [
         ['Nombre de la Unidad Productiva', upD.unidad_nombre || nombreUPActual || ''],
@@ -2490,7 +2511,6 @@
       var MAX_FILAS = Math.max(items.length, 1);
 
       var cotizarConNombre = pedido.productos_cotizar || [];
-      // ── NUEVO: objetivo plan para PDF ──
       var objPlan = (pedido.objetivo_plan || '').trim();
 
       function calcularAltura(sc) {
@@ -2503,9 +2523,8 @@
           h += sc.padV * 2 + Math.max(lblL, valL, 1) * sc.lineH;
         }
         h += sc.gap;
-        // ── NUEVO: objetivo plan row en altura ──
         if (objPlan) {
-          h += sc.thH; // encabezado objetivo
+          h += sc.thH;
           h += sc.padV * 2 + Math.ceil(objPlan.length / 80) * sc.lineH + sc.lineH;
           h += sc.gap;
         }
@@ -2627,16 +2646,14 @@
       }
       y += S.gap;
 
-      // ── NUEVO: Sección objetivo del plan ────────────────────────────────
+      // ── Sección objetivo del plan ────────────────────────────────────────
       if (objPlan) {
-        // Encabezado
         doc.setFillColor(AZUL_HD[0], AZUL_HD[1], AZUL_HD[2]);
         safeRect(S.marL, y, cW, S.thH, 'F'); border(S.marL, y, cW, S.thH);
         doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsProd);
         doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
         cell('OBJETIVO DEL PLAN — Resultados esperados', S.marL, y + S.thH * 0.65, cW, 'center');
         y += S.thH;
-        // Contenido
         doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsProd);
         var objLines = doc.splitTextToSize(objPlan, cW - 2.5);
         var objCellH = S.padV + objLines.length * S.lineH + S.padV;
@@ -2708,7 +2725,6 @@
 
       // ── Sección COTIZAR en el PDF ────────────────────────────────────────
       if (cotizarConNombre.length > 0) {
-        // Encabezado sección cotizar
         doc.setFillColor(AMARILLO_HD[0], AMARILLO_HD[1], AMARILLO_HD[2]);
         safeRect(S.marL, y, cW, S.thH, 'F'); border(S.marL, y, cW, S.thH);
         doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsProd);
@@ -2716,12 +2732,9 @@
         cell('ÍTEMS A COTIZAR (no están en el catálogo — requieren 3 cotizaciones)', S.marL, y + S.thH * 0.65, cW, 'center');
         y += S.thH;
 
-        // ── MODIFICADO: columnas cotizar proporcionales como el resto del PDF ──
-        // Usando las mismas proporciones relativas al cW, con splitTextToSize como el resto
         var wCN = cW * 0.22, wCD = cW * 0.32, wCB = cW * 0.32, wCG = cW * 0.14;
         var xCN = S.marL, xCD = xCN + wCN, xCB = xCD + wCD, xCG = xCB + wCB;
 
-        // Sub-encabezado columnas
         doc.setFillColor(AMARILLO_HD[0], AMARILLO_HD[1], AMARILLO_HD[2]);
         [[xCN, wCN], [xCD, wCD], [xCB, wCB], [xCG, wCG]].forEach(function(col) {
           safeRect(col[0], y, col[1], S.idHdr, 'F'); border(col[0], y, col[1], S.idHdr);
@@ -2734,7 +2747,6 @@
         cell('Garantía', xCG, y + S.idHdr * 0.7, wCG, 'center');
         y += S.idHdr;
 
-        // Filas cotizar — altura dinámica igual que las filas de idRows
         doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsId);
         for (var ci5 = 0; ci5 < cotizarConNombre.length; ci5++) {
           var cit = cotizarConNombre[ci5];
@@ -2742,7 +2754,6 @@
           var cdLines = doc.splitTextToSize(cit.descripcion || '', wCD - 2.5);
           var cbLines = doc.splitTextToSize(cit.brecha || '', wCB - 2.5);
           var maxL = Math.max(cnLines.length, cdLines.length, cbLines.length, 1);
-          // ── igual que idRows: padV + nL * lineH + padV ──
           var cotRowH = S.padV + maxL * S.lineH + S.padV;
           doc.setFillColor(BLANCO[0], BLANCO[1], BLANCO[2]);
           [[xCN, wCN], [xCD, wCD], [xCB, wCB], [xCG, wCG]].forEach(function(col) {
