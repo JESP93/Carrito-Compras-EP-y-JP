@@ -1617,8 +1617,8 @@
           inversión? Revisa productos y cantidades antes de descargar.</p>
         <p class="export-info">⚠️ <b>ADVERTENCIA:</b> Sólo se puede cargar un plan de inversión FIRMADO en pdf por Unidad Productiva. </p>
         <button class="btn-export" id="btnDescargarPDF" style="margin-bottom:12px">📄 Descargar PDF del plan</button>
-        <button class="btn-export" id="btnDescargarJSON" style="background:var(--verde2)">📦 Descargar JSON del
-          pedido</button>
+        <!-- <button class="btn-export" id="btnDescargarJSON" style="background:var(--verde2)">📦 Descargar JSON del
+          pedido</button> -->
       </div>
     </div>
   </div>
@@ -1759,8 +1759,8 @@
       codigoIniciativaActual = '', nombreUPActual = '', productosFiltrados = [],
       paginaActual = 0, POR_PAGINA = 20, timeoutBusqueda, detalleActual = null;
 
-    // ── Cotizar: máximo 5, comienza con 1 ítem visible ────────────────────
-    var COTIZAR_MAX = 5;
+    // ── Cotizar: máximo 3, comienza con 1 ítem visible ────────────────────
+    var COTIZAR_MAX = 3;
     // cotizarItems almacena todos los datos; cotizarVisible indica cuántos se muestran
     var cotizarItems = [];
     var cotizarVisible = 1; // ← CAMBIADO: inicia mostrando solo 1
