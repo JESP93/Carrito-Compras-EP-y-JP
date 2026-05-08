@@ -2529,7 +2529,15 @@
           h += sc.gap;
         }
         h += sc.thH;
-        h += MAX_FILAS * sc.rowH;
+        // Estimate row heights accounting for long item names
+        var wIest = (PAGE_W - sc.marL - sc.marR) * 0.30;
+        for (var ri = 0; ri < items.length; ri++) {
+          var nomLen = (items[ri].producto.nombre || '').length;
+          var estimLines = Math.max(1, Math.ceil(nomLen / (wIest / sc.fs * 1.8)));
+          var estH = Math.max(sc.rowH, 1.5 + estimLines * sc.lineH + 1.5);
+          h += estH;
+        }
+        if (items.length === 0) h += sc.rowH;
         h += sc.rowH * 3;
         h += sc.gap;
         if (cotizarConNombre.length > 0) {
@@ -2556,11 +2564,9 @@
       base.wL = cW0 * 0.55;
       base.wR = cW0 * 0.45;
 
-      var alturaTotal = calcularAltura(base);
-      var disponible = PAGE_H - base.marT - base.marB;
-      var alturaContenido = alturaTotal - base.marT - base.marB;
-      var scale = (alturaContenido > 0) ? Math.min(1, disponible / alturaContenido) : 1;
-      if (!isFinite(scale) || isNaN(scale) || scale <= 0) scale = 0.5;
+      // Siempre paginar automáticamente con tamaños legibles — sin límite de páginas.
+      var scale = 1;
+      var multiPagina = true;
 
       function sv(v, fallback) { return (isFinite(v) && !isNaN(v) && v > 0) ? v : (fallback || 1); }
 
@@ -2606,6 +2612,61 @@
         align = align || 'left';
         var tx = align === 'right' ? x + w - 1.2 : align === 'center' ? x + w / 2 : x + 1.2;
         doc.text(String(txt || ''), tx, y, { align: align });
+      }
+
+      // ── Helpers de paginación (sólo se usan cuando multiPagina = true) ──
+      function dibujarPie() {
+        doc.setFontSize(S.fsPie); doc.setTextColor(150, 150, 150); doc.setFont('helvetica', 'normal');
+        doc.text('Generado automáticamente · Catálogo Análisis de Mercado', pW / 2, pH - 4, { align: 'center' });
+        doc.setDrawColor(VERDE_PIE[0], VERDE_PIE[1], VERDE_PIE[2]); doc.setLineWidth(0.25);
+        doc.line(S.marL, pH - 8, pW - S.marR, pH - 8);
+      }
+      function nuevaPagina() {
+        doc.addPage();
+        return S.marT;
+      }
+      // Espacio útil por página (deja margen + zona del pie de página)
+      var ESPACIO_PIE = 16; // mm reservados para el pie en páginas de continuación
+      function cabe(h) {
+        if (!multiPagina) return true;
+        return (y + h) <= (pH - S.marB - ESPACIO_PIE);
+      }
+      function asegurarEspacio(h) {
+        if (cabe(h)) return;
+        dibujarPie();
+        y = nuevaPagina();
+      }
+      // Repite el encabezado de la tabla de productos en páginas siguientes
+      function dibujarEncabezadoTablaProductos() {
+        doc.setFillColor(VERDE_HD[0], VERDE_HD[1], VERDE_HD[2]);
+        [[xT, wT], [xC, wC], [xI, wI], [xVU, wVU], [xVT, wVT]].forEach(function (p) {
+          safeRect(p[0], y, p[1], S.thH, 'F'); border(p[0], y, p[1], S.thH);
+        });
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsProd);
+        doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+        cell('Categoría', xT, y + S.thH * 0.65, wT, 'center');
+        cell('Cant.', xC, y + S.thH * 0.65, wC, 'center');
+        cell('Ítem', xI, y + S.thH * 0.65, wI, 'center');
+        cell('V. Unit', xVU, y + S.thH * 0.65, wVU, 'center');
+        cell('V. Total', xVT, y + S.thH * 0.65, wVT, 'center');
+        y += S.thH;
+      }
+      // Repite el encabezado de la tabla de cotizar en páginas siguientes
+      var _cotColsCache = null;
+      function dibujarEncabezadoTablaCotizar() {
+        if (!_cotColsCache) return;
+        var c = _cotColsCache;
+        doc.setFillColor(AMARILLO_HD[0], AMARILLO_HD[1], AMARILLO_HD[2]);
+        [[c.xCN, c.wCN], [c.xCD, c.wCD], [c.xCB, c.wCB], [c.xCG, c.wCG]].forEach(function(col) {
+          safeRect(col[0], y, col[1], S.idHdr, 'F'); border(col[0], y, col[1], S.idHdr);
+        });
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsId);
+        doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+        cell('Nombre', c.xCN, y + S.idHdr * 0.7, c.wCN, 'center');
+        cell('Descripción', c.xCD, y + S.idHdr * 0.7, c.wCD, 'center');
+        cell('Brecha productiva', c.xCB, y + S.idHdr * 0.7, c.wCB, 'center');
+        cell('Garantía', c.xCG, y + S.idHdr * 0.7, c.wCG, 'center');
+        y += S.idHdr;
       }
 
       var y = S.marT;
@@ -2665,6 +2726,10 @@
       }
 
       // ── Tabla productos — encabezado ────────────────────────────────────
+      if (multiPagina && !cabe(S.thH + S.rowH)) {
+        dibujarPie();
+        y = nuevaPagina();
+      }
       doc.setFillColor(VERDE_HD[0], VERDE_HD[1], VERDE_HD[2]);
       [[xT, wT], [xC, wC], [xI, wI], [xVU, wVU], [xVT, wVT]].forEach(function (p) {
         safeRect(p[0], y, p[1], S.thH, 'F'); border(p[0], y, p[1], S.thH);
@@ -2686,6 +2751,12 @@
         var nomLines = it ? doc.splitTextToSize(it.producto.nombre || '', wI - 2.5) : [''];
         var nLP = Math.max(tipoLines.length, nomLines.length, 1);
         var rH = Math.max(S.rowH, 1.5 + nLP * S.lineH + 1.5);
+        if (multiPagina && !cabe(rH)) {
+          dibujarPie();
+          y = nuevaPagina();
+          dibujarEncabezadoTablaProductos();
+          doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsProd);
+        }
         doc.setFillColor(BLANCO[0], BLANCO[1], BLANCO[2]);
         [[xT, wT], [xC, wC], [xI, wI], [xVU, wVU], [xVT, wVT]].forEach(function (p) {
           safeRect(p[0], y, p[1], rH, 'F'); border(p[0], y, p[1], rH);
@@ -2707,6 +2778,12 @@
         { lbl: 'Transporte (M1)', val: COP.format(transporte), verde: false },
         { lbl: 'TOTAL', val: COP.format(totalFinal), verde: true },
       ];
+      // Mantener el bloque de totales junto en la misma página
+      var totRowsActivas = transporte === 0 ? 2 : 3;
+      if (multiPagina && !cabe(S.rowH * totRowsActivas)) {
+        dibujarPie();
+        y = nuevaPagina();
+      }
       for (var ti = 0; ti < totRows.length; ti++) {
         var tr = totRows[ti];
         if (ti === 1 && transporte === 0) continue;
@@ -2725,6 +2802,11 @@
 
       // ── Sección COTIZAR en el PDF ────────────────────────────────────────
       if (cotizarConNombre.length > 0) {
+        // Si no cabe ni el título + encabezado de la tabla, saltar de página
+        if (multiPagina && !cabe(S.thH + S.idHdr + S.rowH)) {
+          dibujarPie();
+          y = nuevaPagina();
+        }
         doc.setFillColor(AMARILLO_HD[0], AMARILLO_HD[1], AMARILLO_HD[2]);
         safeRect(S.marL, y, cW, S.thH, 'F'); border(S.marL, y, cW, S.thH);
         doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsProd);
@@ -2734,6 +2816,7 @@
 
         var wCN = cW * 0.22, wCD = cW * 0.32, wCB = cW * 0.32, wCG = cW * 0.14;
         var xCN = S.marL, xCD = xCN + wCN, xCB = xCD + wCD, xCG = xCB + wCB;
+        _cotColsCache = { wCN: wCN, wCD: wCD, wCB: wCB, wCG: wCG, xCN: xCN, xCD: xCD, xCB: xCB, xCG: xCG };
 
         doc.setFillColor(AMARILLO_HD[0], AMARILLO_HD[1], AMARILLO_HD[2]);
         [[xCN, wCN], [xCD, wCD], [xCB, wCB], [xCG, wCG]].forEach(function(col) {
@@ -2755,6 +2838,12 @@
           var cbLines = doc.splitTextToSize(cit.brecha || '', wCB - 2.5);
           var maxL = Math.max(cnLines.length, cdLines.length, cbLines.length, 1);
           var cotRowH = S.padV + maxL * S.lineH + S.padV;
+          if (multiPagina && !cabe(cotRowH)) {
+            dibujarPie();
+            y = nuevaPagina();
+            dibujarEncabezadoTablaCotizar();
+            doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsId);
+          }
           doc.setFillColor(BLANCO[0], BLANCO[1], BLANCO[2]);
           [[xCN, wCN], [xCD, wCD], [xCB, wCB], [xCG, wCG]].forEach(function(col) {
             safeRect(col[0], y, col[1], cotRowH, 'F'); border(col[0], y, col[1], cotRowH);
@@ -2771,6 +2860,12 @@
       }
 
       // ── Firmas ──────────────────────────────────────────────────────────
+      // El bloque de firmas + nombre UP + fecha debe ir junto.
+      var altoFirmasBloque = S.firmasH + S.firmasH * 0.22 + 8;
+      if (multiPagina && !cabe(altoFirmasBloque)) {
+        dibujarPie();
+        y = nuevaPagina();
+      }
       var wF = cW / 2, xF1 = S.marL, xF2 = S.marL + wF;
       var fLY = y + S.firmasH * 0.4;
       var fTY = fLY + S.firmasH * 0.12;
