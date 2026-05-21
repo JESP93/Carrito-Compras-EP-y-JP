@@ -1658,6 +1658,7 @@
             id="carritoTotal">$0</span></div>
         <div class="pres-modal-warn" id="modalWarn">⚠️ Te estás acercando al tope de tu presupuesto</div>
         <div class="pres-modal-over" id="modalOver">🚫 Superaste el tope. Retira productos antes de exportar.</div>
+        <div class="pres-modal-over" id="modalMinWarn" style="display:none;background:#fff3cd;color:#7b5e0a;border:1.5px solid #f6c90e;border-radius:8px;font-size:.8rem;line-height:1.5;padding:10px 12px;margin-bottom:6px"></div>
         <button class="btn-export" id="btnExportar" disabled>📥 Exportar lista</button>
       </div>
     </div>
@@ -2437,10 +2438,36 @@
         body.innerHTML = h
       }
       document.getElementById('carritoTotal').textContent = COP.format(total);
-      document.getElementById('btnExportar').disabled = items.length === 0;
       var pct = total / (presupuestoMaximo > 0 ? presupuestoMaximo : 1);
       document.getElementById('modalWarn').style.display = (pct > .85 && pct <= 1) ? 'block' : 'none';
-      document.getElementById('modalOver').style.display = (pct > 1) ? 'block' : 'none'
+      document.getElementById('modalOver').style.display = (pct > 1) ? 'block' : 'none';
+
+      // ── Validación mínimo 98% del presupuesto seleccionado ──────────────
+      var saldoLibre = presupuestoMaximo > 0 ? (presupuestoMaximo - total) : 0;
+      var maximoSinSeleccionar = presupuestoMaximo * 0.02; // 2% máx sin seleccionar
+      var minimoRequerido = presupuestoMaximo * 0.98;      // 98% mín seleccionado
+      var superaMinimo = presupuestoMaximo > 0 ? (total >= minimoRequerido) : false;
+      var excedido = presupuestoMaximo > 0 && total > presupuestoMaximo;
+
+      var btnExp = document.getElementById('btnExportar');
+      var minWarnEl = document.getElementById('modalMinWarn');
+      if (minWarnEl) {
+        if (presupuestoMaximo > 0 && items.length > 0 && !superaMinimo && !excedido) {
+          var faltaCOP = minimoRequerido - total;
+          minWarnEl.innerHTML = '📊 Debes seleccionar al menos el <b>98%</b> del presupuesto.<br>Faltan <b>' + COP.format(faltaCOP) + '</b> por asignar (máx. sin seleccionar: ' + COP.format(maximoSinSeleccionar) + ').';
+          minWarnEl.style.display = 'block';
+        } else {
+          minWarnEl.style.display = 'none';
+        }
+      }
+
+      if (excedido) {
+        btnExp.disabled = true;
+      } else if (presupuestoMaximo > 0 && items.length > 0 && !superaMinimo) {
+        btnExp.disabled = true;
+      } else {
+        btnExp.disabled = items.length === 0;
+      }
     }
 
     function quitarItem(id) {
@@ -2873,20 +2900,21 @@
       doc.setDrawColor(NEGRO[0], NEGRO[1], NEGRO[2]); doc.setLineWidth(0.35);
       doc.line(xF1 + 4, fLY, xF1 + wF - 4, fLY);
       doc.line(xF2 + 4, fLY, xF2 + wF - 4, fLY);
-      if (nombreGestor) {
-        doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsFirma);
-        doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
-        var gLines = doc.splitTextToSize(nombreGestor, wF - 8);
-        var gBaseY = fLY - 1.5;
-        for (var gi = gLines.length - 1; gi >= 0; gi--) {
-          cell(gLines[gi], xF2, gBaseY - (gLines.length - 1 - gi) * S.lineH, wF, 'center');
-        }
-      }
       doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsFirma);
       doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
       cell('REPRESENTANTE LEGAL', xF1, fTY, wF, 'center');
       cell('CONSULTOR DESIGNADO', xF2, fTY, wF, 'center');
-      y += S.firmasH * 0.55;
+      var gLines = [];
+      if (nombreGestor) {
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsFirma);
+        doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+        gLines = doc.splitTextToSize(nombreGestor, wF - 8);
+        for (var gi = 0; gi < gLines.length; gi++) {
+          cell(gLines[gi], xF2, fTY + S.lineH * (gi + 1.2), wF, 'center');
+        }
+      }
+      // Espacio extra segun lineas del nombre del gestor para evitar solapamiento
+      y += S.firmasH * 0.55 + Math.max(0, gLines.length - 1) * S.lineH + 4;
 
       // ── Nombre UP ────────────────────────────────────────────────────────
       doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsFirma);
