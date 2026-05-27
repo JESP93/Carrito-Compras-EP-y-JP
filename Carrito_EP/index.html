@@ -1791,14 +1791,15 @@
     if (CATALOGO_DISPONIBLE) { for (var tp = 0; tp < CATALOGO_PRODUCTOS.length; tp++) CATALOGO_PRODUCTOS[tp].nombre = tituloProducto(CATALOGO_PRODUCTOS[tp].nombre) }
 
     var CATALOGO_VERSION = 'v4';
-    var SECTORES = [
+        var SECTORES = [
       { id: 'seleccionados',        nombre: 'Mis Elegidos',        icon: '⭐' },
       { id: 'todos',                nombre: 'Todos',               icon: '🔎' },
       { id: 'manufactura',          nombre: 'Manufactura',         icon: '🔧' },
       { id: 'insumos y materiales', nombre: 'Insumos y Materiales',icon: '📦' },
       { id: 'industria cultural',   nombre: 'Industria Cultural',  icon: '🎨' },
       { id: 'empaque y dotación',   nombre: 'Empaque y Dotación',  icon: '🎁' },
-      { id: 'tecnología',           nombre: 'Tecnología',          icon: '💻' }
+      { id: 'tecnología',           nombre: 'Tecnología',          icon: '💻' },
+      { id: 'cotizar',              nombre: 'Otros Productos',     icon: '📝' }
     ];
 
     var PM = {}; for (var i = 0; i < CATALOGO_PRODUCTOS.length; i++) PM[CATALOGO_PRODUCTOS[i].id] = CATALOGO_PRODUCTOS[i];
