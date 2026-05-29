@@ -2440,31 +2440,50 @@
       document.getElementById('modalWarn').style.display = (pct > .85 && pct <= 1) ? 'block' : 'none';
       document.getElementById('modalOver').style.display = (pct > 1) ? 'block' : 'none';
 
-      // ── Validación mínimo 98% del presupuesto seleccionado ──────────────
-      var saldoLibre = presupuestoMaximo > 0 ? (presupuestoMaximo - total) : 0;
-      var maximoSinSeleccionar = presupuestoMaximo * 0.02; // 2% máx sin seleccionar
-      var minimoRequerido = presupuestoMaximo * 0.98;      // 98% mín seleccionado
-      var superaMinimo = presupuestoMaximo > 0 ? (total >= minimoRequerido) : false;
+      // ── Validación mínimo 98% (solo M1) y notas de transporte (M2-M4) ──
+      var tipoActual = obtenerTipoNom();
       var excedido = presupuestoMaximo > 0 && total > presupuestoMaximo;
 
       var btnExp = document.getElementById('btnExportar');
       var minWarnEl = document.getElementById('modalMinWarn');
-      if (minWarnEl) {
-        if (presupuestoMaximo > 0 && items.length > 0 && !superaMinimo && !excedido) {
-          var faltaCOP = minimoRequerido - total;
-          minWarnEl.innerHTML = '📊 Debes seleccionar al menos el <b>98%</b> del presupuesto.<br>Faltan <b>' + COP.format(faltaCOP) + '</b> por asignar (máx. sin seleccionar: ' + COP.format(maximoSinSeleccionar) + ').';
-          minWarnEl.style.display = 'block';
-        } else {
-          minWarnEl.style.display = 'none';
-        }
-      }
 
-      if (excedido) {
-        btnExp.disabled = true;
-      } else if (presupuestoMaximo > 0 && items.length > 0 && !superaMinimo) {
-        btnExp.disabled = true;
+      if (tipoActual === 'M1') {
+        // M1: debe usar al menos el 98% del presupuesto
+        var maximoSinSeleccionar = presupuestoMaximo * 0.02;
+        var minimoRequerido = presupuestoMaximo * 0.98;
+        var superaMinimo = presupuestoMaximo > 0 ? (total >= minimoRequerido) : false;
+        if (minWarnEl) {
+          if (presupuestoMaximo > 0 && items.length > 0 && !superaMinimo && !excedido) {
+            var faltaCOP = minimoRequerido - total;
+            minWarnEl.innerHTML = '📊 Debes seleccionar al menos el <b>98%</b> del presupuesto.<br>Faltan <b>' + COP.format(faltaCOP) + '</b> por asignar (máx. sin seleccionar: ' + COP.format(maximoSinSeleccionar) + ').';
+            minWarnEl.style.display = 'block';
+          } else {
+            minWarnEl.style.display = 'none';
+          }
+        }
+        if (excedido) {
+          btnExp.disabled = true;
+        } else if (presupuestoMaximo > 0 && items.length > 0 && !superaMinimo) {
+          btnExp.disabled = true;
+        } else {
+          btnExp.disabled = items.length === 0;
+        }
       } else {
-        btnExp.disabled = items.length === 0;
+        // M2-M4: sin restricción de mínimo; mostrar nota de reserva de transporte
+        var transporteReserva = 0;
+        if (tipoActual === 'M2') transporteReserva = 1000000;
+        else if (tipoActual === 'M3') transporteReserva = 1500000;
+        else if (tipoActual === 'M4') transporteReserva = 2000000;
+
+        if (minWarnEl) {
+          if (presupuestoMaximo > 0 && items.length > 0 && transporteReserva > 0 && !excedido) {
+            minWarnEl.innerHTML = '🚚 <b>No olvide reservar monto para transporte.</b> Para ' + tipoActual + ' el monto sugerido es <b>' + COP.format(transporteReserva) + '</b>.<br><span style="font-size:.78rem;color:#7b5e0a">ℹ️ El transporte es una reserva sugerida; el valor real se define según: punto de partida, lugar de entrega, peso, volumen.</span>';
+            minWarnEl.style.display = 'block';
+          } else {
+            minWarnEl.style.display = 'none';
+          }
+        }
+        btnExp.disabled = excedido || items.length === 0;
       }
     }
 
