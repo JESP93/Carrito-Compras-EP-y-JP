@@ -3105,12 +3105,16 @@
       }
       det.innerHTML = html;
 
-      document.getElementById('vPDF-firmaIcono').textContent = data.tiene_firma ? '✍️' : '⚠️';
-      document.getElementById('vPDF-firmaTxt').textContent = data.tiene_firma
-        ? 'Firma detectada: ' + (data.observacion_firma || 'presente')
-        : 'Sin firma detectada: ' + (data.observacion_firma || 'no se encontró firma');
-      document.getElementById('vPDF-firmaRow').style.background = data.tiene_firma ? '#f0fff4' : '#fff5f5';
-      document.getElementById('vPDF-firmaRow').style.borderColor = data.tiene_firma ? '#38a169' : '#e53e3e';
+      var firmaRow = document.getElementById('vPDF-firmaRow');
+      if (data.tiene_firma) {
+        firmaRow.style.display = 'flex';
+        document.getElementById('vPDF-firmaIcono').textContent = '✍️';
+        document.getElementById('vPDF-firmaTxt').textContent = 'Firma detectada: ' + (data.observacion_firma || 'presente');
+        firmaRow.style.background = '#f0fff4';
+        firmaRow.style.borderColor = '#38a169';
+      } else {
+        firmaRow.style.display = 'none';
+      }
     }
 
     document.getElementById('vPDF-btnReintentar').addEventListener('click', function () {
