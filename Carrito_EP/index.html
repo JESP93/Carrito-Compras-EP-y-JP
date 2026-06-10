@@ -3134,6 +3134,20 @@
     if (CATALOGO_DISPONIBLE) {
       estadoCatalogo('listo');
       cargarEstado();
+
+      // ── Limpieza automática: borrar datos de "Otros Productos" (cotizar) ──
+      // Usuarios que tenían ítems en caché ya no pueden gestionarlos desde la UI,
+      // así que se resetean al cargar la app.
+      cotizarItems = [];
+      for (var _lci = 0; _lci < COTIZAR_MAX; _lci++) {
+        cotizarItems.push({ nombre: '', descripcion: '', brecha: '', garantia: '' });
+      }
+      cotizarVisible = 1;
+      try {
+        localStorage.removeItem('analisis_mercado_cotizar');
+        localStorage.removeItem('analisis_mercado_cotizar_visible');
+      } catch (e) { }
+
       construirSectores();
       aplicarFiltros();
       actualizarUI();
