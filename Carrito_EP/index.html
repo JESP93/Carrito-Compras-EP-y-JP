@@ -1533,6 +1533,185 @@
       border-bottom: none;
     }
 
+    /* ── Modal Transporte M2-M4 ── */
+    .transporte-modal-body {
+      text-align: center;
+      padding: 24px 20px 20px;
+    }
+
+    .transporte-modal-icon {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .transporte-modal-title {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--texto);
+      margin-bottom: 6px;
+    }
+
+    .transporte-modal-cat {
+      display: inline-block;
+      background: #fef3c7;
+      color: #7b5e0a;
+      font-size: .82rem;
+      font-weight: 700;
+      padding: 3px 12px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+
+    .transporte-modal-desc {
+      font-size: .88rem;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 18px;
+    }
+
+    .transporte-modal-monto {
+      background: #f0f9ff;
+      border: 1.5px solid #bae6fd;
+      border-radius: 12px;
+      padding: 14px 16px;
+      margin-bottom: 18px;
+    }
+
+    .transporte-modal-monto-label {
+      font-size: .75rem;
+      font-weight: 700;
+      color: #0369a1;
+      text-transform: uppercase;
+      letter-spacing: .3px;
+      margin-bottom: 4px;
+    }
+
+    .transporte-modal-monto-valor {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #0c4a6e;
+    }
+
+    .transporte-modal-opciones {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .transporte-modal-btn {
+      width: 100%;
+      min-height: 52px;
+      border: none;
+      border-radius: 14px;
+      font-size: .92rem;
+      font-weight: 700;
+      font-family: inherit;
+      cursor: pointer;
+      padding: 14px 16px;
+      line-height: 1.4;
+      transition: transform .1s, opacity .1s;
+    }
+
+    .transporte-modal-btn:active {
+      transform: scale(.97);
+      opacity: .85;
+    }
+
+    .transporte-modal-btn.descontar {
+      background: var(--verde);
+      color: #fff;
+    }
+
+    .transporte-modal-btn.asumir {
+      background: rgba(0,0,0,.06);
+      color: var(--texto);
+      border: 1.5px solid var(--borde);
+    }
+
+    .transporte-modal-btn-sub {
+      font-size: .75rem;
+      font-weight: 400;
+      opacity: .7;
+      display: block;
+      margin-top: 2px;
+    }
+
+    .transporte-modal-nota {
+      font-size: .72rem;
+      color: var(--gris);
+      margin-top: 14px;
+      line-height: 1.5;
+    }
+
+    /* Badge transporte en header */
+    .pres-transporte-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: #fef3c7;
+      color: #7b5e0a;
+      font-size: .68rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 8px;
+      margin-top: 5px;
+      cursor: pointer;
+    }
+
+    .pres-transporte-badge:hover {
+      background: #fde68a;
+    }
+
+    /* Carrito transporte row */
+    .carrito-transporte-row {
+      background: #fffbeb;
+      border: 1.5px solid #fde68a;
+      border-radius: 10px;
+      padding: 12px 14px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .carrito-transporte-info {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .carrito-transporte-icon {
+      font-size: 1.3rem;
+    }
+
+    .carrito-transporte-text {
+      font-size: .82rem;
+      font-weight: 600;
+      color: #7b5e0a;
+      line-height: 1.4;
+    }
+
+    .carrito-transporte-monto {
+      font-size: .9rem;
+      font-weight: 800;
+      color: #92400e;
+      white-space: nowrap;
+    }
+
+    .btn-cambiar-transporte {
+      background: none;
+      border: 1.5px solid #d69e2e;
+      color: #7b5e0a;
+      font-size: .72rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: inherit;
+      white-space: nowrap;
+    }
+
     .cotizar-resumen-dot {
       width: 6px;
       height: 6px;
@@ -1737,6 +1916,36 @@
     </div>
   </div>
 
+  <div class="overlay" id="overlayTransporte">
+    <div class="modal">
+      <div class="modal-handle"></div>
+      <div class="modal-body transporte-modal-body">
+        <div class="transporte-modal-icon">🚚</div>
+        <div class="transporte-modal-title">Reserva de transporte</div>
+        <div class="transporte-modal-cat" id="transporteModalCat">M2</div>
+        <div class="transporte-modal-desc" id="transporteModalDesc">
+          Para esta modalidad, el costo de transporte sale del total asignado.
+          ¿Deseas reservar el monto de transporte de tu presupuesto?
+        </div>
+        <div class="transporte-modal-monto">
+          <div class="transporte-modal-monto-label">Monto sugerido de transporte</div>
+          <div class="transporte-modal-monto-valor" id="transporteModalMonto">$0</div>
+        </div>
+        <div class="transporte-modal-opciones">
+          <button class="transporte-modal-btn descontar" id="btnTransporteDescontar">
+            ✅ Sí, descontar del presupuesto
+            <span class="transporte-modal-btn-sub" id="btnTransporteDescontarSub">Quedarán $0 para productos</span>
+          </button>
+          <button class="transporte-modal-btn asumir" id="btnTransporteAsumir">
+            💼 No, asumo el transporte por mi cuenta
+            <span class="transporte-modal-btn-sub" id="btnTransporteAsumirSub">Tendrás el presupuesto completo para productos</span>
+          </button>
+        </div>
+        <div class="transporte-modal-nota">ℹ️ El transporte es una reserva sugerida; el valor real se define según punto de partida, lugar de entrega, peso y volumen. Puedes cambiar esta decisión después.</div>
+      </div>
+    </div>
+  </div>
+
   <div id="toastContainer"></div>
 
   <div id="overlayConfirm">
@@ -1783,6 +1992,79 @@
     document.getElementById('confirmCancelar').addEventListener('click', _cerrarConfirm);
     document.getElementById('overlayConfirm').addEventListener('click', function (e) { if (e.target === this) _cerrarConfirm(); });
 
+    // ── Modal Transporte M2-M4 ──────────────────────────
+    function mostrarModalTransporte() {
+      var tipo = obtenerTipoNom();
+      var montoT = obtenerMontoTransporte(tipo);
+      if (!montoT) return;
+      var disponible = presupuestoMaximo - montoT;
+      document.getElementById('transporteModalCat').textContent = tipo;
+      document.getElementById('transporteModalDesc').textContent =
+        'Para la modalidad ' + tipo + ', el costo de transporte sale del total asignado (' + COP.format(presupuestoMaximo) + '). ¿Deseas reservar el monto de transporte de tu presupuesto?';
+      document.getElementById('transporteModalMonto').textContent = COP.format(montoT);
+      document.getElementById('btnTransporteDescontarSub').textContent =
+        'Quedarán ' + COP.format(disponible) + ' para productos';
+      document.getElementById('btnTransporteAsumirSub').textContent =
+        'Tendrás los ' + COP.format(presupuestoMaximo) + ' completos para productos';
+      document.getElementById('overlayTransporte').classList.add('open');
+    }
+
+    function cerrarModalTransporte() {
+      document.getElementById('overlayTransporte').classList.remove('open');
+    }
+
+    function aplicarDecisionTransporte(descontar) {
+      transporteDescontado = descontar;
+      cerrarModalTransporte();
+      guardar();
+      actualizarUI();
+      actualizarPresupuestoHeader();
+      // Re-render carrito si está abierto
+      if (document.getElementById('overlayCarrito').classList.contains('open')) {
+        renderCarrito();
+      }
+      // Confirmación al usuario
+      var tipo = obtenerTipoNom();
+      var montoT = obtenerMontoTransporte(tipo);
+      if (descontar) {
+        mostrarToast('Transporte de ' + COP.format(montoT) + ' reservado. Presupuesto para productos: ' + COP.format(presupuestoDisponible()) + '.', '', '🚚', 5000);
+      } else {
+        mostrarToast('Transporte a cargo de la UP. Presupuesto completo disponible: ' + COP.format(presupuestoMaximo) + '.', '', '💼', 5000);
+      }
+      // Si ya tiene items y ahora el total excede, avisar
+      var total = totalCarrito();
+      var disp = presupuestoDisponible();
+      if (total > disp && disp > 0) {
+        setTimeout(function () {
+          mostrarToast('⚠️ Tu selección actual (' + COP.format(total) + ') supera el presupuesto para productos. Retira productos si es necesario.', 'error', '🚫', 7000);
+        }, 800);
+      }
+    }
+
+    function actualizarPresupuestoHeader() {
+      var tipo = obtenerTipoNom();
+      var disp = presupuestoDisponible();
+      var montoT = obtenerMontoTransporte(tipo);
+      var base = presupuestoMaximo;
+      if (base > 0) {
+        var txt = 'Tope: ' + COP.format(disp) + ' (' + tipo + ')';
+        if (transporteDescontado && montoT > 0) {
+          txt += ' · 🚚 ' + COP.format(montoT) + ' reservado';
+        }
+        document.getElementById('presTopeTxt').textContent = txt;
+      }
+    }
+
+    document.getElementById('btnTransporteDescontar').addEventListener('click', function () {
+      aplicarDecisionTransporte(true);
+    });
+    document.getElementById('btnTransporteAsumir').addEventListener('click', function () {
+      aplicarDecisionTransporte(false);
+    });
+    document.getElementById('overlayTransporte').addEventListener('click', function (e) {
+      // No permitir cerrar haciendo click fuera — debe elegir una opción
+    });
+
     // ─────────────────────────────────────────────────────────
     var CATALOGO_DISPONIBLE = Array.isArray(window.PRODUCTOS);
     var CATALOGO_PRODUCTOS = CATALOGO_DISPONIBLE ? window.PRODUCTOS : [];
@@ -1810,6 +2092,23 @@
     var carrito = {}, sectorActivo = 'todos', busqueda = '', ordenFiltrado = '', presupuestoMaximo = 0,
       codigoIniciativaActual = '', nombreUPActual = '', productosFiltrados = [],
       paginaActual = 0, POR_PAGINA = 20, timeoutBusqueda, detalleActual = null;
+
+    // ── Transporte M2-M4 ──────────────────────────────
+    var transporteDescontado = false;
+    var MONTOS_TRANSPORTE = { 'M2': 1000000, 'M3': 1500000, 'M4': 2000000 };
+
+    function obtenerMontoTransporte(tipoNom) {
+      return MONTOS_TRANSPORTE[tipoNom] || 0;
+    }
+
+    function presupuestoDisponible() {
+      var tipo = obtenerTipoNom();
+      if (tipo === 'M1' || !tipo) return presupuestoMaximo;
+      if (transporteDescontado) {
+        return presupuestoMaximo - obtenerMontoTransporte(tipo);
+      }
+      return presupuestoMaximo;
+    }
 
     // ── objetivo del plan ──────────────────────────────
     var objetivoPlanTexto = '';
@@ -1850,6 +2149,7 @@
         localStorage.setItem('analisis_mercado_cotizar', JSON.stringify(cotizarItems));
         localStorage.setItem('analisis_mercado_cotizar_visible', String(cotizarVisible));
         localStorage.setItem('analisis_mercado_objetivo', objetivoPlanTexto);
+        localStorage.setItem('analisis_mercado_transporte', transporteDescontado ? '1' : '0');
         if (window._upData && typeof window._upData === 'object') {
           localStorage.setItem('analisis_mercado_updata', JSON.stringify(window._upData));
         }
@@ -1866,7 +2166,13 @@
         var cot = localStorage.getItem('analisis_mercado_cotizar');
         var cotVis = localStorage.getItem('analisis_mercado_cotizar_visible');
         var obj = localStorage.getItem('analisis_mercado_objetivo');
+        var transp = localStorage.getItem('analisis_mercado_transporte');
         if (obj) objetivoPlanTexto = String(obj);
+        if (transp !== null) {
+          transporteDescontado = (transp === '1');
+        } else {
+          transporteDescontado = false;
+        }
 
         if (c) { carrito = JSON.parse(c); if (!carrito || typeof carrito !== 'object') carrito = {} }
         if (p) presupuestoMaximo = parseInt(p) || 0;
@@ -1903,11 +2209,13 @@
       } catch (e) { carrito = {}; presupuestoMaximo = 0; codigoIniciativaActual = ''; nombreUPActual = ''; window._upData = {}; }
       if (presupuestoMaximo > 0) {
         document.getElementById('pantallaInicio').classList.add('oculta');
-        var n = 'M1';
-        if (presupuestoMaximo === 20000000) n = 'M2';
-        else if (presupuestoMaximo === 30000000) n = 'M3';
-        else if (presupuestoMaximo === 50000000) n = 'M4';
-        document.getElementById('presTopeTxt').textContent = 'Tope: ' + COP.format(presupuestoMaximo) + ' (' + n + ')'
+        actualizarPresupuestoHeader();
+        // Si es M2-M4 y nunca tomó la decisión de transporte, mostrar modal
+        var tipoReload = obtenerTipoNom();
+        var transpKey = localStorage.getItem('analisis_mercado_transporte');
+        if ((tipoReload === 'M2' || tipoReload === 'M3' || tipoReload === 'M4') && transpKey === null) {
+          setTimeout(function () { mostrarModalTransporte(); }, 600);
+        }
       }
       // Sincronizar textarea del objetivo en la página principal
       var taInline = document.getElementById('objetivoPlanTexto');
@@ -1918,8 +2226,12 @@
     function seleccionarTipologia(monto, nombre) {
       presupuestoMaximo = monto;
       document.getElementById('pantallaInicio').classList.add('oculta');
-      document.getElementById('presTopeTxt').textContent = 'Tope: ' + COP.format(monto) + ' (' + nombre + ')';
-      guardar(); actualizarUI()
+      actualizarPresupuestoHeader();
+      guardar(); actualizarUI();
+      // Para M2-M4 mostrar modal de transporte
+      if (nombre === 'M2' || nombre === 'M3' || nombre === 'M4') {
+        setTimeout(function () { mostrarModalTransporte(); }, 400);
+      }
     }
 
     function itemsDistintos() { var n = 0; for (var k in carrito) if (carrito[k] > 0 && PM[k]) n++; return n }
@@ -2174,7 +2486,8 @@
     });
 
     document.getElementById('btnCambiar').addEventListener('click', function () {
-      nombreUPActual = ''; actualizarNombreHeader();
+      nombreUPActual = ''; transporteDescontado = false; actualizarNombreHeader();
+      try { localStorage.removeItem('analisis_mercado_transporte'); } catch (e) { }
       document.getElementById('pantallaInicio').classList.remove('oculta')
     });
 
@@ -2304,8 +2617,11 @@
         nombre_up: nombreUPActual || upD.unidad_nombre || '',
         tipologia: tipoNom,
         presupuesto_maximo: presupuestoMaximo,
+        presupuesto_productos: presupuestoDisponible(),
+        transporte_descontado: transporteDescontado,
+        monto_transporte: obtenerMontoTransporte(tipoNom),
         total_seleccionado: total,
-        saldo_disponible: presupuestoMaximo - total,
+        saldo_disponible: presupuestoDisponible() - total,
         fecha_generacion: new Date().toISOString(),
         objetivo_plan: objetivoPlanTexto,
         datos_up: {
@@ -2377,8 +2693,9 @@
       var prod = PM[id]; if (!prod) return;
       if (delta > 0) {
         var futuro = totalCarrito() + prod.precio;
-        if (presupuestoMaximo > 0 && futuro > presupuestoMaximo) {
-          mostrarToast('Tu presupuesto máximo es ' + COP.format(presupuestoMaximo) + '.', 'error', '🚫', 5000);
+        var disp = presupuestoDisponible();
+        if (disp > 0 && futuro > disp) {
+          mostrarToast('Tu presupuesto para productos es ' + COP.format(disp) + '.', 'error', '🚫', 5000);
           return
         }
       }
@@ -2402,11 +2719,12 @@
 
     function actualizarUI() {
       var items = itemsCarrito(), total = totalCarrito();
+      var disp = presupuestoDisponible();
       document.getElementById('cartBadge').textContent = items;
       document.getElementById('cartTotalFab').textContent = COP.format(total);
       document.getElementById('hdrBadge').textContent = items + (items === 1 ? ' producto' : ' productos');
       document.getElementById('presNum').textContent = COP.format(total);
-      var divisor = presupuestoMaximo > 0 ? presupuestoMaximo : 1, pct = Math.min((total / divisor) * 100, 100);
+      var divisor = disp > 0 ? disp : 1, pct = Math.min((total / divisor) * 100, 100);
       var fill = document.getElementById('presFill');
       fill.style.width = pct + '%';
       fill.className = 'pres-fill' + (pct > 90 ? ' over' : pct > 60 ? ' warn' : '');
@@ -2424,25 +2742,70 @@
     function renderCarrito() {
       var items = []; for (var id in carrito) if (carrito[id] > 0 && PM[id]) items.push(PM[id]);
       var total = totalCarrito(), body = document.getElementById('carritoBody'), bv = document.getElementById('btnVaciar');
+      var disp = presupuestoDisponible();
+      var tipoActual = obtenerTipoNom();
+      var montoTransp = obtenerMontoTransporte(tipoActual);
+
       if (!items.length) {
         body.innerHTML = '<div class="carrito-empty"><div class="e-icon">🛒</div>Tu carrito está vacío.</div>';
         bv.style.display = 'none'
       } else {
         bv.style.display = 'block'; var h = '';
+
+        // ── Mostrar badge de transporte si aplica M2-M4 ──
+        if (montoTransp > 0 && transporteDescontado) {
+          h += '<div class="carrito-transporte-row">' +
+            '<div class="carrito-transporte-info">' +
+            '<span class="carrito-transporte-icon">🚚</span>' +
+            '<div><div class="carrito-transporte-text">Transporte reservado (' + tipoActual + ')</div>' +
+            '<div style="font-size:.72rem;color:#92400e;margin-top:2px">Descontado del presupuesto</div></div>' +
+            '</div>' +
+            '<div style="display:flex;align-items:center;gap:8px">' +
+            '<span class="carrito-transporte-monto">' + COP.format(montoTransp) + '</span>' +
+            '<button class="btn-cambiar-transporte" id="btnCambiarTransporteCarrito">Cambiar</button>' +
+            '</div>' +
+            '</div>';
+        } else if (montoTransp > 0 && !transporteDescontado) {
+          h += '<div class="carrito-transporte-row" style="background:#f0f9ff;border-color:#bae6fd">' +
+            '<div class="carrito-transporte-info">' +
+            '<span class="carrito-transporte-icon">💼</span>' +
+            '<div><div class="carrito-transporte-text" style="color:#0369a1">Transporte a cargo de la UP (' + tipoActual + ')</div>' +
+            '<div style="font-size:.72rem;color:#0369a1;margin-top:2px">No se descuenta del presupuesto</div></div>' +
+            '</div>' +
+            '<button class="btn-cambiar-transporte" id="btnCambiarTransporteCarrito" style="border-color:#0369a1;color:#0369a1">Cambiar</button>' +
+            '</div>';
+        }
+
         for (var i = 0; i < items.length; i++) {
           var p = items[i], cant = carrito[p.id];
           h += '<div class="carrito-item"><div class="ci-top"><span class="ci-icon">' + p.icono + '</span><div class="ci-info"><div class="ci-nombre">' + esc(p.nombre) + '</div><div class="ci-detalle">' + COP.format(p.precio) + ' c/u</div></div></div><div class="ci-bottom"><div class="ctrl-mini"><button class="ctrl-btn" data-action="restar" data-id="' + p.id + '">−</button><span class="ctrl-num">' + cant + '</span><button class="ctrl-btn" data-action="sumar" data-id="' + p.id + '">+</button></div><div style="display:flex;align-items:center"><span class="ci-sub">' + COP.format(cant * p.precio) + '</span><button class="ci-remove" data-id="' + p.id + '">🗑️</button></div></div></div>'
         }
-        body.innerHTML = h
+        body.innerHTML = h;
+
+        // ── Listener para cambiar decisión de transporte desde el carrito ──
+        var btnCT = document.getElementById('btnCambiarTransporteCarrito');
+        if (btnCT) {
+          btnCT.addEventListener('click', function () {
+            mostrarModalTransporte();
+          });
+        }
       }
-      document.getElementById('carritoTotal').textContent = COP.format(total);
-      var pct = total / (presupuestoMaximo > 0 ? presupuestoMaximo : 1);
+
+      // ── Totales del carrito ──
+      var totalMostrar = total;
+      var carritoTotalEl = document.getElementById('carritoTotal');
+      if (transporteDescontado && montoTransp > 0) {
+        carritoTotalEl.innerHTML = COP.format(total) + ' <span style="font-size:.75rem;color:#7b5e0a;font-weight:600">+ ' + COP.format(montoTransp) + ' transporte</span>';
+      } else {
+        carritoTotalEl.textContent = COP.format(total);
+      }
+
+      var pct = total / (disp > 0 ? disp : 1);
       document.getElementById('modalWarn').style.display = (pct > .85 && pct <= 1) ? 'block' : 'none';
       document.getElementById('modalOver').style.display = (pct > 1) ? 'block' : 'none';
 
       // ── Validación mínimo 98% (solo M1) y notas de transporte (M2-M4) ──
-      var tipoActual = obtenerTipoNom();
-      var excedido = presupuestoMaximo > 0 && total > presupuestoMaximo;
+      var excedido = disp > 0 && total > disp;
 
       var btnExp = document.getElementById('btnExportar');
       var minWarnEl = document.getElementById('modalMinWarn');
@@ -2469,16 +2832,17 @@
           btnExp.disabled = items.length === 0;
         }
       } else {
-        // M2-M4: sin restricción de mínimo; mostrar nota de reserva de transporte
-        var transporteReserva = 0;
-        if (tipoActual === 'M2') transporteReserva = 1000000;
-        else if (tipoActual === 'M3') transporteReserva = 1500000;
-        else if (tipoActual === 'M4') transporteReserva = 2000000;
-
+        // M2-M4: mensaje sobre transporte
         if (minWarnEl) {
-          if (presupuestoMaximo > 0 && items.length > 0 && transporteReserva > 0 && !excedido) {
-            minWarnEl.innerHTML = '🚚 <b>No olvide reservar monto para transporte.</b> Para ' + tipoActual + ' el monto sugerido es <b>' + COP.format(transporteReserva) + '</b>.<br><span style="font-size:.78rem;color:#7b5e0a">ℹ️ El transporte es una reserva sugerida; el valor real se define según: punto de partida, lugar de entrega, peso, volumen.</span>';
-            minWarnEl.style.display = 'block';
+          if (disp > 0 && items.length > 0 && !excedido) {
+            if (transporteDescontado && montoTransp > 0) {
+              minWarnEl.innerHTML = '🚚 <b>Transporte reservado: ' + COP.format(montoTransp) + '</b><br>Presupuesto disponible para productos: <b>' + COP.format(disp) + '</b><br><span style="font-size:.78rem;color:#7b5e0a">ℹ️ Puedes cambiar esta decisión tocando "Cambiar" arriba.</span>';
+            } else if (montoTransp > 0) {
+              minWarnEl.innerHTML = '🚚 <b>Transporte a cargo de la unidad productiva.</b><br>Tu presupuesto completo (' + COP.format(presupuestoMaximo) + ') está disponible para productos.<br><span style="font-size:.78rem;color:#7b5e0a">ℹ️ Puedes cambiar esta decisión tocando "Cambiar" arriba.</span>';
+            } else {
+              minWarnEl.style.display = 'none';
+            }
+            minWarnEl.style.display = montoTransp > 0 ? 'block' : 'none';
           } else {
             minWarnEl.style.display = 'none';
           }
@@ -2550,8 +2914,26 @@
         ['Actividad económica', upD.unidad_sector || ''],
       ];
 
-      var transporte = (tipoNom === 'M1') ? 200000 : 0;
+      var transporte = 0;
+      var transporteLabel = '';
+      var transporteAsumidoPorUP = false;  // flag para leyenda en PDF
+      if (tipoNom === 'M1') {
+        transporte = 200000;
+        transporteLabel = 'Transporte adicional (M1)';
+      } else if (tipoNom === 'M2' || tipoNom === 'M3' || tipoNom === 'M4') {
+        var montoTranspPDF = obtenerMontoTransporte(tipoNom);
+        if (transporteDescontado) {
+          transporte = montoTranspPDF;
+          transporteLabel = 'Reserva de Transporte (' + tipoNom + ')';
+        } else {
+          transporte = 0;
+          transporteLabel = 'Transporte (' + tipoNom + ')';
+          transporteAsumidoPorUP = true;
+        }
+      }
       var totalFinal = total + transporte;
+      // Para M2-M4 la fila de transporte siempre se muestra
+      var mostrarFilaTransporte = (tipoNom === 'M1' || tipoNom === 'M2' || tipoNom === 'M3' || tipoNom === 'M4');
       var MAX_FILAS = Math.max(items.length, 1);
 
       var cotizarConNombre = pedido.productos_cotizar || [];
@@ -2583,6 +2965,7 @@
         }
         if (items.length === 0) h += sc.rowH;
         h += sc.rowH * 3;
+        if (transporteAsumidoPorUP) h += sc.rowH * 2.5;
         h += sc.gap;
         if (cotizarConNombre.length > 0) {
           h += sc.thH;
@@ -2819,18 +3202,25 @@
       // ── Totales ─────────────────────────────────────────────────────────
       var totRows = [
         { lbl: 'TOTAL PLAN DE INVERSIÓN', val: COP.format(total), verde: true },
-        { lbl: 'Transporte (M1)', val: COP.format(transporte), verde: false },
+        { lbl: transporteLabel || 'Transporte', val: COP.format(transporte), verde: false },
         { lbl: 'TOTAL', val: COP.format(totalFinal), verde: true },
       ];
-      // Mantener el bloque de totales junto en la misma página
-      var totRowsActivas = transporte === 0 ? 2 : 3;
-      if (multiPagina && !cabe(S.rowH * totRowsActivas)) {
+
+      // Calcular alto necesario: 3 filas + leyenda si aplica
+      var leyendaTransporte = '';
+      if (transporteAsumidoPorUP) {
+        leyendaTransporte = 'El(la) beneficiario(a) y/o representante de la Unidad Productiva manifiesta de forma voluntaria que asumirá el costo de transporte de los bienes y/o equipos adquiridos con recursos del programa, por medios propios y bajo su responsabilidad.';
+      }
+      var altoTotales = S.rowH * 3;
+      if (leyendaTransporte) altoTotales += S.rowH * 2.5;
+      if (multiPagina && !cabe(altoTotales)) {
         dibujarPie();
         y = nuevaPagina();
       }
       for (var ti = 0; ti < totRows.length; ti++) {
         var tr = totRows[ti];
-        if (ti === 1 && transporte === 0) continue;
+        // La fila de transporte (índice 1) se muestra siempre para M1-M4
+        if (ti === 1 && !mostrarFilaTransporte) continue;
         if (tr.verde) doc.setFillColor(VERDE_HD[0], VERDE_HD[1], VERDE_HD[2]);
         else doc.setFillColor(BLANCO[0], BLANCO[1], BLANCO[2]);
         safeRect(xT, y, wSpan, S.rowH, 'F'); border(xT, y, wSpan, S.rowH);
@@ -2841,6 +3231,31 @@
         doc.setFont('helvetica', 'normal');
         cell(tr.val, xVT, y + S.rowH * 0.65, wVT, 'right');
         y += S.rowH;
+      }
+
+      // ── Leyenda de transporte asumido por UP (M2-M4) ──
+      if (leyendaTransporte) {
+        var leyLines = doc.splitTextToSize(leyendaTransporte, cW - 4);
+        var leyH = S.padV + leyLines.length * S.lineH + S.padV + 2;
+        doc.setFillColor(255, 251, 235);  // fondo amarillo tenue
+        safeRect(S.marL, y, cW, leyH, 'F');
+        doc.setDrawColor(214, 158, 46);
+        doc.setLineWidth(0.3);
+        safeRect(S.marL, y, cW, leyH, 'S');
+        doc.setFont('helvetica', 'bold'); doc.setFontSize(S.fsProd);
+        doc.setTextColor(120, 53, 15);
+        doc.text('NOTA:', S.marL + 2, y + S.padV + S.lineH * 0.8);
+        doc.setFont('helvetica', 'normal'); doc.setFontSize(S.fsProd);
+        doc.setTextColor(NEGRO[0], NEGRO[1], NEGRO[2]);
+        var notaX = S.marL + 2 + doc.getTextWidth('NOTA: ');
+        // Primera línea junto a "NOTA:", el resto debajo
+        if (leyLines.length > 0) {
+          doc.text(leyLines[0], notaX, y + S.padV + S.lineH * 0.8);
+        }
+        for (var ll = 1; ll < leyLines.length; ll++) {
+          doc.text(leyLines[ll], S.marL + 2, y + S.padV + (ll + 0.8) * S.lineH);
+        }
+        y += leyH;
       }
       y += S.gap;
 
