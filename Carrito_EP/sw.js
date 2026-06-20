@@ -1,4 +1,4 @@
-const CACHE = 'analisis-mercado-v7.3.6';
+const CACHE = 'analisis-mercado-v7.3.7';
 // Los JSON de beneficiarios (./json_ups/{codigo}.json) NO se pre-cachean
 // aquí porque son demasiados; se cachean automáticamente al consultarse.
 const ASSETS = ['./', './index.html', './productos.js', './manifest.json', './icon.png'];
