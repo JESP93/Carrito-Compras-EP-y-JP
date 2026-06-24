@@ -1172,6 +1172,42 @@
       border: 1.5px solid var(--acento)
     }
 
+    .toast.toast-grande {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 9500;
+      width: min(92vw, 460px);
+      padding: 34px 32px;
+      font-size: 1.5rem;
+      line-height: 1.5;
+      border-radius: 22px;
+      gap: 18px;
+      box-shadow: 0 12px 48px rgba(0, 0, 0, .5);
+      animation: toastInCenter .25s cubic-bezier(.22, .68, 0, 1.1)
+    }
+
+    @keyframes toastInCenter {
+      from {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(.9)
+      }
+
+      to {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1)
+      }
+    }
+
+    .toast.toast-grande .toast-icono {
+      font-size: 2.3rem
+    }
+
+    .toast.toast-grande .toast-cerrar {
+      font-size: 1.6rem
+    }
+
     .toast-icono {
       font-size: 1.1rem;
       flex-shrink: 0;
@@ -1966,10 +2002,11 @@
     var BOT_RECIBIR_URL = 'https://bot-captura-docs-f6e8fsejb9a7fgac.centralus-01.azurewebsites.net/api/recibir_carrito';
 
     // ── Toast ──────────────────────────────────────────────
-    function mostrarToast(msg, tipo, icono, duracion) {
-      var cont = document.getElementById('toastContainer');
+    function mostrarToast(msg, tipo, icono, duracion, claseExtra) {
+      var esGrande = claseExtra && claseExtra.indexOf('toast-grande') !== -1;
+      var cont = esGrande ? document.body : document.getElementById('toastContainer');
       var t = document.createElement('div');
-      t.className = 'toast' + (tipo ? ' toast-' + tipo : '');
+      t.className = 'toast' + (tipo ? ' toast-' + tipo : '') + (claseExtra ? ' ' + claseExtra : '');
       t.innerHTML = '<span class="toast-icono">' + icono + '</span><span class="toast-msg">' + msg + '</span><button class="toast-cerrar">✕</button>';
       t.querySelector('.toast-cerrar').addEventListener('click', function () { _cerrarToast(t) });
       cont.appendChild(t);
@@ -2656,7 +2693,7 @@
         if (r.ok) mostrarToast('Plan registrado en el servidor.', '', '✅', 3500);
         else mostrarToast('No se pudo enviar al servidor.', 'warn', '⚠️', 5000);
       }).catch(function () {
-        mostrarToast('Sin conexión. El coordinador debe subirlo manualmente.', 'warn', '⚠️', 5000);
+        mostrarToast('Sin conexión. Por favor intente más tarde.', 'warn', '⚠️', 7000, 'toast-grande');
       });
     }
 
