@@ -1,4 +1,4 @@
-// AUTO-GENERADO desde Base_Carrito_Vf_21.xlsx — no editar manualmente
+// AUTO-GENERADO desde Base_Carrito_Vf_22.xlsx — no editar manualmente
 // Total: 3955 productos
 window.PRODUCTOS = [
   {
@@ -100772,8 +100772,8 @@ window.PRODUCTOS = [
       "ciiu": "G (46,47)",
       "proceso": "Producción / Operación",
       "tipo": "Insumo",
-      "nombre": "Tatami 1m x 1m x 2,5 cm x 6 unidades",
-      "desc": "Transforma tus espacios con el Tapete Caucho X 6 Unidades Alto Impacto de Lift it. Diseñado para ambientes interiores y exteriores, este producto es ideal para gimnasios y áreas de alto impacto, ofreciendo una superficie segura y resistente. Su diseño cuadriculado en color negro no solo aporta estilo, sino que también garantiza un excelente agarre gracias a su textura antideslizante. | Cada tapete mide 50x50 cm y cuenta con un espesor de 1 cm, lo que proporciona una base sólida y cómoda para tus actividades. Con un rendimiento de 1.5 m2 por pack, es perfecto para cubrir áreas amplias sin complicaciones.",
+      "nombre": "Tatami 1m x 1m x 2,5 cm",
+      "desc": "Transforma tus espacios con el Tapete Caucho X 6 Unidades Alto Impacto de Lift it. Diseñado para ambientes interiores y exteriores, este producto es ideal para gimnasios y áreas de alto impacto, ofreciendo una superficie segura y resistente. Su diseño cuadriculado en color negro no solo aporta estilo, sino que también garantiza un excelente agarre gracias a su textura antideslizante. | Proporciona una base sólida y cómoda para tus actividades. Es perfecto para cubrir áreas amplias sin complicaciones.",
       "precio": 286000,
       "icono": "🔩",
       "imagen": "1782",
@@ -104013,7 +104013,7 @@ window.PRODUCTOS = [
       "proceso": "Producción / Operación",
       "tipo": "Insumo",
       "nombre": "Frasco de vidrio 370 ml",
-      "desc": "Envase de vidrio diseñado para el almacenamiento y comercialización de productos alimenticios, especialmente miel y derivados apícolas, ofreciendo conservación segura y presentación atractiva. | Tipo: Frasco tipo alimento\nCapacidad: 370 ml\nMaterial: Vidrio transparente\nSistema de cierre: Tapa metálica dorada brillante",
+      "desc": "Envase de vidrio diseñado para el almacenamiento y comercialización de productos alimenticios, especialmente miel y derivados apícolas, ofreciendo conservación segura y presentación atractiva. Caja por 24 unidades. | Tipo: Frasco tipo alimento\nCapacidad: 370 ml\nMaterial: Vidrio transparente\nSistema de cierre: Tapa metálica dorada brillante",
       "precio": 100555,
       "icono": "🔩",
       "imagen": "1902",
@@ -104066,8 +104066,8 @@ window.PRODUCTOS = [
       "ciiu": "G (46,47)",
       "proceso": "Producción / Operación",
       "tipo": "Insumo",
-      "nombre": "Café Colonial",
-      "desc": "Productos alimenticios destinados al consumo humano: café molido y azúcar refinada, ofertados en presentación comercial de 500 gramos cada uno, incluidos dentro de una cotización formal. | Café Colonial:\n\nPresentación: 500 g",
+      "nombre": "Café",
+      "desc": "Productos alimenticios destinados al consumo humano: café molido y azúcar refinada, ofertados en presentación comercial de 500 gramos cada uno, incluidos dentro de una cotización formal. | Café:\n\nPresentación: 500 g",
       "precio": 160589,
       "icono": "🔩",
       "imagen": "1904",
@@ -104076,7 +104076,7 @@ window.PRODUCTOS = [
           "dimensiones": "",
           "empaque": "",
           "peso": "",
-          "referencia": "Café Colonial",
+          "referencia": "Café",
           "material": "",
           "composicion": "",
           "capacidad": "500 gramos por unidad.",
@@ -104579,7 +104579,7 @@ window.PRODUCTOS = [
       "ciiu": "G (46,47)",
       "proceso": "Producción / Operación",
       "tipo": "Insumo",
-      "nombre": "Vestido Plano Sin Mangas KOAJ",
+      "nombre": "Vestido Plano Sin Mangas",
       "desc": "Vestido corto para mujer elaborado en tela plana de viscosa. Cuenta con diseño sin mangas (manga sisa), escotes en frente y espalda, detalle encauchado que proporciona un ajuste cómodo al cuerpo y golas decorativas. Es una prenda de estilo casual, ideal para uso diario y ocasiones informales. | Vestido corto para mujer, confeccionado en tela plana, manga sisa con golas, escote delantero y posterior, detalle encauchado y silueta Slim Fit ligeramente ajustada al cuerpo",
       "precio": 116870,
       "icono": "🔩",
