@@ -56068,7 +56068,7 @@ window.PRODUCTOS = [
       "tipo": "Equipo",
       "nombre": "Temperadora automática",
       "desc": "Equipo fabricado en acero AISI 304, con sistema de control mediante pantalla doble, termostato de alta eficiencia, encendido y apagado programable, sistema de refrigeración modular y mesa doble vibratoria incorporada. Diseñado para facilitar la operación, limpieza y mantenimiento. | Capacidad de tanque: 9 kg. Alimentación eléctrica: 220 V / 3 / 60 Hz. Termostato incorporado de alta eficiencia. Control de pantalla doble con parámetros claros. Encendido y apagado programable. Refrigeración mediante sistema modular de aire forzado y gas refrigerante. Mesa doble vibratoria incorporada.",
-      "precio": 5473933884,
+      "precio": 35384188,
       "iva": 0,
       "icono": "⚙️",
       "imagen": "1934",
