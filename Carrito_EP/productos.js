@@ -1,4 +1,4 @@
-// AUTO-GENERADO desde Base_Carrito_Vf_35.xlsx — no editar manualmente
+// AUTO-GENERADO desde Base_Carrito_Vf_36.xlsx — no editar manualmente
 // Total: 4380 productos
 window.PRODUCTOS = [
   {
@@ -15205,8 +15205,8 @@ window.PRODUCTOS = [
       "proceso": "Producción / Operación",
       "itemPorActividad": "Comercio y exhibicion",
       "tipo": "Equipo",
-      "nombre": "Carricoche exhibidor",
-      "desc": "Carricoche exhibidor móvil diseñado para la exhibición y venta de productos en puntos comerciales, ferias y establecimientos. Su estructura sobre ruedas permite desplazarlo con facilidad y presentar la mercancía de forma atractiva y organizada. Ideal para comercios que requieren movilidad en la exhibición. | Tipo: carricoche exhibidor con ruedas. Estructura: metálica con recubrimiento resistente. Niveles/entrepaños para exhibición de productos. Ruedas con sistema de bloqueo para estabilidad. Diseño desmontable y de fácil traslado. Uso comercial.",
+      "nombre": "CARRITO EXHIBIDOR CON RUEDAS",
+      "desc": "CARRITO EXHIBIDOR CON RUEDAS, móvil diseñado para la exhibición y venta de productos en puntos comerciales, ferias y establecimientos. Su estructura sobre ruedas permite desplazarlo con facilidad y presentar la mercancía de forma atractiva y organizada. Ideal para comercios que requieren movilidad en la exhibición. | Tipo: carricoche exhibidor con ruedas. Estructura: metálica con recubrimiento resistente. Niveles/entrepaños para exhibición de productos. Ruedas con sistema de bloqueo para estabilidad. Diseño desmontable y de fácil traslado. Uso comercial.",
       "precio": 517500,
       "iva": 19,
       "icono": "⚙️",
@@ -18570,7 +18570,7 @@ window.PRODUCTOS = [
       "itemPorActividad": "Gastronomia y alimentos",
       "tipo": "Equipo",
       "nombre": "Cuchillo de 40 cm",
-      "desc": "Hoja de corte con āeometría precisa. Hoja de punta roma, estable y resistente a la corrosión. Reposa pulāares extra ancho. Protector de dedos pronunciado para mayor seāuridad. Manāo de plástico no abrasivo, erāonómico y antideslizante. | El mango totalmente metálico ofrece equilibrio y firmeza, aunque puede transmitir más frío o calor en comparación con mangos de polímero o madera. Es un cuchillo pensado para uso frecuente en cocina básica, restaurantes pequeños o preparación doméstica intensiva.",
+      "desc": "Cuchillo con hoja de corte con āeometría precisa. Hoja de punta roma, estable y resistente a la corrosión. Reposa pulāares extra ancho. Protector de dedos pronunciado para mayor seāuridad. Manāo de plástico no abrasivo, erāonómico y antideslizante. | El mango totalmente metálico ofrece equilibrio y firmeza, aunque puede transmitir más frío o calor en comparación con mangos de polímero o madera. Es un cuchillo pensado para uso frecuente en cocina básica, restaurantes pequeños o preparación doméstica intensiva.",
       "precio": 38870,
       "iva": 19,
       "icono": "⚙️",
@@ -33099,14 +33099,14 @@ window.PRODUCTOS = [
       "itemPorActividad": "Comercio y exhibicion",
       "tipo": "Equipo",
       "nombre": "Mesa de exhibicion para venta de artesanias",
-      "desc": "Estructuras modulares diseñadas para la presentación y exhibición de productos en ferias, eventos comerciales o espacios de venta. Permiten organizar artículos de forma visualmente atractiva, facilitando la exposición y promoción de productos en diferentes entornos | Exhibidores para mesa para realzar de tus productos en eventos como ferias o fiestas, diferentes medidas con opción de personalizado.",
-      "precio": 114400,
+      "desc": "Estructura metálica con tabla en parte superior juego de mesas de impacto en escala para boutiques, tiendas de ropa y hogar | Exhibidores para mesa para realzar de tus productos en eventos como ferias o fiestas, diferentes medidas con opción de personalizado.",
+      "precio": 325000,
       "iva": 19,
       "icono": "🪑",
       "imagen": "1142",
-      "enlace": "https://www.bazzarbog.com/artesanias-y-tradicion/55523-exhibidores-para-eventos.html",
+      "enlace": "https://www.exhibicionyestanteria.com/tienda/exhibidores-piso/juego-de-mesas/",
       "specs": {
-          "dimensiones": "Alto 100 cm ancho: 40 cm largo 100 cm - 60 cm - 30 cm",
+          "dimensiones": "Medidas alto 90cm x 40 x 40cm",
           "empaque": "",
           "peso": "15 kg",
           "referencia": "",
@@ -41480,7 +41480,7 @@ window.PRODUCTOS = [
       "itemPorActividad": "Publicidad empaque y dotacion",
       "tipo": "Equipo",
       "nombre": "Paquete vaso 12 oz con tapas domo",
-      "desc": "Tapa domo 12 oz, caja por 12 unidades. El paquete de vasos de 12 oz (354-355 ml) con tapa domo es ideal para bebidas frías, malteadas o postres. Destaca por su alta transparencia y resistencia. | Material: fabricados en plástico PET de alta transparencia que permite una excelente visibilidad del contenido. Tapa domo: disponibles con o sin perforación, ideales para agregar pitillos o cucharas. Seguridad alimentaria:",
+      "desc": "Vaso con tapa domo 12 oz, caja por 12 unidades. El paquete de vasos de 12 oz (354-355 ml) con tapa domo es ideal para bebidas frías, malteadas o postres. Destaca por su alta transparencia y resistencia. | Material: fabricados en plástico PET de alta transparencia que permite una excelente visibilidad del contenido. Tapa domo: disponibles con o sin perforación, ideales para agregar pitillos o cucharas. Seguridad alimentaria:",
       "precio": 12584,
       "iva": 19,
       "icono": "⚙️",
@@ -51441,7 +51441,7 @@ window.PRODUCTOS = [
           "material": "",
           "composicion": "",
           "capacidad": "2 quemadores industriales de alta potencia",
-          "potencia": "",
+          "potencia": "Quemadores a gas, aprox. 60.000–70.000 BTU/h cada uno",
           "otrasEspecificaciones": "Parrillas en hierro o acero reforzado. Encendido manual. Válvulas independientes para control de llama. Entrada de gas lateral configurable. Diseño compacto tipo sobreponer. Uso continuo industrial",
           "condicionesServicios": "Requiere conexión a red de gas (glp o gas natural). Necesita ventilación permanente. No apta para espacios cerrados sin extracción de gases",
           "requerimientosEspeciales": "Instalación por técnico de gas certificado. Superficie nivelada y resistente al calor. Mantenimiento periódico de válvulas y quemadores. Uso exclusivo en ambientes ventilados"
@@ -54856,9 +54856,9 @@ window.PRODUCTOS = [
       "imagen": "1892",
       "enlace": "https://drive.google.com/file/d/1smhoQ-uSPzGCv6h6T3oXUjqArKJqcr14/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 100 x 60 x 110 cm (largo x ancho x alto)",
           "empaque": "",
-          "peso": "",
+          "peso": "Aprox. 60–90 kg",
           "referencia": "690.0",
           "material": "Acero inoxidable",
           "composicion": "Construcción totalmente en acero inoxidable",
@@ -54972,14 +54972,14 @@ window.PRODUCTOS = [
       "imagen": "1896",
       "enlace": "https://drive.google.com/file/d/1YQWyh8QS2K0yZqgyLUhRHQA_HCCvX3si/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 40 x 30 x 45 cm",
           "empaque": "",
-          "peso": "",
+          "peso": "Aprox. 20–25 kg",
           "referencia": "Melanger 12SL",
           "material": "Base en acero inoxidable; piedras de granito",
           "composicion": "Piedras cónicas de granito y base en acero inoxidable",
           "capacidad": "4,5 kg/batch",
-          "potencia": "",
+          "potencia": "Aprox. 200 W, 110 V o 220 V",
           "otrasEspecificaciones": "No genera altas temperaturas durante el refinado; fácil limpieza y mantenimiento.",
           "condicionesServicios": "Requiere suministro eléctrico de 110 V o 220 V.",
           "requerimientosEspeciales": "Instalación con toma eléctrica compatible; capacitación virtual incluida para operación del equipo."
@@ -54995,7 +54995,7 @@ window.PRODUCTOS = [
       "tipo": "Equipo",
       "nombre": "Temperadora Industrial Tradicional",
       "desc": "Equipo industrial diseñado para el templado de chocolate, permitiendo controlar temperatura y tiempo para lograr una cristalización adecuada del cacao y mejorar brillo, textura y estabilidad del producto. | Construcción en acero inoxidable 304 en todas las partes en contacto con el alimento; disco de nailon; control de temperatura y tiempo; funcionamiento mediante resistencia y unidad de enfriamiento; voltaje 110 V.",
-      "precio": 31699577,
+      "precio": 23050300,
       "iva": 19,
       "icono": "⚙️",
       "imagen": "1897",
@@ -55030,9 +55030,9 @@ window.PRODUCTOS = [
       "imagen": "1898",
       "enlace": "https://drive.google.com/file/d/1-leQ2IArn20ARiVabtYfGddkxNXCSzRr/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 11 x 10 x 2 cm (unidad principal) + sonda de 94 cm",
           "empaque": "Caja de cartón individual",
-          "peso": "",
+          "peso": "Aprox. 100–150 g",
           "referencia": "",
           "material": "",
           "composicion": "Unidad principal con pantalla LCD, sonda externa de 94 cm y accesorios de instalación (soporte adhesivo o ventosa).",
@@ -55059,9 +55059,9 @@ window.PRODUCTOS = [
       "imagen": "1899",
       "enlace": "https://drive.google.com/file/d/1-leQ2IArn20ARiVabtYfGddkxNXCSzRr/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 16 x 4 x 4 cm",
           "empaque": "Estuche plástico rígido o caja de cartón con espuma protectora",
-          "peso": "",
+          "peso": "Aprox. 150–200 g (sin estuche)",
           "referencia": "",
           "material": "Cuerpo de aluminio anodizado con prisma óptico de vidrio y componentes en plástico ABS",
           "composicion": "Cuerpo, Prisma óptico, Cubierta del prisma, Empuñadura, Sistema óptico, Componentes internos",
@@ -55871,14 +55871,14 @@ window.PRODUCTOS = [
       "imagen": "1927",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1435606267-mini-plancha-calor-estampadora-sublimacion-termofijadora-_JM?searchVariation=180694856448#polycard_client=search-desktop&searchVariation=180694856448&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=6&type=item&tracking_id=e3547021-029b-48e8-9b8d-3aa45b5d26ed&sid=search",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 10 x 6 cm placa de calor; equipo aprox. 16 x 10 x 7 cm",
           "empaque": "",
-          "peso": "",
+          "peso": "Aprox. 0,5 kg",
           "referencia": "EasyPress Mini",
           "material": "",
           "composicion": "",
-          "capacidad": "",
-          "potencia": "",
+          "capacidad": "Área de estampado aprox. 10 x 6 cm; 3 niveles de temperatura (hasta ~205 °C)",
+          "potencia": "Aprox. 180 W, 110 V",
           "otrasEspecificaciones": "Productos aptos: MDF, poliéster, textiles y aluminio. Área de impresión de tamaño ideal para realizar estampados precisos y detallados. Equipo portátil y de fácil transporte.",
           "condicionesServicios": "",
           "requerimientosEspeciales": ""
@@ -55931,7 +55931,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "39 cm x 17 cm x 20 cm aprox",
           "empaque": "",
-          "peso": "",
+          "peso": "Aprox. 10–12 kg",
           "referencia": "Prensa de Aceites Vegetles",
           "material": "Acero Inox. 304",
           "composicion": "Accesorio: colador, recipientes para recibir el aceite, cepillos de limpieza.",
@@ -55952,7 +55952,7 @@ window.PRODUCTOS = [
       "tipo": "Equipo",
       "nombre": "Temperadora automática",
       "desc": "Equipo fabricado en acero AISI 304, con sistema de control mediante pantalla doble, termostato de alta eficiencia, encendido y apagado programable, sistema de refrigeración modular y mesa doble vibratoria incorporada. Diseñado para facilitar la operación, limpieza y mantenimiento. | Capacidad de tanque: 9 kg. Alimentación eléctrica: 220 V / 3 / 60 Hz. Termostato incorporado de alta eficiencia. Control de pantalla doble con parámetros claros. Encendido y apagado programable. Refrigeración mediante sistema modular de aire forzado y gas refrigerante. Mesa doble vibratoria incorporada.",
-      "precio": 35384188,
+      "precio": 45999444,
       "iva": 19,
       "icono": "⚙️",
       "imagen": "1930",
@@ -56279,7 +56279,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "35 x 70 cm de largo.",
           "empaque": "No aplica.",
-          "peso": "No aplica.",
+          "peso": "Aprox. 20–30 kg",
           "referencia": "No aplica.",
           "material": "",
           "composicion": "",
@@ -56306,9 +56306,9 @@ window.PRODUCTOS = [
       "imagen": "1942",
       "enlace": "https://drive.google.com/drive/folders/1iAsTnXzPN1uGmluv5sBp9woRw0giZz9_",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 45 x 40 x 30 cm (equipo de mesa, sin carro)",
           "empaque": "",
-          "peso": "",
+          "peso": "Aprox. 10–15 kg",
           "referencia": "Tensamax Curve 448",
           "material": "",
           "composicion": "",
@@ -56422,7 +56422,7 @@ window.PRODUCTOS = [
       "imagen": "1946",
       "enlace": "https://www.mercadolibre.com.co/destilador-de-aceites-esenciales-de-20-kgcalderin-de-100-lt/up/MCOU3878093215?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO3822027776&from=gshop",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 50 cm de diámetro x 120 cm de alto (calderín + columna) más condensador",
           "empaque": "Según presentación comercial del proveedor.",
           "peso": "GT 20Kg/100Lts",
           "referencia": "Destilador De Aceites Esenciales De 20 Kg/calderin De 100 Lt",
@@ -56453,11 +56453,11 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "Altura\n1,09 m\nDiámetro\n48 cm",
           "empaque": "Según presentación comercial del proveedor.",
-          "peso": "",
+          "peso": "Aprox. 15–20 kg",
           "referencia": "Fermentador Presión 60l Cerveza Vino Artesanal Fermentación Modelo F60S02",
           "material": "eLaborado en acero inoxidable de capa 304  stainless steel",
           "composicion": "Tanque cónico, Incluye airlock y\nIncluye base",
-          "capacidad": "",
+          "capacidad": "60 litros",
           "potencia": "No  aplica",
           "otrasEspecificaciones": "",
           "condicionesServicios": "conección a fuente de energía de acuerdo al voltaje requerido.",
@@ -56482,7 +56482,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "Ancho 50 cm Alto 20 cm Largo 20 cm",
           "empaque": "Maleta rígida premium y portátil",
-          "peso": "",
+          "peso": "Aprox. 2,5–3,5 kg el kit con maleta",
           "referencia": "Complementa tu Kit Cafetero Espresso Con V60 + Molino Manual Profesional + Maleta Premium Barista ,KIT080507-002",
           "material": "Tetera kettle en acero inoxidable\nmaleta en material rigida\nGramera digital con cronómetro y 5 modos Método de extracción V60 Server de 300 ml en vidrio borosilicato resistente al calor",
           "composicion": "Maleta portátil\n Molino manual profesional \nGramera digital con cronómetro \nTetera kettle \n 2 vasos de lujo\n 2 contenedores \n Cuchara medidora \n pincel de limpieza",
@@ -56656,7 +56656,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "Largo: 3 m. Ancho: 3 m. Área aproximada: 9 m².",
           "empaque": "",
-          "peso": "",
+          "peso": "Aprox. 15–25 kg (estructura + cerramiento)",
           "referencia": "",
           "material": "Micro angeo de alta densidad y tela impermeable para el techo.",
           "composicion": "Estructura portátil compuesta por sistema de soporte, cerramiento en micro angeo de alta densidad, techo impermeable y división interna de doble compartimento.",
@@ -57097,7 +57097,7 @@ window.PRODUCTOS = [
           "composicion": "",
           "capacidad": "100 - 200 kg/hora",
           "potencia": "motor 100v",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Rodillos en acero inoxidable; apto para caña de azúcar y extracción de jugos; fácil limpieza; uso doméstico/pequeño negocio",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Requiere instalación en una superficie estable y segura, limpieza y mantenimiento periódico. Las partes en contacto con el jugo deben mantenerse en adecuadas condiciones de higiene y ser de materiales aptos para facilitar la limpieza."
       }
@@ -57176,7 +57176,7 @@ window.PRODUCTOS = [
       "imagen": "1972",
       "enlace": "https://drive.google.com/drive/folders/11ldjo7tUu6xmI8pulbjYbX_43huBhGGh",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 40 x 30 x 15 cm (unidad principal)",
           "empaque": "Tipo: Caja con accesorios\nPresentación: Unidad\nIncluye: Electrodos, cables, manual, gel conductor",
           "peso": "Aproximado: 2 kg – 5 kg",
           "referencia": "NI0419 Deep Kotz Prizma",
@@ -57256,7 +57256,7 @@ window.PRODUCTOS = [
       "itemPorActividad": "Gastronomia y alimentos",
       "tipo": "Equipo",
       "nombre": "Nevera convencional de 187 L",
-      "desc": "Nevera de 187 litros convencional con cumplimiento de medidas para la adecuación en un carro ambulante de jugos | Almacenamiento de 187 litros, Tecnología de Frio Frost, Compresor Convencional",
+      "desc": "Nevera de 187 litros convencional con cumplimiento de medidas para la adecuación en un carro ambulante de jugos. Medidas Externas 52 x 124.6 x 54  (Ancho x Alto x Fondo) Centímetros | Almacenamiento de 187 litros, Tecnología de Frio Frost, Compresor Convencional",
       "precio": 1937000,
       "iva": 19,
       "icono": "⚙️",
@@ -57698,7 +57698,7 @@ window.PRODUCTOS = [
       "imagen": "1990",
       "enlace": "https://drive.google.com/drive/folders/142zVFkGzrMdBdmebRR1QwOjL_M83d1BL",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Talla S: largo aprox. 66 cm, ancho de pecho aprox. 50 cm por unidad",
           "empaque": "",
           "peso": "0,5 gr",
           "referencia": "",
@@ -60287,7 +60287,7 @@ window.PRODUCTOS = [
           "composicion": "",
           "capacidad": "12 kg - 30 litros",
           "potencia": "2 HP",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Tazón, gancho y eje en acero inoxidable; protector de seguridad en tazón; temporizador; uso en panadería/pizzería",
           "condicionesServicios": "No requiere conexión a servicios públicos.",
           "requerimientosEspeciales": ""
       }
@@ -60592,7 +60592,7 @@ window.PRODUCTOS = [
       "tipo": "Equipo",
       "nombre": "Batería de litio LiFePO4 25,6 V - 120 Ah",
       "desc": "Sistema de almacenamiento de energía para solución solar autónoma. | Voltaje nominal 25,6 V; capacidad 120 Ah; energía 3.072 Wh; tecnología LiFePO4; BMS incorporado; hasta 6.000 ciclos a 0,2C y 80% DOD; protección IP67 según ficha anexa.",
-      "precio": 364000,
+      "precio": 3640000,
       "iva": 19,
       "icono": "🎸",
       "imagen": "2090",
@@ -71819,7 +71819,7 @@ window.PRODUCTOS = [
       "iva": 19,
       "icono": "🔩",
       "imagen": "327",
-      "enlace": "",
+      "enlace": "https://kariciacosmeticos.com/producto/shampoo-pro-profesional-veniux/",
       "specs": {
           "dimensiones": "Galon de 4000 ml, aprox. 16-18 cm de ancho x 28-32 cm alto; no afecta el precio (definido por volumen).",
           "empaque": "Bidón o galón plástico 4000 ml",
@@ -76430,7 +76430,7 @@ window.PRODUCTOS = [
       "iva": 19,
       "icono": "🔩",
       "imagen": "486",
-      "enlace": "https://metecnocolombia.com/nosotros",
+      "enlace": "https://www.homecenter.com.co/homecenter-co/product/87183/teja-zinc-ondulada-305-x-080m-calibre-34-020mm-resistencia-y-durabilidad/87185/",
       "specs": {
           "dimensiones": "Longitud 3,05 metros (10 pies aproximadamente). Ancho total 80 a 90 cm aproximadamente, según perfil del fabricante. Ancho útil de cobertura 70 a 85 cm aproximadamente, considerando el traslape. Espesor Entre 0,17 mm y 0,30 mm (calibres comerciales según requerimiento). Altura de onda 15 a 25 mm aproximadamente.",
           "empaque": "Unidad por teja",
@@ -95630,7 +95630,7 @@ window.PRODUCTOS = [
       "imagen": "1148",
       "enlace": "https://www.lifehuni.com/comprar/gel-facial-bellavik/",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 4 x 4 x 12 cm (envase)",
           "empaque": "Envase ámbar de vidrio con tapa dispensadora; reciclable",
           "peso": "50 g",
           "referencia": "Gel Facial Bellavik (Lifehuni)",
@@ -108509,7 +108509,7 @@ window.PRODUCTOS = [
           "dimensiones": "25 × 18 × 8",
           "empaque": "Kit multipiezas en bolsa o estuche",
           "peso": "0,4 kg",
-          "referencia": "",
+          "referencia": "Kit de brocha y cuencos para tinte capilar",
           "material": "Plástico resistente y cerdas sintéticas",
           "composicion": "Cuencos de plástico ergonómicos, brochas con cerdas sintéticas y mango plástico",
           "capacidad": "Kit multipiezas",
@@ -108538,7 +108538,7 @@ window.PRODUCTOS = [
           "dimensiones": "Ancho: 36 cm. Alto: 16 cm. Largo: 6,5 cm.",
           "empaque": "Unidad individual sin empaque adicional",
           "peso": "2 kg",
-          "referencia": "",
+          "referencia": "Cepillo industrial de barrido 40 cm",
           "material": "Base plástica resistente con filamento sintético rígido",
           "composicion": "Cuerpo plástico (polipropileno), fibras sintéticas de larga duración",
           "capacidad": "Capacidad de barrido para superficies amplias y residuos de tamaño medio y grande.",
@@ -111350,7 +111350,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "Alto\n59.50 cm\nLargo\n44.70 cm\nAncho\n51.30 cm",
           "empaque": "Unitario",
-          "peso": "",
+          "peso": "Aprox. 2–3 kg (tanque de 65 L vacío)",
           "referencia": "TANQUE 65 LT VANY GRIS",
           "material": "Polietileno / polipropileno",
           "composicion": "Plástico grado almacenamiento",
@@ -113526,7 +113526,7 @@ window.PRODUCTOS = [
           "dimensiones": "60X80cm Set X 3 Unidades",
           "empaque": "Caja de carton corrugada",
           "peso": "500 gr",
-          "referencia": "",
+          "referencia": "Tablero acrílico cuadriculado",
           "material": "tablex y/o MDF alta densidad de 1cm de espesor lo cual brinda una excelente estabilidad en el momento de escribir",
           "composicion": "Formica pizarrón cuadriculado brillante de alto impacto, su cuadrícula tenue brinda una excelente guía de escritura,",
           "capacidad": "",
@@ -113874,7 +113874,7 @@ window.PRODUCTOS = [
           "dimensiones": "Dimensiones aproximadas de una piel: 2,0 a 2,5 m² de área útil. Espesor habitual entre 1,2 y 1,6 mm",
           "empaque": "Piezas dobladas o enrolladas, protegidas con película plástica o papel kraft y embaladas en pacas o cajas de cartón para transporte y almacenamiento.",
           "peso": "2 kg",
-          "referencia": "",
+          "referencia": "Carnaza de cuero bovino, espesor 1,2–1,6 mm, venta por metro",
           "material": "100 % cuero bovino tipo carnaza, obtenido mediante proceso de curtido",
           "composicion": "100 % cuero bovino tipo carnaza, obtenido mediante proceso de curtido",
           "capacidad": "",
@@ -114046,7 +114046,7 @@ window.PRODUCTOS = [
       "enlace": "https://legioncolombia.com.co/producto/paleta-de-velocidad/",
       "specs": {
           "dimensiones": "39 x 19 x 5 cm",
-          "empaque": "",
+          "empaque": "Bolsa plástica individual; unidad",
           "peso": "340 g",
           "referencia": "LEGION",
           "material": "Poliuretano (PU) y espuma de alta densidad",
@@ -114075,7 +114075,7 @@ window.PRODUCTOS = [
       "enlace": "https://www.injef.com.co/productos/cuerda-lazo-de-velocidad-con-guaya-crossfit-boxeo/",
       "specs": {
           "dimensiones": "2,50 m (ref. comercial más cercana: 2,70 m ajustable)",
-          "empaque": "",
+          "empaque": "Bolsa plástica individual / caja pequeña de cartón; unidad",
           "peso": "10 gr",
           "referencia": "",
           "material": "Acero recubierto de PVC",
@@ -114133,7 +114133,7 @@ window.PRODUCTOS = [
       "enlace": "(1) Cuerda Batida Lazo Con Proteccion Sportfitness Crossfit 10mt | Cuotas sin interés",
       "specs": {
           "dimensiones": "10 m (largo) x 4 cm (grosor).",
-          "empaque": "",
+          "empaque": "Bolsa o empaque plástico enrollado; unidad",
           "peso": "8 Kg.",
           "referencia": "",
           "material": "Polidacrón / poliéster trenzado de alta densidad",
@@ -114191,7 +114191,7 @@ window.PRODUCTOS = [
       "enlace": "https://casaolimpicasport.com/producto/pera-de-boxeo-doble-anclaje-legion/",
       "specs": {
           "dimensiones": "Altura: 42 cm (sin contar los elásticos).\n Diámetro máximo: 20 cm.\n Circunferencia: 63 cm.",
-          "empaque": "",
+          "empaque": "Caja de cartón individual; incluye pera, cuerdas elásticas y anclajes",
           "peso": "600 gramos",
           "referencia": "",
           "material": "Cuero sintético de alta resistencia",
@@ -114278,7 +114278,7 @@ window.PRODUCTOS = [
       "enlace": "https://www.olimpicosporthouse.com/boxeo/",
       "specs": {
           "dimensiones": "3 m de longitud",
-          "empaque": "Bolsa plástica individual o caja de cartón",
+          "empaque": "Bolsa plástica; par de vendas",
           "peso": "0,5 gr",
           "referencia": "",
           "material": "Algodón elástico",
@@ -116225,7 +116225,7 @@ window.PRODUCTOS = [
           "peso": "1,8 kg",
           "referencia": "Estiba Plástica Premium",
           "material": "Plástico de alta resistencia",
-          "composicion": "",
+          "composicion": "Polipropileno/polietileno de alta densidad (100 % plástico)",
           "capacidad": "600 kg de carga estática",
           "potencia": "",
           "otrasEspecificaciones": "Producto impermeable, antideslizante, resistente a temperaturas entre -20 °C y 70 °C, no absorbe humedad, no requiere fumigación, resistente a la corrosión y de fácil limpieza. Ideal para bodegas, cuartos fríos, industrias alimentarias y zonas de almacenamiento.",
@@ -116424,7 +116424,7 @@ window.PRODUCTOS = [
       "enlace": "https://www.alkosto.com/monitor-samsung-22-pulgadas-22f310-fhd-plano-negro/p/198957224317",
       "specs": {
           "dimensiones": "50,4 cm × 39,2 cm × 17,4 cm (ancho × alto × profundidad con base).",
-          "empaque": "",
+          "empaque": "Caja de cartón del fabricante con protección",
           "peso": "2,4 kg aproximadamente (con base).",
           "referencia": "LS22F310EANXZA.",
           "material": "Carcasa en plástico de alta resistencia, panel VA y base de soporte.",
@@ -117322,10 +117322,10 @@ window.PRODUCTOS = [
       "imagen": "1896",
       "enlace": "https://drive.google.com/file/d/1E0wgkeVSPxaFyAKmq7_jIpdUEGet2IR4/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Talla Unica",
           "empaque": "Presentación por unidad",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 1–1,5 kg",
+          "referencia": "Overol apícola enterizo con careta integrada tipo esgrimista",
           "material": "Tela resistente (algodón o poliéster)\nMalla sintética para la careta\nCremalleras y elásticos de ajuste",
           "composicion": "Overol de apicultura enterizo con careta:",
           "capacidad": "Protección completa de una persona durante labores apícolas",
@@ -117353,8 +117353,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "",
           "empaque": "Presentación por unidad",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 200–300 g el par",
+          "referencia": "Guantes apícolas en cuero con manga larga en tela (talla única/L)",
           "material": "Cuero (zona de la mano)\nExtensión de manga larga (generalmente tela resistente o lona)",
           "composicion": "Cuero (zona de la mano)\nExtensión de manga larga (generalmente tela resistente o lona)",
           "capacidad": "Protección de manos y antebrazos durante manejo de abejas",
@@ -117382,8 +117382,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "",
           "empaque": "Presentación por unidad",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 80–120 g",
+          "referencia": "Cepillo apícola cerdas de crin",
           "material": "Cerdas de crin de caballo\nMango en madera o material plástico resistente",
           "composicion": "Cepillo para barrer abejas",
           "capacidad": "Permite retirar abejas de cuadros y superficies sin dañarlas",
@@ -117496,10 +117496,10 @@ window.PRODUCTOS = [
       "imagen": "1902",
       "enlace": "https://drive.google.com/file/d/1E0wgkeVSPxaFyAKmq7_jIpdUEGet2IR4/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 6 cm de diámetro x 8 cm de alto (boca 58 mm)",
           "empaque": "Presentación: Caja por 24 unidades",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 150–180 g por frasco vacío",
+          "referencia": "Frasco de vidrio 165 ml tipo miel con tapa metálica dorada",
           "material": "Vidrio transparente\nTapa metálica con acabado dorado",
           "composicion": "Vidrio transparente\nTapa metálica con acabado dorado",
           "capacidad": "165 ml por unidad",
@@ -117533,7 +117533,7 @@ window.PRODUCTOS = [
           "composicion": "Café tostado",
           "capacidad": "500 gramos por unidad.",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Café tostado y molido, empaque con válvula desgasificadora; conservar en lugar fresco y seco; producto colombiano",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Pago de contado para acceder al descuento del 2%."
       }
@@ -117672,13 +117672,13 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "Espesor: 2 cm\nAncho: 12 cm\nLargo: 3 metros",
           "empaque": "Al detal",
-          "peso": "",
+          "peso": "Aprox. 4–5 kg por tabla",
           "referencia": "Tabla madera pardillo Moncoro",
           "material": "Madera natural (pardillo Moncoro).",
           "composicion": "Madera maciza",
           "capacidad": "",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Madera seca/inmunizada para carpintería y construcción",
           "condicionesServicios": "",
           "requerimientosEspeciales": ""
       }
@@ -117733,7 +117733,7 @@ window.PRODUCTOS = [
           "peso": "20 kg por unidad",
           "referencia": "Código: IND20030165",
           "material": "Sustancia química industrial.",
-          "composicion": "",
+          "composicion": "Ácido dodecilbencensulfónico lineal (LABSA) aprox. 96 %",
           "capacidad": "20 kg",
           "potencia": "",
           "otrasEspecificaciones": "Uso industrial (detergentes y limpieza)",
@@ -117762,7 +117762,7 @@ window.PRODUCTOS = [
           "peso": "20 kg por unidad",
           "referencia": "Código: IND20540023",
           "material": "Sustancia química.",
-          "composicion": "",
+          "composicion": "Nonilfenol etoxilado 10 moles de óxido de etileno (aprox. 99 %)",
           "capacidad": "20 kg",
           "potencia": "",
           "otrasEspecificaciones": "Uso en detergentes y procesos industriales.",
@@ -117791,7 +117791,7 @@ window.PRODUCTOS = [
           "peso": "24 kg por unidad.",
           "referencia": "Código: IND20150032",
           "material": "Sustancia química.",
-          "composicion": "",
+          "composicion": "Hipoclorito de sodio en solución acuosa, aprox. 13–15 % de cloro activo",
           "capacidad": "24 kg",
           "potencia": "",
           "otrasEspecificaciones": "Uso como desinfectante y blanqueador.",
@@ -117820,7 +117820,7 @@ window.PRODUCTOS = [
           "peso": "1 KG",
           "referencia": "Código: IND10290010",
           "material": "Sustancia química.",
-          "composicion": "",
+          "composicion": "Carboximetilcelulosa sódica (CMC)",
           "capacidad": "1 KG",
           "potencia": "",
           "otrasEspecificaciones": "Uso como aditivo industrial.",
@@ -117844,15 +117844,15 @@ window.PRODUCTOS = [
       "imagen": "1914",
       "enlace": "https://drive.google.com/file/d/132e3WKmGaJZc_vyjq8MdPDsZ9knMTi5A/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
-          "empaque": "",
-          "peso": "",
-          "referencia": "",
-          "material": "",
+          "dimensiones": "Aprox. 180 x 220 cm (doble)",
+          "empaque": "Bolsa plástica con cierre individual",
+          "peso": "Aprox. 1,5–2 kg",
+          "referencia": "Cobija tipo flannel/sherpa doble",
+          "material": "Poliéster (microfibra/flannel)",
           "composicion": "",
           "capacidad": "",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Lavable en lavadora; antialérgica; colores surtidos",
           "condicionesServicios": "",
           "requerimientosEspeciales": ""
       }
@@ -117873,15 +117873,15 @@ window.PRODUCTOS = [
       "imagen": "1915",
       "enlace": "https://drive.google.com/file/d/132e3WKmGaJZc_vyjq8MdPDsZ9knMTi5A/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
-          "empaque": "",
-          "peso": "",
-          "referencia": "",
-          "material": "",
+          "dimensiones": "Cama doble 140 x 190 cm: sábana ajustable 140 x 190 x 30 cm, sábana plana aprox. 220 x 240 cm, 2 fundas 50 x 70 cm",
+          "empaque": "Bolsa plástica con cierre",
+          "peso": "Aprox. 1,2–1,5 kg",
+          "referencia": "Juego de sábanas doble 4 piezas",
+          "material": "Microfibra / algodón-poliéster",
           "composicion": "",
           "capacidad": "",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Incluye sábana ajustable, sábana plana y 2 fundas; lavable en lavadora",
           "condicionesServicios": "",
           "requerimientosEspeciales": ""
       }
@@ -117906,7 +117906,7 @@ window.PRODUCTOS = [
           "empaque": "",
           "peso": "",
           "referencia": "",
-          "material": "",
+          "material": "Microfibra / algodón-poliéster",
           "composicion": "",
           "capacidad": "",
           "potencia": "",
@@ -117960,15 +117960,15 @@ window.PRODUCTOS = [
       "imagen": "1918",
       "enlace": "https://drive.google.com/file/d/132e3WKmGaJZc_vyjq8MdPDsZ9knMTi5A/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
-          "empaque": "",
-          "peso": "",
-          "referencia": "",
-          "material": "",
+          "dimensiones": "Cama semidoble 120 x 190 cm: sábana ajustable 120 x 190 x 30 cm, sábana plana aprox. 190 x 240 cm, 1 funda 50 x 70 cm",
+          "empaque": "Bolsa plástica con cierre",
+          "peso": "Aprox. 1–1,2 kg",
+          "referencia": "Bolsa plástica con cierre",
+          "material": "Microfibra / algodón-poliéster",
           "composicion": "",
           "capacidad": "",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Incluye sábana ajustable, sábana plana y funda; lavable en lavadora",
           "condicionesServicios": "",
           "requerimientosEspeciales": ""
       }
@@ -118108,9 +118108,9 @@ window.PRODUCTOS = [
           "dimensiones": "",
           "empaque": "Ovillo de 100g",
           "peso": "100g",
-          "referencia": "",
+          "referencia": "Lana Miratex Copito, ovillo 100 g x 250 m, color crudo",
           "material": "Fibra acrílica.",
-          "composicion": "",
+          "composicion": "100 % fibra acrílica antialérgica",
           "capacidad": "Longitud aproximada de 250 metros por ovillo.",
           "potencia": "",
           "otrasEspecificaciones": "Es una lana suave, de fabricación colombiana y disponible en una amplia gama de colores.",
@@ -118455,7 +118455,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1,20 m de alto x 36 m de largo",
           "empaque": "Rollo x 36 metros",
-          "peso": "",
+          "peso": "Aprox. 8–10 kg por rollo (1,20 x 36 m, calibre 24)",
           "referencia": "Modelo: Rollo",
           "material": "Alambre galvanizado calibre 24",
           "composicion": "Alambre galvanizado con recubrimiento de zinc >20 g/m²",
@@ -119671,9 +119671,9 @@ window.PRODUCTOS = [
       "imagen": "1977",
       "enlace": "https://www.mercadolibre.com.co/set-99-piezas-molde-silicona-resina-epoxica-joyeria-artesana/up/MCOU2477837497#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=5&type=product&tracking_id=0bdca5a9-660c-468e-9942-447e84c99f85&wid=MCO1336620229&sid=search",
       "specs": {
-          "dimensiones": "",
-          "empaque": "",
-          "peso": "",
+          "dimensiones": "Moldes de 0,9 a 7 cm aprox. (colgantes 5 cm alto, pulsera 6,9 cm diámetro)",
+          "empaque": "Bolsa/caja plástica con el set de 99 piezas",
+          "peso": "Aprox. 300–400 g el set",
           "referencia": "Set 99 Piezas Molde Silicona Resina Epoxica Joyería Artesana",
           "material": "Silicona",
           "composicion": "99 moldes con caracteristicas los moldes colgantes varían de 1.95 pulgadas de alto con diámetros de 0.35 a 0.4 pulgadas. El molde de pulsera tiene un diámetro de 2.7 pulgadas",
@@ -119702,7 +119702,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "No plica",
           "empaque": "envase x 20L",
-          "peso": "",
+          "peso": "Aprox. 18,4 kg neto (20 L); aprox. 19,5 kg bruto con bidón",
           "referencia": "Aceite Vegetal La Palma Bidón x 20 Litros (Bidon)",
           "material": "Mezcla de aceites vegetales refinados (soya y palma). Contiene soya",
           "composicion": "Mezcla de aceites vegetales refinados (soya y palma). Contiene soya, producto en presentación de garrafaga de 20 Litros",
@@ -119789,7 +119789,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "Super Roll,Stretch Film\nAncho 30 cm,Largo 300 m\nCaracterísticas de venta\nPack\n 24 Unidades por pack",
           "empaque": "Caja X 24 Und Rollos",
-          "peso": "",
+          "peso": "Aprox. 1,2 kg por rollo; aprox. 29 kg la caja x 24",
           "referencia": "Vinipel Film De Alimentos 30 Cm X 300 M Caja X 24 Und Rollos",
           "material": "Película auto- adherente uso especifico para alimentos",
           "composicion": "rolllo de 300 mts de film adhesivo de gran enlogación",
@@ -120629,8 +120629,8 @@ window.PRODUCTOS = [
       "enlace": "https://drive.google.com/file/d/1Zuw6eEV0IB8Z09tTIIm1xl2ZeR4YwNYk/view?usp=sharing",
       "specs": {
           "dimensiones": "Largo: 25,0 cm. Ancho máximo: 17,5 cm. Diámetro indicado: 57 cm.",
-          "empaque": "",
-          "peso": "",
+          "empaque": "Caja de cartón individual",
+          "peso": "Aprox. 300–400 g",
           "referencia": "Pera de boxeo / bolsa de velocidad",
           "material": "Poliuretano (PU) de alta durabilidad.",
           "composicion": "Cubierta exterior en PU y cámara interior de alta resistencia.",
@@ -120716,8 +120716,8 @@ window.PRODUCTOS = [
       "enlace": "https://drive.google.com/file/d/1Zuw6eEV0IB8Z09tTIIm1xl2ZeR4YwNYk/view?usp=sharing",
       "specs": {
           "dimensiones": "7 pulgadas de diámetro.",
-          "empaque": "",
-          "peso": "",
+          "empaque": "Caja de cartón individual",
+          "peso": "Aprox. 1–1,5 kg",
           "referencia": "",
           "material": "Material resistente; composición específica no especificada.",
           "composicion": "Rueda de ejercicio con mangos antideslizantes.",
@@ -120889,9 +120889,9 @@ window.PRODUCTOS = [
       "imagen": "2019",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1517648483-set-6-pares-aretes-candongas-pendientes-grandes-mujer-moda-_JM?searchVariation=191751563409#polycard_client=search-desktop&searchVariation=191751563409&float_highlight=last_units&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=6&type=item&tracking_id=93c89547-8124-4921-9a1f-0e335ae03aad&sid=search",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Argollas de aprox. 3 a 6 cm de diámetro",
           "empaque": "Bolsa plastica",
-          "peso": "",
+          "peso": "Aprox. 30–50 g por set; aprox. 400 g los 10 paquetes",
           "referencia": "SET ARETES CANDONGAS DORADAS O PLATEADAS",
           "material": "Aleación de zinc",
           "composicion": "6 pares de aretes grandes en diferentes diseños",
@@ -121100,7 +121100,7 @@ window.PRODUCTOS = [
           "composicion": "Linaza, Té Verde, Glucomanano de Konjac, Vitaminas B1, B6",
           "capacidad": "60 cápsulas",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Suplemento dietario; consumir según indicaciones del empaque; no es medicamento; registro INVIMA; presentación x 5 frascos de 60 cápsulas",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Conservar en un lugar fresco y seco (temperatura inferior a 30°C)."
       }
@@ -121129,7 +121129,7 @@ window.PRODUCTOS = [
           "composicion": "Extracto de Maca Andina, Chontaduro, Borojó, Vitaminas y Minerales",
           "capacidad": "60 cápsulas",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Suplemento dietario; consumir según indicaciones del empaque; no es medicamento; registro INVIMA; presentación x 5 frascos de 60 cápsulas",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Mantener fuera del alcance de los niños."
       }
@@ -121158,7 +121158,7 @@ window.PRODUCTOS = [
           "composicion": "Colágeno hidrolizado, Proteína de soya, Avena, Vitaminas A, C, E, B-Complex",
           "capacidad": "500 g",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Suplemento en polvo; sabores vainilla/fresa; preparar según indicaciones del empaque; registro INVIMA",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Conservar bien cerrado para evitar la humedad."
       }
@@ -121187,7 +121187,7 @@ window.PRODUCTOS = [
           "composicion": "Calostro bovino, Shiitake, Reishi, Vitaminas, Zinc, Minerales",
           "capacidad": "500 g",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Suplemento en polvo; preparar según indicaciones del empaque; no es medicamento; registro INVIMA",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Mantener en temperatura ambiente fresca."
       }
@@ -121216,7 +121216,7 @@ window.PRODUCTOS = [
           "composicion": "Pitahaya, Ciruela, Papaya, Sen, Fibra natural y Probióticos",
           "capacidad": "60 cápsulas",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Suplemento dietario; consumir según indicaciones del empaque; registro INVIMA; presentación x 3 frascos de 60 cápsulas",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Proteger de la luz solar directa."
       }
@@ -121245,7 +121245,7 @@ window.PRODUCTOS = [
           "composicion": "Yacón, Canela, Cromo, Alcachofa, Extractos botánicos",
           "capacidad": "60 cápsulas",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Suplemento dietario; no reemplaza tratamiento médico; registro INVIMA; presentación x 3 frascos de 60 cápsulas",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Consulte a su médico si padece diabetes severa."
       }
@@ -121471,8 +121471,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "Longitud total: 120 metros. Tamaño o calibre: #12.",
           "empaque": "Presentación individual en rollo de hilo. Bolsa plastica",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 50 g por rollo; aprox. 500 g los 10 rollos",
+          "referencia": "Hilo terlenca calibre #12, rollo x 120 m",
           "material": "Hilo Terlenca.",
           "composicion": "",
           "capacidad": "120 metros de hilo por presentación.",
@@ -121558,7 +121558,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "No especificadas en la cotización.",
           "empaque": "Presentación comercial según proveedor.",
-          "peso": "",
+          "peso": "cono/bobina estándar aprox. 1 kg",
           "referencia": "SW RX NRT",
           "material": "Caucho.",
           "composicion": "Hilo de caucho vulcanizado.",
@@ -121767,7 +121767,7 @@ window.PRODUCTOS = [
           "composicion": "Extracto de Manzanilla, Aloe Vera, Mentol, Alantoína",
           "capacidad": "120 ml",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Uso externo después del afeitado; registro INVIMA NSOC; presentación x 6 frascos de 120 ml",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Evitar el contacto con los ojos."
       }
@@ -121796,7 +121796,7 @@ window.PRODUCTOS = [
           "composicion": "Extracto de Romero, Ortiga, Pantenol, Biotina",
           "capacidad": "250 ml",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Uso capilar masculino; registro INVIMA NSOC; presentación x 4 frascos de 250 ml",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Enjuagar con abundante agua."
       }
@@ -121970,7 +121970,7 @@ window.PRODUCTOS = [
           "composicion": "Ácido Hialurónico, Elastina, Manteca de Karité, Vitamina E",
           "capacidad": "50 ml",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Uso facial diario; aplicar sobre piel limpia; contiene filtro UV; producto con registro sanitario INVIMA NSOC; presentación x 3 potes de 50 ml",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Uso diario mañana y noche."
       }
@@ -122022,7 +122022,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1/2\" (16 mm) x 1/2\" NPT",
           "empaque": "Unidad",
-          "peso": "",
+          "peso": "Aprox. 60–80 g por unidad; aprox. 2,5 kg las 36 unidades",
           "referencia": "Familia comercial Pealpe-OKA (codo de transición a NPT); no se encontró la referencia exacta en el catálogo público del proveedor consultado; se usa como referencia el codo Pealpe-Pealpe de la misma familia comercial (Homecenter ref. 300454)",
           "material": "Cuerpo en polietileno-aluminio-polietileno (PE-AL-PE) con rosca de bronce",
           "composicion": "PE-AL-PE + bronce",
@@ -122051,7 +122051,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "16 x 16 x 16 mm (1/2\" x 1/2\" x 1/2\")",
           "empaque": "Unidad",
-          "peso": "",
+          "peso": "Aprox. 50–70 g por unidad; aprox. 1,5 kg las 24 unidades",
           "referencia": "TEE PE AL PE 16 X 16 X 16 — Homecenter SKU 300452, marca OKA",
           "material": "Polietileno con núcleo de aluminio",
           "composicion": "PE-AL-PE (polietileno-aluminio-polietileno)",
@@ -122080,7 +122080,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "Diámetro 3/8\"; longitud según referencia comercial (1 m, 1.2 m ó 1.5 m)",
           "empaque": "Unidad",
-          "peso": "",
+          "peso": "Aprox. 150–200 g por unidad; aprox. 6,5 kg las 36 unidades",
           "referencia": "Manguera flare, cubierta color azul (identificador visual del fabricante); familia comercial Flexco/Coflex",
           "material": "Compuesto termoplástico flexible con terminales (acoples) en bronce",
           "composicion": "Polímero termoplástico + bronce en terminales flare",
@@ -122196,7 +122196,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1/2\" (aprox. 1.27 cm de diámetro)",
           "empaque": "Paquete x 500 unidades",
-          "peso": "",
+          "peso": "Aprox. 0,5 g por unidad; aprox. 500 g las 1.000 unidades",
           "referencia": "Chazo Plástico Aleta 1/2 — Homecenter SKU 474148, marca Herrajes Nando",
           "material": "Plástico (polietileno/nylon)",
           "composicion": "Polímero plástico",
@@ -122225,7 +122225,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "16 x 16 mm (1/2\" x 1/2\")",
           "empaque": "Unidad",
-          "peso": "",
+          "peso": "Aprox. 120–150 g por unidad; aprox. 2,7 kg las 20 unidades",
           "referencia": "VÁLVULA PE AL PE GAS 16 X 16 — Homecenter SKU 300455, marca OKA",
           "material": "Cuerpo en latón (bola y mecanismo) con extremos en PE-AL-PE",
           "composicion": "Latón + PE-AL-PE",
@@ -122341,7 +122341,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1/2\" (diámetro nominal habitual para conectores de medidor residencial)",
           "empaque": "Unidad",
-          "peso": "",
+          "peso": "Aprox. 50–80 g por unidad; aprox. 2,5 kg las 36 unidades",
           "referencia": "Conector para medidor de gas — familia comercial de conectores de latón (referencia exacta no confirmada en catálogo público)",
           "material": "Latón",
           "composicion": "Aleación de cobre y zinc (latón)",
@@ -122457,7 +122457,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1/2\" de diámetro x 2 1/2\" de longitud",
           "empaque": "Unidad",
-          "peso": "",
+          "peso": "Aprox. 250–300 g por conector de 1 m",
           "referencia": "Niple galvanizado Sch 40 1/2\" — familia comercial de niples galvanizados de corte (referencia de longitud 2 1/2\" cortada bajo pedido; se usa como referencia el niple barril galvanizado 1/2\", Homecenter SKU 145411, marca Humboldt)",
           "material": "Acero galvanizado",
           "composicion": "Hierro/acero + recubrimiento de zinc",
@@ -122486,7 +122486,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "Longitud 100 cm; diámetro 6.4 mm",
           "empaque": "Unidad",
-          "peso": "",
+          "peso": "Aprox. 100–110 g por metro; aprox. 20–22 kg por rollo de 200 m",
           "referencia": "Conector Flexometálico para Gas 100 cm — Homecenter SKU 228481, marca Coflex, certificado CRS16625",
           "material": "Acero inoxidable con recubrimiento en vinilo trenzado",
           "composicion": "Acero inoxidable + vinilo trenzado",
@@ -122805,8 +122805,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "41,5 x 19,5 cm (16,34 x 7,68 pulgadas) por lámina.",
           "empaque": "30 láminas de cera de abejas",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 80–100 g por lámina; aprox. 16–20 kg las 200 láminas",
+          "referencia": "Lámina de cera estampada tipo Langstroth",
           "material": "Cera de abejas.",
           "composicion": "Cera de abejas natural.",
           "capacidad": "",
@@ -122920,7 +122920,7 @@ window.PRODUCTOS = [
       "enlace": "https://drive.google.com/file/d/1e2rb_k2Tp4ZA7TTNnSyKSsvy85r8CR8N/view",
       "specs": {
           "dimensiones": "9 cm largo × 8 cm ancho × 3,2 cm alto/profundidad por cavidad.",
-          "empaque": "",
+          "empaque": "Bolsa plástica o caja de cartón; 10 bandejas de 9 cavidades",
           "peso": "Cuadrado 200 g – FABI",
           "referencia": "2-Molde Cuadrado de 200 gr.",
           "material": "Silicona",
@@ -122949,7 +122949,7 @@ window.PRODUCTOS = [
       "enlace": "https://drive.google.com/file/d/1byN9dDiZ8L8nJRZs7VqB1KRZQFPv4K1r/view",
       "specs": {
           "dimensiones": "8,5 cm largo × 8,5 cm ancho × 4,2 cm alto/profundidad por cavidad.",
-          "empaque": "",
+          "empaque": "Bolsa plástica o caja de cartón; 15 bandejas de 6 cavidades",
           "peso": "Cuadrado 300 g – FABI",
           "referencia": "2-Molde Cuadrado de 300 gr.",
           "material": "Silicona",
