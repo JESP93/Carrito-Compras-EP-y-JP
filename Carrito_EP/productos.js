@@ -1,4 +1,4 @@
-// AUTO-GENERADO desde Base_Carrito_Vf_41.xlsx — no editar manualmente
+// AUTO-GENERADO desde Base_Carrito_Vf_42.xlsx — no editar manualmente
 // Total: 4512 productos
 window.PRODUCTOS = [
   {
@@ -3607,11 +3607,11 @@ window.PRODUCTOS = [
       "tipo": "Equipo",
       "nombre": "Carretilla plástica 169 L",
       "desc": "Carretilla plástica negra de 169 L / 6 pies cúbicos. Ideal para transporte de suelo, abono, materiales de construcción y materiales agrícolas. | Capacidad: 169 L (6 ft³) | Material: Polietileno de alta densidad | Color: Negro",
-      "precio": 510460,
+      "precio": 233870,
       "iva": 0,
       "icono": "⚙️",
       "imagen": "125",
-      "enlace": "https://www.comaderas.com/carretilla-ecoplastica-rueda-azul-400-8",
+      "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118644080/carretilla-negra-plastica-cachaca-169-litros-6ft-imsa/118644081?exp=homecenter",
       "specs": {
           "dimensiones": "135 cm x 65 cm x 38 cm",
           "empaque": "",
@@ -13384,7 +13384,7 @@ window.PRODUCTOS = [
       "iva": 0,
       "icono": "⚙️",
       "imagen": "462",
-      "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/133953016/fumigadora-manual-aspersor-bomba-de-espalda-20-litros-uyustools/133953067",
+      "enlace": "https://www.homecenter.com.co/homecenter-co/product/3005178/fumigadora-manual-husqvarna-320sm-20l/3005178/?kid=dis_adi_1435636&gad_source=4&gad_campaignid=23616595358&gbraid=0AAAAADt6wnogY3eRfTkhR2geQpm1WF2Xq&gclid=CjwKCAjwidXQBhAZEiwA4egw6DZXr9wDlwxlrBW-TdRK8yzFZOroREZrD318Nhvx4J5AtDdigWQr8xoCX1EQAvD_BwE",
       "specs": {
           "dimensiones": "38 × 18 × 52 cm aprox",
           "empaque": "",
@@ -15335,7 +15335,7 @@ window.PRODUCTOS = [
           "referencia": "",
           "material": "",
           "composicion": "",
-          "capacidad": "",
+          "capacidad": "4 puestos de cocción (BBQ, plancha, freidora y vaporizador); freidoras de aprox. 6–8 L de aceite cada una",
           "potencia": "Potencia térmica aproximada entre 25.000 btu y 60.000 btu por quemador, según modelo.",
           "otrasEspecificaciones": "Fabricada en acero inoxidable, incluye 4 puestos disponibles y modificables BBQ. Plancha . Freidor y vaporizador, bandeja recolectora de grasa, válvulas de seguridad y estructura de alta resistencia para uso comercial continuo.",
           "condicionesServicios": "Requiere conexión a gas glp o natural según configuración, adecuada ventilación y espacio seguro para disipación de calor. En algunos modelos puede requerir conexión eléctrica para encendido o iluminación.",
@@ -20116,11 +20116,11 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "Alto: 89.5 cm ancho: 117 cm profundidad: 75 cm",
           "empaque": "",
-          "peso": "Aproximado: 54 – 60 kg",
+          "peso": "69.01",
           "referencia": "",
           "material": "",
           "composicion": "",
-          "capacidad": "Aproximado: 54 – 60 kg",
+          "capacidad": "152 litros",
           "potencia": "115 W",
           "otrasEspecificaciones": "Sistema de frío directo (no frost)",
           "condicionesServicios": "Requiere energía eléctrica constante (110–115 V)",
@@ -24623,35 +24623,6 @@ window.PRODUCTOS = [
       }
   },
   {
-      "id": "MAQ-855",
-      "tipologia": "M1",
-      "sector": "manufactura",
-      "ciiu": "C (14,16,25) / S (95)",
-      "proceso": "Producción / Operación",
-      "itemPorActividad": "Gastronomia y alimentos",
-      "tipo": "Equipo",
-      "nombre": "Gaseosa 300 ml",
-      "desc": "Gaseosa en botella plástica PET de 300 ml, bebida carbonatada lista para consumo, con sabor clásico de cola. Es ideal para acompañar comidas, refrigerios o consumo individual por su tamaño práctico y portátil | Presentación: botella PET 300 ml material del envase: plástico PET",
-      "precio": 4433,
-      "iva": 0,
-      "icono": "⚙️",
-      "imagen": "850",
-      "enlace": "https://www.surtiplaza.co/tienda/p/gaseosa-coca-cola-pet-300-ml-und?utm_source",
-      "specs": {
-          "dimensiones": "Alto: 35 cm | Diámetro: 13 cm",
-          "empaque": "",
-          "peso": "Aproximadamente: 300 g (contenido neto)",
-          "referencia": "",
-          "material": "",
-          "composicion": "",
-          "capacidad": "300 ml por unidad",
-          "potencia": "No aplica (producto alimenticio, no eléctrico)",
-          "otrasEspecificaciones": "Bebida carbonatada",
-          "condicionesServicios": "No requiere energía eléctrica",
-          "requerimientosEspeciales": "Mantener bien cerrada después de abrir"
-      }
-  },
-  {
       "id": "MAQ-856",
       "tipologia": "M1",
       "sector": "manufactura",
@@ -24664,7 +24635,7 @@ window.PRODUCTOS = [
       "precio": 563550,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "851",
+      "imagen": "850",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/672536/gato-hidraulico-tipo-botella-32-toneladas-profesional/672536/",
       "specs": {
           "dimensiones": "Altura mínima: aprox. 24 cm altura máxima: hasta 38 cm – 46 cm (según configuración) ancho de base: aprox. 21 – 27 cm",
@@ -24693,7 +24664,7 @@ window.PRODUCTOS = [
       "precio": 329890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "852",
+      "imagen": "851",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/597034/gavetero-organizador-plastico-multiusos-7-niveles-32x120x37-cm-transparente-negro-mq/597034/",
       "specs": {
           "dimensiones": "Alto: 120 cm ancho: 32 cm profundidad: 37 cm",
@@ -24722,7 +24693,7 @@ window.PRODUCTOS = [
       "precio": 1172470,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "853",
+      "imagen": "852",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3061623/estacion-de-carga-portatil-350w-297wh-siros/3061623/",
       "specs": {
           "dimensiones": "Aproximadas: 20 – 25 cm de largo ancho: 10 – 15 cm alto: 15 – 20 cm",
@@ -24751,7 +24722,7 @@ window.PRODUCTOS = [
       "precio": 5687162,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "854",
+      "imagen": "853",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/750567/planta-electrica-generador-portatil-de-6500-watts-generac/750567/",
       "specs": {
           "dimensiones": "Largo aproximado: 27.2\" ancho aproximado: 27\" alto aproximado: 26.5\"",
@@ -24780,7 +24751,7 @@ window.PRODUCTOS = [
       "precio": 6880335,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "855",
+      "imagen": "854",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/327612/generador-gasolina-6500w120-220v-389cc-13hp-elite/327612/",
       "specs": {
           "dimensiones": "Largo: 83 cm ancho: 55 cm alto: 56 cm",
@@ -24809,7 +24780,7 @@ window.PRODUCTOS = [
       "precio": 3618890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "856",
+      "imagen": "855",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/327612/generador-gasolina-6500w120-220v-389cc-13hp-elit/327612/",
       "specs": {
           "dimensiones": "Largo: 83 cm ancho: 55 cm alto: 56 cm",
@@ -24838,7 +24809,7 @@ window.PRODUCTOS = [
       "precio": 1999010,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "857",
+      "imagen": "856",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3029743/planta-electrica-portatil-gasolina-ecomax-de-3200-w/3029743/",
       "specs": {
           "dimensiones": "Largo aproximado: 60 – 65 cm ancho aproximado: 45 – 50 cm alto aproximado: 45 – 55 cm",
@@ -24867,7 +24838,7 @@ window.PRODUCTOS = [
       "precio": 342992,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "858",
+      "imagen": "857",
       "enlace": "https://www.falabella.com.co/falabella-co/product/136048542/Glucometro-Instant-Kit-X-4-+-50-Tirillas-+-200-Lancetas/136048543",
       "specs": {
           "dimensiones": "Tamaño aproximado: 7 – 10 cm de largo",
@@ -24896,7 +24867,7 @@ window.PRODUCTOS = [
       "precio": 65890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "859",
+      "imagen": "858",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/746146/balanza-gramera-bascula-digital-pesa-cocina-acero-inoxidable-5-kgs/746146/",
       "specs": {
           "dimensiones": "Largo: 21 cm ancho: 16 cm alto: 3.9 cm",
@@ -24925,7 +24896,7 @@ window.PRODUCTOS = [
       "precio": 78000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "860",
+      "imagen": "859",
       "enlace": "https://www.badecol.com/products/balanza-gramera-joyera",
       "specs": {
           "dimensiones": "Largo aproximado: 33 cm ancho aproximado: 34 cm alto aproximado: 12 cm",
@@ -24954,7 +24925,7 @@ window.PRODUCTOS = [
       "precio": 65890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "861",
+      "imagen": "860",
       "enlace": "https://www.falabella.com.co/falabella-co/product/149551189/Bascula-Gramera-De-Alimentos-Digital-Con-Temporizador-Profesional/149551190",
       "specs": {
           "dimensiones": "Aproximadamente: 18 cm x 13 cm x 3 cm",
@@ -24983,7 +24954,7 @@ window.PRODUCTOS = [
       "precio": 1099890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "862",
+      "imagen": "861",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/651131/guadana-combustion-321r-254cm3-husqvarna/651131/",
       "specs": {
           "dimensiones": "Longitud total aprox.: 178 cm diámetro del tubo: 26 mm diseño de eje recto para mayor alcance",
@@ -25012,7 +24983,7 @@ window.PRODUCTOS = [
       "precio": 590148,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "863",
+      "imagen": "862",
       "enlace": "https://genticenter.com/products/tbc52xl-b-guadanadora-motor-a-gasolina-2-hp-toyama?utm_source",
       "specs": {
           "dimensiones": "Eje extra largo para mayor alcance de corte",
@@ -25041,7 +25012,7 @@ window.PRODUCTOS = [
       "precio": 2146820,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "864",
+      "imagen": "863",
       "enlace": "https://equipmaster.com.co/producto/guadanadora-husqvarna-226rj/?utm_source",
       "specs": {
           "dimensiones": "Longitud aproximada: 170 – 180 cm diámetro del tubo: 24 – 26 mm ancho de corte aproximado: 40 cm",
@@ -25070,7 +25041,7 @@ window.PRODUCTOS = [
       "precio": 2128029,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "865",
+      "imagen": "864",
       "enlace": "https://maquinariasysoluciones.com/producto/guadanadora-gasolina-35-8cc-motor-honda/?utm_source",
       "specs": {
           "dimensiones": "Longitud aproximada: 170 – 185 cm diámetro del tubo: 26 – 28 mm ancho de corte aproximado: 40 – 45 cm",
@@ -25099,7 +25070,7 @@ window.PRODUCTOS = [
       "precio": 2921711,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "866",
+      "imagen": "865",
       "enlace": "https://puntoequipos.com/guadanadora-stihl-fs291/?utm_source",
       "specs": {
           "dimensiones": "Longitud aproximada: 180 cm diámetro del tubo: 28 mm aprox. Ancho de corte aproximado: 42 – 45 cm",
@@ -25128,7 +25099,7 @@ window.PRODUCTOS = [
       "precio": 1714790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "867",
+      "imagen": "866",
       "enlace": "https://arestoolsdistribuidora.com/products/guadanadora-multiusos-a-gasolina-2-2hp-52cc-total-tmt55211?utm_source",
       "specs": {
           "dimensiones": "Longitud aproximada: 180 cm diámetro del tubo: 26 – 28 mm ancho de corte aproximado: 40 – 45 cm",
@@ -25157,7 +25128,7 @@ window.PRODUCTOS = [
       "precio": 1644500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "868",
+      "imagen": "867",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/128175472/guadana-combustion-321r-25-4cm3-husqvarna/128175564?utm_source",
       "specs": {
           "dimensiones": "Longitud aproximada: 176 – 180 cm diámetro del tubo: 28 mm aprox. Ancho de corte aproximado: 40 – 42 cm",
@@ -25186,7 +25157,7 @@ window.PRODUCTOS = [
       "precio": 2744506,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "869",
+      "imagen": "868",
       "enlace": "https://croper.com/products/7795-guadana-stihl-fs-2550-450mm-corte-profesional?utm_source",
       "specs": {
           "dimensiones": "Ancho de corte: 450 mm longitud aproximada: 180 cm diámetro del tubo: 28 mm aprox",
@@ -25215,7 +25186,7 @@ window.PRODUCTOS = [
       "precio": 873145,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "870",
+      "imagen": "869",
       "enlace": "https://totalherramientas.com/products/guadanadora-a-gasolina-con-repuesto?variant=49874985419057&country=CO&currency=COP&utm_source",
       "specs": {
           "dimensiones": "Longitud aproximada: 175 – 185 cm diámetro del tubo: 26 – 28 mm ancho de corte aproximado: 40 – 45 cm",
@@ -25244,7 +25215,7 @@ window.PRODUCTOS = [
       "precio": 2694890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "871",
+      "imagen": "870",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/295162/guadana-a-gasolina-c35-eje-recto-de-336-cc-18-hp-2-tiempos/295162/",
       "specs": {
           "dimensiones": "Longitud aproximada: 180 cm diámetro del tubo: 28 mm aprox. Ancho de corte aproximado: 42 – 45 cm",
@@ -25273,7 +25244,7 @@ window.PRODUCTOS = [
       "precio": 590148,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "872",
+      "imagen": "871",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/647800/guadanadora-a-gasolina-profesional-52cc-14kw-blackbull/647800/",
       "specs": {
           "dimensiones": "Eje extra largo para mayor alcance diámetro del tubo: 28 mm dimensiones aproximadas: 300 x 300 x 300 mm",
@@ -25302,7 +25273,7 @@ window.PRODUCTOS = [
       "precio": 2877940,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "873",
+      "imagen": "872",
       "enlace": "https://www.stihl.com.co/es/p/guadanas-fs-250-24142",
       "specs": {
           "dimensiones": "Longitud aproximada: 199 cm ancho aproximado: 29 cm altura aproximada: 28 cm ancho de corte aproximado: 420 – 450 mm",
@@ -25331,7 +25302,7 @@ window.PRODUCTOS = [
       "precio": 60310,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "874",
+      "imagen": "873",
       "enlace": "https://www.grafitos.com.co/producto/%E2%9C%82%EF%B8%8F-guillotina-de-papel-a4-grafitos-%E2%9C%94%EF%B8%8F-corte-preciso/?utm_source",
       "specs": {
           "dimensiones": "Área de corte: 21 x 29.7 cm (A4)",
@@ -25360,7 +25331,7 @@ window.PRODUCTOS = [
       "precio": 131890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "875",
+      "imagen": "874",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3037431/guillotina-metalica-de-palanca-a4/3037431/?utm_source",
       "specs": {
           "dimensiones": "Medidas aproximadas del producto: 50 × 29 × 6 cm",
@@ -25389,7 +25360,7 @@ window.PRODUCTOS = [
       "precio": 184800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "876",
+      "imagen": "875",
       "enlace": "https://www.papelerialagaviota.com/pagina-del-producto/guillotina-de-rodaja-a4?utm_source",
       "specs": {
           "dimensiones": "Longitud de corte: 32 cm aproximadamente tamaño compatible: formato A4",
@@ -25418,7 +25389,7 @@ window.PRODUCTOS = [
       "precio": 1830322,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "877",
+      "imagen": "876",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/787938/fumigadora-estacionaria-de-30-litros-con-motor-a-gasolina/787938/",
       "specs": {
           "dimensiones": "Largo: 34 cm ancho: 92 cm alto: 46 cm",
@@ -25447,7 +25418,7 @@ window.PRODUCTOS = [
       "precio": 5407870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "878",
+      "imagen": "877",
       "enlace": "https://www.vialambre.com/gondola-central-doble-97x150x70-l-e-blanca-8-entrepanos-ref-26191/",
       "specs": {
           "dimensiones": "No especificadas en la referencia consultada",
@@ -25476,7 +25447,7 @@ window.PRODUCTOS = [
       "precio": 231400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "879",
+      "imagen": "878",
       "enlace": "https://www.falabella.com.co/falabella-co/product/125051309/Hamaca-en-Algodon-con-Flecos-Gris-Jaspiada/125051310?utm_source",
       "specs": {
           "dimensiones": "Largo aproximado: 300 – 310 cm ancho aproximado: 140 – 145 cm",
@@ -25505,7 +25476,7 @@ window.PRODUCTOS = [
       "precio": 8969850,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "880",
+      "imagen": "879",
       "enlace": "https://www.falabella.com.co/falabella-co/product/139627984/Nevecon-Midea-French-Door-465L-Plus-Inverter-Gris-MDRF700FGM_./139627985",
       "specs": {
           "dimensiones": "Especificaciones:\nColor: Inox\nCapacidad Neta: 465 L\nCapacidad Bruta: 522 L\nDimensiones Con Empaque. Longitud: 78.0cm Profundidad: 83.0cm Alto: 177.5cm\nDimensiones Sin Empaque. Longitud: 75.0cm Profundidad: 78.5cm Alto: 169.2cm\nPeso Con Empaque: 92kg\nPeso Sin Empaque: 82kg",
@@ -25534,7 +25505,7 @@ window.PRODUCTOS = [
       "precio": 515710,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "881",
+      "imagen": "880",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/707195/taladro-percutor-pulgada-18v-s-escobillas-gsb-185-1-bateria-23-accesorios-bosch/707195/",
       "specs": {
           "dimensiones": "Largo aproximado: 20 – 22 cm alto aproximado: 18 – 22 cm",
@@ -25563,7 +25534,7 @@ window.PRODUCTOS = [
       "precio": 191490,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "882",
+      "imagen": "881",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/133408416/barra-agricola-en-acero-18-lb/133408417",
       "specs": {
           "dimensiones": "Largo: 150 cm aproximadamente diámetro del cuerpo: 1\"",
@@ -25592,7 +25563,7 @@ window.PRODUCTOS = [
       "precio": 535990,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "883",
+      "imagen": "882",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/716864/caja-de-herramientas-compacta-y-profunda-de-3873cm/716864/",
       "specs": {
           "dimensiones": "Largo: 38.73 cm ancho: aproximado según modelo alto: aproximado según diseño profundo",
@@ -25621,7 +25592,7 @@ window.PRODUCTOS = [
       "precio": 98670,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "884",
+      "imagen": "883",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/905556/picota-pala-mango-largo-ergo/905556/",
       "specs": {
           "dimensiones": "Largo: 90 cm ancho: 47 cm alto: 8.5 cm",
@@ -25650,7 +25621,7 @@ window.PRODUCTOS = [
       "precio": 56550,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "885",
+      "imagen": "884",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/742145/tijera-plastica-costurera-multiusos-corta-tela-de-10-1-2/742145/",
       "specs": {
           "dimensiones": "Longitud: 10-1/2\" (aprox. 26.7 cm)",
@@ -25679,7 +25650,7 @@ window.PRODUCTOS = [
       "precio": 340890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "886",
+      "imagen": "885",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/773439/escaner-obd2-zmoon-zm301-herramienta-esencial-para-diagnostico-automotriz-eficaz/773439/",
       "specs": {
           "dimensiones": "Largo: 13.11 cm ancho: 20.29 cm alto: 4.39 cm",
@@ -25708,7 +25679,7 @@ window.PRODUCTOS = [
       "precio": 105430,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "887",
+      "imagen": "886",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/579440/broca-diamantada-dewalt-de-alta-precision-para-ceramica-y-porcelana/579440/",
       "specs": {
           "dimensiones": "Largo: 12.06 cm ancho: 7.62 cm alto: 3.49 cm",
@@ -25737,7 +25708,7 @@ window.PRODUCTOS = [
       "precio": 184313,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "888",
+      "imagen": "887",
       "enlace": "https://tyl.com.co/tienda/herramienta-electrica/pulidora-industrial-truper-16683/?utm_source",
       "specs": {
           "dimensiones": "Largo: 27 cm alto: 11 cm",
@@ -25766,7 +25737,7 @@ window.PRODUCTOS = [
       "precio": 21892,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "889",
+      "imagen": "888",
       "enlace": "https://www.tecnos.com.co/product/herramienta-para-repujado-x3-royal-rd90/",
       "specs": {
           "dimensiones": "Tamaño aproximado por herramienta: 12 – 15 cm",
@@ -25795,7 +25766,7 @@ window.PRODUCTOS = [
       "precio": 227389,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "890",
+      "imagen": "889",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-451057902-juego-de-herramientas-100-piezas-pretul-_JM",
       "specs": {
           "dimensiones": "37.5 x 8.5 x 27.5 cm",
@@ -25824,7 +25795,7 @@ window.PRODUCTOS = [
       "precio": 317590,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "891",
+      "imagen": "890",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/592023/llave-expansiva-de-24-pulgadas-con-apertura-de-21-2-pulgadas-truper/592023/",
       "specs": {
           "dimensiones": "Largo: 61 cm ancho aproximado: 6.1 cm",
@@ -25853,7 +25824,7 @@ window.PRODUCTOS = [
       "precio": 590070,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "892",
+      "imagen": "891",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/577818/juego-de-herramientas-mecanico-123-piezas-stanley/577818/",
       "specs": {
           "dimensiones": "Largo: 35.6 cm (14\") ancho: 18.8 cm (7.4\") alto: 28 cm (11\")",
@@ -25882,7 +25853,7 @@ window.PRODUCTOS = [
       "precio": 1946890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "893",
+      "imagen": "892",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/656779/cortadora-industrial-vertical-de-8-pulgadas-ms-t3c-con-led/656779/",
       "specs": {
           "dimensiones": "Alto: 8 ancho: 10 largo: 15",
@@ -25911,7 +25882,7 @@ window.PRODUCTOS = [
       "precio": 75790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "894",
+      "imagen": "893",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/656646/estuche-rigido-porta-herramientas-con-bolsillos-para-bicicleta/656646/",
       "specs": {
           "dimensiones": "Largo: 28 cm ancho: 7.2 cm alto: aproximado según diseño tubular",
@@ -25940,7 +25911,7 @@ window.PRODUCTOS = [
       "precio": 98890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "895",
+      "imagen": "894",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/599038/tijera-para-flores/599038/",
       "specs": {
           "dimensiones": "Largo: 10\" (aprox. 25.4 cm) ancho: 4.5\" alto: 4.5\"",
@@ -25969,7 +25940,7 @@ window.PRODUCTOS = [
       "precio": 228722,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "896",
+      "imagen": "895",
       "enlace": "https://www.falabella.com.co/falabella-co/product/137023684/Maquina-De-Tejer-48-Agujas-SENTRO/137023685",
       "specs": {
           "dimensiones": "Diámetro aproximado: 40 – 45 cm altura aproximada: 12 – 18 cm diseño circular compacto para mesa de trabajo",
@@ -25998,7 +25969,7 @@ window.PRODUCTOS = [
       "precio": 41990,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "897",
+      "imagen": "896",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/414412/llave-extralarga-metrica-18-mm-truper/414412/",
       "specs": {
           "dimensiones": "Largo aproximado: 30 – 40 cm",
@@ -26027,7 +25998,7 @@ window.PRODUCTOS = [
       "precio": 830830,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "898",
+      "imagen": "897",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3080888/kit-desmontadora-manual-para-neumaticos-set-3-piezas-hrc38-42-109mmx265mm-uyustools/3080888/",
       "specs": {
           "dimensiones": "Largo aproximado: 109 mm x 265 mm",
@@ -26056,7 +26027,7 @@ window.PRODUCTOS = [
       "precio": 168190,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "899",
+      "imagen": "898",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/792800/destorcedor-de-cadena-1-2-pulgadas-1630-kg-en-acero-forjado-surtek/792800/",
       "specs": {
           "dimensiones": "Tamaño aproximado: compatible con cadena de 1/2\"",
@@ -26085,7 +26056,7 @@ window.PRODUCTOS = [
       "precio": 83590,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "900",
+      "imagen": "899",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/580675/juego-de-reparacion-celulares-ps4-xbox-y-dispositivos-32-piezas-truper/580675/",
       "specs": {
           "dimensiones": "Estuche compacto portátil tamaño aproximado: 15 – 20 cm de largo diseño organizado para fácil transporte",
@@ -26114,7 +26085,7 @@ window.PRODUCTOS = [
       "precio": 60390,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "901",
+      "imagen": "900",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/901754/martillo-una-24oz-m-fibra-bauker/901747/",
       "specs": {
           "dimensiones": "Largo aproximado: 33 – 38 cm",
@@ -26143,7 +26114,7 @@ window.PRODUCTOS = [
       "precio": 144690,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "902",
+      "imagen": "901",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/687417/mini-mototool-con-109-accesorios-130w-110v-60hz-total-tools-en-estuche/687417/",
       "specs": {
           "dimensiones": "Tamaño aproximado: 20 – 25 cm de largo",
@@ -26172,7 +26143,7 @@ window.PRODUCTOS = [
       "precio": 1729390,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "903",
+      "imagen": "902",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/741737/equipo-de-soldadura-tipo-inversor-multiprop-mig-tig-lift-tig-250-a-para-rollo-5-kg/741737/",
       "specs": {
           "dimensiones": "Largo: 45 – 55 cm ancho: 20 – 30 cm alto: 30 – 40 cm",
@@ -26201,7 +26172,7 @@ window.PRODUCTOS = [
       "precio": 1950000,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "904",
+      "imagen": "903",
       "enlace": "https://toolstore.com.co/products/equipo-de-soldadura-inversor-300a-220-440v-ref-arc-300-elite",
       "specs": {
           "dimensiones": "Dimensiones: Alto 23.5 cm x ancho 18 cm x largo 39.8 cm.",
@@ -26230,7 +26201,7 @@ window.PRODUCTOS = [
       "precio": 493790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "905",
+      "imagen": "904",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/522117/hidrolavadora-electrica-2200w-2200psi-75lt-min-elite/522117/",
       "specs": {
           "dimensiones": "Largo: 35 – 45 cm ancho: 30 – 40 cm alto: 70 – 90 cm",
@@ -26259,7 +26230,7 @@ window.PRODUCTOS = [
       "precio": 376402,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "906",
+      "imagen": "905",
       "enlace": "https://almaceneshj.com/products/hidrolavadora-electrica-1500w-1450-psi-elite?variant=43345084940341&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=23548200716&gbraid=0AAAAADMeMaX9qsy173JggNslRcF1ToQzF&gclid=CjwKCAjwidXQBhAZEiwA4egw6Fnm6xMueEbDwdpeEe8AaBTNQ7srxq0Elz7cCyRQfqOfT8vIEmPPehoCU0IQAvD_BwE",
       "specs": {
           "dimensiones": "Largo: 30 – 40 cm ancho: 25 – 35 cm alto: 45 – 60 cm",
@@ -26288,7 +26259,7 @@ window.PRODUCTOS = [
       "precio": 517385,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "907",
+      "imagen": "906",
       "enlace": "https://www.unitorni.co/hidrolavadora-einhell-1200w-90bares-372lh-tc-hp-90",
       "specs": {
           "dimensiones": "Largo: 36 cm ancho: 19 cm alto: 24 cm",
@@ -26317,7 +26288,7 @@ window.PRODUCTOS = [
       "precio": 493870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "908",
+      "imagen": "907",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3076149/combo-hidrolavadora-compacta-1520-psi-atornillador-48-v-black-and-decker/3076149/",
       "specs": {
           "dimensiones": "Diseño compacto para uso doméstico",
@@ -26346,7 +26317,7 @@ window.PRODUCTOS = [
       "precio": 3151070,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "909",
+      "imagen": "908",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3071154/hidrolavadora-industrial-ecomax-motor-ecomax-gasolina-2300-psi/3071154/",
       "specs": {
           "dimensiones": "Largo: 55 – 75 cm ancho: 45 – 60 cm alto: 50 – 70 cm",
@@ -26375,7 +26346,7 @@ window.PRODUCTOS = [
       "precio": 208000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "910",
+      "imagen": "909",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/736175/hilo-de-poliester-color-blanco-brothread/736175/",
       "specs": {
           "dimensiones": "Presentación compacta tipo carrete",
@@ -26404,7 +26375,7 @@ window.PRODUCTOS = [
       "precio": 1609885,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "911",
+      "imagen": "910",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/264876/horno-rostizador-2-parrillas-28-litros/264876/",
       "specs": {
           "dimensiones": "Ancho: 59 cm alto: 37 cm profundidad: 45.5 cm",
@@ -26433,7 +26404,7 @@ window.PRODUCTOS = [
       "precio": 1146470,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "912",
+      "imagen": "911",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/234457/horno-de-empotrar-electrico-con-gratinador-595x54-cm-negro-he2500/234457/",
       "specs": {
           "dimensiones": "Medidas aproximadas: 59.5 x 54 cm",
@@ -26462,7 +26433,7 @@ window.PRODUCTOS = [
       "precio": 2600000,
       "iva": 0,
       "icono": "📷",
-      "imagen": "913",
+      "imagen": "912",
       "enlace": "https://www.mercadolibre.com.co/horno-para-panaderia-3-camaras-a-gas-con-termometro-acero/up/MCOU2431979315",
       "specs": {
           "dimensiones": "CAPACIDAD PARA 3 LATA DE 65 CM X 45 CM.",
@@ -26491,7 +26462,7 @@ window.PRODUCTOS = [
       "precio": 1310270,
       "iva": 0,
       "icono": "📷",
-      "imagen": "914",
+      "imagen": "913",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/443675/horno-a-gas-60-cm-gratinador-220v/443675/",
       "specs": {
           "dimensiones": "Dimensiones de encastre: 57 x 57 x 46 cm",
@@ -26520,7 +26491,7 @@ window.PRODUCTOS = [
       "precio": 2757170,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "915",
+      "imagen": "914",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3043353/horno-electrico-digital-haceb-de-60-cm-inoxidable-negro-220-v/3043353/",
       "specs": {
           "dimensiones": "Ancho aproximado: 60 cm",
@@ -26549,7 +26520,7 @@ window.PRODUCTOS = [
       "precio": 2685135,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "916",
+      "imagen": "915",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/140569591/Horno-Multifuncion-Electrico-Hb605-Ss/140569592?exp=homecenter",
       "specs": {
           "dimensiones": "Formato empotrable de 60 cm aproximadamente",
@@ -26578,7 +26549,7 @@ window.PRODUCTOS = [
       "precio": 6446785,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "917",
+      "imagen": "916",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/455656/horno-de-conveccion-electrico-220vol-4-bandejas/455656/",
       "specs": {
           "dimensiones": "Ancho: 60 – 80 cm alto: 55 – 75 cm fondo: 60 – 80 cm",
@@ -26607,7 +26578,7 @@ window.PRODUCTOS = [
       "precio": 5169890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "918",
+      "imagen": "917",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118654626/estufa-de-piso-con-horno-90-cm-5-puestos-gris/118654628?exp=homecenter",
       "specs": {
           "dimensiones": "Ancho: 90 cm alto aproximado: 85 – 95 cm fondo aproximado: 55 – 65 cm",
@@ -26636,7 +26607,7 @@ window.PRODUCTOS = [
       "precio": 2301000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "919",
+      "imagen": "918",
       "enlace": "https://felcas.com.co/producto/horno-de-panaderia-de-3-camaras-acero-nacional/",
       "specs": {
           "dimensiones": "1.35m de altura x 60cm de ancho x 80cm",
@@ -26665,7 +26636,7 @@ window.PRODUCTOS = [
       "precio": 1319890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "920",
+      "imagen": "919",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/146229691/horno-electrico-para-pizza-pyy-31-cm-de-encimera-con-temporizador-y-acero-inoxidable/146229692?exp=homecenter",
       "specs": {
           "dimensiones": "Ancho: 45 – 55 cm alto: 20 – 35 cm fondo: 35 – 45 cm",
@@ -26694,7 +26665,7 @@ window.PRODUCTOS = [
       "precio": 1537690,
       "iva": 0,
       "icono": "📷",
-      "imagen": "921",
+      "imagen": "920",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/132970425/estufa-de-piso-gas-natural-4-puestos-vidrio-negro/132970426?exp=homecenter",
       "specs": {
           "dimensiones": "Ancho: 50 – 60 cm alto: 85 – 95 cm fondo: 55 – 65 cm",
@@ -26723,7 +26694,7 @@ window.PRODUCTOS = [
       "precio": 2201578,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "922",
+      "imagen": "921",
       "enlace": "https://encarguelo.com/producto/B0CPSNL8BN/maquina-de-hornear-por-sublimacion-pyd-life-40-l-120-v-1700-w-horno-de-conveccion-azul-claro-para-sublimacion-de-blanks-vasos-tazas-botellas-de-agua-impresion-a-granel",
       "specs": {
           "dimensiones": "Las dimensiones exteriores aproximadas son de 18\" de ancho por 19\" de fondo por 14.5\" de alto (45.7 cm x 48.2 cm x 36.8 cm). Las dimensiones del espacio interior utilizable son de 14.3\" de ancho por 11.8\" de fondo por 9\" de alto (36.3 cm x 30 cm x 22.8 cm).",
@@ -26752,7 +26723,7 @@ window.PRODUCTOS = [
       "precio": 2637690,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "923",
+      "imagen": "922",
       "enlace": "https://grupozingal.co/producto/horno-deshidratador-para-frutas-electrico-20-bandejas/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas del equipo: 55 cm x 45 cm x 65 cm. Bandejas internas distribuidas en múltiples niveles para mayor capacidad operativa.",
@@ -26781,7 +26752,7 @@ window.PRODUCTOS = [
       "precio": 319670,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "924",
+      "imagen": "923",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/302733/horno-electrico-32-litros-1500w-h828aero-inoxidable/302733/",
       "specs": {
           "dimensiones": "Ancho: 48 cm. Alto: 31 cm. Profundidad: 36 cm.",
@@ -26810,7 +26781,7 @@ window.PRODUCTOS = [
       "precio": 1029470,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "925",
+      "imagen": "924",
       "enlace": "https://www.alkosto.com/horno-convencional-freidor-powerxl-28-litros-to67d5-1spla/p/027043003089?utm_source=google&utm_medium=organic&utm_campaign=Shopping-Organico&srsltid=AfmBOorQ_3QDH4N8RsG_v9bx5l-Tst5zb-WHIakBLFIK11otW07s2TeihDg",
       "specs": {
           "dimensiones": "Ancho de 44.4 cm, alto de 39 cm y fondo de 53 cm.",
@@ -26839,7 +26810,7 @@ window.PRODUCTOS = [
       "precio": 935985,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "926",
+      "imagen": "925",
       "enlace": "https://www.falabella.com.co/falabella-co/category/cat50664/Hornos-Electricos",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 58 cm de ancho x 38 cm de alto x 42 cm de profundidad.",
@@ -26868,7 +26839,7 @@ window.PRODUCTOS = [
       "precio": 13453570,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "927",
+      "imagen": "926",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/514825/horno-dos-cabinas-4-latas-uso-comercial/514825/",
       "specs": {
           "dimensiones": "Dimensiones del equipo sin empaque: 140 cm de alto x 134 cm de ancho x 90 cm de profundidad. Dimensiones empacado: 150 cm de alto x 144 cm de ancho x 100 cm de profundidad.",
@@ -26897,7 +26868,7 @@ window.PRODUCTOS = [
       "precio": 1571180,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "928",
+      "imagen": "927",
       "enlace": "https://www.falabella.com.co/falabella-co/product/123493251/horno-electrico-gratinatto-autolimpiante-mesa-44l-fischer-acero-inox/123493253",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 57 cm de ancho x 37 cm de alto x 52 cm de profundidad.",
@@ -26926,7 +26897,7 @@ window.PRODUCTOS = [
       "precio": 12300730,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "929",
+      "imagen": "928",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/356991/horno-de-panaderia-a-gas-3-cabinas/356991/",
       "specs": {
           "dimensiones": "Dimensiones generales: 162 cm de alto x 100 cm de ancho x 74 cm de profundidad. Medidas de cada cabina: 17 cm de alto x 64 cm de ancho x 54 cm de fondo.",
@@ -26955,7 +26926,7 @@ window.PRODUCTOS = [
       "precio": 3562000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "930",
+      "imagen": "929",
       "enlace": "https://ideacerosymuebles.com/producto/horno-lechona-2-camaras/",
       "specs": {
           "dimensiones": "Medidas externas: 63 cm de frente x 1.25 m de ancho x 1.50 m de alto. Medidas internas de la cámara: 1.12 m x 48 cm x 30 cm de alto en boca libre. Capacidad para latas de 1.10 m x 45 cm.",
@@ -26984,7 +26955,7 @@ window.PRODUCTOS = [
       "precio": 1011863,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "931",
+      "imagen": "930",
       "enlace": "https://www.alkosto.com/horno-microondas-samsung-14-pies-mg40dg5524atco-negro/p/8806095508849?gclsrc=aw.ds&fuente=google&medio=cpc&campaign=AK_COL_SMARTGSHP_PEF_CPC_EST_LB_Samsung-Aires_Jul25_EXP_JUL&keyword=&gad_source=4&gad_campaignid=22786437593&gbraid=0AAAAADlnVbgVuD8TFUwSD-bduZWwt_ZHT&gclid=CjwKCAjw5s_QBhAdEiwADD_gBqa62MRFV17esX3y1344KoMiFJbfqeJn2jCpZx24c68KVKQNNvgtABoCTDoQAvD_BwE",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 55.5 cm de ancho x 31.3 cm de alto x 48.8 cm de profundidad.",
@@ -27013,7 +26984,7 @@ window.PRODUCTOS = [
       "precio": 1039870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "932",
+      "imagen": "931",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/729439/horno-tostador-imusa-22-8010000504-20-litros-5-en1-negro/729439/",
       "specs": {
           "dimensiones": "Un ancho de 40.5 cm, una alto de 39.6 cm y una profundidad de 42.3 cm.",
@@ -27042,7 +27013,7 @@ window.PRODUCTOS = [
       "precio": 18754710,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "933",
+      "imagen": "932",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3029863/horno-de-3-cabinas-con-6-latas/3029863/",
       "specs": {
           "dimensiones": "El equipo sin el empaque de caja mide 134 cm de ancho, 180 cm de alto y 90 cm de largo (profundidad total del artículo con el empaque es de 144 cm). Cada una de las tres cabinas internas cuenta con unas dimensiones individuales de 25 cm de alto, 88 cm de ancho y 66 cm de largo.",
@@ -27071,7 +27042,7 @@ window.PRODUCTOS = [
       "precio": 2834000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "934",
+      "imagen": "933",
       "enlace": "https://incolaceros.com/product/horno-para-lechona/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 120 cm a 150 cm de largo x 80 cm a 100 cm de ancho x 90 cm a 120 cm de alto, según modelo.",
@@ -27100,7 +27071,7 @@ window.PRODUCTOS = [
       "precio": 26559000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "935",
+      "imagen": "934",
       "enlace": "https://azero.com.co/products/horno-de-conveccion?srsltid=AfmBOop0ANI4pvXPZ7SA4H1hyOyRX27hvYfe7hOvgd-x3FqTEFFEG1bogEM",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 93 cm de alto x 79 cm de ancho x 67 cm de profundidad. Medidas variables según configuración y accesorios.",
@@ -27129,7 +27100,7 @@ window.PRODUCTOS = [
       "precio": 19965000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "936",
+      "imagen": "935",
       "enlace": "https://elpuntodelinoxidable.com/product/horno-asador-de-pollos-de-acero-inoxidable/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 120 cm de frente x 70 cm de profundidad x 190 cm de alto. Las medidas pueden variar según el modelo y capacidad.",
@@ -27158,7 +27129,7 @@ window.PRODUCTOS = [
       "precio": 1292330,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "937",
+      "imagen": "936",
       "enlace": "https://www.falabella.com.co/falabella-co/product/73010136/Horno-Gas-natural-Haceb-H60EEVAL005/73010136",
       "specs": {
           "dimensiones": "Alto 62 cm x ancho 62.3 cm x profundidad 55 cm",
@@ -27187,7 +27158,7 @@ window.PRODUCTOS = [
       "precio": 6279000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "938",
+      "imagen": "937",
       "enlace": "https://www.americafoodsolutions.co/tienda/horno-profesional-conveccion-to-8a-4-bandejas/?srsltid=AfmBOoonhQCygUM5Ljqzs_6geD2gTtTpjQdrIkLTmc68_dtOimQARuTO8HI",
       "specs": {
           "dimensiones": "835 x 770 x 575 mm",
@@ -27216,7 +27187,7 @@ window.PRODUCTOS = [
       "precio": 1039870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "939",
+      "imagen": "938",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3001298/multi-horno-pro-7-funciones-en-1/3001298/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 58 cm de ancho x 40 cm de profundidad x 36 cm de alto.",
@@ -27245,7 +27216,7 @@ window.PRODUCTOS = [
       "precio": 148500,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "940",
+      "imagen": "939",
       "enlace": "https://mundiluz.com.co/products/mco1161948080?variant=45829967904922&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoopxRhGPsH19WYhJjgKGXCi2nvpRyUZhEFLMgLxjadk6CgRp2TqBvU",
       "specs": {
           "dimensiones": "Aproximadamente 60 cm de ancho x 50 cm de profundidad x altura ajustable según instalación.",
@@ -27274,7 +27245,7 @@ window.PRODUCTOS = [
       "precio": 991302,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "941",
+      "imagen": "940",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/233841/set-de-10-panel-led-plano-48w-luz-fria-60x60-cm/583450/",
       "specs": {
           "dimensiones": "Dimensiones de cada panel: 60 cm x 60 cm. Espesor aproximado entre 1 cm y 3 cm según configuración del driver.",
@@ -27303,7 +27274,7 @@ window.PRODUCTOS = [
       "precio": 117390,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "942",
+      "imagen": "941",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3042448/traje-impermeable-alphatec-talla-l/3042448/",
       "specs": {
           "dimensiones": "No especificadas por el fabricante para esta referencia",
@@ -27332,7 +27303,7 @@ window.PRODUCTOS = [
       "precio": 363402,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "943",
+      "imagen": "942",
       "enlace": "https://www.alkosto.com/impresora-multifuncional-hp-2975-deskjet-ink-advantage/p/198828486059?utm_source=google&utm_medium=organic&utm_campaign=Shopping-Organico&srsltid=AfmBOoood_nB7PANlWDeAbscNVnS8-wpDi8MtlaCY5nUP4NdXywc3jfSnK0",
       "specs": {
           "dimensiones": "Aproximadamente 42.5 cm de ancho x 30.4 cm de profundidad x 15.4 cm de alto.",
@@ -27361,7 +27332,7 @@ window.PRODUCTOS = [
       "precio": 1116736,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "944",
+      "imagen": "943",
       "enlace": "https://www.alkosto.com/impresora-hp-smart-tank-210-wifi-hg-blanco/p/196068963576?utm_source=google&utm_medium=organic&utm_campaign=Shopping-Organico&srsltid=AfmBOoowtxRtaxunE6yZSxMdTmgjV320KAkpU2k-pxJZCAQep_piA3VVNUw",
       "specs": {
           "dimensiones": "Aproximadamente 44.7 cm de ancho x 37.3 cm de profundidad x 15.8 cm de alto.",
@@ -27390,7 +27361,7 @@ window.PRODUCTOS = [
       "precio": 1070290,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "945",
+      "imagen": "944",
       "enlace": "https://www.falabella.com.co/falabella-co/product/140069277/Impresora-Epson-Multifuncional-Ecotank-L3251-Wi-Fi/140069278?kid=shopp403fa&gad_source=4&gad_campaignid=23824110650&gbraid=0AAAAADtuoyRqss6Pg8gRabEWs8AL_snTC&gclid=CjwKCAjw5s_QBhAdEiwADD_gBpQSDpirxfxDaQTvmnhsNxd3DExQot4lE3Gxmb7yv_3RIxqiSQqhIxoCU6YQAvD_BwE",
       "specs": {
           "dimensiones": "Aproximadamente 37.5 cm de ancho x 34.7 cm de profundidad x 17.9 cm de alto.",
@@ -27419,7 +27390,7 @@ window.PRODUCTOS = [
       "precio": 1983023,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "946",
+      "imagen": "945",
       "enlace": "https://www.falabella.com.co/falabella-co/product/144340258/Impresora-de-Sublimacion-SureColor-F170/144340259",
       "specs": {
           "dimensiones": "Aproximadamente 37.5 cm de ancho x 34.7 cm de profundidad x 18.7 cm de alto.",
@@ -27448,7 +27419,7 @@ window.PRODUCTOS = [
       "precio": 1445522,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "947",
+      "imagen": "946",
       "enlace": "https://www.mercadolibre.com.co/impresora-multifuncion-a-color-epson-ecotank-l3210/p/MCO18352526?pdp_filters=item_id:MCO2681715984#polycard_client=recommendations_pdp-pads-up&reco_backend=recomm_platform_base_pads_ron_MERGE&reco_model=search_recos_backend_merge&reco_client=pdp-pads-up&reco_item_pos=0&reco_backend_type=low_level&reco_id=fb2fa90b-3617-4742-a749-a3d3276aa8b1&wid=MCO2681715984&sid=recos&is_advertising=true&ad_domain=PDPDESKTOP_UP&ad_position=1&ad_click_id=ZGI3MzE1ODMtOWVjYy00MjFjLTllNTktNjRmYjcyY2ViYzI3",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 37.5 cm de ancho x 34.7 cm de profundidad x 17.9 cm de alto.",
@@ -27472,12 +27443,12 @@ window.PRODUCTOS = [
       "proceso": "Producción / Operación",
       "itemPorActividad": "Papeleria e impresion",
       "tipo": "Equipo",
-      "nombre": "Impresora sublimación (Consumo eléctrico aproximado e)",
+      "nombre": "Impresora sublimación",
       "desc": "Impresora multifuncional con sistema de tanque de tinta, diseñada para impresión, copiado, escaneo y envío de fax en entornos domésticos y de oficina. Ofrece alta productividad, bajo costo por página y conectividad avanzada. | Impresora multifuncional con tecnología de inyección de tinta de tanque recargable, sistema de recarga continua, conectividad USB, wi-fi y ethernet (según versión), impresión a color y negro, funciones de escáner, copiadora y fax.",
       "precio": 2093130,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "948",
+      "imagen": "947",
       "enlace": "https://puntonetinsuperablesas.com/shop/computacion/impresoras/impresora/impresora-epson-multifuncional-l5590/?gad_source=4&gad_campaignid=23751067904&gbraid=0AAAAA9TXD-HBi0nSH_SNzYJ4mTxNiLnml&gclid=CjwKCAjw5s_QBhAdEiwADD_gBrC80P82NZJqkaWF0f1KMnHwwpJbUZKv7i0J3O1PAR5eIJyH6-Fs_xoCbL4QAvD_BwE",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 37.5 cm de ancho x 34.7 cm de profundidad x 23.1 cm de alto.",
@@ -27506,7 +27477,7 @@ window.PRODUCTOS = [
       "precio": 2548738,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "949",
+      "imagen": "948",
       "enlace": "https://www.alkosto.com/impresora-sublimacion-tinta-epson-surecolor-f170-of-blanco/p/010343963351?utm_source=google&utm_medium=organic&utm_campaign=Shopping-Organico&srsltid=AfmBOoro7LxfPjqEWhuRCQEOKqJUs4YX39JPFTltcWjW5b_ExEtlQHRC7yM",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 37.5 cm de ancho x 34.7 cm de profundidad x 18.7 cm de alto.",
@@ -27535,7 +27506,7 @@ window.PRODUCTOS = [
       "precio": 1240122,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "950",
+      "imagen": "949",
       "enlace": "https://www.falabella.com.co/falabella-co/product/121382653/Impresora-Multifuncional-Epson-Ecotank-L3210./121382654",
       "specs": {
           "dimensiones": "37,5 cm x 34,7 cm x 17,9 cm aproximadamente",
@@ -27564,7 +27535,7 @@ window.PRODUCTOS = [
       "precio": 1240122,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "951",
+      "imagen": "950",
       "enlace": "https://www.alkosto.com/impresora-multifuncional-epson-ecotank-l3250-wifi-hg-negro/p/010343958098",
       "specs": {
           "dimensiones": "37,5 cm x 34,7 cm x 17,9 cm aproximadamente",
@@ -27593,7 +27564,7 @@ window.PRODUCTOS = [
       "precio": 2229189,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "952",
+      "imagen": "951",
       "enlace": "https://encarguelo.com/producto/B09LZ94LZV/impresora-de-imagenes-para-decoracion-de-pasteles-cartuchos-de-tinta-para-pasteles-50-hojas-de-oblea-marcadores-comestibles-y-kit-de-limpieza-de-cabezal-de-impresion-version-internacional",
       "specs": {
           "dimensiones": "No especificadas por el proveedor",
@@ -27622,7 +27593,7 @@ window.PRODUCTOS = [
       "precio": 700362,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "953",
+      "imagen": "952",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3073413/impresora-termica-de-etiquetas-portatil-bluetooth-30-etiquetas-por-minuto-phomemo/3073413/",
       "specs": {
           "dimensiones": "11 cm x 8 cm x 6 cm",
@@ -27651,7 +27622,7 @@ window.PRODUCTOS = [
       "precio": 10992800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "954",
+      "imagen": "953",
       "enlace": "https://megaoutletdeimpresion.com/producto/impresora-epson-f570-para-sublimacion/",
       "specs": {
           "dimensiones": "Aproximadamente 97 cm x 81 cm x 25 cm",
@@ -27680,7 +27651,7 @@ window.PRODUCTOS = [
       "precio": 1319500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "955",
+      "imagen": "954",
       "enlace": "https://megaoutletdeimpresion.com/producto/combo-impresora-epson-l3210-sublimacion/?srsltid=AfmBOop7syHB8AsV-8v1xR2kC06psKdyKt-U_BhzTkz3aIwOXaQD-mGXSBI",
       "specs": {
           "dimensiones": "37,5 cm x 34,7 cm x 17,9 cm",
@@ -27709,7 +27680,7 @@ window.PRODUCTOS = [
       "precio": 3984968,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "956",
+      "imagen": "955",
       "enlace": "https://www.falabella.com.co/falabella-co/product/144341722/Impresora-Inalambrica-Epson-SureColor-T3170/144341723",
       "specs": {
           "dimensiones": "7 cm x 50 cm x 24 cm",
@@ -27738,7 +27709,7 @@ window.PRODUCTOS = [
       "precio": 787722,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "957",
+      "imagen": "956",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3073418/impresora-termica-de-escritorio-usb-deteccion-automatica-102-etiquetas-por-minuto-idprt/3073418/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas compactas para escritorio",
@@ -27767,7 +27738,7 @@ window.PRODUCTOS = [
       "precio": 100196,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "958",
+      "imagen": "957",
       "enlace": "https://www.falabella.com.co/falabella-co/product/123449657/Inflador-Bomba-De-Piso-Con-Medidor-BETO-CWM-001SG-160-psi/123449658",
       "specs": {
           "dimensiones": "Altura aproximada entre 65 cm y 70 cm. Base de 20 cm x 12 cm aproximadamente.",
@@ -27796,7 +27767,7 @@ window.PRODUCTOS = [
       "precio": 75790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "959",
+      "imagen": "958",
       "enlace": "https://www.falabella.com.co/falabella-co/product/142130439/Inflador-De-Globos-Electrico-600-Watts-Doble-Boquilla-110V/142130440",
       "specs": {
           "dimensiones": "Bomba eléctrica de 600 W con doble boquilla y 2 modos de funcionamiento: automático y presión manual. Funciona con corriente eléctrica 110 V/120 V. Compatible con globos de látex y globos decorativos de diferentes tamaños. Sistema de flujo continuo de aire para alto rendimiento.",
@@ -27825,7 +27796,7 @@ window.PRODUCTOS = [
       "precio": 133031,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "960",
+      "imagen": "959",
       "enlace": "https://sinfoniamusical.com/products/teclado-arranger-korg-ek50-sca?variant=45739427791037&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopmx7hM2OwIjljTkOov7Dp_Z8u4aOk6xhhSE2lHRbqSs_1Wmns7eqs",
       "specs": {
           "dimensiones": "Diámetro nominal de 3/4\". Longitud total de 6 m por unidad. Espesor según norma C40 ASTM-A53.",
@@ -27854,7 +27825,7 @@ window.PRODUCTOS = [
       "precio": 12122000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "961",
+      "imagen": "960",
       "enlace": "https://sinfoniamusical.com/products/teclado-korg-arranger-pa1000",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 103 cm x 37.8 cm x 13.2 cm.",
@@ -27883,7 +27854,7 @@ window.PRODUCTOS = [
       "precio": 1649890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "962",
+      "imagen": "961",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/651128/carro-limpiador-balde-senal-baston-trapero-mecha/651128/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas del carro: 95 cm x 55 cm x 90 cm. Bastón trapero de aproximadamente 1.40 m de longitud.",
@@ -27912,7 +27883,7 @@ window.PRODUCTOS = [
       "precio": 431782,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "963",
+      "imagen": "962",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/461601/soldadura-as7018-1-8-caja-x-20kg/461601/",
       "specs": {
           "dimensiones": "Longitud del electrodo: 18 cm. Diámetro: 1/8\". Dimensiones aproximadas de la caja: 40 cm x 15 cm x 12 cm.",
@@ -27941,7 +27912,7 @@ window.PRODUCTOS = [
       "precio": 37000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "964",
+      "imagen": "963",
       "enlace": "https://tiendaonline.puntoscolombia.com/kit-manicure-pedicure-profesional-unas-12-piezas-profesional-469939-277/p",
       "specs": {
           "dimensiones": "10 cm y 20 cm",
@@ -27970,7 +27941,7 @@ window.PRODUCTOS = [
       "precio": 897000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "965",
+      "imagen": "964",
       "enlace": "https://cursosphotoarts.com/products/termofijadora-freesub-38-x-38-cm?variant=49876881408286&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOop7MMza8W5U63WAnIC7-0r6mbzqypE8rLozct5SRIc_2xcg0aV2vJw",
       "specs": {
           "dimensiones": "Dimensiones aproximadas del equipo: 70 cm x 45 cm x 40 cm. Área útil de trabajo: 38 cm x 38 cm.",
@@ -27999,7 +27970,7 @@ window.PRODUCTOS = [
       "precio": 475930,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "966",
+      "imagen": "965",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/391524/inversor-de-voltaje-12vcd-a-115vca-400w/391524/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 20 cm x 12 cm x 6 cm.",
@@ -28028,7 +27999,7 @@ window.PRODUCTOS = [
       "precio": 849082,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "967",
+      "imagen": "966",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/391523/inversor-de-voltaje-12vcd-a-110-vca-1000/391523/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 28 cm x 18 cm x 8 cm.",
@@ -28057,7 +28028,7 @@ window.PRODUCTOS = [
       "precio": 33540,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "968",
+      "imagen": "967",
       "enlace": "https://surtidor.com.co/products/1-44-25?variant=47004996534494&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqEDokwHsvuCoZt50dEBKPFYK33r4pjfWWaOEpyzRxeUCb1d_Og2n8",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de la jarra: 28 cm de alto x 18 cm de diámetro. Vasos de aproximadamente 12 cm de alto.",
@@ -28086,7 +28057,7 @@ window.PRODUCTOS = [
       "precio": 76890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "969",
+      "imagen": "968",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/404467/jarra-tritan-con-tapa-1720-ml/404467/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 14.5 cm de diámetro x 28 cm de alto x 27 cm de profundidad.",
@@ -28115,7 +28086,7 @@ window.PRODUCTOS = [
       "precio": 14190,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "970",
+      "imagen": "969",
       "enlace": "https://www.falabella.com.co/falabella-co/product/136958068/Jarra-Plastico-2-L-Colores-Surtidos-Sanremo./136958069",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 26 cm de alto x 16 cm de diámetro x 20 cm de ancho incluyendo el asa.",
@@ -28144,7 +28115,7 @@ window.PRODUCTOS = [
       "precio": 5500000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "971",
+      "imagen": "970",
       "enlace": "https://formergroup.com/products/jaula-gestacion-de-5-espacios?variant=50821706875201&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoo-olwia5zvuP7miUUvSDhBGho43rWfF36x63MbbRiE5yXWuwGXv_w",
       "specs": {
           "dimensiones": "Dimensiones aproximadas por módulo completo: 3 m a 3.5 m de largo x 2 m a 2.5 m de ancho x 1 m a 1.2 m de alto. Las medidas pueden variar según configuración del fabricante",
@@ -28173,7 +28144,7 @@ window.PRODUCTOS = [
       "precio": 324390,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "972",
+      "imagen": "971",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/133174/guacal-para-mascotas-plastico-62x40x38cm-pequena-surtido-norma-iata/133174/",
       "specs": {
           "dimensiones": "62 cm de largo x 40 cm de ancho x 38 cm de alto.",
@@ -28202,7 +28173,7 @@ window.PRODUCTOS = [
       "precio": 6890000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "973",
+      "imagen": "972",
       "enlace": "https://croper.com/products/0367-jaula-paridera-doble-para-cerdas-panel-pvc?srsltid=AfmBOorGoAXYS5pjLxw0WDqM6X0uMnUJjHmpINPlBp5NNF1mlH0Kbjvor-Q",
       "specs": {
           "dimensiones": "4 m a 5 m de largo x 2 m a 2.5 m de ancho x 1 m a 1.2 m de alto, dependiendo de la configuración del fabricante.",
@@ -28231,7 +28202,7 @@ window.PRODUCTOS = [
       "precio": 3634800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "974",
+      "imagen": "973",
       "enlace": "https://formergroup.com/products/jaula-gestadora-3-modulos-sin-piso?variant=51116963758401&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorKcYxxa_PIR4ipaQ_beyRGtA2qMObZJ9s2rW9EiBdyxqJLrYyrtsA",
       "specs": {
           "dimensiones": "Dimensiones aproximadas sujetas a configuración del fabricante",
@@ -28260,7 +28231,7 @@ window.PRODUCTOS = [
       "precio": 120822,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "975",
+      "imagen": "974",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/165510/juego-de-ollas-bateria-de-cocina-5-piezas-aluminio-negro-antiadherente-casa-bonita/165510/",
       "specs": {
           "dimensiones": "Dimensiones variables según cada pieza del juego. Tamaño aproximado entre 16 cm y 24 cm de diámetro dependiendo de la olla o sartén incluida.",
@@ -28289,7 +28260,7 @@ window.PRODUCTOS = [
       "precio": 333190,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "976",
+      "imagen": "975",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/153040873/set-de-pinceles-nicpro-36-piezas-profesionales-con-espatula-y-estuche/153040874",
       "specs": {
           "dimensiones": "Dimensiones variables según el tamaño de cada pincel y accesorios",
@@ -28318,7 +28289,7 @@ window.PRODUCTOS = [
       "precio": 345800,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "977",
+      "imagen": "976",
       "enlace": "https://worldsport.co/products/banderin-tiro-de-esquina-futbol-x-4-unidades",
       "specs": {
           "dimensiones": "Altura aproximada reglamentaria para uso en canchas de fútbol",
@@ -28347,7 +28318,7 @@ window.PRODUCTOS = [
       "precio": 2563515,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "978",
+      "imagen": "977",
       "enlace": "https://www.desertcart.ae/products/575917137-hydro-force-cove-champion-1-person-inflatable-kayak-set-hand",
       "specs": {
           "dimensiones": "2,75 m de largo x 81 cm de ancho",
@@ -28376,7 +28347,7 @@ window.PRODUCTOS = [
       "precio": 186890,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "979",
+      "imagen": "978",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/572779/set-de-brocas-100-piezas-dewalt/572779/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas del estuche: 35 cm de largo x 25 cm de ancho x 8 cm de alto.",
@@ -28405,7 +28376,7 @@ window.PRODUCTOS = [
       "precio": 1390402,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "980",
+      "imagen": "979",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/328171/juego-de-copas-1-4-3-8-1-2-6-puntas-llaves-mm-pulgadas-120-piezas-sata/328171/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas del maletín 45 cm x 35 cm x 10 cm.",
@@ -28434,7 +28405,7 @@ window.PRODUCTOS = [
       "precio": 109890,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "981",
+      "imagen": "980",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118833649/Juego-Cucharas-De-Mesa-Tramontina-Maresias-De-Acero-Inoxidable-12-Pzas/118833652",
       "specs": {
           "dimensiones": "Dimensiones aproximadas estándar para cucharas de mesa",
@@ -28463,7 +28434,7 @@ window.PRODUCTOS = [
       "precio": 327470,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "982",
+      "imagen": "981",
       "enlace": "https://www.falabella.com.co/falabella-co/product/153739013/hocho-set-de-3-cuchillos-profesionales-acero-inoxidable/153739014",
       "specs": {
           "dimensiones": "Variables según el tipo de cuchillo incluido en el set",
@@ -28492,7 +28463,7 @@ window.PRODUCTOS = [
       "precio": 14220,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "983",
+      "imagen": "982",
       "enlace": "https://www.falabella.com.co/falabella-co/product/140055005/Juego-4-Espatulas-Chapistas-Espesor-3-Mm-Acero-50-Uyustools/140055006",
       "specs": {
           "dimensiones": "Variables según el tamaño de cada espátula.",
@@ -28521,7 +28492,7 @@ window.PRODUCTOS = [
       "precio": 103350,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "984",
+      "imagen": "983",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/133908912/set-formones-4pzas-bauker/133908914",
       "specs": {
           "dimensiones": "Según el tamaño de cada formón.",
@@ -28550,7 +28521,7 @@ window.PRODUCTOS = [
       "precio": 16068,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "985",
+      "imagen": "984",
       "enlace": "https://garabatospapeleria.com/productos/set-geometrico-jg-30-x-4-uds-faber-castell/?variant=1303522247&pf=mc&srsltid=AfmBOopJz0JYDmKQB6cK0YLoYcvrXSneQIWWRaPpvRKKlZS5hhPCHAF-plU",
       "specs": {
           "dimensiones": "Dimensiones estándar para uso escolar y técnico",
@@ -28579,7 +28550,7 @@ window.PRODUCTOS = [
       "precio": 153270,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "986",
+      "imagen": "985",
       "enlace": "https://www.util.com.co/gubias-acero-65mn-ptallar-mango-mad-jg-12-pzdiscover/p?idsku=2197&srsltid=AfmBOoqoS-ryBjQ4BCJkPp1lKAOLGCD3ST6PYkaNGemZKQ990AbSV1fx6Hk",
       "specs": {
           "dimensiones": "Variables según el tipo y tamaño de cada gubia.",
@@ -28608,7 +28579,7 @@ window.PRODUCTOS = [
       "precio": 77870,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "987",
+      "imagen": "986",
       "enlace": "https://ceramicasjarroscolombia4.mitiendanube.com/productos/kit-de-herramientas-profesional-2/",
       "specs": {
           "dimensiones": "Dimensiones variables según el tipo de herramienta incluida en el set.",
@@ -28637,7 +28608,7 @@ window.PRODUCTOS = [
       "precio": 77870,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "988",
+      "imagen": "987",
       "enlace": "https://www.falabella.com.co/falabella-co/product/18817575/Herramientas-Para-Modelado-De-Ceramica-Arcilla/18817576",
       "specs": {
           "dimensiones": "Dimensiones variables según el tipo de herramienta incluida en el set.",
@@ -28666,7 +28637,7 @@ window.PRODUCTOS = [
       "precio": 186890,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "989",
+      "imagen": "988",
       "enlace": "https://www.falabella.com.co/falabella-co/product/124050953/Juego-cubiertos-dorados-de-lujo-en-acero-inoxidable-24-piezas/124050954",
       "specs": {
           "dimensiones": "Longitud aproximada entre 13 cm y 22 cm por pieza según el tipo de cubierto.",
@@ -28695,7 +28666,7 @@ window.PRODUCTOS = [
       "precio": 137722,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "990",
+      "imagen": "989",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/675888/set-de-pesas-termoforradas-20-kg/675888/",
       "specs": {
           "dimensiones": "Dimensiones variables según el armado y distribución de las pesas.",
@@ -28724,7 +28695,7 @@ window.PRODUCTOS = [
       "precio": 11102,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "991",
+      "imagen": "990",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/119167302/Manija024-Acero-201-Cil-Hueca-CC-160-MM-Golden/119167304",
       "specs": {
           "dimensiones": "Distancia entre centros: 160 mm aproximadamente.",
@@ -28753,7 +28724,7 @@ window.PRODUCTOS = [
       "precio": 238602,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "992",
+      "imagen": "991",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/CS4929/combo-mesa-plastica-redonda-wengue-60-cm-vanyplas-4-sillas-plasticas-sin-brazos-bambu-wengue-vanyplas/CS4929/",
       "specs": {
           "dimensiones": "Mesa: 60 cm de diámetro aproximadamente. Dimensiones de las sillas: estándar para comedor y exteriores.",
@@ -28782,7 +28753,7 @@ window.PRODUCTOS = [
       "precio": 852761,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "993",
+      "imagen": "992",
       "enlace": "https://www.ikea.com/co/es/p/vihals-vihals-juego-de-comedor-4-puestos-blanco-blanco-blanco-s19589938/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de la mesa: estándar para 4 personas. Dimensiones de las sillas: estándar de comedor.",
@@ -28811,7 +28782,7 @@ window.PRODUCTOS = [
       "precio": 31460,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "994",
+      "imagen": "993",
       "enlace": "https://www.papelerialagaviota.com/pagina-del-producto/set-gradinas-6",
       "specs": {
           "dimensiones": "Dimensiones variables según el tamaño de cada herramienta.",
@@ -28840,7 +28811,7 @@ window.PRODUCTOS = [
       "precio": 248040,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "995",
+      "imagen": "994",
       "enlace": "https://surtidor.com.co/products/2-8-47?variant=47005067935966&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoo7_SOPuOYCHrcklx1Oq-fqqUo6a_3ORK-cayNNmEUtdET-KjGTAJk",
       "specs": {
           "dimensiones": "El fabricante especifica las medidas de diámetro correspondientes a los calderos incluidos en el set (tamaños 30 y 36).",
@@ -28869,7 +28840,7 @@ window.PRODUCTOS = [
       "precio": 44070,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "996",
+      "imagen": "995",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3003254/set-5-pinceles-con-tapa-liner-cerdas-finas-profesionales-negro/3003254/",
       "specs": {
           "dimensiones": "Longitud aproximada de cada pincel entre 18 cm y 22 cm.",
@@ -28898,7 +28869,7 @@ window.PRODUCTOS = [
       "precio": 66820,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "997",
+      "imagen": "996",
       "enlace": "https://gentools.com.co/products/juego-de-minipinzas-para-electronica-6-piezas-11278-mg-demax?variant=50974770069817&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoq6Dn6rZsM6CTKLsCXsZmClFgqcS7wp33bWykaJac9LX51X2fP7Bws",
       "specs": {
           "dimensiones": "Longitud aproximada de cada pinza entre 10 cm y 15 cm.",
@@ -28927,7 +28898,7 @@ window.PRODUCTOS = [
       "precio": 298921,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "998",
+      "imagen": "997",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/119416778/juego-de-vajilla-16-piezas-4-puestos-seul/119416780?exp=homecenter",
       "specs": {
           "dimensiones": "Platos grandes aprox. 26 cm, platos medianos 20 cm, platos pequeños 18 cm, bowls aprox. 14 cm de diámetro.",
@@ -28956,7 +28927,7 @@ window.PRODUCTOS = [
       "precio": 219890,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "999",
+      "imagen": "998",
       "enlace": "https://www.falabella.com.co/falabella-co/product/141528486/Set-de-7-Recipientes-Hermeticos-con-Diseno-Moderno-Apilable./141528487",
       "specs": {
           "dimensiones": "Dimensiones variables según cada recipiente, tamaños aproximados entre 10 cm y 30 cm de alto.",
@@ -28985,7 +28956,7 @@ window.PRODUCTOS = [
       "precio": 402870,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1000",
+      "imagen": "999",
       "enlace": "https://www.tecnohogarjs.com/products/%F0%9F%8D%B3%E2%9C%A8set-x2-sartenes-de-acero-quirurgico-18-10-con-tapa-antiadherente%F0%9F%9B%A1%EF%B8%8F%F0%9F%94%A5?srsltid=AfmBOorSXSVjk9MmOpn4HvmLi3dszAG_F6W5mVi-cp0qne2MRsfDNZQ8ud8",
       "specs": {
           "dimensiones": "Diámetros aproximados de 24 cm y 28 cm.",
@@ -29014,7 +28985,7 @@ window.PRODUCTOS = [
       "precio": 467516,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1001",
+      "imagen": "1000",
       "enlace": "https://www.rimax.com.co/combo1-jardin-eterna-31/p?idsku=508",
       "specs": {
           "dimensiones": "Mesa aproximada 70 cm de diámetro x 72 cm de alto; sillas con altura aproximada de 80 cm",
@@ -29043,7 +29014,7 @@ window.PRODUCTOS = [
       "precio": 20280,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1002",
+      "imagen": "1001",
       "enlace": "https://www.falabella.com.co/falabella-co/product/151322055/tarjetas-de-arbitro-futbol/151322056",
       "specs": {
           "dimensiones": "Dimensiones aproximadas 11 cm x 8 cm por tarjeta.",
@@ -29072,7 +29043,7 @@ window.PRODUCTOS = [
       "precio": 57590,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1003",
+      "imagen": "1002",
       "enlace": "https://www.jumbocolombia.com/set-utensilios-de-cocina-tezzio-5-piezas-20140057/p?idsku=20056671&srsltid=AfmBOorqUoS_LCw9mYFsfp4YxW74h5hEr95C9iK-8ENJZwRw2MoctJIAP3M",
       "specs": {
           "dimensiones": "Dimensiones aproximadas entre 25 cm y 35 cm de largo por utensilio.",
@@ -29101,7 +29072,7 @@ window.PRODUCTOS = [
       "precio": 97110,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1004",
+      "imagen": "1003",
       "enlace": "https://www.olimpica.com/set-x3-moldes-torta-desmontable-figuras-antiadherente-1002380700/p",
       "specs": {
           "dimensiones": "Tamaños aproximados entre 20 cm y 26 cm de diámetro o lado según la figura.",
@@ -29130,7 +29101,7 @@ window.PRODUCTOS = [
       "precio": 497232,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1005",
+      "imagen": "1004",
       "enlace": "https://www.rimax.com.co/combo1-comedor-eterna-42/p?idsku=197",
       "specs": {
           "dimensiones": "Mesa aproximada 120 cm de largo x 70 cm de ancho x 72 cm de alto; sillas con altura aproximada de 85 cm.",
@@ -29159,7 +29130,7 @@ window.PRODUCTOS = [
       "precio": 1232912,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1006",
+      "imagen": "1005",
       "enlace": "https://www.ikea.com/co/es/p/haegernaes-juego-de-comedor-4-puestos-tinte-envejecido-pino-70575947/",
       "specs": {
           "dimensiones": "Mesa aproximada 120 cm de largo x 75 cm de ancho x 74 cm de alto; sillas con altura aproximada de 90 cm.",
@@ -29188,7 +29159,7 @@ window.PRODUCTOS = [
       "precio": 31096,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1007",
+      "imagen": "1006",
       "enlace": "https://tienda.makro.com.co/p/refresco-hit-surtido-200mlx24u-163041",
       "specs": {
           "dimensiones": "Dimensiones aproximadas del paquete 30 cm x 20 cm x 15 cm.",
@@ -29217,7 +29188,7 @@ window.PRODUCTOS = [
       "precio": 228607,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1008",
+      "imagen": "1007",
       "enlace": "https://www.oboticario.com.co/products/botik-kit-completo?variant=Default+Title",
       "specs": {
           "dimensiones": "Dimensiones aproximadas del estuche 20 cm x 15 cm x 6 cm.",
@@ -29246,7 +29217,7 @@ window.PRODUCTOS = [
       "precio": 2405892,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1009",
+      "imagen": "1008",
       "enlace": "https://autosolar.co/kits-bombeo-de-agua-solar/kit-bombeo-solar-superficie-24-vdc?srsltid=AfmBOooF8pvf5SbOW9EwB0D7ARK3ijh4Nnwb1pSnIeKbU20Y3QzWkt3EBMs",
       "specs": {
           "dimensiones": "No especificadas de forma exacta, dependen de los componentes (paneles solares y bomba).",
@@ -29275,7 +29246,7 @@ window.PRODUCTOS = [
       "precio": 666900,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1010",
+      "imagen": "1009",
       "enlace": "https://globaltecnoly.com/tienda/energizador-jfl-ecr18i-plus-5-000-mts-sirena-bateriacable-aislado/?srsltid=AfmBOoqLyFCbCiCCIRZHtfD6UBQBA3l3F2joSEHts-q0TgBMCAOL8MWhfzQ",
       "specs": {
           "dimensiones": "Dimensiones aproximadas 25 cm x 20 cm x 10 cm.",
@@ -29304,7 +29275,7 @@ window.PRODUCTOS = [
       "precio": 57145,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1011",
+      "imagen": "1010",
       "enlace": "https://www.homesentry.co/botiquin-primeros-sentry-auxilios-13-pz-005b-206717/p?srsltid=AfmBOopKlZl6IDQaAMaiMQCyMIu1YO--F57cTUgwv5N4KPflQw2poxYWfOs",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 20 cm de largo x 15 cm de ancho x 7 cm de alto.",
@@ -29333,7 +29304,7 @@ window.PRODUCTOS = [
       "precio": 133562,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1012",
+      "imagen": "1011",
       "enlace": "https://www.oboticario.com.co/products/kit-botik-acido-hialuronico?variant=Default+Title",
       "specs": {
           "dimensiones": "Dimensiones aproximadas del estuche 20 cm x 15 cm x 6 cm.",
@@ -29362,7 +29333,7 @@ window.PRODUCTOS = [
       "precio": 105490,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1013",
+      "imagen": "1012",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/739202/audifonos-gamer-sades-mpower-sa-723-azul/739202/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas del producto: 20 cm de alto x 18 cm de ancho x 10 cm de profundidad.",
@@ -29391,7 +29362,7 @@ window.PRODUCTOS = [
       "precio": 206622,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1014",
+      "imagen": "1013",
       "enlace": "https://maquitodo.com.co/JUEGOS-DE-ACCESORIOS-SURTIDOS-TALADRO/broca-jgo-100pzs-brocaspuntas-dewalt-r809?srsltid=AfmBOor6sAqkbRUzxEpxq34u1gZtDCGrGdLrV4B1vIHrtOHsHvxOfJKJ0-4",
       "specs": {
           "dimensiones": "35 cm × 25 cm × 6 cm.",
@@ -29420,7 +29391,7 @@ window.PRODUCTOS = [
       "precio": 264888,
       "iva": 0,
       "icono": "📱",
-      "imagen": "1015",
+      "imagen": "1014",
       "enlace": "https://suite-movil.com/tienda/cargador-cable-de-carga-para-iphone/",
       "specs": {
           "dimensiones": "1 m",
@@ -29449,7 +29420,7 @@ window.PRODUCTOS = [
       "precio": 29640,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1016",
+      "imagen": "1015",
       "enlace": "https://anikmakeup.com/products/kit-de-cejas-ani-k-makeup?srsltid=AfmBOoqRXzZu61aW8Y6C_QR6nxTLjHz401BGUzR159NLkKJoOUeo34Ya",
       "specs": {
           "dimensiones": "10 x 8 cm",
@@ -29478,7 +29449,7 @@ window.PRODUCTOS = [
       "precio": 54040,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1017",
+      "imagen": "1016",
       "enlace": "https://coserenlinea.com.co/products/kit-de-costura-portatil-mini-multiuso-estuche-viajero-x55pzs",
       "specs": {
           "dimensiones": "12 x 12 x 3 cm",
@@ -29507,7 +29478,7 @@ window.PRODUCTOS = [
       "precio": 135045,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1018",
+      "imagen": "1017",
       "enlace": "https://www.exito.com/juego-de-accesorios-agujas-de-tejer-aluminio-127-pcs-crochet-103813724-mp/p",
       "specs": {
           "dimensiones": "20 x 15 x 5 cm",
@@ -29536,7 +29507,7 @@ window.PRODUCTOS = [
       "precio": 93262,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1019",
+      "imagen": "1018",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/712635/juego-de-destornilladores-77-piezas-de-precision-y-reparacion-ranger/712635/",
       "specs": {
           "dimensiones": "15 x 15 x 15 cm",
@@ -29565,7 +29536,7 @@ window.PRODUCTOS = [
       "precio": 348810,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1020",
+      "imagen": "1019",
       "enlace": "https://ferreteriaherkules.com.co/comprar/kit-herramientas-81-piezas-total-de-uso-domestico/",
       "specs": {
           "dimensiones": "20 x 20 x 20 cm",
@@ -29594,7 +29565,7 @@ window.PRODUCTOS = [
       "precio": 110234,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1021",
+      "imagen": "1020",
       "enlace": "https://www.jumbocolombia.com/kit-u%C3%B1as-manos-pies-profesional-facil-y-practico-en-casa-20142247/p?idsku=20058860&srsltid=AfmBOopJnqhBke48jeerZTiNXhXmMHwEnVJGEBIXP_2fYdgooWXeXmnzvi0",
       "specs": {
           "dimensiones": "15 x 10 x 3 cm",
@@ -29623,7 +29594,7 @@ window.PRODUCTOS = [
       "precio": 15717,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1022",
+      "imagen": "1021",
       "enlace": "https://www.papyser.com/tienda/producto/kit-marcadores-textil-personal-punta-pincel-x-10?srsltid=AfmBOoqpzX62gAIeAC8qIK3vQE_lh3mevFjerSVh1Qq4WOrlOolB-e6P",
       "specs": {
           "dimensiones": "18 x 12 x 2 cm",
@@ -29652,7 +29623,7 @@ window.PRODUCTOS = [
       "precio": 526942,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1023",
+      "imagen": "1022",
       "enlace": "https://www.rimax.com.co/combo1-comedor-eterna-42/p",
       "specs": {
           "dimensiones": "120 x 80 x 74 cm",
@@ -29681,7 +29652,7 @@ window.PRODUCTOS = [
       "precio": 211770,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1024",
+      "imagen": "1023",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/882006/kit-mototool-180w-152-piezas-bauker/882006/?kid=shopp_goosho_1430598&shop=1&gad_source=1&gad_campaignid=22296499605&gbraid=0AAAAADt6wnp3Ke3y5lFHqBE7N8NonJoGp&gclid=CjwKCAjwidXQBhAZEiwA4egw6Nsnv82GMSPGm0QHKKavjf-zigorKMVBNYZAbRroJubRzybfnQKB3hoCkHoQAvD_BwE",
       "specs": {
           "dimensiones": "30 x 10 x 25 cm",
@@ -29710,7 +29681,7 @@ window.PRODUCTOS = [
       "precio": 44070,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1025",
+      "imagen": "1024",
       "enlace": "https://yorobotics.co/producto/oled-display-ldc-13-1-3-12864-i2c-bajo-consumo-arduino/",
       "specs": {
           "dimensiones": "3.5 x 3.5 cm",
@@ -29739,7 +29710,7 @@ window.PRODUCTOS = [
       "precio": 31720,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1026",
+      "imagen": "1025",
       "enlace": "https://pytcolombia.com/products/peine-profesional?srsltid=AfmBOoouiBA_ZfQNAkzghni1BpmfRqYhTEUcJfqPSFIJP72yRB_1qFha",
       "specs": {
           "dimensiones": "22 cm",
@@ -29768,7 +29739,7 @@ window.PRODUCTOS = [
       "precio": 194335,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1027",
+      "imagen": "1026",
       "enlace": "https://www.mercadolibre.com.co/maquina-peluquera-mascotas-perro-gato-kit-completo-petpal-negro/p/MCO56257871#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=12&type=product&tracking_id=9b6ffc56-1177-4649-a907-a88689ec2f52&wid=MCO3136978722&sid=search",
       "specs": {
           "dimensiones": "Medidas cortadora de pelo: 18,5 x 4,5 x 4 cm",
@@ -29797,7 +29768,7 @@ window.PRODUCTOS = [
       "precio": 35126,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1028",
+      "imagen": "1027",
       "enlace": "https://www.panamericana.com.co/set-de-pincel-diferentes-tamanos-x-12-piezas-641381/p?srsltid=AfmBOoq_OVRHiNf29dm1fEIZ5hce_EV9An4BN5X3kuIVmmQOXYNcXrfH",
       "specs": {
           "dimensiones": "20 cm",
@@ -29826,7 +29797,7 @@ window.PRODUCTOS = [
       "precio": 37222,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1029",
+      "imagen": "1028",
       "enlace": "https://whimsofgirls.com/inicio-de-categorias/12691-kit-de-pinzas-.html?srsltid=AfmBOor0oMsZC6TC2Hec1KOfcrgqCITg-4GpRvBBWCTiHq6GaFMn4NCJ1uw",
       "specs": {
           "dimensiones": "12 cm",
@@ -29855,7 +29826,7 @@ window.PRODUCTOS = [
       "precio": 3004800,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1030",
+      "imagen": "1029",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/645964/sistema-de-tuberia-blu-lock-50021-en-tie/645964/",
       "specs": {
           "dimensiones": "Diámetro\n0.98 pulgadas, 1.26 pulgadas\nPresión\n11.36 psi",
@@ -29884,7 +29855,7 @@ window.PRODUCTOS = [
       "precio": 83745,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1031",
+      "imagen": "1030",
       "enlace": "https://almacensandra.com.co/product/p-14092-bhc-kit-bioplastia-capilar-shampoo-acondicionador-x300ml?srsltid=AfmBOordZzGu9yCfG8caZVBSaLj77rNPKHyfn-Nf0bbxkZfGU0DkMWfY",
       "specs": {
           "dimensiones": "20 x 15 x 8 cm",
@@ -29913,7 +29884,7 @@ window.PRODUCTOS = [
       "precio": 346703,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1032",
+      "imagen": "1031",
       "enlace": "https://www.exito.com/utensilios-de-cocina-en-acero-inoxidable-6-piezas-base-incluida-103764088-mp/p",
       "specs": {
           "dimensiones": "30 x 12 x 12 cm",
@@ -29942,7 +29913,7 @@ window.PRODUCTOS = [
       "precio": 35178,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1033",
+      "imagen": "1032",
       "enlace": "https://agrofacil.co/products/desviador-de-rayos-pararrayos-agrofacil?srsltid=AfmBOopzsO3BllltP3W8xgqXtBA-TZAfPzHyJmcpmywJFLWzjKdHqtr3",
       "specs": {
           "dimensiones": "35 cm",
@@ -29971,7 +29942,7 @@ window.PRODUCTOS = [
       "precio": 296608,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1034",
+      "imagen": "1033",
       "enlace": "https://www.lasguapascolombia.com/producto/kit-manicurista-en-casa/",
       "specs": {
           "dimensiones": "20 x 15 x 8 cm",
@@ -30000,7 +29971,7 @@ window.PRODUCTOS = [
       "precio": 6558433,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1035",
+      "imagen": "1034",
       "enlace": "https://autosolar.co/kits-solares-aislada/kit-solar-basico-24v-2170whdia?srsltid=AfmBOoprGSji8WgT6ZhTzPZDoITetyuL6BAvWXu7Eiv0yx2JaTTR2Vxe",
       "specs": {
           "dimensiones": "230 x 115 x 4 cm",
@@ -30029,7 +30000,7 @@ window.PRODUCTOS = [
       "precio": 306514,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "1036",
+      "imagen": "1035",
       "enlace": "https://www.mercadolibre.com.co/kit-de-herramientas-de-apicultura-22-piezas-con-bolsa-organi/p/MCO2089889088?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO4413818368&from=gshop",
       "specs": {
           "dimensiones": "40 x 30 x 15 cm",
@@ -30058,7 +30029,7 @@ window.PRODUCTOS = [
       "precio": 96382,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1037",
+      "imagen": "1036",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/360404/kit-plato-pinon-y-cadena-gs125-45-14-428h-124/360404/",
       "specs": {
           "dimensiones": "35 x 35 x 8 cm",
@@ -30087,7 +30058,7 @@ window.PRODUCTOS = [
       "precio": 44226,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1038",
+      "imagen": "1037",
       "enlace": "https://www.entrelanas.com/collections/agujas-para-crochet-1/products/kit-mango-silicona-agujas-de-crochet-2-5-5-mm",
       "specs": {
           "dimensiones": "16 cm",
@@ -30116,7 +30087,7 @@ window.PRODUCTOS = [
       "precio": 87285,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1039",
+      "imagen": "1038",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/655861/juego-de-4-formones-para-madera-6-12-19-25-mm/655861/",
       "specs": {
           "dimensiones": "25 x 20 x 5 cm",
@@ -30145,7 +30116,7 @@ window.PRODUCTOS = [
       "precio": 903458,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1040",
+      "imagen": "1039",
       "enlace": "https://www.exito.com/combo-taladro-y-pulidora-recargable-inalambrica-104176845-mp/p",
       "specs": {
           "dimensiones": "40 x 30 x 15 cm",
@@ -30174,7 +30145,7 @@ window.PRODUCTOS = [
       "precio": 2366468,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1041",
+      "imagen": "1040",
       "enlace": "https://www.unitorni.co/prensa-hidraulica-ferton-20tn-cmanometro-mqp120",
       "specs": {
           "dimensiones": "Dimensiones aproximadas 160 cm de alto x 70 cm de ancho x 60 cm de profundidad.",
@@ -30203,7 +30174,7 @@ window.PRODUCTOS = [
       "precio": 19136,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1042",
+      "imagen": "1041",
       "enlace": "https://www.magnacosmetics.co/producto/kit-x-6-delineadores-de-ojos-glitter-pencil-dgp1405-trendy/",
       "specs": {
           "dimensiones": "15 x 10 x 3 cm",
@@ -30232,7 +30203,7 @@ window.PRODUCTOS = [
       "precio": 204043,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1043",
+      "imagen": "1042",
       "enlace": "https://ateneaprofesional.com/products/kit-de-brochas-de-maquillaje-coral-life",
       "specs": {
           "dimensiones": "25 cm",
@@ -30261,7 +30232,7 @@ window.PRODUCTOS = [
       "precio": 353028,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1044",
+      "imagen": "1043",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/731206/laminadora-termica-2-en-1-con-cortador-de-papel/731206/",
       "specs": {
           "dimensiones": "Aproximadamente 33 cm de ancho de entrada (capacidad para documentos tamaño carta/legales) | diseño compacto de escritorio",
@@ -30290,7 +30261,7 @@ window.PRODUCTOS = [
       "precio": 425542,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1045",
+      "imagen": "1044",
       "enlace": "https://puntobodegaso.com/products/laminadorademasasemiindustrial50cm?variant=42242365128769&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorje3PcXLkaEQLZh0vo53PZtllnYSL9OtrnjgpGo7l6Pli1YKI8d-k",
       "specs": {
           "dimensiones": "Ancho útil de trabajo de 50 cm. Largo total aproximado entre 60 cm y 80 cm. Altura aproximada entre 25 cm y 35 cm dependiendo de la base y estructura del modelo.",
@@ -30319,7 +30290,7 @@ window.PRODUCTOS = [
       "precio": 867100,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1046",
+      "imagen": "1045",
       "enlace": "https://casadelalicuadoraindustrial.com.co/producto/laminadora-para-masa-manual-50cm/",
       "specs": {
           "dimensiones": "CAPACIDAD: Rodillo de 50 cms de largo.\nFUNCIONAMIENTO: Manual.\nGARANTÍA DEL PRODUCTO: 2 meses por piñones en plástico.",
@@ -30348,7 +30319,7 @@ window.PRODUCTOS = [
       "precio": 102544,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1047",
+      "imagen": "1046",
       "enlace": "https://www.falabella.com.co/falabella-co/product/143392555/LUZ-LED-RGB-DE-ESTUDIO-PORTATIL-N69/143392556",
       "specs": {
           "dimensiones": "Longitud de rodillos de 50 cm. Dimensiones totales aproximadas entre 60 cm y 110 cm de largo, 40 cm a 70 cm de ancho y 40 cm a 110 cm de alto dependiendo del modelo y estructura.",
@@ -30377,7 +30348,7 @@ window.PRODUCTOS = [
       "precio": 754702,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1048",
+      "imagen": "1047",
       "enlace": "https://madecentro.com/products/cubeta-doble-tramontina-en-acero-78x40x14?variant=45134650048742&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoq4vHR7WwR3scf02OCSXfic6yM0i7UgryXsrotJTTGqvdtB1xGQdBA",
       "specs": {
           "dimensiones": "78 cm de largo, 40 cm de ancho y 14 cm de profundidad",
@@ -30406,7 +30377,7 @@ window.PRODUCTOS = [
       "precio": 2534168,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1049",
+      "imagen": "1048",
       "enlace": "https://www.falabella.com.co/falabella-co/product/72857990/Lavadora-Mabe-Carga-Superior-9-kg-LMA9020WDGAB0/72857990",
       "specs": {
           "dimensiones": "Aproximadamente 94 cm de alto, 52 cm de ancho y 54 cm de profundidad.",
@@ -30435,7 +30406,7 @@ window.PRODUCTOS = [
       "precio": 1471690,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1050",
+      "imagen": "1049",
       "enlace": "https://www.alkosto.com/lavadora-mabe-semi-automatica-carga-superior-11-kilos/p/757638389853?fuente=google&medio=cpc&campaign=AK_COL_MAX_PEF_CPC_AON_LB_TLP_Linea-Blanca-Brand-AON_PAC&keyword=&gad_source=4&gad_campaignid=17335742628&gbraid=0AAAAADlnVbjFCb2R6jg1nzd6WxLNE0h7n&gclid=CjwKCAjwidXQBhAZEiwA4egw6PuPqY7sXZYXs8A0XGeZIRs8ZDeC_83q-TuBn8tn9BtS_jHtWGRDNxoCn_wQAvD_BwE",
       "specs": {
           "dimensiones": "Aproximadamente 93.9 cm de alto, 76 cm de ancho y 44.1 cm de profundidad",
@@ -30464,7 +30435,7 @@ window.PRODUCTOS = [
       "precio": 2000160,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1051",
+      "imagen": "1050",
       "enlace": "https://www.alkosto.com/lavadora-mabe-semi-automatica-carga-superior-11-kilos/p/757638389853",
       "specs": {
           "dimensiones": "Medidas Externas (Ancho x Alto x Fondo)\n76 x 93,9 x 44,1 Centímetros",
@@ -30493,7 +30464,7 @@ window.PRODUCTOS = [
       "precio": 1909700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1052",
+      "imagen": "1051",
       "enlace": "https://www.falabella.com.co/falabella-co/product/72857990/Lavadora-Mabe-Carga-Superior-9-kg-LMA9020WDGAB0/72857990",
       "specs": {
           "dimensiones": "Aproximadamente 94 cm de alto, 52 cm de ancho y 54 cm de profundidad.",
@@ -30522,7 +30493,7 @@ window.PRODUCTOS = [
       "precio": 3299890,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "1053",
+      "imagen": "1052",
       "enlace": "https://www.alkosto.com/lavadora-samsung-carga-superior-13-kilos-wa70f13e4cco-gris/p/8806097866305",
       "specs": {
           "dimensiones": "Medidas externas (ancho x alto x fondo) 61 x 105.9 x 67.5 cm ancho o frente externo 61 cm alto externo 105.9 cm fondo externo 67.5 cm",
@@ -30551,7 +30522,7 @@ window.PRODUCTOS = [
       "precio": 5654428,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1054",
+      "imagen": "1053",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/587210/lavadora-carga-superior-28-kg-digital-gris/587210/",
       "specs": {
           "dimensiones": "•ancho: 69.2 cm •alto: 110.5 cm",
@@ -30580,7 +30551,7 @@ window.PRODUCTOS = [
       "precio": 3897270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1055",
+      "imagen": "1054",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/554485/lavadora-carga-superior-20-kg-ww20b-gris/554485/",
       "specs": {
           "dimensiones": "Ancho 62 cm alto 109 cm profundidad 67 cm",
@@ -30609,7 +30580,7 @@ window.PRODUCTOS = [
       "precio": 1065870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1056",
+      "imagen": "1055",
       "enlace": "https://www.kalley.com.co/lavadora-kalley-semi-automatica-7-kilogramos-k-lavsa7b/p/7705946374064?srsltid=AU7gw4WIfagJpnPujxB_W44npkol6wqW745ChaGxOxyk_4li2mz8kkqz%22",
       "specs": {
           "dimensiones": "Medidas externas (ancho x alto x fondo) 74,4 x 93,4 x 42 cm ancho o frente externo 74.4 cm alto externo 93.4 cm fondo externo 42 cm",
@@ -30638,7 +30609,7 @@ window.PRODUCTOS = [
       "precio": 4943887,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1057",
+      "imagen": "1056",
       "enlace": "https://www.alkomprar.com/lavadora-lg-carga-superior-23-kilos-wt23nbtx6-negra/p/8806096525074?https://www.alkomprar.com/electrodomesticos/c/BI_ELHO&fuente=google&medio=cpc&campaign=&keyword=&gad_source=1&gad_campaignid=23298734056&gbraid=0AAAAADReANJ91cxywmlPsNk1ZkS9vhKiY&gclid=CjwKCAjwt7XQBhBkEiwAtStppyotIbUVJ4fg40GFbtJpfgfpRpa7fmSLwQClWG7jax7ZQGuY9lxYWRoCSMcQAvD_BwE",
       "specs": {
           "dimensiones": "Medidas externas (ancho x alto x fondo) 65.1 x 106 x 68 cm ancho o frente externo 65.1 cm alto externo 106 cm fondo externo 68 cm",
@@ -30667,7 +30638,7 @@ window.PRODUCTOS = [
       "precio": 2494622,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1058",
+      "imagen": "1057",
       "enlace": "https://www.multiaceros.co/producto/lavamanos-de-pedal/",
       "specs": {
           "dimensiones": "Alto 85 cm ancho 45 cm profundidad 45 cm",
@@ -30696,7 +30667,7 @@ window.PRODUCTOS = [
       "precio": 1075690,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1059",
+      "imagen": "1058",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118661309/Lavaplatos-Doble-tanque-82x47x21-Subcanastilla+Sifon/118661311",
       "specs": {
           "dimensiones": "Ncho 47 cm profundidad 21.9 cm",
@@ -30725,7 +30696,7 @@ window.PRODUCTOS = [
       "precio": 385000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1060",
+      "imagen": "1059",
       "enlace": "https://www.falabella.com.co/falabella-co/product/144274928/Lector-Escaner-Codigo-De-Barras-Qr-Alambrico-2d-Usb/144274929",
       "specs": {
           "dimensiones": "Dimensiones 13x21x11 cm",
@@ -30754,7 +30725,7 @@ window.PRODUCTOS = [
       "precio": 989890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1061",
+      "imagen": "1060",
       "enlace": "https://www.falabella.com.co/falabella-co/product/138160278/Licuadora-Industrial-Vaso-Policarbonato-2-Litros-Cusine-Profesional/138160279",
       "specs": {
           "dimensiones": "Alto 30 ancho 20 largo 40",
@@ -30783,7 +30754,7 @@ window.PRODUCTOS = [
       "precio": 3621280,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1062",
+      "imagen": "1061",
       "enlace": "https://exhibirequipos.com/producto/licuadora-industrial-20-litros-2hp/?srsltid=AfmBOoo_UYQRDkRAdzEx0n0_-mnNKEOql-U-6TbJ2dfYczcEGzHyyR6e",
       "specs": {
           "dimensiones": "115 cm de alto x 54 cm de ancho x 45 cm de profundidad",
@@ -30812,7 +30783,7 @@ window.PRODUCTOS = [
       "precio": 384890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1063",
+      "imagen": "1062",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3061592/licuadora-ultraforce-22-litros-2-velocidades-negro-plata-imusa/3061592/",
       "specs": {
           "dimensiones": "Ancho 18 cm alto 39 cm largo 18 cm",
@@ -30841,7 +30812,7 @@ window.PRODUCTOS = [
       "precio": 316135,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1064",
+      "imagen": "1063",
       "enlace": "https://www.blackanddeckercolombia.com/licuadora-black-decker-550-w-4-puntas-vidrio-blbd210gr-blbd210gr/p",
       "specs": {
           "dimensiones": "21 cm de ancho, 34 cm de alto y 25 cm de profundidad",
@@ -30870,7 +30841,7 @@ window.PRODUCTOS = [
       "precio": 428090,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1065",
+      "imagen": "1064",
       "enlace": "https://www.ostercolombia.com/licuadora-clasica-oster-con-perilla-ergonomica-de-3-velocidades-blst4655/p?srsltid=AfmBOoo60soRI92ncX6b8NcF5-e6prKhlaYBmN-Dx7hzHhNGnAbamlTl",
       "specs": {
           "dimensiones": "33.65 cm (alto) 23.65 cm (ancho) 19.36 cm (profundidad).",
@@ -30899,7 +30870,7 @@ window.PRODUCTOS = [
       "precio": 550000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1066",
+      "imagen": "1065",
       "enlace": "https://www.falabella.com.co/falabella-co/product/143973300/Licuadora-de-mano-Imusa-Quik-chef-3-en-1-400-Watts/143973301",
       "specs": {
           "dimensiones": "Alto 25.8 cm ancho 14.4 cm",
@@ -30928,7 +30899,7 @@ window.PRODUCTOS = [
       "precio": 467870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1067",
+      "imagen": "1066",
       "enlace": "https://www.mercadolibre.com.co/licuadora-oster-tecnologia-reversible-negro-blstpeg-brt/p/MCO23602826",
       "specs": {
           "dimensiones": "Tipo\nLicuadora de vaso vidrio\nAncho\n51.44 cm\nAlto\n35.24 cm\nLargo\n43.18 cm",
@@ -30957,7 +30928,7 @@ window.PRODUCTOS = [
       "precio": 1298000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1068",
+      "imagen": "1067",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/597730/licuadora-profesional-5-velocidades-1400-watts-procesador-de-alimentos-8-tazas/597730/",
       "specs": {
           "dimensiones": "Referencia del Producto en el Certificado/Empaque\nBN801\nAncho\n26.5 cm\nAlto\n30.22 cm\nLargo\n43.60 cm",
@@ -30986,7 +30957,7 @@ window.PRODUCTOS = [
       "precio": 2646000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1069",
+      "imagen": "1068",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/758862/licuadora-con-cabina-antiruido-industrial-25-litros-cusine/758862/",
       "specs": {
           "dimensiones": "CARACTERISTICAS FISICAS:1. RPM: 230002. Motor: Cobre3. Potencia | 1680w4. Capacidad: 2.5 Litros.5. Color: Negro",
@@ -31015,7 +30986,7 @@ window.PRODUCTOS = [
       "precio": 4597580,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1070",
+      "imagen": "1069",
       "enlace": "https://tecnologiaysuministros.co/products/licuadora-industrial-20-litros-acero-inoxidable",
       "specs": {
           "dimensiones": "Ancho 41 cm x profundo 41 cm x alto: 98 cm",
@@ -31044,7 +31015,7 @@ window.PRODUCTOS = [
       "precio": 971600,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1071",
+      "imagen": "1070",
       "enlace": "https://www.mercadolibre.com.co/licuadora-industrial-profesional-2-litros/up/MCOU1753152651",
       "specs": {
           "dimensiones": "Especificaciones técnicas:\nPotencia: 1.500 W\nVoltaje: 110 V\nCapacidad: 2 Lts",
@@ -31073,7 +31044,7 @@ window.PRODUCTOS = [
       "precio": 1195870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1072",
+      "imagen": "1071",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/149421005/licuadora-inteligente-ninja-1700-watts-tb400-con-procesador-y-2-vasos/149421007",
       "specs": {
           "dimensiones": "17.48 cm x 21.29 cm x 44.45 cm (largo x ancho x alto).",
@@ -31102,7 +31073,7 @@ window.PRODUCTOS = [
       "precio": 234000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1073",
+      "imagen": "1072",
       "enlace": "https://www.falabella.com.co/falabella-co/product/153399135/licuadora-ment-universal-mass-vital-vaso-de-vidrio-1-7-lts/153399136",
       "specs": {
           "dimensiones": "Alto 25.8 cm ancho 14.4 cm",
@@ -31131,7 +31102,7 @@ window.PRODUCTOS = [
       "precio": 379427,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1074",
+      "imagen": "1073",
       "enlace": "https://www.mercadolibre.com.co/licuadora-550-w-tarro-de-vidrio-17-litros-2-velocidades/up/MCOU3029851454",
       "specs": {
           "dimensiones": "Dimensiones del producto: 7,3\"prof. x 7,1\"an. x 15\"al. Pulgadas",
@@ -31160,7 +31131,7 @@ window.PRODUCTOS = [
       "precio": 1195870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1075",
+      "imagen": "1074",
       "enlace": "https://www.falabella.com.co/falabella-co/product/73050482/Licuadora-Ninja-Inteligente-Detect-Power-Pro-con-vaso-individual-y-procesador-de-alimentos-10-Velocidades-TB401-Controla-Velocidad-y-Potencia-segun-Tamano-y-Tipo-de-Alimento/73050482?kid=shopp266fa&gclsrc=aw.ds&gad_source=1&gad_campaignid=21880468005&gbraid=0AAAAADtuoyQ_x4RY-KhRvdYfhUZqJNopt&gclid=CjwKCAjwt7XQBhBkEiwAtStpp2nEZsuiQqU4z0DMw73wbyv98mYifQK6zDz0rTvb3fqeNfgkNq42zhoCBk4QAvD_BwE",
       "specs": {
           "dimensiones": "Alto: 44,5 cm ancho: 21,3 cm profundidad: 17,5 cm",
@@ -31189,7 +31160,7 @@ window.PRODUCTOS = [
       "precio": 34526,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1076",
+      "imagen": "1075",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/46545/lija-seca-enpliego-grano-180/46545/",
       "specs": {
           "dimensiones": "Ancho 22.86 cm largo 27.94 cm",
@@ -31218,7 +31189,7 @@ window.PRODUCTOS = [
       "precio": 2634,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1077",
+      "imagen": "1076",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118852909/lija-roja-120/118852910",
       "specs": {
           "dimensiones": "Ancho 22.86 cm largo 27.94 cm",
@@ -31247,7 +31218,7 @@ window.PRODUCTOS = [
       "precio": 1285550,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1078",
+      "imagen": "1077",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/420689/lijadora-orbital-aleatoria-de-3-amperios/420689/",
       "specs": {
           "dimensiones": "Tipo\nLijadoras inalámbricas\nAncho\n25.4 cm\nAlto\n19.05 cm\nLargo\n17.145 cm",
@@ -31276,7 +31247,7 @@ window.PRODUCTOS = [
       "precio": 1006460,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1079",
+      "imagen": "1078",
       "enlace": "https://www.falabella.com.co/falabella-co/product/141623476/lijadora-rotorbital-electrica-5-3amp-12000opm/141623486",
       "specs": {
           "dimensiones": "14 x 15 x 26 cm",
@@ -31305,7 +31276,7 @@ window.PRODUCTOS = [
       "precio": 582270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1080",
+      "imagen": "1079",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118666790/lijadora-orbital-1-4-230w-2-4a-14-000-opm/118666791",
       "specs": {
           "dimensiones": "Alto 16 cm ancho 26 cm diámetro del disco 1/16\" largo 15 cm",
@@ -31334,7 +31305,7 @@ window.PRODUCTOS = [
       "precio": 754000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1081",
+      "imagen": "1080",
       "enlace": "https://www.falabella.com.co/falabella-co/product/128779635/LIJADORA-ROTO-ORBITAL-ELECTRICA-5-300W-12000OPM/128779637",
       "specs": {
           "dimensiones": "Alto 30 cm ancho 20 cm largo 30 cm",
@@ -31363,7 +31334,7 @@ window.PRODUCTOS = [
       "precio": 870870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1082",
+      "imagen": "1081",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118665412/lijadora-rotoorbital-5-pulgadas-275w-12000-opm/118665414?exp=homecenter",
       "specs": {
           "dimensiones": "Inalámbrico\tNo\nAlto\t16 cm\nIncluye\tBolsa recolectora de polvo\nModelo\tDWE6421-B3\nAncho\t26 cm\nDiámetro del disco\t3.32 pulgadas",
@@ -31392,7 +31363,7 @@ window.PRODUCTOS = [
       "precio": 29250,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1083",
+      "imagen": "1082",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118863294/liston-pino-1x4-pulg-3-2mt-micronizado-1-9x9-0cm-timbermac/118863298?exp=homecenter",
       "specs": {
           "dimensiones": "Ancho 9 cm largo 3.2 m espesor 9 mm",
@@ -31421,7 +31392,7 @@ window.PRODUCTOS = [
       "precio": 156676,
       "iva": 0,
       "icono": "🎪",
-      "imagen": "1084",
+      "imagen": "1083",
       "enlace": "https://www.falabella.com.co/falabella-co/product/140816362/Llanta-Bicicleta-Kenda-29-X-2.10-Mtb-X2-Und/140816363",
       "specs": {
           "dimensiones": "Alto 30 ancho 10 largo 30",
@@ -31450,7 +31421,7 @@ window.PRODUCTOS = [
       "precio": 101790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1085",
+      "imagen": "1084",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/800994/llanta-moto-275-17-tt-6pr-47p-d-t-avior-rd69y-starmax-m-c-calle/800994/",
       "specs": {
           "dimensiones": "Ancho de la llanta 69.85 rin 17",
@@ -31479,7 +31450,7 @@ window.PRODUCTOS = [
       "precio": 101790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1086",
+      "imagen": "1085",
       "enlace": "https://listado.mercadolibre.com.co/llanta-semi-pistera-moto",
       "specs": {
           "dimensiones": "Ancho de la llanta 69.85 rin 17",
@@ -31508,7 +31479,7 @@ window.PRODUCTOS = [
       "precio": 313950,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1087",
+      "imagen": "1086",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/128196421/juego-de-llaves-x-24-piezas-mando-de-1-4-pulgadas-met-cromo/128196513",
       "specs": {
           "dimensiones": "24,1 x 14,9 x 5,1 cm",
@@ -31537,7 +31508,7 @@ window.PRODUCTOS = [
       "precio": 62010,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1088",
+      "imagen": "1087",
       "enlace": "https://agcoserdecolombia.com/producto/aceite-siliconado-para-maquinas-de-coser-1-4/",
       "specs": {
           "dimensiones": "20 x 10 x 10 cm",
@@ -31566,7 +31537,7 @@ window.PRODUCTOS = [
       "precio": 62010,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1089",
+      "imagen": "1088",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3027091/aceite-lubricante-1-litro-gato-hidraulico-truper-oxidacion/3027091/",
       "specs": {
           "dimensiones": "20 x 10 x 10 cm",
@@ -31595,7 +31566,7 @@ window.PRODUCTOS = [
       "precio": 538890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1090",
+      "imagen": "1089",
       "enlace": "https://www.falabella.com.co/falabella-co/product/150873851/reflector-con-panel-solar-exterior-luminaria-led-luz-fria-control-remoto/150873852",
       "specs": {
           "dimensiones": "34 x 29 x 10 cm reflector 58 x 35 x 3 cm panel solar",
@@ -31624,7 +31595,7 @@ window.PRODUCTOS = [
       "precio": 529433,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1091",
+      "imagen": "1090",
       "enlace": "https://www.ecolite.com.co/producto/highbay-campana-industrial-ufo-3cct-200w-eco-hb-05/",
       "specs": {
           "dimensiones": "Dimensiones (mm): ø336X140 mm | gancho: 35 mm",
@@ -31653,7 +31624,7 @@ window.PRODUCTOS = [
       "precio": 184470,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1092",
+      "imagen": "1091",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/128175560/lampara-de-pie-luxy-1-luz-e27-negro/128175646",
       "specs": {
           "dimensiones": "Largo: 160 cm ancho: 25 cm",
@@ -31682,7 +31653,7 @@ window.PRODUCTOS = [
       "precio": 262340,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1093",
+      "imagen": "1092",
       "enlace": "https://www.mercadolibre.com.co/lampara-de-mesa-led-de-mesa-de-manicura-de-media-luna/up/MCOU3333225334?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO1628789803&from=gshop",
       "specs": {
           "dimensiones": "Largo máximo del brazo extendido:. 70 cm diámetro del cabezal:. 18 cm apertura máxima de la abrazadera:. 5 cm",
@@ -31711,7 +31682,7 @@ window.PRODUCTOS = [
       "precio": 244192,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1094",
+      "imagen": "1093",
       "enlace": "https://www.falabella.com.co/falabella-co/product/142901655/Lampara-Para-Unas-Gel-y-Acrilicas-Con-Luz-UV-LED/142901656",
       "specs": {
           "dimensiones": "Largo 16 cm, ancho 16 cm, alto 8 cm",
@@ -31740,7 +31711,7 @@ window.PRODUCTOS = [
       "precio": 2217670,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1095",
+      "imagen": "1094",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/151439302/lampara-luminaria-led-solar-integra-40/151439303",
       "specs": {
           "dimensiones": "Alto 5 cm ancho 43 cm profundidad 101 cm",
@@ -31769,7 +31740,7 @@ window.PRODUCTOS = [
       "precio": 28796,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1096",
+      "imagen": "1095",
       "enlace": "https://www.falabella.com.co/falabella-co/product/152178854/machete-peinilla-20-mango-bimaterial/152178855",
       "specs": {
           "dimensiones": "Largo total aproximado de 65 cm (con una hoja de 51 cm y un mango de 14 cm)",
@@ -31798,7 +31769,7 @@ window.PRODUCTOS = [
       "precio": 199160,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1097",
+      "imagen": "1096",
       "enlace": "https://www.decathlon.com.co/p/338459-114210-maleta-de-transporte-expandible-de-30-a-40-litros-para-trekking-forclaz.html?srsltid=AfmBOooBi5U1OmG_M6gqy_ZvxbWE-M3jh4Y6h_qjXkdacNJi0ACnpIwN0EM",
       "specs": {
           "dimensiones": "Longitud: 50 cm. Ancho: 31 cm. - altura: 20 cm (sin el uso del sistema \"extend\").",
@@ -31827,7 +31798,7 @@ window.PRODUCTOS = [
       "precio": 544570,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1098",
+      "imagen": "1097",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/788715/maleta-de-viaje-wilson-santander-24-maleta-mediana-con-ruedas/788715/",
       "specs": {
           "dimensiones": "Dimensiones 47 x 66 x 24 cm",
@@ -31856,7 +31827,7 @@ window.PRODUCTOS = [
       "precio": 364000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1099",
+      "imagen": "1098",
       "enlace": "https://tusestuches.com/product/maleta-para-domicilios-de-504545-personalizada/",
       "specs": {
           "dimensiones": ": 50 cm alto x 45 cm ancho x 45 cm fondo",
@@ -31885,7 +31856,7 @@ window.PRODUCTOS = [
       "precio": 88790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1100",
+      "imagen": "1099",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/916327/mantel-rect150x250-terra-bge/916327/",
       "specs": {
           "dimensiones": "Dimensiones 150 x 250 cm",
@@ -31914,7 +31885,7 @@ window.PRODUCTOS = [
       "precio": 359788,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1101",
+      "imagen": "1100",
       "enlace": "https://ferreteriaherkules.com.co/comprar/pulidora-industrial-magnum-57830120-1200-watts-de-incolma/",
       "specs": {
           "dimensiones": "45 cm de largo × 17 cm de ancho × 14 cm de alto.",
@@ -31943,7 +31914,7 @@ window.PRODUCTOS = [
       "precio": 161070,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1102",
+      "imagen": "1101",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/122388223/manometro-de-llena-liquido-acero-inoxidable-6-35-cm/122388267",
       "specs": {
           "dimensiones": "Alto 6,4 cm ancho 2,7 cm largo 6,7 cm",
@@ -31972,7 +31943,7 @@ window.PRODUCTOS = [
       "precio": 58110,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1103",
+      "imagen": "1102",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/103203/manometro-seco-0-90-psi-pedrollo/103203/",
       "specs": {
           "dimensiones": "Diámetro de 63 mm",
@@ -32001,7 +31972,7 @@ window.PRODUCTOS = [
       "precio": 74750,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1104",
+      "imagen": "1103",
       "enlace": "https://www.falabella.com.co/falabella-co/product/140007656/Manometro-Digital-Medidor-De-Presion-Aire-14npt-Para-Aire/140007657",
       "specs": {
           "dimensiones": "Un diámetro frontal de 7.5 cm dimensiones 8,5 x 7,5 x 3,5",
@@ -32030,7 +32001,7 @@ window.PRODUCTOS = [
       "precio": 4477070,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1105",
+      "imagen": "1104",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/128167823/maquina-collarin-y-recubridora-industrial-de-cama-plana-metro-spezial-ms-562d/128167904",
       "specs": {
           "dimensiones": "El bloque del cabezal mide aproximadamente 32 cm de alto y 32 cm de ancho",
@@ -32059,7 +32030,7 @@ window.PRODUCTOS = [
       "precio": 8125000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1106",
+      "imagen": "1105",
       "enlace": "https://dirigiblesdelvalle.com.co/producto/cnc-3018-pro-max-maquina-de-grabado/",
       "specs": {
           "dimensiones": "Area de trabajo 40 cm x 40 cm dimensiones de la máquina 58 x 67 x 20 cm",
@@ -32088,7 +32059,7 @@ window.PRODUCTOS = [
       "precio": 3812250,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1107",
+      "imagen": "1106",
       "enlace": "https://maquinasdeconfeccion.com/producto/maquina-computarizada-profesional-singer-hd6800c/",
       "specs": {
           "dimensiones": "Dimensiones del cabezal: tiene aproximadamente 55 cm de alto x 29 cm de ancho. El mueble o estante completo ocupa un área estándar de 120 cm de largo por 55 cm de ancho.",
@@ -32117,7 +32088,7 @@ window.PRODUCTOS = [
       "precio": 3175770,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1108",
+      "imagen": "1107",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/656767/maquina-plana-industrial-electronica-metro-spezial-d8-110v/656767/",
       "specs": {
           "dimensiones": "Dimensiones del cabezal: tiene aproximadamente 55 cm de alto x 29 cm de ancho. El mueble o estante completo ocupa un área estándar de 120 cm de largo por 55 cm de ancho.",
@@ -32146,7 +32117,7 @@ window.PRODUCTOS = [
       "precio": 2264470,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1109",
+      "imagen": "1108",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-573055826-maquina-cortadora-de-tela-industrial-8-pulgadas-_JM",
       "specs": {
           "dimensiones": "La máquina está diseñada con una altura total estándar de 55 cm, un ancho de base aerodinámico de 30 cm y un largo de base de 35 cm",
@@ -32175,7 +32146,7 @@ window.PRODUCTOS = [
       "precio": 993590,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1110",
+      "imagen": "1109",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3000644/hidrolavadora-1200w-90bar-uyustools/3000644/",
       "specs": {
           "dimensiones": "Ancho 20 cm alto 42 cm largo 41.5 cm",
@@ -32204,7 +32175,7 @@ window.PRODUCTOS = [
       "precio": 1300000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1111",
+      "imagen": "1110",
       "enlace": "https://www.mercadolibre.com.co/tostador-de-cafe-electrico-laboratorio-100-grs-15kw-ajustable-110v/up/MCOU3456676845",
       "specs": {
           "dimensiones": "32.7 cm de alto, 17.1 cm de ancho y 17.1 cm de profundidad",
@@ -32233,7 +32204,7 @@ window.PRODUCTOS = [
       "precio": 2762500,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1112",
+      "imagen": "1111",
       "enlace": "https://antioquenademaquinas.com/products/plana-electronica-kansew?variant=47428112843061&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopP68vrDDQ7v5VRG1I78chv6W8eWi_71w_TcGiawB1J16BpxXraCQ4",
       "specs": {
           "dimensiones": "63 × 35 × 70 cm",
@@ -32262,7 +32233,7 @@ window.PRODUCTOS = [
       "precio": 3991000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1113",
+      "imagen": "1112",
       "enlace": "https://maquinasdeconfeccion.com/producto/maquina-de-poste-una-aguja-typical-tw5-810/",
       "specs": {
           "dimensiones": "Dimensiones de la caja: 660 mm de largo × 250 mm de ancho × 700 mm de alto.",
@@ -32291,7 +32262,7 @@ window.PRODUCTOS = [
       "precio": 1270802,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1114",
+      "imagen": "1113",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/420483/rebajadora-compacta-de-1-1-4-pulgadas-makita/420483/",
       "specs": {
           "dimensiones": "8.9 cm de ancho x 20 cm de altura total",
@@ -32320,7 +32291,7 @@ window.PRODUCTOS = [
       "precio": 434070,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1115",
+      "imagen": "1114",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3030529/chocolatera-electrica-espumadora-leche-pantalla-digital-250ml/3030529/",
       "specs": {
           "dimensiones": "Ancho 9 cm alto 15 cm largo 15 cm",
@@ -32349,7 +32320,7 @@ window.PRODUCTOS = [
       "precio": 6516900,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1116",
+      "imagen": "1115",
       "enlace": "https://www.usinox.cl/producto/marmita-a-gas-bano-maria-vapor-autogenerado-80-litros/",
       "specs": {
           "dimensiones": "80 cm de frente × 77 cm de fondo × 90 cm de alto.",
@@ -32378,7 +32349,7 @@ window.PRODUCTOS = [
       "precio": 5372822,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1117",
+      "imagen": "1116",
       "enlace": "https://www.usinox.cl/producto/marmita-hervidor-a-gas-80-litros/",
       "specs": {
           "dimensiones": "80 cm de frente x 75 cm de fondo x 90 cm de alto",
@@ -32407,7 +32378,7 @@ window.PRODUCTOS = [
       "precio": 45110,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1118",
+      "imagen": "1117",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/133909110/martillo-una-16oz-m-madera-bauker/133909111",
       "specs": {
           "dimensiones": "Ancho 14 cm largo 32 cm espesor 2.8 cm",
@@ -32436,7 +32407,7 @@ window.PRODUCTOS = [
       "precio": 59670,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1119",
+      "imagen": "1118",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/122397707/martillo-de-garra-curvada/122397751",
       "specs": {
           "dimensiones": "Largo: 35 cm",
@@ -32465,7 +32436,7 @@ window.PRODUCTOS = [
       "precio": 2065284,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1120",
+      "imagen": "1119",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/507360/extractor-de-miel-profesional-acero-inoxidable/507360/",
       "specs": {
           "dimensiones": "Largo: 53,24 cm. Ancho: 53,24 cm. Alto: 71,12 cm.",
@@ -32494,7 +32465,7 @@ window.PRODUCTOS = [
       "precio": 66125,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1121",
+      "imagen": "1120",
       "enlace": "https://desechablesbiodegradables.com.co/products/plato-cuadrado-4d-negro-bioform-x-50-4",
       "specs": {
           "dimensiones": "18 x 18 x 10 cm",
@@ -32523,7 +32494,7 @@ window.PRODUCTOS = [
       "precio": 54730,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1122",
+      "imagen": "1121",
       "enlace": "https://www.zamux.co/kit-de-soldadura-con-cautin-y-accesorios",
       "specs": {
           "dimensiones": "31.2 x 16.9 x 4.0 cm",
@@ -32552,7 +32523,7 @@ window.PRODUCTOS = [
       "precio": 48230,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1123",
+      "imagen": "1122",
       "enlace": "https://ortizo.com.co/products/cable-balanceado-para-microfono-xlr-xlr-6-10m-ms041?srsltid=AfmBOopmHVqCQjKaqOelMWL9CL8UP1mgXguW50AT6KxfJX86rhvgKl0I",
       "specs": {
           "dimensiones": "6,10 m de extensión lineal.",
@@ -32581,7 +32552,7 @@ window.PRODUCTOS = [
       "precio": 4158700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1124",
+      "imagen": "1123",
       "enlace": "https://equipmaster.com.co/producto/triturador-picador-penagos-tp8sm-motor-gasolina-goodyear-7hp/",
       "specs": {
           "dimensiones": "Dimensiones (L x an x al): 66 x 55 x 120.",
@@ -32610,7 +32581,7 @@ window.PRODUCTOS = [
       "precio": 6663650,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1125",
+      "imagen": "1124",
       "enlace": "https://hannacolombia.com/producto/medidor-portatil-multiparametro-para-ph-ce-od-hi98199/?srsltid=AfmBOooCyQtdj1ghSJv1563su7F2QFNUlru0roTRETgBVpGoNxwGULu5VPI",
       "specs": {
           "dimensiones": "185.0 x 93.0 x 35.2 mm",
@@ -32639,7 +32610,7 @@ window.PRODUCTOS = [
       "precio": 196950,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1126",
+      "imagen": "1125",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/784932/megafono-de-mano-25w-grabadora-y-bateria-recargable/784932/",
       "specs": {
           "dimensiones": "Diámetro del cono: 20 cm largo total: 33,5 cm",
@@ -32668,7 +32639,7 @@ window.PRODUCTOS = [
       "precio": 372970,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1127",
+      "imagen": "1126",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/631927/juego-de-vajilla-corona-en-ceramica-gris-4-puestos-16-piezas-concreto-reactivo/631927/",
       "specs": {
           "dimensiones": "4 platos pandos: 26.2 cm de diámetro. 4 platos hondos: 611.1 ml de capacidad (dimensiones individuales de 14.5 cm de diámetro x 7.5 cm de alto). 4 platos de postre: 19.8 cm de diámetro. 4 mugs (jarros):",
@@ -32697,7 +32668,7 @@ window.PRODUCTOS = [
       "precio": 311350,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1128",
+      "imagen": "1127",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/323988/juego-de-vajilla-harena-4-puestos-16-piezas-luminarc/323988/",
       "specs": {
           "dimensiones": "4 platos llano de 27 cm, 4 platos postre de 19 cm, 4 platos hondo de 20 cm 880 ml, 4 mug de 8x11 cm 320 ml.",
@@ -32726,7 +32697,7 @@ window.PRODUCTOS = [
       "precio": 235163,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1129",
+      "imagen": "1128",
       "enlace": "https://www.homecenter.com.co/homecenter-co/category/cat1770069/muebles-y-organizacion/?f.product.attribute.Tipo=mesas+de+plastico",
       "specs": {
           "dimensiones": "Largo ancho alto 74.50 74.50 71.00",
@@ -32755,7 +32726,7 @@ window.PRODUCTOS = [
       "precio": 195833,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1130",
+      "imagen": "1129",
       "enlace": "https://www.colplast.com.co/collections/mesas-plasticas/products/mesa-celebrity-rattan",
       "specs": {
           "dimensiones": "Dimensiones\nL. 79.7 x An. 79.7 x Al. 73 cm",
@@ -32784,7 +32755,7 @@ window.PRODUCTOS = [
       "precio": 204490,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1131",
+      "imagen": "1130",
       "enlace": "https://vanyplas.com/producto/mesa-75-x-75-cm/?srsltid=AfmBOooYncFwbnomovWmquQ1N20Iad0rdZAQCjFBE2MwPDO436K26T_y",
       "specs": {
           "dimensiones": "Largo ancho alto 74.50 74.50 71.00",
@@ -32813,7 +32784,7 @@ window.PRODUCTOS = [
       "precio": 758890,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1132",
+      "imagen": "1131",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3025257/mesa-de-banquetes-plegable-74x154x74-rta-blanco/3025257/",
       "specs": {
           "dimensiones": "Ancho: 154 cm •alto: 74 cm •largo: 74 cm",
@@ -32842,7 +32813,7 @@ window.PRODUCTOS = [
       "precio": 318838,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1133",
+      "imagen": "1132",
       "enlace": "https://www.rimax.com.co/mesa-baru-familiar-1/p",
       "specs": {
           "dimensiones": "Profundidad: 75 cm ancho: 153 cm altura: 73.5 cm",
@@ -32871,7 +32842,7 @@ window.PRODUCTOS = [
       "precio": 143376,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1134",
+      "imagen": "1133",
       "enlace": "https://www.rimax.com.co/mesa-caribe/p",
       "specs": {
           "dimensiones": "72 cm x 72 cm",
@@ -32900,7 +32871,7 @@ window.PRODUCTOS = [
       "precio": 740740,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1135",
+      "imagen": "1134",
       "enlace": "https://foradesign.co/producto/cilindro-mesa-soleil-300505/?srsltid=AfmBOopl3arwGcWlFDlSv88jBc5QPrX-fuZjORdYy7YZxX329m9Fjjw1Aug",
       "specs": {
           "dimensiones": "51 × 51 × 51 cm",
@@ -32929,7 +32900,7 @@ window.PRODUCTOS = [
       "precio": 4203342,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1136",
+      "imagen": "1135",
       "enlace": "https://www.mercadolibre.com.co/mesa-de-manicura-portatil-joligrace-con-silla/up/MCOU4014671139#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=7&type=product&tracking_id=e348af74-b70f-4f5a-92a5-bec282c4b4dd&wid=MCO1956466321&sid=search",
       "specs": {
           "dimensiones": "110 × 55 × 20 cm",
@@ -32958,7 +32929,7 @@ window.PRODUCTOS = [
       "precio": 3225623,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1137",
+      "imagen": "1136",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/564681/juego-de-comedor-lyon-4-puestos-sillas-lugo-tela-azul/564681/",
       "specs": {
           "dimensiones": "•dimensiones de las sillas: - 94 cm de alto - 45 cm de ancho - 57 cm de profundidad •dimensiones de la mesa: - 79 cm de alto - 90 cm de ancho - 160 cm de largo",
@@ -32987,7 +32958,7 @@ window.PRODUCTOS = [
       "precio": 1240070,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1138",
+      "imagen": "1137",
       "enlace": "https://maquinastitus.com.co/products/mesa-mesas-de-corte-para-tela-modulo-120-x-180-cm-doble?srsltid=AfmBOoozdh0y2gNxPkfNsREON4lvhpNdOtos5b2kpMD1phg-DiqlMRGb",
       "specs": {
           "dimensiones": "120 x 180 cm",
@@ -33016,7 +32987,7 @@ window.PRODUCTOS = [
       "precio": 78520,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1139",
+      "imagen": "1138",
       "enlace": "https://antioquenademaquinas.com/products/mesa-auxiliar-de-confeccion?srsltid=AfmBOopueiAsl0ylVEYhPfYi65BNVNeEwYQGPAhrKHfp2r3CimlrXGOQ",
       "specs": {
           "dimensiones": "Altura 45 cm ancho 60 cm profundidad 40 cm",
@@ -33045,7 +33016,7 @@ window.PRODUCTOS = [
       "precio": 1450000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1140",
+      "imagen": "1139",
       "enlace": "https://maquinastitus.com.co/products/mesa-mesas-de-corte-para-tela-modulo-120-x-180-cm-doble",
       "specs": {
           "dimensiones": "120 x 180 cm",
@@ -33074,7 +33045,7 @@ window.PRODUCTOS = [
       "precio": 542100,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1141",
+      "imagen": "1140",
       "enlace": "https://artshop.com.co/producto/mesa-de-dibujo-6080-base-tijera-con-luz-led/",
       "specs": {
           "dimensiones": "Alto 90 cm ancho 60 cm largo 80 cm",
@@ -33103,7 +33074,7 @@ window.PRODUCTOS = [
       "precio": 325000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1142",
+      "imagen": "1141",
       "enlace": "https://www.exhibicionyestanteria.com/tienda/exhibidores-piso/juego-de-mesas/",
       "specs": {
           "dimensiones": "Medidas alto 90cm x 40 x 40cm",
@@ -33132,7 +33103,7 @@ window.PRODUCTOS = [
       "precio": 1742000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1143",
+      "imagen": "1142",
       "enlace": "https://compumuebles.com/collections/operativos/products/mesa-denver",
       "specs": {
           "dimensiones": "Ancho:120 Alto:75 Profundo:60",
@@ -33161,7 +33132,7 @@ window.PRODUCTOS = [
       "precio": 1928550,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1144",
+      "imagen": "1143",
       "enlace": "https://encarguelo.com/producto/B0FMWS68W6/mesa-de-manicura-paddie-con-luz-led-escritorio-de-unas-con-puerta-de-estante-de-vidrio-colector-de-polvo-y-cojin-para-muneca-estacion-de-salon-de-unas-con-2-cajones-y-gabinete-para-estacion-de-trabajo-de-tecnico-negro-nuevo?srsltid=AfmBOorZKkcxJgW0-wIOD3IlST-2U6qr7G1PrS8ZCUyUdrSI8lxfWa3y1Y4",
       "specs": {
           "dimensiones": "No especificada por el fabricante",
@@ -33190,7 +33161,7 @@ window.PRODUCTOS = [
       "precio": 1884740,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1145",
+      "imagen": "1144",
       "enlace": "https://www.mercadolibre.com.co/escritorio-y-silla-de-manicura-con-colector-de-polvo-blanco/up/MCOU4177483860",
       "specs": {
           "dimensiones": "Ancho total: 40 pulgadas (101.6 cm) Altura total: 30.7 pulgadas (78 cm) Profundidad: 17.7 pulgadas (45 cm)",
@@ -33219,7 +33190,7 @@ window.PRODUCTOS = [
       "precio": 1690000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1146",
+      "imagen": "1145",
       "enlace": "https://www.mercadolibre.com.co/poltrona--manicura-y-pedicura-con-silla-auxiliar/up/MCOU3297768504#polycard_client=recommendations_vip-v2p&reco_backend=ranker_retrieval_system_org&reco_model=fallback_organicos&reco_client=vip-v2p&reco_item_pos=0&reco_backend_type=low_level&reco_id=2debfd1d-c4b4-4dc7-b688-c4d73e499c4e&wid=MCO2951116600&sid=recos",
       "specs": {
           "dimensiones": "No especificada por el fabricante",
@@ -33248,7 +33219,7 @@ window.PRODUCTOS = [
       "precio": 1400334,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1147",
+      "imagen": "1146",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3052223/mesa-de-grooming-plegable-para-mascotas-en-acero-inoxidable-resistente/3052223/",
       "specs": {
           "dimensiones": "•ancho: 62.00 cm •alto: 11.99 cm •largo: 92.00 cm",
@@ -33277,7 +33248,7 @@ window.PRODUCTOS = [
       "precio": 3665870,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1148",
+      "imagen": "1147",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/483005/mesa-de-trabajo-industrial-en-acero-mt02/483005/",
       "specs": {
           "dimensiones": "Largo: 140 cm ancho (profundidad): 60 cm alto total: 100 cm",
@@ -33306,7 +33277,7 @@ window.PRODUCTOS = [
       "precio": 1070749,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1149",
+      "imagen": "1148",
       "enlace": "https://www.lineashospitalarias.com/producto/mesa-de-mayo/?srsltid=AfmBOoq1Sgqnj0YqII33iroog3A0VuZvSmlbqM9jDDHqEztP09GxyvQD",
       "specs": {
           "dimensiones": "Ancho 56 cm, profundo: 55 cm, alto: 1.1m -1.3 m",
@@ -33335,7 +33306,7 @@ window.PRODUCTOS = [
       "precio": 931086,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1150",
+      "imagen": "1149",
       "enlace": "https://www.ingeniarinoxidables.com/producto/mesa-de-mayo-en-acero-inoxidable/",
       "specs": {
           "dimensiones": "Ancho 56 cm, profundo: 55 cm, alto: 1.1m -1.3 m",
@@ -33364,7 +33335,7 @@ window.PRODUCTOS = [
       "precio": 931086,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1151",
+      "imagen": "1150",
       "enlace": "https://exhibirequipos.com/producto/mesa-de-trabajo-en-acero-inoxidable/",
       "specs": {
           "dimensiones": "Ancho 56 cm, profundo: 55 cm, alto: 1.1m -1.3 m",
@@ -33393,7 +33364,7 @@ window.PRODUCTOS = [
       "precio": 1755910,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1152",
+      "imagen": "1151",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/675983/mesas-acero-90-x-100-x-50-con-entrepano/675983/",
       "specs": {
           "dimensiones": "90 x 100 x 50",
@@ -33422,7 +33393,7 @@ window.PRODUCTOS = [
       "precio": 2075970,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1153",
+      "imagen": "1152",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/675966/mesas-acero-90-x-200-x-50-sin-entrepano/675966/",
       "specs": {
           "dimensiones": "90 x 200 x 50",
@@ -33451,7 +33422,7 @@ window.PRODUCTOS = [
       "precio": 1044890,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1154",
+      "imagen": "1153",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/770957/escritorio-secretarial-100x55/770957/",
       "specs": {
           "dimensiones": "•dimensiones: 100 x 55 x 74",
@@ -33480,7 +33451,7 @@ window.PRODUCTOS = [
       "precio": 174624,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1155",
+      "imagen": "1154",
       "enlace": "https://www.rimax.com.co/mesa-eterna1-rimax/p?idsku=60&utm_term=&utm_campaign=&utm_source=googleads&utm_medium=ppc&gad_source=1&gad_campaignid=21839602516&gbraid=0AAAAADOz-ZAFRyn6RhLxwg7PcLFXIxcju&gclid=CjwKCAjw2rrQBhBuEiwAarLWHS3C8x-UE4Obs9tVpW_42r4Gqa_N-6dLFFsGFz3M8jnuWcBCSS5uEBoCWUIQAvD_BwE",
       "specs": {
           "dimensiones": "Profundidad: 80.5 cm ancho: 80.5 cm altura: 72.5 cm",
@@ -33509,7 +33480,7 @@ window.PRODUCTOS = [
       "precio": 456950,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1156",
+      "imagen": "1155",
       "enlace": "https://www.falabella.com.co/falabella-co/product/139072491/Mesa-Flotante-Recibidor-Viena-Blanco/139072492",
       "specs": {
           "dimensiones": "Alto 90 cm, ancho 60 cm, profundidad 35 cm",
@@ -33538,7 +33509,7 @@ window.PRODUCTOS = [
       "precio": 3251248,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1157",
+      "imagen": "1156",
       "enlace": "https://exhibirequipos.com/producto/mesa-de-trabajo-en-acero-inoxidable/?srsltid=AfmBOooHH4B5ReQb28lbv3Fl3b0vaLJF_-VSha07eUckImgfMZwfyRZn",
       "specs": {
           "dimensiones": "90 cm de alto x 180 cm de ancho altura: 90 cm",
@@ -33567,7 +33538,7 @@ window.PRODUCTOS = [
       "precio": 107770,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1158",
+      "imagen": "1157",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/909776/mesa-auxiliar-metalica-46x48cm-beige/909779/",
       "specs": {
           "dimensiones": "Ancho 46 cm alto 48.5 cm largo 46 cm",
@@ -33596,7 +33567,7 @@ window.PRODUCTOS = [
       "precio": 2472080,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1159",
+      "imagen": "1158",
       "enlace": "https://www.vialambre.com/punto-de-pago-recto/",
       "specs": {
           "dimensiones": "Alto 100 cm ancho 150 cm fondo 45 cm",
@@ -33625,7 +33596,7 @@ window.PRODUCTOS = [
       "precio": 3016000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1160",
+      "imagen": "1159",
       "enlace": "https://grupozingal.co/categoria-producto/mobiliario/mesas/",
       "specs": {
           "dimensiones": "Frente: 150 cm. Fondo: 70 cm. Alto: 90 cm",
@@ -33654,7 +33625,7 @@ window.PRODUCTOS = [
       "precio": 685351,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1161",
+      "imagen": "1160",
       "enlace": "https://www.mercadolibre.com.co/mesa-de-manicura-portatil-plegable-con-cajon-y-ruedas-color-negro/p/MCO58555956#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=1&type=product&tracking_id=3130656e-5678-4baf-837c-effb308c6881&wid=MCO3171153484&sid=search",
       "specs": {
           "dimensiones": "Color: Negro Altura: 72 cm Con ruedas: Sí Marca: Twimo Ancho: 90 cm",
@@ -33683,7 +33654,7 @@ window.PRODUCTOS = [
       "precio": 379470,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1162",
+      "imagen": "1161",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/147557089/Banco-de-Trabajo-Portatil-60-x-64-x-81-cm-Plegable-Surtek/147557092",
       "specs": {
           "dimensiones": "Alto 15 cm ancho 13.50 cm",
@@ -33712,7 +33683,7 @@ window.PRODUCTOS = [
       "precio": 1672840,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1163",
+      "imagen": "1162",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1891210303-poltrona-de-manicure-y-pedicure-con-silla-aux-y-esmaltero-_JM#redirectedFromSimilar",
       "specs": {
           "dimensiones": "Largo: 120 cm ancho: 45 cm alto: 75 cm",
@@ -33741,7 +33712,7 @@ window.PRODUCTOS = [
       "precio": 477100,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1164",
+      "imagen": "1163",
       "enlace": "https://industriasmetalicasrp.com/producto/mesa-de-trabajo-cocina-industrial-en-acero/?srsltid=AfmBOoq-8Y-hL5BRweXzhywQE6RuYmFq7Xd-Eb4PcM75XlUnIAzIJpxI3s8",
       "specs": {
           "dimensiones": "Medidas: ancho: 110 cm fondo: 60 cm alto: 85 cm",
@@ -33770,7 +33741,7 @@ window.PRODUCTOS = [
       "precio": 127270,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1165",
+      "imagen": "1164",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/395851/mesa-plegable-tipo-portafolio-plastica-75x49cm-blanca/395851/",
       "specs": {
           "dimensiones": "Ancho 49.5 cm alto 74 cm largo 75 cm",
@@ -33799,7 +33770,7 @@ window.PRODUCTOS = [
       "precio": 213070,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1166",
+      "imagen": "1165",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3030285/mesa-plegable-tipo-portafolio-plastica-180x70cm-blanca/3030285/?kid=shopp_goosho_1430598&shop=1&gad_source=1&gad_campaignid=22296499605&gbraid=0AAAAADt6wnrKXSG1WFno-tL13HQ16XhbY&gclid=CjwKCAjw2rrQBhBuEiwAarLWHYBtq6fbnWd_3gNOn9PsCEIXaWF-GwfPRrc-L9DCe5R4UTJyeCsPoRoCuakQAvD_BwE",
       "specs": {
           "dimensiones": "Ancho 7 cm alto 90 cm largo 70 cm",
@@ -33828,7 +33799,7 @@ window.PRODUCTOS = [
       "precio": 173290,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1167",
+      "imagen": "1166",
       "enlace": "https://www.almacenesla13.com/products/mesa-practica-blanco-rimoplasticas?variant=40136817377382&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopd-Ou8tiuehLl3uk_gRIVXcC2v3e-zOLJ4MSp9X9Z4-_IHxOaTbmQ",
       "specs": {
           "dimensiones": "Ancho: 77 cm largo: 77 cm alto: 74 cm",
@@ -33857,7 +33828,7 @@ window.PRODUCTOS = [
       "precio": 627770,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1168",
+      "imagen": "1167",
       "enlace": "https://www.tecnomedica.com.co/camillas/camilla-hos-s-orif-pleg-bco-55x180x80nac-r257?srsltid=AfmBOopKv35XYr4_Mi0auIPlJMxjUU_gDToD7pBrcjYTLqBzg93Tc79v",
       "specs": {
           "dimensiones": "Ancho 55 cm x largo 1.80 cm. X altura 80 cm",
@@ -33886,7 +33857,7 @@ window.PRODUCTOS = [
       "precio": 189635,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1169",
+      "imagen": "1168",
       "enlace": "https://www.rimax.com.co/mesa-multiusos-cuadrada-de-3-niveles-1/p",
       "specs": {
           "dimensiones": "Largo: 72 cm ancho: 72 cm alto: 72 cm",
@@ -33915,7 +33886,7 @@ window.PRODUCTOS = [
       "precio": 375440,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1170",
+      "imagen": "1169",
       "enlace": "https://draft.com.co/products/pesa-rusa-10kg-10kilos?srsltid=AfmBOoqt0R9MD4gjBAzdW5rlFOwGtry3lcNhZErCTbFJjJcOhA5NGiIH",
       "specs": {
           "dimensiones": "Alto: 29 cm ancho: 25.3 cm largo: 21.8 cm",
@@ -33944,7 +33915,7 @@ window.PRODUCTOS = [
       "precio": 122642,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1171",
+      "imagen": "1170",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/726669/mesa-plastica-cuadrada-serena-72x72-cm-wengue-vanyplas/726670/",
       "specs": {
           "dimensiones": "Largo: 72 cm ancho: 72 cm alto: 71 cm",
@@ -33973,7 +33944,7 @@ window.PRODUCTOS = [
       "precio": 308000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1172",
+      "imagen": "1171",
       "enlace": "https://cristalerialapaz.co/producto/mesa-shia-mocca-rimax/?utm_campaign=&utm_term=&utm_source=adwords&utm_medium=ppc&ctf_src=g&ctf_net=adwords&ctf_mt=&ctf_grp=186111925421&ctf_ver=1&ctf_cam=23292695421&ctf_kw=&ctf_acc=8970801892&ctf_ad=785502590385&ctf_tgt=pla-296303633664&gad_source=1&gad_campaignid=23292695421&gbraid=0AAAAAobhlFmjt7zad6HFm3MJBOZqHcYNE&gclid=Cj0KCQjwz9_QBhD_ARIsADnSCfD-lH_yvTjN2Q6f-TXWok3qxa54UWVTGdKkEsIbfsGPOcLTjrbu2dkaAjJBEALw_wcB",
       "specs": {
           "dimensiones": "Largo: 85.6 cm ancho: 85.6 cm alto: 72.5 cm",
@@ -34002,7 +33973,7 @@ window.PRODUCTOS = [
       "precio": 21450,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1173",
+      "imagen": "1172",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/328584/flexometro-5mt/328584/",
       "specs": {
           "dimensiones": "Ancho 9.1 cm largo 14.5 cm alto 3.3 cm alcance 5 m talla 5m",
@@ -34031,7 +34002,7 @@ window.PRODUCTOS = [
       "precio": 11648,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1174",
+      "imagen": "1173",
       "enlace": "https://www.ffsoluciones.com/products/conduflex-sin-cable-guia?variant=37862287769796&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopb4zTKG-gwP9y7w-ddSv1afAF7mG-ypPJADcT9xQoAgKpbriGGyBYY",
       "specs": {
           "dimensiones": "Diámetro: rollo x 50 m 1\"",
@@ -34060,7 +34031,7 @@ window.PRODUCTOS = [
       "precio": 7462,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1175",
+      "imagen": "1174",
       "enlace": "https://www.comercialpapelera.com.co/tienda/metro-de-modisteria-mesalamp-plastico-surtido-1mt-790640263-p790640263?srsltid=AfmBOooBPDGVQy1YPLlyg_SmVCrl2hZhFoO3I6DAwJZea445-6BME0T8",
       "specs": {
           "dimensiones": "1 mt",
@@ -34089,7 +34060,7 @@ window.PRODUCTOS = [
       "precio": 5470,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1176",
+      "imagen": "1175",
       "enlace": "https://www.ofix.online/mezclador-madera-0/p?idsku=116&srsltid=AfmBOoo8QEqOfIcPYzJ2I9Bb32l_PT33lkAofQ-XYGR9nlD-QElP0uHvrp8",
       "specs": {
           "dimensiones": "11 cm",
@@ -34118,7 +34089,7 @@ window.PRODUCTOS = [
       "precio": 2795000,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1177",
+      "imagen": "1176",
       "enlace": "https://ekipon.co/producto/mezcladora-de-alimentos-para-animales/?attribute_pa_capacidad=150&gad_source=1&gad_campaignid=23695601739&gbraid=0AAAAAqMCUOmlCbK8NdMnMo01x8xlCjKPm&gclid=CjwKCAjw2rrQBhBuEiwAarLWHTQVkq9XOgZB_0zlXn5dNhc9Adl8M-FiVgcVamDxSos-WyCeAkDqYxoC2OIQAvD_BwE",
       "specs": {
           "dimensiones": "Medidas: 1050*1050*1200 mm",
@@ -34147,7 +34118,7 @@ window.PRODUCTOS = [
       "precio": 21996000,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1178",
+      "imagen": "1177",
       "enlace": "https://grupozingal.co/producto/mezcladora-para-cacao-de-50-litros-con-calentamiento-ref-ch39-zingal/",
       "specs": {
           "dimensiones": "Frente 85 cm - fondo 55 cm- alto 110 cm",
@@ -34176,7 +34147,7 @@ window.PRODUCTOS = [
       "precio": 5772000,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1179",
+      "imagen": "1178",
       "enlace": "https://corproinsa.com/producto/mezcladora-de-carnes-manual-para-50-libras/",
       "specs": {
           "dimensiones": "Dimensiones: ancho: 30 cm fondo: 66 cm altura: 52 cm",
@@ -34205,7 +34176,7 @@ window.PRODUCTOS = [
       "precio": 1845870,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1180",
+      "imagen": "1179",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/188750/mezcladora-de-concreto-210-litros-bauker/188750/",
       "specs": {
           "dimensiones": "Ancho 75 cm largo 137 cm alto 130 cm",
@@ -34234,7 +34205,7 @@ window.PRODUCTOS = [
       "precio": 1157156,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1181",
+      "imagen": "1180",
       "enlace": "https://industriasfm.com/producto/mezcladora-industrial-acero-inoxidable",
       "specs": {
           "dimensiones": "Largo: 120 cm ancho: 90 cm alto: 160 cm",
@@ -34263,7 +34234,7 @@ window.PRODUCTOS = [
       "precio": 7277400,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1182",
+      "imagen": "1181",
       "enlace": "https://makfrio.com/producto/mezcladora-de-alimentos-de-35-litros/?srsltid=AfmBOopRJ0BSUvWAmmOrOwRDhoIUrSFndMznkZIUThmkfHPRiAz5aU_gm58",
       "specs": {
           "dimensiones": "70 x 51 x 110 cm",
@@ -34292,7 +34263,7 @@ window.PRODUCTOS = [
       "precio": 1918800,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1183",
+      "imagen": "1182",
       "enlace": "https://www.falabella.com.co/falabella-co/product/152882796/batidora-amasadora-industrial-acero-inoxidable-15-litros-6-velocidades-1500w/152882797",
       "specs": {
           "dimensiones": "Dimensiones 42 cm x 45 cm x 28 cm",
@@ -34321,7 +34292,7 @@ window.PRODUCTOS = [
       "precio": 62010,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1184",
+      "imagen": "1183",
       "enlace": "https://kromaspace.com/producto/limpiador-de-brochas-liquido-mkc-lula-1-litro/",
       "specs": {
           "dimensiones": "7,5 x 7,5 x 25 cm",
@@ -34350,7 +34321,7 @@ window.PRODUCTOS = [
       "precio": 444470,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1185",
+      "imagen": "1184",
       "enlace": "https://www.alkosto.com/horno-microondas-kalley-07-pies-k-mw07n-negro/p/7705946173858?gclsrc=aw.ds&fuente=google&medio=cpc&campaign=AK_COL_SMARTGSHP_PEF_CPC_EST_TLP_Kalley_Ago25_EXP_AGO&keyword=&gad_source=1&gad_campaignid=22893861309&gbraid=0AAAAADlnVbjtUqiO4OWtWbh5KuO6kE0Eo&gclid=CjwKCAjw2rrQBhBuEiwAarLWHRAV9d0bjWu4DBJu5n0lW0ahKxuxnOTdWwod_pHN8eNqEjT-KVsPrxoC82cQAvD_BwE",
       "specs": {
           "dimensiones": "Medidas en cm: 44 x 32.4 x 25.8",
@@ -34379,7 +34350,7 @@ window.PRODUCTOS = [
       "precio": 179400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1186",
+      "imagen": "1185",
       "enlace": "https://www.falabella.com.co/falabella-co/product/136907179/MICROSCOPIO-IMPORTADO-REF-SD221/136907180",
       "specs": {
           "dimensiones": "Dimensiones 23x11x75",
@@ -34408,7 +34379,7 @@ window.PRODUCTOS = [
       "precio": 946400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1187",
+      "imagen": "1186",
       "enlace": "https://cosmoshop.com.co/microscopios/410-microscopio-tomlov-dm9-digital-lcd-7-1200x-12mp.html",
       "specs": {
           "dimensiones": "Pantalla LCD 7¨ altura 35 cm ancho 20 cm base 18 cm",
@@ -34437,7 +34408,7 @@ window.PRODUCTOS = [
       "precio": 439270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1188",
+      "imagen": "1187",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3070905/filtro-purificador-de-agua-con-ozono-y-carbon-activado-en-bloque-inox-mini/3070905/",
       "specs": {
           "dimensiones": "Medidas: 14.5 cm, 24 cm, 9 cm",
@@ -34466,7 +34437,7 @@ window.PRODUCTOS = [
       "precio": 329890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1189",
+      "imagen": "1188",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/512022/minipulidora-41-2-pulgadas-electrica-gladiator-800w-11000-rpm-aa615-5-120k-profesional-estuche/512022/",
       "specs": {
           "dimensiones": "Ancho: 13 cm •alto: 20 cm •largo: 35 cm",
@@ -34495,7 +34466,7 @@ window.PRODUCTOS = [
       "precio": 427050,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1190",
+      "imagen": "1189",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3035233/mini-soldador-inversor-20-100a-1-fase-pretul-120v-smaw-mma/3035233/",
       "specs": {
           "dimensiones": "•ancho: 25.70 cm •alto: 30.20 cm •largo: 12.60 cm",
@@ -34524,7 +34495,7 @@ window.PRODUCTOS = [
       "precio": 2365870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1191",
+      "imagen": "1190",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118661790/Planta-Electrica-A-Gasolina-24kw-2200w-110v-15lt-Bauker/118661792",
       "specs": {
           "dimensiones": "Ancho 60 cm alto 59 cm largo 67 cm",
@@ -34553,7 +34524,7 @@ window.PRODUCTOS = [
       "precio": 3522220,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1192",
+      "imagen": "1191",
       "enlace": "https://www.rimax.com.co/silla-samba/p?skuId=787",
       "specs": {
           "dimensiones": "Profundidad: 52.5 cm ancho: 46.5 cm altura: 87.5 cm",
@@ -34582,7 +34553,7 @@ window.PRODUCTOS = [
       "precio": 293670,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1193",
+      "imagen": "1192",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3016661/ups-hikvision-de-600-va-360w-6-tomas-nema-5-15r-4r-2sr/3016661/?kid=dis_adi_1435636&gad_source=1&gad_campaignid=23616595358&gbraid=0AAAAADt6wnogWj-6R4bglRuoHZaglmFeZ&gclid=CjwKCAjw2rrQBhBuEiwAarLWHajWcFB1n5B5IBbG1heAVswWf6-3AOvwdCDcOecrzikWYMdL58EDgBoCpM4QAvD_BwE",
       "specs": {
           "dimensiones": "Ancho 274 mm alto 139 mm largo 95 mm",
@@ -34611,7 +34582,7 @@ window.PRODUCTOS = [
       "precio": 6017700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1194",
+      "imagen": "1193",
       "enlace": "https://industriascruz.co/producto/escritorio-tipo-c-4-puestos-negro?srsltid=AfmBOooHcPlyhUfRRsYhTp5qsvJMSduUvMhLsL64SW3C_Cgv92V9XQlw",
       "specs": {
           "dimensiones": "Alto: 73 cm. Ancho: 240 cm. Fondo: 120 cm.",
@@ -34640,7 +34611,7 @@ window.PRODUCTOS = [
       "precio": 4634500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1195",
+      "imagen": "1194",
       "enlace": "https://makfrio.com/producto/amasadora-mojadora-industrial-12-libras/?srsltid=AfmBOoq5EzH1vVLLzJM5eie3gJ06n1fXMLkAhm12WGuBvb_UopQTFgeQ-MI",
       "specs": {
           "dimensiones": "No especificada por el fabricante",
@@ -34669,7 +34640,7 @@ window.PRODUCTOS = [
       "precio": 248059,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1196",
+      "imagen": "1195",
       "enlace": "https://www.orquidea.com.co/juego-desmontable-3-piezas",
       "specs": {
           "dimensiones": "Incluye: 1 pequeño 20,3 cm de diámetro x 6,6 cm de alto. 1 mediano 22,9 cm de diámetro x 6,8 cm de alto. 1 grande 25,4 cm de diámetro x 7 cm de alto.",
@@ -34698,7 +34669,7 @@ window.PRODUCTOS = [
       "precio": 206570,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1197",
+      "imagen": "1196",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/43998/molino-para-carne/43998/",
       "specs": {
           "dimensiones": "Ancho 10 cm alto 26.5 cm largo 13.5 cm",
@@ -34727,7 +34698,7 @@ window.PRODUCTOS = [
       "precio": 314470,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1198",
+      "imagen": "1197",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3018047/molinillo-de-cafe-electrico-de-precision-con-gran-capacidad-y-motor-potente/3018047/",
       "specs": {
           "dimensiones": "Ancho 11 cm alto 19.60 cm largo 11.20 cm",
@@ -34756,7 +34727,7 @@ window.PRODUCTOS = [
       "precio": 59670,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1199",
+      "imagen": "1198",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3000320/molino-de-cafe-electrico-multifuncional-trituradora-granos/3000320/",
       "specs": {
           "dimensiones": "Ancho 11 cm alto 10 cm largo 10 cm",
@@ -34785,7 +34756,7 @@ window.PRODUCTOS = [
       "precio": 5849428,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1200",
+      "imagen": "1199",
       "enlace": "https://aristiagro.com/producto/molino-de-disco-para-granos-penagos-mdp-60/?srsltid=AfmBOop1bNXfYyhP5A1E2NG2MTlTa8T1pKvgsTJnReclyIOR_rhZXXf7",
       "specs": {
           "dimensiones": "Largo: 85 cm ancho: 55 cm alto: 110 cm",
@@ -34814,7 +34785,7 @@ window.PRODUCTOS = [
       "precio": 16146000,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1201",
+      "imagen": "1200",
       "enlace": "https://grupozingal.co/producto/molino-de-martillos-para-50-70-kg-hora-ref-ch34-zingal/",
       "specs": {
           "dimensiones": "Frente: 110 cm fondo: 70 cm alto: 170 cm",
@@ -34843,7 +34814,7 @@ window.PRODUCTOS = [
       "precio": 167570,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1202",
+      "imagen": "1201",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/744250/molino-electrico-pequeno-de-cafe-y-especias-en-acero-inoxidable-set-x-4-unidades/744250/",
       "specs": {
           "dimensiones": "Ancho 11 cm alto 17 cm largo 17 cm",
@@ -34872,7 +34843,7 @@ window.PRODUCTOS = [
       "precio": 3351140,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1203",
+      "imagen": "1202",
       "enlace": "https://exhibirequipos.com/producto/picatodo-industrial-6l/",
       "specs": {
           "dimensiones": "47X29X43,5 cm (frente, profundo, alto)",
@@ -34901,7 +34872,7 @@ window.PRODUCTOS = [
       "precio": 3846492,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1204",
+      "imagen": "1203",
       "enlace": "https://exhibirequipos.com/producto/molino-grano-tipo-corona-acero-inoxidable/?srsltid=AfmBOoqPD1ucBbpQUL7az1vGHahvfCm__hygQR88FRD-aiQF2fNS0yF6zKQ",
       "specs": {
           "dimensiones": "15 x 17 x 33 cm",
@@ -34930,17 +34901,17 @@ window.PRODUCTOS = [
       "precio": 323102,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1205",
-      "enlace": "https://www.exito.com/molino-electrico-sokany-104223514-mp/p?idsku=104223514&srsltid=AfmBOopebuWTaN_1B5cGvsjPYptPNqW_mHMOmdx-oTnqhi2zW22jxZm92bI",
+      "imagen": "1204",
+      "enlace": "https://www.exito.com/molino-electrico-para-carne-swisshome-2800w-embutidor-aceesorios-101505329-mp/p",
       "specs": {
           "dimensiones": "17 cm",
           "empaque": "",
           "peso": "3 kg",
           "referencia": "",
           "material": "",
-          "composicion": "",
+          "composicion": "1 x Picadora de carne eléctrica\n3 x Placas de trituración\n1 x Empujador\n1 x Adaptador salchicha\n1 x Manual de uso\n1 x Cuchillas",
           "capacidad": "300 g",
-          "potencia": "300 W",
+          "potencia": "2800W",
           "otrasEspecificaciones": "Equipo apto para molienda de café, maíz, arroz, especias, semillas y granos secos. Cuchillas de acero inoxidable resistentes al desgaste y corrosión. Diseño portátil de fácil transporte y almacenamiento. Sistema de operación rápida para pulverización homogénea y eficiente. Compatible con uso doméstico y pequeños procesos de preparación alimentaria.",
           "condicionesServicios": "Requiere conexión eléctrica doméstica 110 V. No apto para productos húmedos o líquidos. Necesita área seca y ventilada para operación segura.",
           "requerimientosEspeciales": "Limpiar después de cada uso y evitar inmersión completa en agua. No operar de manera continua por periodos prolongados para evitar sobrecalentamiento. Mantener fuera del alcance de niños y utilizar sobre superficies estables."
@@ -34959,7 +34930,7 @@ window.PRODUCTOS = [
       "precio": 252720,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1206",
+      "imagen": "1205",
       "enlace": "https://www.falabella.com.co/falabella-co/product/125121240/Molino-para-Carne-Corona-Tradicional-L13500/125121246",
       "specs": {
           "dimensiones": "Largo: 26 cm ancho: 12 cm alto: 24 cm",
@@ -34988,7 +34959,7 @@ window.PRODUCTOS = [
       "precio": 3798522,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1207",
+      "imagen": "1206",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/571299/molino-triturador-electrico-tre25-de-2-hp/571299/",
       "specs": {
           "dimensiones": "Largo: 58 cm ancho: 40 cm alto: 95 cm",
@@ -35017,7 +34988,7 @@ window.PRODUCTOS = [
       "precio": 61620,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1208",
+      "imagen": "1207",
       "enlace": "https://www.rocayaltura.co/productos/mosqueton-eq-grip-digitalis-rosca/",
       "specs": {
           "dimensiones": "Largo: 7 cm ancho: 6.6 cm",
@@ -35046,7 +35017,7 @@ window.PRODUCTOS = [
       "precio": 218400,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1209",
+      "imagen": "1208",
       "enlace": "https://bidecol.me/producto/kit-mostacilla-checa-mayoristas-x6",
       "specs": {
           "dimensiones": "Medidas kit: 6,5 cm de ancho x 13 cm de largo x 2,2 cm de alto",
@@ -35075,7 +35046,7 @@ window.PRODUCTOS = [
       "precio": 1956755,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1210",
+      "imagen": "1209",
       "enlace": "https://www.industriascruz.com.co/producto/mostrador-aluminio-110-x-150-x-40-cms-base-ruedas/",
       "specs": {
           "dimensiones": "110 x 150 x 40 cm",
@@ -35104,7 +35075,7 @@ window.PRODUCTOS = [
       "precio": 31733000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1211",
+      "imagen": "1210",
       "enlace": "https://vaisand.com/motocarros/db-300zh/",
       "specs": {
           "dimensiones": "Carroceria (largo x ancho) 2 m. X 1.40 m.",
@@ -35133,7 +35104,7 @@ window.PRODUCTOS = [
       "precio": 23985000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1212",
+      "imagen": "1211",
       "enlace": "https://motomall.com.co/producto/moto-carguero-250/",
       "specs": {
           "dimensiones": "Largo: 3.3 m ancho: 1.3 m alto: 1.7 m",
@@ -35162,7 +35133,7 @@ window.PRODUCTOS = [
       "precio": 19409000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1213",
+      "imagen": "1212",
       "enlace": "https://www.auteco.com.co/motocarro-tricargo-200-refrijerado-por-aceite/p",
       "specs": {
           "dimensiones": "3260 largo (mm) 2250 distancia entre ejes (mm) 4.50 – 12 llanta delantera 1250 ancho (mm) 305 distancia motor al piso (mm) 410 capacidad de carga (kg) 1420 alto (mm) 4.50 – 12 llanta trasera",
@@ -35191,7 +35162,7 @@ window.PRODUCTOS = [
       "precio": 2698670,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1214",
+      "imagen": "1213",
       "enlace": "https://www.falabella.com.co/falabella-co/product/152586936/bicimoto-electrica-gw-e-blitz-motor-400w/152586937",
       "specs": {
           "dimensiones": "198 x 78 x 112 cm (largo x ancho x alto)",
@@ -35220,7 +35191,7 @@ window.PRODUCTOS = [
       "precio": 8149700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1215",
+      "imagen": "1214",
       "enlace": "https://www.stihl.com.co/es/p/motoazadas-mh-710-92088",
       "specs": {
           "dimensiones": "Ancho del dispositivo 105 cm altura máx. Del dispositivo 105 cm longitud máx. Del dispositivo 155 cm",
@@ -35249,7 +35220,7 @@ window.PRODUCTOS = [
       "precio": 2506400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1216",
+      "imagen": "1215",
       "enlace": "https://ekipon.co/producto/motobomba-a-diesel-model-dp20/?gad_source=1&gad_campaignid=23695601739&gbraid=0AAAAAqMCUOmreNSZh4zj3sZAwjFfuSSV6&gclid=Cj0KCQjw_b_QBhCSARIsAP6hR4fyQLKmLr6QwSYaMfHBdLklg2a-S_sLf5T0IfZhMV9CS1YNaGWBCsIaAixOEALw_wcB",
       "specs": {
           "dimensiones": "80 x 80 x 85 (largo x ancho x alto)",
@@ -35278,7 +35249,7 @@ window.PRODUCTOS = [
       "precio": 994630,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1217",
+      "imagen": "1216",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/489993/motobomba-a-gasolina-1x1-2-tiempos/489993/",
       "specs": {
           "dimensiones": "55 x 45 x 45 cm",
@@ -35307,7 +35278,7 @@ window.PRODUCTOS = [
       "precio": 1606800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1218",
+      "imagen": "1217",
       "enlace": "https://faretty.co/tienda/motores-y-motobombas/motobomba-presion-de-6-5hp-de-2-x-2/",
       "specs": {
           "dimensiones": "40 x 40 x 50 cm (ancho x altura x fondo)",
@@ -35336,7 +35307,7 @@ window.PRODUCTOS = [
       "precio": 3822000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1219",
+      "imagen": "1218",
       "enlace": "https://supraindustrial.com.co/producto/motobomba-centrifuga-alta-presion-diesel-5hp-1-1-2-x-1-1-2-barnes-1e0387/?srsltid=AfmBOor8rCNXuhWCl1_FrJrDr_LmqY1cKbNzCMKrokxhxeANlTvVWNCM",
       "specs": {
           "dimensiones": "55 x 49 x 55 cm (largo x ancho x altura)",
@@ -35365,7 +35336,7 @@ window.PRODUCTOS = [
       "precio": 314730,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1220",
+      "imagen": "1219",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/554295/motobomba-bomba-electrica-periferica-de-1-2-hp-30-metros/554295/",
       "specs": {
           "dimensiones": "26 x 13 x 16 cm (largo x ancho x alto)",
@@ -35394,7 +35365,7 @@ window.PRODUCTOS = [
       "precio": 2282800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1221",
+      "imagen": "1220",
       "enlace": "https://veterinarialared.com/producto/motobomba-oleomac-sc33-portatil-2-tiempos/",
       "specs": {
           "dimensiones": "40 x 35 x 30 cm",
@@ -35423,7 +35394,7 @@ window.PRODUCTOS = [
       "precio": 6691725,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1222",
+      "imagen": "1221",
       "enlace": "https://supraindustrial.com.co/producto/motobomba-alta-presion-diesel-13hp-3x3-barnes-1e0458/",
       "specs": {
           "dimensiones": "60 x 47 x 58 cm (largo x ancho x alto)",
@@ -35452,7 +35423,7 @@ window.PRODUCTOS = [
       "precio": 6668324,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1223",
+      "imagen": "1222",
       "enlace": "https://www.solarshop.com.co/item-motobomba-solar-sumergible-ba218077-6927-32e9-7b74-720baa34786d?srsltid=AfmBOoqUGqhYmV2TRy78_QndSyYcba_7wXFJAtBD7GuPjnyXb9XfOmlD",
       "specs": {
           "dimensiones": "Diámetro cilíndrico de 10 cm y longitud de 100 cm",
@@ -35481,7 +35452,7 @@ window.PRODUCTOS = [
       "precio": 378482,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1224",
+      "imagen": "1223",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/59717/bomba-sumergible-fuente-aqua-60w/59717/",
       "specs": {
           "dimensiones": "Largo: 16 cm ancho: 9 cm alto: 12 cm",
@@ -35510,7 +35481,7 @@ window.PRODUCTOS = [
       "precio": 20137000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1225",
+      "imagen": "1224",
       "enlace": "https://aktmotos.com/motos-akt/kargueros/karguero-3w-200/?gad_source=1&gad_campaignid=21016355278&gbraid=0AAAAADsV04nuz1HF2bKvBgl4LD2RrHhw1&gclid=Cj0KCQjwz9_QBhD_ARIsADnSCfBvcN4Qdc6fMg86_pJaoFVGdnk_ntze6yM_VzvoXWQqWFB9OewQBNMaAuRXEALw_wcB",
       "specs": {
           "dimensiones": "Largo: 3.3 m ancho: 1.3 m alto: 1.7 m",
@@ -35539,7 +35510,7 @@ window.PRODUCTOS = [
       "precio": 24129300,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1226",
+      "imagen": "1225",
       "enlace": "https://www.auteco.com.co/motocarro-tricargo-200-refrijerado-por-aceite/p?srsltid=AfmBOorHleUVN9T0ESM2bWKn9CRJQk7ADklds-LSsGxwklLv5KXABWqY",
       "specs": {
           "dimensiones": "Largo: 3.3 m ancho: 1.3 m alto: 1.7 m",
@@ -35568,7 +35539,7 @@ window.PRODUCTOS = [
       "precio": 21255000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1227",
+      "imagen": "1226",
       "enlace": "https://aktmotos.com/motos-akt/tuk-tuk/tuk-tuk-200/",
       "specs": {
           "dimensiones": "Largo: 276 cm ancho: 139 cm alto: 184 cm distancia entre ejes: 195 cm",
@@ -35597,7 +35568,7 @@ window.PRODUCTOS = [
       "precio": 20971600,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1228",
+      "imagen": "1227",
       "enlace": "https://aktmotos.com/motos-akt/kargueros/karguero-3w-200/",
       "specs": {
           "dimensiones": "Largo: 3.3 m ancho: 1.3 m alto: 1.7 m",
@@ -35626,7 +35597,7 @@ window.PRODUCTOS = [
       "precio": 30641000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1229",
+      "imagen": "1228",
       "enlace": "https://televisoresymas.com/shop-2/movilidad/motocarro-vaisand-db-300-zh/?srsltid=AfmBOoroYBiD8pRgfQ0eNH5xs9q1pzchW92a6UPqOSlmywq48_iovPQe",
       "specs": {
           "dimensiones": "Largo total aproximado: 3.3 m ancho: 1.4 m carrocería de carga: 2 m x 1.40 m",
@@ -35655,7 +35626,7 @@ window.PRODUCTOS = [
       "precio": 2199890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1230",
+      "imagen": "1229",
       "enlace": "https://www.falabella.com.co/falabella-co/product/136456578/Guadana-a-Gasolina-Desbrozadora-Guadanadora-3.6-Hp-52-CC/136456579",
       "specs": {
           "dimensiones": "187 x 66 (largo x ancho) diámetro de 46 cm",
@@ -35684,7 +35655,7 @@ window.PRODUCTOS = [
       "precio": 3788512,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1231",
+      "imagen": "1230",
       "enlace": "https://www.ecozaque.com/producto/aireador-solar-1500w-tipo-splash-ac-dc-handuro/?gad_source=1&gad_campaignid=23158171829&gbraid=0AAAAA9ZGOpDGhLJukwufSTIE7ymoaH1A5&gclid=Cj0KCQjw_b_QBhCSARIsAP6hR4d-bT_AkQ4z9GUwbxkuX38fViZW9-FNIr_eKMk8chmB-k8R6RC57yIaAmaAEALw_wcB",
       "specs": {
           "dimensiones": "27 x 25 x 42 cm",
@@ -35713,7 +35684,7 @@ window.PRODUCTOS = [
       "precio": 7826000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1232",
+      "imagen": "1231",
       "enlace": "https://amantesapescar.co/producto/motor-fuera-de-borda-parsun-15-hp-pata-corta-2t/",
       "specs": {
           "dimensiones": "110 × 60 × 40 cm",
@@ -35742,7 +35713,7 @@ window.PRODUCTOS = [
       "precio": 1941030,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1233",
+      "imagen": "1232",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/715530/motobomba-presion-2x2-gasolina-65hp/715530/",
       "specs": {
           "dimensiones": "50 x 40 x 40 cm (largo x ancho x alto)",
@@ -35771,7 +35742,7 @@ window.PRODUCTOS = [
       "precio": 3079700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1234",
+      "imagen": "1233",
       "enlace": "https://equipmaster.com.co/producto/fumigadora-stihl-sr420-de-canon/?srsltid=AfmBOooQBEJHZXr-P5kaZH-uOp6C6ZKfEvvvjkq_eO_gWqceiiShoXoo",
       "specs": {
           "dimensiones": "Ancho 50 cm largo 40 cm alto 68 cm",
@@ -35800,7 +35771,7 @@ window.PRODUCTOS = [
       "precio": 1337700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1235",
+      "imagen": "1234",
       "enlace": "https://importacioneshyp.com/products/mco-2881907782-motor-electrico-monofasico-5hp-alta-industria-trabajo-pesado-jm",
       "specs": {
           "dimensiones": "30 cm de alto, 30 cm de ancho y 40 cm de largo",
@@ -35829,7 +35800,7 @@ window.PRODUCTOS = [
       "precio": 7041060,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1236",
+      "imagen": "1235",
       "enlace": "https://maquitecdecolombia.com/compra-de/repuestos/motor/diesel-motor/motor-diesel-antor-12hp-3000-rpm-arranque-manual/?srsltid=AfmBOopS5UOnVn5vuafgCX_tqUWSgDt4rVa0H7ELDEYmgGVQ2L4cn1bMyoc",
       "specs": {
           "dimensiones": "Largo: 78 cm ancho: 46 cm alto: 68 cm",
@@ -35858,7 +35829,7 @@ window.PRODUCTOS = [
       "precio": 6106568,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1237",
+      "imagen": "1236",
       "enlace": "https://equipmaster.com.co/producto/despulpadora-penagos-dh-3-1-2-motor-electrico-techtop-1hp/?srsltid=AfmBOopgzg7mpIblOR-YmKX9j47KFjdlP6OV9DuDQ5Sg1qKtmT7kNBU9",
       "specs": {
           "dimensiones": "Largo: 85 cm ancho: 55 cm alto: 95 cm",
@@ -35887,7 +35858,7 @@ window.PRODUCTOS = [
       "precio": 75010,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1238",
+      "imagen": "1237",
       "enlace": "https://www.haceb.com/motor-centrifugado-para-lavadora-haceb-twin24007001050-7704353132144/p?idsku=467&srsltid=AfmBOopuqvVuW75iLRnctHXqca5uXQn7WlvsXDW98ofdr2cCXFOYInDfQ50#seccion-especificaciones",
       "specs": {
           "dimensiones": "20 cm de ancho, 30 cm de largo y 40 cm de alto.",
@@ -35916,7 +35887,7 @@ window.PRODUCTOS = [
       "precio": 2412150,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1239",
+      "imagen": "1238",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/713179/motor-diesel-10hp-3600-rpm-eje-cuna-rosca-maquiequipos/713179/",
       "specs": {
           "dimensiones": "42 x 45 x 50 cm (largo x ancho x alto)",
@@ -35945,7 +35916,7 @@ window.PRODUCTOS = [
       "precio": 312744,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1240",
+      "imagen": "1239",
       "enlace": "https://atrial.com.co/producto/motor-electrico-monofasico-de-1-2-hp-baja-velocidad-truper/?srsltid=AfmBOopjiJmKIcMUMcDXTeoPjQ3-he3Tko8VhunrOWtXeddRGwZbmvY8",
       "specs": {
           "dimensiones": "Dimensiones (alto x fondo x base) 214 x 290 x 160 mm",
@@ -35974,7 +35945,7 @@ window.PRODUCTOS = [
       "precio": 8312200,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1241",
+      "imagen": "1240",
       "enlace": "https://www.racoresmotoresyrepuestos.com.co/product/trapiche-guarapero-motor-gasolina",
       "specs": {
           "dimensiones": "60 cm de ancho 70 cm de largo 60 cm de altura",
@@ -36003,7 +35974,7 @@ window.PRODUCTOS = [
       "precio": 2151474,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1242",
+      "imagen": "1241",
       "enlace": "https://www.unitorni.co/motor-tool-dewalt-2-19000rpm-dwe4997vs-b3-dw-888",
       "specs": {
           "dimensiones": "35,6 x 5 cm",
@@ -36032,7 +36003,7 @@ window.PRODUCTOS = [
       "precio": 1336270,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1243",
+      "imagen": "1242",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/485873/motosierra-alterman-62cc-espada-22/485873",
       "specs": {
           "dimensiones": "•ancho: 28.5 cm •alto: 28 cm •largo: 59.5 cm",
@@ -36061,7 +36032,7 @@ window.PRODUCTOS = [
       "precio": 3457870,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1244",
+      "imagen": "1243",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/555546/motosierra-a-gasolina-de-2-tiempos-de-38-hp-de-615-cc-espada-de-236-in-60-cm/555546/",
       "specs": {
           "dimensiones": "Ancho 23.2 cm alto 29.8 cm largo 41.7 cm",
@@ -36090,7 +36061,7 @@ window.PRODUCTOS = [
       "precio": 1013870,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1245",
+      "imagen": "1244",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/896411/motosierra-a-gasolina-54-cc/896411/?kid=dis_adi_1435636&gad_source=1&gad_campaignid=23616595358&gbraid=0AAAAADt6wnriip6D7GkZmy2SXkpbk2TP4&gclid=CjwKCAjwidXQBhAZEiwA4egw6J-wvZmar7QLgx_2mj97R9O4sn2xbOfFfOxs6g5-F83KlX-y_NNA9xoCE-oQAvD_BwE",
       "specs": {
           "dimensiones": "Ancho 49 cm alto 32 cm largo 56 cm",
@@ -36119,7 +36090,7 @@ window.PRODUCTOS = [
       "precio": 4313660,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1246",
+      "imagen": "1245",
       "enlace": "https://www.stihl.com.co/es/p/motosierras-ms-382-64241",
       "specs": {
           "dimensiones": "Largo total con espada: 90 cm ancho: 28 cm alto: 30 cm",
@@ -36148,7 +36119,7 @@ window.PRODUCTOS = [
       "precio": 338702,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1247",
+      "imagen": "1246",
       "enlace": "https://www.google.com/search?q=MOTOTOOL+INDUSTRIAL&sca_esv=14ddabb60189eb57&rlz=1C1ALOY_esCO1177CO1177&sxsrf=ANbL-n7uy95U0_LRAFiaan6XxJBcJaQgqw%3A1779988213906&ei=9XYYaqmKN_qawbkPp5-NmA4&biw=773&bih=601&ved=0ahUKEwjp2MbpvNyUAxV6TTABHadPA-MQ4dUDCBA&uact=5&oq=MOTOTOOL+INDUSTRIAL&gs_lp=Egxnd3Mtd2l6LXNlcnAiE01PVE9UT09MIElORFVTVFJJQUwyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB5IoxFQiQtYiQtwBHgBkAEAmAGMAaABjAGqAQMwLjG4AQPIAQD4AQL4AQGYAgWgArIBwgIKEAAYRxjWBBiwA8ICDRAAGIAEGIoFGEMYsAOYAwCIBgGQBgqSBwM0LjGgB6gFsgcDMC4xuAeUAcIHBTItNC4xyAcegAgB&sclient=gws-wiz-serp#sv=CAYSsQcSABosMmFoVUtFd2l6MEpLX3ZkeVVBeFVyVlRBQkhjSElOcEVRZ2kxNkJBZ2dFQ2siywYKEzQ3NTIwMTE0Nzk1OTM5OTEzODASEzE2MzQwMDg5MzE0Mzc5ODU1MTYaEzgyNjc2NDAzMDAwNTMyNzU3OTIiFDE3NTkwODk2MTE2NTk3ODM1MTI2KgAyEzQ4ODk1NjAxMjMwMzU5Mzk4NTc6EjU3NjQ2Mjc1OTEyNzA3Mzg3MEoCaGdSMlBDXzQ4ODk1NjAxMjMwMzU5Mzk4NTd8UFJPRF9QQ180ODg5NTYwMTIzMDM1OTM5ODU3YgBqAIoBAKABA7ABAMIBAMoBANoBAOIBAOoBI01vdG8gVG9vbCBJbmR1c3RyaWFsIDEvNCA1NTB3IFRvdGFs8AEA-gEAkgIA2gKUBEVvd0RDc3dDUVUxdU15MTVVVFprUkZaRmJIaGxiazlNYkZrMGFGOHpablJoV1hWcFVGQk1OREpPTW5JeGVWaGZUVXR4UlZCSGJrSjVVelpEZFc0NE5sOUNVMHc0V25obU1ra3pXa1ZPVEVSdlJqVnFOVGR1V1VGM1JrYzRUVTgxUjBST2NuUnhiblpNVW5wRFlqTkdWRVp5UzJwRVpETnpRM1JaTWpoWFFuaDNVMnRWT0ZNeFl6bFZkRmh3VTB0alFVRlZRWFpWWlRWbmJreGthV3QwTjIxamIyaGhkRE4wUzFGbVZUTjBYMmRLV2t4U1VtZzRORXgwV0hoaWFFVnlibEl0VVZWck0wTTFkMHRHTVdZNU9XUjJhbEJ6TUZjdFlqTklWa3gzUVd3M2JsVnZVRzE0VFVsTGExQTRaRmhsY213dFlrMDBjVU5ZUVVGaFlqRktTRVp0WmxJM2FFSmlSVnBTYmxFMFdscDZXRmRQZVdablZUUlNVMGh4UlZkV2VERklZVE0wYzNsa1kyNDFTVTR5Ulc1dldVeFhRVnBhY1Y5emJrbENhbEpoTTFKNGNsTmpTa2hPV0dsT2JEVnROMGNTRjNGWVkxbGhkbEJZUjB0MWNYZGlhMUIzV2toaWFWRnJHaUpCU2t0TVJtMUtlRWh2UlZKZldVeDZSVWhHYW5KeGMwOVBURVF0ZUVkRk1WSkLiAjBBS1BPcjFUV0VOclBvak1WQzZJcUhtV185VEtDRXNzaHJ3OjE3Nzk5ODgzOTM3MjIwAEItMmFoVUtFd2l6MEpLX3ZkeVVBeFVyVlRBQkhjSElOcEVRcm9nR2VnUUlJQkFTSAAgovasngxKCBACGAEgASgB",
       "specs": {
           "dimensiones": "Largo: 32 cm ancho: 8 cm alto: 9 cm",
@@ -36177,7 +36148,7 @@ window.PRODUCTOS = [
       "precio": 3574890,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1248",
+      "imagen": "1247",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/553223/sala-lincoln-taupe/553223/",
       "specs": {
           "dimensiones": "Ancho 143 cm alto 80 cm profundidad 78 cm",
@@ -36206,7 +36177,7 @@ window.PRODUCTOS = [
       "precio": 224716,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1249",
+      "imagen": "1248",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/743724/estantes-flotantes-con-luces-led/743724/",
       "specs": {
           "dimensiones": "Ancho: 38 cm profundidad: 20 cm alto: 58 cm",
@@ -36235,7 +36206,7 @@ window.PRODUCTOS = [
       "precio": 2160470,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1250",
+      "imagen": "1249",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/737227/mesa-de-costura-plegable-grande-con-ruedas-giratorias/737227/",
       "specs": {
           "dimensiones": "Dimensiones 40.64 x 74.93 x 52 cm",
@@ -36264,7 +36235,7 @@ window.PRODUCTOS = [
       "precio": 727870,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1251",
+      "imagen": "1250",
       "enlace": "https://maquinastitus.com.co/products/mueble-mesa-fileteadora-overlock-empotrada-maquina-de-coser-industrial-nacional?srsltid=AfmBOoop_CHJivpRjCq7BKgcQZ0SkBrbL-fJoX542ZWGC8XfA2SDPbRR",
       "specs": {
           "dimensiones": "Tabla: 120 x 59 x 7 cm herraje: 80 x 100 x 45 cm",
@@ -36293,7 +36264,7 @@ window.PRODUCTOS = [
       "precio": 2110880,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1252",
+      "imagen": "1251",
       "enlace": "https://maquinasdeconfeccion.com/producto/maquina-plana-mecatronica-jontex-jt-8800/",
       "specs": {
           "dimensiones": "Largo: 120 cm ancho: 55 cm alto: 105 cm",
@@ -36322,7 +36293,7 @@ window.PRODUCTOS = [
       "precio": 472890,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1253",
+      "imagen": "1252",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/568865/escritorio-vilna-120-rta-madera-natural-blanco/568865/",
       "specs": {
           "dimensiones": "Dimensiones: 120 x 120.6 x 45 cm",
@@ -36351,7 +36322,7 @@ window.PRODUCTOS = [
       "precio": 5753670,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1254",
+      "imagen": "1253",
       "enlace": "https://encarguelo.com/producto/B0DWX6SMYH/silla-de-pedicura-profesional-icoget-sin-fontaneria-estacion-de-pedicura-reclinable-sin-tuberias-con-base-retractil-y-reposapiernas-ajustable-utilizada-en-salones-hogares-sillones-impermeables-para-pies-y-spa?srsltid=AfmBOopSjspG17UM-IWtWHGOEj993eJTSbgGnNNCSe9dqk7gAVTUX6KK",
       "specs": {
           "dimensiones": "107 cm de profundidad 75 cm de ancho 107 cm de alto",
@@ -36380,7 +36351,7 @@ window.PRODUCTOS = [
       "precio": 8799890,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1255",
+      "imagen": "1254",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/762511/sofa-4-puestos-modular-polar-premium-250x78x165-cm-blanco/762511/",
       "specs": {
           "dimensiones": "Ancho 250 cm alto 78 cm profundidad 165 cm",
@@ -36409,7 +36380,7 @@ window.PRODUCTOS = [
       "precio": 288470,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1256",
+      "imagen": "1255",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/884273/mdf-ranurado-blanco-18mm-152x244-metros/884273/",
       "specs": {
           "dimensiones": "Dimensiones 1524 mm x 18 mm x 2440 mm",
@@ -36438,7 +36409,7 @@ window.PRODUCTOS = [
       "precio": 1378000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1257",
+      "imagen": "1256",
       "enlace": "https://www.mercadolibre.com.co/poltrona-manicura-y-pedicura/up/MCOU2437056626#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=1&type=product&float_highlight=last_units&tracking_id=7f9c2733-c8ca-496b-9552-7e297a042e0b&wid=MCO909289133&sid=search",
       "specs": {
           "dimensiones": "Largo: 120 cm ancho: 75 cm alto: 95 cm",
@@ -36467,7 +36438,7 @@ window.PRODUCTOS = [
       "precio": 2984322,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1258",
+      "imagen": "1257",
       "enlace": "https://www.mercadolibre.com.co/muebles-sala-espera-peluqueria",
       "specs": {
           "dimensiones": "Largo: 180 cm ancho: 80 cm alto: 85 cm",
@@ -36496,7 +36467,7 @@ window.PRODUCTOS = [
       "precio": 3005566,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1259",
+      "imagen": "1258",
       "enlace": "https://encarguelo.com/producto/B0DFYJVFSS/horno-de-quemado-de-cera-de-laboratorio-dental-de-1500w-mini-horno-muffla-de-alta-temperatura-1000",
       "specs": {
           "dimensiones": "20 × 17 × 26 cm.",
@@ -36525,7 +36496,7 @@ window.PRODUCTOS = [
       "precio": 3439800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1260",
+      "imagen": "1259",
       "enlace": "https://imec.com.co/store/producto?id=33",
       "specs": {
           "dimensiones": "42 x 32 x 38 cm",
@@ -36554,7 +36525,7 @@ window.PRODUCTOS = [
       "precio": 278070,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1261",
+      "imagen": "1260",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/655719/multimetro-digital-rms-ac-dc-600v-06-amp-trabajo-profesional-total-tools-en-estuche/655719/",
       "specs": {
           "dimensiones": "Ancho 9.7 cm alto 5.2 cm largo 17 cm",
@@ -36583,7 +36554,7 @@ window.PRODUCTOS = [
       "precio": 174200,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1262",
+      "imagen": "1261",
       "enlace": "https://dualtronica.com/herramientas/93-multimetros-digitales-de-la-serie-uni-t-ut89x.html?srsltid=AfmBOord1DKLQvIendMdmsgdwTtO-BUcc-ABWxOKaeVxs7bxC2ivRXN5ln0",
       "specs": {
           "dimensiones": "189 mm x 89 mm x 53 mm",
@@ -36612,7 +36583,7 @@ window.PRODUCTOS = [
       "precio": 3608855,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1263",
+      "imagen": "1262",
       "enlace": "https://maquinastitus.com.co/products/plana-y-zigzadora-mecatronica-singer-20u-93-lubricacion-automatica?srsltid=AfmBOooKuwLICFM_UGaghONty6G6uv4NKa80Y7VXymDqZG_WGLgCE-Ms",
       "specs": {
           "dimensiones": "Altura de elevación del prensatelas, mm 7\nLa altura máxima de elevación del prensatelas, mm 14\nVelocidad máxima de costura 2500 rpm",
@@ -36641,7 +36612,7 @@ window.PRODUCTOS = [
       "precio": 388550,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1264",
+      "imagen": "1263",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3007849/maquina-de-masa-electrica-con-fermentacion-5l-b-silver/3007849/",
       "specs": {
           "dimensiones": "Ancho\n33.02 cm\nAlto\n25.40 cm\nProfundidad\n36 cm\nCapacidad\n5 l/min",
@@ -36670,7 +36641,7 @@ window.PRODUCTOS = [
       "precio": 4574550,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1265",
+      "imagen": "1264",
       "enlace": "https://listado.mercadolibre.com.co/maquina-bordadora",
       "specs": {
           "dimensiones": "Ancho 15 cm alto 24 cm fondo 30 cm",
@@ -36699,7 +36670,7 @@ window.PRODUCTOS = [
       "precio": 391170,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1266",
+      "imagen": "1265",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/619078/cafetera-coffe-home-capuchinera/619078/",
       "specs": {
           "dimensiones": "Ancho 19 cm alto 16.5 cm largo 18 cm",
@@ -36728,7 +36699,7 @@ window.PRODUCTOS = [
       "precio": 3133000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1267",
+      "imagen": "1266",
       "enlace": "https://maquinasdeconfeccion.com/producto/collarin-mecatronica-kingter-kt500-02-ddi/",
       "specs": {
           "dimensiones": "Dimensiones del empaque del cabezal: 64.5 cm x 24.8 cm x 55 cm. Dimensiones del mueble armado (mesa estándar): 120 cm de largo x 55 cm de ancho x altura ajustable (entre 75 cm y 85 cm)",
@@ -36757,7 +36728,7 @@ window.PRODUCTOS = [
       "precio": 1274,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1268",
+      "imagen": "1267",
       "enlace": "https://listado.mercadolibre.com.co/cortador-de-banana",
       "specs": {
           "dimensiones": "Ancho: 17.1 cm •alto: 5.3 cm",
@@ -36786,7 +36757,7 @@ window.PRODUCTOS = [
       "precio": 689000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1269",
+      "imagen": "1268",
       "enlace": "https://maquinasimpocoser.com/product/maquina-familiar-union-24-puntadas/",
       "specs": {
           "dimensiones": "34 cm x 17 cm x 32 cm",
@@ -36815,7 +36786,7 @@ window.PRODUCTOS = [
       "precio": 2287870,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1270",
+      "imagen": "1269",
       "enlace": "https://tiendasmartbrands.com/products/batidora-de-pedestal-5-5-qt-sm-50co-de-cuisinart-05463",
       "specs": {
           "dimensiones": "Alto: 35.9 cm ancho: 20 cm profundidad: 36 cm",
@@ -36844,7 +36815,7 @@ window.PRODUCTOS = [
       "precio": 883870,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1271",
+      "imagen": "1270",
       "enlace": "https://casabeltran.cl/producto/brother-pe-910l-disney/",
       "specs": {
           "dimensiones": "Dimensiones 39 × 54 × 51 cm",
@@ -36873,7 +36844,7 @@ window.PRODUCTOS = [
       "precio": 2373800,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1272",
+      "imagen": "1271",
       "enlace": "https://aoimportaciones.com/producto/maquina-de-broches/",
       "specs": {
           "dimensiones": "141 cm (alto) 90 cm (ancho) 70 cm (profundidad).",
@@ -36902,7 +36873,7 @@ window.PRODUCTOS = [
       "precio": 28410200,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1273",
+      "imagen": "1272",
       "enlace": "https://www.americafoodsolutions.co/tienda/maquina-cafe-espresso-tc-280s-2-de-2-grupos/",
       "specs": {
           "dimensiones": "72.5 x 62.5 x 46.5 cm",
@@ -36931,7 +36902,7 @@ window.PRODUCTOS = [
       "precio": 88400,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1274",
+      "imagen": "1273",
       "enlace": "https://www.falabella.com.co/falabella-co/product/128515389/Olla-Para-Cera-Depilatoria-Cera-Perlas-aplicadores/128515390",
       "specs": {
           "dimensiones": "14 x14 x 14 cm",
@@ -36960,7 +36931,7 @@ window.PRODUCTOS = [
       "precio": 1723800,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1275",
+      "imagen": "1274",
       "enlace": "https://www.exito.com/plana-industrial-union-un-8700-h-maquina-de-coser-pesada-100012797-mp/p",
       "specs": {
           "dimensiones": "29 x 23 x 56 cm",
@@ -36989,7 +36960,7 @@ window.PRODUCTOS = [
       "precio": 491010,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1276",
+      "imagen": "1275",
       "enlace": "https://www.falabella.com.co/falabella-co/product/146090329/Maquina-Patillera-Profesional-Con-Base-De-Carga-Y-Motor-De-7500RPM-Kemei-Km-2374/146090330",
       "specs": {
           "dimensiones": "19 cm largo",
@@ -37018,7 +36989,7 @@ window.PRODUCTOS = [
       "precio": 1569750,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1277",
+      "imagen": "1276",
       "enlace": "https://www.falabella.com.co/falabella-co/product/144763557/Fileteadora-Semi-Industrial-Kansew-Overlock/144763558",
       "specs": {
           "dimensiones": "Alto: 28-30 cm ancho: 26-28 cm profundidad: 24-26 cm",
@@ -37047,7 +37018,7 @@ window.PRODUCTOS = [
       "precio": 3926000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1278",
+      "imagen": "1277",
       "enlace": "https://maquinasdeconfeccion.com/producto/maquina-plana-dos-agujas-mecatronica-kingter-kt-872b-ddi/",
       "specs": {
           "dimensiones": "120 x 160 x 60 cm",
@@ -37076,7 +37047,7 @@ window.PRODUCTOS = [
       "precio": 64870,
       "iva": 0,
       "icono": "📱",
-      "imagen": "1279",
+      "imagen": "1278",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/901842/set-reparacion-telefono-29-piezas/901842/",
       "specs": {
           "dimensiones": "100 mm. Estuche compacto portátil.",
@@ -37105,7 +37076,7 @@ window.PRODUCTOS = [
       "precio": 822475,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1280",
+      "imagen": "1279",
       "enlace": "https://tienda.gioto.com.co/encuadernacion/maquinas-para-oficina/anilladora-pavo-paso-3-1-rf-s300-bind-pro-w",
       "specs": {
           "dimensiones": "42 cm x 28.7 cm x 18 cm",
@@ -37134,7 +37105,7 @@ window.PRODUCTOS = [
       "precio": 483470,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1281",
+      "imagen": "1280",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/643056/laminadora-comix-de-2-rodillos-f9061/643056/",
       "specs": {
           "dimensiones": "36 cm (ancho) 22.5 cm (largo) 12.5 cm (alto).",
@@ -37163,7 +37134,7 @@ window.PRODUCTOS = [
       "precio": 188220,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1282",
+      "imagen": "1281",
       "enlace": "https://www.falabella.com.co/falabella-co/product/135597225/Maquina-Motilar-Profesional-Barberia-Inalambrica-Pantalla-LED-V-989/135597226",
       "specs": {
           "dimensiones": "Material: Acero inoxidable.\nTamaño Aprox. Producto: 15 x 4 x 3 cm.\nTamaño Paquete: 20 x 19 x 7 cm.\nFuncionamiento: Batería Recargable 1400 mAh.\nTiempo de carga: 2 horas.",
@@ -37192,7 +37163,7 @@ window.PRODUCTOS = [
       "precio": 8250307,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1283",
+      "imagen": "1282",
       "enlace": "https://ordecol.com/maquinas-de-ordeno-portatiles/",
       "specs": {
           "dimensiones": "80 cm de largo 75 cm de ancho 85 cm de alto|",
@@ -37221,7 +37192,7 @@ window.PRODUCTOS = [
       "precio": 1663870,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1284",
+      "imagen": "1283",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/794884/maquina-peluqueria-canina-inalambrica-vida-verde-1-vel/794884/",
       "specs": {
           "dimensiones": "17 x 4,5 x 4 cm",
@@ -37250,7 +37221,7 @@ window.PRODUCTOS = [
       "precio": 3802500,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1285",
+      "imagen": "1284",
       "enlace": "https://aniplast.com.co/plastificacion-y-boppplastico/?v=ab6c04006660",
       "specs": {
           "dimensiones": "64 x 44 x 29 (ancho x profundidad x altura)",
@@ -37279,7 +37250,7 @@ window.PRODUCTOS = [
       "precio": 2160470,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1286",
+      "imagen": "1285",
       "enlace": "https://www.falabella.com.co/falabella-co/product/148646395/Maquina-de-Remo-EVOLUTION-Accent/148646396",
       "specs": {
           "dimensiones": "193 x 47.5 x 76 cm",
@@ -37308,7 +37279,7 @@ window.PRODUCTOS = [
       "precio": 2550031,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1287",
+      "imagen": "1286",
       "enlace": "https://paton-welding.co/produkt/soldadores-de-arco/serie-economica/paton-eco-250-c-arc-welder-6/",
       "specs": {
           "dimensiones": "27 x 11 x 20 (largo x ancho x alto)",
@@ -37337,7 +37308,7 @@ window.PRODUCTOS = [
       "precio": 3291600,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1288",
+      "imagen": "1287",
       "enlace": "https://maquitecdecolombia.com/compra-de/soldador/elite-soldador/smaw-elite-soldador/soldador-inversor-elite-300amp-220v-440v-mma-300/?srsltid=AfmBOoq55cs8A_trma6nv0wFHSivYDCV46qXN_luzG-Z9b1A2I6KyPrI",
       "specs": {
           "dimensiones": "24 x 18 x 40 cm (alto x ancho x largo)",
@@ -37366,7 +37337,7 @@ window.PRODUCTOS = [
       "precio": 2096900,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1289",
+      "imagen": "1288",
       "enlace": "https://www.goodandtrendy.com/product-page/maquina-de-sublimacion-5-en-1?utm_source=google&utm_medium=wix_google_feed&utm_campaign=freelistings&srsltid=AfmBOooUtBYuyPPDoEm4m6jPhcICKFcy38xCNEI1n9nWohbX7KlMnGVqZqM",
       "specs": {
           "dimensiones": "38.73 cm largo x 38 ancho x 43.18 de alto",
@@ -37395,7 +37366,7 @@ window.PRODUCTOS = [
       "precio": 1262300,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1290",
+      "imagen": "1289",
       "enlace": "https://kitstatuaje.com/Kit-Pen-Mast-Fold2-Pro-con-2-Bater%C3%ADas-p696563799",
       "specs": {
           "dimensiones": "32 mm de diámetro x 140 mm de longitud",
@@ -37424,7 +37395,7 @@ window.PRODUCTOS = [
       "precio": 8726117,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1291",
+      "imagen": "1290",
       "enlace": "https://maquinastitus.com.co/products/devanadora-nacional-m5-tres-3-puesto-hilos-hilaza-enconadora",
       "specs": {
           "dimensiones": "110 cm de largo, 30 cm de ancho",
@@ -37453,7 +37424,7 @@ window.PRODUCTOS = [
       "precio": 3920800,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1292",
+      "imagen": "1291",
       "enlace": "https://maquinasdeconfeccion.com/producto/maquina-desbastadora-de-cuero-typical-tb-801/",
       "specs": {
           "dimensiones": "100 x 55 x 108 cm (largo x ancho x alto)",
@@ -37482,7 +37453,7 @@ window.PRODUCTOS = [
       "precio": 7837388,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1293",
+      "imagen": "1292",
       "enlace": "https://exhibirequipos.com/producto/despulpadora-frutas-2hp/?utm_term=&utm_campaign=Productos+Exhibir+Equipos&utm_source=adwords&utm_medium=ppc&hsa_acc=2908479367&hsa_cam=17633122529&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=17624425810&gbraid=0AAAAADvYLDDu_3Oi3mx2k4jnJHO8ffDsC&gclid=CjwKCAjw5s_QBhAdEiwADD_gBrCOYHQ8mYtyW6Wlogqyn56VlpdGzKlIJHa-tOukaV8CWGj_YGgd6BoCCNUQAvD_BwE",
       "specs": {
           "dimensiones": "130 x 70 x 60 cm (alto x ancho x profundidad)",
@@ -37511,7 +37482,7 @@ window.PRODUCTOS = [
       "precio": 10808070,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1294",
+      "imagen": "1293",
       "enlace": "https://exhibirequipos.com/producto/peladora-electrica-gallinas-pollos/?srsltid=AfmBOoosHy8d8uXrQwim2FDwqGUA9EAyRVGkjoMhdWhmPTwCctt4HHJx",
       "specs": {
           "dimensiones": "Diámetro de tambor 60 cm dimensiones 75 x 75 x 95 cm",
@@ -37540,7 +37511,7 @@ window.PRODUCTOS = [
       "precio": 2937948,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1295",
+      "imagen": "1294",
       "enlace": "https://almacenlicuaollas.com/inicio/1365-maquina-jma-nomad-110.html",
       "specs": {
           "dimensiones": "26 x 17 x 22 cm (largo x ancho x alto)",
@@ -37569,7 +37540,7 @@ window.PRODUCTOS = [
       "precio": 194350,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1296",
+      "imagen": "1295",
       "enlace": "https://cdpronto.com/producto/maquina-profesional-recargable-kemei-km-2029/",
       "specs": {
           "dimensiones": "Pantalla digital LCD con indicador de batería.\nDiseño metálico elegante con acabados premium.\nCuchillas de alta precisión para cortes definidos.\nMotor potente y silencioso.\nBatería recargable de larga duración.\nIncluye 8 peines guía de diferentes medidas.\nIncluye capa de barbería.\nIdeal para barbería profesional y uso en casa.\nFácil manejo y excelente ergonomía.\nCaja original incluida.",
@@ -37598,7 +37569,7 @@ window.PRODUCTOS = [
       "precio": 4333290,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1297",
+      "imagen": "1296",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3026787/embutidora-electrica-de-15-litros/3026787/",
       "specs": {
           "dimensiones": "40 x 80 x 32 cm (ancho x alto x largo)",
@@ -37627,7 +37598,7 @@ window.PRODUCTOS = [
       "precio": 5027750,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1298",
+      "imagen": "1297",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/752239/empacadora-al-vacio-dz300a-comercial-para-trabajo-pesado/752239/?kid=dis_adi_1435636&gad_source=1&gad_campaignid=23616595358&gbraid=0AAAAADt6wnqb7cuA7frZUHALMdYM6bflo&gclid=CjwKCAjw5s_QBhAdEiwADD_gBiX5s9PvO4ZH2UOF6kh7euJ41LIXiQ_OEVWVcQ4L9lEvtVk4TxWp7xoCFOQQAvD_BwE",
       "specs": {
           "dimensiones": "40 x 34 x 48 cm (ancho x alto x largo)",
@@ -37656,7 +37627,7 @@ window.PRODUCTOS = [
       "precio": 2456000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1299",
+      "imagen": "1298",
       "enlace": "https://www.mercadolibre.com.co/envasadora-de-miel-3l-de-alta-precision-llenado-para/p/MCO2048630102?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO3275320786&from=gshop",
       "specs": {
           "dimensiones": "36 cm de largo × 26 cm de ancho × 26 cm de alto.",
@@ -37685,7 +37656,7 @@ window.PRODUCTOS = [
       "precio": 1755000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1300",
+      "imagen": "1299",
       "enlace": "https://deantano.cl/producto/escarmenadora-de-columpio/?srsltid=AfmBOoqH1SW7a2uPihaAk2h1slkVNcK4ZlkRxmvTa0ABQpUW7F5KTByZ",
       "specs": {
           "dimensiones": "El recogedor de lana mide 68 cm de alto, 63 cm de largo y 34 de ancho área de recolección de 38 cm de largo x 20 de ancho.",
@@ -37714,7 +37685,7 @@ window.PRODUCTOS = [
       "precio": 658845,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1301",
+      "imagen": "1300",
       "enlace": "https://maquinastitus.com.co/products/etiquetadora-printex-5326-manual-tiqueteadora-textiles-consecutiva?srsltid=AfmBOopQIXcd6De2ua52FigoJC-TYbxQoAvHC1us5rDIb7VsgIZzqNR-AMY",
       "specs": {
           "dimensiones": "24 x 14 x 5 cm (",
@@ -37743,7 +37714,7 @@ window.PRODUCTOS = [
       "precio": 1802710,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1302",
+      "imagen": "1301",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/733306/fechadora-loteadora-automatica/733306/",
       "specs": {
           "dimensiones": "Ancho 20 cm alto 15.5 cm largo 22.5 cm",
@@ -37772,7 +37743,7 @@ window.PRODUCTOS = [
       "precio": 1388855,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1303",
+      "imagen": "1302",
       "enlace": "https://macoser.co/producto/fileteadora-familiar-jontex-jt854/",
       "specs": {
           "dimensiones": "Alto: 28-30 cm ancho: 26-28 cm profundidad: 24-26 cm",
@@ -37801,7 +37772,7 @@ window.PRODUCTOS = [
       "precio": 1898000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1304",
+      "imagen": "1303",
       "enlace": "https://umc.com.co/product/grafadora-de-aire-acondicionado/",
       "specs": {
           "dimensiones": "50 x 42 x 44 cm",
@@ -37830,7 +37801,7 @@ window.PRODUCTOS = [
       "precio": 12847770,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1305",
+      "imagen": "1304",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/645510/maquina-granizadora-industrial-3-tanques-x-12-litros-artiq/645510/",
       "specs": {
           "dimensiones": "Ancho 77 cm alto 60 cm",
@@ -37859,7 +37830,7 @@ window.PRODUCTOS = [
       "precio": 1420250,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1306",
+      "imagen": "1305",
       "enlace": "https://www.falabella.com.co/falabella-co/product/129794026/FILETEADORA-SEMI-INDUSTRIAL-JONTEX-JT-334/129794027",
       "specs": {
           "dimensiones": "29 x 23 x 56 cm",
@@ -37888,7 +37859,7 @@ window.PRODUCTOS = [
       "precio": 4309906,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1307",
+      "imagen": "1306",
       "enlace": "https://orduzcolombia.com/producto/recubridora-singer-14t970c-costura-profesional/?srsltid=AfmBOoo89uZPRlIOd9Jga9SkQeENbe2FhJ2LRXOIhR4b6NqPwCLBT78WJrQ",
       "specs": {
           "dimensiones": "Largo: 34 cm. Ancho: 27 cm. Alto: 31 cm aproximadamente.",
@@ -37917,7 +37888,7 @@ window.PRODUCTOS = [
       "precio": 2994677,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1308",
+      "imagen": "1307",
       "enlace": "https://orduzcolombia.com/producto/singer-20u-105c-para-zigzag-y-costura-recta-industrial/",
       "specs": {
           "dimensiones": "110 cm de ancho, 65 cm de profundidad y 100 cm de altura",
@@ -37946,7 +37917,7 @@ window.PRODUCTOS = [
       "precio": 384748,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1309",
+      "imagen": "1308",
       "enlace": "https://casadelalicuadoraindustrial.com.co/producto/laminadora-para-masa-manual-30cm-2/",
       "specs": {
           "dimensiones": "70 x 45 x 25 cm",
@@ -37975,7 +37946,7 @@ window.PRODUCTOS = [
       "precio": 10062000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1310",
+      "imagen": "1309",
       "enlace": "https://www.asiacolombia.com.co/producto/maquina-laser-co2-keyland-impa-sp4060/",
       "specs": {
           "dimensiones": "1.51 m de largo, 76 cm de ancho y 98 cm de alto",
@@ -38004,7 +37975,7 @@ window.PRODUCTOS = [
       "precio": 332670,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1311",
+      "imagen": "1310",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/499223/maquina-de-hacer-pan-2-libras-blanco/499223/",
       "specs": {
           "dimensiones": "Ancho 33.02 cm alto 25.40 cm profundidad 36 cm",
@@ -38033,7 +38004,7 @@ window.PRODUCTOS = [
       "precio": 2018250,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1312",
+      "imagen": "1311",
       "enlace": "https://maquinasdeconfeccion.com/producto/maquina-plana-mecatronica-union-un8700/",
       "specs": {
           "dimensiones": "29 x 23 x 56 cm",
@@ -38062,7 +38033,7 @@ window.PRODUCTOS = [
       "precio": 25295400,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1313",
+      "imagen": "1312",
       "enlace": "https://chocolatesarboldecacao.com.co/maquinaria/refinador-y-conchador-de-bolas-para-chocolate/",
       "specs": {
           "dimensiones": "Frente 85 cm - fondo 55 cm- alto 110 cm",
@@ -38091,7 +38062,7 @@ window.PRODUCTOS = [
       "precio": 7055353,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1314",
+      "imagen": "1313",
       "enlace": "https://grupozingal.co/producto/amasadora-automatica-de-1-a-220-v-2-velocidades/",
       "specs": {
           "dimensiones": "90 cm de alto × 39 cm de ancho × 69 cm de fondo.",
@@ -38120,7 +38091,7 @@ window.PRODUCTOS = [
       "precio": 3132870,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1315",
+      "imagen": "1314",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3004446/maquina-de-hielo-comercial-50kg-acero-inoxidable-con-deposito-winado/3004446/",
       "specs": {
           "dimensiones": "Ancho 35.56 cm alto 76.20 cm profundidad 43.18 cm",
@@ -38149,7 +38120,7 @@ window.PRODUCTOS = [
       "precio": 418450,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1316",
+      "imagen": "1315",
       "enlace": "https://www.mercadolibre.com.co/afeitadora-philips-shaver-serie-1000-humedo-y-seco-maquina-de-afeitar-27-cuchillas-auto-afilables-powercut-cabezales-flotantes-3d-azul-malibu-modelo-s115100/p/MCO37308538",
       "specs": {
           "dimensiones": "6 cm de alto × 6 cm de ancho × 4 cm de profundidad.",
@@ -38178,7 +38149,7 @@ window.PRODUCTOS = [
       "precio": 274930,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1317",
+      "imagen": "1316",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/800125/maquina-profesional-de-barberia-turbox-nt-vector/800125/",
       "specs": {
           "dimensiones": "6 cm de alto × 6 cm de ancho × 4 cm de profundidad.",
@@ -38207,7 +38178,7 @@ window.PRODUCTOS = [
       "precio": 727870,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1318",
+      "imagen": "1317",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/347883/maquina-sellado-al-vacio-negro-78213/347883/",
       "specs": {
           "dimensiones": "43.18 cm de ancho × 25.4 cm de alto × 52.5 cm de largo",
@@ -38236,7 +38207,7 @@ window.PRODUCTOS = [
       "precio": 431981,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1319",
+      "imagen": "1318",
       "enlace": "https://aluminiosalfusa.com/producto/maquina-de-obleas-16-cms-troquel-con-termostato/",
       "specs": {
           "dimensiones": "Dimensiones 30 × 16 × 15 cm",
@@ -38265,7 +38236,7 @@ window.PRODUCTOS = [
       "precio": 9087000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1320",
+      "imagen": "1319",
       "enlace": "https://antioquenademaquinas.com/products/ojaladora-kingter-mecatronica-kt782d?variant=47467979440437&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqjWrQU2fQQj9ZtHc5ymBnRnOvg7l80nmlrTuoB6Ns00dqSS3NY478",
       "specs": {
           "dimensiones": "74.5 cm × 34 cm × 93 cm con mesa y soporte instalados.",
@@ -38294,7 +38265,7 @@ window.PRODUCTOS = [
       "precio": 3372200,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1321",
+      "imagen": "1320",
       "enlace": "https://exhibirequipos.com/producto/vitrina-mostrador-panaderia-cafeteria/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas según configuración y modelo del fabricante.",
@@ -38323,7 +38294,7 @@ window.PRODUCTOS = [
       "precio": 1943350,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1322",
+      "imagen": "1321",
       "enlace": "https://www.ostercolombia.com/cafetera-espresso-oster-con-molino-integrado-bvstem7300/p",
       "specs": {
           "dimensiones": "30 cm de alto × 20 cm de ancho × 27 cm de fondo.",
@@ -38352,7 +38323,7 @@ window.PRODUCTOS = [
       "precio": 405600,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1323",
+      "imagen": "1322",
       "enlace": "https://www.grafenocolombia.co/sublimadora-mugs",
       "specs": {
           "dimensiones": "40 x 35 cm (ancho x alto)",
@@ -38381,7 +38352,7 @@ window.PRODUCTOS = [
       "precio": 351000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1324",
+      "imagen": "1323",
       "enlace": "https://parabarberos.co/producto/patillera-profesional-wmark-8288-trimmer-inalambrico-de-precision-con-cuchilla-t-y-bateria-de-larga-duracion/",
       "specs": {
           "dimensiones": "6 cm de alto × 6 cm de ancho × 4 cm de profundidad.",
@@ -38410,7 +38381,7 @@ window.PRODUCTOS = [
       "precio": 972815,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1325",
+      "imagen": "1324",
       "enlace": "https://www.mercadolibre.com.co/maquina-de-peinar-lana-maquina-manual-de-cardar-lana/p/MCO2057375478?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO3966453326&from=gshop",
       "specs": {
           "dimensiones": "5 cm de largo × 25 cm de ancho × 30 cm de alto.",
@@ -38439,7 +38410,7 @@ window.PRODUCTOS = [
       "precio": 241670,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1326",
+      "imagen": "1325",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/413588/maquina-peladora-de-mango-viche-pelamango-47-x-17-cm/413588/",
       "specs": {
           "dimensiones": "47 x 17 cm (alto x ancho)",
@@ -38468,7 +38439,7 @@ window.PRODUCTOS = [
       "precio": 4313270,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1327",
+      "imagen": "1326",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/589117/picapasto-penagos-pp-300amg-con-motor-gasolina-65hp-produccion-600-1000kg-h/589117/?kid=shopp_goosho_1433095&shop=1&gclsrc=aw.ds&&kid=shopp_goosho_1433095&shop=1&gad_source=1&gad_campaignid=23449716886&gbraid=0AAAAADt6wnpOR2tgDfNCl6eOXtkOdm9JD&gclid=CjwKCAjw5s_QBhAdEiwADD_gBu8umOONaOTPuNooi5Sy05mmXJwYuqjeQmnLBc5nZKtpZsabIU-gyxoCrjoQAvD_BwE",
       "specs": {
           "dimensiones": "74 x 82 x 115 cm (largo x ancho x alto)",
@@ -38497,7 +38468,7 @@ window.PRODUCTOS = [
       "precio": 2028000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1328",
+      "imagen": "1327",
       "enlace": "https://www.grafenocolombia.co/plotter-de-corte-refine-lite",
       "specs": {
           "dimensiones": "Área de material 72 cm ​ área efectiva de corte 63 cm",
@@ -38526,7 +38497,7 @@ window.PRODUCTOS = [
       "precio": 26169,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1329",
+      "imagen": "1328",
       "enlace": "https://www.locatelcolombia.com/7500435245852-maquina-de-afeitar-gillete-prestobarba-3-carbon-x-2und/p",
       "specs": {
           "dimensiones": "Dimensiones 18X11X4 cm",
@@ -38555,7 +38526,7 @@ window.PRODUCTOS = [
       "precio": 12081680,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1330",
+      "imagen": "1329",
       "enlace": "https://antioquenademaquinas.com/products/multiagujas-jontex-hilo-resorte?variant=47489820819765&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqQcMbSS7YDETj2ines45dI02DbYNBerH9dPersFrkZhFYDsmRZKEg",
       "specs": {
           "dimensiones": "63 cm × 41 cm × 61 cm.",
@@ -38584,7 +38555,7 @@ window.PRODUCTOS = [
       "precio": 3977948,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1331",
+      "imagen": "1330",
       "enlace": "https://maquinasla43.com/producto/maquina-ribeteadora-sewking-sk-335b/",
       "specs": {
           "dimensiones": "58.5 cm × 26 cm × 52.5 cm",
@@ -38613,7 +38584,7 @@ window.PRODUCTOS = [
       "precio": 3639870,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1332",
+      "imagen": "1331",
       "enlace": "https://ultimatefitness.com.co/producto/esquiadora-skierg-air-x200?id=1323&dataVariant=1674&srsltid=AfmBOopW1Q2EcSX9npf3nxKhOVZsU5uV8hfOvObcVDpJ4PaGt79O5F0P",
       "specs": {
           "dimensiones": "Dimensiones armada: 130 x 60 x 214 cm.",
@@ -38642,7 +38613,7 @@ window.PRODUCTOS = [
       "precio": 2080000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1333",
+      "imagen": "1332",
       "enlace": "Termofijadora Sublimadora 8 en1 | Grafeno Colombia | Bogotá",
       "specs": {
           "dimensiones": "Área de planchado 38 cm x 38 cm. Dimensiones totales aproximadas del equipo entre 60 cm y 70 cm de largo, 40 cm a 50 cm de ancho y 30 cm a 40 cm de alto según estructura.",
@@ -38671,7 +38642,7 @@ window.PRODUCTOS = [
       "precio": 224401,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1334",
+      "imagen": "1333",
       "enlace": "https://www.mercadolibre.com.co/maquina-tejedora-lana-mediana-para-el-hogar-tejer/up/MCOU3558875104?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO3310610120&from=gshop",
       "specs": {
           "dimensiones": "60 cm de largo × 15 cm de ancho × 8 cm de alto.",
@@ -38700,7 +38671,7 @@ window.PRODUCTOS = [
       "precio": 169000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1335",
+      "imagen": "1334",
       "enlace": "https://www.falabella.com.co/falabella-co/product/132941345/Patillera-Recargable-Recortadora-Para-La-Barba-Vgr-V990-Led/132941346",
       "specs": {
           "dimensiones": "6 cm de alto × 6 cm de ancho × 4 cm de profundidad.",
@@ -38729,7 +38700,7 @@ window.PRODUCTOS = [
       "precio": 1299090,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1336",
+      "imagen": "1335",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/356959/triturador-de-hielo-grande-electrico/356959/?kid=shopp_goosho_1430598&shop=1&gad_source=1&gad_campaignid=22296499605&gbraid=0AAAAADt6wnqgr5m8tjYlckLaZdVf_BwyA&gclid=CjwKCAjw5s_QBhAdEiwADD_gBgYCvGtNwiBqnrFV2N0ei4Khx7GSvdHjXLvj236ecm6twSBznchXCBoC9mkQAvD_BwE",
       "specs": {
           "dimensiones": "Ancho 25 cm alto 43 cm profundidad 41 cm",
@@ -38758,7 +38729,7 @@ window.PRODUCTOS = [
       "precio": 753870,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1337",
+      "imagen": "1336",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3044922/limpiador-a-vapor-apufsko-multiusos-para-hogar-con-deposito-grande-y-alta-potencia/3044922/?kid=shopp_goosho_1430598&shop=1&gad_source=1&gad_campaignid=22296499605&gbraid=0AAAAADt6wnqgr5m8tjYlckLaZdVf_BwyA&gclid=CjwKCAjw5s_QBhAdEiwADD_gBs7ifa95UwxI1PcIm6yRvpaVxNU4pgynsV4QkOeiBodfWyqHKeV6ShoCI1gQAvD_BwE",
       "specs": {
           "dimensiones": "Ancho 29 cm alto 23 cm largo 51 cm",
@@ -38787,7 +38758,7 @@ window.PRODUCTOS = [
       "precio": 156000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1338",
+      "imagen": "1337",
       "enlace": "https://www.falabella.com.co/falabella-co/product/146766240/Maquina-De-Afeitar-Rasuradora-Shaver-Super-Trim-VGR-332/146766241?kid=shopp254fa&gclsrc=aw.ds&gad_source=1&gad_campaignid=21634415508&gbraid=0AAAAADtuoySYvKfBn2ZwzxvKXaRQ9tMvX&gclid=Cj0KCQjwz9_QBhD_ARIsADnSCfCNTF4DwOF-_3vi7UhYTbjDH-4zoJAf6V9ovMekIkn9KBTyBCGEWYMaAnsdEALw_wcB",
       "specs": {
           "dimensiones": "6 cm de alto × 6 cm de ancho × 4 cm de profundidad.",
@@ -38816,7 +38787,7 @@ window.PRODUCTOS = [
       "precio": 23452,
       "iva": 0,
       "icono": "🎪",
-      "imagen": "1339",
+      "imagen": "1338",
       "enlace": "https://www.falabella.com.co/falabella-co/product/135315464/Neumatico-Bicicleta-29-X-1.9-2.3-Kenda-Llanta-Ancha-Mtb-Av/135315465",
       "specs": {
           "dimensiones": "Ancho: 29x1.9/2.3.- Largo de valvula: 33 mm",
@@ -38845,7 +38816,7 @@ window.PRODUCTOS = [
       "precio": 176670,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1340",
+      "imagen": "1339",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/357019/nevera-plastica-22-litros-rojo-estra/357019/",
       "specs": {
           "dimensiones": "Ancho 31 cm alto 31 cm largo 41 cm",
@@ -38874,7 +38845,7 @@ window.PRODUCTOS = [
       "precio": 2704988,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1341",
+      "imagen": "1340",
       "enlace": "https://www.alkosto.com/nevera-haceb-no-frost-congelador-superior-254-litros-con/p/7704353475005",
       "specs": {
           "dimensiones": "Medidas externas (ancho x alto x fondo) 62 x 160.5 x 69.2 cm ancho o frente externo 62 cm alto externo 160.5 cm fondo externo 69.2 cm",
@@ -38903,7 +38874,7 @@ window.PRODUCTOS = [
       "precio": 4485000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1342",
+      "imagen": "1341",
       "enlace": "https://www.alkosto.com/nevera-samsung-no-frost-congelador-superior-389-litros/p/8806095363264",
       "specs": {
           "dimensiones": "52 x 149.4 x 59.8 cm",
@@ -38932,7 +38903,7 @@ window.PRODUCTOS = [
       "precio": 161850,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1343",
+      "imagen": "1342",
       "enlace": "https://www.falabella.com.co/falabella-co/product/153568775/cava-everhouse-20-litros-roja/153568776?kid=shopp245fa&gclsrc=aw.ds&gad_source=4&gad_campaignid=21382549877&gbraid=0AAAAADtuoyTJ7IuZz-SmBiaZj5yPC6JzX&gclid=Cj0KCQjwz9_QBhD_ARIsADnSCfDjK5bQNsSTpMGCdD_657wMyYKDpt12jpTa8pTBrFYZ_O7ePOtFMCYaAtshEALw_wcB",
       "specs": {
           "dimensiones": "43 cm de alto × 26.5 cm de ancho × 33 cm de largo aproximadamente.",
@@ -38961,7 +38932,7 @@ window.PRODUCTOS = [
       "precio": 1763970,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1344",
+      "imagen": "1343",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/690416/congelador-horizontal-251-litros-blanco-hch164f25/690416/",
       "specs": {
           "dimensiones": "Ancho 95.4 cm Alto 84.5 cm Profundidad 61.6 cm",
@@ -38990,7 +38961,7 @@ window.PRODUCTOS = [
       "precio": 2270905,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1345",
+      "imagen": "1344",
       "enlace": "https://www.alkosto.com/nevera-challenger-no-frost-congelador-superior-231-litros/p/7705191041803",
       "specs": {
           "dimensiones": "52 x 149.4 x 59.8 cm",
@@ -39019,7 +38990,7 @@ window.PRODUCTOS = [
       "precio": 3249870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1346",
+      "imagen": "1345",
       "enlace": "https://www.alkosto.com/nevera-vitrina-kalley-frost-una-puerta-211-litros-k/p/7705946479936?fuente=google&medio=cpc&campaign=AK_COL_MAX_PEF_CPC_AON_LB_TLP_Linea-Blanca-Brand-AON_PAC&keyword=&gad_source=4&gad_campaignid=17335742628&gbraid=0AAAAADlnVbgKi5ItGuM419agV4P_E0_rp&gclid=Cj0KCQjwz9_QBhD_ARIsADnSCfAyG2K_jVJiZHvBwH4T606W521iQ3fVIAhFYQhnoVJLxTSEQ8fNsEcaAkSAEALw_wcBB",
       "specs": {
           "dimensiones": "Alto: 147 cm\nAncho: 61 cm\nFondo: 69 cm",
@@ -39048,7 +39019,7 @@ window.PRODUCTOS = [
       "precio": 1950000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1347",
+      "imagen": "1346",
       "enlace": "https://jadcomercializadora.com/refrigeracion/VT22BPY?srsltid=AU7gw4UFTEqSly6rlSYb44-yVIyHiiELARart_ptqb2BTYHKhZht9A6Regk",
       "specs": {
           "dimensiones": "84.5 cm de alto × 95.4 cm de ancho × 61.6 cm de profundidad.",
@@ -39077,7 +39048,7 @@ window.PRODUCTOS = [
       "precio": 6758804,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1348",
+      "imagen": "1347",
       "enlace": "https://exhibirequipos.com/producto/nevera-exhibidor-vertical-gelopar-blanca-570-litros/?srsltid=AfmBOorBSqlQvUsG2vKGtO_qMD1jcP8vSesyM8KSWP2wy3U3pdooLSoh",
       "specs": {
           "dimensiones": "65 x 196 x 80 cm (frente, alto y profundo)",
@@ -39106,7 +39077,7 @@ window.PRODUCTOS = [
       "precio": 4746476,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1349",
+      "imagen": "1348",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/320637/refrigerador-exhibidor-vitrina-puerta-vidrio-282-litros-blanco/320637/",
       "specs": {
           "dimensiones": "Ancho\n60\nAlto\n198.5\nProfundidad\n63.3\nTipo de refrigerante\nR290",
@@ -39135,7 +39106,7 @@ window.PRODUCTOS = [
       "precio": 3094535,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1350",
+      "imagen": "1349",
       "enlace": "https://www.alkosto.com/congelador-horizontal-haceb-dual-246-litros-coh251ce-blanco/p/7704353455960",
       "specs": {
           "dimensiones": "84.5 cm de alto × 95.4 cm de ancho × 61.6 cm de profundidad.",
@@ -39164,7 +39135,7 @@ window.PRODUCTOS = [
       "precio": 3079570,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1351",
+      "imagen": "1350",
       "enlace": "https://www.samsung.com/co/refrigerators/top-mount-freezer/rt5300d-top-mount-freezer-ai-energy-mode-301l-silver-rt31dg5220s9co/",
       "specs": {
           "dimensiones": "171.5 cm de alto × 60 cm de ancho × 64.7 cm de profundidad.",
@@ -39193,7 +39164,7 @@ window.PRODUCTOS = [
       "precio": 161850,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1352",
+      "imagen": "1351",
       "enlace": "https://www.locatelcolombia.com/nevera-portatil-cava-termica-camping-ecology-20l-45671/p",
       "specs": {
           "dimensiones": "43 cm de alto × 26.5 cm de ancho × 33 cm de largo aproximadamente.",
@@ -39222,7 +39193,7 @@ window.PRODUCTOS = [
       "precio": 3214100,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1353",
+      "imagen": "1352",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/700720/nevera-samsung-congelador-superior-301-litros-rt31dg5220b1-co-negra-con-inteligencia-artificial/700720/",
       "specs": {
           "dimensiones": "171.5 cm de alto × 60 cm de ancho × 64.7 cm de profundidad.",
@@ -39251,7 +39222,7 @@ window.PRODUCTOS = [
       "precio": 2704988,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1354",
+      "imagen": "1353",
       "enlace": "https://www.alkosto.com/nevera-haceb-no-frost-congelador-superior-254-litros-con/p/7704353475005?utm_source=google&utm_medium=organic&utm_campaign=Shopping-Organico&srsltid=AfmBOorvp4H16FeIZzKeGko5l_dyrvjFn-7vNEmBoiaLOkG_kGV5jGYgoCc",
       "specs": {
           "dimensiones": "Medidas externas (ancho x alto x fondo) 62 x 160.5 x 69.2 cm ancho o frente externo 62 cm alto externo 160.5 cm fondo externo 69.2 cm",
@@ -39280,7 +39251,7 @@ window.PRODUCTOS = [
       "precio": 5000000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1355",
+      "imagen": "1354",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3071496/vitrina-swan-swxls398wd-390l-sistema-de-refrigeracion-ventilado-rango-de-temperatura-0-a-10-c/3071496/",
       "specs": {
           "dimensiones": "171.5 cm de alto × 60 cm de ancho × 64.7 cm de profundidad.",
@@ -39309,7 +39280,7 @@ window.PRODUCTOS = [
       "precio": 2541350,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1356",
+      "imagen": "1355",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3029707/nevera-no-frost-243-litros-manija-externa-negro-cosmico-inverter-haceb/3029707/",
       "specs": {
           "dimensiones": "Ancho\n62 cm\nAlto\n148.5 cm\nProfundidad\n69.2 cm\nPeso",
@@ -39338,7 +39309,7 @@ window.PRODUCTOS = [
       "precio": 681000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1357",
+      "imagen": "1356",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3043352/nevera-cava-ice-roller-std-40-litros-42-qts/3043352/",
       "specs": {
           "dimensiones": "Ancho37 cmAlto45 cmLargo58.5 cm.",
@@ -39367,7 +39338,7 @@ window.PRODUCTOS = [
       "precio": 467870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1358",
+      "imagen": "1357",
       "enlace": "Nevera 52 Litros Wheeled - Homecenter.com.co",
       "specs": {
           "dimensiones": "43 cm de alto × 26.5 cm de ancho × 33 cm de largo aproximadamente.",
@@ -39396,7 +39367,7 @@ window.PRODUCTOS = [
       "precio": 896850,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1359",
+      "imagen": "1358",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/901360/nevera-plastica-70-litros-sin-ruedas-professional-en-polipropileno-hard-klimber-negra/901360/",
       "specs": {
           "dimensiones": "Ancho\n75 cm\nAlto\n42 cm\nLargo\n44 cm",
@@ -39425,7 +39396,7 @@ window.PRODUCTOS = [
       "precio": 1943350,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "1360",
+      "imagen": "1359",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/650210/nevera-frost-250-litros-n250cetir2-titanio/650210/",
       "specs": {
           "dimensiones": "Ancho61.2 cmAlto135.5 cmProfundidad69.2 cmPeso37 kg",
@@ -39454,7 +39425,7 @@ window.PRODUCTOS = [
       "precio": 2961446,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1361",
+      "imagen": "1360",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3029709/nevera-no-frost-311-litros-manija-externa-negro-cosmico-h6164nt31a-haceb/3029709/",
       "specs": {
           "dimensiones": "Ancho\n62 cm\nAlto\n177.6 cm\nProfundidad\n69.2 cm\nPeso\n54.4 kg",
@@ -39483,7 +39454,7 @@ window.PRODUCTOS = [
       "precio": 6288802,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1362",
+      "imagen": "1361",
       "enlace": "https://puntohogar.com.co/es/productos/nevera-panoramica-inducol-vv-510bl1cdld",
       "specs": {
           "dimensiones": "Aproximadamente 209 cm de alto × 72 cm de ancho × 72.4 cm de fondo.",
@@ -39512,7 +39483,7 @@ window.PRODUCTOS = [
       "precio": 2704988,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1363",
+      "imagen": "1362",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/257416/nevera-no-frost-254-litros-gris/257416/",
       "specs": {
           "dimensiones": "Medidas externas (ancho x alto x fondo) 62 x 160.5 x 69.2 cm ancho o frente externo 62 cm alto externo 160.5 cm fondo externo 69.2 cm",
@@ -39541,7 +39512,7 @@ window.PRODUCTOS = [
       "precio": 899470,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1364",
+      "imagen": "1363",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/719516/licuadora-1800-watts-blendsense-para-batidos/719516/?kid=dis_adi_1435636&gad_source=1&gad_campaignid=23616595358&gbraid=0AAAAADt6wnqb7cuA7frZUHALMdYM6bflo&gclid=CjwKCAjw5s_QBhAdEiwADD_gBnT0S8gia28I9y8oObYrJG015OC-YNOhg6jw5-ucNrOQ_hCXIgiSxhoComgQAvD_BwE",
       "specs": {
           "dimensiones": "Ancho 21.3 cm alto 44.5 cm largo 17.5 cm",
@@ -39570,7 +39541,7 @@ window.PRODUCTOS = [
       "precio": 868270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1365",
+      "imagen": "1364",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/907883/nivel-laser-3x360-luz-verde-ubermann/907883/?kid=shopp_goosho_1430598&shop=1&gad_source=1&gad_campaignid=22296499605&gbraid=0AAAAADt6wnqgr5m8tjYlckLaZdVf_BwyA&gclid=CjwKCAjw5s_QBhAdEiwADD_gBkE_8z4HU_l_TwLhq-tGuk81MEGuwuJmcqXEO8fLT_R4vB1cDw5NLBoC0VMQAvD_BwE",
       "specs": {
           "dimensiones": "Ancho 8.6 cm alto 11.5 cm largo 11 cm",
@@ -39599,7 +39570,7 @@ window.PRODUCTOS = [
       "precio": 322270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1366",
+      "imagen": "1365",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/666608/bolsa-para-vacio-30x40/666608/",
       "specs": {
           "dimensiones": "Ancho 40 cm largo 30 cm",
@@ -39628,7 +39599,7 @@ window.PRODUCTOS = [
       "precio": 16510,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1367",
+      "imagen": "1366",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/34536/plato-hondo-caribe/34536/",
       "specs": {
           "dimensiones": "Ancho 20.8 cm alto 5 cm largo 20.8 cm",
@@ -39657,7 +39628,7 @@ window.PRODUCTOS = [
       "precio": 1275890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1368",
+      "imagen": "1367",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/713987/juego-de-ollas-bateria-de-cocina-tramontina-paris-libre-pfoa-antiadherente-azul-9-piezas/713987/",
       "specs": {
           "dimensiones": "Dimensiones 58x35x34",
@@ -39686,7 +39657,7 @@ window.PRODUCTOS = [
       "precio": 1093958,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1369",
+      "imagen": "1368",
       "enlace": "https://www.selman.com.co/producto/olla-60x60-de-169-lt-munal/",
       "specs": {
           "dimensiones": "Altura: 50 cm diámetro: 50 cm",
@@ -39715,7 +39686,7 @@ window.PRODUCTOS = [
       "precio": 1555970,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1370",
+      "imagen": "1369",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/351481/caldero-industrial-60x70cm-con-tapa/351481/",
       "specs": {
           "dimensiones": "Alto 70 cm diámetro 60 cm",
@@ -39744,7 +39715,7 @@ window.PRODUCTOS = [
       "precio": 403500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1371",
+      "imagen": "1370",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3041449/olla-50-litros/3041449/",
       "specs": {
           "dimensiones": "Alto\n40 cm\nDiámetro\n50 cm\nTipo de utensilio\nOlla\nMaterial de la olla\nAluminio forjado\nCapacidad volumétrica\n50 litros",
@@ -39773,7 +39744,7 @@ window.PRODUCTOS = [
       "precio": 162110,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1372",
+      "imagen": "1371",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/513509/olla-presion-6-litros-corona-aluminio-universal/513509/",
       "specs": {
           "dimensiones": "23 cm de alto x 24 cm de diámetro",
@@ -39802,7 +39773,7 @@ window.PRODUCTOS = [
       "precio": 1360300,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1373",
+      "imagen": "1372",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/641749/olla-de-induccion-de-acero-inoxidable-de-19-litros/641749/",
       "specs": {
           "dimensiones": "Capacidad\n640 oz\nAlto\n29 cm\nMaterial\nacero inoxidable",
@@ -39831,7 +39802,7 @@ window.PRODUCTOS = [
       "precio": 127075,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1374",
+      "imagen": "1373",
       "enlace": "https://www.mercadolibre.com.co/olla-de-aluminio-recta-recortada-imusa-24-cm/up/MCOU2431434639?pdp_filters=state%3ACO-COR#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=20&type=product&tracking_id=8372271c-8999-408c-9fce-618edb0c92d9&wid=MCO856098942&sid=search",
       "specs": {
           "dimensiones": "Apto para cocina de inducción\tNo\nDimensiones\t24 cm\nModelo\tolla\nGarantía\t1 año",
@@ -39860,7 +39831,7 @@ window.PRODUCTOS = [
       "precio": 170430,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1375",
+      "imagen": "1374",
       "enlace": "https://www.mercadolibre.com.co/olla-tipo-caldero-40-de-32-litros-orejas-reforzadas/up/MCOU2433309665#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=27&type=product&tracking_id=eb9d4278-f1a4-4c11-b010-b0d6495579de&wid=MCO960483900&sid=search",
       "specs": {
           "dimensiones": "Altura: 50 cm diámetro: 50 cm",
@@ -39889,7 +39860,7 @@ window.PRODUCTOS = [
       "precio": 306475,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1376",
+      "imagen": "1375",
       "enlace": "https://www.mercadolibre.com.co/olla-40x40-cap-50-litros-color-gris/p/MCO25977459#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=21&type=product&tracking_id=1cf8a4cb-ddf9-4387-a0ed-a02e55d6fd5d&wid=MCO1375853117&sid=search",
       "specs": {
           "dimensiones": "Olla 40x40 Cap 50 Litros Color Gris",
@@ -39918,7 +39889,7 @@ window.PRODUCTOS = [
       "precio": 390000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1377",
+      "imagen": "1376",
       "enlace": "https://www.mercadolibre.com.co/olla-grande-sancochera-sopera-aluminio-50x50/up/MCOU2430293685#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=18&type=product&float_highlight=last_units&tracking_id=9f03b594-3043-4c4e-9123-42f345222773&wid=MCO610808824&sid=search",
       "specs": {
           "dimensiones": "Olla Grande Sancochera Sopera Aluminio 50x50",
@@ -39947,7 +39918,7 @@ window.PRODUCTOS = [
       "precio": 590510,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1378",
+      "imagen": "1377",
       "enlace": "https://www.mercadolibre.com.co/olla-caldero-grande-170-litros-60x60cm-sancocho-plateado/p/MCO66575575#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=8&type=product&tracking_id=3c2bbc37-ba32-44c3-9988-ee94df384c1c&wid=MCO1858226173&sid=search",
       "specs": {
           "dimensiones": "Altura x Ancho\n60 cm x 60 cm\nDiámetro\n60 cm\nPeso\n2,8 kg",
@@ -39976,7 +39947,7 @@ window.PRODUCTOS = [
       "precio": 667030,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1379",
+      "imagen": "1378",
       "enlace": "https://www.selman.com.co/producto/olla-arrocera-magna-15-lt/",
       "specs": {
           "dimensiones": "42.3 cm × 27.3 cm × 26 cm",
@@ -40005,7 +39976,7 @@ window.PRODUCTOS = [
       "precio": 288756,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1380",
+      "imagen": "1379",
       "enlace": "https://fuller.com.co/products/caldero-olla-profesional-de-aluminio-50x50-cm",
       "specs": {
           "dimensiones": "Altura: 50 cm diámetro: 50 cm",
@@ -40034,7 +40005,7 @@ window.PRODUCTOS = [
       "precio": 1891025,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1381",
+      "imagen": "1380",
       "enlace": "https://gruponorth.com/producto/caldero-munal-industrial-60x70-c-tapa/",
       "specs": {
           "dimensiones": "ipo\nCacerola\nAlto\n70 cm\nDiámetro\n60 cm\nColor\nPlateado",
@@ -40063,7 +40034,7 @@ window.PRODUCTOS = [
       "precio": 615890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1382",
+      "imagen": "1381",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/605759/olla-de-acero-inoxidable-gris/605759/",
       "specs": {
           "dimensiones": "Diámetro: 20 – 30 cm alto: 10 – 20 cm",
@@ -40092,7 +40063,7 @@ window.PRODUCTOS = [
       "precio": 441090,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1383",
+      "imagen": "1382",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/518639/olla-presion-13-litros-aluminio-universal/518639/",
       "specs": {
           "dimensiones": "32 cm de alto x 27 cm de diamnetro",
@@ -40121,7 +40092,7 @@ window.PRODUCTOS = [
       "precio": 3464890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1384",
+      "imagen": "1383",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3041480/olla-tramontina-empresarial-de-acero-inoxidable-50-cm-58l/3041480/",
       "specs": {
           "dimensiones": "Diámetro: 50 cm alto aproximado: 30 – 40 cm",
@@ -40150,7 +40121,7 @@ window.PRODUCTOS = [
       "precio": 572390,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1385",
+      "imagen": "1384",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3074490/olla-sopera-electrica-comercial/3074490/",
       "specs": {
           "dimensiones": "Alto: 35 – 45 cm diámetro: 30 – 40 cm",
@@ -40179,7 +40150,7 @@ window.PRODUCTOS = [
       "precio": 615890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1386",
+      "imagen": "1385",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/646247/ollas-de-acero-inoxidable-cap-2839-l/646247/",
       "specs": {
           "dimensiones": "Diámetro aproximado: 30 – 40 cm altura aproximada: 35 – 50 cm",
@@ -40208,7 +40179,7 @@ window.PRODUCTOS = [
       "precio": 119470,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1387",
+      "imagen": "1386",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/914645/set-de-utensilios-azul-x-15-piezas-acero-inoxidable/914645/",
       "specs": {
           "dimensiones": "38 x 12 x 6 cm",
@@ -40237,7 +40208,7 @@ window.PRODUCTOS = [
       "precio": 185770,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1388",
+      "imagen": "1387",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/742201/cajonero-infantil-de-piso-plastico-azul-lila-morado-apariencia-rattan-3-gavetas-33x66x39-cm-rimax/742201/",
       "specs": {
           "dimensiones": "Ancho: 33 cm alto: 66 cm fondo: 39 cm",
@@ -40266,7 +40237,7 @@ window.PRODUCTOS = [
       "precio": 17290,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1389",
+      "imagen": "1388",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/905833/organizador-acrilico-5-compartimentos/905833/",
       "specs": {
           "dimensiones": "26 x 20 x 20 (largo x ancho x alto",
@@ -40295,7 +40266,7 @@ window.PRODUCTOS = [
       "precio": 148070,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1390",
+      "imagen": "1389",
       "enlace": "https://www.comaderas.com/viniltex-galon-blanco-antihumedad-1401i-10340498",
       "specs": {
           "dimensiones": "Ancho: 30.2 cm profundidad: 24.9 cm alto: 8.7 cm",
@@ -40324,7 +40295,7 @@ window.PRODUCTOS = [
       "precio": 353470,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1391",
+      "imagen": "1390",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3066671/organizador-de-escritorio-de-6-niveles-en-color-dorado/3066671/",
       "specs": {
           "dimensiones": "Alto: 30 – 40 cm ancho: 25 – 35 cm fondo: 20 – 30 cm",
@@ -40353,7 +40324,7 @@ window.PRODUCTOS = [
       "precio": 204785,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1392",
+      "imagen": "1391",
       "enlace": "https://www.mercadolibre.com.co/ymvv-estante-montado-en-la-pared-para-esmalte-de-unas-de-6-6-wine-red/p/MCO2085850459#polycard_client=recommendations_vpp-cbt&reco_backend=vpp_cbt_retrieval_system&reco_model=rk_ent_v3_retsys_org_cbt&reco_client=vpp-cbt&reco_item_pos=1&reco_backend_type=low_level&reco_id=6d4a6946-8ef3-4812-85da-e474823bf46e&wid=MCO4005555188&sid=recos",
       "specs": {
           "dimensiones": "39 cm x 6 cm x 6 cm",
@@ -40382,7 +40353,7 @@ window.PRODUCTOS = [
       "precio": 94848,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1393",
+      "imagen": "1392",
       "enlace": "https://www.falabella.com.co/falabella-co/product/130367302/joyero-baul-3-niveles-COLOR-DISPONIBLE-EN-BODEGA/130367307",
       "specs": {
           "dimensiones": "Dimensiones: 17x13,5x12 cm.",
@@ -40411,7 +40382,7 @@ window.PRODUCTOS = [
       "precio": 1442870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1394",
+      "imagen": "1393",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3065953/estanteria-giratoria-de-4-niveles-en-acero-con-ruedas-de-360-grados-color-negro/3065953/",
       "specs": {
           "dimensiones": "54.48 cm x 72 cm x 90.93 cm (ancho x alto x fondo)",
@@ -40440,7 +40411,7 @@ window.PRODUCTOS = [
       "precio": 231270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1395",
+      "imagen": "1394",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/572991/organizador-de-accesorios-de-51-cm-con-64-compartimientos-truper/572991/",
       "specs": {
           "dimensiones": "Ancho 16.1 cm alto 39.7 cm profundidad 50.3 cm",
@@ -40469,7 +40440,7 @@ window.PRODUCTOS = [
       "precio": 278070,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1396",
+      "imagen": "1395",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3044639/set-x6-canastillas-plasticas-industrial-60x40x13cm-perforada/3044639/",
       "specs": {
           "dimensiones": "Dimensiones: 40 x 13 x 60 cm",
@@ -40498,7 +40469,7 @@ window.PRODUCTOS = [
       "precio": 278850,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1397",
+      "imagen": "1396",
       "enlace": "https://www.falabella.com.co/falabella-co/product/126196317/Osciloscopio-Ensamblado-DSO138-Pantalla-24-con-Sonda-Senales/1261963188",
       "specs": {
           "dimensiones": "18 cm × 12.5 cm × 3 cm.",
@@ -40527,7 +40498,7 @@ window.PRODUCTOS = [
       "precio": 6916000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1398",
+      "imagen": "1397",
       "enlace": "https://laredelectronica.com/producto/osciloscopio-upo2104/",
       "specs": {
           "dimensiones": "37 x 18 x 11 cm",
@@ -40556,7 +40527,7 @@ window.PRODUCTOS = [
       "precio": 1689870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1399",
+      "imagen": "1398",
       "enlace": "https://www.alkosto.com/cafetera-oster-expreso-perfect-brew-compacta-con-bomba/p/053891176576?fuente=google&medio=cpc&campaign=AK_COL_MAX_PEF_CPC_AON_PQ_TLP_Pequenos-Brand-AON_PAC&keyword=&gad_source=4&gad_campaignid=17347390052&gbraid=0AAAAADlnVbhNJM9QRWkBrx-1DkZ9itAFb&gclid=Cj0KCQjwz9_QBhD_ARIsADnSCfBDC8KGP3iAx0divIufCE-Q73BSSjPGFK4VKEY6p3i7PfJMG9_TxTUaAgvsEALw_wcB",
       "specs": {
           "dimensiones": "30 cm de alto × 20 cm de ancho × 27 cm de fondo.",
@@ -40585,7 +40556,7 @@ window.PRODUCTOS = [
       "precio": 79651,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1400",
+      "imagen": "1399",
       "enlace": "https://duramaxsafety.com/overol-enterizo-en-dril/?srsltid=AfmBOopiOA2EyLmU4eXjrnV9fiToNIBzFDVAZbMCVgB9OgqDuMR6keqVvY0",
       "specs": {
           "dimensiones": "180 cm de largo, 107 cm contorno del pecho, 96 cm contorno de cintura",
@@ -40614,7 +40585,7 @@ window.PRODUCTOS = [
       "precio": 117390,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1401",
+      "imagen": "1400",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3042432/traje-impermeable-alphatec-talla-xl/3042432/",
       "specs": {
           "dimensiones": "180 cm de largo, 107 cm contorno del pecho, 96 cm contorno de cintura",
@@ -40643,7 +40614,7 @@ window.PRODUCTOS = [
       "precio": 173550,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1402",
+      "imagen": "1401",
       "enlace": "http://mercadolibre.com.co/devanadera-electrica-del-hilo-maquina-de-bobina/p/MCO2005658277?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO3111529146&from=gshop",
       "specs": {
           "dimensiones": "60 cm de largo × 40 cm de ancho × 70 cm de alto",
@@ -40672,7 +40643,7 @@ window.PRODUCTOS = [
       "precio": 148928,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1403",
+      "imagen": "1402",
       "enlace": "https://www.falabella.com.co/falabella-co/product/148409778/oximetro-de-pulso-para-dedo-home-life-as-303-purpura/148409781",
       "specs": {
           "dimensiones": "5,7 x 3,2 x 3,4 cm",
@@ -40701,7 +40672,7 @@ window.PRODUCTOS = [
       "precio": 369117,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1404",
+      "imagen": "1403",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/511102/filtro-purificador-agua-nova/511102/?kid=shopp_goosho_1430598&shop=1&gad_source=4&gad_campaignid=22296499605&gbraid=0AAAAADt6wnpquGoFswFzD2dvklRdSfWcc&gclid=Cj0KCQjwz9_QBhD_ARIsADnSCfC6FqRV5us3PbvTaZD5ZlSzRbR4Z1GSCC68SqSCuOYs0bqjUiIjaF8aArESEALw_wcB",
       "specs": {
           "dimensiones": "30 cm a 45 cm de alto × 10 cm a 20 cm de diámetro",
@@ -40730,7 +40701,7 @@ window.PRODUCTOS = [
       "precio": 148390,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1405",
+      "imagen": "1404",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/653724/paila-munal-recortada-50/653724/",
       "specs": {
           "dimensiones": "Diámetro: 50 cm alto aproximado: 14 – 15 cm",
@@ -40759,7 +40730,7 @@ window.PRODUCTOS = [
       "precio": 94900,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1406",
+      "imagen": "1405",
       "enlace": "https://www.falabella.com.co/falabella-co/product/139664132/Paila-de-Aluminio-Con-Tapa-5,8-Litros-No-36/139664133",
       "specs": {
           "dimensiones": "36 cm de diámetro",
@@ -40788,7 +40759,7 @@ window.PRODUCTOS = [
       "precio": 1018368,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1407",
+      "imagen": "1406",
       "enlace": "https://aluminiosmj.com/fabrica-de-pailas-de-aluminio-grandes-a-buen-precio-78-litros-35/",
       "specs": {
           "dimensiones": "Diámetro total (de oreja a oreja): 87 cm altura: 28 cm",
@@ -40817,7 +40788,7 @@ window.PRODUCTOS = [
       "precio": 539500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1408",
+      "imagen": "1407",
       "enlace": "No aplica        No aplica        Los elementos no requieren suministro eléctrico para su funcionamiento. Su desempeño depende principalmente de condiciones mecanicas, ambientales o de instalación.        No aplica",
       "specs": {
           "dimensiones": "Diámetro (oreja a oreja): 60 cm altura (hondo): 18 cm",
@@ -40846,7 +40817,7 @@ window.PRODUCTOS = [
       "precio": 3228549,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1409",
+      "imagen": "1408",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/676082/kit-de-caldera-de-acero-inoxidable-776-litros/676082/",
       "specs": {
           "dimensiones": "Diámetro: 50 – 70 cm altura: 40 – 60 cm",
@@ -40875,7 +40846,7 @@ window.PRODUCTOS = [
       "precio": 51870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1410",
+      "imagen": "1409",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/905553/pala-punta-cuadrada-con-mango-largo-ergo/905553/",
       "specs": {
           "dimensiones": "Largo: 120 cm a 150 cm / ancho de pala: 23 cm a 30 cm.",
@@ -40904,7 +40875,7 @@ window.PRODUCTOS = [
       "precio": 101790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1411",
+      "imagen": "1410",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/85019/pala-recta-mango-madera-10-m/85019/",
       "specs": {
           "dimensiones": "•ancho: 21 cm •alto: 7 cm •espesor: 1 mm",
@@ -40933,7 +40904,7 @@ window.PRODUCTOS = [
       "precio": 70876,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1412",
+      "imagen": "1411",
       "enlace": "https://ferricentro.com/pala-cava-hoyos-pala-draga-con-mango-2-4-kg-ff-0000047600",
       "specs": {
           "dimensiones": "140 cm de longitud diámetro de perforación: 15 cm medidas de la hoja: 35 cm de largo por 13 de ancho",
@@ -40962,7 +40933,7 @@ window.PRODUCTOS = [
       "precio": 93730,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1413",
+      "imagen": "1412",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/624588/pala-carbonera-puno-en-y-comfort-grip-largo-42-107-cm/624588/?kid=dis_adi_1435636&gad_source=1&gad_campaignid=23616595358&gbraid=0AAAAADt6wnqb7cuA7frZUHALMdYM6bflo&gclid=CjwKCAjw5s_QBhAdEiwADD_gBlBut_Cv2-tzQcE07BA0TeYlUiiCnEiWpOLJpoOHiiIMgyBd9hQu2BoC5BUQAvD_BwE",
       "specs": {
           "dimensiones": "Ancho: 19.5 cm •alto: 30 cm",
@@ -40991,7 +40962,7 @@ window.PRODUCTOS = [
       "precio": 81770,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1414",
+      "imagen": "1413",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/624541/pala-cuadrada-profesional-largo-144-cm-y-ancho-24-cm/624541/",
       "specs": {
           "dimensiones": "•ancho: 22.1 cm •alto: 4 cm",
@@ -41020,7 +40991,7 @@ window.PRODUCTOS = [
       "precio": 103005,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1415",
+      "imagen": "1414",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/624545/pala-redonda-profesional-largo-144-cm-y-ancho-23-cm/624545/",
       "specs": {
           "dimensiones": "Ancho\n8 cm\nAlto\n144 cm\nTipo de pala\nPunta huevo",
@@ -41049,7 +41020,7 @@ window.PRODUCTOS = [
       "precio": 85790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1416",
+      "imagen": "1415",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118846867/palin-hoyador-colima-con-cabo/118846868?exp=homecenter",
       "specs": {
           "dimensiones": "Ancho\n19 cm\nAlto\n160 cm\nEspesor\n0.20 cm",
@@ -41078,7 +41049,7 @@ window.PRODUCTOS = [
       "precio": 16987,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1417",
+      "imagen": "1416",
       "enlace": "https://www.almacenesla13.com/products/pala-andina-1000-incametal?srsltid=AfmBOoqX5jMwBwEUepAni2o4mDqNNGSOy0Vy1NHmwSxfuZiwUCglAhVD",
       "specs": {
           "dimensiones": "32 cm de largo x 6 cm de ancho",
@@ -41107,7 +41078,7 @@ window.PRODUCTOS = [
       "precio": 24660,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1418",
+      "imagen": "1417",
       "enlace": "https://macho.com.co/HERRAMIENTA-AGRICOLA/146012-pala-redonda-numero-4-macho?srsltid=AfmBOoqGh02QAm_7idOXATNXd6HWag1Pv7903tpSpZ9J94ckfDalUFtG",
       "specs": {
           "dimensiones": "Dimensiones de la hoja: 26 x a13 cm",
@@ -41136,7 +41107,7 @@ window.PRODUCTOS = [
       "precio": 114010,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1419",
+      "imagen": "1418",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/148136/pala-redonda-n4-con-cabo-68036/148136/",
       "specs": {
           "dimensiones": "Ancho 26 cm alto 145 cm espesor 0.16 cm",
@@ -41165,7 +41136,7 @@ window.PRODUCTOS = [
       "precio": 165855,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1420",
+      "imagen": "1419",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/583315/paladraga-cavador-6-pulgadas/583315/",
       "specs": {
           "dimensiones": "Longitud total de 1.45 m",
@@ -41194,7 +41165,7 @@ window.PRODUCTOS = [
       "precio": 815100,
       "iva": 0,
       "icono": "🎪",
-      "imagen": "1421",
+      "imagen": "1420",
       "enlace": "https://cyclewear.com.co/products/palanca-de-freno-cambio-shimano-st-r3030-sora-3x9v?Color+Principal=Negro",
       "specs": {
           "dimensiones": "Tienen un diámetro de abrazadera de 23.8 mm a 24.2 mm",
@@ -41223,7 +41194,7 @@ window.PRODUCTOS = [
       "precio": 72208,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1422",
+      "imagen": "1421",
       "enlace": "https://macho.com.co/HERRAMIENTA-AGRICOLA/146015-palin-hoyador-macho",
       "specs": {
           "dimensiones": "•ancho: 19 cm •alto: 160 cm •espesor: 0.20 cm",
@@ -41252,7 +41223,7 @@ window.PRODUCTOS = [
       "precio": 30957,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1423",
+      "imagen": "1422",
       "enlace": "https://distribucionespvc.com.co/producto/pala-hoyadora-bellot-5505-h-palin-hoyador/?srsltid=AfmBOop2hqnmBqnmZD5fyYXFdykHrZLMi-NR1joS2OdZogYJp9QdqQvT",
       "specs": {
           "dimensiones": "Dimensiones 46 × 23 × 16 cm",
@@ -41281,7 +41252,7 @@ window.PRODUCTOS = [
       "precio": 8034,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1424",
+      "imagen": "1423",
       "enlace": "https://tienda.makro.com.co/p/palo-mezclador-cafe-festival-madera-bolsa-x-500u-101354?srsltid=AfmBOore6pvLk0K5nxN5Bd3HG2B9Pr31w53x17tskIolx1kVDEEjMoY0",
       "specs": {
           "dimensiones": "Alto: 22,8 cm ancho: 16.0 cm profundo: n/a",
@@ -41310,7 +41281,7 @@ window.PRODUCTOS = [
       "precio": 491790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1425",
+      "imagen": "1424",
       "enlace": "https://autosolar.co/paneles-solares/paneles-solares-monocristalinos",
       "specs": {
           "dimensiones": "Dimensiones 190 cm x 113 cm",
@@ -41339,7 +41310,7 @@ window.PRODUCTOS = [
       "precio": 114790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1426",
+      "imagen": "1425",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3026738/papelera-60-litros-vaiven-negra/3026738/?kid=shopp_goosho_1430598&shop=1&gad_source=1&gad_campaignid=22296499605&gbraid=0AAAAADt6wnp3Ke3y5lFHqBE7N8NonJoGp&gclid=CjwKCAjwidXQBhAZEiwA4egw6DC5LaOjadOw_jUBaNz6JdvQebpldrnWdrAj0WB19RFF6GRei8uEvRoCgZUQAvD_BwE",
       "specs": {
           "dimensiones": "Ancho 30 cm alto 75 cm largo 40 cm",
@@ -41368,7 +41339,7 @@ window.PRODUCTOS = [
       "precio": 129870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1427",
+      "imagen": "1426",
       "enlace": "https://www.rimax.com.co/papelera-style-tapa-vaiven-50-litros/p?idsku=298&utm_term=&utm_campaign=&utm_source=googleads&utm_medium=ppc&gad_source=1&gad_campaignid=23433936602&gbraid=0AAAAADOz-ZB-wdXzbOQWaATvBWPkvvcWP&gclid=Cj0KCQjwz9_QBhD_ARIsADnSCfBrasPIt4yt5LVJERAQlJgxQDjhi-SipuE-VebXa7gGxXbhcivbRYgaArfDEALw_wcB",
       "specs": {
           "dimensiones": "Largo: 48.9 cm × ancho: 34 cm × alto: 69.3 cm",
@@ -41397,7 +41368,7 @@ window.PRODUCTOS = [
       "precio": 75790,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1428",
+      "imagen": "1427",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/908692/set-4-piezas-alicates-punta-bauker/908692/",
       "specs": {
           "dimensiones": "Tamaño: 7\" (180 mm), diámetro: 1,8 mm alto 1,2 cm",
@@ -41426,7 +41397,7 @@ window.PRODUCTOS = [
       "precio": 27257,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1429",
+      "imagen": "1428",
       "enlace": "https://www.masglo.com/collections/limas-para-unas-manicure-pedicure/products/lima-para-unas-lavable-paquete-x-10",
       "specs": {
           "dimensiones": "21 cm de largo x 2 cm de ancho",
@@ -41455,7 +41426,7 @@ window.PRODUCTOS = [
       "precio": 51610,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1430",
+      "imagen": "1429",
       "enlace": "https://www.adh.com.co/products/pt-240-a",
       "specs": {
           "dimensiones": "Dimensiones 21.5 x 27.5 x 0.3 cm",
@@ -41484,7 +41455,7 @@ window.PRODUCTOS = [
       "precio": 12584,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1431",
+      "imagen": "1430",
       "enlace": "https://berpa.com.co/VASOS-Y-TAPAS/tapa-darne-domo-9-10-12-16-crix50-cj12-plantilla-r743?srsltid=AfmBOoo-kLx-_gPROTtBLcLbM1H-MQDmOj0_dHwmVHZL8ZO5ncRggaAg",
       "specs": {
           "dimensiones": "Diámetro de boca: 9,3 cm diámetro de base: 6 cm. Alto del vaso: 10,7 cm. Alto de la tapa domo: 4,5 cm alto total (vaso + tapa): 14,7 cm (se reduce aprox. 0,5 cm al encajar).",
@@ -41513,7 +41484,7 @@ window.PRODUCTOS = [
       "precio": 12979,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1432",
+      "imagen": "1431",
       "enlace": "https://www.farmatodo.com.co/producto/500028170-cucharas-desechables-biodegradables-izy-eco-x2-unidades-izy-eco-2-cajas-de-12-cucharas-x-2-paquetes-de-12-unidades?wpsrc=Organic+Search&wpsn=www.google.com",
       "specs": {
           "dimensiones": "12 x 3,5 cm",
@@ -41542,7 +41513,7 @@ window.PRODUCTOS = [
       "precio": 12979,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1433",
+      "imagen": "1432",
       "enlace": "https://www.farmatodo.com.co/producto/500028179-cuchillos-desechables-biodegradables-izy-eco-x2-unidades-izy-eco-2-cajas-de-12-cuchillos-x-2-cajas-de-12-cuchillos?wpsrc=Organic+Search&wpsn=www.google.com",
       "specs": {
           "dimensiones": "12 x 3,5 cm",
@@ -41571,7 +41542,7 @@ window.PRODUCTOS = [
       "precio": 12979,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1434",
+      "imagen": "1433",
       "enlace": "https://www.farmatodo.com.co/producto/500028242-tenedores-desechables-biodegradables-izy-eco-x2-unidades-izy-eco-2-cajas-con-12-tenedores-x-2-cajas-x-12-tenedores",
       "specs": {
           "dimensiones": "12 x 3,5 cm",
@@ -41600,7 +41571,7 @@ window.PRODUCTOS = [
       "precio": 1034885,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1435",
+      "imagen": "1434",
       "enlace": "https://www.falabella.com.co/falabella-co/product/128228521/Paraguas-y-Base-Roja-Desplazada-de-3-Metros/128228622",
       "specs": {
           "dimensiones": "Ancho 44 cm alto 135 cm largo 135 cm forma redonda",
@@ -41629,7 +41600,7 @@ window.PRODUCTOS = [
       "precio": 49920,
       "iva": 0,
       "icono": "🎪",
-      "imagen": "1436",
+      "imagen": "1435",
       "enlace": "https://www.libarbicicletas.com/products/paral-central-para-bicicletas-spark?variant=42199911202864&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorT_rDy1uFx2aZ0rmWOLjXSo5FMfYh-BDlGfxMpokY2j7vnWYC71kY",
       "specs": {
           "dimensiones": "30 cm y 40 cm de longitud",
@@ -41658,7 +41629,7 @@ window.PRODUCTOS = [
       "precio": 285870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1437",
+      "imagen": "1436",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/381937/parasol-playa-aluminio-2-mt-uv50-rayos/381937/",
       "specs": {
           "dimensiones": "Diámetro: 180 cm altura total: aprox. 180 – 200 cm",
@@ -41687,7 +41658,7 @@ window.PRODUCTOS = [
       "precio": 27430,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1438",
+      "imagen": "1437",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/898470/gancho-pared-engomado-115x140mm-acero-galvanizado/898470/",
       "specs": {
           "dimensiones": "Largo: 140 mm alto: 115 mm espesor: variable según diseño del soporte",
@@ -41716,7 +41687,7 @@ window.PRODUCTOS = [
       "precio": 1468870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1439",
+      "imagen": "1438",
       "enlace": "https://www.homecenter.com.co/homecenter-co/search?Ntt=PARRILLA%20PARA%20ASADO%20AL%20CARB%C3%93N",
       "specs": {
           "dimensiones": "Diámetros comunes: 37 cm, 44 cm, 50 cm, 76 cm, 104 cm altura promedio: 60 – 110 cm según modelo",
@@ -41745,7 +41716,7 @@ window.PRODUCTOS = [
       "precio": 311870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1440",
+      "imagen": "1439",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/623023/parrilla-rectanguar-tramontina-28cm/623023/",
       "specs": {
           "dimensiones": "Largo: 28 cm ancho: aprox. 18 – 22 cm (según modelo estándar similar) altura: baja estructura tipo rejilla",
@@ -41774,7 +41745,7 @@ window.PRODUCTOS = [
       "precio": 274890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1441",
+      "imagen": "1440",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/912762/asador-a-carbon-circular-diametro-44cm-expert-mr-beef/912762/",
       "specs": {
           "dimensiones": "Diámetro: 44 cm altura aproximada: 60 – 75 cm",
@@ -41803,7 +41774,7 @@ window.PRODUCTOS = [
       "precio": 17337,
       "iva": 0,
       "icono": "🎪",
-      "imagen": "1442",
+      "imagen": "1441",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/567146/pedales-bicicleta-aluminio-pro-r650-bmx-mtb/567146/",
       "specs": {
           "dimensiones": "Largo aproximado: 9 – 11 cm ancho aproximado: 8 – 10 cm altura: 2 – 3 cm",
@@ -41832,7 +41803,7 @@ window.PRODUCTOS = [
       "precio": 2870322,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1443",
+      "imagen": "1442",
       "enlace": "https://zonagamer.co/products/silla-spa-nail-salon-white?variant=52126395466039&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOor1jbJ-tU15w64DbTnE2BciQ-XUxbWanOvQ8buD2Y4toHYz2O455VU",
       "specs": {
           "dimensiones": "Ancho: 60.5 cm alto: 62.99 cm profundidad: 63.5 cm",
@@ -41861,7 +41832,7 @@ window.PRODUCTOS = [
       "precio": 104390,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1444",
+      "imagen": "1443",
       "enlace": "https://www.falabella.com.co/falabella-co/product/153338192/desplumadora-electrica-cocina/153338193",
       "specs": {
           "dimensiones": "Alto aproximado: 60 – 80 cm ancho aproximado: 40 – 60 cm profundidad aproximada: 40 – 60 cm",
@@ -41890,7 +41861,7 @@ window.PRODUCTOS = [
       "precio": 3490240,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1445",
+      "imagen": "1444",
       "enlace": "https://agroya.co/product/peletizadora-100kg-hr-con-gasolina/?srsltid=AfmBOopc_AiKb231y0N-V4QV3_r3zHePCSDRzbSXYzLqE0yHiObXHkd6m2w",
       "specs": {
           "dimensiones": "Largo aproximado: 80 – 100 cm ancho aproximado: 40 – 60 cm alto aproximado: 70 – 100 cm",
@@ -41919,7 +41890,7 @@ window.PRODUCTOS = [
       "precio": 5639600,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1446",
+      "imagen": "1445",
       "enlace": "https://agroya.co/product/peletizadora-180kg-hr/",
       "specs": {
           "dimensiones": "Largo: 68 cm ancho: 45 cm alto: 45 cm",
@@ -41948,7 +41919,7 @@ window.PRODUCTOS = [
       "precio": 369070,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1447",
+      "imagen": "1446",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/727909/perchero-para-ropa/727909/",
       "specs": {
           "dimensiones": "Dimensiones generales: 88.90 × 172.72 × 45 cm",
@@ -41977,7 +41948,7 @@ window.PRODUCTOS = [
       "precio": 117590,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1448",
+      "imagen": "1447",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/541649/perol-antiadherente-18cm-en-en-aluminio-fundido-tapa-vidrio-gusto-imusa/541649/",
       "specs": {
           "dimensiones": "Diámetro: 18 cm alto aproximado: 12.7 cm espesor aproximado: 3 mm",
@@ -42006,7 +41977,7 @@ window.PRODUCTOS = [
       "precio": 213590,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1449",
+      "imagen": "1448",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/266570/perol-24-cm-5-litros/266570/",
       "specs": {
           "dimensiones": "Diámetro: 24 cm alto: 16.3 cm",
@@ -42035,7 +42006,7 @@ window.PRODUCTOS = [
       "precio": 26290,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1450",
+      "imagen": "1449",
       "enlace": "https://www.falabella.com.co/falabella-co/product/136752444/PESTANINA-TROPICO-CURVE-VOLUME-NUDE-RUBY-ROSE/136752445",
       "specs": {
           "dimensiones": "Alto aproximado: 13.5 cm ancho aproximado: 1.9 cm profundidad aproximada: 1.9 cm",
@@ -42064,7 +42035,7 @@ window.PRODUCTOS = [
       "precio": 5518370,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1451",
+      "imagen": "1450",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/707017/set-inicial-instrumento-de-medicion-de-ph-temperatura-para-medios-semisolidos/707017/",
       "specs": {
           "dimensiones": "Ancho aproximado: 14.5 cm largo aproximado: 3.8 cm",
@@ -42093,7 +42064,7 @@ window.PRODUCTOS = [
       "precio": 486590,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1452",
+      "imagen": "1451",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/586303/azadon-de-pico-de-9144-cm/586303/",
       "specs": {
           "dimensiones": "Largo del mango: 91.44 cm largo total aproximado: 36\" ancho aproximado: 18.63\" espesor aproximado: 3.63\"",
@@ -42122,7 +42093,7 @@ window.PRODUCTOS = [
       "precio": 153890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1453",
+      "imagen": "1452",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/716669/picadora-de-plasticoy-acero-inoxidable-color-blanco/716669/",
       "specs": {
           "dimensiones": "Ancho aproximado: 15 a 20 cm alto aproximado: 20 a 30 cm profundidad aproximada: 15 a 20 cm",
@@ -42148,10 +42119,10 @@ window.PRODUCTOS = [
       "tipo": "Equipo",
       "nombre": "Picadora de frutas manual",
       "desc": "Picadora multifuncional diseñada para cortar, rallar, triturar y rebanar verduras y frutas de manera rápida y práctica. Incluye múltiples cuchillas intercambiables en acero inoxidable y recipiente de almacenamiento para facilitar la preparación de alimentos en el hogar. Su diseño compacto y desmontable permite una limpieza sencilla y almacenamiento cómodo | Funciones: cortar, picar, rebanar, rallar y triturar incluye recipiente contenedor diseño desmontable para fácil limpieza cuchillas de alta resistencia en acero inoxidable uso doméstico y cocina diaria",
-      "precio": 582890,
+      "precio": 324870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1454",
+      "imagen": "1453",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/703711/picadora-de-verduras-de-8-cuchillas-10-en-1/703711/",
       "specs": {
           "dimensiones": "Largo aproximado: 27 cm ancho aproximado: 12 cm alto aproximado: 12 cm",
@@ -42159,7 +42130,7 @@ window.PRODUCTOS = [
           "peso": "Peso aproximado: 1 a 1.5 kg",
           "referencia": "",
           "material": "",
-          "composicion": "",
+          "composicion": "8 cuchillas intercambiables rebanan, dados, pican, rallan y trituran verduras, frutas, queso",
           "capacidad": "Capacidad apta para preparación doméstica de frutas y verduras",
           "potencia": "No requiere energía eléctrica",
           "otrasEspecificaciones": "Incluye accesorios intercambiables",
@@ -42180,7 +42151,7 @@ window.PRODUCTOS = [
       "precio": 2064946,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1455",
+      "imagen": "1454",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/54349/picapasto-electrico-jtrp40-de-15-hp/54349/",
       "specs": {
           "dimensiones": "Largo: 68 cm ancho: 45 cm alto: 46 cm",
@@ -42209,7 +42180,7 @@ window.PRODUCTOS = [
       "precio": 3910322,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1456",
+      "imagen": "1455",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3074492/picadora-de-alimentos-comercial/3074492/",
       "specs": {
           "dimensiones": "Alto aproximado: 50 a 70 cm ancho aproximado: 25 a 40 cm profundidad aproximada: 30 a 50 cm",
@@ -42238,7 +42209,7 @@ window.PRODUCTOS = [
       "precio": 4945000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1457",
+      "imagen": "1456",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1187330865-picapasto-trp400-trapp-con-motor-electrico-_JM",
       "specs": {
           "dimensiones": "Largo: 68 cm ancho: 45 cm alto: 45 cm aproximadamente",
@@ -42267,7 +42238,7 @@ window.PRODUCTOS = [
       "precio": 3976362,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1458",
+      "imagen": "1457",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-464531820-picapasto-penagos-pp300-hidroherramientas-_JM",
       "specs": {
           "dimensiones": "Largo: 70 cm ancho: 70 cm alto: 92 cm aproximadamente",
@@ -42296,7 +42267,7 @@ window.PRODUCTOS = [
       "precio": 3133286,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1459",
+      "imagen": "1458",
       "enlace": "https://exhibirequipos.com/producto/picatodo-comercial-industrial-restaurantes/?srsltid=AfmBOor5_iassDkuZBDiTvyUS4ETcSpOWwp2RGsAthTSBJIiB9h9FHm07Jc",
       "specs": {
           "dimensiones": "Frente: 32 cm profundidad: 40 cm alto: 53 cm aproximadamente",
@@ -42325,7 +42296,7 @@ window.PRODUCTOS = [
       "precio": 100091,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1460",
+      "imagen": "1459",
       "enlace": "https://www.exito.com/picatodo-electrico-multifuncional-2l-acero-inoxidable-2-velocidades-y-alta-potencia-104886791-mp/p?idsku=104886791&srsltid=AfmBOor-qbzVDZbcL7MI5rJ1uKt9u9JU_T68dSUemLGIUAr0ahqmSFeahaw",
       "specs": {
           "dimensiones": "Alto aproximado: 25 a 30 cm ancho aproximado: 18 a 22 cm profundidad aproximada: 18 a 22 cm",
@@ -42354,7 +42325,7 @@ window.PRODUCTOS = [
       "precio": 14190,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1461",
+      "imagen": "1460",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/132781/pincel-plano-nylon-n-12/132781/",
       "specs": {
           "dimensiones": "Ancho: 1 cm alto: 15 cm profundidad: 1 cm",
@@ -42383,7 +42354,7 @@ window.PRODUCTOS = [
       "precio": 16390,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1462",
+      "imagen": "1461",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/209435/pincel-plano-en-nylon-x-4-unidades/209435/",
       "specs": {
           "dimensiones": "Ancho aproximado: 7 cm alto aproximado: 20 cm profundidad aproximada: 1 cm",
@@ -42412,7 +42383,7 @@ window.PRODUCTOS = [
       "precio": 72670,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1463",
+      "imagen": "1462",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/591062/pincel-fino-plano-de-cerdas-de-635-cm/591062/",
       "specs": {
           "dimensiones": "Ancho aproximado: 6.35 cm largo aproximado: 19 a 31 cm espesor aproximado: 0.76 a 1.27 cm",
@@ -42441,7 +42412,7 @@ window.PRODUCTOS = [
       "precio": 61750,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1464",
+      "imagen": "1463",
       "enlace": "https://www.homecenter.com.co/homecenter-co/search?Ntt=PINCEL%20Y%20PINCELES%20DE%20ESPUMA",
       "specs": {
           "dimensiones": "Tamaños disponibles entre 1 y 4\"",
@@ -42470,7 +42441,7 @@ window.PRODUCTOS = [
       "precio": 24570,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1465",
+      "imagen": "1464",
       "enlace": "https://www.util.com.co/pinza-de-punta-cromo-vanadio-industrial-discover-65/p?idsku=1911&srsltid=AfmBOooiVt8grGjxi7IQ-ZQNyXixi2C_iwVrZOb6La_0RAzkexYoSuVVa3w",
       "specs": {
           "dimensiones": "6.5\" (16.5 cm aprox.)",
@@ -42499,7 +42470,7 @@ window.PRODUCTOS = [
       "precio": 35230,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1466",
+      "imagen": "1465",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/356914/pinza-en-acero-estandar-de-30cm/356914/",
       "specs": {
           "dimensiones": "30 cm",
@@ -42528,7 +42499,7 @@ window.PRODUCTOS = [
       "precio": 19487,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1467",
+      "imagen": "1466",
       "enlace": "https://www.ikea.com/co/es/p/idealisk-pinzas-acero-inoxidable-70579375/",
       "specs": {
           "dimensiones": "30 cm de largo",
@@ -42557,7 +42528,7 @@ window.PRODUCTOS = [
       "precio": 121628,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1468",
+      "imagen": "1467",
       "enlace": "https://www.jadel.com.co/productos/pinza-alicate-para-hacer-argollas-4-en-1/?variant=1236029147&pf=mc",
       "specs": {
           "dimensiones": "18 cm de largo",
@@ -42586,7 +42557,7 @@ window.PRODUCTOS = [
       "precio": 63648,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1469",
+      "imagen": "1468",
       "enlace": "https://www.tiendanomada.co/product/pipeta-gas-primus-230g/",
       "specs": {
           "dimensiones": "10.8 cm diámetro × 8.5 cm alto",
@@ -42615,7 +42586,7 @@ window.PRODUCTOS = [
       "precio": 63648,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1470",
+      "imagen": "1469",
       "enlace": "https://suescalada.com/producto/powergas-pipeta-gas-pequena-camping-primus/?srsltid=AfmBOornwz0oYg67C_dKgspZ20ssV9QCQZozlV5SEaQuUSZZmiIMPRVb2Zc",
       "specs": {
           "dimensiones": "10.8 cm diámetro × 8.5 cm alto",
@@ -42644,7 +42615,7 @@ window.PRODUCTOS = [
       "precio": 26000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1471",
+      "imagen": "1470",
       "enlace": "https://www.industriasfusioncolor.com/producto/pirograbador-tipo-cautin-5-puntas-soporte/?srsltid=AfmBOorPVVdavsXyGaWdpPTKX26ljcqPVxDqlkWwqNHRyPs5Yau1KeYOw10",
       "specs": {
           "dimensiones": "25 cm de largo",
@@ -42673,7 +42644,7 @@ window.PRODUCTOS = [
       "precio": 176775,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1472",
+      "imagen": "1471",
       "enlace": "https://www.mercadolibre.com.co/juego-de-boligrafos-de-pirografia-79-piezas-kit-profesiona/p/MCO2063641910?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO3597323894&from=gshop",
       "specs": {
           "dimensiones": "25 cm de largo",
@@ -42702,7 +42673,7 @@ window.PRODUCTOS = [
       "precio": 254686,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1473",
+      "imagen": "1472",
       "enlace": "https://egaval.co/producto/pistola-de-dispensador-de-3-4-marca-opw/",
       "specs": {
           "dimensiones": "3/4”",
@@ -42731,7 +42702,7 @@ window.PRODUCTOS = [
       "precio": 185037,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1474",
+      "imagen": "1473",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/713025/pistola-de-calor-1600w-utb16078-total-tools/713025/",
       "specs": {
           "dimensiones": "26.5 cm largo × 23.5 cm alto × 8.7 cm ancho",
@@ -42760,7 +42731,7 @@ window.PRODUCTOS = [
       "precio": 2214680,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1475",
+      "imagen": "1474",
       "enlace": "https://www.mercadolibre.com.co/quick-861dw-estacion-de-soldadura-aire-caliente-1000w-negro/p/MCO36121180",
       "specs": {
           "dimensiones": "24.5 cm × 18.8 cm × 13.5 cm",
@@ -42789,7 +42760,7 @@ window.PRODUCTOS = [
       "precio": 88837,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1476",
+      "imagen": "1475",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/735649/pistola-de-calafateo-tipo-salchicha-en-aluminio-de-9/735649/",
       "specs": {
           "dimensiones": "9 Cm",
@@ -42818,7 +42789,7 @@ window.PRODUCTOS = [
       "precio": 333970,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1477",
+      "imagen": "1476",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3010330/plancha-vertical-1100-watts-origin-travel-eucalyptus/3010330/",
       "specs": {
           "dimensiones": "24 cm alto × 16 cm largo × 8 cm ancho",
@@ -42847,7 +42818,7 @@ window.PRODUCTOS = [
       "precio": 682500,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1478",
+      "imagen": "1477",
       "enlace": "https://grupozingal.co/producto/plancha-asadora-frente-90-cm-premium/",
       "specs": {
           "dimensiones": "70 cm × 60 cm",
@@ -42876,7 +42847,7 @@ window.PRODUCTOS = [
       "precio": 200070,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1479",
+      "imagen": "1478",
       "enlace": "https://www.olimpica.com/plancha-imusa-dob-c-vena-antiad-of/p",
       "specs": {
           "dimensiones": "55 cm largo × 35 cm ancho",
@@ -42905,7 +42876,7 @@ window.PRODUCTOS = [
       "precio": 2946497,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1480",
+      "imagen": "1479",
       "enlace": "https://guinovart.com.co/producto/parrilla-asadora-sencilla-60-x-60-x-87-cm/?srsltid=AfmBOoqI-JmCXPrPVEwT6bVXsydXaaBSXdZry-JuIaJs1NtLR17kJF4nvCw",
       "specs": {
           "dimensiones": "60 cm largo × 60 cm ancho × 87 cm alto",
@@ -42934,7 +42905,7 @@ window.PRODUCTOS = [
       "precio": 467870,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1481",
+      "imagen": "1480",
       "enlace": "https://www.alkosto.com/parrilla-electrica-imusa-giant-plancha-plateado/p/3045380028975?utm_source=google&utm_medium=organic&utm_campaign=Shopping-Organico&srsltid=AfmBOooqge1WiFqWPVvO8PeEzWLgsb6L506f20_g4PVuL80Dv6Gc9LWH6Tc",
       "specs": {
           "dimensiones": "Largo 61.3 cm x ancho 35.1 cm x alto 7.5 cm.",
@@ -42963,7 +42934,7 @@ window.PRODUCTOS = [
       "precio": 1429890,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1482",
+      "imagen": "1481",
       "enlace": "https://www.mercadolibre.com.co/plancha-de-vapor-silver-star-es85-220-v-alimentada-por-grav/up/MCOU4005779986",
       "specs": {
           "dimensiones": "25 cm de alto x 17 cm de largo x 14 cm de ancho.",
@@ -42992,7 +42963,7 @@ window.PRODUCTOS = [
       "precio": 12958000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1483",
+      "imagen": "1482",
       "enlace": "https://marcaidea.com/producto/termofijadora-plancha-industrial-80-x-100-cm-sublimadora-bandeja-extraible/?srsltid=AfmBOooTM6UArgpUOXfNrJ5f_-O2q_l0vXOIDu6lQFDcU53VZLxd5AQMStQ",
       "specs": {
           "dimensiones": "120 cm de largo x 100 cm de ancho x 110 cm de alto aproximadamente.",
@@ -43021,7 +42992,7 @@ window.PRODUCTOS = [
       "precio": 2126800,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1484",
+      "imagen": "1483",
       "enlace": "https://azero.com.co/products/plancha-asadora-industrial-con-gratinador?srsltid=AfmBOoq7nOhTXh-joSmTrFXobLulxSx3BdU2G8nrz0oVAFeV0iwErJAikWM",
       "specs": {
           "dimensiones": "90 cm de largo x 60 cm de ancho x 85 cm de alto aproximadamente.",
@@ -43050,7 +43021,7 @@ window.PRODUCTOS = [
       "precio": 517656,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1485",
+      "imagen": "1484",
       "enlace": "https://maquinastitus.com.co/products/plancha-industrial-silver-star-vapor-es-300?srsltid=AfmBOoprFbess-9IoDkt59fNMUKMrjkZu0cCkplphET-oe8zskatcgbhSjg",
       "specs": {
           "dimensiones": "28 cm de largo x 16 cm de ancho x 18 cm de alto aproximadamente.",
@@ -43079,7 +43050,7 @@ window.PRODUCTOS = [
       "precio": 616882,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1486",
+      "imagen": "1485",
       "enlace": "https://www.mercadolibre.com.co/plancha-industrial-silver-star-vapor-negra-1000w-110v-con-accesorios/p/MCO19960227",
       "specs": {
           "dimensiones": "28 cm de largo x 16 cm de ancho x 18 cm de alto aproximadamente.",
@@ -43108,7 +43079,7 @@ window.PRODUCTOS = [
       "precio": 527722,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1487",
+      "imagen": "1486",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/703204/plancha-plana-de-titanio-para-cabello-con-temperaturas-ajustables/703204/",
       "specs": {
           "dimensiones": "32 cm de largo x 4 cm de ancho x 5 cm de alto aproximadamente.",
@@ -43137,7 +43108,7 @@ window.PRODUCTOS = [
       "precio": 311870,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1488",
+      "imagen": "1487",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/664979/plancha-profesional-vaper-gonka/664979/",
       "specs": {
           "dimensiones": "33 cm de largo x 5 cm de ancho x 6 cm de alto aproximadamente.",
@@ -43166,7 +43137,7 @@ window.PRODUCTOS = [
       "precio": 458000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1489",
+      "imagen": "1488",
       "enlace": "https://www.mercadolibre.com.co/plancha-babyliss-de-cabello-100-original-profesional-9557/up/MCOU2433364218#polycard_client=search-desktop&float_highlight=last_units&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=4&type=product&tracking_id=72924161-8702-445d-a2fe-22da6f707f43&wid=MCO557876836&sid=search",
       "specs": {
           "dimensiones": "31 cm de largo x 4 cm de ancho x 5 cm de alto aproximadamente.",
@@ -43195,7 +43166,7 @@ window.PRODUCTOS = [
       "precio": 450060,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1490",
+      "imagen": "1489",
       "enlace": "https://www.falabella.com.co/falabella-co/product/130677460/Plancha-Semi-industrial-Silver-Star-Es-300-Estandar/130677463",
       "specs": {
           "dimensiones": "28 cm de largo x 16 cm de ancho x 18 cm de alto aproximadamente.",
@@ -43224,7 +43195,7 @@ window.PRODUCTOS = [
       "precio": 817830,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1491",
+      "imagen": "1490",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/445225/plancha-vertical-a-vapor-salav-gs18-negro/445225/",
       "specs": {
           "dimensiones": "38 cm de largo x 30 cm de ancho x 165 cm de alto aproximadamente.",
@@ -43253,7 +43224,7 @@ window.PRODUCTOS = [
       "precio": 279708,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1492",
+      "imagen": "1491",
       "enlace": "https://www.falabella.com.co/falabella-co/product/141002653/plancha-reversible-para-asar-de-hierro-fundido-victoria-47-x-25-cm/141002655",
       "specs": {
           "dimensiones": "47 cm de largo x 25 cm de ancho aproximadamente.",
@@ -43282,7 +43253,7 @@ window.PRODUCTOS = [
       "precio": 163722,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1493",
+      "imagen": "1492",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3024490/caja-transparente-para-documentos-a4-portatil-y-resistente-para-oficina/3024490/",
       "specs": {
           "dimensiones": "35 cm de largo x 26 cm de ancho x 8 cm de alto aproximadamente.",
@@ -43311,7 +43282,7 @@ window.PRODUCTOS = [
       "precio": 4144400,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1494",
+      "imagen": "1493",
       "enlace": "https://azero.com.co/products/plancha-asador-industrial-con-gratinador?srsltid=AfmBOor1qTiRtEgX3j21E8h-2rY_5jsj1PzVsIto7k5MuDj9myaUdrJzGS0",
       "specs": {
           "dimensiones": "El equipo cuenta con unas medidas correspondientes a 50 cm de ancho, 88 cm de profundidad y 87 cm de altura, además de incluir patas en tubo de acero inoxidable con niveladores ajustables.",
@@ -43340,7 +43311,7 @@ window.PRODUCTOS = [
       "precio": 1591330,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1495",
+      "imagen": "1494",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/43573/planta-electrica-a-gasolina-12kw-1100w-110v-6lt-bauker/43573/",
       "specs": {
           "dimensiones": "La estructura física externa del generador presenta unas dimensiones equivalentes a 46 cm de largo, 50 cm de ancho y 41 cm de alto.",
@@ -43369,7 +43340,7 @@ window.PRODUCTOS = [
       "precio": 1883882,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1496",
+      "imagen": "1495",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3030648/plastificadora-fm-3520-35-cm/3030648/",
       "specs": {
           "dimensiones": "La estructura física del producto presenta unas dimensiones de empaque y distribución equivalentes a 55 cm de largo, 35 cm de ancho y 30 cm de alto.",
@@ -43398,7 +43369,7 @@ window.PRODUCTOS = [
       "precio": 9790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1497",
+      "imagen": "1496",
       "enlace": "https://www.papyser.com/tienda/producto/plato-desechable-plastico-peque%C3%B1o-referencia-301-(15-cm)-x-20?srsltid=AfmBOoqXD6nQjk1P7BdG7Q5ahS9vw8V70efO2ADFtfYCKRU98iBNUBtim_4",
       "specs": {
           "dimensiones": "15 cm de diámetro por unidad.",
@@ -43427,7 +43398,7 @@ window.PRODUCTOS = [
       "precio": 13200,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1498",
+      "imagen": "1497",
       "enlace": "https://procoldelvalle.com/producto/plato-darnel-x20-und/?attribute_tamanos=25oz+Paquete&srsltid=AfmBOooq1WIu1Lkv6P9-Pr15oVwUJXDK07L1oktoH8qVxfmrtBLzSonRtsg",
       "specs": {
           "dimensiones": "Diámetro aproximado entre 20 cm y 23 cm.",
@@ -43456,7 +43427,7 @@ window.PRODUCTOS = [
       "precio": 8757,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1499",
+      "imagen": "1498",
       "enlace": "https://www.ikea.com/co/es/p/oftast-plato-hondo-blanco-00318942/",
       "specs": {
           "dimensiones": "Diámetro aproximado de 20 cm.",
@@ -43485,7 +43456,7 @@ window.PRODUCTOS = [
       "precio": 15470,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1500",
+      "imagen": "1499",
       "enlace": "https://www.almacenesla13.com/products/plato-pando-luna-round-26-5-cm-blanco-stilotex?variant=42986046029926&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOooD2nYk8iftWFJ2YKI0w0cXvACK67NgCUPEtb2GQ1x2HPiZLVCAxd0",
       "specs": {
           "dimensiones": "Diámetro de 26.5 cm.",
@@ -43514,7 +43485,7 @@ window.PRODUCTOS = [
       "precio": 25289,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1501",
+      "imagen": "1500",
       "enlace": "https://www.ikea.com/co/es/p/upplaga-plato-blanco-10424701/",
       "specs": {
           "dimensiones": "Diámetro aproximado de 26 cm.",
@@ -43543,7 +43514,7 @@ window.PRODUCTOS = [
       "precio": 33482,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1502",
+      "imagen": "1501",
       "enlace": "https://www.exito.com/plato-hondo-biodegradable-tld-todos-los-dias-sin-ref-3144644/p?idsku=3471536&srsltid=AfmBOor6pwH6ezDH1-N7K8GRIStT0_R5p2i0YyLxoDZd50gPIAODtPEjVCc",
       "specs": {
           "dimensiones": "Cada una de las piezas que compone este paquete cuenta con un diámetro exterior estandarizado de 17 cm, una medida ideal para porciones individuales de alimentos con volumen o consistencia líquida",
@@ -43572,7 +43543,7 @@ window.PRODUCTOS = [
       "precio": 32370,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1503",
+      "imagen": "1502",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/147190/plato-te-165cm-cuadrado-actualite-blanco/147190/",
       "specs": {
           "dimensiones": "Esta pieza de vajilla presenta un diseño geométrico con unas medidas correspondientes a 16.5 cm de largo por 16.5 cm de ancho, dimensiones ideales para servir de base a tazas de té o café estándar.",
@@ -43601,7 +43572,7 @@ window.PRODUCTOS = [
       "precio": 637000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1504",
+      "imagen": "1503",
       "enlace": "https://www.mercadolibre.com.co/plastico-negro-8mts-ancho-x-20mts-largo-calibre-6/up/MCOU3709413968?pdp_filters=seller_id%3A696960038",
       "specs": {
           "dimensiones": "8mts Ancho X 20mts Largo",
@@ -43630,7 +43601,7 @@ window.PRODUCTOS = [
       "precio": 90350,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1505",
+      "imagen": "1504",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/645609/polea-de-canal-simple-en-v-3-05-x-05-pulgadas/645609/",
       "specs": {
           "dimensiones": "El componente está fabricado mediante un proceso de fundición a presión de zinc de alta resistencia que garantiza una estructura homogénea, cuenta con un diseño de ranura tipo sección a para correas de un ancho fraccionario estándar y posee un orificio central o perforación piloto de guía mecanizada.",
@@ -43659,7 +43630,7 @@ window.PRODUCTOS = [
       "precio": 2027870,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1506",
+      "imagen": "1505",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3052910/silla-de-pedicura-giratoria-reclinable-con-lavabo-y-ajuste-hidraulico/3052910/",
       "specs": {
           "dimensiones": "La estructura armada del conjunto presenta unas medidas aproximadas que promedian los 130 cm de largo, 65 cm de ancho y una altura variable que oscila entre los 110 y 130 cm gracias a su elevación hidráulica.",
@@ -43688,7 +43659,7 @@ window.PRODUCTOS = [
       "precio": 25350,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1507",
+      "imagen": "1506",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3030075/ponchera-plastica-8-litros/3030075/?kid=dis_adi_1435636&gad_source=4&gad_campaignid=23616595358&gbraid=0AAAAADt6wnpF0JnHiCjoGuA1RIoXRaoGn&gclid=CjwKCAjwrNrQBhBjEiwAoR4VO4RmE8cWPkLCKL89_sdyVhbnFkUkY1P0fd7btRmxkTrJ0Jtjp_rSmBoCxxYQAvD_BwE",
       "specs": {
           "dimensiones": "La pieza presenta un diseño cónico circular estándar que registra unas medidas aproximadas de 32 cm de diámetro superior y una altura o profundidad de 14 cm.",
@@ -43717,7 +43688,7 @@ window.PRODUCTOS = [
       "precio": 517400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1508",
+      "imagen": "1507",
       "enlace": "https://aluminiosmj.com/paila-de-aluminio-para-hacer-natilla-o-dulces-colombianos-24/?utm_source=chatgpt.com",
       "specs": {
           "dimensiones": "60 cm x 18 cm de fondo",
@@ -43746,7 +43717,7 @@ window.PRODUCTOS = [
       "precio": 108550,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1509",
+      "imagen": "1508",
       "enlace": "https://www.falabella.com.co/falabella-co/product/152324206/caldero-imusa-aluminio-fundido-30-cm-gris/152324207",
       "specs": {
           "dimensiones": "La pieza presenta un diámetro operativo de 30 cm en su borde superior, una medida ideal para preparaciones de tamaño mediano a grande en la cocina.",
@@ -43775,7 +43746,7 @@ window.PRODUCTOS = [
       "precio": 41730,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1510",
+      "imagen": "1509",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/31169/ponchera-platon-20-litros-blanco-imusa/31169/",
       "specs": {
           "dimensiones": "La pieza presenta un diseño cónico circular extendido que registra unas medidas aproximadas de 46 cm de diámetro superior y una altura o profundidad vertical de 18 cm.",
@@ -43804,7 +43775,7 @@ window.PRODUCTOS = [
       "precio": 36538,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1511",
+      "imagen": "1510",
       "enlace": "https://www.easy.com.co/ponchera-20-lts-blanco/p?idsku=1408196&srsltid=AfmBOooFcAmJ8QVE87fWLn63gX2_H2s8Qk1Y4DyPkz-vg_2d2w6VdLQnww8",
       "specs": {
           "dimensiones": "La estructura física del producto presenta una forma circular cónica extendida que registra unas medidas aproximadas de 46 cm de diámetro superior y una altura o profundidad total de 18 cm.",
@@ -43833,7 +43804,7 @@ window.PRODUCTOS = [
       "precio": 25870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1512",
+      "imagen": "1511",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3030076/ponchera-plastica-10-litros/3030076/",
       "specs": {
           "dimensiones": "La pieza presenta una estructura de diseño circular cónico que registra unas medidas aproximadas de 35 cm de diámetro superior y una altura o profundidad total de 16 cm.",
@@ -43862,7 +43833,7 @@ window.PRODUCTOS = [
       "precio": 63882,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1513",
+      "imagen": "1512",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/93236/estacon-250-metros-x-10cm-aproximadamente-inmunizar/93236/",
       "specs": {
           "dimensiones": "La pieza presenta una longitud o altura lineal equivalente a 2.20 m y cuenta con un diámetro transversal o espesor de aproximadamente 10 cm en promedio.",
@@ -43891,7 +43862,7 @@ window.PRODUCTOS = [
       "precio": 4409990,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1514",
+      "imagen": "1513",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/589117/picapasto-penagos-pp-300amg-con-motor-gasolina-65hp-produccion-600-1000kg-h/589117/",
       "specs": {
           "dimensiones": "La estructura armada del equipo presenta unas medidas aproximadas que promedian los 115 cm de largo, 70 cm de ancho y una altura de 110 cm, facilitando su ubicación en bodegas o cobertizos agrícolas.",
@@ -43920,7 +43891,7 @@ window.PRODUCTOS = [
       "precio": 220870,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1515",
+      "imagen": "1514",
       "enlace": "http://homecenter.com.co/homecenter-co/product/479721/cajonero-eclypse-3-niveles-negro/479721/?kid=shopp_goosho_1430592&shop=1&gad_source=4&gad_campaignid=17347904081&gbraid=0AAAAADt6wnq3OgqCEyJAt6dRlXmDO87al&gclid=CjwKCAjwrNrQBhBjEiwAoR4VOyXqLEWwQ9cCdhS74RWIVLHxO8LkrpySaULq0nqN-SxsSiPJE-gs8hoCq88QAvD_BwE",
       "specs": {
           "dimensiones": "La estructura armada del organizador presenta unas medidas aproximadas de 65 cm de altura vertical, 39 cm de frente o ancho y 33 cm de profundidad.",
@@ -43949,7 +43920,7 @@ window.PRODUCTOS = [
       "precio": 348192,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1516",
+      "imagen": "1515",
       "enlace": "https://tmsmusic.co/products/amplificador-microfono-donner-ec2815-rb1?variant=46099683442942&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOooQEdIAC3NTMB_bpngM_-DfpQzFborftYBm24bgNV61tDprS3v4B4g",
       "specs": {
           "dimensiones": "La estructura física y compacta de este equipo de audio presenta unas medidas aproximadas que promedian los 12 cm de largo, 10 cm de ancho y 4 cm de altura, dimensiones ideales para su ubicación en escritorios de trabajo o transporte en maletas de producción.",
@@ -43978,7 +43949,7 @@ window.PRODUCTOS = [
       "precio": 1913600,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1517",
+      "imagen": "1516",
       "enlace": "https://fabriles.com.co/producto/prensa-hidraulica-de-20-toneladas-trabajo-pesado/",
       "specs": {
           "dimensiones": "Marca: BIG RED\nReferencia: HSP20T\nCapacidad: 20 TONELADAS (20.000 KG)\nDimensiones: 140 CM x 60 CM x 50 CM\nAlto y ancho interno: 130 CM x 51 CM",
@@ -44007,7 +43978,7 @@ window.PRODUCTOS = [
       "precio": 3775460,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1518",
+      "imagen": "1517",
       "enlace": "https://aztools.co/prensa-hidraulica-20-toneladas-con-manometro?utm_source=js-google-shopping-app&utm_medium=js-google-shopping-app&variant_id=22937862&gad_source=4&gad_campaignid=22578356285&gbraid=0AAAAApfLKDqFnxET_mcKVhhrSXHD0j9rE&gclid=CjwKCAjwrNrQBhBjEiwAoR4VOw0Gp9qhZePPexeAtF7kroMhxKyBvpJmFsyy2mBvsnyiWhFwVr8W9BoCIj4QAvD_BwE",
       "specs": {
           "dimensiones": "La estructura armada de la máquina presenta unas medidas de volumen industrial que promedian los 150 cm de alto, 60 cm de ancho frontal y una profundidad en la base de apoyo de 50 cm.",
@@ -44036,7 +44007,7 @@ window.PRODUCTOS = [
       "precio": 129467,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1519",
+      "imagen": "1518",
       "enlace": "https://www.tierragro.com/products/prepico-100-dorado-h-40-kg-ponedoras",
       "specs": {
           "dimensiones": "Dimensiones aproximadas del bulto 80 cm x 50 cm x 15 cm.",
@@ -44065,7 +44036,7 @@ window.PRODUCTOS = [
       "precio": 326560,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1520",
+      "imagen": "1519",
       "enlace": "https://suescalada.com/producto/presto-oval-swivel-girador-rotor-fusion/?srsltid=AfmBOorgU6OxJfrsBAu0dc21G3I6KI2kF8NqWgQlL7LaAmidg-jFCwGczAY",
       "specs": {
           "dimensiones": "La estructura armada de la máquina presenta unas medidas de volumen industrial que promedian los 150 cm de alto, 60 cm de ancho frontal y una profundidad en la base de apoyo de 50 cm.",
@@ -44094,7 +44065,7 @@ window.PRODUCTOS = [
       "precio": 89882,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1521",
+      "imagen": "1520",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/349410/protector-de-voltaje-smartvolt-1800w/349410/?kid=dis_adi_1435636&gad_source=4&gad_campaignid=23616595358&gbraid=0AAAAADt6wnpF0JnHiCjoGuA1RIoXRaoGn&gclid=CjwKCAjwrNrQBhBjEiwAoR4VOzz2_Xk26LAck2TxGPKXEXNyf4Eh4AyZXLrZsfbcUnFde8v_LFlVzBoCE44QAvD_BwE",
       "specs": {
           "dimensiones": "10 cm. Ancho aproximado: 4.5 cm. Largo aproximado: 6.5 cm.",
@@ -44123,7 +44094,7 @@ window.PRODUCTOS = [
       "precio": 4508900,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1522",
+      "imagen": "1521",
       "enlace": "https://www.alkosto.com/videoproyector-portatil-epson-epiqvision-fh02-fhd-con/p/010343970328?gclsrc=aw.ds&fuente=google&medio=cpc&campaign=AK_COL_MAX_PEF_CPC_AON_COMP_Epson_Nov22_EXP_NOV&keyword=&gad_source=4&gad_campaignid=18954449460&gbraid=0AAAAADlnVbhlXMRuJX0IJ5dcTCEwjboPE&gclid=CjwKCAjwrNrQBhBjEiwAoR4VO57I5mejHMnw9Qgj3cD6Twif6vG7Whbkn8-0Bnnujh6zfiNHrOlayxoC6ZQQAvD_BwE",
       "specs": {
           "dimensiones": "Ancho: 32 cm. Alto: 8,7 cm. Fondo: 21 cm aproximadamente",
@@ -44152,7 +44123,7 @@ window.PRODUCTOS = [
       "precio": 292370,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1523",
+      "imagen": "1522",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/340468/puff-pera-en-lona-talla-s-azul-rey/340468/?kid=shopp_goosho_1430597&shop=1&gad_source=4&gad_campaignid=17347902842&gbraid=0AAAAADt6wnq9tOK7NMRR3N0_4rdAKaFbP&gclid=CjwKCAjwrNrQBhBjEiwAoR4VOymeQ7wcxKMyzyXa_69Z5iQGswQAtRkHoKm1qkYQ-iKayUy2v2cU9BoCgp0QAvD_BwE",
       "specs": {
           "dimensiones": "85 cm a 90 cm. Ancho: 70 cm aproximadamente. Profundidad: 70 cm aproximadamente",
@@ -44181,7 +44152,7 @@ window.PRODUCTOS = [
       "precio": 149498,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1524",
+      "imagen": "1523",
       "enlace": "https://www.falabella.com.co/falabella-co/product/146534335/Removedor-De-Callos-Electrico-Con-Aspiradora-Recargable/146534336",
       "specs": {
           "dimensiones": "Aproximadamente 28–32 cm de largo × 10–12 cm de ancho × 10 cm de alto.",
@@ -44210,7 +44181,7 @@ window.PRODUCTOS = [
       "precio": 403500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1525",
+      "imagen": "1524",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/708188/pulidora-ultradelgada-4-pulgada750w-12000rpm-dewalt/708188/",
       "specs": {
           "dimensiones": "Ultradelgada 4- 1/2pg 750W 12000RPM",
@@ -44239,7 +44210,7 @@ window.PRODUCTOS = [
       "precio": 343700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1526",
+      "imagen": "1525",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/540738/pulidora-4-1-2-pulgadas-650w-10-discos-abrasivos-black-and-decker/540738/",
       "specs": {
           "dimensiones": "1 Pulidora Angular 4-1/2. 650W 1 Empuñadura lateral 1 Llave 10 Discos abrasivos Ultra Delgados de 4-1/2 pulg BD8063",
@@ -44268,7 +44239,7 @@ window.PRODUCTOS = [
       "precio": 418450,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1527",
+      "imagen": "1526",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/554201/pulidora-slimline-de-4-1-2-pulgadas-620w-stanley/554201/",
       "specs": {
           "dimensiones": "Tipo\nPulidoras 4 1/2 pulgada\nAncho\n32.7 cm\nAlto\n11.6 cm\nLargo\n10 cm\nPeso\n1.7 kg",
@@ -44297,7 +44268,7 @@ window.PRODUCTOS = [
       "precio": 461370,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1528",
+      "imagen": "1527",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/351907/pulidora-4-1-2-840w-11000rpm/351907/",
       "specs": {
           "dimensiones": "Tipo\nPulidoras 4 1/2 pulgada\nAncho\n16 cm\nAlto\n20 cm\nLargo\n60 cm\nPeso\n2 kg",
@@ -44326,7 +44297,7 @@ window.PRODUCTOS = [
       "precio": 832000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1529",
+      "imagen": "1528",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/105953/pulidora-9-pulgadas-2200w-6500rpm/105953/",
       "specs": {
           "dimensiones": "Tipo\nPulidoras 9 pulgadas\nAncho\n18 cm\nAlto\n18 cm\nLargo\n50 cm\nPeso\n4.6 kg",
@@ -44355,7 +44326,7 @@ window.PRODUCTOS = [
       "precio": 162180,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1530",
+      "imagen": "1529",
       "enlace": "https://www.falabella.com.co/falabella-co/product/123120448/Esmeriladora-Pulidora-Angular-4.1-2-Wolfox-De-500-W/123120449",
       "specs": {
           "dimensiones": "Aproximadamente 28–32 cm de largo × 10–12 cm de ancho × 10 cm de alto.",
@@ -44384,7 +44355,7 @@ window.PRODUCTOS = [
       "precio": 837050,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1531",
+      "imagen": "1530",
       "enlace": "https://organicnailscolombia.com/producto/pulidora-easy-buffer/",
       "specs": {
           "dimensiones": "Delgada y liviana.\nCable tipo espiral para evitar que se enrede o haga nudos.\nOrificio de inserción de puntas de medida universal.\nSólo necesita 1/4 de giro para la apertura y cierre del orificio.\nCarcasa libre de orificios para evitar la entrada de polvo.",
@@ -44413,7 +44384,7 @@ window.PRODUCTOS = [
       "precio": 404560,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1532",
+      "imagen": "1531",
       "enlace": "https://instayapitalito.co/products/magnum-pulidora-de-4-1-2-industrial-1200w-dsm06-115?variant=46684826468642&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopsMWh0r6WnAOBILb0sgnHgmD4bVMxTFyAFCvyCkTXNkUXnKdsSDY8",
       "specs": {
           "dimensiones": "Aproximadamente 32 cm de largo × 12 cm de ancho × 11 cm de alto.",
@@ -44442,7 +44413,7 @@ window.PRODUCTOS = [
       "precio": 1598090,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1533",
+      "imagen": "1532",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/100546/pulidora-9-pulgadas-2700w-6500rpm-dewalt/100546/",
       "specs": {
           "dimensiones": "61 cm de largo × 12.6 cm de ancho × 25 cm de alto",
@@ -44471,7 +44442,7 @@ window.PRODUCTOS = [
       "precio": 162180,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1534",
+      "imagen": "1533",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/99551/pulidora-4-1-2-pulgadas-500w-11000-rpm-ag115kc/99551/",
       "specs": {
           "dimensiones": "Aproximadamente 28–32 cm de largo × 10–12 cm de ancho × 10 cm de alto.",
@@ -44500,7 +44471,7 @@ window.PRODUCTOS = [
       "precio": 189670,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1535",
+      "imagen": "1534",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/99553/polichadora-orbital-9-1-2pg-120w-3000rpm-bauker/99553/",
       "specs": {
           "dimensiones": "Largo aproximado: 32 cm. Ancho: 25 cm. Alto: 24 cm. Diámetro de trabajo: 240 mm (9 1/2\").",
@@ -44529,7 +44500,7 @@ window.PRODUCTOS = [
       "precio": 2203682,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "1536",
+      "imagen": "1535",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/585785/guadana-desbrozadora-o-podadora-trabajo-pesado-a-gasolina-52cc/585785/",
       "specs": {
           "dimensiones": "Largo aproximado: 180 cm. Ancho: 30 cm. Alto: 30 cm aproximadamente.",
@@ -44558,7 +44529,7 @@ window.PRODUCTOS = [
       "precio": 27716,
       "iva": 0,
       "icono": "🎪",
-      "imagen": "1537",
+      "imagen": "1536",
       "enlace": "https://www.mercadolibre.com.co/radios-de-bicicleta-rin-26-negros-doble-pared-niples-254mm-color-negro/p/MCO35512619",
       "specs": {
           "dimensiones": "Longitud de cada radio: 255 mm. Calibre: 14G.",
@@ -44587,7 +44558,7 @@ window.PRODUCTOS = [
       "precio": 6325843,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1538",
+      "imagen": "1537",
       "enlace": "https://talsa.com.co/products/rallador-queso-coco-1p-rq-15?variant=47358773002494&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorLldp2L6JjH_e5wz0fmkM1SvsvBHhDpw5xlBYgOxWz3ury0mzXxX8",
       "specs": {
           "dimensiones": "Alto aproximado: 45 cm. Ancho: 25 cm. Profundidad: 40 cm.",
@@ -44616,7 +44587,7 @@ window.PRODUCTOS = [
       "precio": 112125,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1539",
+      "imagen": "1538",
       "enlace": "https://www.mercadolibre.com.co/rallador-imusa-splendor-acero-inoxidable-26cm/up/MCOU2437136902#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=17&type=product&tracking_id=7be3ae30-b808-4606-90e9-0b89cbc37bcf&wid=MCO901537343&sid=search",
       "specs": {
           "dimensiones": "Alto: 26cm\nAncho: 12cm\nPeso: 285gr",
@@ -44645,7 +44616,7 @@ window.PRODUCTOS = [
       "precio": 224100,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1540",
+      "imagen": "1539",
       "enlace": "https://www.falabella.com.co/falabella-co/product/123184132/Molino-rallador-cortador-de-queso-verduras-frutas-mandolina/123184135",
       "specs": {
           "dimensiones": "1 molino mandolina 1 cuchilla de tambor corte grueso 1 cuchilla de tambor para rebanar 1 cuchilla de tambor fina para trituración",
@@ -44674,7 +44645,7 @@ window.PRODUCTOS = [
       "precio": 2094849,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1541",
+      "imagen": "1540",
       "enlace": "ncarguelo.com/producto/B07NYYP1RC/chaleco-rastreador-de-futbol-gps-apex-de-statsports-serie-apex-athlete-registra-16-metricas-clave-rastreador-gps-de-futbol-para-analizar-el-rendimiento-de-elite-chaleco-de-rastreo-deportivo-utilizado-por-jugadores-y-equipos-profesionales?srsltid=AfmBOoq3AEdst41sy8L8peqDBlq5_sqe0cM7XyFv6z1-Lb7jiWVT76RuN4I",
       "specs": {
           "dimensiones": "Rastreador compacto de aproximadamente 8 cm × 4 cm × 1.5 cm. Chaleco ajustable disponible en diferentes tallas deportivas",
@@ -44703,7 +44674,7 @@ window.PRODUCTOS = [
       "precio": 51948,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1542",
+      "imagen": "1541",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/905555/rastrillo-metalico-14-dientes-ergo/905555/",
       "specs": {
           "dimensiones": "Largo aproximado: 150 cm. Ancho del cabezal: 35 cm aproximadamente.",
@@ -44732,7 +44703,7 @@ window.PRODUCTOS = [
       "precio": 61145,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1543",
+      "imagen": "1542",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/122408608/Rastrillo-Metalico-para-Jardin-Con-Mango-Cabeza-de-46-cm/122408653",
       "specs": {
           "dimensiones": "Largo aproximado: 150 cm. Ancho del cabezal: 35 cm aproximadamente.",
@@ -44761,7 +44732,7 @@ window.PRODUCTOS = [
       "precio": 5745995,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1544",
+      "imagen": "1543",
       "enlace": "https://casadelalicuadoraindustrial.com/tienda/linea-panaderia/tajadoras/tajadora-para-pan-de-mesa-31-cuchillas/",
       "specs": {
           "dimensiones": "Aproximadamente 65–75 cm de ancho × 60–70 cm de fondo × 65–80 cm de alto.",
@@ -44790,7 +44761,7 @@ window.PRODUCTOS = [
       "precio": 135070,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1545",
+      "imagen": "1544",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/660678/caja-organizadora-plastica-extra-grande-y-tapa-27l/660678/?kid=shopp_goosho_1430598&shop=1&gad_source=4&gad_campaignid=22296499605&gbraid=0AAAAADt6wnrBx6EKqcg3izDg0Dthcpz7w&gclid=CjwKCAjwrNrQBhBjEiwAoR4VO5UYyhN4TIu7_-reI-7bJwqKjonxNCpml7xA4tUS16EMhy_H4UjTZhoCXL4QAvD_BwE",
       "specs": {
           "dimensiones": "Largo: 33 cm. Ancho: 46,5 cm. Alto: 26 cm.",
@@ -44819,7 +44790,7 @@ window.PRODUCTOS = [
       "precio": 3747744,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1546",
+      "imagen": "1545",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-2888580196-recortadora-de-cantos-recortadora-de-cantos-de-chapado-_JM",
       "specs": {
           "dimensiones": "Largo: 34 cm. Ancho: 27 cm. Alto: 31 cm aproximadamente.",
@@ -44848,7 +44819,7 @@ window.PRODUCTOS = [
       "precio": 5755750,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1547",
+      "imagen": "1546",
       "enlace": "https://www.mercadolibre.com.co/recubridora-collarin-jack-mecatronica-w4/up/MCOU2635101452#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=9&type=product&float_highlight=last_unit&tracking_id=f745ad5e-183b-4727-8d89-137418a35ab6&wid=MCO619929754&sid=search",
       "specs": {
           "dimensiones": "Largo: 34 cm. Ancho: 27 cm. Alto: 31 cm aproximadamente.",
@@ -44877,7 +44848,7 @@ window.PRODUCTOS = [
       "precio": 343017,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1548",
+      "imagen": "1547",
       "enlace": "https://www.falabella.com.co/falabella-co/product/150325887/lampara-panel-solar-500w-no-generico/150325888",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de lámpara: 45–60 cm de largo × 20–30 cm de ancho. Panel solar aproximado: 35–50 cm × 25–35 cm.",
@@ -44906,7 +44877,7 @@ window.PRODUCTOS = [
       "precio": 129948,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1549",
+      "imagen": "1548",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/296359/reflector-cuadrado-led-150w-blanca-ip65-sylvania/296359/?kid=dis_adi_1435636&gad_source=4&gad_campaignid=23616595358&gbraid=0AAAAADt6wnpF0JnHiCjoGuA1RIoXRaoGn&gclid=CjwKCAjwrNrQBhBjEiwAoR4VO7-D0OX_CcHdaw-1FsBqbisvZxeWgCW82KUwKWFz6miZEUrFx9doHRoCnt4QAvD_BwE",
       "specs": {
           "dimensiones": "Ancho: 22 cm. Alto: 26 cm. Profundidad: 3,3 cm. Diseño compacto y ultradelgado para fácil instalación en muros, postes y estructuras metálicas.",
@@ -44935,7 +44906,7 @@ window.PRODUCTOS = [
       "precio": 2438800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1550",
+      "imagen": "1549",
       "enlace": "https://blamis.com.co/refractometro-analogo-master-20m-brix-0-0-a-20-0?srsltid=AfmBOormzJjDbdmuH8mhi1WO7xTQVzxTmyAHhsOhzSK4LARVTiL0xG45_WU",
       "specs": {
           "dimensiones": "Aproximadamente 16–18 cm de largo × 3–4 cm de diámetro.",
@@ -44964,7 +44935,7 @@ window.PRODUCTOS = [
       "precio": 111800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1551",
+      "imagen": "1550",
       "enlace": "https://www.falabella.com.co/falabella-co/product/151603572/refractometro-brix-0-32-atc-azucar-frutas-sacarimetro-leche/151603573",
       "specs": {
           "dimensiones": "17–20 cm de largo × 4 cm de diámetro.",
@@ -44993,7 +44964,7 @@ window.PRODUCTOS = [
       "precio": 2849522,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1552",
+      "imagen": "1551",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/654680/congelador-horizontal-535-litros-chest-free/654680/?kid=dis_adi_1435636&gad_source=4&gad_campaignid=23616595358&gbraid=0AAAAADt6wnpF0JnHiCjoGuA1RIoXRaoGn&gclid=CjwKCAjwrNrQBhBjEiwAoR4VOzf00NtGkObimR60n5f8yjVLMLO6ovv2GOf5SmYPQIiwNeFp_4pNYxoC8ysQAvD_BwE",
       "specs": {
           "dimensiones": "Ancho: 156 cm. Alto: 89,5 cm. Profundidad: 75 cm. Dimensiones de empaque aproximadas: 161,5 cm x 95 cm x 76 cm.",
@@ -45022,7 +44993,7 @@ window.PRODUCTOS = [
       "precio": 3919740,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1553",
+      "imagen": "1552",
       "enlace": "https://www.alkomprar.com/congelador-horizontal-challenger-dual-490-litrosch396-c1/p/7705191042640?https://www.alkomprar.com/electrodomesticos/c/BI_ELHO&fuente=google&medio=cpc&campaign=&keyword=&gad_source=1&gad_campaignid=23298734056&gbraid=0AAAAADReANJVKFVP7OSaLV47PWlr6zCFN&gclid=CjwKCAjwzNTUBhAjEiwA7zcvWpSxLRXcXSuXjX9NePzexNz9KP6zCs6c4jNlexxNixOMsdxq6mBw9BoCGrwQAvD_BwE",
       "specs": {
           "dimensiones": "Medidas Externas (Ancho x Alto x Fondo)\n60 x 177,5 x 68,5 Centímetros Ancho o Frente Externo\n60 Centímetros\nAlto Externo\n177.5 Centímetros\nFondo Externo\n68.5 Centímetros",
@@ -45051,7 +45022,7 @@ window.PRODUCTOS = [
       "precio": 17588526,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1554",
+      "imagen": "1553",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/477846/congelador-vertical-450-litros/477846/",
       "specs": {
           "dimensiones": "Ancho\n68 cm\nAlto\n201.1 cm\nProfundidad\n73.4 cm",
@@ -45080,7 +45051,7 @@ window.PRODUCTOS = [
       "precio": 712270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1555",
+      "imagen": "1554",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/500663/minibar-47-litros-erd50w-gris-mate/500663/",
       "specs": {
           "dimensiones": "Alto: 50 cm. Ancho: 44 cm. Profundidad: 47 cm",
@@ -45109,7 +45080,7 @@ window.PRODUCTOS = [
       "precio": 6288802,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1556",
+      "imagen": "1555",
       "enlace": "https://intecsecolombia.com/refrigerador-vertical-exhibidor-proveedor-bogota-mural-costados-panoramicos/",
       "specs": {
           "dimensiones": "Aproximadamente 209 cm de alto × 72 cm de ancho × 72.4 cm de fondo.",
@@ -45138,7 +45109,7 @@ window.PRODUCTOS = [
       "precio": 4289948,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1557",
+      "imagen": "1556",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/172780/regateadora-de-muros-5-pulgadas-9000rpm-2-discos/172780/",
       "specs": {
           "dimensiones": "Largo aproximado: 40 cm. Ancho: 20 cm. Alto: 18 cm. Compatible con discos de 125 mm",
@@ -45167,7 +45138,7 @@ window.PRODUCTOS = [
       "precio": 339250,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1558",
+      "imagen": "1557",
       "enlace": "https://www.agualux.com.co/producto/filtro-purificador-de-agua-con-ozono/",
       "specs": {
           "dimensiones": "Dimensiones:\n110 voltios\nAncho: 26.5 cm\nAlto 10.5 cm\nFondo: 6 cm",
@@ -45196,7 +45167,7 @@ window.PRODUCTOS = [
       "precio": 168870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1559",
+      "imagen": "1558",
       "enlace": "https://www.falabella.com.co/falabella-co/product/126124281/Regulador-De-Voltaje-Automatico-Forza-1200va,-8-Tomas,-2-Usb/126124282",
       "specs": {
           "dimensiones": "Alto: 10 cm. Ancho: 20 cm. Largo: 8 cm.",
@@ -45225,7 +45196,7 @@ window.PRODUCTOS = [
       "precio": 220000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1560",
+      "imagen": "1559",
       "enlace": "alabella.com.co/falabella-co/product/145019987/Pistola-Remachadora-Profesional-Clavos-Fulminante/145019988",
       "specs": {
           "dimensiones": "33 cm de largo × 20 cm de ancho",
@@ -45254,7 +45225,7 @@ window.PRODUCTOS = [
       "precio": 142890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1561",
+      "imagen": "1560",
       "enlace": "https://www.falabella.com.co/falabella-co/product/147186511/Removedor-De-Callos-Limpiador-De-Pies-Electrico-Discos-Repuesto/147186512?kid=shopp254fa&gclsrc=aw.ds&gad_source=4&gad_campaignid=21634415508&gbraid=0AAAAADtuoyQyZo4jhoUHXhT_RZzecZH-3&gclid=CjwKCAjwrNrQBhBjEiwAoR4VO0MVkXLCwuSnCwsMoMtW7pIxVvlEQnJYkkV8oqdL2BRvPynxD-WNhRoC0mAQAvD_BwE",
       "specs": {
           "dimensiones": "Largo aproximado: 16 cm. Ancho: 6 cm. Alto: 4 cm. Tamaño compacto para fácil manipulación y almacenamiento.",
@@ -45283,7 +45254,7 @@ window.PRODUCTOS = [
       "precio": 220402,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1562",
+      "imagen": "1561",
       "enlace": "https://www.olimpica.com/rizador-para-cabello-profesional-conico-cms-cosmos-hydra-1002377366/p?idsku=110019508",
       "specs": {
           "dimensiones": "Dimensiones aproximadas del equipo: 35–40 cm de largo total. Diámetro del barril cónico entre 19 mm y 32 mm.",
@@ -45312,7 +45283,7 @@ window.PRODUCTOS = [
       "precio": 180180,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1563",
+      "imagen": "1562",
       "enlace": "https://www.olimpica.com/curling-avocado-rizos-perfectos-en-segundos-1002346803/p?idsku=1100119237",
       "specs": {
           "dimensiones": "Largo aproximado: 30 cm. Diámetro del barril: 2,5 cm a 3 cm aproximadamente.",
@@ -45341,7 +45312,7 @@ window.PRODUCTOS = [
       "precio": 16328,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1564",
+      "imagen": "1563",
       "enlace": "https://www.falabella.com.co/falabella-co/product/145710882/Rodillo-en-madera-28-cm-para-amasar-panaderia-pasteleria-manualidades/145710883",
       "specs": {
           "dimensiones": "Largo: 28 cm. Diámetro aproximado: 2,5 cm.",
@@ -45370,7 +45341,7 @@ window.PRODUCTOS = [
       "precio": 87048,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1565",
+      "imagen": "1564",
       "enlace": "https://www.dimobasuministros.com/products/rodillo-inox-50-cm",
       "specs": {
           "dimensiones": "47 cm de largo diametro 5 cm",
@@ -45399,7 +45370,7 @@ window.PRODUCTOS = [
       "precio": 66170,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1566",
+      "imagen": "1565",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/753920/rollo-para-empacar-al-vacio-de-25cm-de-ancho-por-15metros-largo/753920/",
       "specs": {
           "dimensiones": "Ancho: 25 cm largo: 15 m",
@@ -45428,7 +45399,7 @@ window.PRODUCTOS = [
       "precio": 769890,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1567",
+      "imagen": "1566",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/490870/taladro-rotomartillo-sds-plus-1500w-5j-800rpm-ubermann/490870/",
       "specs": {
           "dimensiones": "Largo aproximado: 40 a 45 cm alto aproximado: 25 a 30 cm ancho aproximado: 10 a 15 cm",
@@ -45457,7 +45428,7 @@ window.PRODUCTOS = [
       "precio": 35090,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1568",
+      "imagen": "1567",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/136919/rula-cacha-fundida-pulida-24-pulgadas/136919/",
       "specs": {
           "dimensiones": "Largo aproximado: 24\" longitud aproximada: 60 cm",
@@ -45486,7 +45457,7 @@ window.PRODUCTOS = [
       "precio": 765570,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1569",
+      "imagen": "1568",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/457831/ruteadora-industrial-1200-w-28000-rpm-1-2-1-4-pulgada-truper/457831/",
       "specs": {
           "dimensiones": "Alto aproximado: 28 a 32 cm ancho aproximado: 15 a 20 cm largo aproximado: 20 a 25 cm",
@@ -45515,7 +45486,7 @@ window.PRODUCTOS = [
       "precio": 9438,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1570",
+      "imagen": "1569",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/294972/salero-rattan/294972/",
       "specs": {
           "dimensiones": "Alto aproximado: 8 a 12 cm diámetro aproximado: 5 a 8 cm",
@@ -45544,7 +45515,7 @@ window.PRODUCTOS = [
       "precio": 137390,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1571",
+      "imagen": "1570",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3025907/sarten-utiile-con-tapa-20-cm/3025907/",
       "specs": {
           "dimensiones": "Diámetro: 20 cm altura aproximada: 5 a 8 cm",
@@ -45573,7 +45544,7 @@ window.PRODUCTOS = [
       "precio": 92170,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1572",
+      "imagen": "1571",
       "enlace": "https://www.alkosto.com/sarten-alto-24-cm-imusa-antiadherente-talent/p/7702073038081",
       "specs": {
           "dimensiones": "Diámetro: 24 cm altura aproximada: 6 a 9 cm",
@@ -45602,7 +45573,7 @@ window.PRODUCTOS = [
       "precio": 151924,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1573",
+      "imagen": "1572",
       "enlace": "https://www.falabella.com.co/falabella-co/product/148495259/Sarten-Tramontina-Piemonte-en-Aluminio-Antiadherente-Negro-25-cm-1.8-L/148495260",
       "specs": {
           "dimensiones": "Diámetro: 25 cm altura aproximada: 5 a 7 cm",
@@ -45631,7 +45602,7 @@ window.PRODUCTOS = [
       "precio": 99089,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1574",
+      "imagen": "1573",
       "enlace": "https://backinghome.com/products/5020059?variant=53437562356052&country=ES&currency=EUR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoofZjKSXKrcu-W74r2qodFmNGYAojUClLOSRLcbg74rLHwCRQvjfTk",
       "specs": {
           "dimensiones": "Diámetro: 40 cm altura aproximada: 10 a 15 cm",
@@ -45660,7 +45631,7 @@ window.PRODUCTOS = [
       "precio": 93522,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1575",
+      "imagen": "1574",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/464130/sarten-arteeza-30cm-gris/464130/",
       "specs": {
           "dimensiones": "Diámetro: 30 cm altura aproximada: 5 a 8 cm",
@@ -45689,7 +45660,7 @@ window.PRODUCTOS = [
       "precio": 131950,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1576",
+      "imagen": "1575",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/731270/sarten-en-aluminio-alto-24-cm-antiadherente-libre-de-pfoa-negro-efecto-piedra-tapa-de-vidrio-hard-titanium-imusa/731271/",
       "specs": {
           "dimensiones": "Diámetro: 24 cm altura aproximada: 6 a 9 cm",
@@ -45718,7 +45689,7 @@ window.PRODUCTOS = [
       "precio": 488750,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1577",
+      "imagen": "1576",
       "enlace": "https://aluminiosmj.com/paila-de-aluminio-para-hacer-natilla-o-dulces-colombianos-24/",
       "specs": {
           "dimensiones": "Diámetro: 60 cm altura aproximada: 6 a 10 cm",
@@ -45747,7 +45718,7 @@ window.PRODUCTOS = [
       "precio": 1980000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1578",
+      "imagen": "1577",
       "enlace": "https://agropaisa.com.co/producto/score-250-ec-x-lt/",
       "specs": {
           "dimensiones": "No especificadas en la ficha técnica del producto",
@@ -45776,7 +45747,7 @@ window.PRODUCTOS = [
       "precio": 266370,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1579",
+      "imagen": "1578",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/325166/secador-de-cabello-remington-pro-therma-luxe/325166/",
       "specs": {
           "dimensiones": "Ancho aproximado: 45 cm alto aproximado: 26 cm largo aproximado: 32 cm",
@@ -45805,7 +45776,7 @@ window.PRODUCTOS = [
       "precio": 344630,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1580",
+      "imagen": "1579",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/783110/cepillo-secador-voluminizador-bed-head-one-step-con-tecnologia-turmalina-ceramica/783110/",
       "specs": {
           "dimensiones": "Largo aproximado: 30–35 cm ancho aproximado: 8–10 cm alto aproximado: 8–10 cm",
@@ -45834,7 +45805,7 @@ window.PRODUCTOS = [
       "precio": 174330,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1581",
+      "imagen": "1580",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/739168/secador-de-cabello-remington-sapphire-luxe-d5805/739168/",
       "specs": {
           "dimensiones": "Alto aproximado: 22–23 cm ancho aproximado: 9–10 cm largo aproximado: 28–29 cm",
@@ -45863,7 +45834,7 @@ window.PRODUCTOS = [
       "precio": 260000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1582",
+      "imagen": "1581",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118644899/secador-super-mega-turbo-profesional-2400w/118644903?utm_source=chatgpt.com",
       "specs": {
           "dimensiones": "Alto aproximado: 22–25 cm largo aproximado: 28–30 cm ancho aproximado: 9–11 cm",
@@ -45892,7 +45863,7 @@ window.PRODUCTOS = [
       "precio": 397670,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1583",
+      "imagen": "1582",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/702238/secador-de-pelo-profesional-con-difusor-ionico/702238/",
       "specs": {
           "dimensiones": "Alto aproximado: 18–25 cm ancho aproximado: 8–12 cm largo aproximado: 18–25 cm",
@@ -45921,7 +45892,7 @@ window.PRODUCTOS = [
       "precio": 257738,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1584",
+      "imagen": "1583",
       "enlace": "https://www.almacensandra.com/products/secador-galactic-eb-005-electrobell-pro?variant=49853159866647&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOophgpBHN24k84b0VaKez2-3sZmgFx6EabX1bmlmxKX6UrvRcUMZicI",
       "specs": {
           "dimensiones": "Largo aproximado: 24 a 28 cm alto aproximado: 20 a 25 cm ancho aproximado: 9 a 12 cm",
@@ -45950,7 +45921,7 @@ window.PRODUCTOS = [
       "precio": 52546,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1585",
+      "imagen": "1584",
       "enlace": "https://www.falabella.com.co/falabella-co/product/149155658/Secador-Cabello-Pelo-X2-Velocidades-X3-Temperaturas-5000w-Morado/149155659",
       "specs": {
           "dimensiones": "Largo aproximado: 23–28 cm alto aproximado: 20–25 cm ancho aproximado: 9–12 cm",
@@ -45979,7 +45950,7 @@ window.PRODUCTOS = [
       "precio": 383942,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1586",
+      "imagen": "1585",
       "enlace": "https://www.s-essential.com/secador-galactic-4100-electrobell-pro-eb-005?utm_source=js-google-shopping-app&utm_medium=js-google-shopping-app",
       "specs": {
           "dimensiones": "Largo aproximado: 24–28 cm alto aproximado: 20–25 cm ancho aproximado: 9–12 cm",
@@ -46008,7 +45979,7 @@ window.PRODUCTOS = [
       "precio": 221390,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1587",
+      "imagen": "1586",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118644899/secador-super-mega-turbo-profesional-2400w/118644903",
       "specs": {
           "dimensiones": "Alto: 35 cm ancho: 16 cm largo: 32 cm",
@@ -46037,7 +46008,7 @@ window.PRODUCTOS = [
       "precio": 327028,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1588",
+      "imagen": "1587",
       "enlace": "https://turbox.com.co/producto/secador-de-cabello-profesional-nt-t4-premium/",
       "specs": {
           "dimensiones": "No especificadas en la ficha del producto",
@@ -46066,7 +46037,7 @@ window.PRODUCTOS = [
       "precio": 2937870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1589",
+      "imagen": "1588",
       "enlace": "https://www.falabella.com.co/falabella-co/product/8500749/Secadora-Samsung-Gas-22-KG-DVG22R6270W-CO/8500749",
       "specs": {
           "dimensiones": "Ancho: 686 mm alto: 984 mm profundidad: 800 mm",
@@ -46095,7 +46066,7 @@ window.PRODUCTOS = [
       "precio": 6750500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1590",
+      "imagen": "1589",
       "enlace": "https://aristiagro.com/producto/secadora-de-cafe-a-gas-penagos-10-arrobas-dia-sc-10-em-110v/?utm_source",
       "specs": {
           "dimensiones": "No especificado por el fabricante",
@@ -46124,7 +46095,7 @@ window.PRODUCTOS = [
       "precio": 1775670,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1591",
+      "imagen": "1590",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/783153/secador-de-pelo-ella-bella-profesional-ionico-con-difusor-y-control-de-calor/783153/",
       "specs": {
           "dimensiones": "Alto: no especificado en ficha técnica ancho: no especificado en ficha técnica largo: no especificado en ficha técnica diseño compacto de uso manual",
@@ -46153,7 +46124,7 @@ window.PRODUCTOS = [
       "precio": 169390,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1592",
+      "imagen": "1591",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/291197/sellador-catalizado-para-madera-algreco-1-galon/291197/",
       "specs": {
           "dimensiones": "Presentación: 1 galón (3.78 L)",
@@ -46182,7 +46153,7 @@ window.PRODUCTOS = [
       "precio": 1880890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1593",
+      "imagen": "1592",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/507200/selladora-profesional-al-vacio-con-funcion-de-un-solo-toque/507200/",
       "specs": {
           "dimensiones": "Ancho: 46.99 cm alto: 32.38 cm largo: 27.3 cm",
@@ -46211,7 +46182,7 @@ window.PRODUCTOS = [
       "precio": 4128670,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1594",
+      "imagen": "1593",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3029861/selladora-de-latas-plasticas/3029861/",
       "specs": {
           "dimensiones": "Ancho: 45 cm largo: 25 cm alto: 53 cm",
@@ -46240,7 +46211,7 @@ window.PRODUCTOS = [
       "precio": 505890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1595",
+      "imagen": "1594",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3057751/selladora-manual-pcs300a-brother/3057751/",
       "specs": {
           "dimensiones": "Largo: 75 cm alto: 30 cm ancho: 30 cm",
@@ -46269,7 +46240,7 @@ window.PRODUCTOS = [
       "precio": 151523,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1596",
+      "imagen": "1595",
       "enlace": "https://www.falabella.com.co/falabella-co/product/132265189/Selladora-De-Bolsas-Plasticas-300-Mm-X-3-Mm-Ferton-Impulsos/132265190",
       "specs": {
           "dimensiones": "Largo: 44.2 cm ancho: 14.7 cm alto: 8.8 cm",
@@ -46298,7 +46269,7 @@ window.PRODUCTOS = [
       "precio": 3437390,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1597",
+      "imagen": "1596",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/696337/selladora-de-banda-continua-vertical-con-impresion-en-tinta/696337/",
       "specs": {
           "dimensiones": "Ancho: 95 cm largo: 40 cm alto: 66 cm",
@@ -46327,7 +46298,7 @@ window.PRODUCTOS = [
       "precio": 1026316,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1598",
+      "imagen": "1597",
       "enlace": "https://tecnoembalaje.com/producto/selladora-de-pedal-de-calor-constante-30-y-40-cm-modelo-mfs-400-c/",
       "specs": {
           "dimensiones": "Longitud de sellado: 30 cm o 40 cm (según modelo) altura aproximada del equipo: 85 a 95 cm ancho aproximado: 45 a 50 cm profundidad aproximada: 45 a 55 cm",
@@ -46356,7 +46327,7 @@ window.PRODUCTOS = [
       "precio": 309270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1599",
+      "imagen": "1598",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/458123/selladora-de-bolsas-40-cms/458123/",
       "specs": {
           "dimensiones": "Largo: 9 cm ancho: 54 cm alto: 29 cm",
@@ -46385,7 +46356,7 @@ window.PRODUCTOS = [
       "precio": 76830,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1600",
+      "imagen": "1599",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/414926/serrucho-profesional-20-pulgadas-reftrp18168/414926/",
       "specs": {
           "dimensiones": "Longitud de hoja: 20\" (50 cm) longitud total aproximada: 55–60 cm ancho aproximado: 10–15 cm",
@@ -46414,7 +46385,7 @@ window.PRODUCTOS = [
       "precio": 53209,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1601",
+      "imagen": "1600",
       "enlace": "https://www.farmatodo.com.co/producto/212950454-serum-revox-contorno-de-ojos-cafeina-x-30-ml",
       "specs": {
           "dimensiones": "Alto aproximado del envase: 12 cm ancho aproximado: 3.5 cm profundidad aproximada: 4.5 cm",
@@ -46443,7 +46414,7 @@ window.PRODUCTOS = [
       "precio": 22640,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1602",
+      "imagen": "1601",
       "enlace": "https://www.tiendaedexa.com/higienicos/1453-servilleta-natural-xpressnap-tork-x-500-und-ref-72163-7702026726621.html?srsltid=AfmBOopfWzUpJNwRb5jgYTilxZcDLtK4vKIhV0aoe8gad8oLoijuuQioZ0k",
       "specs": {
           "dimensiones": "Largo desplegado: 21 cm ancho desplegado: 32.5 cm",
@@ -46472,7 +46443,7 @@ window.PRODUCTOS = [
       "precio": 22781,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1603",
+      "imagen": "1602",
       "enlace": "https://www.ostu.com/set-collar-y-aretes-dorados/40510027.html?dwvar_40510027_color=Dorado",
       "specs": {
           "dimensiones": "Largo del collar: aproximado, ajustable tamaño de aretes: pequeño (tipo botón)",
@@ -46501,7 +46472,7 @@ window.PRODUCTOS = [
       "precio": 109890,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1604",
+      "imagen": "1603",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/336048/juego-cucharas-de-mesa-tramontina-maresias-de-acero-inoxidable-12-pzas/336048/",
       "specs": {
           "dimensiones": "Largo: 16 cm por pieza",
@@ -46530,7 +46501,7 @@ window.PRODUCTOS = [
       "precio": 681890,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1605",
+      "imagen": "1604",
       "enlace": "https://listado.mercadolibre.com.co/set-de-cuchillos-asado",
       "specs": {
           "dimensiones": "Largo total de 20.7 cm a 22.9 cm",
@@ -46559,7 +46530,7 @@ window.PRODUCTOS = [
       "precio": 173290,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1606",
+      "imagen": "1605",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/697096/juego-de-tenedores-de-mesa-zurique-acero-tramontina-set-x-12-unidades/697096/",
       "specs": {
           "dimensiones": "Largo aproximado: 20.2 cm por pieza",
@@ -46588,7 +46559,7 @@ window.PRODUCTOS = [
       "precio": 187070,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1607",
+      "imagen": "1606",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3048714/kit-navideno-kalio-familia-6piezas/3048714/",
       "specs": {
           "dimensiones": "Alto aproximado: 25 cm ancho aproximado: 21 cm largo aproximado: 21 cm",
@@ -46617,7 +46588,7 @@ window.PRODUCTOS = [
       "precio": 98890,
       "iva": 0,
       "icono": "🎪",
-      "imagen": "1608",
+      "imagen": "1607",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/635031/juego-de-extractores-de-tornillos-x-5-piezas/635031/",
       "specs": {
           "dimensiones": "Ancho: 4\" alto: 7\" largo: 3\"",
@@ -46646,7 +46617,7 @@ window.PRODUCTOS = [
       "precio": 347750,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1609",
+      "imagen": "1608",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/697095/juego-de-cuchillos-para-mesa-zurique-acero-tramontina-set-x-12-unidades/697095/",
       "specs": {
           "dimensiones": "Largo aproximado: 22.9 cm por pieza",
@@ -46675,7 +46646,7 @@ window.PRODUCTOS = [
       "precio": 104130,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1610",
+      "imagen": "1609",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/566181/set-de-te-armonia-8-piezas-2496ml/566181/",
       "specs": {
           "dimensiones": "Alto aproximado: 16 a 17 cm (empaque o conjunto) ancho aproximado: 16 a 22 cm largo aproximado: 16 a 22 cm",
@@ -46704,7 +46675,7 @@ window.PRODUCTOS = [
       "precio": 114270,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1611",
+      "imagen": "1610",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/296910/set-tijera-podadora-y-poda/296910/",
       "specs": {
           "dimensiones": "Largo: 50.3 cm alto: 11 cm ancho: 16 cm ancho de corte: hasta 12 cm",
@@ -46733,7 +46704,7 @@ window.PRODUCTOS = [
       "precio": 712885,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1612",
+      "imagen": "1611",
       "enlace": "https://co.dewalt.global/producto/dwe300-b3/sierra-caladora-portatil-de-650w",
       "specs": {
           "dimensiones": "Ancho aproximado: 3.25\" alto aproximado: 8.5\" largo aproximado: 9.5\"",
@@ -46762,7 +46733,7 @@ window.PRODUCTOS = [
       "precio": 66990,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1613",
+      "imagen": "1612",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/778162/arco-tubular-para-jardinero-24-surtek-palanca-de-seguridad/778162/",
       "specs": {
           "dimensiones": "Sistema de seguridad con palanca diseño ergonómico de fácil agarre uso manual estructura resistente a trabajos continuos aplicación en jardinería y mantenimiento de zonas verdes",
@@ -46791,7 +46762,7 @@ window.PRODUCTOS = [
       "precio": 325390,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1614",
+      "imagen": "1613",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/301040/combo-sierra-caladora-420w-lijadora-1-4-pulg-200w-blackdecker/301040/",
       "specs": {
           "dimensiones": "Ancho aproximado: 20 a 35 cm alto aproximado: 19 a 40 cm largo aproximado: 30 a 35 cm",
@@ -46820,7 +46791,7 @@ window.PRODUCTOS = [
       "precio": 3706950,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1615",
+      "imagen": "1614",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/716195/sierra-de-banco-255-mm-10-pulgadas-potencia-entrada-1500w-mlt-100-makita/716195/",
       "specs": {
           "dimensiones": "72 x 60 x 40 cm",
@@ -46849,7 +46820,7 @@ window.PRODUCTOS = [
       "precio": 779870,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1616",
+      "imagen": "1615",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3034969/sierra-caladora-electrica-makita-650w-vv-500-3100rpm-longitud-de-carrera-23-mm/3034969/",
       "specs": {
           "dimensiones": "Longitud aproximada: 23 a 25 cm ancho aproximado: 7 a 9 cm alto aproximado: 20 a 22 cm",
@@ -46878,7 +46849,7 @@ window.PRODUCTOS = [
       "precio": 1963390,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1617",
+      "imagen": "1616",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/683672/sierra-de-inglete-telescopica-compuesta-de-10-pulgadas-sinco-10x2-truper/683672/",
       "specs": {
           "dimensiones": "Diámetro del disco: 25.4 cm dimensiones aproximadas del equipo: 80 x 55 x 45 cm",
@@ -46907,7 +46878,7 @@ window.PRODUCTOS = [
       "precio": 3860890,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1618",
+      "imagen": "1617",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/417736/sierra-metabo-hpt-con-hoja-de-25-centimetros-y-motor-de-alta-potencia/417736/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas del equipo: 50 x 40 x 35 cm",
@@ -46936,7 +46907,7 @@ window.PRODUCTOS = [
       "precio": 439890,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1619",
+      "imagen": "1618",
       "enlace": "https://www.falabella.com.co/falabella-co/product/124887963/Sierra-Circular-714-1600w-Stanley-Sc16/124887964",
       "specs": {
           "dimensiones": "Aproximadamente 34 cm de largo × 26 cm de ancho × 24 cm de alto.",
@@ -46965,7 +46936,7 @@ window.PRODUCTOS = [
       "precio": 2115750,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1620",
+      "imagen": "1619",
       "enlace": "https://www.mercadolibre.com.co/acolilladora-industrial-dewalt-de-10--1650w-4600-rpm-dw714/up/MCOU5115698034#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=6&type=product&tracking_id=1c5270eb-3757-4707-b700-3b05ec3458e3&wid=MCO2181854429&sid=search",
       "specs": {
           "dimensiones": "Aproximadamente 56 cm de largo × 46 cm de ancho × 40 cm de alto.",
@@ -46994,7 +46965,7 @@ window.PRODUCTOS = [
       "precio": 3135000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1621",
+      "imagen": "1620",
       "enlace": "https://tecnologiaonline.co/producto/plotter-de-corte-cameo-4-pro-61cm/?srsltid=AfmBOoqiDTo80JQnqY16pYc9b4YYekZwP7_MsDYRhGcpcrUDzpGXjAU5ux8",
       "specs": {
           "dimensiones": "Aproximadamente 87 cm de largo × 19.5 cm de ancho × 17 cm de alto.",
@@ -47023,7 +46994,7 @@ window.PRODUCTOS = [
       "precio": 163488,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1622",
+      "imagen": "1621",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/329115/pistola-de-calor-anag-1600w-3-niveles-temperatura/329115/",
       "specs": {
           "dimensiones": "Largo: 26,5 cm. Alto: 23,5 cm. Ancho: 8,7 cm.",
@@ -47052,7 +47023,7 @@ window.PRODUCTOS = [
       "precio": 368278,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1623",
+      "imagen": "1622",
       "enlace": "https://listado.mercadolibre.com.co/silla-ejecutiva-giratoria-oficina",
       "specs": {
           "dimensiones": "Aproximadamente 68 cm de ancho × 102 cm de alto × 61 cm de profundidad",
@@ -47081,7 +47052,7 @@ window.PRODUCTOS = [
       "precio": 1420250,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1624",
+      "imagen": "1623",
       "enlace": "https://www.mercadolibre.com.co/rack-pack-silla-sillon-reclinable-para-masaje-profesional-lashista-respaldo-con-9-tipos-de-ajuste-soporta-hasta-200-kg-incluye-banco-hidraulico-con-llantas-y-respaldo-camilla-para-spa-tattoo/p/MCO37500494#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=1&type=product&tracking_id=81f7a9fb-9d9f-4b80-b4b8-171bea4e8b02&wid=&sid=search",
       "specs": {
           "dimensiones": "Aproximadamente 68 cm de ancho × 102 cm de alto × 61 cm de profundidad",
@@ -47110,7 +47081,7 @@ window.PRODUCTOS = [
       "precio": 70116,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1625",
+      "imagen": "1624",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/334029/silla-sin-brazos-plastico-bambu-wengue/334029/",
       "specs": {
           "dimensiones": "Ancho\n49.5 cm\nAlto\n89 cm\nProfundidad\n46.5 cm",
@@ -47139,7 +47110,7 @@ window.PRODUCTOS = [
       "precio": 88952,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1626",
+      "imagen": "1625",
       "enlace": "https://listado.mercadolibre.com.co/silla-baru-rimax-con-brazos",
       "specs": {
           "dimensiones": "59 cm de ancho × 82 cm de alto × 58 cm de profundidad. Altura del asiento al piso: 42 cm. Medidas del espaldar: 37 × 34 cm.",
@@ -47168,7 +47139,7 @@ window.PRODUCTOS = [
       "precio": 3355000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1627",
+      "imagen": "1626",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/564962/sillon-barbero-peluqueria-estetica-hidraulico-negro/564962/",
       "specs": {
           "dimensiones": "Ancho aproximado: 62 cm. Profundidad: 98 cm. Altura ajustable entre 75 cm y 106 cm aproximadamente. Dimensiones amplias para comodidad del usuario y maniobrabilidad del profesional",
@@ -47197,7 +47168,7 @@ window.PRODUCTOS = [
       "precio": 73240,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1628",
+      "imagen": "1627",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3110625/silla-plastica-oceania-con-brazos-beige-colplast/3110625/",
       "specs": {
           "dimensiones": "Dimensiones\n54.5/55.2/78.4",
@@ -47226,7 +47197,7 @@ window.PRODUCTOS = [
       "precio": 1016600,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1629",
+      "imagen": "1628",
       "enlace": "https://www.mercadolibre.com.co/silla-para-manicure-y-pedicure/up/MCOU2433928724#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=2&type=product&tracking_id=b7b7dbc8-13bd-4910-8fa0-d9a6aab2e003&wid=MCO590638468&sid=search",
       "specs": {
           "dimensiones": "no aportado por el fabricante",
@@ -47255,7 +47226,7 @@ window.PRODUCTOS = [
       "precio": 94036,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1630",
+      "imagen": "1629",
       "enlace": "https://www.rimax.com.co/silla-eterna-con-brazos/p",
       "specs": {
           "dimensiones": "Profundidad:\n57 cm Ancho:\n60.2 cm Altura:\n80.6 cm",
@@ -47284,7 +47255,7 @@ window.PRODUCTOS = [
       "precio": 83720,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1631",
+      "imagen": "1630",
       "enlace": "https://electroriente.co/es/productos/silla-rimax-eterna-con-brazos",
       "specs": {
           "dimensiones": "Profundidad: 57 cm Ancho: 60.2 cm Altura: 80.6 cm",
@@ -47313,7 +47284,7 @@ window.PRODUCTOS = [
       "precio": 4574550,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1632",
+      "imagen": "1631",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3053779/silla-de-barberia-y-peluqueria-reclinable-hidraulica-y-giratoria-artik-negro-bonno/3053779/",
       "specs": {
           "dimensiones": "Dimensiones\n62 x 73 x 98 cm\nAncho\n62 cm\nAlto\n73 cm\nProfundidad\n98 cm",
@@ -47342,7 +47313,7 @@ window.PRODUCTOS = [
       "precio": 3111095,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1633",
+      "imagen": "1632",
       "enlace": "https://www.mercadolibre.com.co/silla-de-barbero-hidraulica-giratoria-360-para-corte-y-lava/up/MCOU2491239489#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=14&type=product&tracking_id=dfe4d075-6639-4460-88fc-81b43a3d38a9&wid=MCO1433696977&sid=search",
       "specs": {
           "dimensiones": "Color: Black Altura: 101.6 cm Ancho: 50.8 cm Marca: Luxmars",
@@ -47371,7 +47342,7 @@ window.PRODUCTOS = [
       "precio": 448498,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1634",
+      "imagen": "1633",
       "enlace": "https://www.falabella.com.co/falabella-co/product/118562846/Silla-Ergonomica-para-Oficina-con-Respaldo-Alto-Color-Negro-Stay-Elit/118562847",
       "specs": {
           "dimensiones": "Aproximadamente 68 cm de ancho × 102 cm de alto × 61 cm de profundidad",
@@ -47400,7 +47371,7 @@ window.PRODUCTOS = [
       "precio": 186726,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1635",
+      "imagen": "1634",
       "enlace": "https://listado.mercadolibre.com.co/silla-espera-interlocutora-metalica",
       "specs": {
           "dimensiones": "53 cm de ancho × 80 cm de alto × 55 cm de profundidad aproximadamente.",
@@ -47429,7 +47400,7 @@ window.PRODUCTOS = [
       "precio": 627750,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1636",
+      "imagen": "1635",
       "enlace": "https://www.alkosto.com/silla-oficina-tukasa-5938l-roja/p/7705946334235",
       "specs": {
           "dimensiones": "Cuenta con una rotación giratoria de 360°\nSilla de oficina con acabado en base cromada\nCuenta con un mecanismo mariposa de uso fácil\nElige el alto de la silla de acuerdo a tu necesidad\nColor Disponible Rojo",
@@ -47458,7 +47429,7 @@ window.PRODUCTOS = [
       "precio": 1485770,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1637",
+      "imagen": "1636",
       "enlace": "https://yaxa.co/products/silla-de-peluqueria-hidraulica-reclinable",
       "specs": {
           "dimensiones": "Grados de giro: 360°\n• Grados de inclinación del respaldo: 90 a 135°\n• Sistema de altura: Pedal.\n• Altura del asiento: 49.5 a 64.7 cm",
@@ -47487,7 +47458,7 @@ window.PRODUCTOS = [
       "precio": 186726,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1638",
+      "imagen": "1637",
       "enlace": "https://listado.mercadolibre.com.co/silla-dinastia-rimax-plastica-apilable",
       "specs": {
           "dimensiones": "53 cm de ancho × 80 cm de alto × 55 cm de profundidad aproximadamente.",
@@ -47516,7 +47487,7 @@ window.PRODUCTOS = [
       "precio": 444990,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1639",
+      "imagen": "1638",
       "enlace": "https://ergonomus.co/products/silla-presidente-niza-sop-lumbar-bzo-grad-basculante?variant=43791588655359&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_source=google&utm_medium=cpc&utm_id=21769344444&utm_id=21769344444&utm_term=&utm_campaign=ER_GG_PRF_SHP_AON_Sillas-Oficina&utm_source=google&utm_medium=cpc&hsa_acc=7242730686&hsa_cam=21769344444&hsa_grp=179460635747&hsa_ad=739003724144&hsa_src=g&hsa_tgt=pla-2304338554313&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=4&gad_campaignid=21769344444&gbraid=0AAAAA9bnNuc_BcmUc3EA2ogH1dhmLY4Tr&gclid=CjwKCAjwrNrQBhBjEiwAoR4VO111dQbfSFbkbpTxyD0qUXnV_a9qNETEpx5TUhswI1O2Nofpu981mBoCBnQQAvD_BwE",
       "specs": {
           "dimensiones": "Espaldar: 46 cm ancho x 46 cm alto. Asiento: 48 cm ancho x 51 cm profundidad. Base estrella: diámetro de 600 mm. Altura ajustable según configuración del cilindro neumático",
@@ -47545,7 +47516,7 @@ window.PRODUCTOS = [
       "precio": 83070,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1640",
+      "imagen": "1639",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/223475/silla-plastica-con-brazos-eterna-wengue-rimax/223475/",
       "specs": {
           "dimensiones": "Medidas del Asiento (Ancho x Alto) en Cm57 X 80.6 cm",
@@ -47574,7 +47545,7 @@ window.PRODUCTOS = [
       "precio": 55614,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1641",
+      "imagen": "1640",
       "enlace": "https://listado.mercadolibre.com.co/silla-gala-blanca-rimo-plastica",
       "specs": {
           "dimensiones": "Dimensiones 42 × 42 × 88 cm",
@@ -47603,7 +47574,7 @@ window.PRODUCTOS = [
       "precio": 373600,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1642",
+      "imagen": "1641",
       "enlace": "https://www.mercadolibre.com.co/silla-escritorio-ejecutiva-ergonomica-oficina-color-negro-material-del-tapizado-malla/p/MCO26042278#polycard_client=search_best-seller-categories&tracking_id=9967867f-0383-4112-9d2b-762761149991&wid=MCO1982520496&sid=search",
       "specs": {
           "dimensiones": "ltura del respaldo\n50 cm\nProfundidad del asiento\n47 cm\nAncho de la silla\n59 cm\nAltura máxima de la silla\n110 cm\nProfundidad de la silla\n60 cm\nDiámetro de la base\n60 cm",
@@ -47632,7 +47603,7 @@ window.PRODUCTOS = [
       "precio": 2092850,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1643",
+      "imagen": "1642",
       "enlace": "https://www.mercadolibre.com.co/silla-sillon-reclinable-barberia-salon-estetica-peluqueria-color-rojo/p/MCO33656265#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=3&type=product&tracking_id=3f9fb965-514e-40c0-ba45-2aa65ae8392f&wid=MCO1505483519&sid=search",
       "specs": {
           "dimensiones": "Grados de inclinación del respaldo: 90 a 135°\n• Sistema de altura: Pedal.\n• Altura del asiento: 49.5 a 64.7 cm\n• Cabecera ajustable.",
@@ -47661,7 +47632,7 @@ window.PRODUCTOS = [
       "precio": 267670,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1644",
+      "imagen": "1643",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/667743/silla-de-escritorio-ejecutiva-negro-ergonomus-moderno/667743/?kid=shopp_goosho_1430598&shop=1&gad_source=4&gad_campaignid=22296499605&gbraid=0AAAAADt6wnrBx6EKqcg3izDg0Dthcpz7w&gclid=CjwKCAjwrNrQBhBjEiwAoR4VOw4BNBbRAkNmm9xbaRzoQfW10nFUPgvujnTN_mbdoHFgaI1ycLpWlhoC8gkQAvD_BwE",
       "specs": {
           "dimensiones": "Alto del respaldo: 44 cm. Ancho del respaldo: 41 cm. Dimensiones del asiento: 46 cm ancho x 46 cm profundidad. Diámetro de la base: 60 cm. Altura total aproximada ajustable entre 85 cm y 95 cm.",
@@ -47690,7 +47661,7 @@ window.PRODUCTOS = [
       "precio": 298850,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1645",
+      "imagen": "1644",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/203723/silla-interlocutora-con-brazos-malla-negro/203723/",
       "specs": {
           "dimensiones": "Ancho base\n48 cm\nAlto total máximo\n80 cm\nProfundidad asiento\n58 cm\nDimensiones\n48 X 80 X 58 cm",
@@ -47719,7 +47690,7 @@ window.PRODUCTOS = [
       "precio": 717600,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1646",
+      "imagen": "1645",
       "enlace": "https://www.mercadolibre.com.co/mesa-de-manicure-2-sillas-eames/up/MCOU3812309822#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=17&type=product&tracking_id=475c8f52-4db2-40b9-bfac-22189ebf3e40&wid=MCO3598106564&sid=search",
       "specs": {
           "dimensiones": "Color: Blanco Altura: 80 cm Marca: Manicure Ancho: 36 cm",
@@ -47748,7 +47719,7 @@ window.PRODUCTOS = [
       "precio": 1943500,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1647",
+      "imagen": "1646",
       "enlace": "https://www.mercadolibre.com.co/poltrona-de-manicura-con-silla-auxiliar/up/MCOU3764674067#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=18&type=product&tracking_id=5a260b1c-2b93-4130-a851-63df0e5bb7bd&wid=MCO3536025178&sid=search",
       "specs": {
           "dimensiones": "Color: Todos los colores Altura: 100 cm Con ruedas: No Marca: Muebles Ancho: 60 cm",
@@ -47777,7 +47748,7 @@ window.PRODUCTOS = [
       "precio": 213020,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1648",
+      "imagen": "1647",
       "enlace": "https://www.mercadolibre.com.co/silla-auxiliar-para-sala-o-comedor-tapizada-milano-estructura-de-la-silla-blanco/p/MCO43759202#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=32&type=product&tracking_id=ff2f38d0-70ef-4311-96ca-c0131f3db027&wid=MCO3270234852&sid=search",
       "specs": {
           "dimensiones": "Medidas: 83 alto x 46,5 ancho x 38 fondo.",
@@ -47806,7 +47777,7 @@ window.PRODUCTOS = [
       "precio": 73240,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1649",
+      "imagen": "1648",
       "enlace": "https://texcomercial.com.co/products/silla-oceania-c-b-blanco",
       "specs": {
           "dimensiones": "Dimensiones54.5/55.2/78.4",
@@ -47835,7 +47806,7 @@ window.PRODUCTOS = [
       "precio": 4470050,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1650",
+      "imagen": "1649",
       "enlace": "https://zonabarber.co/products/silla-de-barberia-luxurious-modelo-st?variant=55689162686850",
       "specs": {
           "dimensiones": "45 cm de ancho × 45 cm de profundidad × 80–85 cm de alto. Medidas estimadas según modelos equivalentes del mercado.",
@@ -47864,7 +47835,7 @@ window.PRODUCTOS = [
       "precio": 219848,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1651",
+      "imagen": "1650",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1361323229-silla-para-comedor-gongga-acolchada-cuero-_JM",
       "specs": {
           "dimensiones": "Aproximadamente: 73 cm de alto × 46 cm de ancho × 33 cm de profundidad.",
@@ -47893,7 +47864,7 @@ window.PRODUCTOS = [
       "precio": 164762,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1652",
+      "imagen": "1651",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/735118/silla-plastica-playera-con-brazos-baru-taupe-rimax/567048/?kid=shopp_goosho_1430598&shop=1&gad_source=4&gad_campaignid=22296499605&gbraid=0AAAAADt6wnrBx6EKqcg3izDg0Dthcpz7w&gclid=CjwKCAjwrNrQBhBjEiwAoR4VO86fGqp5wHOmufYZT1wxH94Gjd4aFbIw2k3Ci0176aCkkAfl72FJtBoCrxIQAvD_BwE",
       "specs": {
           "dimensiones": "Alto aproximado: 82 cm. Ancho: 55 cm. Profundidad: 54 cm. Altura del asiento aproximada: 44 cm.",
@@ -47922,7 +47893,7 @@ window.PRODUCTOS = [
       "precio": 139590,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1653",
+      "imagen": "1652",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/95349/silla-plegable-negra-base-metalica/95349/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 44 cm de ancho × 46 cm de profundidad × 78 cm de alto.",
@@ -47951,7 +47922,7 @@ window.PRODUCTOS = [
       "precio": 50388,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1654",
+      "imagen": "1653",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/647198/silla-sin-brazos-plastico-cipres-blanco/647198/?kid=shopp_goosho_1430598&shop=1&gad_source=4&gad_campaignid=22296499605&gbraid=0AAAAADt6wnrBx6EKqcg3izDg0Dthcpz7w&gclid=CjwKCAjwrNrQBhBjEiwAoR4VO4-y80V4mZ1xGK0Pc1OjfHdVT1vRapVp25xGWvMRVkyZQoraLmIMgxoCBUwQAvD_BwE",
       "specs": {
           "dimensiones": "Ancho: 53 cm. Alto: 89,5 cm. Profundidad: 46,5 cm.",
@@ -47980,7 +47951,7 @@ window.PRODUCTOS = [
       "precio": 56660,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1655",
+      "imagen": "1654",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/647200/silla-con-brazos-plastico-cipres-wengue/647201/",
       "specs": {
           "dimensiones": "Ancho\n52.3 cm\nAlto\n77.8 cm\nProfundidad\n54.7 cm",
@@ -48009,7 +47980,7 @@ window.PRODUCTOS = [
       "precio": 62640,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1656",
+      "imagen": "1655",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/596873/silla-sin-brazos-samba-blanco-eco-rimax/596873/",
       "specs": {
           "dimensiones": "Ancho46.5 cmAlto87.5 cmProfundidad52.5 cm",
@@ -48038,7 +48009,7 @@ window.PRODUCTOS = [
       "precio": 330070,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1657",
+      "imagen": "1656",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/60769/silla-secretarial-neumatica-negra/60769/",
       "specs": {
           "dimensiones": "50 cm de ancho × 49 cm de profundidad × 95 cm de alto.",
@@ -48067,7 +48038,7 @@ window.PRODUCTOS = [
       "precio": 137885,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1658",
+      "imagen": "1657",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/289099/silla-con-brazos-plastico-shia-mocca/289099/",
       "specs": {
           "dimensiones": "45 cm de ancho × 45 cm de profundidad × 80–85 cm de alto. Medidas estimadas según modelos equivalentes del mercado.",
@@ -48096,7 +48067,7 @@ window.PRODUCTOS = [
       "precio": 452348,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1659",
+      "imagen": "1658",
       "enlace": "https://distrionlineluisfenieto.mercadoshops.com.co/MCO-2801495134-silla-en-polipropileno-crossback-interiores-y-exteriores-_JM",
       "specs": {
           "dimensiones": "Alto aproximado: 78 cm. Ancho: 45 cm. Profundidad/largo: 42 cm. Altura del asiento aproximada: 45 cm.",
@@ -48125,7 +48096,7 @@ window.PRODUCTOS = [
       "precio": 1121100,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1660",
+      "imagen": "1659",
       "enlace": "https://compumuebles.com/products/tandem-isosceles?variant=35072775225504&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=1&gad_campaignid=17347630277&gbraid=0AAAAADlXsTmgfygoPR0rLkIOuyaMwIBZn&gclid=CjwKCAjwqonVBhA4EiwA9wYJ3czclebexr6A7RsFhNfWD_au3p2OAVYB3oQ0-uplmZvqXJPwZ1bLoxoCvzkQAvD_BwE%20%20%20(925,000)",
       "specs": {
           "dimensiones": "Alto\n160 cm\nAlto\n160 cm\nAlto\n160 cm",
@@ -48154,7 +48125,7 @@ window.PRODUCTOS = [
       "precio": 3632850,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1661",
+      "imagen": "1660",
       "enlace": "https://www.mercadolibre.com.co/silla-de-manicura-dompel-veneza--mesa-de-unas-portatil-con/up/MCOU2490779779#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=9&type=product&tracking_id=a5371eee-0639-4328-8582-8ea354833437&wid=MCO1429404331&sid=search",
       "specs": {
           "dimensiones": "Profundidad total aproximada: 80 cm. Profundidad del asiento: 62 cm. Largo aproximado para sofá de 3 puestos: entre 180 y 210 cm. Altura aproximada: 85–95 cm",
@@ -48183,7 +48154,7 @@ window.PRODUCTOS = [
       "precio": 1617070,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1662",
+      "imagen": "1661",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/801388/silla-sillon-barberia-hidraulico-peluqueria-reclinable-salon-negro/801388/",
       "specs": {
           "dimensiones": "Profundidad total aproximada: 80 cm. Profundidad del asiento: 62 cm. Largo aproximado para sofá de 3 puestos: entre 180 y 210 cm. Altura aproximada: 85–95 cm",
@@ -48212,7 +48183,7 @@ window.PRODUCTOS = [
       "precio": 6443250,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1663",
+      "imagen": "1662",
       "enlace": "https://autosolar.co/kits-solares-aislada",
       "specs": {
           "dimensiones": "Variables según la configuración del kit y número de paneles solares. Paneles solares de aproximadamente 2 m × 1 m cada uno",
@@ -48241,7 +48212,7 @@ window.PRODUCTOS = [
       "precio": 3328130,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1664",
+      "imagen": "1663",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/626035/sistema-de-tratamiento-de-agua-dirigido-por-uv-arrowmax-10/626035/?kid=shopp_goosho_1430598&shop=1&gad_source=4&gad_campaignid=22296499605&gbraid=0AAAAADt6wnrBx6EKqcg3izDg0Dthcpz7w&gclid=CjwKCAjwrNrQBhBjEiwAoR4VO5k8kIw2IkPOVaR5A60lhEjea8ev7tIGP5FMda5QazSrL5auay4mMBoC2sQQAvD_BwE",
       "specs": {
           "dimensiones": "Largo aproximado: 35 cm. Diámetro aproximado: 8 cm.",
@@ -48270,7 +48241,7 @@ window.PRODUCTOS = [
       "precio": 1330890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1665",
+      "imagen": "1664",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/705360/sofa-sevilla-gris-2-puestos/705360/",
       "specs": {
           "dimensiones": "165 cm de largo × 80 cm de alto × 58 cm de profundidad aproximadamente",
@@ -48299,7 +48270,7 @@ window.PRODUCTOS = [
       "precio": 1617070,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1666",
+      "imagen": "1665",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/694113/sofa-king-3-puestos-tela-antifluidos-200x90x80-gris/694113/",
       "specs": {
           "dimensiones": "Profundidad total aproximada: 80 cm. Profundidad del asiento: 62 cm. Largo aproximado para sofá de 3 puestos: entre 180 y 210 cm. Altura aproximada: 85–95 cm",
@@ -48328,7 +48299,7 @@ window.PRODUCTOS = [
       "precio": 87890,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1667",
+      "imagen": "1666",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/590236/soldador-vulcan-de-punta-fina-para-electronica-de-precision/590236/",
       "specs": {
           "dimensiones": "Aproximadamente entre 20 y 30 cm de longitud total (estimado según el diseño estándar del producto).",
@@ -48357,7 +48328,7 @@ window.PRODUCTOS = [
       "precio": 4745676,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1668",
+      "imagen": "1667",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/522100/soldador-inversor-220amp-110-220v-multiproceso-elite/522100/?kid=shopp_goosho_1430598&shop=1&gad_source=4&gad_campaignid=22296499605&gbraid=0AAAAADt6wnrBx6EKqcg3izDg0Dthcpz7w&gclid=CjwKCAjwrNrQBhBjEiwAoR4VOwrK8CiWVROzM6_t4-xOe3BC_z5jEuPxUaV8rUMhMeH9nBmULHjImRoCUV4QAvD_BwE",
       "specs": {
           "dimensiones": "Alto aproximado: 35 cm. Ancho: 22 cm. Largo/fondo: 48 cm.",
@@ -48386,7 +48357,7 @@ window.PRODUCTOS = [
       "precio": 833690,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1669",
+      "imagen": "1668",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/689587/soldadora-mig-tig-mma-40-120a-110-220v-jasic/689587/?kid=shopp_goosho_1430598&shop=1&gad_source=4&gad_campaignid=22296499605&gbraid=0AAAAADt6wnrBx6EKqcg3izDg0Dthcpz7w&gclid=CjwKCAjwrNrQBhBjEiwAoR4VOwTKu_PsCGtTLNq102q_vejp8oGEaJInsNgnBwKUwabUCT2axSFSjxoC5BIQAvD_BwE",
       "specs": {
           "dimensiones": "Aproximadamente 51 cm de largo × 21 cm de ancho × 30.5 cm de alto.",
@@ -48415,7 +48386,7 @@ window.PRODUCTOS = [
       "precio": 44700,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1670",
+      "imagen": "1669",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/07518/electrodo-6013-3-32-pulgada-x-1-kilo/07518/",
       "specs": {
           "dimensiones": "Electrodo de amplia aplicación en soldadura de aceros de bajo carbono no aleados, de uso corriente en carpintería metálica: fabricación de muebles, ductos de ventilación, rejas, puertas.",
@@ -48444,7 +48415,7 @@ window.PRODUCTOS = [
       "precio": 833690,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1671",
+      "imagen": "1670",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/324410/soldador-inversor-mma-tig-15-160amp-110v-220v/324410/",
       "specs": {
           "dimensiones": "Aproximadamente 51 cm de largo × 21 cm de ancho × 30.5 cm de alto.",
@@ -48473,7 +48444,7 @@ window.PRODUCTOS = [
       "precio": 488635,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1672",
+      "imagen": "1671",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/900846/parasol-lateral-3-metros-sin-base-uv80-led-solar-color/900846/",
       "specs": {
           "dimensiones": "Tipo\nParasoles laterales\nAncho\n300\nAlto\n245\nLargo\n300\nForma\nRedonda\nMaterial de la estructura\nAcero\nColor\nCrudo; Negro",
@@ -48502,7 +48473,7 @@ window.PRODUCTOS = [
       "precio": 379385,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1673",
+      "imagen": "1672",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/909771/parasol-lateral-3-metros-sin-base-color-natural/909771/",
       "specs": {
           "dimensiones": "Ancho\n300 cm\nAlto\n254 cm\nLargo\n300 cm\nForma\nRedonda",
@@ -48531,7 +48502,7 @@ window.PRODUCTOS = [
       "precio": 476034,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1674",
+      "imagen": "1673",
       "enlace": "https://www.falabella.com.co/falabella-co/product/149571465/Secador-Soplador-Profesional-Perro-Gato-Pelo-Mascotas-2800w/149571466",
       "specs": {
           "dimensiones": "Largo aproximado: 35 cm. Ancho: 17 cm. Alto: 20 cm. Manguera flexible extensible hasta aproximadamente 2,1 m.",
@@ -48560,7 +48531,7 @@ window.PRODUCTOS = [
       "precio": 30108,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1675",
+      "imagen": "1674",
       "enlace": "https://surtidor.com.co/products/1-86-4?variant=47005087531230&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqpli0QPL4XPqjkOBtSpedwKuzny4yo63B0jcXzs3ODUsILUthAdFM",
       "specs": {
           "dimensiones": "Largo aproximado: 30 cm. Ancho: 20 cm. Espesor: 0,8 cm",
@@ -48589,7 +48560,7 @@ window.PRODUCTOS = [
       "precio": 875654,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1676",
+      "imagen": "1675",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/336559/Taladro-de-Columna-1-2-Pulgada-250W-5-Velocidades/336559",
       "specs": {
           "dimensiones": "Aproximadamente 59 cm de ancho × 18 cm de alto × 29 cm de largo. Mesa de trabajo de 16 × 16 cm. Altura de trabajo de 8” (20 cm).",
@@ -48618,7 +48589,7 @@ window.PRODUCTOS = [
       "precio": 627750,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1677",
+      "imagen": "1676",
       "enlace": "https://www.util.com.co/taladro-alto-torque-12-1050-w-industrial-discover/p",
       "specs": {
           "dimensiones": "Potencia\n1050 W\nReversible\nSi\nAlimentación\nEléctrica\nVelocidad\n0-500 RPM",
@@ -48647,7 +48618,7 @@ window.PRODUCTOS = [
       "precio": 753922,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1678",
+      "imagen": "1677",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/171449/taladro-de-banco-1-2-pulg-350w-760-3070rpm-5-velocidades-bauker/171449/?kid=shopp_goosho_1430598&shop=1&gad_source=4&gad_campaignid=22296499605&gbraid=0AAAAADt6wnrBx6EKqcg3izDg0Dthcpz7w&gclid=CjwKCAjwrNrQBhBjEiwAoR4VO6Z-4YyVvIsIKrZSR2NZNJHBBA83GTL-1WRrX1NyH-C2GTVMCDErERoC5AUQAvD_BwE",
       "specs": {
           "dimensiones": "Alto total aproximado: 58 cm. Ancho: 51 cm. Fondo/largo: 24,5 cm. Dimensiones de la mesa de trabajo: 160 mm x 160 mm. Tamaño de la base: 290 mm x 190 mm.",
@@ -48676,7 +48647,7 @@ window.PRODUCTOS = [
       "precio": 3286458,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1679",
+      "imagen": "1678",
       "enlace": "https://soelco.co/producto/taladro-piso-13-pulgadas-330mm-560w-toolcraft-tc3449/",
       "specs": {
           "dimensiones": "Mesa de trabajo de 10 × 10 pulgadas (254 mm × 254 mm) brinda estabilidad y precisión en el posicionamiento.",
@@ -48705,7 +48676,7 @@ window.PRODUCTOS = [
       "precio": 1398197,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1680",
+      "imagen": "1679",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/552891/taladro-de-arbol-375w-16-mm/552891/",
       "specs": {
           "dimensiones": "Largo: 40 cm; ancho: 58 cm; alto: 27 cm",
@@ -48734,7 +48705,7 @@ window.PRODUCTOS = [
       "precio": 234390,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1681",
+      "imagen": "1680",
       "enlace": "https://toolstore.com.co/products/taladro-inalambrico-percutor-21v-mandril-1-2-13mm-1-350rpm-ref-fire21-furius?variant=44957489660226&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoocvGSFk6f0Q2onXxf0Ra6QtDf3z0uOIYtagKDkdPU9YE_GMwsVNrc",
       "specs": {
           "dimensiones": "Aproximadamente 30 cm × 25 cm × 10 cm (incluyendo maletín o empaque).",
@@ -48763,7 +48734,7 @@ window.PRODUCTOS = [
       "precio": 179250,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1682",
+      "imagen": "1681",
       "enlace": "https://www.mercadolibre.com.co/taladro-percutor-de-12-750w-velocidad-variable-elite-id710-color-azul-frecuencia-60-hz/p/MCO44958444",
       "specs": {
           "dimensiones": "Frecuencia\n60 Hz\nPotencia\n750 W\nTamaño del mandril\n13 mm\nGolpes por minuto\n50000",
@@ -48792,7 +48763,7 @@ window.PRODUCTOS = [
       "precio": 472270,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1683",
+      "imagen": "1682",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3025342/taladro-percutor-inalambrico-1-2-pulgada-20v-cidli206681/3025342/",
       "specs": {
           "dimensiones": "Ancho\n25 cm\nAlto\n10 cm\nLargo\n30 cm",
@@ -48821,7 +48792,7 @@ window.PRODUCTOS = [
       "precio": 258128,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1684",
+      "imagen": "1683",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3069406/taladro-percutor-1-2-pulgada-3000rpm-900w-110v-total-tools-utg1091366/3069406/",
       "specs": {
           "dimensiones": "Largo aproximado: 32 cm; ancho: 8 cm; alto: 24 cm.",
@@ -48850,7 +48821,7 @@ window.PRODUCTOS = [
       "precio": 813670,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1685",
+      "imagen": "1684",
       "enlace": "https://belltec.com.co/taladros-inalambricos/21510-taladro-percutor-makita-18v-12-con-bateria-y-cargador.html?srsltid=AfmBOor6IJ7gfGYARkasEydl1aiYfrXtR4YnUASCyIvYF9FEzA82mcNITRg",
       "specs": {
           "dimensiones": "Aproximadamente 22 cm de largo × 8 cm de ancho × 24 cm de alto.",
@@ -48879,7 +48850,7 @@ window.PRODUCTOS = [
       "precio": 433400,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1686",
+      "imagen": "1685",
       "enlace": "https://www.exito.com/taladro-percutor-inalambrico-24v-voltios-tipo-dewalt-atornillador-102238086-mp/p",
       "specs": {
           "dimensiones": "Largo: 20 – 25 cm Alto: 20 – 25 cm Ancho: 7 – 10 cm",
@@ -48908,7 +48879,7 @@ window.PRODUCTOS = [
       "precio": 200310,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1687",
+      "imagen": "1686",
       "enlace": "https://ferreterialuispenagos.com/tienda/taladro-inalambrico-percutor-21v-1-2-2-baterias-furius-fbd2150k/?srsltid=AfmBOorkZE5XjLJk34vsADjOHfegeElEDftQDGBJYrdiPL29NF0EXbgj8vI",
       "specs": {
           "dimensiones": "Alto 26 cm × ancho 10 cm × largo 34 cm.",
@@ -48937,7 +48908,7 @@ window.PRODUCTOS = [
       "precio": 687570,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1688",
+      "imagen": "1687",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/240447/taladro-rotomartillo-sds-plus-820w-27j-1300rpm-bosch/240447/?kid=dis_adi_1435635&gad_source=4&gad_campaignid=23611073922&gbraid=0AAAAADt6wnoEiX_P9eUs8xANicaEEJhbQ&gclid=CjwKCAjwidXQBhAZEiwA4egw6KjNVOlYYo0AasvRwbjui1zFskuaupEZvk9Dt_3rKRbiCO1VERliehoCYb0QAvD_BwE",
       "specs": {
           "dimensiones": "Aproximadamente 35.8 × 10.4 × 43.6 cm (puede variar ligeramente según versión).",
@@ -48966,7 +48937,7 @@ window.PRODUCTOS = [
       "precio": 18290757,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1689",
+      "imagen": "1688",
       "enlace": "https://ace-chn.mx/product/tanque-de-enfriamiento-de-leche-2000-litros/?srsltid=AfmBOopWpLFslqHlNIf-UM244BJYjl4Do8WxrC2wjBu42GKfL3t5b0I-E0c",
       "specs": {
           "dimensiones": "Aproximadamente 250 a 300 cm de largo, 110 a 150 cm de ancho y 120 a 160 cm de alto (puede variar según configuración vertical u horizontal).",
@@ -48995,7 +48966,7 @@ window.PRODUCTOS = [
       "precio": 1594242,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1690",
+      "imagen": "1689",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/523853/tanque-almacenamiento-agua-potable-2000-litros/523853/",
       "specs": {
           "dimensiones": "Aproximadamente 140 cm de diámetro × 140 cm de alto × 175 cm de largo (según ficha técnica del fabricante y distribución del modelo)",
@@ -49024,7 +48995,7 @@ window.PRODUCTOS = [
       "precio": 4082733,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1691",
+      "imagen": "1690",
       "enlace": "https://www.zonesun.com/es/products/zs-mb1000l-stainless-steel-liquid-paste-heating-mixing-tank?variant=45658384433318&country=AR&currency=USD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorLZbjWLcP0VXwwyrGFdS7J1XF8LF5m31qnBYU4MFUos1jP0mwQr4c",
       "specs": {
           "dimensiones": "Aproximadamente 136 × 145 × 230 cm (empaque del equipo). Altura con estructura instalada puede variar según configuración.",
@@ -49053,7 +49024,7 @@ window.PRODUCTOS = [
       "precio": 99148,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "1692",
+      "imagen": "1691",
       "enlace": "https://www.steren.com.co/tapete-profesional-organizador-de-trabajo-antiestatico-y-magnetico.html?srsltid=AfmBOoplOYo1YVDJ8x7P7wTBV5Db6qZGaTaDvjP_MZZPmBjUIovzPbP4FYQ",
       "specs": {
           "dimensiones": "45 cm de largo por 30 cm de ancho",
@@ -49082,7 +49053,7 @@ window.PRODUCTOS = [
       "precio": 3307070,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1693",
+      "imagen": "1692",
       "enlace": "https://www.falabella.com.co/falabella-co/product/150970526/smart-tv-75-indurama-4k-uhd-android-tv-14-dolby-audio/150970527?kid=shopp262fa&gclsrc=aw.ds&gad_source=4&gad_campaignid=21865141189&gbraid=0AAAAADtuoyS7KqQgQAZkrCjTbqYSogasa&gclid=CjwKCAjwidXQBhAZEiwA4egw6H0N9M1iBjc-KaRwWsDAspmw1mM4iZfWoMFyBTaTMpkKUKnwQz7BmxoC-vYQAvD_BwE",
       "specs": {
           "dimensiones": "Aproximadamente: 166.6 cm de ancho × 95.8 cm de alto × 34.7 cm de profundidad",
@@ -49111,7 +49082,7 @@ window.PRODUCTOS = [
       "precio": 1601470,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1694",
+      "imagen": "1693",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3015264/televisor-hyundai-43-hyled4325rim-smart-tv-roku/3015264/",
       "specs": {
           "dimensiones": "Aproximadamente: 95 a 97 cm de ancho, 55 a 60 cm de alto (sin base). Profundidad cercana a 8–10 cm (solo panel). Con base puede llegar a ~20–25 cm de profundidad.",
@@ -49140,7 +49111,7 @@ window.PRODUCTOS = [
       "precio": 91000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1695",
+      "imagen": "1694",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/552275/termo-con-tapa-tipo-bomba-en-acero-inoxidable-19-litros-plateado/552275/",
       "specs": {
           "dimensiones": "32 cm de alto y 23.5 cm de ancho o diámetro, dependiendo de la versión del fabricante",
@@ -49169,7 +49140,7 @@ window.PRODUCTOS = [
       "precio": 164300,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1696",
+      "imagen": "1695",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/152512260/termo-arctic-tropic-7-6-lts-2-galones/152512261",
       "specs": {
           "dimensiones": "Alto\t32 cm\nIncluye\t2\nAncho\t24 cm\nPaís de origen\tVenezuela\nLargo\t24 cm",
@@ -49198,7 +49169,7 @@ window.PRODUCTOS = [
       "precio": 101816,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1697",
+      "imagen": "1696",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/552275/termo-bomba-acero-inox-19-litro/552275/",
       "specs": {
           "dimensiones": "Aproximadamente: 13 a 14 cm de diámetro y 35 a 37 cm de altura",
@@ -49227,7 +49198,7 @@ window.PRODUCTOS = [
       "precio": 140842,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1698",
+      "imagen": "1697",
       "enlace": "https://incolamerica.com/producto/termo-criogenico-de-20-litros-xc20/",
       "specs": {
           "dimensiones": "32 cm de alto y 23.5 cm de ancho o diámetro, dependiendo de la versión del fabricante",
@@ -49256,7 +49227,7 @@ window.PRODUCTOS = [
       "precio": 140842,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1699",
+      "imagen": "1698",
       "enlace": "https://tienex.co/catalogo/rubbermaid/rubbermaid-1685/",
       "specs": {
           "dimensiones": "32 cm de alto y 23.5 cm de ancho o diámetro, dependiendo de la versión del fabricante",
@@ -49285,7 +49256,7 @@ window.PRODUCTOS = [
       "precio": 167440,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1700",
+      "imagen": "1699",
       "enlace": "https://www.falabella.com.co/falabella-co/product/130135055/Termo-Bomba-Doble-Pared-Home-Elements-de-1,9-Litros-HEPLCD19DS/130135059",
       "specs": {
           "dimensiones": "Dimensiones y peso: Altura: 36,5 cm Ancho: 19,1 cm Largo: 13,5 cm",
@@ -49314,7 +49285,7 @@ window.PRODUCTOS = [
       "precio": 282555,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1701",
+      "imagen": "1700",
       "enlace": "https://www.falabella.com.co/falabella-co/product/153510206/termo-bomba-multibebidas-universal-de-3-litros-l90021/153510207",
       "specs": {
           "dimensiones": "32 cm de alto y 23.5 cm de ancho o diámetro, dependiendo de la versión del fabricante+F1702",
@@ -49343,7 +49314,7 @@ window.PRODUCTOS = [
       "precio": 224100,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1702",
+      "imagen": "1701",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/234156/termo-sifon-25-litros-silver-con-maija-airpot-home-collection/234156/",
       "specs": {
           "dimensiones": "Ancho\n15 cm\nAlto\n33.9 cm\nLargo\n15 cm",
@@ -49372,7 +49343,7 @@ window.PRODUCTOS = [
       "precio": 59650,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1703",
+      "imagen": "1702",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/09544/termo-1-litro-giromatico-liso-imusa/09544/",
       "specs": {
           "dimensiones": "Ancho\n14.7 cm\nAlto\n32 cm\nLargo\n11.5 cm",
@@ -49401,7 +49372,7 @@ window.PRODUCTOS = [
       "precio": 305968,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1704",
+      "imagen": "1703",
       "enlace": "https://www.falabella.com.co/falabella-co/product/148875125/TERMO-POPOTAMO-DECOCAR-15-LITROS/148875126",
       "specs": {
           "dimensiones": "35 cm de largo, 35 cm de ancho y 40 cm de alto",
@@ -49430,7 +49401,7 @@ window.PRODUCTOS = [
       "precio": 134535,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1705",
+      "imagen": "1704",
       "enlace": "https://www.mercadolibre.com.co/termo-botella-de-agua-jugos-plegable-de-silicona-deportivo/up/MCOU2431567815#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=2&type=product&float_highlight=last_unit&tracking_id=a722c3dc-eadf-4a43-9f95-f5bed7d3ef03&wid=MCO843237225&sid=search",
       "specs": {
           "dimensiones": "32 cm de alto y 23.5 cm de ancho o diámetro, dependiendo de la versión del fabricante",
@@ -49459,7 +49430,7 @@ window.PRODUCTOS = [
       "precio": 5525635,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1706",
+      "imagen": "1705",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/686516/dispensador-de-jugos-y-bebidas-frias-10-litros-x-3-tanques/686516/",
       "specs": {
           "dimensiones": "32 cm de alto y 23.5 cm de ancho o diámetro, dependiendo de la versión del fabricante",
@@ -49488,7 +49459,7 @@ window.PRODUCTOS = [
       "precio": 219622,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1707",
+      "imagen": "1706",
       "enlace": "https://www.locatelcolombia.com/termo-bomba-3-litros-de-acero-inoxidable-39655/p",
       "specs": {
           "dimensiones": "Aproximadamente 20 × 16 × 39 cm",
@@ -49517,7 +49488,7 @@ window.PRODUCTOS = [
       "precio": 50882,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1708",
+      "imagen": "1707",
       "enlace": "https://www.olimpica.com/termo-giromatico-12904-1-l/p",
       "specs": {
           "dimensiones": "25.5 cm de alto, 14.7 cm de ancho y 11.5 cm de largo",
@@ -49546,7 +49517,7 @@ window.PRODUCTOS = [
       "precio": 193570,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1709",
+      "imagen": "1708",
       "enlace": "https://www.estra.com/termo-8l-gris-insulado-material-recuperado--4398/p",
       "specs": {
           "dimensiones": "26 × 26 × 36 cm",
@@ -49575,7 +49546,7 @@ window.PRODUCTOS = [
       "precio": 67126,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1710",
+      "imagen": "1709",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/282290/termo-24-litros-liquido-frio-azul/282290/",
       "specs": {
           "dimensiones": "Ancho\n15.9 cm Alto\n28.9 cm\nLargo\n15.9 cm",
@@ -49604,7 +49575,7 @@ window.PRODUCTOS = [
       "precio": 140842,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1711",
+      "imagen": "1710",
       "enlace": "https://tienex.co/catalogo/rubbermaid/rubbermaid-1685/",
       "specs": {
           "dimensiones": "32 cm de alto y 23.5 cm de ancho o diámetro, dependiendo de la versión del fabricante",
@@ -49633,7 +49604,7 @@ window.PRODUCTOS = [
       "precio": 115908,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1712",
+      "imagen": "1711",
       "enlace": "https://ingeproductos.com/products/termo-nevado?variant=47097277448416&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOopJA8neYrEVLQEOxiyyP4cWRBcmcH03R71QzhRyAun62YsZfaT0Mvg",
       "specs": {
           "dimensiones": "Variables según capacidad, con alturas aproximadas entre 25 cm y 45 cm y diámetros entre 12 cm y 25 cm dependiendo del modelo del termo",
@@ -49662,7 +49633,7 @@ window.PRODUCTOS = [
       "precio": 140842,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1713",
+      "imagen": "1712",
       "enlace": "https://econexia.com/es/vitrina-detalle-producto/agroindustria/termo-nitrogeno-et20-mve/",
       "specs": {
           "dimensiones": "32 cm de alto y 23.5 cm de ancho o diámetro, dependiendo de la versión del fabricante",
@@ -49691,7 +49662,7 @@ window.PRODUCTOS = [
       "precio": 373395,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1714",
+      "imagen": "1713",
       "enlace": "https://www.mercadolibre.com.co/termo-dispensador-bebidas-con-grifo-resistente-crema-10l/p/MCO2107613708?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO4409359672&from=gshop",
       "specs": {
           "dimensiones": "Aproximadamente: altura entre 29 cm y 50 cm, diámetro entre 22 cm y 29 cm, según fabricante y diseño específico del modelo",
@@ -49720,7 +49691,7 @@ window.PRODUCTOS = [
       "precio": 343700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1715",
+      "imagen": "1714",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3028139/termo-popotamo-decocar-19-litros/3028139/",
       "specs": {
           "dimensiones": "Ancho\n32 cm\nAlto\n42 cm\nLargo\n32 cm",
@@ -49749,7 +49720,7 @@ window.PRODUCTOS = [
       "precio": 1121250,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1716",
+      "imagen": "1715",
       "enlace": "https://cursosphotoarts.com/products/termofijadora-de-perilla-38x38?variant=49834948133150&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqAFlfsM5WaYAgjWTLGQqK9ugDwNI4wODioCljt7zDWBjzyme9qx1w",
       "specs": {
           "dimensiones": "Bandeja Fija 38 x 38 cm con Perilla – Sencilla",
@@ -49778,7 +49749,7 @@ window.PRODUCTOS = [
       "precio": 30576,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1717",
+      "imagen": "1716",
       "enlace": "https://setefer.com/producto/termohigrometro-digital-higrometrotermometro-sonda-y-pilas-ta3/?gad_source=4&gad_campaignid=22718074472&gbraid=0AAAAA91DLssCpsmr9lHwJIZL29RHEYI-2&gclid=CjwKCAjwidXQBhAZEiwA4egw6AwLh5J_VxUpcvLTX7UZMIi6f69Au_J-biCdfHOJraZCSIryNLlLrhoCVlgQAvD_BwE",
       "specs": {
           "dimensiones": "Aproximadamente 12.5 × 7.0 × 1.8 cm (cuerpo del equipo). Longitud de sonda/cable: 1.5 m.",
@@ -49807,7 +49778,7 @@ window.PRODUCTOS = [
       "precio": 637905,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1718",
+      "imagen": "1717",
       "enlace": "https://exhibirequipos.com/producto/termo-bunn-38-litros/",
       "specs": {
           "dimensiones": "16 cm de ancho, 22,7 cm de fondo y 44 cm de alto.",
@@ -49836,7 +49807,7 @@ window.PRODUCTOS = [
       "precio": 20787,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1719",
+      "imagen": "1718",
       "enlace": "https://imcolmedica.com.co/product/termometro-digital-de-punta-flexible/",
       "specs": {
           "dimensiones": "12 cm y 15 cm de largo total, con punta flexible de pequeño tamaño para uso clínico.",
@@ -49865,7 +49836,7 @@ window.PRODUCTOS = [
       "precio": 105397,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1720",
+      "imagen": "1719",
       "enlace": "https://www.falabella.com.co/falabella-co/product/137902112/TERMOMETRO-DIGITAL,-SIN-CONTACTO,-PARA-NINO-Y-ADULTO-DIKANG-HG01/137902113",
       "specs": {
           "dimensiones": "12 cm y 15 cm de largo total, con punta flexible de pequeño tamaño para uso clínico.",
@@ -49894,7 +49865,7 @@ window.PRODUCTOS = [
       "precio": 24150,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1721",
+      "imagen": "1720",
       "enlace": "https://www.libertylab.co/producto/termometro-digital-punzon-alimentos-industria-tp300/",
       "specs": {
           "dimensiones": "Tamaño de la pantalla: 20 cm * 35 cm/7.87 \" * 13.78 \" (Aprox.)\nLongitud Total: 24.5 cm/9.64 \" (Aprox.)\nLongitud de La sonda: 14.5 cm/5.7 \" (Aprox.)",
@@ -49923,7 +49894,7 @@ window.PRODUCTOS = [
       "precio": 77576,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1722",
+      "imagen": "1721",
       "enlace": "https://hcoherramientas.co/producto/termometro-horno-acero-inoxidable-sonda/",
       "specs": {
           "dimensiones": "78 cm de largo, 40 cm de ancho y 14 cm de profundidad",
@@ -49952,7 +49923,7 @@ window.PRODUCTOS = [
       "precio": 83200,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1723",
+      "imagen": "1722",
       "enlace": "https://hcoherramientas.co/producto/termometro-horno-acero-inoxidable-sonda/",
       "specs": {
           "dimensiones": "Cuerpo aproximado: 40 × 30 × 30 mm. Sonda: 150 mm (15 cm).",
@@ -49981,7 +49952,7 @@ window.PRODUCTOS = [
       "precio": 74932,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1724",
+      "imagen": "1723",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/655550/tijera-para-corte-de-metal-10-pulgadas-espesor-maximo-08-mm-acero-carb-06-mm-inox/655550/",
       "specs": {
           "dimensiones": "34 cm de largo total, 12 cm de ancho y 1.9 cm de alto.",
@@ -50010,7 +49981,7 @@ window.PRODUCTOS = [
       "precio": 14820,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1725",
+      "imagen": "1724",
       "enlace": "https://barberdepotcolombia.com/categoria-producto/tijeras/",
       "specs": {
           "dimensiones": "Longitud aproximada: 15 a 17 cm (6 a 6,5\").",
@@ -50039,7 +50010,7 @@ window.PRODUCTOS = [
       "precio": 73600,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1726",
+      "imagen": "1725",
       "enlace": "https://turbox.com.co/producto/kit-tijeras-de-corte-profesional-nt-barberopolis/",
       "specs": {
           "dimensiones": "Longitud aproximada: 15 a 17 cm (6 a 6,5\").",
@@ -50068,7 +50039,7 @@ window.PRODUCTOS = [
       "precio": 22750,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1727",
+      "imagen": "1726",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/114115/tijera-jardinera-descogolladora-6-3-8-pulgadas/114115/",
       "specs": {
           "dimensiones": "Largo: 16,2 cm aprox. Ancho: 4,3 cm grosor: 1,3 cm",
@@ -50097,7 +50068,7 @@ window.PRODUCTOS = [
       "precio": 75868,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1728",
+      "imagen": "1727",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/712661/tijera-podadora-jardinera-de-8-en-acero/712661/",
       "specs": {
           "dimensiones": "Longitud total de 8\" (aproximadamente 20 a 21 cm)",
@@ -50126,7 +50097,7 @@ window.PRODUCTOS = [
       "precio": 60892,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1729",
+      "imagen": "1728",
       "enlace": "https://bidecol.me/producto/tijera-tipo-pulidora-12cm-naranja-x-1und",
       "specs": {
           "dimensiones": "Largo: 12 cm aprox. Ancho: 4,5 cm aprox. Empaque: 15 × 13 × 6 cm aprox.",
@@ -50155,7 +50126,7 @@ window.PRODUCTOS = [
       "precio": 50050,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1730",
+      "imagen": "1729",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/656782/tijera-de-sastre-de-9-pulgadas-y-mango-ergonomico/656782/",
       "specs": {
           "dimensiones": "23 cm de largo total, 5 cm de ancho y 1 cm de grosor",
@@ -50184,7 +50155,7 @@ window.PRODUCTOS = [
       "precio": 531310,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1731",
+      "imagen": "1730",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/687032/tijeras-electricas-herramienta-de-corte-electrico-costura/687032/",
       "specs": {
           "dimensiones": "Largo aproximado: 16 cm. Ancho: 10 cm. Diseño portátil de mano.",
@@ -50213,7 +50184,7 @@ window.PRODUCTOS = [
       "precio": 67357,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1732",
+      "imagen": "1731",
       "enlace": "https://www.mercadolibre.com.co/2025-n-tijera-y-peluqueria-cortaradelgazar-recta-para/p/MCO2058634323?pdp_filters=item_id:MCO1724819615#is_advertising=true&searchVariation=MCO2058634323&backend_model=search-backend&be_origin=backend&position=2&search_layout=grid&type=pad&tracking_id=778f7b4d-9c78-4985-8b4d-d176e6d6642f&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=YTFjMjAwNjUtYzU4NC00NzFmLWEyYWMtNGU0ZGNiMGFjZDAz",
       "specs": {
           "dimensiones": "Largo\n17 cm",
@@ -50242,7 +50213,7 @@ window.PRODUCTOS = [
       "precio": 105117,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1733",
+      "imagen": "1732",
       "enlace": "https://www.mercadolibre.com.co/tijera-filo-dulce-mango-liso-6-pulgadas-profesional-barberia-color-plateada/p/MCO29404471",
       "specs": {
           "dimensiones": "Largo: 15.2 cm.",
@@ -50271,7 +50242,7 @@ window.PRODUCTOS = [
       "precio": 77740,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1734",
+      "imagen": "1733",
       "enlace": "https://lacasadelganadero.com.co/tienda/tijera-podadora-gavilan",
       "specs": {
           "dimensiones": "Longitud aproximada: 15 a 17 cm (6 a 6,5\").",
@@ -50300,7 +50271,7 @@ window.PRODUCTOS = [
       "precio": 81000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1735",
+      "imagen": "1734",
       "enlace": "https://www.mercadolibre.com.co/tijeras-de-corte-de-pelo-miztnuai-precision-barber/p/MCO2072841499#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=5&type=product&tracking_id=e2923f82-475c-4c57-9a2e-d40e795bca7c&wid=MCO4040637762&sid=search",
       "specs": {
           "dimensiones": "Longitud aproximada: 15 a 17 cm (6 a 6,5\").",
@@ -50329,7 +50300,7 @@ window.PRODUCTOS = [
       "precio": 50570,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1736",
+      "imagen": "1735",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/476917/tijera-de-podar-a-una-mano/476917/",
       "specs": {
           "dimensiones": "15.4 cm de largo, 8 cm de ancho y 1.2 cm de alto",
@@ -50358,7 +50329,7 @@ window.PRODUCTOS = [
       "precio": 65624,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1737",
+      "imagen": "1736",
       "enlace": "https://greenforest.com.co/producto/tijera-podadora-9-gavilan-colorao/?srsltid=AfmBOorTGKpUQMDisXBIVl0a9jUQs93o8LgC7o4HrgBbx1CXaL--dHVZsFw",
       "specs": {
           "dimensiones": "23 cm de longitud total (9\"), ancho variable según apertura de las hojas de corte.",
@@ -50387,7 +50358,7 @@ window.PRODUCTOS = [
       "precio": 70590,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1738",
+      "imagen": "1737",
       "enlace": "https://www.mercadolibre.com.co/set-de-tijeras-para-peluqueria-canina-7-piezas/p/MCO2035614709#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=17&type=product&tracking_id=87c3d845-d1b1-411b-9f0c-0b8773543463&wid=MCO1835405759&sid=search",
       "specs": {
           "dimensiones": "Longitud aproximada: 15 a 17 cm (según modelo de línea grooming). Ancho: 5 cm aprox.",
@@ -50416,7 +50387,7 @@ window.PRODUCTOS = [
       "precio": 55869,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1739",
+      "imagen": "1738",
       "enlace": "https://tiendaonline.puntoscolombia.com/tijera-lisa-corte-cabello-tornasol-profesional-herramienta-peluqueria-166317-277/p?idsku=1421639&srsltid=AfmBOop6_iNe9CNRr3wkzbqRMFllLCo2IAUBH2zMNj5_-6shSxLWYeVE7dU",
       "specs": {
           "dimensiones": "Longitud aproximada: 16 a 17 cm (6 a 6,5\"). Ancho máximo: 5,5 cm",
@@ -50445,7 +50416,7 @@ window.PRODUCTOS = [
       "precio": 687700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1740",
+      "imagen": "1739",
       "enlace": "https://fabricacionesfranco.com/producto/tocador-fenix/?srsltid=AfmBOoq-KpgnzxlFCOK-lB-niHektvb8K_tISFqsBd46DeIzruuLemaYy5M",
       "specs": {
           "dimensiones": "40 × 80 × 170 cm",
@@ -50474,7 +50445,7 @@ window.PRODUCTOS = [
       "precio": 1884870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1741",
+      "imagen": "1740",
       "enlace": "https://www.falabella.com.co/falabella-co/product/152461758/tocador-tipo-hollywood-con-luces-led/152461759",
       "specs": {
           "dimensiones": "Altura 165 cm, Ancho 110 cm y Profundidad 33 cm.",
@@ -50503,7 +50474,7 @@ window.PRODUCTOS = [
       "precio": 981893,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "1742",
+      "imagen": "1741",
       "enlace": "https://virtualmuebles.com/products/zafiro-repisa-sencillo-espejos-plata-led?variant=44916642283686&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOophMXJnLxkgpJMEhfowaTzC4rJaoagmfEkQAlx_GJ8S0WxmHm_vD5A",
       "specs": {
           "dimensiones": "Alto: 180 cm. Ancho: 80 cm. Profundidad: 35 cm",
@@ -50532,7 +50503,7 @@ window.PRODUCTOS = [
       "precio": 1270802,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1743",
+      "imagen": "1742",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3047878/torno-para-madera-1000-mm-4-vel-370w-fwyy/3047878/",
       "specs": {
           "dimensiones": "Largo: 92 cm. Ancho: 27 cm. Alto: 41 cm",
@@ -50561,7 +50532,7 @@ window.PRODUCTOS = [
       "precio": 1572870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1744",
+      "imagen": "1743",
       "enlace": "https://www.util.com.co/torno-para-madera-370-w-4-velocidades-860--2560-discover/p",
       "specs": {
           "dimensiones": "Largo: 92 cm. Ancho: 27 cm. Alto: 41 cm",
@@ -50590,7 +50561,7 @@ window.PRODUCTOS = [
       "precio": 328750,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1745",
+      "imagen": "1744",
       "enlace": "https://www.falabella.com.co/falabella-co/product/150747911/torno-unas-profesional-35000-rpm-inalambrico-recargable-y-base-de-carga/150747912",
       "specs": {
           "dimensiones": "Aproximadamente 16,5 cm de largo x 7,3 cm de ancho x 3,5 cm de alto para la unidad principal portátil. Las dimensiones pueden variar ligeramente según fabricante y accesorios incluidos.",
@@ -50619,7 +50590,7 @@ window.PRODUCTOS = [
       "precio": 11550000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1746",
+      "imagen": "1745",
       "enlace": "https://casadelalicuadoraindustrial.com/tienda/linea-bebidas/maquinas-para-cafe/tostadora-de-cafe-2-3-5-kg-a-gas/",
       "specs": {
           "dimensiones": "Modelo 2 kg: aproximadamente 92 x 38 x 112 cm. Modelo 3 kg: aproximadamente 136 x 56 x 164 cm. Modelo 5 kg: aproximadamente 143 x 76 x 187 cm. Las dimensiones pueden variar ligeramente según configuración y accesorios solicitados por el cliente.",
@@ -50648,7 +50619,7 @@ window.PRODUCTOS = [
       "precio": 8671000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1747",
+      "imagen": "1746",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1860637045-tostadora-de-muestras-de-cafe-kaleido-m1-lite-50gr200gr-_JM?searchVariation=191466936576#polycard_client=recommendations_vip-v2p&reco_backend=ranker_retrieval_system_org&reco_model=coldstart_low_exposition&reco_client=vip-v2p&reco_item_pos=1&reco_backend_type=low_level&reco_id=94dee89e-5934-4cc2-8106-23862b5f1c0a",
       "specs": {
           "dimensiones": "Largo x Ancho x Altura\n39 cm x 18 cm x 29 cm",
@@ -50677,7 +50648,7 @@ window.PRODUCTOS = [
       "precio": 15697500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1748",
+      "imagen": "1747",
       "enlace": "https://casadelalicuadoraindustrial.com.co/producto/tostadora-de-cafe-3-kg-a-gas/",
       "specs": {
           "dimensiones": "DIMENSIONES APR.: 136 X 56 X 164 CM",
@@ -50706,7 +50677,7 @@ window.PRODUCTOS = [
       "precio": 16146000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1749",
+      "imagen": "1748",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-3090235174-tostadora-de-cafe-cacao-trilladora-y-molino-_JM?searchVariation=190319046921#polycard_client=search-desktop&be_origin=backend&searchVariation=190319046921&search_layout=grid&position=4&type=item&tracking_id=e8405687-ab35-4ebf-9993-4533b76561d3",
       "specs": {
           "dimensiones": "Modelo 2 kg: aproximadamente 92 x 38 x 112 cm. Modelo 3 kg: aproximadamente 136 x 56 x 164 cm. Modelo 5 kg: aproximadamente 143 x 76 x 187 cm. Las dimensiones pueden variar ligeramente según configuración y accesorios solicitados por el cliente.",
@@ -50735,7 +50706,7 @@ window.PRODUCTOS = [
       "precio": 13650000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1750",
+      "imagen": "1749",
       "enlace": "https://casadelalicuadoraindustrial.com/tienda/linea-bebidas/maquinas-para-cafe/tostadora-de-cafe-2-3-5-kg-a-gas/",
       "specs": {
           "dimensiones": "Modelo 3 kg: 130 × 75 × 150 cm aprox.",
@@ -50764,7 +50735,7 @@ window.PRODUCTOS = [
       "precio": 997441,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1751",
+      "imagen": "1750",
       "enlace": "https://encarguelo.com/producto/B0F9Y4FHYQ/tostadora-de-granos-de-cafe-quemarque-300-1200g-tostador-de-cacahuetes-de-acero-inoxidable-con-velocidad-ajustable-tipo-tambor-con-quemador-de-gas-para-uso-domestico-y-comercial",
       "specs": {
           "dimensiones": "Aproximadamente 60 cm de largo x 35 cm de ancho x 46 cm de alto, con variaciones según configuración y accesorios incluidos.",
@@ -50793,7 +50764,7 @@ window.PRODUCTOS = [
       "precio": 29874000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1752",
+      "imagen": "1751",
       "enlace": "https://casadelalicuadoraindustrial.com/tienda/linea-bebidas/maquinas-para-cafe/tostadora-de-cafe-12-20-kg-a-gas/",
       "specs": {
           "dimensiones": "20 kg: 224 cm × 120 cm × 292 cm",
@@ -50822,7 +50793,7 @@ window.PRODUCTOS = [
       "precio": 103090,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1753",
+      "imagen": "1752",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3013726/tostadora-de-pan-650-w/3013726/",
       "specs": {
           "dimensiones": "Aproximadamente 17 cm de alto x 12 cm de ancho x 23 cm de profundidad. Longitud del cable eléctrico aproximada de 27 cm.",
@@ -50851,7 +50822,7 @@ window.PRODUCTOS = [
       "precio": 522618,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1754",
+      "imagen": "1753",
       "enlace": "https://www.mercadolibre.com.co/diyarea-tostadora-de-cafe-para-uso-domestico-maquina-electr/up/MCOU3619153071#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=1&type=product&tracking_id=50624a36-8516-410d-8ca1-3a284d96d0e2&wid=MCO3337134784&sid=search",
       "specs": {
           "dimensiones": "Largo aproximado: 45 cm. Ancho aproximado: 20 cm. Alto aproximado: 25 cm.",
@@ -50880,7 +50851,7 @@ window.PRODUCTOS = [
       "precio": 551226,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1755",
+      "imagen": "1754",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/214222/trampa-de-grasas-de-500-litros/214222/",
       "specs": {
           "dimensiones": "Aproximadamente 118 cm de largo x 99 cm de diámetro x altura proporcional según diseño ovoide industrial. Las dimensiones pueden variar ligeramente dependiendo del fabricante y configuración del sistema",
@@ -50909,7 +50880,7 @@ window.PRODUCTOS = [
       "precio": 21398,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1756",
+      "imagen": "1755",
       "enlace": "https://www.haceb.com/transmision-para-lavadoras-haceb-digitalmanual-twin122400700-con-polea-7704353392708/p?idsku=626&srsltid=AfmBOorvIa9F1VkFx3ddnez2oan75gfchHylQt1NXiH-m2pzuff8bT_M7VY",
       "specs": {
           "dimensiones": "Largo aproximado: 35 cm. Ancho aproximado: 25 cm. Alto aproximado: 25 cm",
@@ -50938,7 +50909,7 @@ window.PRODUCTOS = [
       "precio": 2208960,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1757",
+      "imagen": "1756",
       "enlace": "https://www.tienda-jungheinrich.co/transpaletas/transpaletas-manuales/ameise-ac-20-685x1150--211650",
       "specs": {
           "dimensiones": "Aproximadamente 154 cm de largo total x 68,5 cm de ancho x 123 cm de alto. Horquillas estándar compatibles con pallets industriales tipo europeo y pbr",
@@ -50967,7 +50938,7 @@ window.PRODUCTOS = [
       "precio": 1861548,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1758",
+      "imagen": "1757",
       "enlace": "https://todoparaciclismo.com/products/triciclo-de-carga-sin-lamina?variant=43428811047160&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorVtAekE4I_qW3o9FoYOw70P9fAF9b0sYJ089u1slxbzSO7qT5YeKU",
       "specs": {
           "dimensiones": "Aproximadamente 2,10 m de largo x 0,95 m de ancho x 1,10 m de alto, con variaciones mínimas según configuración del fabricante.",
@@ -50996,7 +50967,7 @@ window.PRODUCTOS = [
       "precio": 1988200,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1759",
+      "imagen": "1758",
       "enlace": "https://todoparaciclismo.com/products/triciclo-para-carga",
       "specs": {
           "dimensiones": "Aproximadamente 107 cm de largo x 97 cm de ancho x 151 cm de alto, aunque las dimensiones pueden variar ligeramente según fabricante y configuración del equipo.",
@@ -51025,7 +50996,7 @@ window.PRODUCTOS = [
       "precio": 1609885,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1760",
+      "imagen": "1759",
       "enlace": "https://todoparaciclismo.com/products/triciclo-para-carga?variant=42829637615864&country=CO&currency=COP&utm_source=chatgpt.com",
       "specs": {
           "dimensiones": "Aproximadamente 107 cm de largo x 97 cm de ancho x 151 cm de alto, aunque las dimensiones pueden variar ligeramente según fabricante y configuración del equipo.",
@@ -51054,7 +51025,7 @@ window.PRODUCTOS = [
       "precio": 12707500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1761",
+      "imagen": "1760",
       "enlace": "https://www.somosmagra.com/es/trilladora-cr-2000-de-la-seccion-magra-de-array-en-colombia-CP55",
       "specs": {
           "dimensiones": "Ancho 40,0 cm\nProfundidad 90,0 cm\nAlto 133,0 cm",
@@ -51083,7 +51054,7 @@ window.PRODUCTOS = [
       "precio": 15521090,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1762",
+      "imagen": "1761",
       "enlace": "https://todoparacafe.com/shop/trilladora-de-muestras-ing-c-250",
       "specs": {
           "dimensiones": "Dimensiones: 55 x 36 x 31 cm",
@@ -51112,7 +51083,7 @@ window.PRODUCTOS = [
       "precio": 4940000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1763",
+      "imagen": "1762",
       "enlace": "https://casadelalicuadoraindustrial.com.co/producto/trilladora-de-cafe-y-arroz-industrial-2hp-200-kgh/",
       "specs": {
           "dimensiones": "Aproximadamente 107 cm de largo x 97 cm de ancho x 151 cm de alto, aunque las dimensiones pueden variar ligeramente según fabricante y configuración del equipo.",
@@ -51141,7 +51112,7 @@ window.PRODUCTOS = [
       "precio": 172500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1764",
+      "imagen": "1763",
       "enlace": "https://ferresmart.com.co/producto/gravilla-por-metro-cubico-m%c2%b3/",
       "specs": {
           "dimensiones": "1 m³ ocupa el volumen estándar de llenado o base granular para obras civiles",
@@ -51170,7 +51141,7 @@ window.PRODUCTOS = [
       "precio": 1679470,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1765",
+      "imagen": "1764",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/588242/mezcladora-trompo-concreto-cemento-1850w-pala/588242/",
       "specs": {
           "dimensiones": "Largo aproximado: 130 cm. Ancho aproximado: 75 cm. Alto aproximado: 135 cm.",
@@ -51199,7 +51170,7 @@ window.PRODUCTOS = [
       "precio": 1153464,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1766",
+      "imagen": "1765",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/44550/tronzadora-14-pulgadas-2300w-4200rpm-dewalt/44550/",
       "specs": {
           "dimensiones": "Aproximadamente 57 cm de largo x 31 cm de ancho x 43 cm de alto.",
@@ -51228,7 +51199,7 @@ window.PRODUCTOS = [
       "precio": 5590000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1767",
+      "imagen": "1766",
       "enlace": "https://www.mercadolibre.com.co/maquina-troqueladora-manual-letkingok/up/MCOU2437500628#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=2&type=product&tracking_id=0584d842-114c-465a-9981-f6a91a9e1f57&wid=MCO927500160&sid=search",
       "specs": {
           "dimensiones": "260x140MM",
@@ -51257,7 +51228,7 @@ window.PRODUCTOS = [
       "precio": 257356,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1768",
+      "imagen": "1767",
       "enlace": "https://www.mercadolibre.com.co/remachadora-troqueladora-prensa-manual-para-broches-remaches/up/MCOU2419202878#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=7&type=product&tracking_id=9e8b4ae3-967c-4066-82c0-18f087345dcc&wid=MCO1678060830&sid=search",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 35 cm de alto, 25 cm de largo y 10 cm de ancho, adecuadas para instalación fija en mesas de trabajo y talleres de confección.",
@@ -51286,7 +51257,7 @@ window.PRODUCTOS = [
       "precio": 414000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1769",
+      "imagen": "1768",
       "enlace": "https://www.mercadolibre.com.co/maquina-troqueladora-con-3-ojales-a-presion-manual/up/MCOU2436478194?pdp_filters=seller_id%3A672911390#polycard_client=recommendations_vip-seller_items-above&reco_backend=ranker-retsys-same-seller&reco_model=rk_entity_sameseller&reco_client=vip-seller_items-above&reco_item_pos=0&reco_backend_type=low_level&reco_id=366774fc-ae77-4cea-8c7f-84e7bf544001&wid=MCO871885252&sid=recos",
       "specs": {
           "dimensiones": "Largo\n35 cm",
@@ -51315,7 +51286,7 @@ window.PRODUCTOS = [
       "precio": 818400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1770",
+      "imagen": "1769",
       "enlace": "https://www.mercadolibre.com.co/dzntools-prensa-remaches-manual--5-troqueles-ajuste-rapido/up/MCOU4059058244#polycard_client=recommendations_vip-v2p&reco_backend=ranker_retrieval_system_org&reco_model=coldstart_high_exposition&reco_client=vip-v2p&reco_item_pos=2&reco_backend_type=low_level&reco_id=e168e0f8-8ecb-4070-92b6-dcde81af5b82&wid=MCO4039638190&sid=recos",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 35 cm de alto, 25 cm de largo y 10 cm de ancho, adecuadas para instalación fija en mesas de trabajo y talleres de confección.",
@@ -51344,7 +51315,7 @@ window.PRODUCTOS = [
       "precio": 4069890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1771",
+      "imagen": "1770",
       "enlace": "https://www.falabella.com.co/falabella-co/shop/nevera-dos-puertas-con-congelador",
       "specs": {
           "dimensiones": "Alto: 140.97 cm ancho: 54.61 cm",
@@ -51373,7 +51344,7 @@ window.PRODUCTOS = [
       "precio": 402870,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1772",
+      "imagen": "1771",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/491007/estanteria-metal-madera-180x90x40-cm-5-niveles-gris/491007/",
       "specs": {
           "dimensiones": "Ancho\n90 cm\nAlto\n180 cm\nProfundidad\n40 cm\nDimensiones\n90 x 180 x 40 cm",
@@ -51402,7 +51373,7 @@ window.PRODUCTOS = [
       "precio": 2001890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1773",
+      "imagen": "1772",
       "enlace": "https://www.kitchenaid.com.co/batidora-tazon-elevable-5-6-litros-rojo-ksm60secxer/p?idsku=973&srsltid=AfmBOoo6PwsKgYveWnowK6wEQSOaVXBC6_KoryTPx9fMoARYUxU_CinxeZY",
       "specs": {
           "dimensiones": "Alto: 41,9 cm. Ancho: 28,7 cm. Profundidad: 37,1 cm.",
@@ -51431,7 +51402,7 @@ window.PRODUCTOS = [
       "precio": 791700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1774",
+      "imagen": "1773",
       "enlace": "https://industriasmetalicasrp.com/producto/estufa-cocina-industrial-de-dos-2-puestos/?srsltid=AfmBOoo2He1F7z-IoN660gMZIP5XwHD-CxOKgJW4cj8GSZy0QDlUi8E-GAc",
       "specs": {
           "dimensiones": "Ancho: 100 cm · fondo: 55 cm · alto: 78 cm",
@@ -51460,7 +51431,7 @@ window.PRODUCTOS = [
       "precio": 164890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1775",
+      "imagen": "1774",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/458120/selladora-de-bolsas-20-cms/458120/",
       "specs": {
           "dimensiones": "Longitud de sellado: 20 cm. Largo aproximado del equipo: 32 cm. Ancho aproximado: 8 cm. Altura aproximada: 15 cm.",
@@ -51489,7 +51460,7 @@ window.PRODUCTOS = [
       "precio": 919527,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1776",
+      "imagen": "1775",
       "enlace": "https://mymsystech.com.co/ups/2109-cdp-r-smart2010-ups-cdp-interactiva-cdp-2000va-1200w-10-tomas-de-salida-pantalla.html?srsltid=AfmBOoqflqCWQ0XpWVtNOrhyXuwYeMhWMJL9vTro8Aytu9FL2_Or-0bi8wc",
       "specs": {
           "dimensiones": "Largo: 360 mm. Ancho: 110 mm. Alto: 207 mm",
@@ -51518,7 +51489,7 @@ window.PRODUCTOS = [
       "precio": 122200,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1777",
+      "imagen": "1776",
       "enlace": "https://uniformespuntovital.com/products/mm004?srsltid=AfmBOorUP551NYrznuJUuBm3HvWC8a13bfdXT2uuGKlUQmNAwCCQ6rw_DbE",
       "specs": {
           "dimensiones": "Guia de tallas segun solicitud",
@@ -51547,7 +51518,7 @@ window.PRODUCTOS = [
       "precio": 418450,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1778",
+      "imagen": "1777",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3016658/ups-hikvision-de-1000-va-600w-6-tomas-nema-5-15r-4r-2sr/3016658/",
       "specs": {
           "dimensiones": "Ancho\n274 mm\nAlto\n139 mm\nLargo\n95 mm",
@@ -51576,7 +51547,7 @@ window.PRODUCTOS = [
       "precio": 1369270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1779",
+      "imagen": "1778",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/348223/ups-interactiva-mg-2000-1200w/348223/",
       "specs": {
           "dimensiones": "Ancho\n13 cm\nAlto\n23 cm\nLargo\n39 cm",
@@ -51605,7 +51576,7 @@ window.PRODUCTOS = [
       "precio": 316368,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1780",
+      "imagen": "1779",
       "enlace": "https://www.jd-market.com/products/ups-interactiva-forza-bt-1001-de-1000va-600w-con-8-tomas-y-regulador?variant=47004851437806&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&gad_source=4&gad_campaignid=19865140245&gbraid=0AAAAAByJ1uIeWk7yqGUGGTT7V4uM2JNxq&gclid=CjwKCAjwidXQBhAZEiwA4egw6F4E3KMJqT_veaplEAopF6Omz4x9qa_d4C1ZkyX4V8dE5-dXzw3scRoCDd0QAvD_BwE",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 32 cm de largo, 14 cm de ancho y 21 cm de alto, con diseño compacto para instalación sobre escritorios, oficinas y estaciones tecnológicas.",
@@ -51634,7 +51605,7 @@ window.PRODUCTOS = [
       "precio": 262522,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1781",
+      "imagen": "1780",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3016661/ups-hikvision-de-600-va-360w-6-tomas-nema-5-15r-4r-2sr/3016661/",
       "specs": {
           "dimensiones": "Largo: 274 mm. Ancho: 95 mm. Alto: 139 mm.",
@@ -51663,7 +51634,7 @@ window.PRODUCTOS = [
       "precio": 582322,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1782",
+      "imagen": "1781",
       "enlace": "https://www.alkomprar.com/ups-interactiva-forza-1000va-500w-6-salidas-nt-1011/p/798302107694?fuente=google&medio=cpc&campaign=ALKOMPRAR_COL_AON_PEF_CPC_CONV_PERFORMANCE_MAX&keyword=&gad_source=4&gad_campaignid=23293781011&gbraid=0AAAAADReANJAviyjbRlBhwuD2uEriu8re&gclid=CjwKCAjwidXQBhAZEiwA4egw6H3BFiP30OMQ-NucWfbB5PI6hFGm0sgrMTpcc9M-i2zyT0ElIhiQOBoCpisQAvD_BwE",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 28 cm de largo, 10 cm de ancho y 14 cm de alto, con diseño compacto para instalación sobre escritorios, oficinas y estaciones de trabajo.",
@@ -51692,7 +51663,7 @@ window.PRODUCTOS = [
       "precio": 76362,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1783",
+      "imagen": "1782",
       "enlace": "https://www.falabella.com.co/falabella-co/product/147539222/Set-Ventosas-Vacumterapia-X-12/147539223",
       "specs": {
           "dimensiones": "Dimensiones aproximadas variables entre 4 cm y 10 cm de diámetro según el tamaño de cada ventosa incluida en el kit.",
@@ -51721,7 +51692,7 @@ window.PRODUCTOS = [
       "precio": 200100,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1784",
+      "imagen": "1783",
       "enlace": "https://solutionabccolombia.com/metrologia/1761-vacuometro-automotriz.html",
       "specs": {
           "dimensiones": "Longitud aproximada de la manguera: 30 a 40 cm. Diámetro aproximado del manómetro: 7 a 10 cm. Dimensiones aproximadas del estuche: largo: 27 cm. Ancho: 18 cm. Alto: 5 cm.",
@@ -51750,7 +51721,7 @@ window.PRODUCTOS = [
       "precio": 31568,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1785",
+      "imagen": "1784",
       "enlace": "https://elpalustre.com.co/index.php?route=product/product&product_id=53",
       "specs": {
           "dimensiones": "Longitud: 6 m. Diámetro nominal: 1/2\" (12,7 mm). Sección transversal: circular corrugada.",
@@ -51779,7 +51750,7 @@ window.PRODUCTOS = [
       "precio": 29393,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1786",
+      "imagen": "1785",
       "enlace": "https://maelectricos.com/producto/varilla-enchaquetada-1-50m",
       "specs": {
           "dimensiones": "Longitud: 1,50 m. Diámetro: 5/8\" (aproximadamente 15,9 mm). Sección transversal: circular.",
@@ -51808,7 +51779,7 @@ window.PRODUCTOS = [
       "precio": 292870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1787",
+      "imagen": "1786",
       "enlace": "https://www.exito.com/ventilador-tropical-plus-negra-samurai-ve2312i0-3009942/p",
       "specs": {
           "dimensiones": "Altura ajustable hasta 135 cm diámetro de cabezal de 18\" (45.72 cm)",
@@ -51837,7 +51808,7 @@ window.PRODUCTOS = [
       "precio": 157090,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1788",
+      "imagen": "1787",
       "enlace": "https://almacenmau.com/producto/ventilador-samurai-8-negro/",
       "specs": {
           "dimensiones": "Altura: 20,5 cm profundidad: 12,77 cm ancho: 12,8 cm",
@@ -51866,7 +51837,7 @@ window.PRODUCTOS = [
       "precio": 404170,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1789",
+      "imagen": "1788",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/345609/ventilador-de-pared-de-18-pulgadas-con-control-remoto/345609/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 55 cm de ancho, 35 cm de profundidad y 60 cm de alto incluyendo soporte de pared y rejilla protectora",
@@ -51895,7 +51866,7 @@ window.PRODUCTOS = [
       "precio": 361270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1790",
+      "imagen": "1789",
       "enlace": "https://www.kalley.com.co/ventilador-alta-potencia-kalley-k-vp20hs-negro/p/7701023127554?srsltid=AfmBOopX5fXgUQfe2Dp7WxL9utp0xLCbFPRmrBULtlVDFn3RY8WVMGYGly4",
       "specs": {
           "dimensiones": "Alto: 62 cm ancho: 60 cm fondo: 15 cm",
@@ -51924,7 +51895,7 @@ window.PRODUCTOS = [
       "precio": 283900,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1791",
+      "imagen": "1790",
       "enlace": "https://www.mercadolibre.com.co/blog/mejores-ventiladores-torre-eficiencia-diseno-y-tecnologia",
       "specs": {
           "dimensiones": "Ancho: 50 cm alto: 50 cm profundidad: 31 cm",
@@ -51953,7 +51924,7 @@ window.PRODUCTOS = [
       "precio": 274930,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1792",
+      "imagen": "1791",
       "enlace": "https://www.homecenter.com.co/homecenter-co/category/cat10242/ventiladores-de-techo/",
       "specs": {
           "dimensiones": "Ancho: 51 cm alto: 36 cm diámetro: 18\"",
@@ -51982,7 +51953,7 @@ window.PRODUCTOS = [
       "precio": 3793322,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1793",
+      "imagen": "1792",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/736651/ventilador-industrial-portatil-maxxair-106-cm-alta-potencia-y-bajo-ruido/736651/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 121,9 cm de largo, 119,4 cm de alto y 50,8 cm de profundidad, adecuadas para ventilación industrial portátil en espacios de gran amplitud",
@@ -52011,7 +51982,7 @@ window.PRODUCTOS = [
       "precio": 777400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1794",
+      "imagen": "1793",
       "enlace": "https://www.mercadolibre.com.co/ventilador-industrial-de-pie-sankey-fn-30sl20-negro-280w-3-velocidades/p/MCO19132435#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=44&type=product&tracking_id=3d667c58-f03c-4116-947b-e2a47582dbaf&wid=MCO939291365&sid=search",
       "specs": {
           "dimensiones": "Diámetro\n76,2 cm\nAltura\n1,7 m\nProfundidad\n30 cm\nAncho\n1 m",
@@ -52040,7 +52011,7 @@ window.PRODUCTOS = [
       "precio": 825090,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1795",
+      "imagen": "1794",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-652887440-ventilador-de-30-pulgadas-industrial-de-pared-o-pedestal-_JM",
       "specs": {
           "dimensiones": "Altura ajustable hasta 210 cm",
@@ -52069,7 +52040,7 @@ window.PRODUCTOS = [
       "precio": 365000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1796",
+      "imagen": "1795",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118660204/ventilador-samurai-turbo-silence-compact-3-en-1-3-velocidades-negro/118660205",
       "specs": {
           "dimensiones": "Ancho: 30 cm. Alto: 41 cm. Profundidad: 26,5 cm. Diámetro de giro: 120 cm.",
@@ -52098,7 +52069,7 @@ window.PRODUCTOS = [
       "precio": 305310,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1797",
+      "imagen": "1796",
       "enlace": "https://www.falabella.com.co/falabella-co/category/CATG33118/Ventiladores-Torre",
       "specs": {
           "dimensiones": "Altura: 82 cm ancho: 15.6 cm profundidad:17.5 cm",
@@ -52127,7 +52098,7 @@ window.PRODUCTOS = [
       "precio": 278070,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1798",
+      "imagen": "1797",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/444616/ventilador-3-en-1-turbo-silence-compact-14-pulgadas-negro/444616/",
       "specs": {
           "dimensiones": "Ancho: 30 cm alto: 41 cm profundidad: 26.5",
@@ -52156,7 +52127,7 @@ window.PRODUCTOS = [
       "precio": 532056,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1799",
+      "imagen": "1798",
       "enlace": "https://www.falabella.com.co/falabella-co/product/133163609/Ventilador-Industrial-Ciclon-Universal-75920-Negro/133163610",
       "specs": {
           "dimensiones": "60 cm y 75 cm",
@@ -52185,7 +52156,7 @@ window.PRODUCTOS = [
       "precio": 340418,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1800",
+      "imagen": "1799",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-463420975-filtro-purificador-agua-acero-ozono2-obsequiosenviogratis-_JM",
       "specs": {
           "dimensiones": "Medidas: 26 cm, 10.5 cm",
@@ -52214,7 +52185,7 @@ window.PRODUCTOS = [
       "precio": 2200000,
       "iva": 0,
       "icono": "📷",
-      "imagen": "1801",
+      "imagen": "1800",
       "enlace": "https://epson.com.co/Para-el-trabajo/Proyectores/Proyectores-para-Salas-de-Clases-/Proyector-Port%C3%A1til-PowerLite-E24/p/V11HB51021",
       "specs": {
           "dimensiones": "Ancho: 30.2 cm profundidad: 24.9 cm alto: 8.7 cm",
@@ -52243,7 +52214,7 @@ window.PRODUCTOS = [
       "precio": 148070,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1802",
+      "imagen": "1801",
       "enlace": "https://www.metropoliscenter.com.co/p/viniltex-antihumedad-blanco-gl-10340498/?srsltid=AfmBOooCQisAGSe75snDLueEObo5x-s6I9BbKQ1yaLSQL1UeYdEuv4OSdg0",
       "specs": {
           "dimensiones": "Ancho: 30.2 cm profundidad: 24.9 cm alto: 8.7 cm",
@@ -52272,7 +52243,7 @@ window.PRODUCTOS = [
       "precio": 219420,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1803",
+      "imagen": "1802",
       "enlace": "https://www.mercadolibre.com.co/vitrina-acrilica-de-3-niveles-con-puerta-magnetica/up/MCOU3495941419#polycard_client=recommendations_vpp-v2p-pom&reco_backend=recomm-platform_v2p-model&reco_model=coldstart_low_exposition&reco_client=vpp-v2p-pom&reco_item_pos=1&reco_backend_type=low_level&reco_id=2226ec5d-fa79-4ad7-8fa7-d89942a8e56c&wid=MCO3222442958&sid=recos",
       "specs": {
           "dimensiones": "10, 63\"l. x 5, 51\"an. x 14, 17\"al. pulgadas",
@@ -52301,7 +52272,7 @@ window.PRODUCTOS = [
       "precio": 608568,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1804",
+      "imagen": "1803",
       "enlace": "https://refrisander.com/producto/vitrina-horizontal-vidrio-de-4-lineas-1-00-m-de-frente/",
       "specs": {
           "dimensiones": "Frente: 100 cm\nFondo: 35 cm\nAlto: 100 cm\nVidrio templado de 4 mm\nRodachines industriales\nEsquinas con refuerzos de seguridad\nAcabado en múltiples colores\n3 entrepaños para organización",
@@ -52330,7 +52301,7 @@ window.PRODUCTOS = [
       "precio": 2134548,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1805",
+      "imagen": "1804",
       "enlace": "https://azero.com.co/products/vitrina-calentadora-deluxe-para-exhibicion-de-alimentos-con-3-alturas?srsltid=AfmBOooCJSpkwFprjOJcfnoo9-PIUQt7PECpzA1Pf14p1OevxwglNvlaSgo",
       "specs": {
           "dimensiones": "Voltaje: 110 V / 60 Hz, monofásico (3 cables). Potencia: 1.2 kW / 1200 W. Rango de temperatura: 35°C a 85°C.",
@@ -52359,7 +52330,7 @@ window.PRODUCTOS = [
       "precio": 518440,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1806",
+      "imagen": "1805",
       "enlace": "https://metalvitrina.com/producto/vitrina-mostrador-en-aluminio-de-1-00-x-1-10-mts/7?srsltid=AfmBOoqniVgSyzlCBNrY36YXi_ZUQMY5l9DVa2KKtK1vWmK313fMm_U-K-8",
       "specs": {
           "dimensiones": "1,00 m de ancho x 1,10 m de alto.",
@@ -52388,7 +52359,7 @@ window.PRODUCTOS = [
       "precio": 582400,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1807",
+      "imagen": "1806",
       "enlace": "https://www.metalvitrina.com/producto/vitrina-mostrador-en-aluminio-de-100-x-110-mts/7",
       "specs": {
           "dimensiones": "1,20 m de ancho x 1,10 m de alto.",
@@ -52417,7 +52388,7 @@ window.PRODUCTOS = [
       "precio": 1192831,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1808",
+      "imagen": "1807",
       "enlace": "https://refrisander.com/producto/vitrina-horizontal-vidrio-de-4-lineas-1-50-mt-de-frente/?srsltid=AfmBOorteJQcaXM-CbFhoT1qtQMV5DxTxb7hRraN4azM0z33fFjrDrSTjUQ",
       "specs": {
           "dimensiones": "60 cm de ancho, 45 cm de fondo y 65 cm de alto",
@@ -52446,7 +52417,7 @@ window.PRODUCTOS = [
       "precio": 1793850,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1809",
+      "imagen": "1808",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/903675/vitrina-santa-cruz-104x40x135-cm-roble-negro/903675/",
       "specs": {
           "dimensiones": "104x40x135 cm",
@@ -52475,7 +52446,7 @@ window.PRODUCTOS = [
       "precio": 582400,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1810",
+      "imagen": "1809",
       "enlace": "https://www.metalvitrina.com/producto/vitrina-mostrador-en-aluminio-de-120-x-110-mts/8",
       "specs": {
           "dimensiones": "1,20 m de ancho x 1,10 m de alto.",
@@ -52504,7 +52475,7 @@ window.PRODUCTOS = [
       "precio": 8625000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1811",
+      "imagen": "1810",
       "enlace": "https://exhibirequipos.com/producto/vitrina-alimentos-calientes/",
       "specs": {
           "dimensiones": "60 cm de ancho, 45 cm de fondo y 65 cm de alto",
@@ -52533,7 +52504,7 @@ window.PRODUCTOS = [
       "precio": 504920,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1812",
+      "imagen": "1811",
       "enlace": "https://metalvitrina.com/producto/vitrinas-mostrador-torre/10?srsltid=AfmBOoqtdNOI76YfCrCcWOr5lfV7Sig5Jum5yHcB7fbcU8F9K4fbEuWip7E",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 60 cm de ancho, 35 cm de fondo y 180 cm de alto, adecuadas para instalación en espacios comerciales con necesidad de exhibición vertical y ahorro de espacio horizontal.",
@@ -52562,7 +52533,7 @@ window.PRODUCTOS = [
       "precio": 2310490,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1813",
+      "imagen": "1812",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/793933/vitrina-de-calefaccion-d1pm/793933/?kid=shopp_goosho_1430593&shop=1&gad_source=4&gad_campaignid=20228062686&gbraid=0AAAAADt6wnqwXDagP98AmsbU6VdpA8Kpq&gclid=CjwKCAjwidXQBhAZEiwA4egw6AlutkSdYb5-adftQX5Tn4fB2xZUCUCbbKQjz9r07ldO5ZnlvAzAchoCQ_YQAvD_BwE",
       "specs": {
           "dimensiones": "50 cm y 70 cm de ancho, 35 cm y 50 cm de fondo y 50 cm a 70 cm de alto",
@@ -52591,7 +52562,7 @@ window.PRODUCTOS = [
       "precio": 535600,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1814",
+      "imagen": "1813",
       "enlace": "https://metalvitrina.com/producto/vitrina-de-empanadas-de-lujo/28?srsltid=AfmBOorcvKmjMd0S-rbicNIL87AF-LYW0TiPwhmKhgHivOOFOxB5uTcRP90",
       "specs": {
           "dimensiones": "80 cm y 120 cm de ancho, 40 cm y 60 cm de fondo y 60 cm a 90 cm de alto.",
@@ -52620,7 +52591,7 @@ window.PRODUCTOS = [
       "precio": 8788890,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1815",
+      "imagen": "1814",
       "enlace": "https://www.exito.com/vitrina-congeladora-exhibicion-4-niveles-426lt-102261606-mp/p",
       "specs": {
           "dimensiones": "70 cm y 90 cm de ancho, 65 cm y 75 cm de fondo y 180 cm a 200 cm de alto",
@@ -52649,7 +52620,7 @@ window.PRODUCTOS = [
       "precio": 5381850,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1816",
+      "imagen": "1815",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3028235/vitrina-vertical-no-frost-mabe-416-litros-blanco-alaskavit416ceg/3028235/",
       "specs": {
           "dimensiones": "Ancho\n69.5 cm\nAlto\n218.5 cm\nProfundidad\n69.0 cm",
@@ -52678,7 +52649,7 @@ window.PRODUCTOS = [
       "precio": 484900,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1817",
+      "imagen": "1816",
       "enlace": "https://lagarza.com.co/es/productos/vitrina-en-aluminiio-1-06x1-00x0-35cm-con-llantas-frenos",
       "specs": {
           "dimensiones": "1,06 m x 1,00 m x 0,35 m.",
@@ -52707,7 +52678,7 @@ window.PRODUCTOS = [
       "precio": 747500,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1818",
+      "imagen": "1817",
       "enlace": "https://www.mercadolibre.com.co/vitrina-hexagonal-mini-exhibidor-giratorio/p/MCO57483061#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=10&type=product&tracking_id=6e8f7cec-2bc0-4327-aa0b-fd8186b1ef00&wid=MCO3983632926&sid=search",
       "specs": {
           "dimensiones": "Altura total: 80 cm, Base y cubierta: 35 cm x 35 cm,• Radio de cada nivel giratorio: 12 cmm",
@@ -52736,7 +52707,7 @@ window.PRODUCTOS = [
       "precio": 5900616,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1819",
+      "imagen": "1818",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/773528/vitrina-vertical-refrigerada-una-puerta-estar-510-vv-420-litros/773528/",
       "specs": {
           "dimensiones": "Dimensiones aproximadas estándar para vitrina vertical comercia",
@@ -52765,7 +52736,7 @@ window.PRODUCTOS = [
       "precio": 1692992,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1820",
+      "imagen": "1819",
       "enlace": "https://refrisander.com/producto/vitrina-horizontal-vidrio-de-4-lineas-2-00-mt-de-frente/",
       "specs": {
           "dimensiones": "Frente (ancho): 100 cm. Fondo: aproximadamente 50 cm. Altura: aproximadamente 120 cm. Número de niveles: 4 bandejas o superficies de exhibición.",
@@ -52794,7 +52765,7 @@ window.PRODUCTOS = [
       "precio": 581620,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1821",
+      "imagen": "1820",
       "enlace": "https://metalvitrina.com/producto/vitrina-mostrador-en-aluminio-de-1-20-x-1-10-mts/8?srsltid=AfmBOoquRNpMQQgkrOWN7Sr3Ms87anudWPEmnY0jvJlr89dIfMJsHDIUqCs",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 120 cm de largo, 35 cm de fondo y 110 cm de alto, adecuadas para instalación en áreas de atención y exhibición comercial.",
@@ -52823,7 +52794,7 @@ window.PRODUCTOS = [
       "precio": 882000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1822",
+      "imagen": "1821",
       "enlace": "https://www.mercadolibre.com.co/vitrina-giratoria-con-iluminacion-en-acrilico-para-mostrador/up/MCOU3258110988?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO2915819674&from=gshop",
       "specs": {
           "dimensiones": "35cm de ancho, 80cm de alto y 35cm de profundidad.",
@@ -52852,7 +52823,7 @@ window.PRODUCTOS = [
       "precio": 3222890,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1823",
+      "imagen": "1822",
       "enlace": "https://www.electroferiadela13.com/product/vitrina-inducol-217-litros-vv-220bl1-ruedas-blanco/?srsltid=AU7gw4UCbT5ikXyCqI5V5HeqmyUmjddZ_4uunZIzTfl0Jtvb7Q8-dgAD",
       "specs": {
           "dimensiones": "Vitrina vertical de 217 L.",
@@ -52881,7 +52852,7 @@ window.PRODUCTOS = [
       "precio": 3301428,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1824",
+      "imagen": "1823",
       "enlace": "https://www.alkosto.com/nevera-vitrina-kalley-frost-una-puerta-309-litros-k/p/7705946476805?gclsrc=aw.ds&fuente=google&medio=cpc&campaign=AK_COL_MAX_PEF_CPC_AON_TLP_Kalley_Ago20_EXP_AGO&keyword=&gad_source=4&gad_campaignid=17347371251&gbraid=0AAAAADlnVbi8DG94tkeTlKx016yaLbS70&gclid=CjwKCAjwidXQBhAZEiwA4egw6OejfNXlnMZ00ib6KHoo-gkJaORnghdpb-e-2o8BDcC2XEwSbCAx2BoC2UAQAvD_BwE",
       "specs": {
           "dimensiones": "Dimensiones aproximadas estándar para vitrina vertical de 309 L.",
@@ -52910,7 +52881,7 @@ window.PRODUCTOS = [
       "precio": 616200,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1825",
+      "imagen": "1824",
       "enlace": "https://metalvitrina.com/producto/mostrador-en-aluminio-de-1-50-x-1-10-mts/9?srsltid=AfmBOoojKfCeC2cNr_XIMHQhrYTxHy9Rm5rpL4noVEE6aljxAs-Lku7WYG4",
       "specs": {
           "dimensiones": "1.50 x 1.10 mts",
@@ -52939,7 +52910,7 @@ window.PRODUCTOS = [
       "precio": 3247868,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1826",
+      "imagen": "1825",
       "enlace": "https://metalvitrina.com/producto/vitrina-de-panaderia/47?srsltid=AfmBOoq3raHlhkF51DDUFt_GNE27FzToRdfy-vfRgjh_bT1xnk1mlM7rPc8",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 150 cm de ancho, 50 cm de fondo y 100 cm de alto, adecuadas para instalación en zonas de exhibición y atención comercial.",
@@ -52968,7 +52939,7 @@ window.PRODUCTOS = [
       "precio": 6629220,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1827",
+      "imagen": "1826",
       "enlace": "https://makfrio.com/producto/vitrina-panoramica-neutra-0-70mts/?gad_source=4&gad_campaignid=22193006139&gbraid=0AAAAACUmx-_yQvzwJvj2pEuKeONB-L20a&gclid=CjwKCAjwidXQBhAZEiwA4egw6AAHw_NfcCPCOYJcmIjMVbBBlOgWCTJvzFl2AV-w7BshDFxjsdKaqRoCadMQAvD_BwE",
       "specs": {
           "dimensiones": "Dimensiones aproximadas: 70 cm de ancho y medidas estándar comerciales según fabricante.",
@@ -52997,7 +52968,7 @@ window.PRODUCTOS = [
       "precio": 3372200,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1828",
+      "imagen": "1827",
       "enlace": "https://metalvitrina.com/producto/vitrina-de-panaderia/47?srsltid=AfmBOopjwap7n2vU8wTXe4RhLswygNhjkANB18GV3F9DfbkEEjlJO4xfJiA",
       "specs": {
           "dimensiones": "Dimensiones aproximadas según configuración y modelo del fabricante.",
@@ -53026,7 +52997,7 @@ window.PRODUCTOS = [
       "precio": 4510870,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1829",
+      "imagen": "1828",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3013965/vitrina-refrigeradora-indurama-vfv520-440-litros-digital/3013965/",
       "specs": {
           "dimensiones": "Ancho: 73 cm alto: 193 cm profundidad: 63 cm",
@@ -53055,7 +53026,7 @@ window.PRODUCTOS = [
       "precio": 514800,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1830",
+      "imagen": "1829",
       "enlace": "https://metalvitrina.com/producto/vitrinas-mostrador-torre/10?srsltid=AfmBOoq_USCj37CgWBPICwPLgqAx1EgveDkf0g7JBQ8oe6llAx5Mmk3wyHs",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 60 cm de ancho, 35 cm de fondo y 180 cm de alto, adecuadas para exhibición vertical en áreas comerciales con aprovechamiento eficiente del espacio.",
@@ -53084,7 +53055,7 @@ window.PRODUCTOS = [
       "precio": 608400,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1831",
+      "imagen": "1830",
       "enlace": "https://www.mercadolibre.com.co/vitrina-torre-mostrador-en-aluminio/up/MCOU2427372825",
       "specs": {
           "dimensiones": "Ancho: 50 cm alto: 180 cm profundidad: 36 cm",
@@ -53113,7 +53084,7 @@ window.PRODUCTOS = [
       "precio": 15787200,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1832",
+      "imagen": "1831",
       "enlace": "https://makfrio.com/producto/vitrina-refrigerada-curva-para-tienda-1-80mts/?gad_source=4&gad_campaignid=22193006139&gbraid=0AAAAACUmx-_yQvzwJvj2pEuKeONB-L20a&gclid=CjwKCAjwidXQBhAZEiwA4egw6N8pQE6kUlOJ5V3rODQoB_Q1AZ_4hQ40-tHDeuqlBJ37RlMRJgRJHhoC96IQAvD_BwE",
       "specs": {
           "dimensiones": "Dimensiones aproximadas de 180 cm de frente, 70 cm de fondo y 120 cm de alto, adecuadas para instalación comercial en áreas de exhibición y atención al público.",
@@ -53142,7 +53113,7 @@ window.PRODUCTOS = [
       "precio": 2394080,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1833",
+      "imagen": "1832",
       "enlace": "https://www.superelectroriente.com.co/producto/vitrina-vertical-de-220lts-vv-220bl1/?srsltid=AfmBOooamMNWxPaw-XAeei_liHBNcRqkVil_trHt7vsMzzQP7TLzxkm3iIQ",
       "specs": {
           "dimensiones": "Alto: 168.5 cm frente: 53.5 cm fondo: 52.2 cm",
@@ -53171,7 +53142,7 @@ window.PRODUCTOS = [
       "precio": 30690,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1834",
+      "imagen": "1833",
       "enlace": "https://naylampmechatronics.com/sensores-corriente-voltaje/646-medidor-digital-dc-0-100v-0-20a-voltimetro-amperimetro-vatimetro.html",
       "specs": {
           "dimensiones": "Ancho: 4.8 cm alto: 2.9 cm profundidad: 2.1 cm",
@@ -53200,7 +53171,7 @@ window.PRODUCTOS = [
       "precio": 7471849,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1835",
+      "imagen": "1834",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/394405/hidrolavadora-gasolina/394405/",
       "specs": {
           "dimensiones": "Ancho 37 cm alto 62 cm largo 55 cm largo de la manguera 10 m",
@@ -53229,7 +53200,7 @@ window.PRODUCTOS = [
       "precio": 115266,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1836",
+      "imagen": "1835",
       "enlace": "https://casaandina.com.co/zapapico-herragro-cabo-madera-3105-50-5-lbszrrol-e.html",
       "specs": {
           "dimensiones": "Ancho: 50 cm alto: 11 cm largo: 92 cm",
@@ -53258,7 +53229,7 @@ window.PRODUCTOS = [
       "precio": 14835,
       "iva": 0,
       "icono": "🎪",
-      "imagen": "1837",
+      "imagen": "1836",
       "enlace": "https://www.exito.com/zapata-para-frenos-de-bicicleta-taco-de-freno-x2-unidades-102673840-mp/p",
       "specs": {
           "dimensiones": "No especificadas por el fabricante.",
@@ -53287,7 +53258,7 @@ window.PRODUCTOS = [
       "precio": 7211623,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1838",
+      "imagen": "1837",
       "enlace": "https://maquinastitus.com.co/products/empretinadora-kingter-kt-1508-pr-maquina-de-coser-puller?srsltid=AfmBOopY-6VEoEn70idgGmRkc2EFHArf0f4sI2peYRfgxT-mgSJ2XW4lw14",
       "specs": {
           "dimensiones": "No especificadas por el fabricante.",
@@ -53316,7 +53287,7 @@ window.PRODUCTOS = [
       "precio": 23985000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1839",
+      "imagen": "1838",
       "enlace": "https://croper.com/products/6098-motocarro-de-carga-mtrd-250",
       "specs": {
           "dimensiones": "Longitud: 3.200 mm ancho: 1.300 mm altura: 1.800 mm",
@@ -53345,7 +53316,7 @@ window.PRODUCTOS = [
       "precio": 20038200,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1840",
+      "imagen": "1839",
       "enlace": "https://ayco.com.co/productos/motocarro-ay200zh/",
       "specs": {
           "dimensiones": "Largo: 3260 mm ancho: 1250 mm alto: 1420 mm distancia entre ejes: 2250 mm distancia al suelo: 305 mm",
@@ -53374,7 +53345,7 @@ window.PRODUCTOS = [
       "precio": 3568335,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1841",
+      "imagen": "1840",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/637284/cepillo-portatil-de-madera-12-1-2-pulgadas-1600w/637284/",
       "specs": {
           "dimensiones": "Ancho: 48.3 cm alto: 40.1 cm profundidad: 77.1 cm",
@@ -53403,7 +53374,7 @@ window.PRODUCTOS = [
       "precio": 3680000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1842",
+      "imagen": "1841",
       "enlace": "https://www.racoresmotoresyrepuestos.com.co/product/trapiche-en-madera",
       "specs": {
           "dimensiones": "60 cm de ancho 70 cm de largo 60 cm de altura",
@@ -53432,7 +53403,7 @@ window.PRODUCTOS = [
       "precio": 2495385,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1843",
+      "imagen": "1842",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/623351/horno-shawarma-a-gas-natural-4kg/623351/",
       "specs": {
           "dimensiones": "Ancho\n26 cm\nAlto\n29 cm\nProfundidad\n28 cm\nCapacidad\n4 kg",
@@ -53461,7 +53432,7 @@ window.PRODUCTOS = [
       "precio": 141128,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1844",
+      "imagen": "1843",
       "enlace": "https://www.tierragro.com/products/pollito-iniciacion-crombo-40-kg?srsltid=AfmBOorSUYPItWgx6V7o8YDoyS3L4gAvcaeERmSfpejzVhESTTFTehTd",
       "specs": {
           "dimensiones": "63cm x 15cm x 100cm",
@@ -53490,7 +53461,7 @@ window.PRODUCTOS = [
       "precio": 132158,
       "iva": 0,
       "icono": "🎪",
-      "imagen": "1845",
+      "imagen": "1844",
       "enlace": "https://www.olimpica.com/shimano-llave-conos-17mm-1002339757/p?idsku=1100109689",
       "specs": {
           "dimensiones": "30 × 15 × 8 cm.",
@@ -53519,7 +53490,7 @@ window.PRODUCTOS = [
       "precio": 55165,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1846",
+      "imagen": "1845",
       "enlace": "https://www.mercadolibre.com.co/papel-modisteria-onix--20-unidades--2-paquetes-de-10/up/MCOU2405057487#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=11&type=product&tracking_id=dabcf5f3-df83-4e8a-9298-408adb9e351f&wid=MCO1364107851&sid=search",
       "specs": {
           "dimensiones": "Hojas de 16,5 × 49,5 cm y hojas dobles de 33 × 49,5 cm.",
@@ -53548,7 +53519,7 @@ window.PRODUCTOS = [
       "precio": 254404,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1847",
+      "imagen": "1846",
       "enlace": "https://tiendafla.com/producto/2332/stand-movil-spiral-(-gratis-empaque-cambrel)",
       "specs": {
           "dimensiones": "Cenefa: 80 × 30 cm. Gráfico frontal: 80 × 80 cm. Fondo: 40 × 80 cm. Altura total: 1,90 m.",
@@ -53577,7 +53548,7 @@ window.PRODUCTOS = [
       "precio": 92690,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1848",
+      "imagen": "1847",
       "enlace": "https://www.mercadolibre.com.co/maiz-hibrido-amarillo-hroro-semilla-x-1-kilo/up/MCOU2421103721#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=1&type=product&tracking_id=da9c6c4b-9565-4269-ba36-79e4d8630e92&wid=MCO2323770198&sid=search",
       "specs": {
           "dimensiones": "30 cm (alto) × 20 cm (ancho) × 5 cm (profundidad)",
@@ -53606,7 +53577,7 @@ window.PRODUCTOS = [
       "precio": 25116,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1849",
+      "imagen": "1848",
       "enlace": "https://syncsas.com.co/store/gramafin-sl?srsltid=AfmBOoozBRIgZRs9i5Lju57lRUZ40zcQsWYrqNMbhgFNMPhbGpqC-lPf2ok",
       "specs": {
           "dimensiones": "25 cm × 12 cm × 8 cm",
@@ -53635,7 +53606,7 @@ window.PRODUCTOS = [
       "precio": 718919,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1850",
+      "imagen": "1849",
       "enlace": "https://www.mercadolibre.com.co/anilladora-para-espiral/up/MCOU2430132529?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO611636931&from=gshop",
       "specs": {
           "dimensiones": "40 cm × 30 cm × 20 cm",
@@ -53664,7 +53635,7 @@ window.PRODUCTOS = [
       "precio": 59800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1851",
+      "imagen": "1850",
       "enlace": "https://www.dispropancaribe.com/products/azucar-refinada-manuelita-x10kg?variant=42793712386141&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOooLDXZoyz7XHUJ5FOJhLd7YOSYCZ4yeBuPv876Pxm1Cd0Iqh6Cr-fY",
       "specs": {
           "dimensiones": "45 cm × 30 cm × 10 cm",
@@ -53693,7 +53664,7 @@ window.PRODUCTOS = [
       "precio": 5232,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1852",
+      "imagen": "1851",
       "enlace": "https://www.lamina.com.co/products/mostacilla-checa-10-10-grs?variant=53971025264931",
       "specs": {
           "dimensiones": "2,3 mm",
@@ -53722,7 +53693,7 @@ window.PRODUCTOS = [
       "precio": 6052778,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1853",
+      "imagen": "1852",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1509550211-maquina-grabadora-laser-longer-ray5-de-20-w-con-pantalla-tac-_JM",
       "specs": {
           "dimensiones": "Área de trabajo 400×365 mm (fabricante). Dimensiones externas del equipo: Por verificar con fuente.",
@@ -53751,7 +53722,7 @@ window.PRODUCTOS = [
       "precio": 811785,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1854",
+      "imagen": "1853",
       "enlace": "https://fertirriegos.com/producto/tuberia-roscada-y-ranurada-para-pozos-profundos/",
       "specs": {
           "dimensiones": "8 cm × 5 cm × 2 cm",
@@ -53780,7 +53751,7 @@ window.PRODUCTOS = [
       "precio": 2366436,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1855",
+      "imagen": "1854",
       "enlace": "https://saturnotek.com/tienda/conectividad/router-tplink-sistema-mesh-2-nodos-be11000-whole-home-mesh-wi-fi-7-systemtri-band/?utm_term=&utm_campaign=&utm_source=adwords&utm_medium=ppc&hsa_acc=3241774666&hsa_cam=23913359036&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=4&gad_campaignid=23917783654&gbraid=0AAAAApBuV45SA8OU9T9CsRJQQ3GL0oWDW&gclid=CjwKCAjw857RBhAgEiwAI-1yKCZigj2uEz29XADdcOcc3fnphcn4_XYuJtPvBiG6dZTgUZTRaj9mfRoCZJIQAvD_BwE",
       "specs": {
           "dimensiones": "20 cm × 13 cm × 13 cm",
@@ -53809,7 +53780,7 @@ window.PRODUCTOS = [
       "precio": 89685,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1856",
+      "imagen": "1855",
       "enlace": "https://www.mercadolibre.com.co/manguera-microtubo-diametro-4mm-rollo-x-100-metros-generica/up/MCOU3794228807",
       "specs": {
           "dimensiones": "Longitud: 100 m. Diámetro exterior: 4 mm. Diámetro interior: 3 mm aproximadamente.",
@@ -53838,7 +53809,7 @@ window.PRODUCTOS = [
       "precio": 50023,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1857",
+      "imagen": "1856",
       "enlace": "https://ferreteriamaracaibo.com/producto/lamina-zinc-c-35-3-05-mts/",
       "specs": {
           "dimensiones": "Largo: 3,05 m. Ancho total: 0,83 m. Espesor aproximado: 0,25 mm.",
@@ -53867,7 +53838,7 @@ window.PRODUCTOS = [
       "precio": 681705,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1858",
+      "imagen": "1857",
       "enlace": "https://www.mercadolibre.com.co/mini-torno-de-madera-multiuso-para-fresado-corte-y-pulido-1/up/MCOU3893160015",
       "specs": {
           "dimensiones": "42,8 cm × 11,2 cm × 10,9 cm.",
@@ -53896,7 +53867,7 @@ window.PRODUCTOS = [
       "precio": 433550,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1859",
+      "imagen": "1858",
       "enlace": "https://www.exito.com/kit-de-utiles-escolares-12-cuadernos-cuadriculados-100-hojas-cartuchera-colores-otros-premium-101152212-mp/p?idsku=101152212&srsltid=AfmBOorarrxIR5SVBOdPdNy-7LK-6xNDez5awOUN1cfC4uYxsEpCUsa4v14",
       "specs": {
           "dimensiones": "35 cm × 28 cm × 20 cm",
@@ -53925,7 +53896,7 @@ window.PRODUCTOS = [
       "precio": 112125,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1860",
+      "imagen": "1859",
       "enlace": "https://www.quintamotos.com.co/productos/aceite-mobil-1-v-twin-20w-50-946ml/",
       "specs": {
           "dimensiones": "24 cm × 11 cm × 6 cm.",
@@ -53954,7 +53925,7 @@ window.PRODUCTOS = [
       "precio": 297356,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1861",
+      "imagen": "1860",
       "enlace": "https://www.ela.com.co/bolso-con-llavero-removible-y-mini-bolso-e402706-/p",
       "specs": {
           "dimensiones": "33 cm × 26 cm × 13 cm",
@@ -53983,7 +53954,7 @@ window.PRODUCTOS = [
       "precio": 59725,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1862",
+      "imagen": "1861",
       "enlace": "https://www.mercadolibre.com.co/cordon-trenzado-color-dorado-4mm-x-18-metros/up/MCOU2425404566",
       "specs": {
           "dimensiones": "18 m de largo × 4 mm",
@@ -54012,7 +53983,7 @@ window.PRODUCTOS = [
       "precio": 546000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1863",
+      "imagen": "1862",
       "enlace": "https://www.mercadolibre.com.co/meson--en-acero-140-x-60/up/MCOU2430185533",
       "specs": {
           "dimensiones": "140 cm × 60 cm × 87 cm",
@@ -54041,7 +54012,7 @@ window.PRODUCTOS = [
       "precio": 2293136,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1864",
+      "imagen": "1863",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/356963/selladora-semi-automatica-de-vasos-desechables-9-22oz-110v",
       "specs": {
           "dimensiones": "Fuller SELL-SHJ20: 46,5×20,5×60 cm. (Modelo digital IC7WY-880A: Por verificar con fuente.)",
@@ -54070,7 +54041,7 @@ window.PRODUCTOS = [
       "precio": 9132506,
       "iva": 0,
       "icono": "📱",
-      "imagen": "1865",
+      "imagen": "1864",
       "enlace": "https://co.tiendasishop.com/products/iphone-17-mg6j4lz-a",
       "specs": {
           "dimensiones": "14,96 x 7,15 x 0,795 cm",
@@ -54099,7 +54070,7 @@ window.PRODUCTOS = [
       "precio": 913251,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1866",
+      "imagen": "1865",
       "enlace": "https://dronenerdslatam.com/producto/dji-mic-mini-2txcase/",
       "specs": {
           "dimensiones": "Transmisor: 28,58×28,04×13,52 mm.",
@@ -54128,7 +54099,7 @@ window.PRODUCTOS = [
       "precio": 160368,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1867",
+      "imagen": "1866",
       "enlace": "https://www.amazon.com.mx/dp/B093FKT9BF?tag=achemex07-20&linkCode=ogi&th=1&psc=1",
       "specs": {
           "dimensiones": "Por verificar con fuente.",
@@ -54157,7 +54128,7 @@ window.PRODUCTOS = [
       "precio": 1960231,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1868",
+      "imagen": "1867",
       "enlace": "",
       "specs": {
           "dimensiones": "Por verificar con fuente",
@@ -54186,7 +54157,7 @@ window.PRODUCTOS = [
       "precio": 6574860,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1869",
+      "imagen": "1868",
       "enlace": "https://www.hp.com/co-es/shop/impresora-multifuncional-hp-laserjet-pro-mfp-4103fdw-2z629a.html",
       "specs": {
           "dimensiones": "Por verificar con fuente",
@@ -54215,7 +54186,7 @@ window.PRODUCTOS = [
       "precio": 29171741,
       "iva": 0,
       "icono": "📷",
-      "imagen": "1870",
+      "imagen": "1869",
       "enlace": "https://www.sony.com.co/electronics/camaras-lentes-intercambiables/ilme-fx3a",
       "specs": {
           "dimensiones": "129,7×77,8×84,5 mm (ficha de distribuidores; confirmar con Sony oficial).",
@@ -54244,7 +54215,7 @@ window.PRODUCTOS = [
       "precio": 6093261,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1871",
+      "imagen": "1870",
       "enlace": "https://drive.google.com/file/d/1PB7K-eM_RQfWValXWvwnRH0aZx6lOksw/view?usp=drive_link",
       "specs": {
           "dimensiones": "Altura del artículo: 30 cm/11,81”    Longitud del artículo: 42 cm/16,54”    Ancho del artículo: 16 cm/6,29”",
@@ -54273,7 +54244,7 @@ window.PRODUCTOS = [
       "precio": 12828200,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1872",
+      "imagen": "1871",
       "enlace": "https://chocolatesarboldecacao.com.co/maquinaria/refinador-ecgc-12sl/",
       "specs": {
           "dimensiones": "Dimensiones 23 × 16 × 14 pulgadas",
@@ -54302,7 +54273,7 @@ window.PRODUCTOS = [
       "precio": 394060,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1873",
+      "imagen": "1872",
       "enlace": "https://www.mercadolibre.com.co/outdoor-climbing-helmet-orange-orange/p/MCO2058862781#polycard_client=search-desktop&be_origin=backend&search_layout=grid&position=4&type=product&tracking_id=0318071b-316f-46dd-b377-8e769973b19b&wid=MCO3461880562&sid=search",
       "specs": {
           "dimensiones": "Tallas (circunferencia de cabeza): S/M 53–56 cm; M/L 56–59 cm; L/XL 59–62 cm.",
@@ -54331,7 +54302,7 @@ window.PRODUCTOS = [
       "precio": 87458,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1874",
+      "imagen": "1873",
       "enlace": "https://papeleriacervantes.caxtor.co/es/productos/cosedora-bates-20-hojas",
       "specs": {
           "dimensiones": "Por verificar con fuente.",
@@ -54360,7 +54331,7 @@ window.PRODUCTOS = [
       "precio": 11087677,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1875",
+      "imagen": "1874",
       "enlace": "https://lasus.com.co/en/portatil-lenovo-loq-15ahp10-amd-ryzen-7-250-156-pulgadas-fhd-memoria-24gb-estado-solido-512gb-tarjeta-de-video-nvidia-rtx-5050",
       "specs": {
           "dimensiones": "2,2 cm (alto) × 25,9 cm (profundidad) × 35,9 cm (ancho) (Falabella).",
@@ -54389,7 +54360,7 @@ window.PRODUCTOS = [
       "precio": 971750,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1876",
+      "imagen": "1875",
       "enlace": "https://www.microsoft.com/es-co/microsoft-365/buy/compare-all-microsoft-365-products?msockid=36da055ed632613b29e51208d79260bf",
       "specs": {
           "dimensiones": "No aplica (licencia digital/ESD).",
@@ -54418,7 +54389,7 @@ window.PRODUCTOS = [
       "precio": 2254266,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1877",
+      "imagen": "1876",
       "enlace": "https://marketplace.addi.com/producto/4943135?utm_source=pm&utm_medium=google&utm_campaign=24228763167&utm_content=198881859494&gad_source=4&gad_campaignid=24228763167&gbraid=0AAAAACl-YcDjQO24BHWjWfZ2bO2AJ9R6g&gclid=CjwKCAjwq8PVBhAKEiwA2i3SHXipwpn7XPGOVa29z7qzxm5nSrqNTgoXN6e9avXnGs2z9_KdQGYpfBoCDBAQAvD_BwE",
       "specs": {
           "dimensiones": "49,35×16,99×38,27 cm.",
@@ -54447,7 +54418,7 @@ window.PRODUCTOS = [
       "precio": 3500000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1878",
+      "imagen": "1877",
       "enlace": "https://www.mercadolibre.com.co/asador-para-12-pollos-a-gas-inflarrojo-horno-para-pollos/up/MCOU2437674830",
       "specs": {
           "dimensiones": "93 cm frente x 50 cm fondo x 1.80 mt alto.",
@@ -54476,7 +54447,7 @@ window.PRODUCTOS = [
       "precio": 1621490,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1879",
+      "imagen": "1878",
       "enlace": "https://exhibirequipos.com/producto/sanduchera-industrial-panini-ranurada/",
       "specs": {
           "dimensiones": "43 x 30 x 20 cm (frente, profundo, alto)",
@@ -54505,7 +54476,7 @@ window.PRODUCTOS = [
       "precio": 168870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1880",
+      "imagen": "1879",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3063838/sandwichera-stacker-hamilton-beach-25471-110-v-600-watts/3063838/",
       "specs": {
           "dimensiones": "Ancho : 18.54 cm\n\n•Alto : 26.6 cm\n\n•Profundidad : 20 cm",
@@ -54534,7 +54505,7 @@ window.PRODUCTOS = [
       "precio": 108994,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1881",
+      "imagen": "1880",
       "enlace": "https://www.citygascolombia.com/precios/",
       "specs": {
           "dimensiones": "Altura total\t95 cm\nDiámetro\t32 cm\nCircunferencia\t101 cm",
@@ -54563,7 +54534,7 @@ window.PRODUCTOS = [
       "precio": 965885,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1882",
+      "imagen": "1881",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/674193/congelador-horizontal-challenger-100-lt-chest-freezer-blanco/674193/?kid=shopp_micshop_1430710&shop=1&msclkid=66f7b836babc14f3ddb7d2756a282cff",
       "specs": {
           "dimensiones": "Ancho\n55.5 cm\nAlto\n84.6 cm\nProfundidad\n47.6 cm",
@@ -54592,7 +54563,7 @@ window.PRODUCTOS = [
       "precio": 5000000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1883",
+      "imagen": "1882",
       "enlace": "https://www.mercadolibre.com.co/jaryannix-maquina-de-ordeno-electrica-25l-sin-aceite/up/MCOU4223161320?pdp_filters=price%3A3000000-4000000",
       "specs": {
           "dimensiones": "Alto: 34 cm\nAncho: 20 cm\nProfundidad: 33 cm",
@@ -54621,7 +54592,7 @@ window.PRODUCTOS = [
       "precio": 5000000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1884",
+      "imagen": "1883",
       "enlace": "Suzuki DF2.5 Fuera de Borda Colombia │ 2.5 HP · Distribuidor Oficial",
       "specs": {
           "dimensiones": "Alto: 34 cm\nAncho: 20 cm\nProfundidad: 33 cm",
@@ -54650,7 +54621,7 @@ window.PRODUCTOS = [
       "precio": 5000000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1885",
+      "imagen": "1884",
       "enlace": "https://wa.me/c/573195918570",
       "specs": {
           "dimensiones": "Largo: 120 a 140 cm.\nAncho: 60 a 80 cm.\nAltura total: 180 a 220 cm.",
@@ -54679,7 +54650,7 @@ window.PRODUCTOS = [
       "precio": 7605000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1886",
+      "imagen": "1885",
       "enlace": "Laptop Lenovo LOQ 15AHP10 – Ryzen 7 250 – 24GB RAM – 512GB SSD – RTX 5050 – 15.6” FHD – Grey Lenovo | Falabella Colombia",
       "specs": {
           "dimensiones": "Tamaño de la pantalla:15.6",
@@ -54708,7 +54679,7 @@ window.PRODUCTOS = [
       "precio": 6000000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1887",
+      "imagen": "1886",
       "enlace": "Laminadora para arepas con rodillo de corte | Misitio",
       "specs": {
           "dimensiones": "1.60m de larga x 65cm de ancha x 90cm de alta",
@@ -54737,7 +54708,7 @@ window.PRODUCTOS = [
       "precio": 2470000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1888",
+      "imagen": "1887",
       "enlace": "https://www.jordanbrans.com/producto/maquina-saca-golpes-sacatocos-latoneria-7500a-ferrawyy/",
       "specs": {
           "dimensiones": "520 X 550 X 910 mm",
@@ -54766,7 +54737,7 @@ window.PRODUCTOS = [
       "precio": 1758960,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1889",
+      "imagen": "1888",
       "enlace": "POLICHADORA 7 PULG 1250 W - 3000 RPM DEWALT DWP849X-B3",
       "specs": {
           "dimensiones": "La x Al:  480 x 135 mm",
@@ -54795,7 +54766,7 @@ window.PRODUCTOS = [
       "precio": 790400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1890",
+      "imagen": "1889",
       "enlace": "(2) Esterilizador Para Esteticista Esterilizador Grande De 12l | Cuotas sin interés",
       "specs": {
           "dimensiones": "34.5*25*22cm/13.6*9.8*8.66",
@@ -54824,7 +54795,7 @@ window.PRODUCTOS = [
       "precio": 4900000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1891",
+      "imagen": "1890",
       "enlace": "(2) Hydrafacial 10 En 1 Tipo Pedestal. | Cuotas sin interés",
       "specs": {
           "dimensiones": "Alto: 125 cm.\nAncho: 55 cm.\nFondo: 55 cm.",
@@ -54853,7 +54824,7 @@ window.PRODUCTOS = [
       "precio": 7742735,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1892",
+      "imagen": "1891",
       "enlace": "https://drive.google.com/file/d/1smhoQ-uSPzGCv6h6T3oXUjqArKJqcr14/view?usp=sharing",
       "specs": {
           "dimensiones": "Aprox. 100 x 60 x 110 cm (largo x ancho x alto)",
@@ -54882,7 +54853,7 @@ window.PRODUCTOS = [
       "precio": 15315300,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1893",
+      "imagen": "1892",
       "enlace": "https://drive.google.com/file/d/1smhoQ-uSPzGCv6h6T3oXUjqArKJqcr14/view?usp=sharing",
       "specs": {
           "dimensiones": "100 × 50 × 120 cm",
@@ -54911,7 +54882,7 @@ window.PRODUCTOS = [
       "precio": 2939300,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1894",
+      "imagen": "1893",
       "enlace": "https://drive.google.com/file/d/1smhoQ-uSPzGCv6h6T3oXUjqArKJqcr14/view?usp=sharing",
       "specs": {
           "dimensiones": "Aprox. 50 x 40 x 60 cm",
@@ -54940,7 +54911,7 @@ window.PRODUCTOS = [
       "precio": 7491900,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1895",
+      "imagen": "1894",
       "enlace": "https://docs.google.com/document/d/1S3ie5mEHn3bODywXZeQYRfoMrvrzuS9S/edit?usp=sharing&ouid=103429358011792790607&rtpof=true&sd=true",
       "specs": {
           "dimensiones": "1.25 m (largo) × 1.05 m (ancho) × 1.50 m (alto).",
@@ -54969,7 +54940,7 @@ window.PRODUCTOS = [
       "precio": 8649277,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1896",
+      "imagen": "1895",
       "enlace": "https://drive.google.com/file/d/1YQWyh8QS2K0yZqgyLUhRHQA_HCCvX3si/view?usp=sharing",
       "specs": {
           "dimensiones": "Aprox. 40 x 30 x 45 cm",
@@ -54998,7 +54969,7 @@ window.PRODUCTOS = [
       "precio": 14232400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1897",
+      "imagen": "1896",
       "enlace": "https://drive.google.com/file/d/1MFz0xPFORLU-tlTNaXY1rQBxcFe0cPBK/view?usp=sharing",
       "specs": {
           "dimensiones": "Largo: 50 cm\nAncho: 55 cm\nAlto: 70 cm",
@@ -55027,7 +54998,7 @@ window.PRODUCTOS = [
       "precio": 137001,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1898",
+      "imagen": "1897",
       "enlace": "https://drive.google.com/file/d/1-leQ2IArn20ARiVabtYfGddkxNXCSzRr/view?usp=sharing",
       "specs": {
           "dimensiones": "Aprox. 11 x 10 x 2 cm (unidad principal) + sonda de 94 cm",
@@ -55056,7 +55027,7 @@ window.PRODUCTOS = [
       "precio": 201883,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1899",
+      "imagen": "1898",
       "enlace": "https://drive.google.com/file/d/1-leQ2IArn20ARiVabtYfGddkxNXCSzRr/view?usp=sharing",
       "specs": {
           "dimensiones": "Aprox. 16 x 4 x 4 cm",
@@ -55065,7 +55036,7 @@ window.PRODUCTOS = [
           "referencia": "",
           "material": "Cuerpo de aluminio anodizado con prisma óptico de vidrio y componentes en plástico ABS",
           "composicion": "Cuerpo, Prisma óptico, Cubierta del prisma, Empuñadura, Sistema óptico, Componentes internos",
-          "capacidad": "",
+          "capacidad": "Rango de medición 0–32 % Brix, resolución 0,2 %",
           "potencia": "",
           "otrasEspecificaciones": "Instrumento de alta precisión.\n  Facilita el control de la fermentación en campo.\n  Ayuda a garantizar fermentaciones uniformes.\n  Contribuye a mejorar la calidad del cacao.\n  Recomendado para productores que buscan consistencia entre lotes.",
           "condicionesServicios": "Bateria",
@@ -55085,7 +55056,7 @@ window.PRODUCTOS = [
       "precio": 1564267,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1900",
+      "imagen": "1899",
       "enlace": "https://drive.google.com/file/d/1_HicOcxc5R-Twm2bvJGzCWFRn9DhNCsZ/view?usp=sharing",
       "specs": {
           "dimensiones": "4.13\"an. x 4.13\"al. Pulgadas",
@@ -55114,7 +55085,7 @@ window.PRODUCTOS = [
       "precio": 4687651,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "1901",
+      "imagen": "1900",
       "enlace": "https://drive.google.com/file/d/1_HicOcxc5R-Twm2bvJGzCWFRn9DhNCsZ/view?usp=sharing",
       "specs": {
           "dimensiones": "21*70mm",
@@ -55143,7 +55114,7 @@ window.PRODUCTOS = [
       "precio": 95414,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1902",
+      "imagen": "1901",
       "enlace": "https://drive.google.com/file/d/1_HicOcxc5R-Twm2bvJGzCWFRn9DhNCsZ/view?usp=sharing",
       "specs": {
           "dimensiones": "86.5 x 55 x 16 mm",
@@ -55172,7 +55143,7 @@ window.PRODUCTOS = [
       "precio": 66043,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1903",
+      "imagen": "1902",
       "enlace": "https://drive.google.com/file/d/1_HicOcxc5R-Twm2bvJGzCWFRn9DhNCsZ/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -55201,7 +55172,7 @@ window.PRODUCTOS = [
       "precio": 26712,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1904",
+      "imagen": "1903",
       "enlace": "https://drive.google.com/file/d/1_HicOcxc5R-Twm2bvJGzCWFRn9DhNCsZ/view?usp=sharing",
       "specs": {
           "dimensiones": "0.1/0.12/0.15/0.2mm",
@@ -55230,12 +55201,12 @@ window.PRODUCTOS = [
       "precio": 341900,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1905",
+      "imagen": "1904",
       "enlace": "https://drive.google.com/file/d/193NV0GOBYGTbtdiufWGwRNKJjr3FSjJS/view?usp=sharing",
       "specs": {
           "dimensiones": "Largo, Ancho, Espesor, Panel solar.",
           "empaque": "Caja de cartón corrugado de alta resistencia con protección interna en espuma.",
-          "peso": "",
+          "peso": "Aprox. 3–4 kg (reflector + panel solar)",
           "referencia": "Reflector Solar LED de Alta Potencia 500 W",
           "material": "Chasis en aluminio de alta resistencia y lente óptico de policarbonato (PC).",
           "composicion": "Reflector LED, panel solar fotovoltaico externo, batería recargable integrada, sensor fotocelular, control remoto, soporte metálico ajustable y carcasa de aluminio con lente de policarbonato.",
@@ -55259,7 +55230,7 @@ window.PRODUCTOS = [
       "precio": 1859000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1906",
+      "imagen": "1905",
       "enlace": "https://drive.google.com/file/d/1Vpfk1IFnIyz8tWYDsJy7yKQ2IQW9EdoJ/view?usp=sharing",
       "specs": {
           "dimensiones": "36X36X33CM",
@@ -55288,7 +55259,7 @@ window.PRODUCTOS = [
       "precio": 1547000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1907",
+      "imagen": "1906",
       "enlace": "https://drive.google.com/file/d/1p_75g5oMnaI_7klvjlc8ZCPgjlnXz_Y4/view?usp=sharing",
       "specs": {
           "dimensiones": "Dimensiones: 40 cm x 27cm x 13cm de máquina.",
@@ -55317,7 +55288,7 @@ window.PRODUCTOS = [
       "precio": 3094000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1908",
+      "imagen": "1907",
       "enlace": "https://drive.google.com/file/d/1p_75g5oMnaI_7klvjlc8ZCPgjlnXz_Y4/view?usp=sharing",
       "specs": {
           "dimensiones": "Sonda / Cabezal de masajes corporal: 50mm.",
@@ -55346,7 +55317,7 @@ window.PRODUCTOS = [
       "precio": 15904707,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1909",
+      "imagen": "1908",
       "enlace": "https://drive.google.com/file/d/1UpWOKW-qwA7RjFMFJb76ObBo9rSbVKmp/view?usp=drive_link",
       "specs": {
           "dimensiones": "15\" x 14\" x 23\" (38 x 36 x 58 cm aproximadamente).",
@@ -55375,7 +55346,7 @@ window.PRODUCTOS = [
       "precio": 9165666,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1910",
+      "imagen": "1909",
       "enlace": "https://drive.google.com/file/d/1UpWOKW-qwA7RjFMFJb76ObBo9rSbVKmp/view?usp=drive_link",
       "specs": {
           "dimensiones": "18\" x 10\" x 11\" de alto – Melanger. (46 x 25 x 28 cm aprox.) 23\" x 16\" x 15\" – Tamaño de caja.",
@@ -55404,7 +55375,7 @@ window.PRODUCTOS = [
       "precio": 10413166,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1911",
+      "imagen": "1910",
       "enlace": "https://drive.google.com/file/d/1UpWOKW-qwA7RjFMFJb76ObBo9rSbVKmp/view?usp=drive_link",
       "specs": {
           "dimensiones": "22\" x 18\" x 15\" (56 x 38 x 46 cm aprox.). Peso: 25 lb (12 kg)",
@@ -55433,7 +55404,7 @@ window.PRODUCTOS = [
       "precio": 6240000,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "1912",
+      "imagen": "1911",
       "enlace": "https://drive.google.com/file/d/1ByHBfUpFM1EdLGc2T5iAEq0cPzmbYKcR/view?usp=drive_link",
       "specs": {
           "dimensiones": "",
@@ -55462,7 +55433,7 @@ window.PRODUCTOS = [
       "precio": 6500000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1913",
+      "imagen": "1912",
       "enlace": "https://drive.google.com/file/d/1tVgbtX6Fkv7Nnn-9BscJ1FCd7g5mmQa6/view?usp=sharing",
       "specs": {
           "dimensiones": "Largo x Ancho x Alto: 1.62 m x 0.75 m x 1.03 m",
@@ -55491,7 +55462,7 @@ window.PRODUCTOS = [
       "precio": 130867,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1914",
+      "imagen": "1913",
       "enlace": "https://www.tierragro.com/products/incipio-x-100-cc?srsltid=AfmBOor5Y-x8wDj-a09sW3nJapxhfU5J3GKWIDpGOk3e-4EOezUCGeek",
       "specs": {
           "dimensiones": "",
@@ -55520,7 +55491,7 @@ window.PRODUCTOS = [
       "precio": 2320500,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1915",
+      "imagen": "1914",
       "enlace": "https://drive.google.com/file/d/1wtH8JXfbXkNCzevKn87u6EBYtB4pn6ec/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -55549,7 +55520,7 @@ window.PRODUCTOS = [
       "precio": 3620500,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1916",
+      "imagen": "1915",
       "enlace": "https://drive.google.com/file/d/1wtH8JXfbXkNCzevKn87u6EBYtB4pn6ec/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -55578,7 +55549,7 @@ window.PRODUCTOS = [
       "precio": 559000,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1917",
+      "imagen": "1916",
       "enlace": "https://drive.google.com/file/d/1wtH8JXfbXkNCzevKn87u6EBYtB4pn6ec/view?usp=sharing",
       "specs": {
           "dimensiones": "Diámetro de la cuchilla: 4 pulgadas (100 mm). Altura máxima de corte: 25 mm a 32 mm (1 a 1,2 pulgadas).",
@@ -55607,7 +55578,7 @@ window.PRODUCTOS = [
       "precio": 8985470,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1918",
+      "imagen": "1917",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/204372/ingleteadora-12-pulgadas-1800w-3800rpm-guia-dws780-dewalt/204372/?kid=shopp_goosho_1430632&shop=1&gclsrc=aw.ds&&kid=shopp_goosho_1430632&shop=1&gad_source=1&gad_campaignid=22621338659&gbraid=0AAAAADt6wnpQufJ97l9msmj0gPm_LJTKE&gclid=Cj0KCQjwm8bTBhDWARIsAC9Hi8kvdG-oEJLpnLK-h62qTbz1NKPR5aTo_FOsjQ7Ay_12EKCwOkax0OkaAnAxEALw_wcB",
       "specs": {
           "dimensiones": "61 × 59 × 48 cm (ancho × largo × alto). Longitud del cable: 2 m.",
@@ -55636,7 +55607,7 @@ window.PRODUCTOS = [
       "precio": 240370,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1919",
+      "imagen": "1918",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/771174/pulidora-angular-4-1-2-pulgadas-electrica-uyustools-720w-11000-rpm-profesional/771174/",
       "specs": {
           "dimensiones": "34 × 14 × 12 cm",
@@ -55665,7 +55636,7 @@ window.PRODUCTOS = [
       "precio": 1898000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1920",
+      "imagen": "1919",
       "enlace": "https://www.mercadolibre.com.co/tanque-polyglass-8x44-valvula-manual--medio-zeosorb-zeolita/up/MCOU2433888720",
       "specs": {
           "dimensiones": "Tanque: 20 cm de diámetro × 110 cm de altura (8\" × 44\"). Válvula: 149 × 180 mm, diámetro 127 mm.",
@@ -55694,7 +55665,7 @@ window.PRODUCTOS = [
       "precio": 676000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1921",
+      "imagen": "1920",
       "enlace": "https://www.mundorcx.com/product/chupa-ventosa-para-vidrio-veribor-blue-line-de-3-platos-en-aluminio/",
       "specs": {
           "dimensiones": "platos de 120 mm de diámetro,",
@@ -55723,7 +55694,7 @@ window.PRODUCTOS = [
       "precio": 584987,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1922",
+      "imagen": "1921",
       "enlace": "https://www.mercadolibre.com.co/piscina-estructural-bestway-steel-pro-pequena-envio-gratis/up/MCOU2435595116",
       "specs": {
           "dimensiones": "medidas: 221x150x43 cm",
@@ -55752,7 +55723,7 @@ window.PRODUCTOS = [
       "precio": 83460,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1923",
+      "imagen": "1922",
       "enlace": "https://www.mercadolibre.com.co/carro-mercado-plegable-metalico-mercar-carrito-tradicional/up/MCOU3684331058#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=18&type=product&tracking_id=7a53ab9a-8538-42d6-b2a9-aee58d57d2cf&wid=MCO3411624520&sid=search",
       "specs": {
           "dimensiones": "92 cm de alto, 39 de largo y 33 cm de ancho",
@@ -55781,7 +55752,7 @@ window.PRODUCTOS = [
       "precio": 6500000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1924",
+      "imagen": "1923",
       "enlace": "https://drive.google.com/file/d/1oH-uEtRq8ybVW6Dt3l1ck29IcCExhm7j/view",
       "specs": {
           "dimensiones": "",
@@ -55810,7 +55781,7 @@ window.PRODUCTOS = [
       "precio": 54600,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1925",
+      "imagen": "1924",
       "enlace": "https://agrofacil.co/products/poste-de-acero-extra-largo-2-44m-agrofacil-x-10-und?pr_prod_strat=e5_desc&pr_rec_id=c3cfd7e63&pr_rec_pid=8482829238360&pr_ref_pid=8482829303896&pr_seq=uniform",
       "specs": {
           "dimensiones": "Longitud total: 2,44 m. Profundidad de enterramiento: 40 cm. Altura libre aproximada después de la instalación: 1,99 m.",
@@ -55839,7 +55810,7 @@ window.PRODUCTOS = [
       "precio": 454870,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1926",
+      "imagen": "1925",
       "enlace": "https://www.mercadolibre.com.co/mezclador--electrico-industrial-1600w-de-pintura-y-mortero/up/MCOU3684170633#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=2&type=product&tracking_id=c82e35c7-d67f-4973-93a2-7fd136eb4db0&wid=MCO3429885646&sid=search",
       "specs": {
           "dimensiones": "Largo: 60 cm",
@@ -55868,7 +55839,7 @@ window.PRODUCTOS = [
       "precio": 312000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1927",
+      "imagen": "1926",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1435606267-mini-plancha-calor-estampadora-sublimacion-termofijadora-_JM?searchVariation=180694856448#polycard_client=search-desktop&searchVariation=180694856448&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=6&type=item&tracking_id=e3547021-029b-48e8-9b8d-3aa45b5d26ed&sid=search",
       "specs": {
           "dimensiones": "Aprox. 10 x 6 cm placa de calor; equipo aprox. 16 x 10 x 7 cm",
@@ -55897,7 +55868,7 @@ window.PRODUCTOS = [
       "precio": 3510000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1928",
+      "imagen": "1927",
       "enlace": "https://drive.google.com/file/d/153zKXEhfpEEyQ_hkXZOuAu4vEpswiyQG/view",
       "specs": {
           "dimensiones": "100 cm x 40 cm x 60 cm",
@@ -55926,7 +55897,7 @@ window.PRODUCTOS = [
       "precio": 2340000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1929",
+      "imagen": "1928",
       "enlace": "https://drive.google.com/file/d/153zKXEhfpEEyQ_hkXZOuAu4vEpswiyQG/view",
       "specs": {
           "dimensiones": "39 cm x 17 cm x 20 cm aprox",
@@ -55955,7 +55926,7 @@ window.PRODUCTOS = [
       "precio": 45999444,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1930",
+      "imagen": "1929",
       "enlace": "https://drive.google.com/file/d/1q0j4vHqIB8lFRsbzZ8Jjhk4kY2Q3EOtU/view?usp=sharing",
       "specs": {
           "dimensiones": "50 x 40 x 40 cm",
@@ -55984,7 +55955,7 @@ window.PRODUCTOS = [
       "precio": 5025209,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1931",
+      "imagen": "1930",
       "enlace": "https://drive.google.com/file/d/1q0j4vHqIB8lFRsbzZ8Jjhk4kY2Q3EOtU/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -56013,7 +55984,7 @@ window.PRODUCTOS = [
       "precio": 75123,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1932",
+      "imagen": "1931",
       "enlace": "https://drive.google.com/file/d/1q0j4vHqIB8lFRsbzZ8Jjhk4kY2Q3EOtU/view?usp=sharing",
       "specs": {
           "dimensiones": "20 cm de longitud",
@@ -56042,7 +56013,7 @@ window.PRODUCTOS = [
       "precio": 8125000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1933",
+      "imagen": "1932",
       "enlace": "https://drive.google.com/file/d/1wDNaqXgkQdhEsyuxr9Ec18H5BYlRafOs/view?usp=sharing",
       "specs": {
           "dimensiones": "120 x 100 x 80 cm",
@@ -56071,7 +56042,7 @@ window.PRODUCTOS = [
       "precio": 7800000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1934",
+      "imagen": "1933",
       "enlace": "https://drive.google.com/file/d/1gbHSgZRNRB9rZIJZNHzRpO006KDyJsav/view?usp=sharing",
       "specs": {
           "dimensiones": "Largo: 55 cm; ancho: 33 cm; alto: 47,5 cm.",
@@ -56100,7 +56071,7 @@ window.PRODUCTOS = [
       "precio": 910000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1935",
+      "imagen": "1934",
       "enlace": "https://drive.google.com/file/d/1gbHSgZRNRB9rZIJZNHzRpO006KDyJsav/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -56129,7 +56100,7 @@ window.PRODUCTOS = [
       "precio": 15600000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1936",
+      "imagen": "1935",
       "enlace": "https://drive.google.com/file/d/1fXpQ6SzJvsMZgih3JAtnrebYe1nIYuOu/view?usp=sharing",
       "specs": {
           "dimensiones": "Tanque: 120 cm de largo x 70 cm de ancho x 20 cm de fondo.",
@@ -56158,7 +56129,7 @@ window.PRODUCTOS = [
       "precio": 5198700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1937",
+      "imagen": "1936",
       "enlace": "https://drive.google.com/file/d/1LYAkYErZY1v_bDgDftsI4BTncUrMsEpR/view?usp=sharing",
       "specs": {
           "dimensiones": "60 x 58,7 x 47,2 cm",
@@ -56187,7 +56158,7 @@ window.PRODUCTOS = [
       "precio": 16835000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1938",
+      "imagen": "1937",
       "enlace": "",
       "specs": {
           "dimensiones": "",
@@ -56216,7 +56187,7 @@ window.PRODUCTOS = [
       "precio": 2861950,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1939",
+      "imagen": "1938",
       "enlace": "",
       "specs": {
           "dimensiones": "38 cm alto x 25 cm ancho x 40 cm largo",
@@ -56245,7 +56216,7 @@ window.PRODUCTOS = [
       "precio": 12529153,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1940",
+      "imagen": "1939",
       "enlace": "",
       "specs": {
           "dimensiones": "60 x 75 x 2,00 m de alto",
@@ -56274,7 +56245,7 @@ window.PRODUCTOS = [
       "precio": 624000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1941",
+      "imagen": "1940",
       "enlace": "https://drive.google.com/file/d/1pT6dn5MvNqIj-NgrrLY04wh2QzGi9Qu3/view?usp=sharing",
       "specs": {
           "dimensiones": "35 x 70 cm de largo.",
@@ -56303,7 +56274,7 @@ window.PRODUCTOS = [
       "precio": 4615000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1942",
+      "imagen": "1941",
       "enlace": "https://drive.google.com/drive/folders/1iAsTnXzPN1uGmluv5sBp9woRw0giZz9_",
       "specs": {
           "dimensiones": "Aprox. 45 x 40 x 30 cm (equipo de mesa, sin carro)",
@@ -56332,7 +56303,7 @@ window.PRODUCTOS = [
       "precio": 1560000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1943",
+      "imagen": "1942",
       "enlace": "https://drive.google.com/file/d/1jK8nlbEAamUZMMzSa33x7IlwA9Gu-3IF/view?usp=sharing",
       "specs": {
           "dimensiones": "Largo: Aproximadamente 2.20 m – 2.40 m\nAncho: 1.50 m – 1.70 m",
@@ -56361,7 +56332,7 @@ window.PRODUCTOS = [
       "precio": 270270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1944",
+      "imagen": "1943",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/713026/pistola-de-calor-1600w-110v-utb16056-total-tools/713026/?kid=shopp_goosho_1430593&shop=1&gad_source=1&gad_campaignid=20228062686&gbraid=0AAAAADt6wnp6zNQJP_PLVaHM_ytFUgFbx&gclid=CjwKCAjw-rTUBhAiEiwADv8gBHMrxWdUtUEeUCYmRexZe5j4t4n_-t94GrF50SjPn-D5Ok6ZGM0BMBoCCMoQAvD_BwE",
       "specs": {
           "dimensiones": "Ancho : 8.5 cm\n•Alto : 25 cm\n•Largo : 26.3 cm",
@@ -56390,7 +56361,7 @@ window.PRODUCTOS = [
       "precio": 2209870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1945",
+      "imagen": "1944",
       "enlace": "https://docs.google.com/spreadsheets/d/1-3nkzIfQMlC8VVOjpC3itKQMOg9HeC6n/edit?gid=782950788#gid=782950788",
       "specs": {
           "dimensiones": "Largo de sellado: 90 cm\nAncho de sellado: 1 cm",
@@ -56419,7 +56390,7 @@ window.PRODUCTOS = [
       "precio": 9487400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1946",
+      "imagen": "1945",
       "enlace": "https://www.mercadolibre.com.co/destilador-de-aceites-esenciales-de-20-kgcalderin-de-100-lt/up/MCOU3878093215?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO3822027776&from=gshop",
       "specs": {
           "dimensiones": "Aprox. 50 cm de diámetro x 120 cm de alto (calderín + columna) más condensador",
@@ -56448,7 +56419,7 @@ window.PRODUCTOS = [
       "precio": 3893503,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1947",
+      "imagen": "1946",
       "enlace": "https://www.mercadolibre.com.co/fermentador-presion-60l-cerveza-vino-artesanal-fermentacion/up/MCOU3662121228?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO1755288517&from=gshop",
       "specs": {
           "dimensiones": "Altura\n1,09 m\nDiámetro\n48 cm",
@@ -56477,7 +56448,7 @@ window.PRODUCTOS = [
       "precio": 1007370,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1948",
+      "imagen": "1947",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3030520/kit-cafetero-espresso-con-v60-molino-manual-profesional-maleta-premium-barista/3030520/",
       "specs": {
           "dimensiones": "Ancho 50 cm Alto 20 cm Largo 20 cm",
@@ -56506,7 +56477,7 @@ window.PRODUCTOS = [
       "precio": 1245558,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1949",
+      "imagen": "1948",
       "enlace": "https://www.mercadolibre.com.co/food-dehydrator-hoperan-16-tray-stainless-steel/p/MCO2097323399#polycard_client=search-categories&tracking_id=1abcd706-1176-497a-9bf6-000517a663e6&wid=MCO2086996337&sid=search",
       "specs": {
           "dimensiones": "",
@@ -56535,7 +56506,7 @@ window.PRODUCTOS = [
       "precio": 4160000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1950",
+      "imagen": "1949",
       "enlace": "https://www.mercadolibre.com.co/silla-poltrona-luis-xv-dorada-tapizada-en-terciopelo-rojo/up/MCOU3920215898?pdp_filters=item_id:MCO3878199492",
       "specs": {
           "dimensiones": "",
@@ -56564,7 +56535,7 @@ window.PRODUCTOS = [
       "precio": 1779050,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1951",
+      "imagen": "1950",
       "enlace": "https://www.apicola.cl/producto/envasadora-de-miel-para-miel-viscosa-mod-j03/",
       "specs": {
           "dimensiones": "Largo: 41 cm. Ancho: 41 cm. Alto: 33 cm.",
@@ -56593,7 +56564,7 @@ window.PRODUCTOS = [
       "precio": 25116000,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1952",
+      "imagen": "1951",
       "enlace": "https://incnc.com.co/producto/cnc-router-15x15-de-22-kw-plus/?srsltid=AfmBOorc7Cil5f5VVYZb7efKKmGXN5d2Eiau9QOYa67OcBLzIFWz0fZC",
       "specs": {
           "dimensiones": "Mesa: 1,46 m de ancho x 1,46 m de largo. Área de trabajo: 1,22 m de ancho x 1,22 m de largo x 10 cm de altura.",
@@ -56622,7 +56593,7 @@ window.PRODUCTOS = [
       "precio": 140446,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1953",
+      "imagen": "1952",
       "enlace": "https://www.amazon.com/-/es/dp/B08BR8WH41/ref=vp_d_cpf-substitute-widget-prsubs_pd?_encoding=UTF8&pf_rd_p=3b384b6f-3e1a-4384-bf9e-527aad01ce71&pf_rd_r=4GV1P6J6DAXY99HJ7T7Y&pd_rd_wg=Th6lX&pd_rd_i=B08BR8WH41&pd_rd_w=gycW7&content-id=amzn1.sym.3b384b6f-3e1a-4384-bf9e-527aad01ce71&pd_rd_r=9e639465-135d-4fe7-9e35-848afa3bed15&th=1",
       "specs": {
           "dimensiones": "86.6\"an. x 94.5\"al. pulgadas",
@@ -56651,7 +56622,7 @@ window.PRODUCTOS = [
       "precio": 500500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1954",
+      "imagen": "1953",
       "enlace": "https://eljardindelasabejas.com/producto/carpa-para-extraccion-de-miel-2/",
       "specs": {
           "dimensiones": "Largo: 3 m. Ancho: 3 m. Área aproximada: 9 m².",
@@ -56680,7 +56651,7 @@ window.PRODUCTOS = [
       "precio": 299000,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1955",
+      "imagen": "1954",
       "enlace": "https://formergroup.com/products/kit-ahumador-mas-3-bebederos-para-abejas-apicultura?variant=51983935897921&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOorYmZVfaEU7RYD-9L6Ah_HYV-dp4eqO-acJBE3dgz0UYRs8MrabgdI",
       "specs": {
           "dimensiones": "Ahumador: 33 × 13 × 40 cm aproximadamente. Bebederos: ancho 8 cm, largo 15 cm, altura 13 cm y base de 8 cm de diámetro.",
@@ -56709,7 +56680,7 @@ window.PRODUCTOS = [
       "precio": 100620,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1956",
+      "imagen": "1955",
       "enlace": "https://drive.google.com/file/d/1leJgolo-sC_xBB1T6Z179fTPqP-nQXRn/view?usp=sharing",
       "specs": {
           "dimensiones": "Longitud total: 180 mm\nForma de hoja: Triangular",
@@ -56738,7 +56709,7 @@ window.PRODUCTOS = [
       "precio": 5235880,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1957",
+      "imagen": "1956",
       "enlace": "https://drive.google.com/file/d/1s-4tc8k_MgXI91bAEoRKuhsXUeGhEOIh/view?usp=sharing",
       "specs": {
           "dimensiones": "Capacidad del recipiente: 6 L",
@@ -56767,7 +56738,7 @@ window.PRODUCTOS = [
       "precio": 6305000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1958",
+      "imagen": "1957",
       "enlace": "https://drive.google.com/file/d/1s-4tc8k_MgXI91bAEoRKuhsXUeGhEOIh/view?usp=sharing",
       "specs": {
           "dimensiones": "Capacidad del recipiente: 12 L",
@@ -56796,7 +56767,7 @@ window.PRODUCTOS = [
       "precio": 1040000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1959",
+      "imagen": "1958",
       "enlace": "https://www.mercadolibre.com.co/maquina-cholados-raspadora-hielo-industrial-totalmente-nueva/up/MCOU2417802789?pdp_filters=seller_id%3A83479430#polycard_client=recommendations_vip-seller_items-above&reco_backend=ranker-retsys-same-seller&reco_model=fallback_same-seller&reco_client=vip-seller_items-above&reco_item_pos=0&reco_backend_type=low_level&reco_id=c22ed941-b51c-459b-b71e-3f42a7756cec&wid=MCO1957544670&sid=recos",
       "specs": {
           "dimensiones": "Alto: 30 cm\nAncho: 30 cm\nLargo: 60 cm\nTamaño aproximado de referencia industrial",
@@ -56825,12 +56796,12 @@ window.PRODUCTOS = [
       "precio": 1690000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1960",
+      "imagen": "1959",
       "enlace": "Cotización carrito tintero en acero inoxidable",
       "specs": {
           "dimensiones": "Dimensiones generales: 45 cm x 55 cm\nCajón delantero: 30 cm x 45 cm\nParasol: 2 m x 2 m",
           "empaque": "Tipo: Entrega ensamblado\nPresentación: Unidad\nProtección: Según transporte (plástico o cartón)",
-          "peso": "",
+          "peso": "Aprox. 35–50 kg",
           "referencia": "Carro tintero metálico estándar",
           "material": "Estructura: Hierro / acero\nMesón: Acero inoxidable\nVitrina: Vidrio y aluminio\nRuedas: Caucho",
           "composicion": "Metales estructurales\nAcero inoxidable\nVidrio\nPolímeros (ruedas y accesorios)",
@@ -56854,7 +56825,7 @@ window.PRODUCTOS = [
       "precio": 16900000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1961",
+      "imagen": "1960",
       "enlace": "https://drive.google.com/file/d/1Elj1jgXRU1qlhhRMySVcz-DHABQs4THm/view?usp=sharing",
       "specs": {
           "dimensiones": "Ancho de labranza: 105 cm\nProfundidad de trabajo: 15 – 30 cm",
@@ -56883,7 +56854,7 @@ window.PRODUCTOS = [
       "precio": 4160000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1962",
+      "imagen": "1961",
       "enlace": "https://drive.google.com/file/d/1Elj1jgXRU1qlhhRMySVcz-DHABQs4THm/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -56912,7 +56883,7 @@ window.PRODUCTOS = [
       "precio": 2535000,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "1963",
+      "imagen": "1962",
       "enlace": "https://drive.google.com/file/d/1U9Iyc7NUrb2w1LjPNsVhMGqC_0sJoFvC/view?usp=sharing",
       "specs": {
           "dimensiones": "110 x 45 x 90 cm (Aproximado según formato estándar de tanque de 35 galones)",
@@ -56941,7 +56912,7 @@ window.PRODUCTOS = [
       "precio": 3867500,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1964",
+      "imagen": "1963",
       "enlace": "https://drive.google.com/file/d/1rfg6q09faMIN-_pFJf5EmZXLDwcbk59z/view?usp=sharing",
       "specs": {
           "dimensiones": "Largo:1.20 cm               Ancho: 70 cm                                  Alto: 60 cm",
@@ -56970,7 +56941,7 @@ window.PRODUCTOS = [
       "precio": 1298700,
       "iva": 0,
       "icono": "🎪",
-      "imagen": "1965",
+      "imagen": "1964",
       "enlace": "https://todoparaciclismo.com/products/bicicleta-de-carga-capacidad-200-kg?srsltid=AU7gw4U176KP8KDUu6o9zxcydky6Nf0GaYoeqVxWlLUq10ug1RjgQjwP",
       "specs": {
           "dimensiones": "Tubería de las parrillas: 1 1/8\", con medidas de 50 × 35 cm. No se especifican las dimensiones generales de la bicicleta.",
@@ -56999,7 +56970,7 @@ window.PRODUCTOS = [
       "precio": 23398700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1966",
+      "imagen": "1965",
       "enlace": "https://dismerca.com/referencias/tvs-king-gs/?source=website&medium=organic&campaign=motocarro_tvs_king_gs_%7C_dismerca",
       "specs": {
           "dimensiones": "Largo total: 2.724 mm. Ancho total: 1.329 mm. Altura total: 1.740 mm. Distancia entre ejes: 1.990 mm.",
@@ -57028,7 +56999,7 @@ window.PRODUCTOS = [
       "precio": 4420000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1967",
+      "imagen": "1966",
       "enlace": "https://www.americafoodsolutions.co/tienda/maquina-de-hielo-comercial/?_gl=1*107zle6*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwwrPVBhA1EiwAv_YO-TacLMxdFHOoAJ9pcXOSS9Toki4k_33TvC4O929CqgOCk8vSihl56BoCF8UQAvD_BwE&gbraid=0AAAAAC_xSkR6YYMVfTMj2Oj0MH6hVKOfa",
       "specs": {
           "dimensiones": "78 x 40 x 50 cm",
@@ -57057,7 +57028,7 @@ window.PRODUCTOS = [
       "precio": 5000000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1968",
+      "imagen": "1967",
       "enlace": "https://jytcolombia.com/producto/maquina-desmontadora-de-llantas-rin-13-110v/",
       "specs": {
           "dimensiones": "1130cm -950cm- 960cm",
@@ -57086,7 +57057,7 @@ window.PRODUCTOS = [
       "precio": 1755000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1969",
+      "imagen": "1968",
       "enlace": "https://docs.google.com/document/d/1Tvl0d5Jvfb0UN9P05dkyw8Hj-PgsH2Fh/edit",
       "specs": {
           "dimensiones": "Ancho de rodillo 100 mm, diametro de rodillo 76 mm",
@@ -57115,7 +57086,7 @@ window.PRODUCTOS = [
       "precio": 4550000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1970",
+      "imagen": "1969",
       "enlace": "https://docs.google.com/document/d/1Tvl0d5Jvfb0UN9P05dkyw8Hj-PgsH2Fh/edit",
       "specs": {
           "dimensiones": "120 X 9 X 50 X 200",
@@ -57144,7 +57115,7 @@ window.PRODUCTOS = [
       "precio": 22431500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1971",
+      "imagen": "1970",
       "enlace": "https://drive.google.com/file/d/1pqGT45ffgeDhB-9Fz8xmW3L9qsqxWJxF/view?usp=sharing",
       "specs": {
           "dimensiones": "Aprox. 30 x 29 x 10 cm (portátil)",
@@ -57173,7 +57144,7 @@ window.PRODUCTOS = [
       "precio": 2080000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1972",
+      "imagen": "1971",
       "enlace": "https://drive.google.com/drive/folders/11ldjo7tUu6xmI8pulbjYbX_43huBhGGh",
       "specs": {
           "dimensiones": "Aprox. 40 x 30 x 15 cm (unidad principal)",
@@ -57202,7 +57173,7 @@ window.PRODUCTOS = [
       "precio": 7735000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1973",
+      "imagen": "1972",
       "enlace": "https://drive.google.com/file/d/1syJIs3e8-OO3fAXoyTkT0uMCZPD80s2f/view?usp=sharing",
       "specs": {
           "dimensiones": "Sin información",
@@ -57231,7 +57202,7 @@ window.PRODUCTOS = [
       "precio": 1328691,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "1974",
+      "imagen": "1973",
       "enlace": "https://maquinastitus.com.co/products/collarin-familiar-kingter-kt-858-maquina-de-coser?srsltid=AU7gw4XvEzew1dDVjO0MeI6axvnWQK3fToWdNlEu8CWffLbPUqtQusTm",
       "specs": {
           "dimensiones": "395x360x375 mm (aproximadamente 16x14.5x15 pulgadas)",
@@ -57260,7 +57231,7 @@ window.PRODUCTOS = [
       "precio": 1937000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1975",
+      "imagen": "1974",
       "enlace": "https://www.alkosto.com/nevera-haceb-frost-una-puerta-242-litros-n250-dispensador/p/7704353449877?utm_source=google&utm_medium=organic&utm_campaign=Shopping-Organico&srsltid=AU7gw4VzhGFOMxB2a4y5qOe2BSenQKYTuRYOBZuQlwJqi75oUIJiEiw67dc",
       "specs": {
           "dimensiones": "52 x 124.6 x 54 Centímetros\nAncho o Frente Externo: 52 centímetros\nAlto Externo: 124.6 Centímetros\nFondo Externo: 54 centímetros",
@@ -57289,7 +57260,7 @@ window.PRODUCTOS = [
       "precio": 1856400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1976",
+      "imagen": "1975",
       "enlace": "https://drive.google.com/file/d/1_jsNkNJbKTleOpNnJ8lWSTFlhpfnZxvd/view",
       "specs": {
           "dimensiones": "",
@@ -57318,7 +57289,7 @@ window.PRODUCTOS = [
       "precio": 1716000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1977",
+      "imagen": "1976",
       "enlace": "https://drive.google.com/file/d/1E8VjwlSduLRtqU7RPMRMnsx8JpEskkJc/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -57347,7 +57318,7 @@ window.PRODUCTOS = [
       "precio": 110500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1978",
+      "imagen": "1977",
       "enlace": "https://drive.google.com/drive/folders/1Cz5P0OfVahCfOEylQjlf1tnoZuWQPj_o",
       "specs": {
           "dimensiones": "Diámetro del tamiz: 24 cm. Adaptable a cubos/maduradores de 24 cm hasta 43 cm de diámetro.",
@@ -57376,7 +57347,7 @@ window.PRODUCTOS = [
       "precio": 1885000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1979",
+      "imagen": "1978",
       "enlace": "https://drive.google.com/file/d/1E8VjwlSduLRtqU7RPMRMnsx8JpEskkJc/view?usp=sharing",
       "specs": {
           "dimensiones": "exterior aproximado: 450 × 1490 mm (diámetro × altura).",
@@ -57405,7 +57376,7 @@ window.PRODUCTOS = [
       "precio": 8060000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1980",
+      "imagen": "1979",
       "enlace": "https://drive.google.com/file/d/1E8VjwlSduLRtqU7RPMRMnsx8JpEskkJc/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -57434,7 +57405,7 @@ window.PRODUCTOS = [
       "precio": 3120000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1981",
+      "imagen": "1980",
       "enlace": "https://drive.google.com/file/d/1E8VjwlSduLRtqU7RPMRMnsx8JpEskkJc/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -57463,7 +57434,7 @@ window.PRODUCTOS = [
       "precio": 5462184,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1982",
+      "imagen": "1981",
       "enlace": "https://drive.google.com/file/d/1n3u8UfdWTQQoinMitOPWx9Ekueo56Uff/view?usp=sharing",
       "specs": {
           "dimensiones": "1,60 m de largo x 65 cm de ancho x 90 cm de alto.",
@@ -57492,7 +57463,7 @@ window.PRODUCTOS = [
       "precio": 3185000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1983",
+      "imagen": "1982",
       "enlace": "https://drive.google.com/file/d/1_1VHTdy50rqlLtbpzOM_ujMWl8kRNrcd/view?usp=sharing",
       "specs": {
           "dimensiones": "No aplica.",
@@ -57521,7 +57492,7 @@ window.PRODUCTOS = [
       "precio": 824551,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1984",
+      "imagen": "1983",
       "enlace": "https://drive.google.com/file/d/1BOURTzissWd3U01qHnqXvXEzbFQLwQaj/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -57550,7 +57521,7 @@ window.PRODUCTOS = [
       "precio": 1235000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1985",
+      "imagen": "1984",
       "enlace": "https://drive.google.com/file/d/14lYthGX2HJ6l8UF4clvh8biFCHllfE1e/view?usp=sharing",
       "specs": {
           "dimensiones": "65 cm × 1,55 m de alto × 65 cm de fondo",
@@ -57579,7 +57550,7 @@ window.PRODUCTOS = [
       "precio": 2600000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "1986",
+      "imagen": "1985",
       "enlace": "https://drive.google.com/file/d/12S7fzuUFWAnArI8lp5BPLE4mO96yACLn/view?usp=sharing",
       "specs": {
           "dimensiones": "altura de 180, 2MTS de ancho, 45cm de profundidad, vidrioclaro 3 mm.",
@@ -57608,10 +57579,10 @@ window.PRODUCTOS = [
       "precio": 90870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1987",
+      "imagen": "1986",
       "enlace": "https://drive.google.com/file/d/1oEP_Liu_XEy3eyZsmmaTXi7A9O7Sbfwn/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Saco aprox. 60 x 40 x 12 cm",
           "empaque": "Presentación: Saco\nPeso común: 25 kg",
           "peso": "25 kg por saco",
           "referencia": "",
@@ -57637,7 +57608,7 @@ window.PRODUCTOS = [
       "precio": 5000000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1988",
+      "imagen": "1987",
       "enlace": "https://drive.google.com/file/d/1cb57UCleLzP_1AMNyTFDUXXhdXILQpaf/view",
       "specs": {
           "dimensiones": "A: 1,4 m; B: 1,3 m; C: 1,1 m,",
@@ -57666,7 +57637,7 @@ window.PRODUCTOS = [
       "precio": 343200,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1989",
+      "imagen": "1988",
       "enlace": "https://drive.google.com/drive/folders/142zVFkGzrMdBdmebRR1QwOjL_M83d1BL",
       "specs": {
           "dimensiones": "Talla: 16\n Largo: Variable según diseño\n Ancho: Proporcional a talla juvenil\n Puños y pretina: Con ajuste elástico (rib)",
@@ -57695,7 +57666,7 @@ window.PRODUCTOS = [
       "precio": 405600,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1990",
+      "imagen": "1989",
       "enlace": "https://drive.google.com/drive/folders/142zVFkGzrMdBdmebRR1QwOjL_M83d1BL",
       "specs": {
           "dimensiones": "Talla S: largo aprox. 66 cm, ancho de pecho aprox. 50 cm por unidad",
@@ -57724,7 +57695,7 @@ window.PRODUCTOS = [
       "precio": 364000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1991",
+      "imagen": "1990",
       "enlace": "https://drive.google.com/file/d/1p7BXoeNBIfPdiHBtSkBEtKQXcZ21TdE5/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -57753,7 +57724,7 @@ window.PRODUCTOS = [
       "precio": 442000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1992",
+      "imagen": "1991",
       "enlace": "https://www.mercadolibre.com.co/12-pares-medias-largas-funny-disenos-divertidos-mujer/up/MCOU4348582997?pdp_filters=item_id:MCO2049485305#is_advertising=true&searchVariation=MCOU4348582997&backend_model=search-backend;EQ:MEDIAS%20SURTIDAS%20MUJER&be_origin=backend&position=1&search_layout=grid&type=pad&tracking_id=8034a60c-1d62-4cbb-8a81-3a0a5e63be58&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZDc1YjJiNzItYWU1OS00MjliLWI1YmMtY2MyZGUzMzkxZDMw",
       "specs": {
           "dimensiones": "Largo tipo media larga",
@@ -57782,7 +57753,7 @@ window.PRODUCTOS = [
       "precio": 325000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1993",
+      "imagen": "1992",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-987876730-12-pares-medias-34-media-cana-caballero-unicolor-disenos-_JM#polycard_client=recommendations_vip-pads-up&reco_backend=recomm_platform_base_pads_ron_marketplace&reco_model=fallback_productos-promocionados&reco_client=vip-pads-up&reco_item_pos=1&reco_backend_type=low_level&reco_id=deab6852-8df2-4479-8876-2a1ded36c7ae&sid=recos&is_advertising=true&ad_domain=VIPDESKTOP_UP&ad_position=2&ad_click_id=NDhhMzYzOGMtOGQyYy00OTI0LTg2ODUtY2M1Zjg1MGE4YThh",
       "specs": {
           "dimensiones": "Largo 3/4; medidas",
@@ -57811,7 +57782,7 @@ window.PRODUCTOS = [
       "precio": 104000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1994",
+      "imagen": "1993",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1375544957-12-pares-media-larga-colegial-escolar-lisa-_JM?attributes=COLOR%3AQmxhbmNv&quantity=1&picker=true&matt_tool=43868416&matt_word=&matt_source=google&matt_campaign_id=22126928582&matt_ad_group_id=171342919657&matt_match_type=&matt_network=g&matt_device=c&matt_creative=729836843884&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=516558271&matt_product_id=MCO1375544957-181229485697&matt_product_partition_id=2493287655246&matt_target_id=pla-2493287655246&cq_src=google_ads&cq_cmp=22126928582&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22126928582&gbraid=0AAAAAD1DcozAIsRmYMZIpTYHc9_Xl_9xT&gclid=Cj0KCQjw79nUBhCgARIsADSHka23ZFZpSTHt3uNHO3LEmBUZgGxzw6etqSb_Ep9acTQtWDHa3_uSHREaArm7EALw_wcB",
       "specs": {
           "dimensiones": "Largo tipo media larga",
@@ -57840,7 +57811,7 @@ window.PRODUCTOS = [
       "precio": 104000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1995",
+      "imagen": "1994",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1375544957-12-pares-media-larga-colegial-escolar-lisa-_JM?attributes=COLOR%3AQXp1bA%3D%3D&quantity=1&picker=true&matt_tool=43868416&matt_word=&matt_source=google&matt_campaign_id=22126928582&matt_ad_group_id=171342919657&matt_match_type=&matt_network=g&matt_device=c&matt_creative=729836843884&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=516558271&matt_product_id=MCO1375544957-181229485697&matt_product_partition_id=2493287655246&matt_target_id=pla-2493287655246&cq_src=google_ads&cq_cmp=22126928582&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22126928582&gbraid=0AAAAAD1DcozAIsRmYMZIpTYHc9_Xl_9xT&gclid=Cj0KCQjw79nUBhCgARIsADSHka23ZFZpSTHt3uNHO3LEmBUZgGxzw6etqSb_Ep9acTQtWDHa3_uSHREaArm7EALw_wcB",
       "specs": {
           "dimensiones": "Largo tipo media larga",
@@ -57869,7 +57840,7 @@ window.PRODUCTOS = [
       "precio": 104000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1996",
+      "imagen": "1995",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1233676504-media-colegial-escolar-para-ninos-x-12-pares-_JM?attributes=COLOR%3AMTIgUGFyZXMgQXp1bCBPc2N1cm8geSBCbGFuY28%3D&quantity=1&picker=true&searchVariation=193199952837",
       "specs": {
           "dimensiones": "Largo 3/4.",
@@ -57898,7 +57869,7 @@ window.PRODUCTOS = [
       "precio": 253500,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "1997",
+      "imagen": "1996",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1906409304-paquete-5-panties-algodon-con-orilla-de-encaje-clasicos-_JM?searchVariation=179877764693#polycard_client=recommendations_vip-v2p&reco_backend=ranker_retrieval_system_org&reco_model=fallback_organicos&reco_client=vip-v2p&reco_item_pos=0&reco_backend_type=low_level&reco_id=9b37448e-b91c-4aa6-912e-fae653bca68c&sid=recos",
       "specs": {
           "dimensiones": "",
@@ -57927,7 +57898,7 @@ window.PRODUCTOS = [
       "precio": 62270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1998",
+      "imagen": "1997",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1830527675-20-pares-medias-tobilleras-ninos-y-ninas-1-a-12-anos-_JM?attributes=COLOR%3AMjAgUGFyZXMgTmnDsW9zIFN1cnRpZG9z&quantity=1&picker=true&searchVariation=190365716728",
       "specs": {
           "dimensiones": "Largo 3/4.",
@@ -57956,7 +57927,7 @@ window.PRODUCTOS = [
       "precio": 62270,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "1999",
+      "imagen": "1998",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-1830527675-20-pares-medias-tobilleras-ninos-y-ninas-1-a-12-anos-_JM?attributes=COLOR%3AMjAgUGFyZXMgTmnDsWFzIFN1cnRpZG9z&quantity=1&picker=true&searchVariation=190365716728",
       "specs": {
           "dimensiones": "Largo 3/4.",
@@ -57985,7 +57956,7 @@ window.PRODUCTOS = [
       "precio": 20290,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2000",
+      "imagen": "1999",
       "enlace": "https://drive.google.com/file/d/1RMWgQMX0PJMkAt2T5IwNjzgR9G_l1E8w/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -58014,7 +57985,7 @@ window.PRODUCTOS = [
       "precio": 3900000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2001",
+      "imagen": "2000",
       "enlace": "https://drive.google.com/file/d/10ig5mtXEGX8KI835P7pXsqr1zm5BpQKR/view?usp=sharing",
       "specs": {
           "dimensiones": "90cm(largo)x170(alto)",
@@ -58043,7 +58014,7 @@ window.PRODUCTOS = [
       "precio": 300170,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "2002",
+      "imagen": "2001",
       "enlace": "https://drive.google.com/file/d/1Pw0Ohi89J8uE1mrTFTYtHJRy2_eimD3C/view?usp=sharing",
       "specs": {
           "dimensiones": "Largo 15 cm, Ancho 5 cm",
@@ -58072,7 +58043,7 @@ window.PRODUCTOS = [
       "precio": 77908,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2003",
+      "imagen": "2002",
       "enlace": "https://drive.google.com/file/d/1Pw0Ohi89J8uE1mrTFTYtHJRy2_eimD3C/view?usp=sharing",
       "specs": {
           "dimensiones": "Largo 15 cm, Ancho 5 cm",
@@ -58101,7 +58072,7 @@ window.PRODUCTOS = [
       "precio": 8450000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2004",
+      "imagen": "2003",
       "enlace": "https://drive.google.com/file/d/1Dc88TSFh7ik7xNTscQ2iq5xJcGLPVMg6/view?usp=sharing",
       "specs": {
           "dimensiones": "Alto: 160 cm. Base: 90 cm x 80 cm.",
@@ -58130,7 +58101,7 @@ window.PRODUCTOS = [
       "precio": 26000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2005",
+      "imagen": "2004",
       "enlace": "https://suenosdeluna.co/p/economico-piel-de-durazno-007",
       "specs": {
           "dimensiones": "Tallas M, L y XL",
@@ -58159,7 +58130,7 @@ window.PRODUCTOS = [
       "precio": 36400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2006",
+      "imagen": "2005",
       "enlace": "https://suenosdeluna.co/p/economico-piel-de-durazno-010",
       "specs": {
           "dimensiones": "Tallas M, L y XL",
@@ -58188,7 +58159,7 @@ window.PRODUCTOS = [
       "precio": 35100,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2007",
+      "imagen": "2006",
       "enlace": "https://suenosdeluna.co/p/economico-piel-de-durazno-003",
       "specs": {
           "dimensiones": "Tallas M, L y XL",
@@ -58217,7 +58188,7 @@ window.PRODUCTOS = [
       "precio": 70200,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2008",
+      "imagen": "2007",
       "enlace": "https://suenosdeluna.co/p/pantalon-pijamapantalonentelasatinlicrado",
       "specs": {
           "dimensiones": "Tallas M, L y XL",
@@ -58246,7 +58217,7 @@ window.PRODUCTOS = [
       "precio": 67600,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2009",
+      "imagen": "2008",
       "enlace": "https://suenosdeluna.co/p/satin-shortt10873",
       "specs": {
           "dimensiones": "Tallas M, L y XL",
@@ -58275,7 +58246,7 @@ window.PRODUCTOS = [
       "precio": 31200,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2010",
+      "imagen": "2009",
       "enlace": "https://suenosdeluna.co/p/economico-piel-de-durazno-001",
       "specs": {
           "dimensiones": "Tallas 4, 6, 8, 10 y 12",
@@ -58304,7 +58275,7 @@ window.PRODUCTOS = [
       "precio": 84500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2011",
+      "imagen": "2010",
       "enlace": "https://suenosdeluna.co/p/pantalon-s2181",
       "specs": {
           "dimensiones": "Tallas M, L y XL",
@@ -58333,7 +58304,7 @@ window.PRODUCTOS = [
       "precio": 206830,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2012",
+      "imagen": "2011",
       "enlace": "https://corona.co/productos/boquillas/concolor-acqua-blanco-hueso-5-kg/p/903261901",
       "specs": {
           "dimensiones": "Aplicación en juntas de 1 a 5 mm. Dimensiones físicas del empaque no especificadas.",
@@ -58362,7 +58333,7 @@ window.PRODUCTOS = [
       "precio": 140000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2013",
+      "imagen": "2012",
       "enlace": "https://drive.google.com/file/d/1oAqXDaUDyjrCPSySXBWqUTeFqZkNe5W0/view?usp=sharing",
       "specs": {
           "dimensiones": "Aproximadamente 11.3 × 8 × 1 cm (4.4 × 3.1 × 0.4 pulgadas)",
@@ -58391,7 +58362,7 @@ window.PRODUCTOS = [
       "precio": 309387,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "2014",
+      "imagen": "2013",
       "enlace": "https://www.mercadolibre.com.co/base-estructura-arco-de-globos-decoraciones-aro-21-metros/p/MCO2068809691#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=5&type=product&tracking_id=701e1186-b099-4483-8571-93deef5bdcc6&wid=MCO2100044829&sid=search",
       "specs": {
           "dimensiones": "2,00 m de ancho x 2,10 m de alto",
@@ -58420,7 +58391,7 @@ window.PRODUCTOS = [
       "precio": 592800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2015",
+      "imagen": "2014",
       "enlace": "https://www.mavihogar.com/product-page/contenedor-balde-pl%C3%A1stico-transparente-tapa-herm%C3%A9tica-20lts",
       "specs": {
           "dimensiones": "Alto total: 40,5 cm. Alto del balde: 26 cm. Diámetro superior interno: 25 cm. Diámetro de la base: 21 cm.",
@@ -58449,7 +58420,7 @@ window.PRODUCTOS = [
       "precio": 546000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2016",
+      "imagen": "2015",
       "enlace": "https://elfrasquerio.com/frasco-de-vidrio-500-ml-redondo/",
       "specs": {
           "dimensiones": "Altura: 14,4 cm. Diámetro del cuerpo: 7,8 cm. Diámetro de la boca: 6 cm.",
@@ -58478,7 +58449,7 @@ window.PRODUCTOS = [
       "precio": 507000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2017",
+      "imagen": "2016",
       "enlace": "https://www.mercadolibre.com.ar/deposito-decantador-de-miel-100-kg-inox-apiculture/p/MLA53925644",
       "specs": {
           "dimensiones": "No especificadas por la información disponible.",
@@ -58507,7 +58478,7 @@ window.PRODUCTOS = [
       "precio": 63830,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2018",
+      "imagen": "2017",
       "enlace": "https://www.mercadolibre.com.co/pelota-loca-de-32mm-bolsa-x-100-unidades-surtida/up/MCOU3450744826?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO3160236336&from=gshop",
       "specs": {
           "dimensiones": "Diámetro aproximado por unidad: 32 mm.",
@@ -58536,7 +58507,7 @@ window.PRODUCTOS = [
       "precio": 36400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2019",
+      "imagen": "2018",
       "enlace": "https://www.mercadolibre.com.co/carro-loco-control-remoto-recargable-acrobacias-360-grados/up/MCOU2486410692?pdp_filters=item_id%3AMCO1371479257&from=gshop&matt_tool=60887374&matt_word=&matt_source=google&matt_campaign_id=22126928777&matt_ad_group_id=171342997377&matt_match_type=&matt_network=g&matt_device=c&matt_creative=729836849443&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=5733755472&matt_product_id=MCOU2486410692&matt_product_partition_id=2495728214873&matt_target_id=pla-2495728214873&cq_src=google_ads&cq_cmp=22126928777&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22126928777&gbraid=0AAAAAD1DcowOtZCi1K11jdCOHcuRKToBs&gclid=CjwKCAjw48TUBhBREiwAK0GnQb7Tsp8VFpkjxZNZNsoX6cYz92uh6KZkf-0bp7uFERxScqzeWyiQHRoC5ZYQAvD_BwE",
       "specs": {
           "dimensiones": "Largo: 15 cm. Ancho: 10 cm. Alto: 10 cm.",
@@ -58565,7 +58536,7 @@ window.PRODUCTOS = [
       "precio": 20150,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "2020",
+      "imagen": "2019",
       "enlace": "",
       "specs": {
           "dimensiones": "Jarra: 6,5 × 7 cm aproximadamente. Platos: diámetro aproximado de 9,5 cm. Cucharas: 8 cm de largo aproximadamente. Tazas: 3 × 8 cm aproximadamente.",
@@ -58594,7 +58565,7 @@ window.PRODUCTOS = [
       "precio": 7800,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "2021",
+      "imagen": "2020",
       "enlace": "https://kromaspace.com/producto/set-de-maquillaje-para-ninas/",
       "specs": {
           "dimensiones": "",
@@ -58623,7 +58594,7 @@ window.PRODUCTOS = [
       "precio": 35100,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2022",
+      "imagen": "2021",
       "enlace": "https://www.juguetesbuffalo.com/products/licuadora-de-juguetes?variant=51315255345452&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AfmBOoqoAK4G02pjX3jj-5m9CUu5dX0a3h8AltLjqG-baLKnZmze9O2Bs6M",
       "specs": {
           "dimensiones": "",
@@ -58652,7 +58623,7 @@ window.PRODUCTOS = [
       "precio": 75400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2023",
+      "imagen": "2022",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-2909874120-avion-helicoptero-movimiento-arrastre-ninos-juguete-_JM?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic",
       "specs": {
           "dimensiones": "Largo: 22 cm. Ancho: 20 cm. Alto: 12 cm.",
@@ -58681,7 +58652,7 @@ window.PRODUCTOS = [
       "precio": 96200,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "2024",
+      "imagen": "2023",
       "enlace": "https://www.mercadolibre.com.co/kit-de-12-autos-de-arrastre-y-bolsa-de-almacenamiento-2-en-1/p/MCO2082247374",
       "specs": {
           "dimensiones": "Vehículos: aproximadamente 2 a 3 pulgadas cada uno. Tapete de juego: 19 × 14 pulgadas, aproximadamente 48,3 × 35,6 cm.",
@@ -58710,7 +58681,7 @@ window.PRODUCTOS = [
       "precio": 75400,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "2025",
+      "imagen": "2024",
       "enlace": "https://www.mercadolibre.com.co/pista-tren-set-armable-interactiva-movimiento-juguete-ninos/up/MCOU2585665802?pdp_filters=item_id:MCO1498330333",
       "specs": {
           "dimensiones": "Dimensiones del empaque: 35 cm × 25 cm × 6 cm. Ancho aproximado del vehículo: 5 cm.",
@@ -58739,7 +58710,7 @@ window.PRODUCTOS = [
       "precio": 26182000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2026",
+      "imagen": "2025",
       "enlace": "https://drive.google.com/file/d/140O7IydVN8TuzSZvPtkcZPkbF69ZhnUa/view?usp=drive_link",
       "specs": {
           "dimensiones": "",
@@ -58768,7 +58739,7 @@ window.PRODUCTOS = [
       "precio": 11570000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2027",
+      "imagen": "2026",
       "enlace": "https://drive.google.com/file/d/140O7IydVN8TuzSZvPtkcZPkbF69ZhnUa/view?usp=drive_link",
       "specs": {
           "dimensiones": "convexa: Profundidad de escaneo: Hasta 42 cm (40–420 mm).\n Lineal: Tamaño del cabezal / Área de barrido: 40 mm.Profundidad de escaneo: De 2.0 cm a 10.8 cm.",
@@ -58797,7 +58768,7 @@ window.PRODUCTOS = [
       "precio": 44200,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2028",
+      "imagen": "2027",
       "enlace": "https://drive.google.com/file/d/1RTVUi9NmxLI7Mg93giu32NvWAhXj8TVc/view",
       "specs": {
           "dimensiones": "",
@@ -58826,7 +58797,7 @@ window.PRODUCTOS = [
       "precio": 36400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2029",
+      "imagen": "2028",
       "enlace": "https://drive.google.com/file/d/1RTVUi9NmxLI7Mg93giu32NvWAhXj8TVc/view",
       "specs": {
           "dimensiones": "",
@@ -58855,7 +58826,7 @@ window.PRODUCTOS = [
       "precio": 32500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2030",
+      "imagen": "2029",
       "enlace": "https://drive.google.com/file/d/1RTVUi9NmxLI7Mg93giu32NvWAhXj8TVc/view",
       "specs": {
           "dimensiones": "",
@@ -58884,7 +58855,7 @@ window.PRODUCTOS = [
       "precio": 54145,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2031",
+      "imagen": "2030",
       "enlace": "https://drive.google.com/file/d/1RTVUi9NmxLI7Mg93giu32NvWAhXj8TVc/view",
       "specs": {
           "dimensiones": "",
@@ -58913,7 +58884,7 @@ window.PRODUCTOS = [
       "precio": 60775,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2032",
+      "imagen": "2031",
       "enlace": "https://drive.google.com/file/d/1RTVUi9NmxLI7Mg93giu32NvWAhXj8TVc/view",
       "specs": {
           "dimensiones": "",
@@ -58942,7 +58913,7 @@ window.PRODUCTOS = [
       "precio": 61880,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2033",
+      "imagen": "2032",
       "enlace": "https://drive.google.com/file/d/1RTVUi9NmxLI7Mg93giu32NvWAhXj8TVc/view",
       "specs": {
           "dimensiones": "",
@@ -58971,7 +58942,7 @@ window.PRODUCTOS = [
       "precio": 37700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2034",
+      "imagen": "2033",
       "enlace": "https://drive.google.com/file/d/1RTVUi9NmxLI7Mg93giu32NvWAhXj8TVc/view",
       "specs": {
           "dimensiones": "",
@@ -59000,18 +58971,18 @@ window.PRODUCTOS = [
       "precio": 8840000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2035",
+      "imagen": "2034",
       "enlace": "https://drive.google.com/file/d/1XVFRM-Up4G5a6YTy6SRPPBNBGXZqiZ8x/view?usp=drive_link",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 70 x 75 x 195 cm",
           "empaque": "Según presentación comercial del proveedor.",
-          "peso": "",
+          "peso": "Aprox. 100–120 kg",
           "referencia": "Wc-540c\n Acero",
           "material": "acero inoxidable",
           "composicion": "",
           "capacidad": "540 litros",
-          "potencia": "",
-          "otrasEspecificaciones": "",
+          "potencia": "Aprox. 300–400 W, 110 V",
+          "otrasEspecificaciones": "Cuerpo en acero inoxidable, control de temperatura, uso comercial, refrigerante ecológico (R290/R134a)",
           "condicionesServicios": "conección a fuente de energía de acuerdo al voltaje requerido.",
           "requerimientosEspeciales": ""
       }
@@ -59029,7 +59000,7 @@ window.PRODUCTOS = [
       "precio": 123500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2036",
+      "imagen": "2035",
       "enlace": "https://drive.google.com/file/d/19P809AtqUE0UVGykSwGkzI61JFfgj7-D/view",
       "specs": {
           "dimensiones": "",
@@ -59058,7 +59029,7 @@ window.PRODUCTOS = [
       "precio": 123500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2037",
+      "imagen": "2036",
       "enlace": "https://drive.google.com/file/d/19P809AtqUE0UVGykSwGkzI61JFfgj7-D/view",
       "specs": {
           "dimensiones": "",
@@ -59087,7 +59058,7 @@ window.PRODUCTOS = [
       "precio": 32500,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "2038",
+      "imagen": "2037",
       "enlace": "https://drive.google.com/file/d/19P809AtqUE0UVGykSwGkzI61JFfgj7-D/view",
       "specs": {
           "dimensiones": "",
@@ -59116,12 +59087,12 @@ window.PRODUCTOS = [
       "precio": 559000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2039",
+      "imagen": "2038",
       "enlace": "https://drive.google.com/file/d/19P809AtqUE0UVGykSwGkzI61JFfgj7-D/view",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 180 x 50 x 30 cm (con base)",
           "empaque": "Según presentación comercial y condiciones de entrega del proveedor.",
-          "peso": "",
+          "peso": "Aprox. 8–12 kg",
           "referencia": "Maniqui En Fib\n Ra Completo Do\n Radopara Boutique",
           "material": "Fibra",
           "composicion": "",
@@ -59145,7 +59116,7 @@ window.PRODUCTOS = [
       "precio": 494000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2040",
+      "imagen": "2039",
       "enlace": "https://drive.google.com/file/d/19P809AtqUE0UVGykSwGkzI61JFfgj7-D/view",
       "specs": {
           "dimensiones": "",
@@ -59174,7 +59145,7 @@ window.PRODUCTOS = [
       "precio": 494000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2041",
+      "imagen": "2040",
       "enlace": "https://drive.google.com/file/d/19P809AtqUE0UVGykSwGkzI61JFfgj7-D/view",
       "specs": {
           "dimensiones": "",
@@ -59203,7 +59174,7 @@ window.PRODUCTOS = [
       "precio": 559000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2042",
+      "imagen": "2041",
       "enlace": "https://drive.google.com/file/d/19P809AtqUE0UVGykSwGkzI61JFfgj7-D/view",
       "specs": {
           "dimensiones": "",
@@ -59232,7 +59203,7 @@ window.PRODUCTOS = [
       "precio": 325000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "2043",
+      "imagen": "2042",
       "enlace": "https://drive.google.com/file/d/19P809AtqUE0UVGykSwGkzI61JFfgj7-D/view",
       "specs": {
           "dimensiones": "",
@@ -59261,7 +59232,7 @@ window.PRODUCTOS = [
       "precio": 825500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2044",
+      "imagen": "2043",
       "enlace": "https://drive.google.com/file/d/19P809AtqUE0UVGykSwGkzI61JFfgj7-D/view",
       "specs": {
           "dimensiones": "",
@@ -59290,12 +59261,12 @@ window.PRODUCTOS = [
       "precio": 309400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2045",
+      "imagen": "2044",
       "enlace": "http://drive.google.com/file/d/1Cdh8NMjIv_av8o07dsa9fLNgjOCBZnZX/view",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 31 cm de diámetro x 80 cm de alto",
           "empaque": "Según presentación comercial y condiciones de entrega del proveedor.",
-          "peso": "",
+          "peso": "Aprox. 15 kg vacío; aprox. 33 kg lleno (18 kg / 40 lb de GLP)",
           "referencia": "Cilindros + gas de 40 lb",
           "material": "",
           "composicion": "",
@@ -59319,7 +59290,7 @@ window.PRODUCTOS = [
       "precio": 137800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2046",
+      "imagen": "2045",
       "enlace": "http://drive.google.com/file/d/1Cdh8NMjIv_av8o07dsa9fLNgjOCBZnZX/view",
       "specs": {
           "dimensiones": "",
@@ -59348,16 +59319,16 @@ window.PRODUCTOS = [
       "precio": 19500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2047",
+      "imagen": "2046",
       "enlace": "http://drive.google.com/file/d/1Cdh8NMjIv_av8o07dsa9fLNgjOCBZnZX/view",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 10 x 8 x 6 cm",
           "empaque": "Según presentación comercial y condiciones de entrega del proveedor.",
-          "peso": "",
+          "peso": "Aprox. 250–350 g por unidad",
           "referencia": "Regulador completo",
           "material": "",
           "composicion": "",
-          "capacidad": "",
+          "capacidad": "Regulador de baja presión para GLP, caudal aprox. 2–3 kg/h",
           "potencia": "",
           "otrasEspecificaciones": "Cantidad solicitada: 6 unidades",
           "condicionesServicios": "Su funcionamiento depende de una instalación de gas compatible y de condiciones adecuadas de suministro",
@@ -59377,7 +59348,7 @@ window.PRODUCTOS = [
       "precio": 2377142,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2048",
+      "imagen": "2047",
       "enlace": "https://drive.google.com/file/d/1FKcNe2NansioBpkZmtsf1xUt1JkxkRG1/view",
       "specs": {
           "dimensiones": "",
@@ -59406,7 +59377,7 @@ window.PRODUCTOS = [
       "precio": 2171000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2049",
+      "imagen": "2048",
       "enlace": "https://drive.google.com/drive/folders/1sl0E6-JmAFHef3p7IVzHgetug-3pEMCK",
       "specs": {
           "dimensiones": "Largo: 204 mm. Ancho: 50 mm. Alto: 44 mm.",
@@ -59435,7 +59406,7 @@ window.PRODUCTOS = [
       "precio": 325000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2050",
+      "imagen": "2049",
       "enlace": "",
       "specs": {
           "dimensiones": "Largo: 22 cm. Ancho: 9,2 cm. Alto: 5,8 cm.",
@@ -59464,12 +59435,12 @@ window.PRODUCTOS = [
       "precio": 318500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2051",
+      "imagen": "2050",
       "enlace": "",
       "specs": {
           "dimensiones": "Longitud: 6,5 pulgadas, equivalente aproximadamente a 16,5 cm.",
           "empaque": "Según presentación comercial y condiciones de entrega del proveedor.",
-          "peso": "",
+          "peso": "Aprox. 40–60 g",
           "referencia": "RNPK41GOC-6.5.",
           "material": "Aluminio.",
           "composicion": "Tijera extra curva ultraliviana y aceite para mantenimiento.",
@@ -59493,12 +59464,12 @@ window.PRODUCTOS = [
       "precio": 390000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2052",
+      "imagen": "2051",
       "enlace": "",
       "specs": {
           "dimensiones": "Longitud: 7,5 pulgadas, equivalente aproximadamente a 19,05 cm.",
           "empaque": "Según presentación comercial y condiciones de entrega del proveedor.",
-          "peso": "No aplica.",
+          "peso": "Aprox. 60–80 g",
           "referencia": "RNPK109BLCT-7.5.",
           "material": "Acero 440 HRC.",
           "composicion": "Tijera de esculpir curva con 56 dientes largos y finos en forma de «V».",
@@ -59522,12 +59493,12 @@ window.PRODUCTOS = [
       "precio": 416000,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "2053",
+      "imagen": "2052",
       "enlace": "",
       "specs": {
           "dimensiones": "Longitud: 7,5 pulgadas, equivalente aproximadamente a 19,05 cm.",
           "empaque": "Según presentación comercial y condiciones de entrega del proveedor.",
-          "peso": "No aplica.",
+          "peso": "Aprox. 60–80 g",
           "referencia": "RNPK012BLCTE-7.5.",
           "material": "Acero japonés 440 HRC.",
           "composicion": "Tijera piano curva fabricada en acero, con sistema de 26 dientes largos y 26 dientes cortos.",
@@ -59551,12 +59522,12 @@ window.PRODUCTOS = [
       "precio": 1365000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "2054",
+      "imagen": "2053",
       "enlace": "",
       "specs": {
           "dimensiones": "Diámetro del tablero: 60 cm. Altura regulable: de 72 a 110 cm.",
           "empaque": "Según presentación comercial y condiciones de entrega del proveedor.",
-          "peso": "No aplica.",
+          "peso": "Aprox. 25–35 kg",
           "referencia": "Mesa Neumática de Aire Redonda para Grooming Canino Profesional.",
           "material": "No aplica.",
           "composicion": "Tablero redondo con superficie antideslizante, sistema de elevación mediante pistón de gas y mecanismo de rotación manual de 360°.",
@@ -59580,17 +59551,17 @@ window.PRODUCTOS = [
       "precio": 247000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2055",
+      "imagen": "2054",
       "enlace": "",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 30 x 20 x 25 cm",
           "empaque": "Según presentación comercial y condiciones de entrega del proveedor.",
-          "peso": "No aplica.",
+          "peso": "Aprox. 3–4 kg",
           "referencia": "Secador canino 3400",
           "material": "Cuerpo con doble aislamiento; material específico no especificado.",
           "composicion": "Secador profesional con motor AC, filtro removible, sistema de control de temperatura, función de aire frío, botón turbo, cable de alimentación de 3 metros y dos boquillas concentradoras de aire.",
           "capacidad": "2000 W.",
-          "potencia": "",
+          "potencia": "2.000 W, 110 V",
           "otrasEspecificaciones": "Gran flujo de aire. Temperatura máxima de salida: 340 °F. Cuenta con función Cold Shot, botón Turbo y 3 niveles de temperatura. Incluye dos boquillas concentradoras de aire. Garantía de 6 meses sobre el motor.",
           "condicionesServicios": "Requiere conexión a suministro eléctrico de 110 V AC, 60 Hz para su funcionamiento.",
           "requerimientosEspeciales": "Utilizar con una conexión eléctrica compatible de 110 V AC, mantener despejadas las entradas y salidas de aire y realizar limpieza periódica del filtro removible. No utilizar cerca de agua o superficies mojadas."
@@ -59609,7 +59580,7 @@ window.PRODUCTOS = [
       "precio": 201500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2056",
+      "imagen": "2055",
       "enlace": "",
       "specs": {
           "dimensiones": "Longitud de corte: 3,2 mm (1/8\").",
@@ -59638,7 +59609,7 @@ window.PRODUCTOS = [
       "precio": 692900,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2057",
+      "imagen": "2056",
       "enlace": "https://articulo.mercadolibre.com.co/MCO-2161486521-kit-aseo-mascotas-y-aspiradora-neakasa-p1-pro-5-herramientas-_JM?matt_tool=84048015&matt_word=&matt_source=google&matt_campaign_id=23542300962&matt_ad_group_id=198736055451&matt_match_type=&matt_network=g&matt_device=c&matt_creative=796800777098&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=5843404761&matt_product_id=MCO2161486521&matt_product_partition_id=2496333088275&matt_target_id=pla-2496333088275&cq_src=google_ads&cq_cmp=23542300962&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=23542300962&gbraid=0AAAAAD1DcowfXWv9_7o4nSJeAGGHE06M5&gclid=CjwKCAjwzNTUBhAjEiwA7zcvWtLPVBw-dB1MFwxLDh-2PpxeBSkNd2UBxhxIXAgWQSO5iC1HcUD0JhoCqnEQAvD_BwE",
       "specs": {
           "dimensiones": "Largo: 14 cm. Ancho: 23 cm. Alto: 32 cm.",
@@ -59647,8 +59618,8 @@ window.PRODUCTOS = [
           "referencia": "HN0070W.",
           "material": "Equipo de aseo y aspiración con sistema de colector sin bolsa y filtros reutilizables.",
           "composicion": "Equipo de aseo y aspiración con sistema de colector sin bolsa y filtros reutilizables.",
-          "capacidad": "",
-          "potencia": "",
+          "capacidad": "Depósito colector aprox. 1,5–2 L",
+          "potencia": "Aprox. 1.000–1.200 W, 110 V",
           "otrasEspecificaciones": "Equipo de funcionamiento alámbrico, no inalámbrico y no apto para aspiración de líquidos. Incluye filtros reutilizables y está diseñado para labores de aseo de mascotas.",
           "condicionesServicios": "Requiere conexión a suministro eléctrico para su funcionamiento.",
           "requerimientosEspeciales": "Realizar limpieza y mantenimiento periódico de los filtros reutilizables y del sistema de recolección. Utilizar exclusivamente de acuerdo con las instrucciones del fabricante y no emplear para aspirar líquidos."
@@ -59667,17 +59638,17 @@ window.PRODUCTOS = [
       "precio": 481000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2058",
+      "imagen": "2057",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/794879/pulidor-de-unas-mascotas-inalambrico-6-vel/794879/",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 15 x 4 x 4 cm",
           "empaque": "Según presentación comercial del proveedor.",
-          "peso": "",
+          "peso": "Aprox. 150–200 g",
           "referencia": "66815.",
           "material": "",
           "composicion": "Pulidor de uñas para mascotas con motor giratorio y sistema de ajuste de 6 velocidades.",
           "capacidad": "No aplica.",
-          "potencia": "No aplica.",
+          "potencia": "Aprox. 5–10 W; 6 velocidades de 5.000 a 16.000 rpm",
           "otrasEspecificaciones": "Accesorio destinado al cuidado de uñas y garras de perros. Funcionamiento inalámbrico. Cuenta con 6 velocidades, permitiendo adaptar la intensidad del pulido según las necesidades del animal. Rango de operación de 5.000 a 16.000 RPM. Garantía: 1 mes.",
           "condicionesServicios": "El equipo es inalámbrico; requiere recarga de su batería para su funcionamiento. El adaptador o sistema específico de carga no se encuentra detallado en la información suministrada",
           "requerimientosEspeciales": "Utilizar con precaución y de forma gradual para evitar lesiones en las uñas o garras de la mascota. Se recomienda comenzar con una velocidad baja y mantener el equipo en movimiento durante el pulido."
@@ -59696,7 +59667,7 @@ window.PRODUCTOS = [
       "precio": 631800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2059",
+      "imagen": "2058",
       "enlace": "https://drive.google.com/file/d/1AXzDw0BLzle6SvTAidbg1MbZ18_XHHvd/view",
       "specs": {
           "dimensiones": "Ø 4 mm",
@@ -59725,7 +59696,7 @@ window.PRODUCTOS = [
       "precio": 631800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2060",
+      "imagen": "2059",
       "enlace": "https://drive.google.com/file/d/1AXzDw0BLzle6SvTAidbg1MbZ18_XHHvd/view",
       "specs": {
           "dimensiones": "Ø 4 mm × 100 m*",
@@ -59754,7 +59725,7 @@ window.PRODUCTOS = [
       "precio": 637000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2061",
+      "imagen": "2060",
       "enlace": "https://drive.google.com/file/d/1AXzDw0BLzle6SvTAidbg1MbZ18_XHHvd/view",
       "specs": {
           "dimensiones": "Ø 3 mm",
@@ -59783,7 +59754,7 @@ window.PRODUCTOS = [
       "precio": 19500000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2062",
+      "imagen": "2061",
       "enlace": "https://drive.google.com/file/d/1-8XuMfZdtuEjdzvC8AbF6qzS8tIBiJfq/view",
       "specs": {
           "dimensiones": "8¼” de diámetro × 8” de largo de la maza mayal",
@@ -59812,7 +59783,7 @@ window.PRODUCTOS = [
       "precio": 3158870,
       "iva": 0,
       "icono": "📷",
-      "imagen": "2063",
+      "imagen": "2062",
       "enlace": "https://drive.google.com/file/d/10BOnG1E8zOqBWcQLpbDn8HV-KKNLht72/view?usp=drive_link",
       "specs": {
           "dimensiones": "",
@@ -59841,7 +59812,7 @@ window.PRODUCTOS = [
       "precio": 779870,
       "iva": 0,
       "icono": "📷",
-      "imagen": "2064",
+      "imagen": "2063",
       "enlace": "https://drive.google.com/file/d/10BOnG1E8zOqBWcQLpbDn8HV-KKNLht72/view?usp=drive_link",
       "specs": {
           "dimensiones": "",
@@ -59870,7 +59841,7 @@ window.PRODUCTOS = [
       "precio": 610870,
       "iva": 0,
       "icono": "📷",
-      "imagen": "2065",
+      "imagen": "2064",
       "enlace": "https://drive.google.com/file/d/10BOnG1E8zOqBWcQLpbDn8HV-KKNLht72/view?usp=drive_link",
       "specs": {
           "dimensiones": "",
@@ -59899,7 +59870,7 @@ window.PRODUCTOS = [
       "precio": 259870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2066",
+      "imagen": "2065",
       "enlace": "https://drive.google.com/file/d/10BOnG1E8zOqBWcQLpbDn8HV-KKNLht72/view?usp=drive_link",
       "specs": {
           "dimensiones": "",
@@ -59928,7 +59899,7 @@ window.PRODUCTOS = [
       "precio": 519870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2067",
+      "imagen": "2066",
       "enlace": "https://drive.google.com/file/d/10BOnG1E8zOqBWcQLpbDn8HV-KKNLht72/view?usp=drive_link",
       "specs": {
           "dimensiones": "",
@@ -59957,7 +59928,7 @@ window.PRODUCTOS = [
       "precio": 2339870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2068",
+      "imagen": "2067",
       "enlace": "https://drive.google.com/file/d/10BOnG1E8zOqBWcQLpbDn8HV-KKNLht72/view?usp=drive_link",
       "specs": {
           "dimensiones": "",
@@ -59986,7 +59957,7 @@ window.PRODUCTOS = [
       "precio": 80600,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2069",
+      "imagen": "2068",
       "enlace": "https://drive.google.com/file/d/15eI3VrtTMGAfqJu6xgc0KL4q7091z1_D/view?usp=drive_link",
       "specs": {
           "dimensiones": "",
@@ -60015,7 +59986,7 @@ window.PRODUCTOS = [
       "precio": 67600,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2070",
+      "imagen": "2069",
       "enlace": "https://drive.google.com/file/d/15eI3VrtTMGAfqJu6xgc0KL4q7091z1_D/view?usp=drive_link",
       "specs": {
           "dimensiones": "",
@@ -60044,7 +60015,7 @@ window.PRODUCTOS = [
       "precio": 81900,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2071",
+      "imagen": "2070",
       "enlace": "https://drive.google.com/file/d/15eI3VrtTMGAfqJu6xgc0KL4q7091z1_D/view?usp=drive_link",
       "specs": {
           "dimensiones": "9,5 mm, según la descripción.",
@@ -60073,7 +60044,7 @@ window.PRODUCTOS = [
       "precio": 80600,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2072",
+      "imagen": "2071",
       "enlace": "https://drive.google.com/file/d/15eI3VrtTMGAfqJu6xgc0KL4q7091z1_D/view?usp=drive_link",
       "specs": {
           "dimensiones": "1/4, según la descripción.",
@@ -60102,7 +60073,7 @@ window.PRODUCTOS = [
       "precio": 58500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2073",
+      "imagen": "2072",
       "enlace": "https://drive.google.com/file/d/15eI3VrtTMGAfqJu6xgc0KL4q7091z1_D/view?usp=drive_link",
       "specs": {
           "dimensiones": "850 m aproximadamente por rollo; otras dimensiones no especificadas.",
@@ -60131,7 +60102,7 @@ window.PRODUCTOS = [
       "precio": 11895000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2074",
+      "imagen": "2073",
       "enlace": "https://drive.google.com/file/d/1nPSovRf1T-MuTwJiaA8SRC6gbb2lfusS/view",
       "specs": {
           "dimensiones": "2m x 10 m por rollo",
@@ -60160,7 +60131,7 @@ window.PRODUCTOS = [
       "precio": 1823640,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2075",
+      "imagen": "2074",
       "enlace": "https://drive.google.com/file/d/1nPSovRf1T-MuTwJiaA8SRC6gbb2lfusS/view",
       "specs": {
           "dimensiones": "50,5 × 41,3 × 24,5 cm; profundidad 9-5/8 pulgadas.",
@@ -60189,7 +60160,7 @@ window.PRODUCTOS = [
       "precio": 2113150,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2076",
+      "imagen": "2075",
       "enlace": "https://drive.google.com/file/d/1zGPbPuFNjCaVxMvcP41rQ7f_dMlhJ7FJ/view",
       "specs": {
           "dimensiones": "No especificadas.",
@@ -60218,7 +60189,7 @@ window.PRODUCTOS = [
       "precio": 455000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2077",
+      "imagen": "2076",
       "enlace": "https://drive.google.com/file/d/1zGPbPuFNjCaVxMvcP41rQ7f_dMlhJ7FJ/view",
       "specs": {
           "dimensiones": "10 cm largo, 5 cm ancho",
@@ -60247,12 +60218,12 @@ window.PRODUCTOS = [
       "precio": 208000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2078",
+      "imagen": "2077",
       "enlace": "https://www.mercadolibre.com.co/12-cacheteros-fenix-women-algodon-unicolor-dama/up/MCOU4105996083#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=47&type=product&tracking_id=46c50148-a799-4af9-97d0-cce3e246d19d&wid=MCO4074710708&sid=search",
       "specs": {
           "dimensiones": "talla:S,N,L,XL",
           "empaque": "Paquete de 12 unidades.",
-          "peso": "",
+          "peso": "Aprox. 30–40 g por unidad; aprox. 450 g el paquete x 12",
           "referencia": "12 Cacheteros Fenix Women Algodón Unicolor Dama",
           "material": "Algodón.",
           "composicion": "paquetes *12 unidades para las diferentes tallas.",
@@ -60276,7 +60247,7 @@ window.PRODUCTOS = [
       "precio": 5000000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2079",
+      "imagen": "2078",
       "enlace": "https://azero.com.co/products/amasadora-industrial-12-kg-30-lt?srsltid=AU7gw4WsoePvFGpSXL0Q_Y4Bp8auEqFDNXjD2QQXEsv1sPBRxPNNZSVGF1k",
       "specs": {
           "dimensiones": "Dimenciones alto 85 - 92 cm. largo 75 cm. ancho 45 cm.",
@@ -60305,7 +60276,7 @@ window.PRODUCTOS = [
       "precio": 3900000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2080",
+      "imagen": "2079",
       "enlace": "https://drive.google.com/file/d/1BIGNUDX8OH0vSthw0r2SC5B8O2T-LaMR/view?usp=sharing",
       "specs": {
           "dimensiones": "Estándar aproximadas: Frente: 1.20 m a 1.50 m. Fondo: 0.50 m a 0.70 m. Alto total",
@@ -60334,7 +60305,7 @@ window.PRODUCTOS = [
       "precio": 795600,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2081",
+      "imagen": "2080",
       "enlace": "https://drive.google.com/file/d/1KWHo8o-RmUlm1Pf_q0_kwjiktTtqioQO/view?usp=drive_link",
       "specs": {
           "dimensiones": "No. 32 (aprox. 80 cm de diámetro × 28 cm de profundidad; puede variar según fabricante).",
@@ -60363,7 +60334,7 @@ window.PRODUCTOS = [
       "precio": 923000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2082",
+      "imagen": "2081",
       "enlace": "https://drive.google.com/file/d/1KWHo8o-RmUlm1Pf_q0_kwjiktTtqioQO/view?usp=drive_link",
       "specs": {
           "dimensiones": "No. 35 (aprox. 90 cm de diámetro × 30 cm de profundidad; puede variar según fabricante)",
@@ -60392,7 +60363,7 @@ window.PRODUCTOS = [
       "precio": 3900000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2083",
+      "imagen": "2082",
       "enlace": "https://drive.google.com/file/d/1BIGNUDX8OH0vSthw0r2SC5B8O2T-LaMR/view?usp=sharing",
       "specs": {
           "dimensiones": "Estándar aproximadas: Frente: 1.20 m a 1.50 m. Fondo: 0.50 m a 0.70 m. Alto total",
@@ -60421,7 +60392,7 @@ window.PRODUCTOS = [
       "precio": 2405000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2084",
+      "imagen": "2083",
       "enlace": "https://drive.google.com/file/d/1aRnaWTMHWwrrFeq6jVZjcXLBR9bAbT-R/view?usp=sharing",
       "specs": {
           "dimensiones": "1.55 cm de lagor, 50 cm de ancho y 90 cm alto",
@@ -60450,7 +60421,7 @@ window.PRODUCTOS = [
       "precio": 71500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2085",
+      "imagen": "2084",
       "enlace": "https://drive.google.com/file/d/17iPRGFdOw-YZj1jTFvQVtUkXqbyXaooc/view?usp=sharing",
       "specs": {
           "dimensiones": "Lados: 1.5” x 1.5”",
@@ -60479,7 +60450,7 @@ window.PRODUCTOS = [
       "precio": 5915000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2086",
+      "imagen": "2085",
       "enlace": "https://drive.google.com/file/d/14e0vVhagMn1bvGBGVd0XZctoM_xYMQ4T/view?usp=sharing",
       "specs": {
           "dimensiones": "No especificadas en la ficha anexa.",
@@ -60508,7 +60479,7 @@ window.PRODUCTOS = [
       "precio": 3575000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2087",
+      "imagen": "2086",
       "enlace": "https://drive.google.com/file/d/15efdYOyU01JM_Th0Ci6Xsv5-lqLbUU5m/view?usp=sharing",
       "specs": {
           "dimensiones": "Referencia de mercado: aprox. 24 x 43 x 21 cm.",
@@ -60537,7 +60508,7 @@ window.PRODUCTOS = [
       "precio": 806000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2088",
+      "imagen": "2087",
       "enlace": "https://drive.google.com/file/d/15efdYOyU01JM_Th0Ci6Xsv5-lqLbUU5m/view?usp=sharing",
       "specs": {
           "dimensiones": "Ficha anexa tipo cuadrado 600 L: aprox. 109 x 109 cm; altura 70 cm sin tapa y 75 cm con tapa.",
@@ -60566,7 +60537,7 @@ window.PRODUCTOS = [
       "precio": 780000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2089",
+      "imagen": "2088",
       "enlace": "https://drive.google.com/file/d/1jNvpD-2VFZE8CtcfwOd8q09RpVbSanNc/view?usp=sharing",
       "specs": {
           "dimensiones": "Referencia de mercado: aprox. 2.279 x 1.134 x 0,030 m.",
@@ -60575,7 +60546,7 @@ window.PRODUCTOS = [
           "referencia": "580 W monocristalino, genérico",
           "material": "Silicio monocristalino, vidrio templado y marco de aluminio",
           "composicion": "Celdas fotovoltaicas monocristalinas; marco de aluminio anodizado.",
-          "capacidad": "",
+          "capacidad": "Generación aprox. 2,3–2,6 kWh/día por panel (con 4–4,5 horas solar pico)",
           "potencia": "580 W por panel",
           "otrasEspecificaciones": "Capital priorizado: $600.000 c/u ($3.600.000 total). La cotización/ficha anexa corresponde a paneles de 550 W / serie 530-550 W, no a 580 W. Referencia de mercado 23/09/2026: $411.000 c/u.",
           "condicionesServicios": "No depende de red eléctrica; requiere disponibilidad de radiación solar y correcta instalación del sistema FV.",
@@ -60595,7 +60566,7 @@ window.PRODUCTOS = [
       "precio": 3640000,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "2090",
+      "imagen": "2089",
       "enlace": "https://drive.google.com/file/d/1jNvpD-2VFZE8CtcfwOd8q09RpVbSanNc/view?usp=sharing",
       "specs": {
           "dimensiones": "Aprox. 522 x 242 x 218,5 mm",
@@ -60621,10 +60592,10 @@ window.PRODUCTOS = [
       "tipo": "Equipo",
       "nombre": "Inversor híbrido 3.000 W - 24 V con MPPT",
       "desc": "Equipo de conversión y gestión de energía para sistema solar con baterías. | Potencia nominal 3 kW; sistema de baterías 24 VDC; salida 110/115/120 VAC; onda sinusoidal pura; 50/60 Hz; cargador solar MPPT integrado. La ficha anexa de la serie PV2900 LHP indica MPPT 80 A.",
-      "precio": 364000,
+      "precio": 3640000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2091",
+      "imagen": "2090",
       "enlace": "https://drive.google.com/file/d/1jNvpD-2VFZE8CtcfwOd8q09RpVbSanNc/view?usp=sharing",
       "specs": {
           "dimensiones": "Ficha anexa: aprox. 309 x 460 x 196 mm para equipos 1-3 kW.",
@@ -60650,10 +60621,10 @@ window.PRODUCTOS = [
       "tipo": "Equipo",
       "nombre": "Sistema de bombeo solar con electrobomba y accesorios",
       "desc": "Solución para extracción y distribución de agua mediante energía solar en zona sin servicio estable de energía ni acueducto. | Solicitud del gestor: electrobomba '115 cabezas', capacidad mínima de 400 m, adaptación solar; incluye 2 paneles de 550 W, 2 rollos de manguera de 1 pulgada, accesorios y sensores. La ficha anexa del equipo muestra 0,4 kW, caudal máx. 2,2 m³/h, cabeza máx. 55 m y salida 0,75 pulg.",
-      "precio": 754000,
+      "precio": 7540000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2092",
+      "imagen": "2091",
       "enlace": "https://drive.google.com/file/d/1jNvpD-2VFZE8CtcfwOd8q09RpVbSanNc/view?usp=sharing",
       "specs": {
           "dimensiones": "No especificadas para el kit solicitado.",
@@ -60682,7 +60653,7 @@ window.PRODUCTOS = [
       "precio": 884000,
       "iva": 0,
       "icono": "🎸",
-      "imagen": "2093",
+      "imagen": "2092",
       "enlace": "https://drive.google.com/file/d/1fm-UTyuemtAUiQozd_69ErUSXF-eD7HH/view?usp=sharing",
       "specs": {
           "dimensiones": "120 x 58 cm solicitados. Referencia de mercado comparable: 120 x 60 cm.",
@@ -60711,7 +60682,7 @@ window.PRODUCTOS = [
       "precio": 3120000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2094",
+      "imagen": "2093",
       "enlace": "https://drive.google.com/file/d/1fm-UTyuemtAUiQozd_69ErUSXF-eD7HH/view?usp=sharing",
       "specs": {
           "dimensiones": "Solicitada: 1,50 m largo x 0,50 m ancho x 0,70 m alto. Referencia de mercado similar: 1,50 x 0,50 x 0,75 m.",
@@ -60740,7 +60711,7 @@ window.PRODUCTOS = [
       "precio": 1937000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2095",
+      "imagen": "2094",
       "enlace": "https://drive.google.com/file/d/1NlYA-CJwqYo4mNhNA61iKTXt5WOQEUNW/view",
       "specs": {
           "dimensiones": "Medidas Externas 52 x 124.6 x 54  (Ancho x Alto x Fondo) Centímetros",
@@ -60769,7 +60740,7 @@ window.PRODUCTOS = [
       "precio": 3960000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2096",
+      "imagen": "2095",
       "enlace": "https://macktool.com.co/productos/maquina-de-pintura-electrostatica-mt-301/?variant=1489362185&pf=mc&srsltid=AU7gw4UBCayrUlus71E6VvVsEoTFBmgp5_LY6oQ6lppr1tkTE3x-a82Ecqk",
       "specs": {
           "dimensiones": "",
@@ -60798,7 +60769,7 @@ window.PRODUCTOS = [
       "precio": 1196000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2097",
+      "imagen": "2096",
       "enlace": "https://www.mercadolibre.com.co/horno-panaderia-puerta-visor-termometro-y-latas-incluidas/up/MCOU2433922340#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=3&type=product&tracking_id=0aa1b321-8189-4db8-9e8e-543507f725cb&wid=MCO579515016&sid=search",
       "specs": {
           "dimensiones": "Altura: 1 m × Ancho: 62 cm × Profundidad: 82 cm",
@@ -60827,7 +60798,7 @@ window.PRODUCTOS = [
       "precio": 1469000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2098",
+      "imagen": "2097",
       "enlace": "https://www.mercadolibre.com.co/molino-con-motor-electrico-para-maiz/up/MCOU2896615259",
       "specs": {
           "dimensiones": "Largo: 100 cm × Ancho: 40 cm × Altura: 55 cm",
@@ -60856,7 +60827,7 @@ window.PRODUCTOS = [
       "precio": 3575000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2099",
+      "imagen": "2098",
       "enlace": "https://apimarketvictorius.com/producto/batea-desoperculadora-acero/",
       "specs": {
           "dimensiones": "OD L: 194.4cm W: 50cm\nID L: 95.5cm W47.5cm",
@@ -60865,7 +60836,7 @@ window.PRODUCTOS = [
           "referencia": "SKU: ALMA-09.",
           "material": "ACERO",
           "composicion": "acero inoxidable 304",
-          "capacidad": "",
+          "capacidad": "Batea interna 95,5 x 47,5 cm para cuadros desoperculados; tanque colador aprox. 100 L de miel",
           "potencia": "",
           "otrasEspecificaciones": "batea de material metalico para trabajo apicola",
           "condicionesServicios": "No requiere servicios públicos para su instalación o funcionamiento.",
@@ -60885,7 +60856,7 @@ window.PRODUCTOS = [
       "precio": 2730000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2100",
+      "imagen": "2099",
       "enlace": "https://www.sewking.com.co/tienda/maquina-de-poste-dos-agujas/",
       "specs": {
           "dimensiones": "670*300*590mm",
@@ -60914,7 +60885,7 @@ window.PRODUCTOS = [
       "precio": 19706400,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2101",
+      "imagen": "2100",
       "enlace": "https://coffeesolutions.co/producto/cube-r-sanremo-model_b/",
       "specs": {
           "dimensiones": "Ancho: 32,3 cm × Profundidad: 46,5 cm × Alto: 36,9 cm",
@@ -60943,7 +60914,7 @@ window.PRODUCTOS = [
       "precio": 2080000,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "2102",
+      "imagen": "2101",
       "enlace": "https://www.vanitycol.com/product-page/mesa-hidráulica-de-grooming-nacional-confort",
       "specs": {
           "dimensiones": "Tablero: 120 × 60 cm. Altura regulable: 65 a 109 cm.",
@@ -60972,7 +60943,7 @@ window.PRODUCTOS = [
       "precio": 910000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2103",
+      "imagen": "2102",
       "enlace": "https://www.vanitycol.com/product-page/maquina-cvr-2-inalambrica-ballmerk-peluqueria-canina",
       "specs": {
           "dimensiones": "alto 15 cm. ancho 5 cm",
@@ -61001,7 +60972,7 @@ window.PRODUCTOS = [
       "precio": 1820000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2104",
+      "imagen": "2103",
       "enlace": "https://www.vanitycol.com/product-page/jaula-profesional-de-5-compartimientos-para-peluquería-canina",
       "specs": {
           "dimensiones": "Ancho: 120 cm x fondo: 60 cm x altura: 140 cm.",
@@ -61030,7 +61001,7 @@ window.PRODUCTOS = [
       "precio": 520000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2105",
+      "imagen": "2104",
       "enlace": "https://www.mqprofessionalcolombia.com/secador-pro-digital-2600w/",
       "specs": {
           "dimensiones": "25 × 6 × 15 cm",
@@ -61059,7 +61030,7 @@ window.PRODUCTOS = [
       "precio": 429000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2106",
+      "imagen": "2105",
       "enlace": "https://www.mqprofessionalcolombia.com/max480-pro/",
       "specs": {
           "dimensiones": "Placas: 32 mm de ancho × 111 mm de largo",
@@ -61088,7 +61059,7 @@ window.PRODUCTOS = [
       "precio": 2340000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2107",
+      "imagen": "2106",
       "enlace": "https://drive.google.com/file/d/1ObA9-c-ZITyTALxdtsvjFqXsTTXcMQQ0/view?usp=sharing",
       "specs": {
           "dimensiones": "25 × 6 × 15 cm",
@@ -61097,7 +61068,7 @@ window.PRODUCTOS = [
           "referencia": "LB00020",
           "material": "",
           "composicion": "",
-          "capacidad": "",
+          "capacidad": "Aprox. 30–50 W, 110 V",
           "potencia": "",
           "otrasEspecificaciones": "Equipo de tratamiento mediante planchado en frío.",
           "condicionesServicios": "",
@@ -61117,7 +61088,7 @@ window.PRODUCTOS = [
       "precio": 30707950,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "2108",
+      "imagen": "2107",
       "enlace": "",
       "specs": {
           "dimensiones": "25 × 6 × 15 cm",
@@ -61146,7 +61117,7 @@ window.PRODUCTOS = [
       "precio": 2197185,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2109",
+      "imagen": "2108",
       "enlace": "https://www.mercadolibre.com.co/trampolin-saltarin-brinca-brinca-426mts-capacidad-max-300kg/up/MCOU2431291759",
       "specs": {
           "dimensiones": "173 × 45 × 29 cm",
@@ -61155,9 +61126,9 @@ window.PRODUCTOS = [
           "referencia": "Acero galvanizado; espuma EPE; malla elástica",
           "material": "",
           "composicion": "300 kg",
-          "capacidad": "",
+          "capacidad": "Carga máxima según ficha: 300 kg; uso recomendado de 1 persona a la vez",
           "potencia": "Forma redonda; lona de salto azul; edad mínima recomendada 5 años; garantía de fábrica de 90 días.",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Diámetro 4,26 m (14 pies); malla de seguridad con postes acolchados; edad mínima 5 años; uso en exteriores",
           "condicionesServicios": "",
           "requerimientosEspeciales": ""
       }
@@ -61175,7 +61146,7 @@ window.PRODUCTOS = [
       "precio": 4769700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2110",
+      "imagen": "2109",
       "enlace": "https://tecnicalmusic.com/producto/timbales-lp-signature-tony-succar-de-14-y-15-lp257-ts/",
       "specs": {
           "dimensiones": "14″ y 15″ de diámetro; 6-1/2″ de profundidad",
@@ -61204,7 +61175,7 @@ window.PRODUCTOS = [
       "precio": 1065610,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2111",
+      "imagen": "2110",
       "enlace": "https://musicbox.com.co/tienda/platillo-sabian-xsr-16-fast-crash/",
       "specs": {
           "dimensiones": "16\"",
@@ -61233,7 +61204,7 @@ window.PRODUCTOS = [
       "precio": 5895500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2112",
+      "imagen": "2111",
       "enlace": "https://www.somosmagra.com/es/determinador-de-humedad-kett-pm-450-de-la-seccion-kett-de-array-en-colombia-CP1239",
       "specs": {
           "dimensiones": "125 mm de ancho × 215 mm de alto × 205 mm de profundidad",
@@ -61262,7 +61233,7 @@ window.PRODUCTOS = [
       "precio": 7882800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2113",
+      "imagen": "2112",
       "enlace": "https://www.somosmagra.com/es/molino-sr-64-od-automatico-de-la-seccion-sanremo-de-array-en-colombia-CP1323",
       "specs": {
           "dimensiones": "230 mm de ancho × 270 mm de profundidad × 610 mm de alto",
@@ -61291,7 +61262,7 @@ window.PRODUCTOS = [
       "precio": 4550000,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "2114",
+      "imagen": "2113",
       "enlace": "https://www.somosmagra.com/es/nariz-del-cafe-de-la-seccion-de-array-en-colombia-CP2546",
       "specs": {
           "dimensiones": "Largo: 26,7 cm × Ancho: 15,0 cm × Alto: 9,5 cm",
@@ -61320,7 +61291,7 @@ window.PRODUCTOS = [
       "precio": 6357000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2115",
+      "imagen": "2114",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/263620/planta-electrica-diesel-55kw-5500w-110-220v-115lt-bauker/263620/?kid=shopp_goosho_1441755&shop=1&kid=shopp_goosho_1441755&shop=1&gad_source=1&gad_campaignid=23893751017&gbraid=0AAAAADt6wnrypuWj06F0dzkG9DVXUV8VI&gclid=Cj0KCQjw5vLVBhCiARIsAD56SFIhL6f2KRwEBEyp5UnR3pToVCIYjFWutx4mjgrJeS7qFbjMozhsv0MaAmFwEALw_wcB",
       "specs": {
           "dimensiones": "Largo: 71 cm × Ancho: 48 cm × Alto: 57,5 cm",
@@ -61349,7 +61320,7 @@ window.PRODUCTOS = [
       "precio": 252000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2116",
+      "imagen": "2115",
       "enlace": "https://www.comaderas.com/teja-tipo-guerrera-roja-030mm-1-x6-mts",
       "specs": {
           "dimensiones": "1 m de ancho × 6 m de largo",
@@ -61378,7 +61349,7 @@ window.PRODUCTOS = [
       "precio": 660000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2117",
+      "imagen": "2116",
       "enlace": "https://ecomangueras.com/products/manguera-3",
       "specs": {
           "dimensiones": "3” de diámetro × 50 m de longitud.",
@@ -61407,7 +61378,7 @@ window.PRODUCTOS = [
       "precio": 1248000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2118",
+      "imagen": "2117",
       "enlace": "https://pinturasylacas.com/products/epoxica-industrial?variant=45083501691036&country=CO&currency=COP&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&srsltid=AU7gw4VBtnsL893yiHiWrX56AoOtT7CCajufc8gs_6_65YAI5MOlG55_ZdQ",
       "specs": {
           "dimensiones": "",
@@ -61436,7 +61407,7 @@ window.PRODUCTOS = [
       "precio": 12421500,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "2119",
+      "imagen": "2118",
       "enlace": "https://prosoundaltacalidad.com.co/consolas-digitales/1066-consola-digital-midas-m32r-live-.html",
       "specs": {
           "dimensiones": "47,8 cm de ancho x 61,7 cm de profundidad x 20,8 cm de alto (478 x 617 x 208 mm).",
@@ -61465,7 +61436,7 @@ window.PRODUCTOS = [
       "precio": 3972800,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2120",
+      "imagen": "2119",
       "enlace": "https://prosoundaltacalidad.com.co/inicio/1617-sistema-inalambrico-shure-blx288sm58-receptor-doble-mic-de-mano-sm58.html",
       "specs": {
           "dimensiones": "41 × 49 × 9 cm; BLX2: 224 × 53 mm; BLX88: 38 × 308 × 101 mm",
@@ -61494,7 +61465,7 @@ window.PRODUCTOS = [
       "precio": 1137500,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2121",
+      "imagen": "2120",
       "enlace": "https://www.globalmusic.com.co/product/sistema-de-monitoreo-inalambrico-uhf-aurora-xmp-300/",
       "specs": {
           "dimensiones": "47 × 38 × 10 cm",
@@ -61523,7 +61494,7 @@ window.PRODUCTOS = [
       "precio": 15358925,
       "iva": 0,
       "icono": "🎤",
-      "imagen": "2122",
+      "imagen": "2121",
       "enlace": "https://www.onelab.com.co/analizador-de-leche-ultrasonido-lactoscan",
       "specs": {
           "dimensiones": "10 × 22,3 × 21,6 cm",
@@ -61532,8 +61503,8 @@ window.PRODUCTOS = [
           "referencia": "LAC-SPA+A12",
           "material": "Plástico ABS con policarbonato.",
           "composicion": "",
-          "capacidad": "",
-          "potencia": "",
+          "capacidad": "Análisis por muestra en 30–90 s; volumen de muestra aprox. 20–25 ml",
+          "potencia": "Aprox. 30–50 W, 110–220 V",
           "otrasEspecificaciones": "Bajo consumo de energía; autocalibración de dos muestras; autocalibración sin ordenador; conexión para sonda de pH; soporte para impresoras ESC POS; interfaz RS 232/USB.",
           "condicionesServicios": "Requiere alimentación eléctrica; no se especifican condiciones particulares del servicio",
           "requerimientosEspeciales": "No utilizar productos químicos peligrosos"
@@ -61552,7 +61523,7 @@ window.PRODUCTOS = [
       "precio": 1868620,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2123",
+      "imagen": "2122",
       "enlace": "https://www.mercadolibre.com.co/motor-honda-gasolina-serie-gp-de-65-hp-a-3600-rpm/p/MCO2068546978?matt_tool=19390127&utm_source=google_shopping&utm_medium=organic&pdp_filters=item_id%3AMCO1300145071&from=gshop",
       "specs": {
           "dimensiones": "Largo: 32,1 cm, ancho: 37,6 cm, alto: 36,4 cm.",
@@ -61581,7 +61552,7 @@ window.PRODUCTOS = [
       "precio": 1755000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2124",
+      "imagen": "2123",
       "enlace": "https://drive.google.com/file/d/1KdJmGbZJjW_YxeO-FxlkDVxchjAYNUP2/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -61610,7 +61581,7 @@ window.PRODUCTOS = [
       "precio": 4290000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2125",
+      "imagen": "2124",
       "enlace": "https://drive.google.com/file/d/1KdJmGbZJjW_YxeO-FxlkDVxchjAYNUP2/view?usp=sharing",
       "specs": {
           "dimensiones": "Alto: 40 cm, Largo: 35 cm, Ancho: 30 cm.",
@@ -61639,7 +61610,7 @@ window.PRODUCTOS = [
       "precio": 585000,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2126",
+      "imagen": "2125",
       "enlace": "https://drive.google.com/file/d/1KdJmGbZJjW_YxeO-FxlkDVxchjAYNUP2/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -61668,7 +61639,7 @@ window.PRODUCTOS = [
       "precio": 104000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2127",
+      "imagen": "2126",
       "enlace": "https://drive.google.com/file/d/1KdJmGbZJjW_YxeO-FxlkDVxchjAYNUP2/view?usp=sharing",
       "specs": {
           "dimensiones": "Ancho: 122 mm. Largo: 122 m.",
@@ -61697,7 +61668,7 @@ window.PRODUCTOS = [
       "precio": 2600000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2128",
+      "imagen": "2127",
       "enlace": "https://docs.google.com/document/d/1Uzhu02NUa8WDjN9FCvr06BmzJa1TAVB7/edit?usp=sharing&rtpof=true&sd=true",
       "specs": {
           "dimensiones": "",
@@ -61726,7 +61697,7 @@ window.PRODUCTOS = [
       "precio": 166400,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2129",
+      "imagen": "2128",
       "enlace": "https://drive.google.com/file/d/1_ySE7UbxqEc3cseCTvVKXIPme3C2GPix/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -61755,7 +61726,7 @@ window.PRODUCTOS = [
       "precio": 2080000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2130",
+      "imagen": "2129",
       "enlace": "https://drive.google.com/file/d/1_ySE7UbxqEc3cseCTvVKXIPme3C2GPix/view?usp=sharing",
       "specs": {
           "dimensiones": "Ojo de malla: 8 pulgadas (aprox. 203 mm). Largo y ancho del paño: no especificados.",
@@ -61784,7 +61755,7 @@ window.PRODUCTOS = [
       "precio": 494000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2131",
+      "imagen": "2130",
       "enlace": "https://drive.google.com/file/d/1_ySE7UbxqEc3cseCTvVKXIPme3C2GPix/view?usp=sharing",
       "specs": {
           "dimensiones": "Diámetro según disponibilidad para uso artesanal",
@@ -61813,7 +61784,7 @@ window.PRODUCTOS = [
       "precio": 1079000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2132",
+      "imagen": "2131",
       "enlace": "https://drive.google.com/file/d/1_ySE7UbxqEc3cseCTvVKXIPme3C2GPix/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -61842,7 +61813,7 @@ window.PRODUCTOS = [
       "precio": 195000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2133",
+      "imagen": "2132",
       "enlace": "https://drive.google.com/file/d/1_ySE7UbxqEc3cseCTvVKXIPme3C2GPix/view?usp=sharing",
       "specs": {
           "dimensiones": "Tamaño mediano.",
@@ -61871,17 +61842,17 @@ window.PRODUCTOS = [
       "precio": 2275000,
       "iva": 0,
       "icono": "📷",
-      "imagen": "2134",
+      "imagen": "2133",
       "enlace": "https://drive.google.com/file/d/18r29hR43M1Khrqg2_uGGtZ0mT2ZeU5Zk/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 80 x 70 x 150 cm (ancho x fondo x alto, con soporte)",
           "empaque": "Caja de carton",
-          "peso": "",
+          "peso": "Aprox. 80–120 kg",
           "referencia": "Horno para dos latas.",
           "material": "Lámina Cold Roll calibre 20",
           "composicion": "Lámina Cold Roll calibre 20 con sistema de desfogue y enfriado 100%, dos recámaras, válvulas de seguridad Humcar, perillas tipo flecha en aluminio, soporte inferior, aislamiento en fibra de vidrio en lana.",
           "capacidad": "Capacidad calórica: 350–400 °C.",
-          "potencia": "",
+          "potencia": "Funcionamiento a gas: aprox. 30.000–40.000 BTU/h (no eléctrico)",
           "otrasEspecificaciones": "Dos recámaras, sistema de desfogue y enfriado 100, perillas tipo flecha de aluminio, soporte inferior, aislamiento mediante fibra de vidrio en lana.",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Debe contar con sistema de desfogue y enfriado 100%, válvulas de seguridad Humcar, perillas tipo flecha en aluminio, soporte inferior, aislamiento en fibra de vidrio en lana, y estructura en lámina Cold Roll calibre 20."
@@ -61900,7 +61871,7 @@ window.PRODUCTOS = [
       "precio": 4160000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2135",
+      "imagen": "2134",
       "enlace": "https://drive.google.com/file/d/1dhIUq614r8lyMIudS90LQDbaDRWSeqQb/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -61929,7 +61900,7 @@ window.PRODUCTOS = [
       "precio": 4873440,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2136",
+      "imagen": "2135",
       "enlace": "https://exhibirequipos.com/producto/pela-papas-industrial-metvisa-10kg/",
       "specs": {
           "dimensiones": "88 × 59 × 44 cm (alto × ancho × profundo)",
@@ -61958,7 +61929,7 @@ window.PRODUCTOS = [
       "precio": 129870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2137",
+      "imagen": "2136",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3010824/cortador-rebanador-verduras-mandolina-acero-inoxidable-18-cortes/3010824/",
       "specs": {
           "dimensiones": "40 × 13 × 14 cm (largo × ancho × alto)",
@@ -61987,7 +61958,7 @@ window.PRODUCTOS = [
       "precio": 188500,
       "iva": 0,
       "icono": "🧵",
-      "imagen": "2138",
+      "imagen": "2137",
       "enlace": "https://www.mercadolibre.com.co/plancha-asar-profesional-en-hierro-40x40-cm/up/MCOU3414459550",
       "specs": {
           "dimensiones": "40 × 40 cm",
@@ -62016,7 +61987,7 @@ window.PRODUCTOS = [
       "precio": 233987,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2139",
+      "imagen": "2138",
       "enlace": "https://www.ikea.com/co/es/p/gersby-biblioteca-blanco-70261131/",
       "specs": {
           "dimensiones": "60 × 24 × 180 cm (ancho × fondo × alto)",
@@ -62045,7 +62016,7 @@ window.PRODUCTOS = [
       "precio": 88790,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2140",
+      "imagen": "2139",
       "enlace": "https://www.vialambre.com/exhibidor-burro-ei-50-expandible-sencillo-con-ruedas/",
       "specs": {
           "dimensiones": "121,3 × 120 × 49,5 cm (alto × ancho × fondo)",
@@ -62074,7 +62045,7 @@ window.PRODUCTOS = [
       "precio": 168740,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2141",
+      "imagen": "2140",
       "enlace": "https://www.vialambre.com/caja-menor-con-gaveta-gris-metalico-con-bodega-secreta-ref-34443/",
       "specs": {
           "dimensiones": "31,2 × 28 × 8,5 cm (ancho × fondo × alto)",
@@ -62103,7 +62074,7 @@ window.PRODUCTOS = [
       "precio": 120120,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2142",
+      "imagen": "2141",
       "enlace": "https://www.vialambre.com/vestier-en-u-redondo/",
       "specs": {
           "dimensiones": "70 × 70 cm",
@@ -62132,7 +62103,7 @@ window.PRODUCTOS = [
       "precio": 21450,
       "iva": 0,
       "icono": "🛠️",
-      "imagen": "2143",
+      "imagen": "2142",
       "enlace": "https://www.falabella.com.co/falabella-co/product/122950764/Kit-de-Pintura-Para-Tela-Franco-Arte-30-ml-X-5-Unidades/122950765",
       "specs": {
           "dimensiones": "No especificado",
@@ -62161,7 +62132,7 @@ window.PRODUCTOS = [
       "precio": 1475370,
       "iva": 0,
       "icono": "🪑",
-      "imagen": "2144",
+      "imagen": "2143",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/801388/silla-sillon-barberia-hidraulico-peluqueria-reclinable-salon-negro/801388/",
       "specs": {
           "dimensiones": "57,5 × 57 × 107 cm (ancho × profundidad × alto)",
@@ -62190,7 +62161,7 @@ window.PRODUCTOS = [
       "precio": 10335000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2145",
+      "imagen": "2144",
       "enlace": "https://www.bbg.com.co/basculas/vp615/sp/",
       "specs": {
           "dimensiones": "55 × 23,5 × 56 cm (largo × ancho × alto)",
@@ -62219,7 +62190,7 @@ window.PRODUCTOS = [
       "precio": 17940000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2146",
+      "imagen": "2145",
       "enlace": "https://www.bbg.com.co/basculas/vp949/sp/peladora-de-papas-empero-ps07f-industrial-inoxidable",
       "specs": {
           "dimensiones": "59 × 88 × 131 cm",
@@ -62248,7 +62219,7 @@ window.PRODUCTOS = [
       "precio": 26801775,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2147",
+      "imagen": "2146",
       "enlace": "https://tienda.tecnoembalaje.com/producto/empacadora-al-vacio-modelo-vac-610fd/",
       "specs": {
           "dimensiones": "1470L × 940W × 950H mm",
@@ -62277,7 +62248,7 @@ window.PRODUCTOS = [
       "precio": 2208570,
       "iva": 0,
       "icono": "🔧",
-      "imagen": "2148",
+      "imagen": "2147",
       "enlace": "https://belltec.com.co/taladros-de-pedestal/14527-taladro-de-banco-winwork-3-4-hp-110-220v.html?srsltid=AU7gw4V4etKbZVxEOmfvYE5duIZdIWsE-LMc2QvxewiI2yxLxgkRvug2RjY",
       "specs": {
           "dimensiones": "Altura total: 1.000 mm. Mesa de trabajo: 290 × 290 mm. Base: 460 × 280 mm. Diámetro de columna: 72 mm.",
@@ -62306,7 +62277,7 @@ window.PRODUCTOS = [
       "precio": 41990,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2149",
+      "imagen": "2148",
       "enlace": "https://drive.google.com/file/d/1SutOGCMpswHWDTP01jitoval6vEt1vdq/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -62335,7 +62306,7 @@ window.PRODUCTOS = [
       "precio": 50128,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2150",
+      "imagen": "2149",
       "enlace": "https://drive.google.com/file/d/1SutOGCMpswHWDTP01jitoval6vEt1vdq/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -62364,7 +62335,7 @@ window.PRODUCTOS = [
       "precio": 61100,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2151",
+      "imagen": "2150",
       "enlace": "https://drive.google.com/file/d/1SutOGCMpswHWDTP01jitoval6vEt1vdq/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -62393,7 +62364,7 @@ window.PRODUCTOS = [
       "precio": 56940,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2152",
+      "imagen": "2151",
       "enlace": "https://drive.google.com/file/d/1SutOGCMpswHWDTP01jitoval6vEt1vdq/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -62422,7 +62393,7 @@ window.PRODUCTOS = [
       "precio": 104000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2153",
+      "imagen": "2152",
       "enlace": "https://drive.google.com/file/d/1SutOGCMpswHWDTP01jitoval6vEt1vdq/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -62451,7 +62422,7 @@ window.PRODUCTOS = [
       "precio": 111020,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2154",
+      "imagen": "2153",
       "enlace": "https://drive.google.com/file/d/1SutOGCMpswHWDTP01jitoval6vEt1vdq/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -62480,7 +62451,7 @@ window.PRODUCTOS = [
       "precio": 226707,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2155",
+      "imagen": "2154",
       "enlace": "https://drive.google.com/file/d/1SutOGCMpswHWDTP01jitoval6vEt1vdq/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -62509,7 +62480,7 @@ window.PRODUCTOS = [
       "precio": 98930,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2156",
+      "imagen": "2155",
       "enlace": "https://drive.google.com/file/d/1SutOGCMpswHWDTP01jitoval6vEt1vdq/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -62538,7 +62509,7 @@ window.PRODUCTOS = [
       "precio": 135460,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2157",
+      "imagen": "2156",
       "enlace": "https://drive.google.com/file/d/1SutOGCMpswHWDTP01jitoval6vEt1vdq/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -62567,7 +62538,7 @@ window.PRODUCTOS = [
       "precio": 114660,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2158",
+      "imagen": "2157",
       "enlace": "https://drive.google.com/file/d/1SutOGCMpswHWDTP01jitoval6vEt1vdq/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -62596,7 +62567,7 @@ window.PRODUCTOS = [
       "precio": 232700,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2159",
+      "imagen": "2158",
       "enlace": "https://drive.google.com/file/d/1SutOGCMpswHWDTP01jitoval6vEt1vdq/view?usp=sharing",
       "specs": {
           "dimensiones": "Diámetro: 18 mm",
@@ -62625,7 +62596,7 @@ window.PRODUCTOS = [
       "precio": 152100,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2160",
+      "imagen": "2159",
       "enlace": "https://drive.google.com/file/d/1SutOGCMpswHWDTP01jitoval6vEt1vdq/view?usp=sharing",
       "specs": {
           "dimensiones": "Diámetro: 18 mm",
@@ -62654,7 +62625,7 @@ window.PRODUCTOS = [
       "precio": 82810,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2161",
+      "imagen": "2160",
       "enlace": "https://drive.google.com/file/d/1kpCyewtLf-D2WrZW8Qf4k0t-EucrhffU/view?usp=sharing",
       "specs": {
           "dimensiones": "Altura de ~13 cm a 16.9 cm y diámetro de ~4.8 cm a 4.9 cm (según fabricante).",
@@ -62683,7 +62654,7 @@ window.PRODUCTOS = [
       "precio": 88010,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2162",
+      "imagen": "2161",
       "enlace": "https://drive.google.com/file/d/1kpCyewtLf-D2WrZW8Qf4k0t-EucrhffU/view?usp=sharing",
       "specs": {
           "dimensiones": "Alto: 78 mm / Ancho: 58mm / Area de etiqueta: 18mm / Area de la rosca: 24mm",
@@ -62712,7 +62683,7 @@ window.PRODUCTOS = [
       "precio": 125710,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2163",
+      "imagen": "2162",
       "enlace": "https://drive.google.com/file/d/1kpCyewtLf-D2WrZW8Qf4k0t-EucrhffU/view?usp=sharing",
       "specs": {
           "dimensiones": "4 CM X 1KG",
@@ -62741,7 +62712,7 @@ window.PRODUCTOS = [
       "precio": 125710,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2164",
+      "imagen": "2163",
       "enlace": "https://drive.google.com/file/d/1kpCyewtLf-D2WrZW8Qf4k0t-EucrhffU/view?usp=sharing",
       "specs": {
           "dimensiones": "4.5 CM",
@@ -62770,7 +62741,7 @@ window.PRODUCTOS = [
       "precio": 125710,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2165",
+      "imagen": "2164",
       "enlace": "https://drive.google.com/file/d/1kpCyewtLf-D2WrZW8Qf4k0t-EucrhffU/view?usp=sharing",
       "specs": {
           "dimensiones": "5.5 CM",
@@ -62799,7 +62770,7 @@ window.PRODUCTOS = [
       "precio": 247520,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2166",
+      "imagen": "2165",
       "enlace": "https://drive.google.com/file/d/1E_PZ1EnwHTBeIXyjbxt8-S810JBFZ5_D/view?usp=sharing",
       "specs": {
           "dimensiones": "14X14X5 CM",
@@ -62828,7 +62799,7 @@ window.PRODUCTOS = [
       "precio": 41600,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2167",
+      "imagen": "2166",
       "enlace": "https://drive.google.com/file/d/1nL2HJwF0lW1lbegpMmaVG8Bp_hGvp9lZ/view?usp=sharing",
       "specs": {
           "dimensiones": "5.5 CM",
@@ -62857,7 +62828,7 @@ window.PRODUCTOS = [
       "precio": 91000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2168",
+      "imagen": "2167",
       "enlace": "https://drive.google.com/file/d/1luRSIo3yxZzbre6Ygiz143tdhtvu5cgK/view?usp=sharing",
       "specs": {
           "dimensiones": "5.5 CM",
@@ -62886,7 +62857,7 @@ window.PRODUCTOS = [
       "precio": 260000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2169",
+      "imagen": "2168",
       "enlace": "https://drive.google.com/file/d/1luRSIo3yxZzbre6Ygiz143tdhtvu5cgK/view?usp=sharing",
       "specs": {
           "dimensiones": "5.5 CM",
@@ -62915,7 +62886,7 @@ window.PRODUCTOS = [
       "precio": 156000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2170",
+      "imagen": "2169",
       "enlace": "https://drive.google.com/file/d/1luRSIo3yxZzbre6Ygiz143tdhtvu5cgK/view?usp=sharing",
       "specs": {
           "dimensiones": "5.5 CM",
@@ -62944,7 +62915,7 @@ window.PRODUCTOS = [
       "precio": 19890,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2171",
+      "imagen": "2170",
       "enlace": "https://drive.google.com/file/d/1Pqw2gU6DRoWKQXMIrbpxxJ0G6JPO3NRB/view?usp=sharing",
       "specs": {
           "dimensiones": "5 cm x 5 cm",
@@ -62973,7 +62944,7 @@ window.PRODUCTOS = [
       "precio": 16250,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2172",
+      "imagen": "2171",
       "enlace": "https://drive.google.com/file/d/1Pqw2gU6DRoWKQXMIrbpxxJ0G6JPO3NRB/view?usp=sharing",
       "specs": {
           "dimensiones": "5 cm x 5 cm",
@@ -63002,7 +62973,7 @@ window.PRODUCTOS = [
       "precio": 7735,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2173",
+      "imagen": "2172",
       "enlace": "https://drive.google.com/file/d/1Pqw2gU6DRoWKQXMIrbpxxJ0G6JPO3NRB/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -63031,7 +63002,7 @@ window.PRODUCTOS = [
       "precio": 13923,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2174",
+      "imagen": "2173",
       "enlace": "https://drive.google.com/file/d/1Pqw2gU6DRoWKQXMIrbpxxJ0G6JPO3NRB/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -63060,7 +63031,7 @@ window.PRODUCTOS = [
       "precio": 32487,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2175",
+      "imagen": "2174",
       "enlace": "https://drive.google.com/file/d/1Pqw2gU6DRoWKQXMIrbpxxJ0G6JPO3NRB/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -63089,7 +63060,7 @@ window.PRODUCTOS = [
       "precio": 40105,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2176",
+      "imagen": "2175",
       "enlace": "https://drive.google.com/file/d/1Pqw2gU6DRoWKQXMIrbpxxJ0G6JPO3NRB/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -63118,7 +63089,7 @@ window.PRODUCTOS = [
       "precio": 51051,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2177",
+      "imagen": "2176",
       "enlace": "https://drive.google.com/file/d/1Pqw2gU6DRoWKQXMIrbpxxJ0G6JPO3NRB/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -63147,7 +63118,7 @@ window.PRODUCTOS = [
       "precio": 53105,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2178",
+      "imagen": "2177",
       "enlace": "https://drive.google.com/file/d/1Pqw2gU6DRoWKQXMIrbpxxJ0G6JPO3NRB/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -63176,7 +63147,7 @@ window.PRODUCTOS = [
       "precio": 233870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2179",
+      "imagen": "2178",
       "enlace": "https://homecenter.falabella.com.co/homecenter-co/product/118644080/carretilla-negra-plastica-cachaca-169-litros-6ft-imsa/118644081?exp=homecenter",
       "specs": {
           "dimensiones": "99 cm x 46 cm x 69 cm",
@@ -63205,7 +63176,7 @@ window.PRODUCTOS = [
       "precio": 3960000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2180",
+      "imagen": "2179",
       "enlace": "https://drive.google.com/file/d/1WYYUOkXJ-FSNl8KuIPAqav0jL4Etigji/view?usp=sharing",
       "specs": {
           "dimensiones": "",
@@ -63234,7 +63205,7 @@ window.PRODUCTOS = [
       "precio": 2015000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2181",
+      "imagen": "2180",
       "enlace": "https://insublitex.com.co/plotter-de-corte/242-plotter-de-corte-silhouette-cameo-5.html",
       "specs": {
           "dimensiones": "56,6 x 17,6 x 12,4 cm",
@@ -63263,7 +63234,7 @@ window.PRODUCTOS = [
       "precio": 211380,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2182",
+      "imagen": "2181",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/901118/escalera-2en1-carro-de-carga-bauker/901118/",
       "specs": {
           "dimensiones": "42 cm de ancho x 1,07 m de alto",
@@ -63292,7 +63263,7 @@ window.PRODUCTOS = [
       "precio": 246870,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2183",
+      "imagen": "2182",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/3022063/tablero-perforado-de-90-x-60-cm-de-herramientas-modular-de-acero-cr-para-pared-con-accesorios/3022063/",
       "specs": {
           "dimensiones": "90 x 60 cm; ficha técnica reporta 90 cm de alto, 12 cm de ancho y 1,5 cm de profundidad",
@@ -63321,7 +63292,7 @@ window.PRODUCTOS = [
       "precio": 11050,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2184",
+      "imagen": "2183",
       "enlace": "https://drive.google.com/file/d/13tuiupZDdnS1iZ5PfCyWhxxoGrE07VWr/view?usp=sharing",
       "specs": {
           "dimensiones": "8,1 x 4,8 x 4,6 cm",
@@ -63350,7 +63321,7 @@ window.PRODUCTOS = [
       "precio": 16900,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2185",
+      "imagen": "2184",
       "enlace": "https://drive.google.com/file/d/13tuiupZDdnS1iZ5PfCyWhxxoGrE07VWr/view?usp=sharing",
       "specs": {
           "dimensiones": "130x66x62mm",
@@ -63379,7 +63350,7 @@ window.PRODUCTOS = [
       "precio": 1339000,
       "iva": 0,
       "icono": "⚙️",
-      "imagen": "2186",
+      "imagen": "2185",
       "enlace": "https://www.mercadolibre.com.co/guadana-alterman-xbc-43-4-tiempos-43cc-trabajo-pesado/up/MCOU5044275105#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=5&type=product&tracking_id=cc678b53-d25b-4e82-8fdb-bd5deea33504&wid=MCO2171719993&sid=search",
       "specs": {
           "dimensiones": "Diámetro del tubo: 28 mm.",
@@ -63985,7 +63956,7 @@ window.PRODUCTOS = [
       "tipo": "Equipo",
       "nombre": "Micrófono de condensador",
       "desc": "Micrófono de condensador en kit completo. Ideal para grabación vocal, podcast y producción musical. Patrón polar cardioide para captura frontal y rechazo de ruidos laterales. | Tipo: condensador / Patrón: cardioide / Conexión: XLR / Uso: estudio, podcast, grabación",
-      "precio": 1933437,
+      "precio": 1597860,
       "iva": 0,
       "icono": "🎤",
       "imagen": "4",
@@ -64463,7 +64434,7 @@ window.PRODUCTOS = [
           "composicion": "",
           "capacidad": "",
           "potencia": "50/60Hz",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Cámara de alta resolución con aumento aprox. 50x–200x; pantalla de 10\"; análisis de cuero cabelludo y folículo; alimentación 110 V",
           "condicionesServicios": "",
           "requerimientosEspeciales": ""
       }
@@ -79856,9 +79827,9 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "",
           "empaque": "presetanción en sobre de 10gr",
-          "peso": "",
-          "referencia": "",
-          "material": "",
+          "peso": "10 g por sobre",
+          "referencia": "Vitapio sobre 10 g Provet (multivitamínico con electrolitos para aves)",
+          "material": "Polvo soluble envasado en sobre laminado (papel/aluminio/polietileno)",
           "composicion": "Contiene glucosa (70%), vitaminas del complejo B (B1 50mg, B2 60mg, B6 20mg, B12 100mcg), vitamina C (100mg) y electrolitos",
           "capacidad": "",
           "potencia": "",
@@ -81360,7 +81331,7 @@ window.PRODUCTOS = [
       "iva": 0,
       "icono": "🔩",
       "imagen": "583",
-      "enlace": "https://www.homecenter.com.co/homecenter-co/product/234320/teja-zinc-ondulada-3048x080mt-cal-35-017mm/234320/",
+      "enlace": "https://www.homecenter.com.co/homecenter-co/product/282061/teja-zinc-ondulada-3048x080-m-cal-35-017mm/234320/",
       "specs": {
           "dimensiones": "0.91 × 3.05 m.",
           "empaque": "láminas flejadas.",
@@ -81501,7 +81472,7 @@ window.PRODUCTOS = [
       "tipo": "Insumo",
       "nombre": "Tubo rectangular 3 × 1½″ calibre 16 × 1.5 mm",
       "desc": "El tubo rectangular 3 × 1½ pulgadas calibre 16 (1.5 mm) es un perfil estructural metálico fabricado en acero, utilizado ampliamente en construcción liviana, fabricación de estructuras metálicas y trabajos de herrería por su buena resistencia mecánica y versatilidad. | Perfil estructural tubular rectangular en acero, sección 76 x 38 mm (3 x 1½\"), calibre 16 espesor 1.5 mm, longitud estándar 6 m. Lámina formada en caliente, alta soldabilidad y resistencia estructural.",
-      "precio": 108640,
+      "precio": 98930,
       "iva": 0,
       "icono": "🔩",
       "imagen": "588",
@@ -84120,7 +84091,7 @@ window.PRODUCTOS = [
           "dimensiones": "Presentación: saco de 50 kg forma: granulado",
           "empaque": "Saco de polipropileno o rafia industrial",
           "peso": "50 kg",
-          "referencia": "",
+          "referencia": "Abono NPK 17-6-18-6 (grado cafetero) bulto 50 kg; ej. Nutrimon / Yara / Abocol, o equivalente",
           "material": "Mezcla de fertilizantes minerales granulados",
           "composicion": "Nitrógeno (n): 31% fósforo (p₂o₅): 8% potasio (k₂o): 8%",
           "capacidad": "",
@@ -97170,7 +97141,7 @@ window.PRODUCTOS = [
           "dimensiones": "Aprox. 30-38 cm de alto x 28-35 cm de ancho x 30-40 cm de profundidad.",
           "empaque": "Caja individual con manual y accesorios.",
           "peso": "Aprox. 5 a 6 kg.",
-          "referencia": "",
+          "referencia": "Freidora de aire turbo 6 L (tipo Oster / Kalley / Imaco, 1500–1700 W)",
           "material": "Cuerpo plástico con canasta antiadherente",
           "composicion": "Carcasa plastica/metalica con canasta antiadherente; potencia tipica ~1700-2000 W.",
           "capacidad": "",
@@ -98156,7 +98127,7 @@ window.PRODUCTOS = [
           "dimensiones": "Tamaño inflado: entre 10 y 12 pulgadas (25 a 30 cm de diámetro aproximadamente). Disponible en diferentes colores metalizados o reflectivos.",
           "empaque": "Presentación en bolsa plástica sellada. Puede comercializarse por unidad o en paquetes múltiples. Empaque identificado con marca, cantidad, color y especificaciones del fabricante",
           "peso": "2 a 5 gramos",
-          "referencia": "",
+          "referencia": "Globo reflex R12 (12\") metalizado/perlado, bolsa x 50 unidades",
           "material": "Látex natural de alta calidad con acabado metalizado o perlado reflectivo.",
           "composicion": "Látex natural. Pigmentos y colorantes no tóxicos. Recubrimiento perlado o metalizado que proporciona efecto brillante y reflectivo.",
           "capacidad": "",
@@ -107861,7 +107832,7 @@ window.PRODUCTOS = [
       "itemPorActividad": "Pecuario y animales",
       "tipo": "Insumo",
       "nombre": "Tylosin capsula",
-      "desc": "Indicado en el tratamiento de enfermedad respiratoria crónica: mycoplasma gallisepticum y sinovitis infecciosa: mycoplasma synoviae en pollos de engorde y aves de reemplazo, infecciones por mycoplasma gallisepticum en pavos y disentería porcina treponema hyodisenteriae en porcinos. (Marcas: TYLOSIN ORAL X 400 CÁPSULAS) | Tipo de producto: antibiótico veterinario oral",
+      "desc": "Indicado en el tratamiento de enfermedad respiratoria crónica: mycoplasma gallisepticum y sinovitis infecciosa: mycoplasma synoviae en pollos de engorde y aves de reemplazo, infecciones por mycoplasma gallisepticum en pavos y disentería porcina treponema hyodisenteriae en porcinos. (Marcas: TYLOSIN ORAL X 40 CÁPSULAS) | Tipo de producto: antibiótico veterinario oral",
       "precio": 58396,
       "iva": 0,
       "icono": "🔩",
@@ -107870,8 +107841,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "11 cm x 9 cm x 8.5 cm",
           "empaque": "Frasco plástico farmacéutico",
-          "peso": "Peso aproximado: 250 g – 500 g por frasco",
-          "referencia": "TYLOSIN ORAL X 400 CÁPSULAS",
+          "peso": "250 MG de Tilosina",
+          "referencia": "TYLOSIN ORAL X 40 CÁPSULAS",
           "material": "Cápsulas farmacéuticas de gelatina",
           "composicion": "Tilosina tartrato 100%",
           "capacidad": "",
@@ -113457,8 +113428,8 @@ window.PRODUCTOS = [
       "proceso": "Producción / Operación",
       "itemPorActividad": "Limpieza y aseo",
       "tipo": "Insumo",
-      "nombre": "BALDE Y TANQUES PLÁSTICOS.",
-      "desc": "Baldes y tanques plásticos de almacenamiento para uso doméstico e industrial. | Recipientes de plástico (polietileno/polipropileno) en diversas capacidades (litros); con o sin tapa; aptos para almacenamiento de agua o materiales.",
+      "nombre": "BALDE O TANQUES PLÁSTICOS.",
+      "desc": "Baldes  o tanques plásticos de almacenamiento para uso doméstico e industrial. | Recipientes de plástico (polietileno/polipropileno) en diversas capacidades (litros); con o sin tapa; aptos para almacenamiento de agua o materiales.",
       "precio": 76570,
       "iva": 0,
       "icono": "🔩",
@@ -116049,7 +116020,7 @@ window.PRODUCTOS = [
           "dimensiones": "Largo: 22–24 cm; Ancho: 8–9 cm; Altura: 7–9 cm (incluyendo la suela).",
           "empaque": "Caja individual de cartón corrugado con identificación del fabricante",
           "peso": "1 kg",
-          "referencia": "",
+          "referencia": "Zapato colegial niña tipo Mafalda negro, cosido, tallas 27 a 38",
           "material": "Capellada: Cuero sintético (PVC o poliuretano).\nForro interno: Material textil o sintético transpirable.\nPlantilla: Espuma de alta densidad recubierta con material textil o sintético para mayor comodidad.",
           "composicion": "Suela: PVC, TR (caucho termoplástico) o caucho sintético antideslizante.\nHebilla: Metal con acabado anticorrosivo.\nHilo: Poliéster de alta resistencia.",
           "capacidad": "",
@@ -116221,9 +116192,9 @@ window.PRODUCTOS = [
       "enlace": "Tula Balonera Ozs 20 Balones Aproximadamente Poliester Lona GENERICO | Falabella Colombia",
       "specs": {
           "dimensiones": "Alto 134 cm. Alto x Ancho 63 cm. x Profundidad 44 cm",
-          "empaque": "",
+          "empaque": "Bolsa plástica individual; tula doblada",
           "peso": "05 kg",
-          "referencia": "",
+          "referencia": "Tula balonera en lona poliéster para 15–20 balones",
           "material": "Poliéster / lona",
           "composicion": "100% POLYESTER",
           "capacidad": "15 a 20 balones",
@@ -116685,9 +116656,9 @@ window.PRODUCTOS = [
       "enlace": "(2) Cobija Bunny Piel De Conejo Sintético Suave Fucsia Liso Fucsia | Cuotas sin interés",
       "specs": {
           "dimensiones": "200 x 180 CM",
-          "empaque": "",
+          "empaque": "Bolsa plástica con cierre",
           "peso": "0,5 gr",
-          "referencia": "",
+          "referencia": "Cobija microfibra tipo piel de conejo 200 x 180 cm, 220 g/m²",
           "material": "Microfibra (poliéster/poliamida)",
           "composicion": "100% microfibra",
           "capacidad": "",
@@ -117238,7 +117209,7 @@ window.PRODUCTOS = [
           "dimensiones": "Empaque: 25 cm × 15 cm × 4 cm.",
           "empaque": "Bolsa trilaminada aluminizada o empaque metalizado hermético de alta barrera contra humedad y luz, sellado de fábrica para conservar la viabilidad de la semilla.",
           "peso": "20 Gr",
-          "referencia": "",
+          "referencia": "Semilla híbrida de sandía Riverside F1, sobre x 1.000 semillas",
           "material": "Semillas híbridas tratadas para uso agrícola, envasadas en bolsa laminada de aluminio y polímeros multicapa resistentes a la humedad.",
           "composicion": "• 1.000 semillas híbridas de sandía Riverside F1.\n• Tratamiento fitosanitario para protección inicial (según fabricante).\n• Empaque hermético con identificación del lote y fecha de producción.",
           "capacidad": "Contiene 1.000 semillas, suficientes para establecer aproximadamente 0,15 a 0,30 hectáreas, dependiendo del sistema de siembra, distancia entre plantas y porcentaje de germinación.",
@@ -117787,7 +117758,7 @@ window.PRODUCTOS = [
       "enlace": "https://www.mercadolibre.com.co/carboxiterapia-equitec-smart-con-gas-caliente/up/MCOU2410853733#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=3&type=product&tracking_id=44f267d8-645e-4190-9898-9a6838b216c4&wid=MCO1448025465&sid=search",
       "specs": {
           "dimensiones": "No especifica",
-          "empaque": "",
+          "empaque": "Caja de cartón con protección en icopor; incluye pedestal, cilindro de CO₂, regulador y accesorios",
           "peso": "No especifica",
           "referencia": "Smart Gas Caliente.",
           "material": "Equipo electromédico compuesto por estructura metálica, componentes electrónicos, mangueras para CO₂ y accesorios de aplicación.",
@@ -118308,7 +118279,7 @@ window.PRODUCTOS = [
       "imagen": "1857",
       "enlace": "https://www.mercadolibre.com.co/salsa-tomate-bary-80g-x12-960g/up/MCOU3105099055",
       "specs": {
-          "dimensiones": "No aplica.",
+          "dimensiones": "Sobre aprox. 10 x 14 cm; caja x 12 aprox. 20 x 15 x 8 cm",
           "empaque": "Caja con 12 sobres individuales de 80 g cada uno.",
           "peso": "960 g de contenido neto total (12 × 80 g).",
           "referencia": "Salsa de Tomate Bary 80 g x 12 sobres.",
@@ -118571,7 +118542,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "5×3",
           "empaque": "",
-          "peso": "",
+          "peso": "Aprox. 8–12 kg por gavera (madera, 15 moldes 5x3)",
           "referencia": "",
           "material": "No especifica la cotizacion",
           "composicion": "No especifica la cotizacion",
@@ -118600,7 +118571,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "10x4",
           "empaque": "",
-          "peso": "",
+          "peso": "Aprox. 15–20 kg por gavera (madera, 40 moldes 10x4)",
           "referencia": "",
           "material": "No especifica la cotizacion",
           "composicion": "No especifica la cotizacion",
@@ -118744,11 +118715,11 @@ window.PRODUCTOS = [
       "enlace": "https://drive.google.com/file/d/17ssv2RcroRDfjx5Ocxoh0DrH4yY57CF3/view",
       "specs": {
           "dimensiones": "No especifica la cotizacion",
-          "empaque": "",
+          "empaque": "Sin empaque; se entrega por pares amarrados",
           "peso": "No especifica la cotizacion",
           "referencia": "Cuchillo de madera",
           "material": "No especifica la cotizacion",
-          "composicion": "",
+          "composicion": "Madera maciza (100 % madera)",
           "capacidad": "",
           "potencia": "",
           "otrasEspecificaciones": "Herramienta manual utilizada en procesos paneleros",
@@ -119352,7 +119323,7 @@ window.PRODUCTOS = [
       "imagen": "1893",
       "enlace": "https://drive.google.com/file/d/1E0wgkeVSPxaFyAKmq7_jIpdUEGet2IR4/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Cámara Langstroth estándar aprox. 50,8 x 41,3 x 24,3 cm por cuerpo; altura total aprox. 60–70 cm (base, cámara, alza y techo)",
           "empaque": "Cajas de cartón",
           "peso": "No especificado en la cotización",
           "referencia": "Venta de Insumos Apícolas",
@@ -119497,7 +119468,7 @@ window.PRODUCTOS = [
       "imagen": "1898",
       "enlace": "https://drive.google.com/file/d/1E0wgkeVSPxaFyAKmq7_jIpdUEGet2IR4/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Aprox. 38–40 cm de largo total",
           "empaque": "Presentación por unidad",
           "peso": "Aprox. 80–120 g",
           "referencia": "Cepillo apícola cerdas de crin",
@@ -120019,15 +119990,15 @@ window.PRODUCTOS = [
       "imagen": "1916",
       "enlace": "https://drive.google.com/file/d/132e3WKmGaJZc_vyjq8MdPDsZ9knMTi5A/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
-          "empaque": "",
-          "peso": "",
-          "referencia": "",
+          "dimensiones": "Cama queen 160 x 190 cm: sábana ajustable 160 x 190 x 30 cm, sábana plana aprox. 230 x 260 cm, 2 fundas 50 x 70 cm",
+          "empaque": "Bolsa plástica con cierre",
+          "peso": "Aprox. 1,5–1,8 kg",
+          "referencia": "Juego de sábanas queen 4 piezas",
           "material": "Microfibra / algodón-poliéster",
-          "composicion": "",
+          "composicion": "Aprox. 100 % poliéster microfibra (o 50/50 algodón-poliéster)",
           "capacidad": "",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Incluye sábana ajustable, sábana plana y 2 fundas; lavable en lavadora",
           "condicionesServicios": "",
           "requerimientosEspeciales": ""
       }
@@ -120048,15 +120019,15 @@ window.PRODUCTOS = [
       "imagen": "1917",
       "enlace": "https://drive.google.com/file/d/132e3WKmGaJZc_vyjq8MdPDsZ9knMTi5A/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
-          "empaque": "",
-          "peso": "",
-          "referencia": "",
-          "material": "",
-          "composicion": "",
+          "dimensiones": "Cama king 200 x 200 cm: sábana ajustable 200 x 200 x 30 cm, sábana plana aprox. 270 x 280 cm, 2 fundas 50 x 90 cm",
+          "empaque": "Bolsa plástica con cierre",
+          "peso": "Aprox. 1,8–2,2 kg",
+          "referencia": "Juego de sábanas king 4 piezas",
+          "material": "Microfibra / algodón-poliéster",
+          "composicion": "Aprox. 100 % poliéster microfibra (o 50/50 algodón-poliéster)",
           "capacidad": "",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Incluye sábana ajustable, sábana plana y 2 fundas; lavable en lavadora",
           "condicionesServicios": "",
           "requerimientosEspeciales": ""
       }
@@ -120106,15 +120077,15 @@ window.PRODUCTOS = [
       "imagen": "1919",
       "enlace": "https://drive.google.com/file/d/132e3WKmGaJZc_vyjq8MdPDsZ9knMTi5A/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
-          "empaque": "",
-          "peso": "",
-          "referencia": "",
-          "material": "",
-          "composicion": "",
+          "dimensiones": "Cama sencilla 100 x 190 cm: sábana ajustable 100 x 190 x 30 cm, sábana plana aprox. 160 x 240 cm, 1 funda 50 x 70 cm",
+          "empaque": "Bolsa plástica con cierre",
+          "peso": "Aprox. 0,8–1 kg",
+          "referencia": "Juego de sábanas sencillo 3 piezas",
+          "material": "Microfibra / algodón-poliéster",
+          "composicion": "Aprox. 100 % poliéster microfibra (o 50/50 algodón-poliéster)",
           "capacidad": "",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Incluye sábana ajustable, sábana plana y funda; lavable en lavadora",
           "condicionesServicios": "",
           "requerimientosEspeciales": ""
       }
@@ -120629,11 +120600,11 @@ window.PRODUCTOS = [
       "enlace": "https://futuagrocol.com/producto/canastilla-cajon-40-kg-dim-32-x-40-5-x-60-cm-tipo-acanalada/?srsltid=AfmBOooc0ncl4FwEo65LCon2VjVBP63mHK5ZMVeZo6LX_G5Y25oaZBh1",
       "specs": {
           "dimensiones": "32 x 40,5 x 60 cm",
-          "empaque": "",
-          "peso": "",
+          "empaque": "Unidad sin empaque (apilable)",
+          "peso": "Aprox. 1,8–2,2 kg",
           "referencia": "Canastilla Cajón 40 kg",
-          "material": "",
-          "composicion": "",
+          "material": "Plástico (polietileno de alta densidad)",
+          "composicion": "100 % polietileno/polipropileno",
           "capacidad": "40Kg",
           "potencia": "",
           "otrasEspecificaciones": "Tipo acanalada. Diseño robusto y duradero. Adecuada para comercios, mercados, almacenes y actividades de almacenamiento. Ideal para productos a granel, frutas, verduras, herramientas y materiales de construcción.",
@@ -121474,7 +121445,7 @@ window.PRODUCTOS = [
           "peso": "50 kg por saco/bulto.",
           "referencia": "Fedearroz 2000",
           "material": "",
-          "composicion": "",
+          "composicion": "Semilla de arroz (Oryza sativa) variedad Fedearroz 2000, certificada ICA; pureza física ≥ 98 %, germinación ≥ 80 %",
           "capacidad": "",
           "potencia": "",
           "otrasEspecificaciones": "Amplia adaptabilidad, estabilidad en rendimiento y excelente comportamiento en el proceso de molienda.",
@@ -121912,7 +121883,7 @@ window.PRODUCTOS = [
           "composicion": "rolllo de 300 mts de film adhesivo de gran enlogación",
           "capacidad": "300  mts de pelicula recubrimiento",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Película transparente autoadherente apta para contacto con alimentos; alta elongación; uso en conservación y almacenamiento de alimentos",
           "condicionesServicios": "No requiere conexión a servicios públicos (energía, agua, gas o alcantarillado) para su uso.",
           "requerimientosEspeciales": "Precauciones: No dejar caer ni golpear los bordes\nNo es apto para alimentos.\nMantener alejado de los niños. Usar bajo la supervisión de un adulto"
       }
@@ -122254,8 +122225,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho,         50 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 8,5–9 kg el rollo (aprox. 115 g/m²)",
+          "referencia": "Popelina rígida 65/35 poliéster-algodón, ancho 1,50 m, rollo x 50 m, color blanco",
           "material": "Material textil.",
           "composicion": "65 % poliéster y 35 % algodón.",
           "capacidad": "",
@@ -122283,8 +122254,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho,         50 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 8,5–9 kg el rollo (aprox. 115 g/m²)",
+          "referencia": "Popelina rígida 65/35 poliéster-algodón, ancho 1,50 m, rollo x 50 m, color rojo",
           "material": "Popelina rígida",
           "composicion": "65 % poliéster y 35 % algodón.",
           "capacidad": "",
@@ -122312,8 +122283,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho,         50 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 8,5–9 kg el rollo (aprox. 115 g/m²)",
+          "referencia": "Popelina rígida 65/35 poliéster-algodón, ancho 1,50 m, rollo x 50 m, color amarillo",
           "material": "Popelina rígida",
           "composicion": "65 % poliéster y 35 % algodón.",
           "capacidad": "",
@@ -122341,8 +122312,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho,         50 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 8,5–9 kg el rollo (aprox. 115 g/m²)",
+          "referencia": "Popelina rígida 65/35 poliéster-algodón, ancho 1,50 m, rollo x 50 m, color azul rey",
           "material": "Popelina rígida",
           "composicion": "65 % poliéster y 35 % algodón.",
           "capacidad": "",
@@ -122370,8 +122341,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho,         50 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 8,5–9 kg el rollo (aprox. 115 g/m²)",
+          "referencia": "Popelina rígida 65/35 poliéster-algodón, ancho 1,50 m, rollo x 50 m, color verde viche",
           "material": "Popelina rígida",
           "composicion": "65 % poliéster y 35 % algodón.",
           "capacidad": "",
@@ -122399,8 +122370,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho,         50 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 8,5–9 kg el rollo (aprox. 115 g/m²)",
+          "referencia": "Popelina rígida 65/35 poliéster-algodón, ancho 1,50 m, rollo x 50 m, color rosado",
           "material": "Popelina rígida",
           "composicion": "65 % poliéster y 35 % algodón.",
           "capacidad": "",
@@ -122428,8 +122399,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho,         50 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 8,5–9 kg el rollo (aprox. 115 g/m²)",
+          "referencia": "Popelina rígida 65/35 poliéster-algodón, ancho 1,50 m, rollo x 50 m, color turquesa",
           "material": "Popelina rígida",
           "composicion": "65 % poliéster y 35 % algodón.",
           "capacidad": "",
@@ -122457,8 +122428,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho         40 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 7,5–8 kg el rollo (aprox. 125 g/m²)",
+          "referencia": "Popelina licrada (stretch) 97/3 algodón-spandex, ancho 1,50 m, rollo x 40 m, color blanco",
           "material": "Popelina licrada (stretch)",
           "composicion": "96–97% algodón / 3–4% spandex",
           "capacidad": "",
@@ -122486,8 +122457,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho         40 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 7,5–8 kg el rollo (aprox. 125 g/m²)",
+          "referencia": "Popelina licrada (stretch) 97/3 algodón-spandex, ancho 1,50 m, rollo x 40 m, color rojo",
           "material": "Popelina licrada (stretch)",
           "composicion": "96–97% algodón / 3–4% spandex",
           "capacidad": "",
@@ -122515,8 +122486,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho         40 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 7,5–8 kg el rollo (aprox. 125 g/m²)",
+          "referencia": "Popelina licrada (stretch) 97/3 algodón-spandex, ancho 1,50 m, rollo x 40 m, color negro",
           "material": "Popelina licrada (stretch)",
           "composicion": "96–97% algodón / 3–4% spandex",
           "capacidad": "",
@@ -122544,8 +122515,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho         40 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 7,5–8 kg el rollo (aprox. 125 g/m²)",
+          "referencia": "Popelina licrada (stretch) 97/3 algodón-spandex, ancho 1,50 m, rollo x 40 m, color azul rey",
           "material": "Popelina licrada (stretch)",
           "composicion": "96–97% algodón / 3–4% spandex",
           "capacidad": "",
@@ -122573,7 +122544,7 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho         40 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
+          "peso": "Aprox. 7,5–8 kg el rollo (aprox. 125 g/m²)",
           "referencia": "",
           "material": "Popelina licrada (stretch)",
           "composicion": "96–97% algodón / 3–4% spandex",
@@ -122602,8 +122573,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho         40 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 7,5–8 kg el rollo (aprox. 125 g/m²)",
+          "referencia": "Popelina licrada (stretch) 97/3 algodón-spandex, ancho 1,50 m, rollo x 40 m, color amarillo",
           "material": "Popelina licrada (stretch)",
           "composicion": "96–97% algodón / 3–4% spandex",
           "capacidad": "",
@@ -122689,10 +122660,10 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "1.5 metros ancho,         50 metros largo",
           "empaque": "Rollo textil",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 1,7–1,8 kg (10 m x 1,50 m, aprox. 115 g/m²)",
+          "referencia": "Popelina estampada ancho 1,50 m x 10 m",
           "material": "Mezclas (algodón/poliéster)",
-          "composicion": "",
+          "composicion": "Aprox. 65 % poliéster / 35 % algodón (o 100 % algodón según diseño)",
           "capacidad": "",
           "potencia": "",
           "otrasEspecificaciones": "Excelente definición de estampados\nTela fresca, ligera y resistente\nFácil de cortar y coser",
@@ -123942,7 +123913,7 @@ window.PRODUCTOS = [
           "composicion": "Aloe Vera, Pepino, Caléndula, Pantenol, Glicerina",
           "capacidad": "120 ml",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "Uso facial/afeitado; presentación x 3 envases de 120 ml",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Uso cosmético facial."
       }
@@ -124834,14 +124805,14 @@ window.PRODUCTOS = [
       "enlace": "https://drive.google.com/file/d/1PDHgRbH1QfTCoLo3CHXH6llp0K6hsoAq/view?usp=sharing",
       "specs": {
           "dimensiones": "",
-          "empaque": "",
+          "empaque": "Conos u ovillos (100–500 g) en bolsa plástica por color",
           "peso": "7 kg x color",
-          "referencia": "",
+          "referencia": "Hilo acrílico para crochet, 7 kg por color, colores surtidos",
           "material": "Acrilico-100%",
           "composicion": "",
           "capacidad": "",
           "potencia": "",
-          "otrasEspecificaciones": "",
+          "otrasEspecificaciones": "10 colores: beige, negro, café, rojo, verde pasto, amarillo bandera, rosado oscuro, azul oscuro, azul claro y blanco",
           "condicionesServicios": "",
           "requerimientosEspeciales": "Debe conservarse en un lugar seco, limpio y protegido de la humedad, el polvo y la exposición prolongada a la luz solar."
       }
@@ -125123,10 +125094,10 @@ window.PRODUCTOS = [
       "imagen": "2092",
       "enlace": "https://elgrancondimento.com/product/canela-molida/",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Bolsa aprox. 30 x 20 x 6 cm",
           "empaque": "Unidad",
           "peso": "1 kg",
-          "referencia": "",
+          "referencia": "Canela en polvo / molida x 1 kg",
           "material": "",
           "composicion": "100 % Canela",
           "capacidad": "1 kg",
@@ -125152,7 +125123,7 @@ window.PRODUCTOS = [
       "imagen": "2093",
       "enlace": "https://elgrancondimento.com/product/comino-molido/",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Bolsa aprox. 40 x 28 x 10 cm",
           "empaque": "Unidad",
           "peso": "3 kg",
           "referencia": "",
@@ -125239,7 +125210,7 @@ window.PRODUCTOS = [
       "imagen": "2096",
       "enlace": "https://elgrancondimento.com/product/bicarbonato/",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Bolsa aprox. 40 x 28 x 10 cm",
           "empaque": "unidad",
           "peso": "3 kg",
           "referencia": "",
@@ -125326,7 +125297,7 @@ window.PRODUCTOS = [
       "imagen": "2099",
       "enlace": "https://www.mercadolibre.com.co/salsa-mostaza-fruco-200g/p/MCO49098228#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=1&type=product&tracking_id=bd8221a9-d1bc-401a-a8f2-f8b51238e8e2&wid=MCO2865207338&sid=search",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Doypack aprox. 12 x 18 cm",
           "empaque": "Doypack",
           "peso": "200 gr",
           "referencia": "Salsa fruco",
@@ -125355,7 +125326,7 @@ window.PRODUCTOS = [
       "imagen": "2100",
       "enlace": "https://www.megatiendas.co/salsa-negra-la-constancia-x-100-ml-7702097138743/p?srsltid=AU7gw4XaGU5DxQ56O1aYZryAPpB_QhwQlZKgRm6yyoNB2YMJqvrLDopq",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Doypack aprox. 9 x 14 cm",
           "empaque": "Doypack",
           "peso": "100 ml",
           "referencia": "Salsa negra",
@@ -125384,7 +125355,7 @@ window.PRODUCTOS = [
       "imagen": "2101",
       "enlace": "https://www.mercadolibre.com.co/vinagre-blanco-regis-3l-l/p/MCO36973738#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=2&type=product&tracking_id=c084cf82-cac8-4230-85f2-83893482e580&wid=MCO2390763688&sid=search",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Garrafa aprox. 15 x 11 x 30 cm",
           "empaque": "Botella",
           "peso": "3 litros",
           "referencia": "Vinagre blanco",
@@ -126140,8 +126111,8 @@ window.PRODUCTOS = [
       "specs": {
           "dimensiones": "Largo: 30 cm\nAncho: 30 cm",
           "empaque": "Presentación: Caja\nContenido: 1.86 m² por caja",
-          "peso": "",
-          "referencia": "",
+          "peso": "Aprox. 25–28 kg por caja (1,86 m², aprox. 15 kg/m²); aprox. 260 kg las 10 cajas",
+          "referencia": "Piso cerámico Aqua blanco 30 x 30 cm, primera calidad, caja x 1,86 m²",
           "material": "Cerámica",
           "composicion": "Mezcla de arcillas y minerales vitrificados",
           "capacidad": "Cubre 1.86 m² por caja",
@@ -126225,10 +126196,10 @@ window.PRODUCTOS = [
       "imagen": "2130",
       "enlace": "https://pacardyl.com/producto/azucar-riopaila-blanca1000-gr/",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Bolsa aprox. 25 x 15 x 6 cm",
           "empaque": "Presentación bolsa de 1 kg",
           "peso": "1 kilogramo",
-          "referencia": "",
+          "referencia": "Azúcar blanca refinada x 1 kg",
           "material": "",
           "composicion": "Sacarosa (azúcar de caña)",
           "capacidad": "",
@@ -126602,12 +126573,12 @@ window.PRODUCTOS = [
       "imagen": "2143",
       "enlace": "https://drive.google.com/file/d/1AX7uUWOksQwDq61uYo9UwrmQULfUm4lj/view?usp=sharing",
       "specs": {
-          "dimensiones": "",
+          "dimensiones": "Frasco aprox. 4 x 4 x 11 cm; caja individual aprox. 5 x 5 x 12 cm",
           "empaque": "10 Cajas X 12 unidades",
           "peso": "3 kg",
-          "referencia": "",
+          "referencia": "Fragancia caballero 50 ml Ref. 551 (inspirada en Invictus Platinum)",
           "material": "Frasco de vidrio con válvula spray",
-          "composicion": "",
+          "composicion": "Alcohol etílico, fragancia (parfum) y agua; concentración tipo eau de parfum/eau de toilette",
           "capacidad": "62 ml por frasco",
           "potencia": "",
           "otrasEspecificaciones": "Producto de imitación de marca registrada de terceros; no es el perfume original.",
@@ -126806,7 +126777,7 @@ window.PRODUCTOS = [
       "enlace": "https://drive.google.com/file/d/1_6Wefe8I5Z8HEagFG6tfTOgAsfFmW1OR/view?usp=drive_link",
       "specs": {
           "dimensiones": "No. 35 (aprox. 90 cm de diámetro x 30 cm de profundidad; puede variar según fabricante)",
-          "empaque": "",
+          "empaque": "Unidad; se entrega sin caja, protegida con cartón o plástico para transporte",
           "peso": "7–10 kg",
           "referencia": "#35",
           "material": "Aluminio",
@@ -127618,8 +127589,8 @@ window.PRODUCTOS = [
       "enlace": "https://www.mercadolibre.com.co/extension-encauchetada-industrial-calibre-3x12-x20mt-negra/up/MCOU3752427335?pdp_filters=item_id%3AMCO1815296449&from=gshop&matt_tool=31402372&matt_word=&matt_source=google&matt_campaign_id=22126928528&matt_ad_group_id=171342853857&matt_match_type=&matt_network=g&matt_device=c&matt_creative=729836838841&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=770829480&matt_product_id=MCOU3752427335&matt_product_partition_id=2494466533133&matt_target_id=pla-2494466533133&cq_src=google_ads&cq_cmp=22126928528&cq_net=g&cq_plt=gp&cq_med=pla&gad_source=1&gad_campaignid=22126928528&gbraid=0AAAAAD1DcoyqhRzVBQJPHO3wEc-XUiXlc&gclid=CjwKCAjwifjVBhBKEiwAYx4K9Mvg74FC0V3Uz4mP1bXQn9tSJTwejuvyJDHA7mcZT6isqtNUIcXrPBoC_i8QAvD_BwE",
       "specs": {
           "dimensiones": "Longitud: 20 m.",
-          "empaque": "",
-          "peso": "",
+          "empaque": "Rollo amarrado en bolsa plástica; unidad",
+          "peso": "Aprox. 3,5–4 kg (cable 3x12 AWG, 20 m, con clavija y toma)",
           "referencia": "Extensión encauchetada industrial 3×12 × 20 m negra.",
           "material": "Cable eléctrico encauchetado",
           "composicion": "3 conductores eléctricos calibre 12 AWG, recubrimiento/encauchetado exterior y terminales de conexión.",
@@ -127649,7 +127620,7 @@ window.PRODUCTOS = [
           "dimensiones": "120 × 83 × 15 mm (largo × alto × espesor)",
           "empaque": "Empaque individual en blíster. Presentación Inner: 6 unidades; Master: 36 unidades.",
           "peso": "305 g",
-          "referencia": "",
+          "referencia": "Escuadra magnética para soldar 3\" capacidad 25 lb (11 kg), ángulos 45°/90°/135°",
           "material": "Metal con protector de nylon en el imán, según las especificaciones disponibles",
           "composicion": "Cuerpo de escuadra, sistema magnético y protector de nylon en la superficie del imán.",
           "capacidad": "11 kg (25 lb) de carga máxima.",
@@ -128759,6 +128730,35 @@ window.PRODUCTOS = [
           "otrasEspecificaciones": "Perforado longitudinalmente; color negro; reutilizable; larga duración.",
           "condicionesServicios": "No requiere servicios públicos para su funcionamiento.",
           "requerimientosEspeciales": ""
+      }
+  },
+  {
+      "id": "INS-2266",
+      "tipologia": "I1",
+      "sector": "insumos y materiales",
+      "ciiu": "G (46,47)",
+      "proceso": "Producción / Operación",
+      "itemPorActividad": "Gastronomia y alimentos",
+      "tipo": "Insumo",
+      "nombre": "Gaseosa 300 ml",
+      "desc": "Gaseosa en botella plástica PET de 300 ml, bebida carbonatada lista para consumo, con sabor clásico de cola. Es ideal para acompañar comidas, refrigerios o consumo individual por su tamaño práctico y portátil | Presentación: botella PET 300 ml material del envase: plástico PET",
+      "precio": 4433,
+      "iva": 0,
+      "icono": "🔩",
+      "imagen": "2218",
+      "enlace": "https://www.surtiplaza.co/tienda/p/gaseosa-coca-cola-pet-300-ml-und?utm_source",
+      "specs": {
+          "dimensiones": "Alto: 35 cm | Diámetro: 13 cm",
+          "empaque": "",
+          "peso": "Aproximadamente: 300 g (contenido neto)",
+          "referencia": "",
+          "material": "",
+          "composicion": "",
+          "capacidad": "300 ml por unidad",
+          "potencia": "No aplica (producto alimenticio, no eléctrico)",
+          "otrasEspecificaciones": "Bebida carbonatada",
+          "condicionesServicios": "No requiere energía eléctrica",
+          "requerimientosEspeciales": "Mantener bien cerrada después de abrir"
       }
   },
   {
