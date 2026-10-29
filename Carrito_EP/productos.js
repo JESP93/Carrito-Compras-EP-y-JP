@@ -1,5 +1,5 @@
-// AUTO-GENERADO desde Base_Carrito_Vf_51.xlsx — no editar manualmente
-// Total: 4592 productos
+// AUTO-GENERADO desde Base_Carrito_Vf_52.xlsx — no editar manualmente
+// Total: 4593 productos
 window.PRODUCTOS = [
   {
       "id": "MAQ-001",
@@ -48157,17 +48157,17 @@ window.PRODUCTOS = [
       "imagen": "1661",
       "enlace": "https://www.homecenter.com.co/homecenter-co/product/801388/silla-sillon-barberia-hidraulico-peluqueria-reclinable-salon-negro/801388/",
       "specs": {
-          "dimensiones": "Profundidad total aproximada: 80 cm. Profundidad del asiento: 62 cm. Largo aproximado para sofá de 3 puestos: entre 180 y 210 cm. Altura aproximada: 85–95 cm",
-          "empaque": "",
-          "peso": "35 kg",
-          "referencia": "",
-          "material": "",
-          "composicion": "",
-          "capacidad": "Capacidad para 3 personas adultas.",
+          "dimensiones": "Ancho: 57,5 cm. Alto: 107 cm. Profundidad: 57 cm.",
+          "empaque": "Según presentación del proveedor.",
+          "peso": "38 kg",
+          "referencia": "MKZ-BX2668B. Código de producto: 801388",
+          "material": "Estructura de acero y tapizado de cuero sintético",
+          "composicion": "Estructura de soporte, asiento, respaldo reclinable, tapizado de cuero sintético, sistema hidráulico, mecanismo de giro y apoyapiés.",
+          "capacidad": "Una persona. Peso máximo soportado: 150 kg.",
           "potencia": "",
-          "otrasEspecificaciones": "Tela antifluidos de fácil limpieza y mayor resistencia a manchas. Patas desmontables en madera. Incluye sofá, patas e instructivo de ensamblaje. Garantía aproximada de 1 año por defectos de fabricación",
-          "condicionesServicios": "No requiere conexión a servicios públicos para su funcionamiento. Se recomienda uso en interiores y ambientes secos.",
-          "requerimientosEspeciales": "Requiere espacio adecuado para instalación y circulación. Se recomienda limpieza periódica con paño húmedo y evitar exposición directa al sol o humedad prolongada para conservar el color y la estructura."
+          "otrasEspecificaciones": "Color negro. Estilo urbano industrial. Costuras reforzadas. Giro de 360° e inclinación de hasta 150°.",
+          "condicionesServicios": "No se especifican requerimientos de conexión eléctrica, agua u otros servicios públicos en la información suministrada.",
+          "requerimientosEspeciales": "Instalar sobre una superficie estable y nivelada. Seguir las instrucciones de armado y uso del fabricante. Verificar el funcionamiento del sistema hidráulico y del mecanismo de reclinación antes de utilizar el sillón."
       }
   },
   {
@@ -63857,6 +63857,35 @@ window.PRODUCTOS = [
           "otrasEspecificaciones": "Diseño compacto para cocinas profesionales. Funcionamiento electromecánico. Procesamiento por tandas. Diseñada para facilitar la preparación de grandes volúmenes de papa y cebolla, con reducción del tiempo de pelado manual.",
           "condicionesServicios": "Requiere conexión eléctrica compatible con el voltaje del equipo. Debe instalarse en un lugar seco y contar con condiciones adecuadas de seguridad eléctrica.",
           "requerimientosEspeciales": "Instalar sobre una superficie estable y nivelada. Verificar la conexión eléctrica antes de utilizarla. Limpiar la cámara y el disco después de cada jornada, siguiendo las indicaciones del fabricante. Mantener el equipo desconectado durante las labores de limpieza y mantenimiento."
+      }
+  },
+  {
+      "id": "MAQ-2262",
+      "tipologia": "M1",
+      "sector": "manufactura",
+      "ciiu": "C (14,16,25) / S (95)",
+      "proceso": "Producción / Operación",
+      "itemPorActividad": "Insumo general",
+      "tipo": "Equipo",
+      "nombre": "COMPACTADORA VERTICAL DE ACCIONAMIENTO MANUAL, REFORZADA MECÁNICA Y ESTRUCTURALMENTE DE ALIMENTACIÓN FRONTAL",
+      "desc": "Equipo compuesto por una unidad de compactación y una unidad de fuerza hidráulica, destinado a compactar cartón, papel, PET, plástico, botellas plásticas, hojalata y aluminio. | Fuerza de compactación Boca de alimentación frontal 35 toneladas 1.180 mm × 600 mm Presión de trabajo Potencia instalada 2.500 psi 15 HP Peso aproximado de paca PET Tiempo rápido de ciclo en vacío 200–500 kg, según material 40 segundos Cilindro hidráulico Vástago de 100 mm; camisa de 180 mm de diámetro externo Recorrido libre Número de amarres 1.400 mm Tres (3) Rendimiento estimado Accionamiento según material y operación Manual Peso aproximado del equipo Sistema eléctrico 2.800 kg Motor de 15 HP; arrancador estrellatriangulo",
+      "precio": 47000000,
+      "iva": 0,
+      "icono": "⚙️",
+      "imagen": "2203",
+      "enlace": "https://drive.google.com/file/d/1lsZvSuKvLRE3ubMzAkJ7vIsgtDHA74PP/view?usp=sharing",
+      "specs": {
+          "dimensiones": "Dimensiones máquina aproximadas de la 3.40 cm de alto × 155 cm de largo × 85 cm de ancho / unidad Hidraulica: Alto 1.30cm *pronfundidad 51 cm * ancho 71 cm   Dimensiones de la paca 118 cm de largo × 60 cm de ancho; altura de 90cm",
+          "empaque": "",
+          "peso": "50 kg",
+          "referencia": "EMBALADORA VERTICAL DE ACCIONAMIENTO MANUAL, REFORZADA\nMECÁNICA Y ESTRUCTURALMENTE, DE ALIMENTACIÓN FRONTAL,",
+          "material": "",
+          "composicion": "",
+          "capacidad": "Fuerza de compactación Boca de alimentación frontal 35 toneladas",
+          "potencia": "Fuerza de compactación Boca de alimentación frontal 35 toneladas",
+          "otrasEspecificaciones": "",
+          "condicionesServicios": "Acometida eléctrica y aceite hidráulico: A cargo del comprador, salvo pacto escrito diferente",
+          "requerimientosEspeciales": ""
       }
   },
   {
@@ -101480,7 +101509,7 @@ window.PRODUCTOS = [
       "proceso": "Producción / Operación",
       "itemPorActividad": "Gastronomia y alimentos",
       "tipo": "Insumo",
-      "nombre": "nlatado",
+      "nombre": "kola granulada 330 gr",
       "desc": "Suplemento alimenticio granulado soluble rico en vitaminas y minerales, diseñado para disolver en leche o agua como complemento nutricional. (Marcas: Sup-gra-nut69) | Polvo granulado de disolución rápida con aporte de hierro, complejo b y calcio, saborizado artificialmente para mejorar su consumo diario.",
       "precio": 33605,
       "iva": 0,
