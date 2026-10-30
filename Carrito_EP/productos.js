@@ -1,4 +1,4 @@
-// AUTO-GENERADO desde Base_Carrito_Vf_52.xlsx — no editar manualmente
+// AUTO-GENERADO desde Base_Carrito_Vf_53.xlsx — no editar manualmente
 // Total: 4593 productos
 window.PRODUCTOS = [
   {
@@ -8160,7 +8160,7 @@ window.PRODUCTOS = [
       "tipo": "Equipo",
       "nombre": "Nevera no frost 249 L 110-115 V",
       "desc": "Nevera con tecnología No Frost de 249 L brutos y voltaje 110-115 V para uso doméstico e institucional. | Tecnología: No Frost / Capacidad bruta: 249 L / Voltaje: 110-115 V",
-      "precio": 2057034,
+      "precio": 2598700,
       "iva": 0,
       "icono": "⚙️",
       "imagen": "282",
@@ -20136,24 +20136,24 @@ window.PRODUCTOS = [
       "itemPorActividad": "Gastronomia y alimentos",
       "tipo": "Equipo",
       "nombre": "Enfriador panorámico mediano",
-      "desc": "Enfriador panorámico mediano destinado a la refrigeración y exhibición de bebidas y productos en establecimientos comerciales. Su puerta panorámica de vidrio facilita la visualización del producto manteniéndolo frío. De tamaño mediano, se adapta a tiendas, cafeterías y negocios con espacio moderado. | Tipo: enfriador panorámico de exhibición, tamaño mediano. Puerta: panorámica de vidrio. Sistema de refrigeración con control de temperatura. Estructura metálica con aislamiento térmico. Entrepaños internos. Iluminación interior. Uso comercial.",
+      "desc": "Equipo de refrigeración compacto diseñado para conservar bebidas frías en hogares, oficinas, bares y establecimientos comerciales. Cuenta con sistema de enfriamiento por compresor, puerta de vidrio de doble panel que facilita la visualización del contenido y estantes removibles para organizar latas y botellas. Su diseño independiente permite instalarlo sin necesidad de empotrarlo. | Marca Costway. Modelo comercial publicado: CYPE-CS. Capacidad interior: 3,2 pies cúbicos, equivalentes aproximadamente a 90,6 litros. Capacidad máxima: 120 latas estándar de 355 ml. Sistema de refrigeración por compresor. Rango de temperatura: 4 °C a 16 °C. Control mecánico de temperatura. Refrigerante R600a. Tres estantes removibles cromados. Puerta de vidrio templado de doble panel. Iluminación interior LED según la descripción comercial. Sistema de descongelamiento cíclico. No cuenta con tecnología inverter.",
       "precio": 1991470,
       "iva": 0,
       "icono": "⚙️",
       "imagen": "695",
       "enlace": "https://www.mercadolibre.com.co/costway-mini-refrigerador-de-bebidas-para-120-latas-refrig/up/MCOU3790492129#polycard_client=recommendations_vip-v2p&reco_backend=ranker_retrieval_system_org&reco_model=fallback_organicos&reco_client=vip-v2p&reco_item_pos=12&reco_backend_type=low_level&reco_id=e246c5f0-c956-427d-b73a-472359fef5c3&wid=MCO3566456658&sid=recos",
       "specs": {
-          "dimensiones": "55.88 cm x 53.34 cm",
-          "empaque": "",
-          "peso": "26,31 kg",
-          "referencia": "",
-          "material": "",
-          "composicion": "",
-          "capacidad": "3.2 pies cúbicos",
-          "potencia": "No requiere energía eléctrica",
-          "otrasEspecificaciones": "Conservación de frío mediante aislamiento interno",
-          "condicionesServicios": "No requiere electricidad",
-          "requerimientosEspeciales": "Uso de hielo para mantener temperatura"
+          "dimensiones": "Largo: aproximadamente 44,45 cm. Profundidad: aproximadamente 48,26 cm. Alto: aproximadamente 78,74 cm.",
+          "empaque": "Empaque individual de protección para transporte y entrega.",
+          "peso": "Aproximadamente 24 kg, según la ficha del fabricante.",
+          "referencia": "Costway CYPE-CS. SKU publicado: B07DK9XM6K.",
+          "material": "Gabinete metálico y puerta de vidrio templado de doble panel. Estantes metálicos cromados.",
+          "composicion": "Gabinete refrigerado, puerta de vidrio, sistema de cierre, compresor, circuito de refrigeración, control mecánico de temperatura, tres estantes removibles, iluminación interior LED y patas de apoyo.",
+          "capacidad": "Capacidad interior de 3,2 pies cúbicos, aproximadamente 90,6 litros. Almacenamiento máximo de 120 latas estándar de 355 ml.",
+          "potencia": "Potencia de entrada especificada por el fabricante: 70 W. Alimentación nominal de 115 V, 60 Hz y corriente de 0,8 A.",
+          "otrasEspecificaciones": "Instalación independiente. Temperatura ajustable entre 4 °C y 16 °C. Puerta reversible según la descripción del fabricante. Incluye iluminación interior y estantes extraíbles.",
+          "condicionesServicios": "Requiere conexión eléctrica compatible con el voltaje y la frecuencia indicados para la unidad. Debe instalarse en un espacio ventilado, dejando una separación aproximada de 5 cm alrededor del equipo, de acuerdo con la descripción comercial.",
+          "requerimientosEspeciales": "Instalar sobre una superficie firme y nivelada. Mantener el equipo en posición vertical durante el transporte y dejarlo reposar antes de conectarlo, conforme a las instrucciones del fabricante. Evitar obstruir la ventilación y desconectar el equipo antes de realizar labores de limpieza o mantenimiento."
       }
   },
   {
@@ -21703,7 +21703,7 @@ window.PRODUCTOS = [
       "tipo": "Equipo",
       "nombre": "Estante plástico",
       "desc": "Fabricada en plástico resistente, esta estantería soporta un peso máximo de 80 kg, distribuidos en sus 4 repisas con una capacidad de 20 kg cada una. Su sistema de sobreponer facilita su instalación, y su acabado mate le da un toque sofisticado. Con un peso de solo 3.2 kg, es fácil de mover y ubicar donde más lo necesites. El proceso de armado es de baja dificultad, lo que la hace ideal para cualquier persona. Esta estantería es perfecta para tu oficina, brindando un espacio organizado y funcional. | Dale un toque de orden y estilo a tu hogar u oficina con nuestra Estantería Plástica de 4 niveles. Con un elegante color negro y un diseño clásico, esta estantería es perfecta para organizar tus pertenencias de forma práctica y eficiente. Su tamaño de 60x30x135 cm te ofrece un amplio espacio de almacenamiento, y su fácil armado te permitirá tenerla lista en minutos. ¡No esperes más para optimizar tus espacios!",
-      "precio": 444470,
+      "precio": 116870,
       "iva": 0,
       "icono": "🪑",
       "imagen": "749",
@@ -118998,11 +118998,11 @@ window.PRODUCTOS = [
       "tipo": "Insumo",
       "nombre": "Teclado  Alámbrico 150 Basic Negro",
       "desc": "Teclado alámbrico 150 Basic diseñado para uso en computadores de escritorio y portátiles. Cuenta con conexión USB Plug and Play que permite su instalación inmediata sin necesidad de software adicional. Su diseño tipo chiclet de perfil bajo proporciona una escritura cómoda, silenciosa y precisa, siendo ideal para entornos domésticos, educativos, empresariales e institucionales. | Teclado tipo chiclet, conexión USB alámbrica, compatible con Windows 10 y Windows 11, tecnología Plug and Play, 12 funciones rápidas (Fn), indicadores LED para Bloq Num, Bloq Mayús y Bloq Despl, longitud del cable de 100 cm.",
-      "precio": 129870,
+      "precio": 105848,
       "iva": 0,
       "icono": "🔩",
       "imagen": "1864",
-      "enlace": "https://www.alkosto.com/teclado-hp-alambrico-150-basic-negro/p/196548244195",
+      "enlace": "https://www.falabella.com.co/falabella-co/product/122934486/teclado-alambrico-hp-150/122934487",
       "specs": {
           "dimensiones": "42,59 cm (ancho) × 14,61 cm (fondo) × 2,68 cm (alto)",
           "empaque": "Caja de cartón individual",
@@ -131670,7 +131670,7 @@ window.PRODUCTOS = [
       "itemPorActividad": "Computo y tecnologia",
       "tipo": "Equipo",
       "nombre": "Computador portátil 15",
-      "desc": "Portátil versátil y potente, ideal para trabajo, estudio y multitarea avanzada. Procesador eficiente y moderno, ideal para productividad, multitarea y trabajo profesional. El equipo incluye Windows 11 en versión de prueba. (Marcas: Intel Core i5, Intel) | Línea: 15 modelo: FD0158LA color: plateado sistema operativo: Windows 11 (versión de prueba) procesador modelo: Intel Core i5-1235U generación: 12ª núcleos: 10 subprocesos: 12 frecuencia máxima: hasta 4,40 ghz gráficos integrados: intel iris xe graphics. Buen desempeño para multimedia, diseño ligero y tareas generales. Memoria y almacenamiento memoria RAM: 12 GB DDR4 3200 mhz almacenamiento: SSD 512 GB nvme Gen3 pci-e. Excelente velocidad y amplio espacio para programas y archivos pesados. Pantalla tamaño: 15,6",
+      "desc": "Línea: 15 modelo: FD0158LA color: plateado sistema operativo: Windows 11 (versión de prueba) procesador modelo: Intel Core i5-1235U generación: 12ª núcleos: 10 subprocesos: 12 frecuencia máxima: hasta 4,40 ghz gráficos integrados: intel iris xe graphics. Buen desempeño para multimedia, diseño ligero y tareas generales. Memoria y almacenamiento memoria RAM: 12 GB DDR4 3200 mhz almacenamiento: SSD 512 GB nvme Gen3 pci-e. Excelente velocidad y amplio espacio para programas y archivos pesados. Pantalla tamaño: 15,6 | Línea: 15 modelo: FD0158LA color: plateado sistema operativo: Windows 11 (versión de prueba) procesador modelo: Intel Core i5-1235U generación: 12ª núcleos: 10 subprocesos: 12 frecuencia máxima: hasta 4,40 ghz gráficos integrados: intel iris xe graphics. Buen desempeño para multimedia, diseño ligero y tareas generales. Memoria y almacenamiento memoria RAM: 12 GB DDR4 3200 mhz almacenamiento: SSD 512 GB nvme Gen3 pci-e. Excelente velocidad y amplio espacio para programas y archivos pesados. Pantalla tamaño: 15,6",
       "precio": 3374628,
       "iva": 0,
       "icono": "⚙️",
